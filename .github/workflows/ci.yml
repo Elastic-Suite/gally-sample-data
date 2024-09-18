@@ -1,0 +1,92 @@
+name: CI
+
+on:
+    push:
+        branches:
+            - master
+            - '[1-9].[0-9]+.x'
+            - 'feature-[a-z]+'
+
+    pull_request_target:
+        branches:
+            - master
+            - '[1-9].[0-9]+.x'
+            - 'feature-[a-z]+'
+        types: [review_requested, ready_for_review, synchronize]
+    workflow_dispatch: ~
+
+jobs:
+    tests:
+        if: github.event.pull_request.draft == false
+        name: Tests
+        runs-on: ubuntu-latest
+
+        env:
+            ref: "master" # ${{ github.base_ref }} cannot work on pushes.
+            gally-directory: ${{ github.workspace }}/gally  
+            package-name: ${{ github.event.repository.name }} # PHP package name is equal to the repository name.
+
+        steps:
+            - name: Checkout PHP package (The branch to merge)
+              uses: actions/checkout@v3
+              with:
+                  path: actions
+
+            - name: Init env
+              uses: ./actions/.github/actions/init-env
+              with:
+                  ref: ${{ env.ref }}
+                  version: ${{ env.ref == 'master' && 'dev-master' || format('{0}-dev', env.ref) }}
+                  front-version: ${{ env.ref == 'master' && 'main' || env.ref }}
+                  gally-directory: ${{ env.gally-directory }}
+                  package-name: ${{ env.package-name }}
+                  COMPOSER_AUTH: ${{ secrets.COMPOSER_AUTH }}
+                  PACKAGIST_URL: ${{ secrets.PACKAGIST_URL }}
+                  
+            - name: Make .env
+              working-directory: ${{ env.gally-directory }}
+              run: |
+                  make .env
+                  cat .env
+
+            - name: Pull images
+              working-directory: ${{ env.gally-directory }}
+              run: docker compose -f compose.yml -f compose.ci.yml pull --ignore-pull-failures || true
+
+            - name: Start services
+              working-directory: ${{ env.gally-directory }}
+              run: docker compose -f compose.yml -f compose.ci.yml up --build -d --wait --timeout 60
+
+            - name: Check container status
+              working-directory: ${{ env.gally-directory }}
+              run: docker ps --format "table {{.Image}}\t{{.Status}}"
+
+            - name: Check HTTPS reachability
+              id: https_reachability
+              run: curl  -vk -o /dev/null https://localhost
+
+            - name: HTTPS Failure
+              if: ${{ failure() && steps.tests.https_reachability == 'failure' }}
+              run: docker compose -f compose.yml -f compose.ci.yml logs
+
+            - name: Create test database
+              working-directory: ${{ env.gally-directory }}
+              run: |
+                  docker compose -f compose.yml -f compose.ci.yml exec -T php bin/console -e test doctrine:database:create
+                  docker compose -f compose.yml -f compose.ci.yml exec -T php bin/console -e test doctrine:migrations:migrate --no-interaction
+
+            - name: Doctrine Schema Validator
+              working-directory: ${{ env.gally-directory }}
+              run: docker compose -f compose.yml -f compose.ci.yml exec -T php bin/console doctrine:schema:validate --skip-sync
+
+            - name: Fixtures load
+              working-directory: ${{ env.gally-directory }}
+              run: |
+                  docker compose -f compose.yml -f compose.ci.yml exec -T php bin/console gally:index:clear --no-interaction
+                  docker compose -f compose.yml -f compose.ci.yml exec -T php bin/console hautelook:fixtures:load --no-interaction -vv
+                  docker compose -f compose.yml -f compose.ci.yml exec -T php bin/console doctrine:fixtures:load --append --no-interaction
+
+            - name: "[End] Job failed, gathering logs"
+              working-directory: ${{ env.gally-directory }}
+              if: ${{ failure() }}
+              run: docker compose -f compose.yml -f compose.ci.yml logs

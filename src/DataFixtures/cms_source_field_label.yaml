@@ -1,0 +1,12 @@
+include:
+    - cms_source_field_option.yaml
+        
+Gally\Metadata\Entity\SourceFieldLabel:
+    cms_page_tags_com_en:
+        source_field: '@cms_page_tags'
+        localized_catalog: '@com_en'
+        label: 'Mots clés'
+    cms_page_tags_com_fr:
+        source_field: '@cms_page_tags'
+        localized_catalog: '@com_fr'
+        label: 'Tags'

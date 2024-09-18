@@ -1,0 +1,31 @@
+Gally\Boost\Entity\Boost:
+    boost1:
+        name: Boost "Tank dress"
+        isActive: true
+        fromDate: null
+        toDate: null
+        conditionRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"name","operator":"match","attribute_type":"text","value":"Tank"}]}'')>'
+        model: !php/const Gally\Boost\Service\Model\ConstantScore::MODEL_CONSTANT_SCORE
+        modelConfig: '<strval(''{"constant_score_value":"100"}'')>'
+        localizedCatalogs: ['@com_fr', '@com_en']
+
+Gally\Boost\Entity\Boost\RequestType:
+    boost_request_type1:
+        boost: '@boost1'
+        requestType: 'product_catalog'
+        applyToAll: false
+    boost_request_type2:
+        boost: '@boost1'
+        requestType: 'product_search'
+        applyToAll: false
+
+Gally\Boost\Entity\Boost\CategoryLimitation:
+    boost_category_limitation1:
+        boost: '@boost1'
+        category: '@cat_14'
+
+Gally\Boost\Entity\Boost\SearchLimitation:
+    boost_search_limitation3:
+        boost: '@boost1'
+        operator: !php/const Gally\Boost\Constant\QueryTextOperator::OPERATOR_CONTAINS
+        queryText: 'Dress'

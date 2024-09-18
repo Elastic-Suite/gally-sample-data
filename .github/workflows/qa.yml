@@ -1,0 +1,57 @@
+name: QA
+
+on:
+    push:
+        branches:
+            - master
+            - '[1-9].[0-9]+.x'
+            - 'feature-[a-z]+'
+
+    pull_request_target:
+        branches:
+            - master
+            - '[1-9].[0-9]+.x'
+            - 'feature-[a-z]+'
+
+jobs:
+    qa:
+        # Protect public workflows. To be removed when switching from pull_request_target to pull_request.
+        if: (github.event_name != 'pull_request') || contains(github.event.pull_request.labels.*.name, 'safe to test')
+        name: Code-Quality-Checks
+        runs-on: ubuntu-latest
+
+        env:
+            ref: "master" # ${{ github.base_ref }} cannot work on pushes.
+            gally-directory: ${{ github.workspace }}/gally
+            package-directory: ${{ github.workspace }}/gally/api/packages/${{ github.event.repository.name }}
+
+        steps:      
+            - name: Checkout PHP package (The branch to merge)
+              uses: actions/checkout@v3
+              with:
+                  path: actions
+
+            - name: Init env
+              uses: ./actions/.github/actions/init-env
+              with:
+                  ref: ${{ env.ref }}
+                  version: ${{ env.ref == 'master' && 'dev-master' || format('{0}-dev', env.ref) }}
+                  front-version: ${{ env.ref == 'master' && 'main' || env.ref }}
+                  gally-directory: ${{ env.gally-directory }}
+                  package-name: ${{ github.event.repository.name }}
+                  COMPOSER_AUTH: ${{ secrets.COMPOSER_AUTH }}
+                  PACKAGIST_URL: ${{ secrets.PACKAGIST_URL }}
+
+            - name: PHP-CS-Fixer
+              working-directory: ${{ env.gally-directory }}
+              run: |
+                  cd api
+                  ./vendor/bin/php-cs-fixer fix --path-mode=intersection --diff --dry-run ${{ env.package-directory }}
+
+            - name: PHPStan
+              working-directory: ${{ env.gally-directory }}
+              run: |
+                  cd api
+                  # do PHPstan with current phpstan.neon.dist file from current branch or PR
+                  cp -rf ${{ env.package-directory }}/phpstan.neon.dist phpstan.neon.dist
+                  ./vendor/bin/phpstan analyse

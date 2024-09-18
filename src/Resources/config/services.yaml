@@ -1,0 +1,28 @@
+services:
+    Gally\SampleData\Locator\PremiumFilesLocator:
+        arguments:
+            - '@hautelook_alice.locator.environmentless'
+            - '@Gally\Bundle\State\ExtraBundleProvider'
+
+    hautelook_alice.locator: '@Gally\SampleData\Locator\PremiumFilesLocator'
+    
+    Gally\SampleData\Service\ElasticsearchCategoryFixtures:
+        arguments:
+            - '@Gally\Fixture\Service\ElasticsearchFixtures'
+            - '@Gally\Fixture\Service\EntityIndicesFixturesInterface'
+        tags:
+            - { name: doctrine.fixture.orm }
+                
+    Gally\SampleData\Service\ElasticsearchProductFixtures:
+        arguments:
+            - '@Gally\Fixture\Service\ElasticsearchFixtures'
+            - '@Gally\Fixture\Service\EntityIndicesFixturesInterface'
+        tags:
+            - { name: doctrine.fixture.orm }
+
+    Gally\SampleData\Service\ElasticsearchCmsPageFixtures:
+        arguments:
+            - '@Gally\Fixture\Service\ElasticsearchFixtures'
+            - '@Gally\Fixture\Service\EntityIndicesFixturesInterface'
+        tags:
+            - { name: doctrine.fixture.orm }

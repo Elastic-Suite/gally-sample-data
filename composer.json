@@ -1,0 +1,49 @@
+{
+    "name": "gally/gally-sample-data",
+    "description": "Sample data for the Open Source E-Commerce Searchandising Suite",
+    "type": "symfony-bundle",
+    "keywords": ["REST", "GraphQL", "API", "JSON-LD", "Elasticsearch", "JSONAPI", "OpenAPI", "HAL", "Swagger", "E-commerce"],
+    "homepage": "https://elasticsuite.io",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "The Elasticsuite Team",
+            "email": "elasticsuite@smile.fr"
+        }
+    ],
+    "require": {
+        "gally/gally-standard": "dev-master"
+    },
+    "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.4",
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan": "^1.4",
+        "phpstan/phpstan-doctrine": "^1.2",
+        "phpstan/phpstan-phpunit": "^1.0",
+        "phpstan/phpstan-symfony": "^1.1",
+        "symfony/web-profiler-bundle": "6.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gally\\SampleData\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true,
+        "allow-plugins": {
+            "phpstan/extension-installer": true,
+            "symfony/flex": true,
+            "symfony/runtime": true,
+            "cweagans/composer-patches": true
+        }
+    },
+    "extra": {
+        "symfony": {
+            "require": "^6.1"
+        }
+    }
+}
