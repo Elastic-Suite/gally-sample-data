@@ -12,10 +12,10 @@
         }
     ],
     "require": {
-        "gally/gally-standard": "dev-master"
+        "gally/gally-standard": "dev-master",
+        "doctrine/doctrine-fixtures-bundle": "^3.4"
     },
     "require-dev": {
-        "doctrine/doctrine-fixtures-bundle": "^3.4",
         "friendsofphp/php-cs-fixer": "^3.0",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^1.4",
