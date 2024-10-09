@@ -1,0 +1,60 @@
+Gally\Thesaurus\Entity\Thesaurus:
+    thesaurus1:
+        name: 'Thesaurus #1 - Synonym'
+        isActive: true
+        type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_SYNONYM
+        scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALIZED_CATALOG
+        localizedCatalogs: ['@com_fr', '@com_en', '@fr_en']
+    thesaurus2:
+        name: 'Thesaurus #2 - Expansion'
+        isActive: true
+        type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_EXPANSION
+        scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALE
+    thesaurus3:
+        name: 'Thesaurus #3 - Expansion'
+        isActive: true
+        type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_EXPANSION
+        scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALIZED_CATALOG
+        localizedCatalogs: ['@com_en', '@fr_en']
+
+Gally\Thesaurus\Entity\Thesaurus\Synonym:
+    synonym1:
+        thesaurus: '@thesaurus1'
+
+Gally\Thesaurus\Entity\Thesaurus\Synonym\Term:
+    synonym_term1:
+        synonym: '@synonym1'
+        term: 'robe'
+    synonym_term2:
+        synonym: '@synonym1'
+        term: 'dress'
+
+Gally\Thesaurus\Entity\Thesaurus\Expansion:
+    expansion1:
+        thesaurus: '@thesaurus2'
+        referenceTerm: 'blazer'
+    expansion2:
+        thesaurus: '@thesaurus3'
+        referenceTerm: 'trousers'
+
+Gally\Thesaurus\Entity\Thesaurus\Expansion\Term:
+    expansion_term1:
+        expansion: '@expansion1'
+        term: 'jackets'
+    expansion_term2:
+        expansion: '@expansion1'
+        term: 'tanks'
+    expansion_term3:
+        expansion: '@expansion2'
+        term: 'pants'
+    expansion_term4:
+        expansion: '@expansion2'
+        term: 'shorts'
+
+Gally\Thesaurus\Entity\Thesaurus\Locale:
+    thesaurus_locale1:
+        thesaurus: '@thesaurus2'
+        locale: 'fr_FR'
+    thesaurus_locale2:
+        thesaurus: '@thesaurus2'
+        locale: 'fr_CA'
