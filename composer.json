@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "gally/gally-standard": "dev-master",
+        "gally/gally-standard": "2.0.x-dev",
         "doctrine/doctrine-fixtures-bundle": "^3.4"
     },
     "require-dev": {
