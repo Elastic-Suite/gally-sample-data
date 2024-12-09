@@ -13,7 +13,7 @@
     ],
     "require": {
         "doctrine/doctrine-fixtures-bundle": "^3.4",
-        "gally/gally-standard": "2.0.0"
+        "gally/gally-standard": "dev-master"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.0",
