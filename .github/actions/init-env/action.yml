@@ -9,6 +9,10 @@ inputs:
         description: 'The version to require'
         default: 'master'
         required: true
+    last_published_version:
+        description: 'The last published version to require'
+        default: 'master'
+        required: true
     front-version:
         description: 'The front version to install'
         default: 'main'
@@ -91,7 +95,9 @@ runs:
            working-directory: ${{ inputs.gally-directory }}
            shell: bash
            run: |
-               COMPOSER_MIRROR_PATH_REPOS=1 composer require --no-cache gally/gally-standard:${{ inputs.version }} gally/gally-premium:${{ inputs.version }} gally/${{ inputs.package-name }}:${{ inputs.version }} --working-dir=api
+               COMPOSER_MIRROR_PATH_REPOS=1 composer require --no-cache gally/gally-standard:"${{ inputs.version }} as ${{ inputs.last_published_version }}" --working-dir=api --no-scripts
+               COMPOSER_MIRROR_PATH_REPOS=1 composer require --no-cache gally/gally-premium:"${{ inputs.version }}  as ${{ inputs.last_published_version }}" --working-dir=api --no-scripts
+               COMPOSER_MIRROR_PATH_REPOS=1 composer require --no-cache gally/${{ inputs.package-name }}:${{ inputs.version }} --working-dir=api
            env:
                COMPOSER_AUTH: ${{ inputs.COMPOSER_AUTH }}
 
