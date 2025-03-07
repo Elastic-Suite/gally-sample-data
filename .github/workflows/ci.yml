@@ -23,6 +23,7 @@ jobs:
 
         env:
             ref: "2.0.x" # ${{ github.base_ref }} cannot work on pushes.
+            last_published_version: 2.0.0
             gally-directory: ${{ github.workspace }}/gally  
             package-name: ${{ github.event.repository.name }} # PHP package name is equal to the repository name.
 
@@ -37,6 +38,7 @@ jobs:
               with:
                   ref: ${{ env.ref }}
                   version: ${{ env.ref == 'master' && 'dev-master' || format('{0}-dev', env.ref) }}
+                  last_published_version: ${{ env.last_published_version }}
                   front-version: ${{ env.ref == 'master' && 'main' || env.ref }}
                   gally-directory: ${{ env.gally-directory }}
                   package-name: ${{ env.package-name }}
