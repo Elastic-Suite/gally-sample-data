@@ -6,6 +6,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: '@cms_page'
         code: 'id'
         type: 'reference'
+        defaultSearchAnalyzer: 'reference'
         isSortable: true
         isUsedForRules: true 
     cms_page_tile:
