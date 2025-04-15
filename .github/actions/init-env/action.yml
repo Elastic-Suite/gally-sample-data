@@ -3,19 +3,15 @@ description: init repository structure to run test and ci.
 inputs:
     ref:
         description: 'The branch, tag or SHA to checkout'
-        default: 'master'
+        default: 'main'
         required: true
     version:
         description: 'The version to require'
-        default: 'master'
+        default: 'dev-main'
         required: true
     last_published_version:
         description: 'The last published version to require'
-        default: 'master'
-        required: true
-    front-version:
-        description: 'The front version to install'
-        default: 'main'
+        default: 'dev-main'
         required: true
     gally-directory:
         description: 'Base gally directory'
