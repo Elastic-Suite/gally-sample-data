@@ -3,7 +3,7 @@ include:
 
 Gally\Metadata\Entity\SourceField:
     categories_all_children:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: all_children
         type: text
         isSearchable: false
@@ -13,7 +13,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_automatic_sorting:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: automatic_sorting
         type: text
         isSearchable: false
@@ -23,7 +23,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_custom_apply_to_products:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: custom_apply_to_products
         type: select
         isSearchable: false
@@ -33,7 +33,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_custom_design:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: custom_design
         type: select
         isSearchable: false
@@ -43,7 +43,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_custom_design_from:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: custom_design_from
         type: text
         isSearchable: false
@@ -53,7 +53,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_custom_design_to:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: custom_design_to
         type: text
         isSearchable: false
@@ -63,7 +63,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_custom_use_parent_settings:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: custom_use_parent_settings
         type: select
         isSearchable: false
@@ -73,7 +73,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_description:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: description
         type: text
         isSearchable: true
@@ -83,7 +83,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_display_mode:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: display_mode
         type: select
         isSearchable: false
@@ -93,7 +93,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_filter_price_range:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: filter_price_range
         type: float
         isSearchable: false
@@ -103,7 +103,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_generate_root_category_subtree:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: generate_root_category_subtree
         type: int
         isSearchable: false
@@ -113,7 +113,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_include_in_menu:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: include_in_menu
         type: select
         isSearchable: false
@@ -123,7 +123,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_is_active:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: is_active
         type: 'boolean'
         isSearchable: false
@@ -133,7 +133,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_is_anchor:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: is_anchor
         type: int
         isSearchable: false
@@ -143,7 +143,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_is_displayed_in_autocomplete:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: is_displayed_in_autocomplete
         type: 'boolean'
         isSearchable: false
@@ -153,7 +153,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_is_virtual_category:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: is_virtual_category
         type: int
         isSearchable: false
@@ -163,7 +163,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_landing_page:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: landing_page
         type: select
         isSearchable: false
@@ -173,7 +173,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_meta_description:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: meta_description
         type: text
         isSearchable: false
@@ -183,7 +183,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_meta_keywords:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: meta_keywords
         type: text
         isSearchable: false
@@ -193,7 +193,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_meta_title:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: meta_title
         type: text
         isSearchable: false
@@ -203,7 +203,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_page_layout:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: page_layout
         type: select
         isSearchable: false
@@ -213,7 +213,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_path_in_store:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: path_in_store
         type: text
         isSearchable: false
@@ -223,7 +223,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_url_key:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: url_key
         type: text
         isSearchable: true
@@ -233,7 +233,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_url_path:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: url_path
         type: text
         isSearchable: true
@@ -243,7 +243,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_use_name_in_product_search:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: use_name_in_product_search
         type: select
         isSearchable: false
@@ -253,7 +253,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_use_store_positions:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: use_store_positions
         type: select
         isSearchable: false
@@ -263,7 +263,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_virtual_category_root:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: virtual_category_root
         type: int
         isSearchable: false
@@ -273,7 +273,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     categories_virtual_rule:
-        metadata: '@category'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: virtual_rule
         type: text
         isSearchable: false

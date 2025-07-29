@@ -1,7 +1,7 @@
 Gally\VectorSearch\Entity\VectorConfiguration:
     vector_config1:
-        id: '@product_name->id'
-        sourceField: '@product_name'
+        id: <findSourceFieldIdByCode('product', 'name')>
+        sourceField: <findSourceFieldByCode('product', 'name')>
         isVectorisable: true
         position: 1
         prompt: "The product name is %s"
