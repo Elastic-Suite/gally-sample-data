@@ -3,17 +3,17 @@ include:
 
 Gally\Metadata\Entity\SourceField:
     product_accessory_announcement_date:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: accessory_announcement_date
         type: text
-        isSearchable: false
+        isSearchable: false 
         weight: 1
         isSpellchecked: false
         isFilterable: false
         isSortable: false
         isUsedForRules: false
     product_accessory_brand:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: accessory_brand
         type: select
         isSearchable: true
@@ -23,7 +23,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: true
         isUsedForRules: true
     product_accessory_custom_engraving_text:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: accessory_custom_engraving_text
         type: text
         isSearchable: false
@@ -33,7 +33,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_accessory_description_detailed_extra:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: accessory_description_detailed_extra
         type: text
         isSearchable: false
@@ -43,7 +43,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_accessory_description_extra:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: accessory_description_extra
         type: text
         isSearchable: false
@@ -53,7 +53,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_accessory_description_pagebuilder_extra:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: accessory_description_pagebuilder_extra
         type: text
         isSearchable: false
@@ -63,7 +63,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_accessory_gemstone_addon:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: accessory_gemstone_addon
         type: select
         isSearchable: true
@@ -73,7 +73,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_accessory_recyclable_material:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: accessory_recyclable_material
         type: select
         isSearchable: true
@@ -83,7 +83,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_color:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: color
         type: select
         isSearchable: true
@@ -93,7 +93,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_cost:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: cost
         type: float
         isSearchable: false
@@ -103,7 +103,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_country_of_manufacture:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: country_of_manufacture
         type: select
         isSearchable: false
@@ -113,7 +113,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_custom_design:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: custom_design
         type: select
         isSearchable: false
@@ -123,7 +123,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_custom_design_from:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: custom_design_from
         type: text
         isSearchable: false
@@ -133,7 +133,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_custom_design_to:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: custom_design_to
         type: text
         isSearchable: false
@@ -143,7 +143,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_custom_layout:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: custom_layout
         type: select
         isSearchable: false
@@ -153,7 +153,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_description_extra:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: description_extra
         type: text
         isSearchable: false
@@ -163,7 +163,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_fashion_color:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: fashion_color
         type: select
         isSearchable: true
@@ -173,7 +173,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_fashion_material:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: fashion_material
         type: select
         isSearchable: true
@@ -183,7 +183,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_fashion_size:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: fashion_size
         type: select
         isSearchable: false
@@ -193,7 +193,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_fashion_style:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: fashion_style
         type: select
         isSearchable: true
@@ -203,7 +203,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_gallery:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: gallery
         type: text
         isSearchable: false
@@ -213,7 +213,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_gift_message_available:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: gift_message_available
         type: select
         isSearchable: false
@@ -223,7 +223,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_has_video:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: has_video
         type: select
         isSearchable: true
@@ -232,18 +232,8 @@ Gally\Metadata\Entity\SourceField:
         isFilterable: true
         isSortable: false
         isUsedForRules: true
-    product_image:
-        metadata: '@product'
-        code: image
-        type: text
-        isSearchable: false
-        weight: 1
-        isSpellchecked: false
-        isFilterable: false
-        isSortable: false
-        isUsedForRules: true
     product_image_label:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: image_label
         type: text
         isSearchable: false
@@ -253,7 +243,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_links_exist:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: links_exist
         type: int
         isSearchable: false
@@ -263,7 +253,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_links_purchased_separately:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: links_purchased_separately
         type: int
         isSearchable: false
@@ -273,7 +263,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_links_title:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: links_title
         type: text
         isSearchable: false
@@ -283,7 +273,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_manufacturer:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: manufacturer
         type: select
         isSearchable: true
@@ -293,7 +283,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_meta_description:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: meta_description
         type: text
         isSearchable: false
@@ -303,7 +293,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_meta_keyword:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: meta_keyword
         type: text
         isSearchable: false
@@ -313,7 +303,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_meta_title:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: meta_title
         type: text
         isSearchable: false
@@ -323,7 +313,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_minimal_price:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: minimal_price
         type: float
         isSearchable: false
@@ -333,7 +323,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_msrp:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: msrp
         type: float
         isSearchable: false
@@ -343,7 +333,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_msrp_display_actual_price_type:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: msrp_display_actual_price_type
         type: select
         isSearchable: false
@@ -353,7 +343,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_news_from_date:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: news_from_date
         type: text
         isSearchable: false
@@ -363,7 +353,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_news_to_date:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: news_to_date
         type: text
         isSearchable: false
@@ -373,7 +363,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_old_id:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: old_id
         type: int
         isSearchable: false
@@ -383,7 +373,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_options_container:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: options_container
         type: select
         isSearchable: false
@@ -393,7 +383,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_page_layout:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: page_layout
         type: select
         isSearchable: false
@@ -403,7 +393,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_price_type:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: price_type
         type: int
         isSearchable: false
@@ -413,7 +403,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_price_view:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: price_view
         type: select
         isSearchable: false
@@ -423,7 +413,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_samples_title:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: samples_title
         type: text
         isSearchable: false
@@ -433,7 +423,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_shipment_type:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: shipment_type
         type: select
         isSearchable: false
@@ -443,7 +433,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_short_description:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: short_description
         type: text
         isSearchable: true
@@ -453,7 +443,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_sku_type:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: sku_type
         type: int
         isSearchable: false
@@ -463,7 +453,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_small_image:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: small_image
         type: text
         isSearchable: false
@@ -473,7 +463,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_small_image_label:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: small_image_label
         type: text
         isSearchable: false
@@ -483,7 +473,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_special_from_date:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: special_from_date
         type: text
         isSearchable: false
@@ -493,7 +483,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_special_price:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: special_price
         type: float
         isSearchable: false
@@ -503,7 +493,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_special_to_date:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: special_to_date
         type: text
         isSearchable: false
@@ -513,7 +503,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_status:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: status
         type: select
         isSearchable: true
@@ -523,7 +513,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_swatch_image:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: swatch_image
         type: text
         isSearchable: false
@@ -533,7 +523,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_tax_class_id:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tax_class_id
         type: select
         isSearchable: true
@@ -543,7 +533,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_thumbnail:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: thumbnail
         type: text
         isSearchable: false
@@ -553,7 +543,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_thumbnail_label:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: thumbnail_label
         type: text
         isSearchable: false
@@ -563,7 +553,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_tier_price:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tier_price
         type: float
         isSearchable: false
@@ -573,7 +563,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_url_key:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: url_key
         type: text
         isSearchable: true
@@ -583,7 +573,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_url_path:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: url_path
         type: text
         isSearchable: false
@@ -593,7 +583,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_video_file:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: video_file
         type: text
         isSearchable: false
@@ -603,7 +593,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_visibility:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: visibility
         type: select
         isSearchable: false
@@ -613,7 +603,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_weight:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: weight
         type: float
         isSearchable: false
@@ -623,7 +613,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_weight_type:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: weight_type
         type: int
         isSearchable: false
@@ -633,12 +623,12 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_has_options:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: has_options
         type: boolean
         isUsedForRules: true
     product_activity:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: activity
         type: select
         isSearchable: false
@@ -648,7 +638,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_allow_message:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: allow_message
         type: int
         isSearchable: false
@@ -658,7 +648,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_allow_open_amount:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: allow_open_amount
         type: select
         isSearchable: false
@@ -668,7 +658,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_category_gear:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: category_gear
         type: select
         isSearchable: false
@@ -678,7 +668,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_climate:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: climate
         type: select
         isSearchable: false
@@ -688,7 +678,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_collar:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: collar
         type: select
         isSearchable: false
@@ -698,7 +688,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_eco_collection:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: eco_collection
         type: boolean
         isSearchable: false
@@ -708,7 +698,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_email_template:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: email_template
         type: text
         isSearchable: false
@@ -718,7 +708,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_erin_recommends:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: erin_recommends
         type: boolean
         isSearchable: false
@@ -728,7 +718,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_es_is_discounted:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: es_is_discounted
         type: boolean
         isSearchable: false
@@ -738,7 +728,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_es_is_in_stock:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: es_is_in_stock
         type: boolean
         isSearchable: false
@@ -748,7 +738,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_features_bags:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: features_bags
         type: select
         isSearchable: false
@@ -758,7 +748,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_format:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: format
         type: select
         isSearchable: false
@@ -768,7 +758,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_gender:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: gender
         type: select
         isSearchable: false
@@ -778,7 +768,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_giftcard_amounts:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: giftcard_amounts
         type: float
         isSearchable: false
@@ -788,7 +778,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_giftcard_type:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: giftcard_type
         type: select
         isSearchable: false
@@ -798,7 +788,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_gift_wrapping_available:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: gift_wrapping_available
         type: select
         isSearchable: false
@@ -808,7 +798,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_gift_wrapping_price:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: gift_wrapping_price
         type: float
         isSearchable: false
@@ -818,7 +808,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_is_redeemable:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: is_redeemable
         type: int
         isSearchable: false
@@ -828,7 +818,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_is_returnable:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: is_returnable
         type: select
         isSearchable: false
@@ -838,7 +828,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_lifetime:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: lifetime
         type: int
         isSearchable: false
@@ -848,7 +838,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_material:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: material
         type: select
         isSearchable: false
@@ -858,7 +848,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_new:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: new
         type: boolean
         isSearchable: false
@@ -868,7 +858,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_open_amount_max:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: open_amount_max
         type: float
         isSearchable: false
@@ -878,7 +868,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_open_amount_min:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: open_amount_min
         type: float
         isSearchable: false
@@ -888,7 +878,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_pattern:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: pattern
         type: select
         isSearchable: false
@@ -898,7 +888,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_performance_fabric:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: performance_fabric
         type: boolean
         isSearchable: false
@@ -908,7 +898,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_purpose:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: purpose
         type: select
         isSearchable: false
@@ -918,7 +908,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_sale:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: sale
         type: boolean
         isSearchable: false
@@ -928,7 +918,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_size:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: size
         type: select
         isSearchable: false
@@ -938,7 +928,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_sleeve:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: sleeve
         type: select
         isSearchable: false
@@ -948,7 +938,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_strap_bags:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: strap_bags
         type: select
         isSearchable: false
@@ -958,7 +948,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_style_bags:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: style_bags
         type: select
         isSearchable: false
@@ -968,7 +958,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_style_bottom:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: style_bottom
         type: select
         isSearchable: false
@@ -978,7 +968,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_style_general:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: style_general
         type: select
         isSearchable: false
@@ -988,7 +978,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: true
     product_use_config_allow_message:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: use_config_allow_message
         type: int
         isSearchable: false
@@ -998,7 +988,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_use_config_email_template:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: use_config_email_template
         type: int
         isSearchable: false
@@ -1008,7 +998,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_use_config_is_redeemable:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: use_config_is_redeemable
         type: int
         isSearchable: false
@@ -1018,7 +1008,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_use_config_lifetime:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: use_config_lifetime
         type: int
         isSearchable: false
@@ -1028,7 +1018,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: false
         isUsedForRules: false
     product_date_of_manufacture:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: date_of_manufacture
         type: date
         weight: 1
@@ -1038,7 +1028,7 @@ Gally\Metadata\Entity\SourceField:
         isSortable: true
         isUsedForRules: true
     product_manufacture_location:
-        metadata: '@product'
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: manufacture_location
         type: location
         weight: 1

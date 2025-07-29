@@ -3,11 +3,11 @@ include:
 
 Gally\Metadata\Entity\SourceFieldLabel:
     category_name_com_en:
-        source_field: '@category_name'
+        source_field: <findSourceFieldByCode('category', 'name')>
         localized_catalog: '@com_en'
         label: Name
     category_name_com_fr:
-        source_field: '@category_name'
+        source_field: <findSourceFieldByCode('category', 'name')>
         localized_catalog: '@com_fr'
         label: Nom
     categories_automatic_sorting_default_com_en:

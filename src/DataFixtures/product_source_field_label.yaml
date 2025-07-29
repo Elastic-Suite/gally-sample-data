@@ -123,11 +123,11 @@ Gally\Metadata\Entity\SourceFieldLabel:
         localized_catalog: '@com_fr'
         label: 'New Layout'
     product_description_com_en:
-        source_field: '@product_description'
+        source_field: <findSourceFieldByCode('product', 'description')>
         localized_catalog: '@com_en'
         label: Description
     product_description_com_fr:
-        source_field: '@product_description'
+        source_field: <findSourceFieldByCode('product', 'description')>
         localized_catalog: '@com_fr'
         label: Description
     product_description_extra_com_en:
@@ -195,11 +195,11 @@ Gally\Metadata\Entity\SourceFieldLabel:
         localized_catalog: '@com_fr'
         label: 'Has Video'
     product_image_com_en:
-        source_field: '@product_image'
+        source_field: <findSourceFieldByCode('product', 'image')>
         localized_catalog: '@com_en'
         label: Base
     product_image_com_fr:
-        source_field: '@product_image'
+        source_field: <findSourceFieldByCode('product', 'image')>
         localized_catalog: '@com_fr'
         label: Base
     product_image_label_com_en:
@@ -283,11 +283,11 @@ Gally\Metadata\Entity\SourceFieldLabel:
         localized_catalog: '@com_fr'
         label: 'Display Actual Price'
     product_name_com_en:
-        source_field: '@product_name'
+        source_field: <findSourceFieldByCode('product', 'name')>
         localized_catalog: '@com_en'
         label: 'Product Name'
     product_name_com_fr:
-        source_field: '@product_name'
+        source_field: <findSourceFieldByCode('product', 'name')>
         localized_catalog: '@com_fr'
         label: 'Product Name'
     product_news_from_date_com_en:
