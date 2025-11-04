@@ -45,6 +45,13 @@ runs:
                ref: ${{ inputs.ref }}
                path: ${{ inputs.gally-directory }}
          
+         - name: Checkout Gally admin
+           uses: actions/checkout@v3
+           with:
+               repository: 'Elastic-Suite/gally-admin'
+               ref: ${{ inputs.ref }}
+               path: ${{ inputs.gally-directory }}/front/gally-admin
+
          # Checkout current package
          # in $GITHUB_WORKSPACE we will have this after this step :
          # - gally : a full development environment which is needed for PHPStan
