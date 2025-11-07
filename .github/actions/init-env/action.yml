@@ -68,13 +68,6 @@ runs:
            with:
                path: /tmp/composer-cache
                key: ${{ runner.os }}-${{ hashFiles('**/composer.lock') }}
-         
-         # Update the dependency to gally-standard in package to match the version in gally.
-         - name: Update gally standard dependency
-           working-directory: ${{ format('{0}/api/packages/{1}', inputs.gally-directory, inputs.package-name) }}
-           shell: bash
-           run: |
-               composer require --no-update gally/gally-standard:${{ inputs.version }}
                
          # Add premium package repository.   
          - name: Add premium package repository
