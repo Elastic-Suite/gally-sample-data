@@ -13,7 +13,7 @@
     ],
     "require": {
         "doctrine/doctrine-fixtures-bundle": "^3.4",
-        "gally/gally-standard": "2.2.0",
+        "gally/gally-standard": "2.2.1",
         "hautelook/alice-bundle": "2.11.0"
     },
     "require-dev": {
