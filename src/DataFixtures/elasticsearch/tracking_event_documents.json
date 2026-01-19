@@ -1,0 +1,4530 @@
+[
+  {
+    "index_name": "gally_com_en_tracking_event",
+    "documents": [
+      {
+        "@timestamp": "2025-12-01 08:37:00",
+        "id": "tracking_event_eb442f4028f64bd6",
+        "event_type": "view",
+        "metadata_code": "category",
+        "localized_catalog_code": "com_en",
+        "entity_code": "cat_18",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d"
+        },
+        "group_id": "0",
+        "product_list": {
+          "item_count": 50,
+          "current_page": 1,
+          "page_count": 2,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 09:45:00",
+        "id": "tracking_event_ecf94aa3064f4182",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VD12",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_18"
+        },
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 4
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 11:35:00",
+        "id": "tracking_event_42db2881f1af472b",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VD12",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_18"
+        },
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 12:58:00",
+        "id": "tracking_event_1b2148f0ab064a85",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK10",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_18"
+        },
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 20
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 14:42:00",
+        "id": "tracking_event_d2c94aeb21f54721",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK10",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_18"
+        },
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 15:42:00",
+        "id": "tracking_event_83cf77bdd76d4ddc",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 34,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_color__value",
+              "value": "18"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 16:42:00",
+        "id": "tracking_event_0e790d10658e4b64",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 14
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 17:39:00",
+        "id": "tracking_event_775b5e27d74f436c",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 19:08:00",
+        "id": "tracking_event_00646284cbba4170",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK07",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 5
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 09:41:00",
+        "id": "tracking_event_e8c1b570dace414a",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "pants",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 82,
+          "current_page": 1,
+          "page_count": 4,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 10:36:00",
+        "id": "tracking_event_01f5800f8941430d",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA23",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "pants"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 3
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 12:21:00",
+        "id": "tracking_event_ecec33de18974201",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VD12",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "pants"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 11
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 14:07:00",
+        "id": "tracking_event_4673eb22c657486c",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VD12",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "pants"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 15:47:00",
+        "id": "tracking_event_6c8865b4de6c428e",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VP11",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "pants"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 3
+        },
+        "order": {
+          "price": 40.79,
+          "row_total": 122.37
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 17:28:00",
+        "id": "tracking_event_7e88b46d1a3d4479",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "shoes",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 32,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 19:02:00",
+        "id": "tracking_event_c4096a849f944599",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shoes"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 14
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 20:11:00",
+        "id": "tracking_event_dbe903c5e9c14ffb",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shoes"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 21:26:00",
+        "id": "tracking_event_41975185193845ba",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW05",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shoes"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 16
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 23:09:00",
+        "id": "tracking_event_86f6e9846ae042be",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW05",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shoes"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 00:57:00",
+        "id": "tracking_event_4cab17c272954515",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VD12",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shoes"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 9
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 01:57:00",
+        "id": "tracking_event_cd95ceaa641943d0",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VD12",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shoes"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 02:10:00",
+        "id": "tracking_event_b0cb0d8466794970",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW05",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shoes"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 4
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 03:19:00",
+        "id": "tracking_event_1433d4dde4704944",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "00fed88d-f4fe-4cd3-9bc5-34e89f25bff7"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "jacket",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 77,
+          "current_page": 1,
+          "page_count": 3,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 05:04:00",
+        "id": "tracking_event_b50096ab01404e1e",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK07",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "00fed88d-f4fe-4cd3-9bc5-34e89f25bff7"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 4
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 05:13:00",
+        "id": "tracking_event_964e6b4ae1ae4a4b",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK07",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "00fed88d-f4fe-4cd3-9bc5-34e89f25bff7"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 06:08:00",
+        "id": "tracking_event_63c56f7d0d1a402f",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT10",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "00fed88d-f4fe-4cd3-9bc5-34e89f25bff7"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 1
+        },
+        "order": {
+          "price": 20.45,
+          "row_total": 20.45
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 07:09:00",
+        "id": "tracking_event_cde07aec2f5d4733",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 85,
+          "current_page": 1,
+          "page_count": 4,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 07:54:00",
+        "id": "tracking_event_a3451695fbd64c59",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA13-GO-NA",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 8
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 09:31:00",
+        "id": "tracking_event_f13ece1611e3421b",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA13-GO-NA",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 10:17:00",
+        "id": "tracking_event_5f0bc5c842b44b77",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA23",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 2
+        },
+        "order": {
+          "price": 31.6,
+          "row_total": 63.2
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 10:33:00",
+        "id": "tracking_event_3488e7ec08034d2e",
+        "event_type": "order",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA23",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36"
+        },
+        "group_id": "0",
+        "order": {
+          "order_id": "167",
+          "total": 63.41,
+          "price": 31.6,
+          "qty": 2,
+          "row_total": 63.2
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 09:08:00",
+        "id": "tracking_event_b76680c99ff24d75",
+        "event_type": "view",
+        "metadata_code": "category",
+        "localized_catalog_code": "com_en",
+        "entity_code": "cat_7",
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b374e42f-5802-4ba3-9665-3588a50f74d9"
+        },
+        "group_id": "0",
+        "product_list": {
+          "item_count": 66,
+          "current_page": 1,
+          "page_count": 3,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 10:14:00",
+        "id": "tracking_event_bf79e9b789274edb",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT03",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_7"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b374e42f-5802-4ba3-9665-3588a50f74d9"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 10
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 11:30:00",
+        "id": "tracking_event_64e4cf5aaca3454f",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK07",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_7"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b374e42f-5802-4ba3-9665-3588a50f74d9"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 16
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 11:35:00",
+        "id": "tracking_event_7538b8bde6b54097",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT11",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_7"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b374e42f-5802-4ba3-9665-3588a50f74d9"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 2
+        },
+        "order": {
+          "price": 27.36,
+          "row_total": 54.72
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 13:29:00",
+        "id": "tracking_event_35282d7b938f45ff",
+        "event_type": "order",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT11",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_7"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b374e42f-5802-4ba3-9665-3588a50f74d9"
+        },
+        "group_id": "0",
+        "order": {
+          "order_id": "121",
+          "total": 67.64,
+          "price": 27.36,
+          "qty": 2,
+          "row_total": 54.72
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 14:19:00",
+        "id": "tracking_event_ff9d261cd1414ff0",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "shirt",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 75,
+          "current_page": 1,
+          "page_count": 3,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 14:26:00",
+        "id": "tracking_event_4439b9f877934794",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VD12",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shirt"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 7
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 15:40:00",
+        "id": "tracking_event_00602d0f605b4ae3",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VD12",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shirt"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 17:13:00",
+        "id": "tracking_event_5bbae35c06d94b62",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK07",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shirt"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 17
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 19:05:00",
+        "id": "tracking_event_bae905d5c770463c",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK07",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shirt"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 20:32:00",
+        "id": "tracking_event_23daea09e6054c6b",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT06",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shirt"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 9
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 21:16:00",
+        "id": "tracking_event_585a0a08803e44e2",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT06",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shirt"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 23:02:00",
+        "id": "tracking_event_e339e297327240e3",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT06",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shirt"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 2
+        },
+        "order": {
+          "price": 14.78,
+          "row_total": 29.56
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 08:59:00",
+        "id": "tracking_event_1525441cadbd4cb6",
+        "event_type": "view",
+        "metadata_code": "category",
+        "localized_catalog_code": "com_en",
+        "entity_code": "cat_3",
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "40356c48-b23f-40b9-aa76-458956d1d118"
+        },
+        "group_id": "0",
+        "product_list": {
+          "item_count": 67,
+          "current_page": 1,
+          "page_count": 3,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 10:21:00",
+        "id": "tracking_event_3cce5a98fcbc4e27",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA13-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_3"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "40356c48-b23f-40b9-aa76-458956d1d118"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 2
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 12:05:00",
+        "id": "tracking_event_5fa223f4b37945b1",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK02",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_3"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "40356c48-b23f-40b9-aa76-458956d1d118"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 2
+        },
+        "order": {
+          "price": 25.5,
+          "row_total": 51.0
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 13:44:00",
+        "id": "tracking_event_f053442430a94d76",
+        "event_type": "order",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK02",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_3"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "40356c48-b23f-40b9-aa76-458956d1d118"
+        },
+        "group_id": "0",
+        "order": {
+          "order_id": "116",
+          "total": 63.1,
+          "price": 25.5,
+          "qty": 2,
+          "row_total": 51.0
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 15:11:00",
+        "id": "tracking_event_e713e63787ca404a",
+        "event_type": "view",
+        "metadata_code": "category",
+        "localized_catalog_code": "com_en",
+        "entity_code": "cat_14",
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
+        },
+        "group_id": "0",
+        "product_list": {
+          "item_count": 43,
+          "current_page": 1,
+          "page_count": 2,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 16:07:00",
+        "id": "tracking_event_40412d0c45c443b2",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 7
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 17:44:00",
+        "id": "tracking_event_90962dd829624533",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 18:58:00",
+        "id": "tracking_event_cc25aef592bf4a8f",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK10",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 3
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 20:19:00",
+        "id": "tracking_event_4735fc9b3be24390",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK10",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 21:42:00",
+        "id": "tracking_event_9cd5b2dcac774765",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT11",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 11
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 22:59:00",
+        "id": "tracking_event_30916bf91bea4436",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT11",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 00:40:00",
+        "id": "tracking_event_c2d52d0ab24f4a83",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT11",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 15
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 00:51:00",
+        "id": "tracking_event_c6f22c6f951b4fe7",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "jacket",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 71,
+          "current_page": 1,
+          "page_count": 3,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 02:16:00",
+        "id": "tracking_event_c2abeb2b3d934491",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT06",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 12
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 03:43:00",
+        "id": "tracking_event_3bad8cc3bd5e4d2c",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW11",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 9
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 05:35:00",
+        "id": "tracking_event_2bacaadd366c4145",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW11",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 06:24:00",
+        "id": "tracking_event_8e525702ad6146f7",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA13-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 2
+        },
+        "order": {
+          "price": 15.12,
+          "row_total": 30.24
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 08:14:00",
+        "id": "tracking_event_3e3311b0430a4a49",
+        "event_type": "order",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA13-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
+        },
+        "group_id": "0",
+        "order": {
+          "order_id": "158",
+          "total": 31.54,
+          "price": 15.12,
+          "qty": 2,
+          "row_total": 30.24
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 08:36:00",
+        "id": "tracking_event_ef3c117a70394dd8",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "c6b8c45b-df3a-499b-9224-e92b36a08402"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 62,
+          "current_page": 1,
+          "page_count": 3,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 09:11:00",
+        "id": "tracking_event_5331583fa4354c9a",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA16-GO-NA",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "c6b8c45b-df3a-499b-9224-e92b36a08402"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 2
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 10:04:00",
+        "id": "tracking_event_be5dc9e986104d72",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA16-GO-NA",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "c6b8c45b-df3a-499b-9224-e92b36a08402"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 10:26:00",
+        "id": "tracking_event_f1cc834ebcc145d1",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW05",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "c6b8c45b-df3a-499b-9224-e92b36a08402"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 4
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 10:53:00",
+        "id": "tracking_event_fcbee702aab94cfa",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW05",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "c6b8c45b-df3a-499b-9224-e92b36a08402"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 11:29:00",
+        "id": "tracking_event_7e64ee3fb1354e0a",
+        "event_type": "view",
+        "metadata_code": "category",
+        "localized_catalog_code": "com_en",
+        "entity_code": "cat_1",
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "67d38897-49b2-4724-ae61-2969bbb82946"
+        },
+        "group_id": "0",
+        "product_list": {
+          "item_count": 62,
+          "current_page": 1,
+          "page_count": 3,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 13:07:00",
+        "id": "tracking_event_2f7a49740f0f47cc",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT11",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_1"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "67d38897-49b2-4724-ae61-2969bbb82946"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 11
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 15:02:00",
+        "id": "tracking_event_0d1af72b19a34af4",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT11",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_1"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "67d38897-49b2-4724-ae61-2969bbb82946"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 15:44:00",
+        "id": "tracking_event_b6178043789a468e",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK07",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_1"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "67d38897-49b2-4724-ae61-2969bbb82946"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 1
+        },
+        "order": {
+          "price": 17.66,
+          "row_total": 17.66
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 09:10:00",
+        "id": "tracking_event_c95d7d4bf1f94d43",
+        "event_type": "view",
+        "metadata_code": "category",
+        "localized_catalog_code": "com_en",
+        "entity_code": "cat_14",
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
+        },
+        "group_id": "0",
+        "product_list": {
+          "item_count": 51,
+          "current_page": 1,
+          "page_count": 2,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 10:55:00",
+        "id": "tracking_event_886ca68653fe4a5c",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW05",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 16
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 12:13:00",
+        "id": "tracking_event_1a027c5422444b4a",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA21-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 4
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 14:08:00",
+        "id": "tracking_event_6fd0c69cef6b405d",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW11",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 7
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 15:02:00",
+        "id": "tracking_event_9c14d7adc96d4d24",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW11",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 16:02:00",
+        "id": "tracking_event_c021568579ea4c0c",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 2
+        },
+        "order": {
+          "price": 42.52,
+          "row_total": 85.04
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 16:23:00",
+        "id": "tracking_event_64ba2036e59740b8",
+        "event_type": "view",
+        "metadata_code": "category",
+        "localized_catalog_code": "com_en",
+        "entity_code": "cat_4",
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
+        },
+        "group_id": "0",
+        "product_list": {
+          "item_count": 39,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 17:41:00",
+        "id": "tracking_event_8feb0dfe9dcb4b66",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT06",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_4"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 6
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 19:25:00",
+        "id": "tracking_event_1c75337ea7fd4972",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA16-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_4"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 10
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 19:45:00",
+        "id": "tracking_event_c6590b20d7c64dbb",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW05",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_4"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 1
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 20:15:00",
+        "id": "tracking_event_bb181dafced04566",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW05",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_4"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 21:50:00",
+        "id": "tracking_event_7687aa1e69c94289",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA16-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_4"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 13
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 22:22:00",
+        "id": "tracking_event_fa002740221e45ff",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA16-GO-NA",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_4"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 22:42:00",
+        "id": "tracking_event_f9a22031a5a24995",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_4"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 3
+        },
+        "order": {
+          "price": 47.42,
+          "row_total": 142.26
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 00:03:00",
+        "id": "tracking_event_945b6d31553d4d3f",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "2d346b45-8c8d-4d45-af72-239233d1df53"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "jacket",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 86,
+          "current_page": 1,
+          "page_count": 4,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 00:16:00",
+        "id": "tracking_event_d035fd836f7e497a",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VP11",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "2d346b45-8c8d-4d45-af72-239233d1df53"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 14
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 02:10:00",
+        "id": "tracking_event_85a8bee2d08645c8",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VP11",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "2d346b45-8c8d-4d45-af72-239233d1df53"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 03:05:00",
+        "id": "tracking_event_42c01fb403c44425",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VP03",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "2d346b45-8c8d-4d45-af72-239233d1df53"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 20
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 03:12:00",
+        "id": "tracking_event_7447c0e76d944989",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VP03",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "2d346b45-8c8d-4d45-af72-239233d1df53"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 04:30:00",
+        "id": "tracking_event_a6ddf86726d240bb",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "7731a21c-2ed4-43f2-ace8-0f31d967828d"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "pants",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 54,
+          "current_page": 1,
+          "page_count": 2,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_color__value",
+              "value": "18"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 06:06:00",
+        "id": "tracking_event_e1be43b146e4447d",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT10",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "pants"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "7731a21c-2ed4-43f2-ace8-0f31d967828d"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 2
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 06:43:00",
+        "id": "tracking_event_949d5e1659d14329",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "pants"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "7731a21c-2ed4-43f2-ace8-0f31d967828d"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 1
+        },
+        "order": {
+          "price": 19.95,
+          "row_total": 19.95
+        }
+      }
+    ]
+  },
+  {
+    "index_name": "gally_com_fr_tracking_event",
+    "documents": [
+      {
+        "@timestamp": "2025-12-01 08:37:00",
+        "id": "tracking_event_Aeb442f4028f64bd6",
+        "event_type": "view",
+        "metadata_code": "category",
+        "localized_catalog_code": "com_en",
+        "entity_code": "cat_18",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d"
+        },
+        "group_id": "0",
+        "product_list": {
+          "item_count": 50,
+          "current_page": 1,
+          "page_count": 2,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 09:45:00",
+        "id": "tracking_event_Aecf94aa3064f4182",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VD12",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_18"
+        },
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 4
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 11:35:00",
+        "id": "tracking_event_A42db2881f1af472b",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VD12",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_18"
+        },
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 12:58:00",
+        "id": "tracking_event_A1b2148f0ab064a85",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK10",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_18"
+        },
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 20
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 14:42:00",
+        "id": "tracking_event_Ad2c94aeb21f54721",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK10",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_18"
+        },
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 15:42:00",
+        "id": "tracking_event_A83cf77bdd76d4ddc",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 34,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_color__value",
+              "value": "18"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 16:42:00",
+        "id": "tracking_event_A0e790d10658e4b64",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 14
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 17:39:00",
+        "id": "tracking_event_A775b5e27d74f436c",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 19:08:00",
+        "id": "tracking_event_A00646284cbba4170",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK07",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 5
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 09:41:00",
+        "id": "tracking_event_Ae8c1b570dace414a",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "pants",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 82,
+          "current_page": 1,
+          "page_count": 4,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 10:36:00",
+        "id": "tracking_event_A01f5800f8941430d",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA23",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "pants"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 3
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 12:21:00",
+        "id": "tracking_event_Aecec33de18974201",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VD12",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "pants"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 11
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 14:07:00",
+        "id": "tracking_event_A4673eb22c657486c",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VD12",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "pants"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 15:47:00",
+        "id": "tracking_event_A6c8865b4de6c428e",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VP11",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "pants"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 3
+        },
+        "order": {
+          "price": 40.79,
+          "row_total": 122.37
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 17:28:00",
+        "id": "tracking_event_A7e88b46d1a3d4479",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "shoes",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 32,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 19:02:00",
+        "id": "tracking_event_Ac4096a849f944599",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shoes"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 14
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 20:11:00",
+        "id": "tracking_event_Adbe903c5e9c14ffb",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shoes"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 21:26:00",
+        "id": "tracking_event_A41975185193845ba",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW05",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shoes"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 16
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 23:09:00",
+        "id": "tracking_event_A86f6e9846ae042be",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW05",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shoes"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 00:57:00",
+        "id": "tracking_event_A4cab17c272954515",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VD12",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shoes"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 9
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 01:57:00",
+        "id": "tracking_event_Acd95ceaa641943d0",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VD12",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shoes"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 02:10:00",
+        "id": "tracking_event_Ab0cb0d8466794970",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW05",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shoes"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 4
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 03:19:00",
+        "id": "tracking_event_A1433d4dde4704944",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "00fed88d-f4fe-4cd3-9bc5-34e89f25bff7"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "jacket",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 77,
+          "current_page": 1,
+          "page_count": 3,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 05:04:00",
+        "id": "tracking_event_Ab50096ab01404e1e",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK07",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "00fed88d-f4fe-4cd3-9bc5-34e89f25bff7"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 4
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 05:13:00",
+        "id": "tracking_event_A964e6b4ae1ae4a4b",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK07",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "00fed88d-f4fe-4cd3-9bc5-34e89f25bff7"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 06:08:00",
+        "id": "tracking_event_A63c56f7d0d1a402f",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT10",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "00fed88d-f4fe-4cd3-9bc5-34e89f25bff7"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 1
+        },
+        "order": {
+          "price": 20.45,
+          "row_total": 20.45
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 07:09:00",
+        "id": "tracking_event_Acde07aec2f5d4733",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 85,
+          "current_page": 1,
+          "page_count": 4,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 07:54:00",
+        "id": "tracking_event_Aa3451695fbd64c59",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA13-GO-NA",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 8
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 09:31:00",
+        "id": "tracking_event_Af13ece1611e3421b",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA13-GO-NA",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 10:17:00",
+        "id": "tracking_event_A5f0bc5c842b44b77",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA23",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 2
+        },
+        "order": {
+          "price": 31.6,
+          "row_total": 63.2
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 10:33:00",
+        "id": "tracking_event_A3488e7ec08034d2e",
+        "event_type": "order",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA23",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
+          "uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36"
+        },
+        "group_id": "0",
+        "order": {
+          "order_id": "167",
+          "total": 63.41,
+          "price": 31.6,
+          "qty": 2,
+          "row_total": 63.2
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 09:08:00",
+        "id": "tracking_event_Ab76680c99ff24d75",
+        "event_type": "view",
+        "metadata_code": "category",
+        "localized_catalog_code": "com_en",
+        "entity_code": "cat_7",
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b374e42f-5802-4ba3-9665-3588a50f74d9"
+        },
+        "group_id": "0",
+        "product_list": {
+          "item_count": 66,
+          "current_page": 1,
+          "page_count": 3,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 10:14:00",
+        "id": "tracking_event_Abf79e9b789274edb",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT03",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_7"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b374e42f-5802-4ba3-9665-3588a50f74d9"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 10
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 11:30:00",
+        "id": "tracking_event_A64e4cf5aaca3454f",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK07",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_7"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b374e42f-5802-4ba3-9665-3588a50f74d9"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 16
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 11:35:00",
+        "id": "tracking_event_A7538b8bde6b54097",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT11",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_7"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b374e42f-5802-4ba3-9665-3588a50f74d9"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 2
+        },
+        "order": {
+          "price": 27.36,
+          "row_total": 54.72
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 13:29:00",
+        "id": "tracking_event_A35282d7b938f45ff",
+        "event_type": "order",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT11",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_7"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b374e42f-5802-4ba3-9665-3588a50f74d9"
+        },
+        "group_id": "0",
+        "order": {
+          "order_id": "121",
+          "total": 67.64,
+          "price": 27.36,
+          "qty": 2,
+          "row_total": 54.72
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 14:19:00",
+        "id": "tracking_event_Aff9d261cd1414ff0",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "shirt",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 75,
+          "current_page": 1,
+          "page_count": 3,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 14:26:00",
+        "id": "tracking_event_A4439b9f877934794",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VD12",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shirt"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 7
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 15:40:00",
+        "id": "tracking_event_A00602d0f605b4ae3",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VD12",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shirt"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 17:13:00",
+        "id": "tracking_event_A5bbae35c06d94b62",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK07",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shirt"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 17
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 19:05:00",
+        "id": "tracking_event_Abae905d5c770463c",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK07",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shirt"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 20:32:00",
+        "id": "tracking_event_A23daea09e6054c6b",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT06",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shirt"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 9
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 21:16:00",
+        "id": "tracking_event_A585a0a08803e44e2",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT06",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shirt"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 23:02:00",
+        "id": "tracking_event_Ae339e297327240e3",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT06",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "shirt"
+        },
+        "session": {
+          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
+          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 2
+        },
+        "order": {
+          "price": 14.78,
+          "row_total": 29.56
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 08:59:00",
+        "id": "tracking_event_A1525441cadbd4cb6",
+        "event_type": "view",
+        "metadata_code": "category",
+        "localized_catalog_code": "com_en",
+        "entity_code": "cat_3",
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "40356c48-b23f-40b9-aa76-458956d1d118"
+        },
+        "group_id": "0",
+        "product_list": {
+          "item_count": 67,
+          "current_page": 1,
+          "page_count": 3,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 10:21:00",
+        "id": "tracking_event_A3cce5a98fcbc4e27",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA13-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_3"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "40356c48-b23f-40b9-aa76-458956d1d118"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 2
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 12:05:00",
+        "id": "tracking_event_A5fa223f4b37945b1",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK02",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_3"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "40356c48-b23f-40b9-aa76-458956d1d118"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 2
+        },
+        "order": {
+          "price": 25.5,
+          "row_total": 51.0
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 13:44:00",
+        "id": "tracking_event_Af053442430a94d76",
+        "event_type": "order",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK02",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_3"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "40356c48-b23f-40b9-aa76-458956d1d118"
+        },
+        "group_id": "0",
+        "order": {
+          "order_id": "116",
+          "total": 63.1,
+          "price": 25.5,
+          "qty": 2,
+          "row_total": 51.0
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 15:11:00",
+        "id": "tracking_event_Ae713e63787ca404a",
+        "event_type": "view",
+        "metadata_code": "category",
+        "localized_catalog_code": "com_en",
+        "entity_code": "cat_14",
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
+        },
+        "group_id": "0",
+        "product_list": {
+          "item_count": 43,
+          "current_page": 1,
+          "page_count": 2,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 16:07:00",
+        "id": "tracking_event_A40412d0c45c443b2",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 7
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 17:44:00",
+        "id": "tracking_event_A90962dd829624533",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 18:58:00",
+        "id": "tracking_event_Acc25aef592bf4a8f",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK10",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 3
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 20:19:00",
+        "id": "tracking_event_A4735fc9b3be24390",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK10",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 21:42:00",
+        "id": "tracking_event_A9cd5b2dcac774765",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT11",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 11
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 22:59:00",
+        "id": "tracking_event_A30916bf91bea4436",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT11",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 00:40:00",
+        "id": "tracking_event_Ac2d52d0ab24f4a83",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT11",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 15
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 00:51:00",
+        "id": "tracking_event_Ac6f22c6f951b4fe7",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "jacket",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 71,
+          "current_page": 1,
+          "page_count": 3,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 02:16:00",
+        "id": "tracking_event_Ac2abeb2b3d934491",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT06",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 12
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 03:43:00",
+        "id": "tracking_event_A3bad8cc3bd5e4d2c",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW11",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 9
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 05:35:00",
+        "id": "tracking_event_A2bacaadd366c4145",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW11",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 06:24:00",
+        "id": "tracking_event_A8e525702ad6146f7",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA13-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 2
+        },
+        "order": {
+          "price": 15.12,
+          "row_total": 30.24
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 08:14:00",
+        "id": "tracking_event_A3e3311b0430a4a49",
+        "event_type": "order",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA13-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
+        },
+        "group_id": "0",
+        "order": {
+          "order_id": "158",
+          "total": 31.54,
+          "price": 15.12,
+          "qty": 2,
+          "row_total": 30.24
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 08:36:00",
+        "id": "tracking_event_Aef3c117a70394dd8",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "c6b8c45b-df3a-499b-9224-e92b36a08402"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 62,
+          "current_page": 1,
+          "page_count": 3,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 09:11:00",
+        "id": "tracking_event_A5331583fa4354c9a",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA16-GO-NA",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "c6b8c45b-df3a-499b-9224-e92b36a08402"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 2
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 10:04:00",
+        "id": "tracking_event_Abe5dc9e986104d72",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA16-GO-NA",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "c6b8c45b-df3a-499b-9224-e92b36a08402"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 10:26:00",
+        "id": "tracking_event_Af1cc834ebcc145d1",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW05",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "c6b8c45b-df3a-499b-9224-e92b36a08402"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 4
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 10:53:00",
+        "id": "tracking_event_Afcbee702aab94cfa",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW05",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "dress"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "c6b8c45b-df3a-499b-9224-e92b36a08402"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 11:29:00",
+        "id": "tracking_event_A7e64ee3fb1354e0a",
+        "event_type": "view",
+        "metadata_code": "category",
+        "localized_catalog_code": "com_en",
+        "entity_code": "cat_1",
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "67d38897-49b2-4724-ae61-2969bbb82946"
+        },
+        "group_id": "0",
+        "product_list": {
+          "item_count": 62,
+          "current_page": 1,
+          "page_count": 3,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 13:07:00",
+        "id": "tracking_event_A2f7a49740f0f47cc",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT11",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_1"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "67d38897-49b2-4724-ae61-2969bbb82946"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 11
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 15:02:00",
+        "id": "tracking_event_A0d1af72b19a34af4",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT11",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_1"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "67d38897-49b2-4724-ae61-2969bbb82946"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 15:44:00",
+        "id": "tracking_event_Ab6178043789a468e",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSK07",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_1"
+        },
+        "session": {
+          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
+          "uid": "67d38897-49b2-4724-ae61-2969bbb82946"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 1
+        },
+        "order": {
+          "price": 17.66,
+          "row_total": 17.66
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 09:10:00",
+        "id": "tracking_event_Ac95d7d4bf1f94d43",
+        "event_type": "view",
+        "metadata_code": "category",
+        "localized_catalog_code": "com_en",
+        "entity_code": "cat_14",
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
+        },
+        "group_id": "0",
+        "product_list": {
+          "item_count": 51,
+          "current_page": 1,
+          "page_count": 2,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_material__value",
+              "value": "43"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 10:55:00",
+        "id": "tracking_event_A886ca68653fe4a5c",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW05",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 16
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 12:13:00",
+        "id": "tracking_event_A1a027c5422444b4a",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA21-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 4
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 14:08:00",
+        "id": "tracking_event_A6fd0c69cef6b405d",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW11",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 7
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 15:02:00",
+        "id": "tracking_event_A9c14d7adc96d4d24",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW11",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 16:02:00",
+        "id": "tracking_event_Ac021568579ea4c0c",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_14"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 2
+        },
+        "order": {
+          "price": 42.52,
+          "row_total": 85.04
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 16:23:00",
+        "id": "tracking_event_A64ba2036e59740b8",
+        "event_type": "view",
+        "metadata_code": "category",
+        "localized_catalog_code": "com_en",
+        "entity_code": "cat_4",
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
+        },
+        "group_id": "0",
+        "product_list": {
+          "item_count": 39,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 17:41:00",
+        "id": "tracking_event_A8feb0dfe9dcb4b66",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT06",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_4"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 6
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 19:25:00",
+        "id": "tracking_event_A1c75337ea7fd4972",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA16-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_4"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 10
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 19:45:00",
+        "id": "tracking_event_Ac6590b20d7c64dbb",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW05",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_4"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 1
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 20:15:00",
+        "id": "tracking_event_Abb181dafced04566",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VSW05",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_4"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 21:50:00",
+        "id": "tracking_event_A7687aa1e69c94289",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA16-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "category"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_4"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 13
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 22:22:00",
+        "id": "tracking_event_Afa002740221e45ff",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA16-GO-NA",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_4"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-01 22:42:00",
+        "id": "tracking_event_Af9a22031a5a24995",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "category",
+          "context_code": "cat_4"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 3
+        },
+        "order": {
+          "price": 47.42,
+          "row_total": 142.26
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 00:03:00",
+        "id": "tracking_event_A945b6d31553d4d3f",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "2d346b45-8c8d-4d45-af72-239233d1df53"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "jacket",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 86,
+          "current_page": 1,
+          "page_count": 4,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 00:16:00",
+        "id": "tracking_event_Ad035fd836f7e497a",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VP11",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "2d346b45-8c8d-4d45-af72-239233d1df53"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 14
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 02:10:00",
+        "id": "tracking_event_A85a8bee2d08645c8",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VP11",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "2d346b45-8c8d-4d45-af72-239233d1df53"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 03:05:00",
+        "id": "tracking_event_A42c01fb403c44425",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VP03",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "2d346b45-8c8d-4d45-af72-239233d1df53"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 20
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 03:12:00",
+        "id": "tracking_event_A7447c0e76d944989",
+        "event_type": "view",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VP03",
+        "source": {
+          "event_type": "display",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "jacket"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "2d346b45-8c8d-4d45-af72-239233d1df53"
+        },
+        "group_id": "0"
+      },
+      {
+        "@timestamp": "2025-12-02 04:30:00",
+        "id": "tracking_event_Aa6ddf86726d240bb",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "7731a21c-2ed4-43f2-ace8-0f31d967828d"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "pants",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 54,
+          "current_page": 1,
+          "page_count": 2,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_color__value",
+              "value": "18"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 06:06:00",
+        "id": "tracking_event_Ae1be43b146e4447d",
+        "event_type": "display",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VT10",
+        "source": {
+          "event_type": "search",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "pants"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "7731a21c-2ed4-43f2-ace8-0f31d967828d"
+        },
+        "group_id": "0",
+        "display": {
+          "position": 2
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 06:43:00",
+        "id": "tracking_event_A949d5e1659d14329",
+        "event_type": "add_to_cart",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "entity_code": "VA11-GO-NA",
+        "source": {
+          "event_type": "view",
+          "metadata_code": "product"
+        },
+        "context": {
+          "context_type": "search",
+          "context_code": "pants"
+        },
+        "session": {
+          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
+          "uid": "7731a21c-2ed4-43f2-ace8-0f31d967828d"
+        },
+        "group_id": "0",
+        "cart": {
+          "qty": 1
+        },
+        "order": {
+          "price": 19.95,
+          "row_total": 19.95
+        }
+      }
+    ]
+  }
+]

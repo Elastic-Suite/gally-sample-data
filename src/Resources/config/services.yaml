@@ -26,3 +26,10 @@ services:
             - '@Gally\Fixture\Service\EntityIndicesFixturesInterface'
         tags:
             - { name: doctrine.fixture.orm }
+
+    Gally\SampleData\Service\ElasticsearchTrackingEventsFixtures:
+        arguments:
+            - '@Gally\Fixture\Service\ElasticsearchFixtures'
+            - '@Gally\Fixture\Service\EntityDataStreamsFixturesInterface'
+        tags:
+            - { name: doctrine.fixture.orm }
