@@ -1,6 +1,6 @@
 [
   {
-    "index_name": "gally_com_en_cms_page",
+    "index_name": "gally_localized_catalog_com_en_cms_page",
     "documents": [
       {
         "id": "1",
@@ -161,7 +161,7 @@
     ]
   },
   {
-    "index_name": "gally_com_fr_cms_page",
+    "index_name": "gally_localized_catalog_com_fr_cms_page",
     "documents": [
       {
         "id": "1",
