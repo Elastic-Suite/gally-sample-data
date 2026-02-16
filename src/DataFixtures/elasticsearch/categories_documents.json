@@ -1,6 +1,6 @@
 [
   {
-    "index_name": "gally_com_en_category",
+    "index_name": "gally_localized_catalog_com_en_category",
     "documents": [
       {
         "entity_id": "3",
@@ -442,7 +442,7 @@
     ]
   },
   {
-  "index_name": "gally_com_fr_category",
+  "index_name": "gally_localized_catalog_com_fr_category",
   "documents": [
     {
       "entity_id": "3",
@@ -884,7 +884,7 @@
   ]
 },
   {
-    "index_name": "gally_fr_en_category",
+    "index_name": "gally_localized_catalog_fr_en_category",
     "documents": [
       {
         "entity_id": "3",
@@ -1888,7 +1888,7 @@
     ]
   },
   {
-    "index_name": "gally_fr_fr_category",
+    "index_name": "gally_localized_catalog_fr_fr_category",
     "documents": [
       {
         "entity_id": "3",
