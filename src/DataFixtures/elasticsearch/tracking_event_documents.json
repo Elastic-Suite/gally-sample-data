@@ -231,13 +231,7 @@
           "current_page": 1,
           "page_count": 4,
           "sort_order": "position",
-          "sort_direction": "asc",
-          "filters": [
-            {
-              "name": "fashion_material__value",
-              "value": "43"
-            }
-          ]
+          "sort_direction": "asc"
         }
       },
       {
@@ -2200,13 +2194,7 @@
           "current_page": 1,
           "page_count": 2,
           "sort_order": "position",
-          "sort_direction": "asc",
-          "filters": [
-            {
-              "name": "fashion_color__value",
-              "value": "18"
-            }
-          ]
+          "sort_direction": "asc"
         }
       },
       {
@@ -2259,6 +2247,910 @@
         "order": {
           "price": 19.95,
           "row_total": 19.95
+        }
+      },
+      {
+        "test_case": "Event not taken in account because there are filters applied ",
+        "@timestamp": "@now:-5d",
+        "id": "tracking_event_83cf77bdd76d4ddt",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 1,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": [
+            {
+              "name": "fashion_color__value",
+              "value": "18"
+            }
+          ]
+        }
+      },
+      {
+        "@timestamp": "@now:-5d",
+        "id": "tracking_event_83cf77bdd76d4dda",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "shoes",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 1500,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-5d",
+        "id": "tracking_event_83cf77bdd76d4ddb",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 1500,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-35d",
+        "id": "tracking_event_83cf77bdd76d4ddh",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 1500,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-55d",
+        "id": "tracking_event_83cf77bdd76d4ddf",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 1500,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-90d",
+        "id": "tracking_event_83cf77bdd76d4dd0",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "formal dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 156,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-75d",
+        "id": "tracking_event_83cf77bdd76d4dd1",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "long dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 203,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-60d",
+        "id": "tracking_event_83cf77bdd76d4dd2",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "evening dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 287,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-45d",
+        "id": "tracking_event_83cf77bdd76d4dd3",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "black dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 134,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-30d",
+        "id": "tracking_event_83cf77bdd76d4dd4",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "casual dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 178,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-15d",
+        "id": "tracking_event_83cf77bdd76d4dd5",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "midi dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 92,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-7d",
+        "id": "tracking_event_83cf77bdd76d4dd6",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "winter dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 45,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-6d",
+        "id": "tracking_event_83cf77bdd76d4dd7",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 34,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-6d",
+        "id": "tracking_event_83cf77bdd76d4dd8",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "wool dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 38,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-3d",
+        "id": "tracking_event_83cf77bdd76d4de0",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "sundress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 35,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-3d",
+        "id": "tracking_event_83cf77bdd76d4de1",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "sundress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 35,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-2d",
+        "id": "tracking_event_83cf77bdd76d4de2",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "light summer dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 48,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-1d",
+        "id": "tracking_event_83cf77bdd76d4de3",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "summer dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 52,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-1d",
+        "id": "tracking_event_83cf77bdd76d4de4",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "hot weather dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 55,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-1d",
+        "id": "tracking_event_83cf77bdd76d4dew",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "hot weather dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 55,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-5d",
+        "id": "tracking_event_83cf77bdd76d4de5",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "white dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 26,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-5d",
+        "id": "tracking_event_83cf77bdd76d4de6",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "party dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 9,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-5d",
+        "id": "tracking_event_83cf77bdd76d4de7",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "cocktail dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 7,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-5d",
+        "id": "tracking_event_83cf77bdd76d4ded",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "cocktail dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 7,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-5d",
+        "id": "tracking_event_83cf77bdd76d4de8",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "blue dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 38,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-5d",
+        "id": "tracking_event_83cf77bdd76d4de9",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "striped dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 11,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-5d",
+        "id": "tracking_event_83cf77bdd76d4dea",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "vintage dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 5,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-5d",
+        "id": "tracking_event_83cf77bdd76d4deb",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "floral dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 67,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-88d",
+        "id": "tracking_event_83cf77bdd76d4dec",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "zoo dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 54,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-89d",
+        "id": "tracking_event_83cf77bdd76d4dao",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "maxi dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 54,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-5d",
+        "id": "tracking_event_cms_83cf77bdd76d4ded",
+        "event_type": "search",
+        "metadata_code": "cms_page",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "terms of sale",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 5,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-5d",
+        "id": "tracking_event_cms_83cf77bdd76d4dee",
+        "event_type": "search",
+        "metadata_code": "cms_page",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "sale conditions",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 12,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-5d",
+        "id": "tracking_event_cms_83cf77bdd76d4def",
+        "event_type": "search",
+        "metadata_code": "cms_page",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "return policy sale",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 8,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-5d",
+        "id": "tracking_event_cms_83cf77bdd76d4df0",
+        "event_type": "search",
+        "metadata_code": "cms_page",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "general sale terms",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 23,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-5d",
+        "id": "tracking_event_cms_83cf77bdd76d4df1",
+        "event_type": "search",
+        "metadata_code": "cms_page",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "sale agreement",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 17,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-5d",
+        "id": "tracking_event_cms_83cf77bdd76d4df2",
+        "event_type": "search",
+        "metadata_code": "cms_page",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "dress care guide",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 14,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-4d",
+        "id": "tracking_event_cms_83cf77bdd76d4df3",
+        "event_type": "search",
+        "metadata_code": "cms_page",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "how to style a dress",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 22,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-3d",
+        "id": "tracking_event_cms_83cf77bdd76d4df4",
+        "event_type": "search",
+        "metadata_code": "cms_page",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "dress fabric types",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 19,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
+        }
+      },
+      {
+        "@timestamp": "@now:-181d",
+        "id": "tracking_event_cms_83cf77bdd76d4dff",
+        "event_type": "search",
+        "metadata_code": "cms_page",
+        "localized_catalog_code": "com_en",
+        "session": {
+          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
+          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
+        },
+        "group_id": "0",
+        "search_query": {
+          "query_text": "too far dress to be suggested",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 19,
+          "current_page": 1,
+          "page_count": 1,
+          "sort_order": "position",
+          "sort_direction": "asc"
         }
       }
     ]
