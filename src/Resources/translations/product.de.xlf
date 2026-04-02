@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en-US" trgLang="de-DE">
+  <file id="products.de">
+    <!-- Brands -->
+    <unit id="gally.product.brand.samsung">
+      <segment>
+        <source>gally.product.brand.samsung</source>
+        <target>Samsung</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.brand.apple">
+      <segment>
+        <source>gally.product.brand.apple</source>
+        <target>Apple</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.brand.nike">
+      <segment>
+        <source>gally.product.brand.nike</source>
+        <target>Nike</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.brand.adidas">
+      <segment>
+        <source>gally.product.brand.adidas</source>
+        <target>Adidas</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.brand.ikea">
+      <segment>
+        <source>gally.product.brand.ikea</source>
+        <target>IKEA</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.brand.bosch">
+      <segment>
+        <source>gally.product.brand.bosch</source>
+        <target>Bosch</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.brand.sony">
+      <segment>
+        <source>gally.product.brand.sony</source>
+        <target>Sony</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.brand.lg">
+      <segment>
+        <source>gally.product.brand.lg</source>
+        <target>LG</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.brand.zara">
+      <segment>
+        <source>gally.product.brand.zara</source>
+        <target>Zara</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.brand.levis">
+      <segment>
+        <source>gally.product.brand.levis</source>
+        <target>Levi's</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.brand.puma">
+      <segment>
+        <source>gally.product.brand.puma</source>
+        <target>Puma</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.brand.reebok">
+      <segment>
+        <source>gally.product.brand.reebok</source>
+        <target>Reebok</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.brand.philips">
+      <segment>
+        <source>gally.product.brand.philips</source>
+        <target>Philips</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.brand.dell">
+      <segment>
+        <source>gally.product.brand.dell</source>
+        <target>Dell</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.brand.hp">
+      <segment>
+        <source>gally.product.brand.hp</source>
+        <target>HP</target>
+      </segment>
+    </unit>
+
+    <!-- Adjectives -->
+    <unit id="gally.product.adjective.cotton">
+      <segment>
+        <source>gally.product.adjective.cotton</source>
+        <target>Baumwolle</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.polyester">
+      <segment>
+        <source>gally.product.adjective.polyester</source>
+        <target>Polyester</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.wool">
+      <segment>
+        <source>gally.product.adjective.wool</source>
+        <target>Wolle</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.silk">
+      <segment>
+        <source>gally.product.adjective.silk</source>
+        <target>Seide</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.linen">
+      <segment>
+        <source>gally.product.adjective.linen</source>
+        <target>Leinen</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.denim">
+      <segment>
+        <source>gally.product.adjective.denim</source>
+        <target>Denim</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.leather">
+      <segment>
+        <source>gally.product.adjective.leather</source>
+        <target>Leder</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.suede">
+      <segment>
+        <source>gally.product.adjective.suede</source>
+        <target>Wildleder</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.vintage">
+      <segment>
+        <source>gally.product.adjective.vintage</source>
+        <target>Vintage</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.classic">
+      <segment>
+        <source>gally.product.adjective.classic</source>
+        <target>Klassisch</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.modern">
+      <segment>
+        <source>gally.product.adjective.modern</source>
+        <target>Modern</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.elegant">
+      <segment>
+        <source>gally.product.adjective.elegant</source>
+        <target>Elegant</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.casual">
+      <segment>
+        <source>gally.product.adjective.casual</source>
+        <target>Lässig</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.sporty">
+      <segment>
+        <source>gally.product.adjective.sporty</source>
+        <target>Sportlich</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.premium">
+      <segment>
+        <source>gally.product.adjective.premium</source>
+        <target>Premium</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.luxury">
+      <segment>
+        <source>gally.product.adjective.luxury</source>
+        <target>Luxus</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.eco_friendly">
+      <segment>
+        <source>gally.product.adjective.eco_friendly</source>
+        <target>Umweltfreundlich</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.sustainable">
+      <segment>
+        <source>gally.product.adjective.sustainable</source>
+        <target>Nachhaltig</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.waterproof">
+      <segment>
+        <source>gally.product.adjective.waterproof</source>
+        <target>Wasserdicht</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.breathable">
+      <segment>
+        <source>gally.product.adjective.breathable</source>
+        <target>Atmungsaktiv</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.lightweight">
+      <segment>
+        <source>gally.product.adjective.lightweight</source>
+        <target>Leicht</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.durable">
+      <segment>
+        <source>gally.product.adjective.durable</source>
+        <target>Langlebig</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.comfortable">
+      <segment>
+        <source>gally.product.adjective.comfortable</source>
+        <target>Bequem</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.stylish">
+      <segment>
+        <source>gally.product.adjective.stylish</source>
+        <target>Stilvoll</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.trendy">
+      <segment>
+        <source>gally.product.adjective.trendy</source>
+        <target>Trendig</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.timeless">
+      <segment>
+        <source>gally.product.adjective.timeless</source>
+        <target>Zeitlos</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.bold">
+      <segment>
+        <source>gally.product.adjective.bold</source>
+        <target>Gewagt</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.minimalist">
+      <segment>
+        <source>gally.product.adjective.minimalist</source>
+        <target>Minimalistisch</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.colorful">
+      <segment>
+        <source>gally.product.adjective.colorful</source>
+        <target>Bunt</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.neutral">
+      <segment>
+        <source>gally.product.adjective.neutral</source>
+        <target>Neutral</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.metallic">
+      <segment>
+        <source>gally.product.adjective.metallic</source>
+        <target>Metallisch</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.matte">
+      <segment>
+        <source>gally.product.adjective.matte</source>
+        <target>Matt</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.glossy">
+      <segment>
+        <source>gally.product.adjective.glossy</source>
+        <target>Glänzend</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.textured">
+      <segment>
+        <source>gally.product.adjective.textured</source>
+        <target>Strukturiert</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.smooth">
+      <segment>
+        <source>gally.product.adjective.smooth</source>
+        <target>Glatt</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.soft">
+      <segment>
+        <source>gally.product.adjective.soft</source>
+        <target>Weich</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.rigid">
+      <segment>
+        <source>gally.product.adjective.rigid</source>
+        <target>Starr</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.flexible">
+      <segment>
+        <source>gally.product.adjective.flexible</source>
+        <target>Flexibel</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.compact">
+      <segment>
+        <source>gally.product.adjective.compact</source>
+        <target>Kompakt</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.spacious">
+      <segment>
+        <source>gally.product.adjective.spacious</source>
+        <target>Geräumig</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.portable">
+      <segment>
+        <source>gally.product.adjective.portable</source>
+        <target>Tragbar</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.professional">
+      <segment>
+        <source>gally.product.adjective.professional</source>
+        <target>Professionell</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.industrial">
+      <segment>
+        <source>gally.product.adjective.industrial</source>
+        <target>Industriell</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.artistic">
+      <segment>
+        <source>gally.product.adjective.artistic</source>
+        <target>Künstlerisch</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.handmade">
+      <segment>
+        <source>gally.product.adjective.handmade</source>
+        <target>Handgefertigt</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.machine_made">
+      <segment>
+        <source>gally.product.adjective.machine_made</source>
+        <target>Maschinell Hergestellt</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.limited_edition">
+      <segment>
+        <source>gally.product.adjective.limited_edition</source>
+        <target>Limitierte Auflage</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.exclusive">
+      <segment>
+        <source>gally.product.adjective.exclusive</source>
+        <target>Exklusiv</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.bestseller">
+      <segment>
+        <source>gally.product.adjective.bestseller</source>
+        <target>Bestseller</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.new_arrival">
+      <segment>
+        <source>gally.product.adjective.new_arrival</source>
+        <target>Neuheit</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.on_sale">
+      <segment>
+        <source>gally.product.adjective.on_sale</source>
+        <target>Im Angebot</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.clearance">
+      <segment>
+        <source>gally.product.adjective.clearance</source>
+        <target>Ausverkauf</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.ultra">
+      <segment>
+        <source>gally.product.adjective.ultra</source>
+        <target>Ultra</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.pro">
+      <segment>
+        <source>gally.product.adjective.pro</source>
+        <target>Pro</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.slim">
+      <segment>
+        <source>gally.product.adjective.slim</source>
+        <target>Schlank</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.eco">
+      <segment>
+        <source>gally.product.adjective.eco</source>
+        <target>Öko</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.smart">
+      <segment>
+        <source>gally.product.adjective.smart</source>
+        <target>Smart</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.essential">
+      <segment>
+        <source>gally.product.adjective.essential</source>
+        <target>Wesentlich</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.advanced">
+      <segment>
+        <source>gally.product.adjective.advanced</source>
+        <target>Fortschrittlich</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.adjective.wireless">
+      <segment>
+        <source>gally.product.adjective.wireless</source>
+        <target>Kabellos</target>
+      </segment>
+    </unit>
+
+
+    <!-- Colors -->
+    <unit id="gally.product.color.black">
+      <segment>
+        <source>gally.product.color.black</source>
+        <target>Schwarz</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.white">
+      <segment>
+        <source>gally.product.color.white</source>
+        <target>Weiß</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.red">
+      <segment>
+        <source>gally.product.color.red</source>
+        <target>Rot</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.blue">
+      <segment>
+        <source>gally.product.color.blue</source>
+        <target>Blau</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.green">
+      <segment>
+        <source>gally.product.color.green</source>
+        <target>Grün</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.yellow">
+      <segment>
+        <source>gally.product.color.yellow</source>
+        <target>Gelb</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.orange">
+      <segment>
+        <source>gally.product.color.orange</source>
+        <target>Orange</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.purple">
+      <segment>
+        <source>gally.product.color.purple</source>
+        <target>Lila</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.pink">
+      <segment>
+        <source>gally.product.color.pink</source>
+        <target>Rosa</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.brown">
+      <segment>
+        <source>gally.product.color.brown</source>
+        <target>Braun</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.gray">
+      <segment>
+        <source>gally.product.color.gray</source>
+        <target>Grau</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.navy">
+      <segment>
+        <source>gally.product.color.navy</source>
+        <target>Marineblau</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.beige">
+      <segment>
+        <source>gally.product.color.beige</source>
+        <target>Beige</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.cream">
+      <segment>
+        <source>gally.product.color.cream</source>
+        <target>Creme</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.gold">
+      <segment>
+        <source>gally.product.color.gold</source>
+        <target>Gold</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.silver">
+      <segment>
+        <source>gally.product.color.silver</source>
+        <target>Silber</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.space_gray">
+      <segment>
+        <source>gally.product.color.space_gray</source>
+        <target>Space Grau</target>
+      </segment>
+    </unit>
+
+    <unit id="gally.product.color.bronze">
+      <segment>
+        <source>gally.product.color.bronze</source>
+        <target>Bronze</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.copper">
+      <segment>
+        <source>gally.product.color.copper</source>
+        <target>Kupfer</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.turquoise">
+      <segment>
+        <source>gally.product.color.turquoise</source>
+        <target>Türkis</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.teal">
+      <segment>
+        <source>gally.product.color.teal</source>
+        <target>Blaugrün</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.maroon">
+      <segment>
+        <source>gally.product.color.maroon</source>
+        <target>Kastanienbraun</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.burgundy">
+      <segment>
+        <source>gally.product.color.burgundy</source>
+        <target>Burgunderrot</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.olive">
+      <segment>
+        <source>gally.product.color.olive</source>
+        <target>Olivgrün</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.khaki">
+      <segment>
+        <source>gally.product.color.khaki</source>
+        <target>Khaki</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.charcoal">
+      <segment>
+        <source>gally.product.color.charcoal</source>
+        <target>Anthrazit</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.ivory">
+      <segment>
+        <source>gally.product.color.ivory</source>
+        <target>Elfenbein</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.coral">
+      <segment>
+        <source>gally.product.color.coral</source>
+        <target>Koralle</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.salmon">
+      <segment>
+        <source>gally.product.color.salmon</source>
+        <target>Lachs</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.peach">
+      <segment>
+        <source>gally.product.color.peach</source>
+        <target>Pfirsich</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.forest">
+      <segment>
+        <source>gally.product.color.forest</source>
+        <target>Waldgrün</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.emerald">
+      <segment>
+        <source>gally.product.color.emerald</source>
+        <target>Smaragdgrün</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.indigo">
+      <segment>
+        <source>gally.product.color.indigo</source>
+        <target>Indigo</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.violet">
+      <segment>
+        <source>gally.product.color.violet</source>
+        <target>Violett</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.magenta">
+      <segment>
+        <source>gally.product.color.magenta</source>
+        <target>Magenta</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.fuchsia">
+      <segment>
+        <source>gally.product.color.fuchsia</source>
+        <target>Fuchsia</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.rose">
+      <segment>
+        <source>gally.product.color.rose</source>
+        <target>Rosé</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.mauve">
+      <segment>
+        <source>gally.product.color.mauve</source>
+        <target>Mauve</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.taupe">
+      <segment>
+        <source>gally.product.color.taupe</source>
+        <target>Taupe</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.tan">
+      <segment>
+        <source>gally.product.color.tan</source>
+        <target>Hellbraun</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.rust">
+      <segment>
+        <source>gally.product.color.rust</source>
+        <target>Rostrot</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.terracotta">
+      <segment>
+        <source>gally.product.color.terracotta</source>
+        <target>Terrakotta</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.sand">
+      <segment>
+        <source>gally.product.color.sand</source>
+        <target>Sand</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.slate">
+      <segment>
+        <source>gally.product.color.slate</source>
+        <target>Schiefergrau</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.ash">
+      <segment>
+        <source>gally.product.color.ash</source>
+        <target>Aschgrau</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.pearl">
+      <segment>
+        <source>gally.product.color.pearl</source>
+        <target>Perlweiß</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.champagne">
+      <segment>
+        <source>gally.product.color.champagne</source>
+        <target>Champagner</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.rose_gold">
+      <segment>
+        <source>gally.product.color.rose_gold</source>
+        <target>Roségold</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.platinum">
+      <segment>
+        <source>gally.product.color.platinum</source>
+        <target>Platin</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.gunmetal">
+      <segment>
+        <source>gally.product.color.gunmetal</source>
+        <target>Schiefer</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.chrome">
+      <segment>
+        <source>gally.product.color.chrome</source>
+        <target>Chrom</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.holographic">
+      <segment>
+        <source>gally.product.color.holographic</source>
+        <target>Holografisch</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.iridescent">
+      <segment>
+        <source>gally.product.color.iridescent</source>
+        <target>Schillernd</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.multicolor">
+      <segment>
+        <source>gally.product.color.multicolor</source>
+        <target>Mehrfarbig</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.striped">
+      <segment>
+        <source>gally.product.color.striped</source>
+        <target>Gestreift</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.plaid">
+      <segment>
+        <source>gally.product.color.plaid</source>
+        <target>Kariert</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.floral">
+      <segment>
+        <source>gally.product.color.floral</source>
+        <target>Geblümt</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.geometric">
+      <segment>
+        <source>gally.product.color.geometric</source>
+        <target>Geometrisch</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.abstract">
+      <segment>
+        <source>gally.product.color.abstract</source>
+        <target>Abstrakt</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.animal_print">
+      <segment>
+        <source>gally.product.color.animal_print</source>
+        <target>Tiermuster</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.leopard">
+      <segment>
+        <source>gally.product.color.leopard</source>
+        <target>Leopard</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.zebra">
+      <segment>
+        <source>gally.product.color.zebra</source>
+        <target>Zebra</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.tie_dye">
+      <segment>
+        <source>gally.product.color.tie_dye</source>
+        <target>Batik</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.ombre">
+      <segment>
+        <source>gally.product.color.ombre</source>
+        <target>Ombré</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.color.gradient">
+      <segment>
+        <source>gally.product.color.gradient</source>
+        <target>Farbverlauf</target>
+      </segment>
+    </unit>
+
+    <!-- Sizes -->
+    <unit id="gally.product.size.xs">
+      <segment>
+        <source>gally.product.size.xs</source>
+        <target>Extra Klein</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.size.s">
+      <segment>
+        <source>gally.product.size.s</source>
+        <target>Klein</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.size.m">
+      <segment>
+        <source>gally.product.size.m</source>
+        <target>Mittel</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.size.l">
+      <segment>
+        <source>gally.product.size.l</source>
+        <target>Groß</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.size.xl">
+      <segment>
+        <source>gally.product.size.xl</source>
+        <target>Extra Groß</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.size.xxl">
+      <segment>
+        <source>gally.product.size.xxl</source>
+        <target>2X Groß</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.size.xxxl">
+      <segment>
+        <source>gally.product.size.xxxl</source>
+        <target>3X Groß</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.size.one_size">
+      <segment>
+        <source>gally.product.size.one_size</source>
+        <target>Einheitsgröße</target>
+      </segment>
+    </unit>
+
+    <!-- Nouns: fashion -->
+    <unit id="gally.product.noun.tshirts">
+      <segment>
+        <source>gally.product.noun.tshirts</source>
+        <target>T-Shirt</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.pants">
+      <segment>
+        <source>gally.product.noun.pants</source>
+        <target>Hose</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.jackets">
+      <segment>
+        <source>gally.product.noun.jackets</source>
+        <target>Jacke</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.sweaters">
+      <segment>
+        <source>gally.product.noun.sweaters</source>
+        <target>Pullover</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.dresses">
+      <segment>
+        <source>gally.product.noun.dresses</source>
+        <target>Kleid</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.skirts">
+      <segment>
+        <source>gally.product.noun.skirts</source>
+        <target>Rock</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.blouses">
+      <segment>
+        <source>gally.product.noun.blouses</source>
+        <target>Bluse</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.sneakers">
+      <segment>
+        <source>gally.product.noun.sneakers</source>
+        <target>Sneakers</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.boots">
+      <segment>
+        <source>gally.product.noun.boots</source>
+        <target>Stiefel</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.heels">
+      <segment>
+        <source>gally.product.noun.heels</source>
+        <target>High Heels</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.handbags">
+      <segment>
+        <source>gally.product.noun.handbags</source>
+        <target>Handtasche</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.watches">
+      <segment>
+        <source>gally.product.noun.watches</source>
+        <target>Uhr</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.belts">
+      <segment>
+        <source>gally.product.noun.belts</source>
+        <target>Gürtel</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.suits">
+      <segment>
+        <source>gally.product.noun.suits</source>
+        <target>Anzug</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.scarves">
+      <segment>
+        <source>gally.product.noun.scarves</source>
+        <target>Schal</target>
+      </segment>
+    </unit>
+
+    <!-- Nouns: electronics -->
+    <unit id="gally.product.noun.laptops">
+      <segment>
+        <source>gally.product.noun.laptops</source>
+        <target>Laptop</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.gaming_laptops">
+      <segment>
+        <source>gally.product.noun.gaming_laptops</source>
+        <target>Gaming-Laptop</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.ultrabooks">
+      <segment>
+        <source>gally.product.noun.ultrabooks</source>
+        <target>Ultrabook</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.tablets">
+      <segment>
+        <source>gally.product.noun.tablets</source>
+        <target>Tablet</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.smartphones">
+      <segment>
+        <source>gally.product.noun.smartphones</source>
+        <target>Smartphone</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.monitors">
+      <segment>
+        <source>gally.product.noun.monitors</source>
+        <target>Monitor</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.keyboards">
+      <segment>
+        <source>gally.product.noun.keyboards</source>
+        <target>Tastatur</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.headphones">
+      <segment>
+        <source>gally.product.noun.headphones</source>
+        <target>Kopfhörer</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.speakers">
+      <segment>
+        <source>gally.product.noun.speakers</source>
+        <target>Lautsprecher</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.webcams">
+      <segment>
+        <source>gally.product.noun.webcams</source>
+        <target>Webcam</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.controllers">
+      <segment>
+        <source>gally.product.noun.controllers</source>
+        <target>Controller</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.earbuds">
+      <segment>
+        <source>gally.product.noun.earbuds</source>
+        <target>Ohrhörer</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.soundbars">
+      <segment>
+        <source>gally.product.noun.soundbars</source>
+        <target>Soundbar</target>
+      </segment>
+    </unit>
+
+    <!-- Nouns: home & garden -->
+    <unit id="gally.product.noun.sofas">
+      <segment>
+        <source>gally.product.noun.sofas</source>
+        <target>Sofa</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.beds">
+      <segment>
+        <source>gally.product.noun.beds</source>
+        <target>Bett</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.desks">
+      <segment>
+        <source>gally.product.noun.desks</source>
+        <target>Schreibtisch</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.mattresses">
+      <segment>
+        <source>gally.product.noun.mattresses</source>
+        <target>Matratze</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.rugs">
+      <segment>
+        <source>gally.product.noun.rugs</source>
+        <target>Teppich</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.curtains">
+      <segment>
+        <source>gally.product.noun.curtains</source>
+        <target>Vorhänge</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.lamps">
+      <segment>
+        <source>gally.product.noun.lamps</source>
+        <target>Lampe</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.table_lamps">
+      <segment>
+        <source>gally.product.noun.table_lamps</source>
+        <target>Tischlampe</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.floor_lamps">
+      <segment>
+        <source>gally.product.noun.floor_lamps</source>
+        <target>Stehlampe</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.pots_pans">
+      <segment>
+        <source>gally.product.noun.pots_pans</source>
+        <target>Topf- &amp; Pfannen-Set</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.knives">
+      <segment>
+        <source>gally.product.noun.knives</source>
+        <target>Messer</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.coffee_makers">
+      <segment>
+        <source>gally.product.noun.coffee_makers</source>
+        <target>Kaffeemaschine</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.planters">
+      <segment>
+        <source>gally.product.noun.planters</source>
+        <target>Blumentopf</target>
+      </segment>
+    </unit>
+
+    <!-- Nouns: sports -->
+    <unit id="gally.product.noun.backpacks">
+      <segment>
+        <source>gally.product.noun.backpacks</source>
+        <target>Rucksack</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.tents">
+      <segment>
+        <source>gally.product.noun.tents</source>
+        <target>Zelt</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.sleeping_bags">
+      <segment>
+        <source>gally.product.noun.sleeping_bags</source>
+        <target>Schlafsack</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.treadmills">
+      <segment>
+        <source>gally.product.noun.treadmills</source>
+        <target>Laufband</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.dumbbells">
+      <segment>
+        <source>gally.product.noun.dumbbells</source>
+        <target>Hanteln</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.mats">
+      <segment>
+        <source>gally.product.noun.mats</source>
+        <target>Matte</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.bikes">
+      <segment>
+        <source>gally.product.noun.bikes</source>
+        <target>Fahrrad</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.helmets">
+      <segment>
+        <source>gally.product.noun.helmets</source>
+        <target>Helm</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.skis">
+      <segment>
+        <source>gally.product.noun.skis</source>
+        <target>Ski</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.balls">
+      <segment>
+        <source>gally.product.noun.balls</source>
+        <target>Ball</target>
+      </segment>
+    </unit>
+
+    <!-- Nouns: culture -->
+    <unit id="gally.product.noun.mystery">
+      <segment>
+        <source>gally.product.noun.mystery</source>
+        <target>Krimi</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.scifi">
+      <segment>
+        <source>gally.product.noun.scifi</source>
+        <target>Science-Fiction-Roman</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.biography">
+      <segment>
+        <source>gally.product.noun.biography</source>
+        <target>Biografie</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.guitars">
+      <segment>
+        <source>gally.product.noun.guitars</source>
+        <target>Gitarre</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.keyboards_instruments">
+      <segment>
+        <source>gally.product.noun.keyboards_instruments</source>
+        <target>Keyboard</target>
+      </segment>
+    </unit>
+    <unit id="gally.product.noun.vinyl_records">
+      <segment>
+        <source>gally.product.noun.vinyl_records</source>
+        <target>Schallplatte</target>
+      </segment>
+    </unit>
+
+    <!-- Fallback -->
+    <unit id="gally.product.noun.default">
+      <segment>
+        <source>gally.product.noun.default</source>
+        <target>Produkt</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
