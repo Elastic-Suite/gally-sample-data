@@ -1,0 +1,2838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en-US" trgLang="de-DE">
+  <file id="categories.de">
+    <unit id="gally.category.root">
+      <segment>
+        <source>gally.category.root</source>
+        <target>Wurzel</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.sales_promotions">
+      <segment>
+        <source>gally.category.sales_promotions</source>
+        <target>Aktionen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.new_arrivals">
+      <segment>
+        <source>gally.category.new_arrivals</source>
+        <target>Neuheiten</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.seasonal">
+      <segment>
+        <source>gally.category.seasonal</source>
+        <target>Saisonal</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.fashion">
+      <segment>
+        <source>gally.category.fashion</source>
+        <target>Mode</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.men">
+      <segment>
+        <source>gally.category.men</source>
+        <target>Herren</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.women">
+      <segment>
+        <source>gally.category.women</source>
+        <target>Damen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.kids">
+      <segment>
+        <source>gally.category.kids</source>
+        <target>Kinder</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.clothing">
+      <segment>
+        <source>gally.category.clothing</source>
+        <target>Kleidung</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.shoes">
+      <segment>
+        <source>gally.category.shoes</source>
+        <target>Schuhe</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.accessories">
+      <segment>
+        <source>gally.category.accessories</source>
+        <target>Zubehör</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.tshirts">
+      <segment>
+        <source>gally.category.tshirts</source>
+        <target>T-Shirts</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.pants">
+      <segment>
+        <source>gally.category.pants</source>
+        <target>Hosen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.jackets">
+      <segment>
+        <source>gally.category.jackets</source>
+        <target>Jacken</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.sweaters">
+      <segment>
+        <source>gally.category.sweaters</source>
+        <target>Pullover</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.suits">
+      <segment>
+        <source>gally.category.suits</source>
+        <target>Anzüge</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.casual">
+      <segment>
+        <source>gally.category.casual</source>
+        <target>Casual</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.formal">
+      <segment>
+        <source>gally.category.formal</source>
+        <target>Formell</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.sportswear">
+      <segment>
+        <source>gally.category.sportswear</source>
+        <target>Sportbekleidung</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.sneakers">
+      <segment>
+        <source>gally.category.sneakers</source>
+        <target>Sneakers</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.boots">
+      <segment>
+        <source>gally.category.boots</source>
+        <target>Stiefel</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.dress_shoes">
+      <segment>
+        <source>gally.category.dress_shoes</source>
+        <target>Elegante Schuhe</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.sandals">
+      <segment>
+        <source>gally.category.sandals</source>
+        <target>Sandalen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.slippers">
+      <segment>
+        <source>gally.category.slippers</source>
+        <target>Hausschuhe</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.watches">
+      <segment>
+        <source>gally.category.watches</source>
+        <target>Uhren</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.belts">
+      <segment>
+        <source>gally.category.belts</source>
+        <target>Gürtel</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.wallets">
+      <segment>
+        <source>gally.category.wallets</source>
+        <target>Geldbörsen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.ties">
+      <segment>
+        <source>gally.category.ties</source>
+        <target>Krawatten</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.cufflinks">
+      <segment>
+        <source>gally.category.cufflinks</source>
+        <target>Manschettenknöpfe</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.dresses">
+      <segment>
+        <source>gally.category.dresses</source>
+        <target>Kleider</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.skirts">
+      <segment>
+        <source>gally.category.skirts</source>
+        <target>Röcke</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.blouses">
+      <segment>
+        <source>gally.category.blouses</source>
+        <target>Blusen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.evening_wear">
+      <segment>
+        <source>gally.category.evening_wear</source>
+        <target>Abendgarderobe</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.heels">
+      <segment>
+        <source>gally.category.heels</source>
+        <target>Absatzschuhe</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.flats">
+      <segment>
+        <source>gally.category.flats</source>
+        <target>Flache Schuhe</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.jewelry">
+      <segment>
+        <source>gally.category.jewelry</source>
+        <target>Schmuck</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.handbags">
+      <segment>
+        <source>gally.category.handbags</source>
+        <target>Handtaschen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.scarves">
+      <segment>
+        <source>gally.category.scarves</source>
+        <target>Schals</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.sunglasses">
+      <segment>
+        <source>gally.category.sunglasses</source>
+        <target>Sonnenbrillen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.boys">
+      <segment>
+        <source>gally.category.boys</source>
+        <target>Jungen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.girls">
+      <segment>
+        <source>gally.category.girls</source>
+        <target>Mädchen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.babies">
+      <segment>
+        <source>gally.category.babies</source>
+        <target>Babys</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.school_uniforms">
+      <segment>
+        <source>gally.category.school_uniforms</source>
+        <target>Schuluniformen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.tops">
+      <segment>
+        <source>gally.category.tops</source>
+        <target>Oberteile</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.bottoms">
+      <segment>
+        <source>gally.category.bottoms</source>
+        <target>Unterteile</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.outerwear">
+      <segment>
+        <source>gally.category.outerwear</source>
+        <target>Oberbekleidung</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.bodysuits">
+      <segment>
+        <source>gally.category.bodysuits</source>
+        <target>Bodys</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.sleepwear">
+      <segment>
+        <source>gally.category.sleepwear</source>
+        <target>Schlafanzüge</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.shirts">
+      <segment>
+        <source>gally.category.shirts</source>
+        <target>Hemden</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.electronics">
+      <segment>
+        <source>gally.category.electronics</source>
+        <target>Elektronik</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.computers">
+      <segment>
+        <source>gally.category.computers</source>
+        <target>Computer</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.laptops">
+      <segment>
+        <source>gally.category.laptops</source>
+        <target>Laptops</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.gaming_laptops">
+      <segment>
+        <source>gally.category.gaming_laptops</source>
+        <target>Gaming-Laptops</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.business_laptops">
+      <segment>
+        <source>gally.category.business_laptops</source>
+        <target>Business-Laptops</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.ultrabooks">
+      <segment>
+        <source>gally.category.ultrabooks</source>
+        <target>Ultrabooks</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.chromebooks">
+      <segment>
+        <source>gally.category.chromebooks</source>
+        <target>Chromebooks</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.desktops">
+      <segment>
+        <source>gally.category.desktops</source>
+        <target>Desktop-PCs</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.gaming_pcs">
+      <segment>
+        <source>gally.category.gaming_pcs</source>
+        <target>Gaming-PCs</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.workstations">
+      <segment>
+        <source>gally.category.workstations</source>
+        <target>Workstations</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.all_in_one">
+      <segment>
+        <source>gally.category.all_in_one</source>
+        <target>All-in-One</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.mini_pcs">
+      <segment>
+        <source>gally.category.mini_pcs</source>
+        <target>Mini-PCs</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.tablets">
+      <segment>
+        <source>gally.category.tablets</source>
+        <target>Tablets</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.android_tablets">
+      <segment>
+        <source>gally.category.android_tablets</source>
+        <target>Android-Tablets</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.ipads">
+      <segment>
+        <source>gally.category.ipads</source>
+        <target>iPads</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.windows_tablets">
+      <segment>
+        <source>gally.category.windows_tablets</source>
+        <target>Windows-Tablets</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.monitors">
+      <segment>
+        <source>gally.category.monitors</source>
+        <target>Monitore</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.keyboards">
+      <segment>
+        <source>gally.category.keyboards</source>
+        <target>Tastaturen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.mice">
+      <segment>
+        <source>gally.category.mice</source>
+        <target>Mäuse</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.webcams">
+      <segment>
+        <source>gally.category.webcams</source>
+        <target>Webcams</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.docking_stations">
+      <segment>
+        <source>gally.category.docking_stations</source>
+        <target>Dockingstationen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.phones">
+      <segment>
+        <source>gally.category.phones</source>
+        <target>Telefone</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.smartphones">
+      <segment>
+        <source>gally.category.smartphones</source>
+        <target>Smartphones</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.android">
+      <segment>
+        <source>gally.category.android</source>
+        <target>Android</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.iphones">
+      <segment>
+        <source>gally.category.iphones</source>
+        <target>iPhones</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.budget_phones">
+      <segment>
+        <source>gally.category.budget_phones</source>
+        <target>Günstige Handys</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.flagship_phones">
+      <segment>
+        <source>gally.category.flagship_phones</source>
+        <target>Flaggschiff-Handys</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.feature_phones">
+      <segment>
+        <source>gally.category.feature_phones</source>
+        <target>Einfache Handys</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.basic_phones">
+      <segment>
+        <source>gally.category.basic_phones</source>
+        <target>Basishandys</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.senior_phones">
+      <segment>
+        <source>gally.category.senior_phones</source>
+        <target>Senioren-Handys</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.cases">
+      <segment>
+        <source>gally.category.cases</source>
+        <target>Hüllen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.screen_protectors">
+      <segment>
+        <source>gally.category.screen_protectors</source>
+        <target>Displayschutzfolien</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.chargers">
+      <segment>
+        <source>gally.category.chargers</source>
+        <target>Ladegeräte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.audio">
+      <segment>
+        <source>gally.category.audio</source>
+        <target>Audio</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.headphones">
+      <segment>
+        <source>gally.category.headphones</source>
+        <target>Kopfhörer</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.wireless">
+      <segment>
+        <source>gally.category.wireless</source>
+        <target>Kabellos</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.wired">
+      <segment>
+        <source>gally.category.wired</source>
+        <target>Kabelgebunden</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.gaming_headsets">
+      <segment>
+        <source>gally.category.gaming_headsets</source>
+        <target>Gaming-Headsets</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.earbuds">
+      <segment>
+        <source>gally.category.earbuds</source>
+        <target>Ohrhörer</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.speakers">
+      <segment>
+        <source>gally.category.speakers</source>
+        <target>Lautsprecher</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.bluetooth_speakers">
+      <segment>
+        <source>gally.category.bluetooth_speakers</source>
+        <target>Bluetooth-Lautsprecher</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.smart_speakers">
+      <segment>
+        <source>gally.category.smart_speakers</source>
+        <target>Smart-Lautsprecher</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.soundbars">
+      <segment>
+        <source>gally.category.soundbars</source>
+        <target>Soundbars</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.home_theater">
+      <segment>
+        <source>gally.category.home_theater</source>
+        <target>Heimkino</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.portable">
+      <segment>
+        <source>gally.category.portable</source>
+        <target>Tragbar</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.mp3_players">
+      <segment>
+        <source>gally.category.mp3_players</source>
+        <target>MP3-Player</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.portable_speakers">
+      <segment>
+        <source>gally.category.portable_speakers</source>
+        <target>Tragbare Lautsprecher</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.gaming">
+      <segment>
+        <source>gally.category.gaming</source>
+        <target>Gaming</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.consoles">
+      <segment>
+        <source>gally.category.consoles</source>
+        <target>Konsolen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.playstation">
+      <segment>
+        <source>gally.category.playstation</source>
+        <target>PlayStation</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.xbox">
+      <segment>
+        <source>gally.category.xbox</source>
+        <target>Xbox</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.nintendo">
+      <segment>
+        <source>gally.category.nintendo</source>
+        <target>Nintendo</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.handheld">
+      <segment>
+        <source>gally.category.handheld</source>
+        <target>Handheld-Konsole</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.games">
+      <segment>
+        <source>gally.category.games</source>
+        <target>Spiele</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.action">
+      <segment>
+        <source>gally.category.action</source>
+        <target>Action</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.adventure">
+      <segment>
+        <source>gally.category.adventure</source>
+        <target>Abenteuer</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.racing">
+      <segment>
+        <source>gally.category.racing</source>
+        <target>Rennspiele</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.rpg">
+      <segment>
+        <source>gally.category.rpg</source>
+        <target>Rollenspiele</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.controllers">
+      <segment>
+        <source>gally.category.controllers</source>
+        <target>Controller</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.vr_headsets">
+      <segment>
+        <source>gally.category.vr_headsets</source>
+        <target>VR-Brillen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.gaming_chairs">
+      <segment>
+        <source>gally.category.gaming_chairs</source>
+        <target>Gaming-Stühle</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.capture_cards">
+      <segment>
+        <source>gally.category.capture_cards</source>
+        <target>Capture-Karten</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.home_garden">
+      <segment>
+        <source>gally.category.home_garden</source>
+        <target>Haus &amp; Garten</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.furniture">
+      <segment>
+        <source>gally.category.furniture</source>
+        <target>Möbel</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.living_room">
+      <segment>
+        <source>gally.category.living_room</source>
+        <target>Wohnzimmer</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.sofas">
+      <segment>
+        <source>gally.category.sofas</source>
+        <target>Sofas</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.armchairs">
+      <segment>
+        <source>gally.category.armchairs</source>
+        <target>Sessel</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.coffee_tables">
+      <segment>
+        <source>gally.category.coffee_tables</source>
+        <target>Couchtische</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.tv_stands">
+      <segment>
+        <source>gally.category.tv_stands</source>
+        <target>TV-Schränke</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.bookcases">
+      <segment>
+        <source>gally.category.bookcases</source>
+        <target>Bücherregale</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.bedroom">
+      <segment>
+        <source>gally.category.bedroom</source>
+        <target>Schlafzimmer</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.beds">
+      <segment>
+        <source>gally.category.beds</source>
+        <target>Betten</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.mattresses">
+      <segment>
+        <source>gally.category.mattresses</source>
+        <target>Matratzen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.nightstands">
+      <segment>
+        <source>gally.category.nightstands</source>
+        <target>Nachttische</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.dressers">
+      <segment>
+        <source>gally.category.dressers</source>
+        <target>Kommoden</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.wardrobes">
+      <segment>
+        <source>gally.category.wardrobes</source>
+        <target>Kleiderschränke</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.office">
+      <segment>
+        <source>gally.category.office</source>
+        <target>Büro</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.desks">
+      <segment>
+        <source>gally.category.desks</source>
+        <target>Schreibtische</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.office_chairs">
+      <segment>
+        <source>gally.category.office_chairs</source>
+        <target>Bürostühle</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.filing_cabinets">
+      <segment>
+        <source>gally.category.filing_cabinets</source>
+        <target>Aktenschränke</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.shelving">
+      <segment>
+        <source>gally.category.shelving</source>
+        <target>Regale</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.outdoor">
+      <segment>
+        <source>gally.category.outdoor</source>
+        <target>Draußen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.patio_furniture">
+      <segment>
+        <source>gally.category.patio_furniture</source>
+        <target>Terrassenmöbel</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.garden_benches">
+      <segment>
+        <source>gally.category.garden_benches</source>
+        <target>Gartenbänke</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.hammocks">
+      <segment>
+        <source>gally.category.hammocks</source>
+        <target>Hängematten</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.kitchen">
+      <segment>
+        <source>gally.category.kitchen</source>
+        <target>Küche</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.appliances">
+      <segment>
+        <source>gally.category.appliances</source>
+        <target>Geräte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.refrigerators">
+      <segment>
+        <source>gally.category.refrigerators</source>
+        <target>Kühlschränke</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.ovens">
+      <segment>
+        <source>gally.category.ovens</source>
+        <target>Öfen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.microwaves">
+      <segment>
+        <source>gally.category.microwaves</source>
+        <target>Mikrowellen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.dishwashers">
+      <segment>
+        <source>gally.category.dishwashers</source>
+        <target>Geschirrspüler</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.coffee_makers">
+      <segment>
+        <source>gally.category.coffee_makers</source>
+        <target>Kaffeemaschinen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.cookware">
+      <segment>
+        <source>gally.category.cookware</source>
+        <target>Kochgeschirr</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.pots_pans">
+      <segment>
+        <source>gally.category.pots_pans</source>
+        <target>Töpfe und Pfannen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.bakeware">
+      <segment>
+        <source>gally.category.bakeware</source>
+        <target>Backgeschirr</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.knives">
+      <segment>
+        <source>gally.category.knives</source>
+        <target>Messer</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.cutting_boards">
+      <segment>
+        <source>gally.category.cutting_boards</source>
+        <target>Schneidbretter</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.utensils">
+      <segment>
+        <source>gally.category.utensils</source>
+        <target>Utensilien</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.spatulas">
+      <segment>
+        <source>gally.category.spatulas</source>
+        <target>Spatel</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.whisks">
+      <segment>
+        <source>gally.category.whisks</source>
+        <target>Schneebesen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.measuring_cups">
+      <segment>
+        <source>gally.category.measuring_cups</source>
+        <target>Messbecher</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.graters">
+      <segment>
+        <source>gally.category.graters</source>
+        <target>Reiben</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.storage">
+      <segment>
+        <source>gally.category.storage</source>
+        <target>Aufbewahrung</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.containers">
+      <segment>
+        <source>gally.category.containers</source>
+        <target>Behälter</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.jars">
+      <segment>
+        <source>gally.category.jars</source>
+        <target>Gläser</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.organizers">
+      <segment>
+        <source>gally.category.organizers</source>
+        <target>Organizer</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.decoration">
+      <segment>
+        <source>gally.category.decoration</source>
+        <target>Dekoration</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.wall_art">
+      <segment>
+        <source>gally.category.wall_art</source>
+        <target>Wandkunst</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.paintings">
+      <segment>
+        <source>gally.category.paintings</source>
+        <target>Gemälde</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.prints">
+      <segment>
+        <source>gally.category.prints</source>
+        <target>Drucke</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.posters">
+      <segment>
+        <source>gally.category.posters</source>
+        <target>Poster</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.mirrors">
+      <segment>
+        <source>gally.category.mirrors</source>
+        <target>Spiegel</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.lighting">
+      <segment>
+        <source>gally.category.lighting</source>
+        <target>Beleuchtung</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.ceiling_lights">
+      <segment>
+        <source>gally.category.ceiling_lights</source>
+        <target>Deckenleuchten</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.table_lamps">
+      <segment>
+        <source>gally.category.table_lamps</source>
+        <target>Tischlampen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.floor_lamps">
+      <segment>
+        <source>gally.category.floor_lamps</source>
+        <target>Stehlampen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.smart_bulbs">
+      <segment>
+        <source>gally.category.smart_bulbs</source>
+        <target>Smart-Leuchtmittel</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.textiles">
+      <segment>
+        <source>gally.category.textiles</source>
+        <target>Textilien</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.rugs">
+      <segment>
+        <source>gally.category.rugs</source>
+        <target>Teppiche</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.curtains">
+      <segment>
+        <source>gally.category.curtains</source>
+        <target>Vorhänge</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.cushions">
+      <segment>
+        <source>gally.category.cushions</source>
+        <target>Kissen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.throws">
+      <segment>
+        <source>gally.category.throws</source>
+        <target>Decken</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.garden">
+      <segment>
+        <source>gally.category.garden</source>
+        <target>Garten</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.tools">
+      <segment>
+        <source>gally.category.tools</source>
+        <target>Werkzeuge</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.hand_tools">
+      <segment>
+        <source>gally.category.hand_tools</source>
+        <target>Handwerkzeuge</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.power_tools">
+      <segment>
+        <source>gally.category.power_tools</source>
+        <target>Elektrowerkzeuge</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.watering_equipment">
+      <segment>
+        <source>gally.category.watering_equipment</source>
+        <target>Bewässerungsgeräte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.plants">
+      <segment>
+        <source>gally.category.plants</source>
+        <target>Pflanzen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.flowers">
+      <segment>
+        <source>gally.category.flowers</source>
+        <target>Blumen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.vegetables">
+      <segment>
+        <source>gally.category.vegetables</source>
+        <target>Gemüse</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.herbs">
+      <segment>
+        <source>gally.category.herbs</source>
+        <target>Kräuter</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.trees">
+      <segment>
+        <source>gally.category.trees</source>
+        <target>Bäume</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.indoor_plants">
+      <segment>
+        <source>gally.category.indoor_plants</source>
+        <target>Zimmerpflanzen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.bbq_grills">
+      <segment>
+        <source>gally.category.bbq_grills</source>
+        <target>Grills</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.fire_pits">
+      <segment>
+        <source>gally.category.fire_pits</source>
+        <target>Feuerstellen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.planters">
+      <segment>
+        <source>gally.category.planters</source>
+        <target>Pflanzgefäße</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.garden_decor">
+      <segment>
+        <source>gally.category.garden_decor</source>
+        <target>Gartendekoration</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.sports">
+      <segment>
+        <source>gally.category.sports</source>
+        <target>Sport</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.hiking">
+      <segment>
+        <source>gally.category.hiking</source>
+        <target>Wandern</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.backpacks">
+      <segment>
+        <source>gally.category.backpacks</source>
+        <target>Rucksäcke</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.tents">
+      <segment>
+        <source>gally.category.tents</source>
+        <target>Zelte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.sleeping_bags">
+      <segment>
+        <source>gally.category.sleeping_bags</source>
+        <target>Schlafsäcke</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.trekking_poles">
+      <segment>
+        <source>gally.category.trekking_poles</source>
+        <target>Wanderstöcke</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.camping">
+      <segment>
+        <source>gally.category.camping</source>
+        <target>Camping</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.camp_stoves">
+      <segment>
+        <source>gally.category.camp_stoves</source>
+        <target>Campingkocher</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.coolers">
+      <segment>
+        <source>gally.category.coolers</source>
+        <target>Kühlboxen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.cycling">
+      <segment>
+        <source>gally.category.cycling</source>
+        <target>Radfahren</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.bikes">
+      <segment>
+        <source>gally.category.bikes</source>
+        <target>Fahrräder</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.helmets">
+      <segment>
+        <source>gally.category.helmets</source>
+        <target>Helme</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.water_sports">
+      <segment>
+        <source>gally.category.water_sports</source>
+        <target>Wassersport</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.surfboards">
+      <segment>
+        <source>gally.category.surfboards</source>
+        <target>Surfbretter</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.kayaks">
+      <segment>
+        <source>gally.category.kayaks</source>
+        <target>Kajaks</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.life_jackets">
+      <segment>
+        <source>gally.category.life_jackets</source>
+        <target>Schwimmwesten</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.wetsuits">
+      <segment>
+        <source>gally.category.wetsuits</source>
+        <target>Neoprenanzüge</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.fitness">
+      <segment>
+        <source>gally.category.fitness</source>
+        <target>Fitness</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.cardio">
+      <segment>
+        <source>gally.category.cardio</source>
+        <target>Cardio</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.treadmills">
+      <segment>
+        <source>gally.category.treadmills</source>
+        <target>Laufbänder</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.exercise_bikes">
+      <segment>
+        <source>gally.category.exercise_bikes</source>
+        <target>Heimtrainer</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.ellipticals">
+      <segment>
+        <source>gally.category.ellipticals</source>
+        <target>Ellipsentrainer</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.rowing_machines">
+      <segment>
+        <source>gally.category.rowing_machines</source>
+        <target>Rudergeräte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.weights">
+      <segment>
+        <source>gally.category.weights</source>
+        <target>Gewichte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.dumbbells">
+      <segment>
+        <source>gally.category.dumbbells</source>
+        <target>Kurzhanteln</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.barbells">
+      <segment>
+        <source>gally.category.barbells</source>
+        <target>Langhantelstangen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.weight_benches">
+      <segment>
+        <source>gally.category.weight_benches</source>
+        <target>Gewichtsbänke</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.kettlebells">
+      <segment>
+        <source>gally.category.kettlebells</source>
+        <target>Kettlebells</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.yoga">
+      <segment>
+        <source>gally.category.yoga</source>
+        <target>Yoga</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.mats">
+      <segment>
+        <source>gally.category.mats</source>
+        <target>Sportmatten</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.blocks">
+      <segment>
+        <source>gally.category.blocks</source>
+        <target>Yogablöcke</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.straps">
+      <segment>
+        <source>gally.category.straps</source>
+        <target>Yogagurte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.meditation_cushions">
+      <segment>
+        <source>gally.category.meditation_cushions</source>
+        <target>Meditationskissen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.resistance_bands">
+      <segment>
+        <source>gally.category.resistance_bands</source>
+        <target>Widerstandsbänder</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.foam_rollers">
+      <segment>
+        <source>gally.category.foam_rollers</source>
+        <target>Schaumstoffrollen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.gym_bags">
+      <segment>
+        <source>gally.category.gym_bags</source>
+        <target>Sporttaschen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.team_sports">
+      <segment>
+        <source>gally.category.team_sports</source>
+        <target>Mannschaftssport</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.football">
+      <segment>
+        <source>gally.category.football</source>
+        <target>Fußball</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.balls">
+      <segment>
+        <source>gally.category.balls</source>
+        <target>Bälle</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.cleats">
+      <segment>
+        <source>gally.category.cleats</source>
+        <target>Stollen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.shin_guards">
+      <segment>
+        <source>gally.category.shin_guards</source>
+        <target>Schienbeinschoner</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.jerseys">
+      <segment>
+        <source>gally.category.jerseys</source>
+        <target>Trikots</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.basketball">
+      <segment>
+        <source>gally.category.basketball</source>
+        <target>Basketball</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.hoops">
+      <segment>
+        <source>gally.category.hoops</source>
+        <target>Körbe</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.baseball">
+      <segment>
+        <source>gally.category.baseball</source>
+        <target>Baseball</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.bats">
+      <segment>
+        <source>gally.category.bats</source>
+        <target>Schläger</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.gloves">
+      <segment>
+        <source>gally.category.gloves</source>
+        <target>Handschuhe</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.volleyball">
+      <segment>
+        <source>gally.category.volleyball</source>
+        <target>Volleyball</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.nets">
+      <segment>
+        <source>gally.category.nets</source>
+        <target>Netze</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.knee_pads">
+      <segment>
+        <source>gally.category.knee_pads</source>
+        <target>Knieschützer</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.winter_sports">
+      <segment>
+        <source>gally.category.winter_sports</source>
+        <target>Wintersport</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.skiing">
+      <segment>
+        <source>gally.category.skiing</source>
+        <target>Skifahren</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.skis">
+      <segment>
+        <source>gally.category.skis</source>
+        <target>Skier</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.poles">
+      <segment>
+        <source>gally.category.poles</source>
+        <target>Skistöcke</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.goggles">
+      <segment>
+        <source>gally.category.goggles</source>
+        <target>Skibrillen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.snowboarding">
+      <segment>
+        <source>gally.category.snowboarding</source>
+        <target>Snowboarden</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.boards">
+      <segment>
+        <source>gally.category.boards</source>
+        <target>Snowboards</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.bindings">
+      <segment>
+        <source>gally.category.bindings</source>
+        <target>Bindungen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.protective_gear">
+      <segment>
+        <source>gally.category.protective_gear</source>
+        <target>Schutzausrüstung</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.ice_skating">
+      <segment>
+        <source>gally.category.ice_skating</source>
+        <target>Eislaufen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.skates">
+      <segment>
+        <source>gally.category.skates</source>
+        <target>Schlittschuhe</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.culture">
+      <segment>
+        <source>gally.category.culture</source>
+        <target>Kultur &amp; Unterhaltung</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.culture_entertainment">
+      <segment>
+        <source>gally.category.culture_entertainment</source>
+        <target>Kultur &amp; Unterhaltung</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.books">
+      <segment>
+        <source>gally.category.books</source>
+        <target>Bücher</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.fiction">
+      <segment>
+        <source>gally.category.fiction</source>
+        <target>Belletristik</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.mystery">
+      <segment>
+        <source>gally.category.mystery</source>
+        <target>Krimi</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.romance">
+      <segment>
+        <source>gally.category.romance</source>
+        <target>Liebesromane</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.scifi">
+      <segment>
+        <source>gally.category.scifi</source>
+        <target>Science-Fiction</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.fantasy">
+      <segment>
+        <source>gally.category.fantasy</source>
+        <target>Fantasy</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.thriller">
+      <segment>
+        <source>gally.category.thriller</source>
+        <target>Thriller</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.classics">
+      <segment>
+        <source>gally.category.classics</source>
+        <target>Klassiker</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.non_fiction">
+      <segment>
+        <source>gally.category.non_fiction</source>
+        <target>Sachbücher</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.biography">
+      <segment>
+        <source>gally.category.biography</source>
+        <target>Biografien</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.history">
+      <segment>
+        <source>gally.category.history</source>
+        <target>Geschichte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.science">
+      <segment>
+        <source>gally.category.science</source>
+        <target>Wissenschaft</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.self_help">
+      <segment>
+        <source>gally.category.self_help</source>
+        <target>Selbsthilfe</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.cooking_books">
+      <segment>
+        <source>gally.category.cooking_books</source>
+        <target>Kochbücher</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.travel_books">
+      <segment>
+        <source>gally.category.travel_books</source>
+        <target>Reiseführer</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.children_books">
+      <segment>
+        <source>gally.category.children_books</source>
+        <target>Kinderbücher</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.comics">
+      <segment>
+        <source>gally.category.comics</source>
+        <target>Comics &amp; Graphic Novels</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.manga">
+      <segment>
+        <source>gally.category.manga</source>
+        <target>Manga</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.graphic_novels">
+      <segment>
+        <source>gally.category.graphic_novels</source>
+        <target>Graphic Novels</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.music">
+      <segment>
+        <source>gally.category.music</source>
+        <target>Musik</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.vinyl">
+      <segment>
+        <source>gally.category.vinyl</source>
+        <target>Schallplatten</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.cds">
+      <segment>
+        <source>gally.category.cds</source>
+        <target>CDs</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.instruments">
+      <segment>
+        <source>gally.category.instruments</source>
+        <target>Musikinstrumente</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.guitars">
+      <segment>
+        <source>gally.category.guitars</source>
+        <target>Gitarren</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.pianos">
+      <segment>
+        <source>gally.category.pianos</source>
+        <target>Klaviere</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.drums">
+      <segment>
+        <source>gally.category.drums</source>
+        <target>Schlagzeuge</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.violins">
+      <segment>
+        <source>gally.category.violins</source>
+        <target>Geigen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.flutes">
+      <segment>
+        <source>gally.category.flutes</source>
+        <target>Flöten</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.ukuleles">
+      <segment>
+        <source>gally.category.ukuleles</source>
+        <target>Ukulelen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.movies">
+      <segment>
+        <source>gally.category.movies</source>
+        <target>Filme</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.movies_tv">
+      <segment>
+        <source>gally.category.movies_tv</source>
+        <target>Filme &amp; Fernsehen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.dvds">
+      <segment>
+        <source>gally.category.dvds</source>
+        <target>DVDs</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.blu_rays">
+      <segment>
+        <source>gally.category.blu_rays</source>
+        <target>Blu-Rays</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.4k_ultra_hd">
+      <segment>
+        <source>gally.category.4k_ultra_hd</source>
+        <target>4K Ultra HD</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.merchandise">
+      <segment>
+        <source>gally.category.merchandise</source>
+        <target>Merchandise</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.collectibles">
+      <segment>
+        <source>gally.category.collectibles</source>
+        <target>Sammlerstücke</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.blu_ray">
+      <segment>
+        <source>gally.category.blu_ray</source>
+        <target>Blu-Ray</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.dvd">
+      <segment>
+        <source>gally.category.dvd</source>
+        <target>DVD</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.documentaries">
+      <segment>
+        <source>gally.category.documentaries</source>
+        <target>Dokumentarfilme</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.animation">
+      <segment>
+        <source>gally.category.animation</source>
+        <target>Animation</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.comedy">
+      <segment>
+        <source>gally.category.comedy</source>
+        <target>Komödie</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.drama">
+      <segment>
+        <source>gally.category.drama</source>
+        <target>Drama</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.horror">
+      <segment>
+        <source>gally.category.horror</source>
+        <target>Horror</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.board_games">
+      <segment>
+        <source>gally.category.board_games</source>
+        <target>Brettspiele</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.strategy_games">
+      <segment>
+        <source>gally.category.strategy_games</source>
+        <target>Strategiespiele</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.card_games">
+      <segment>
+        <source>gally.category.card_games</source>
+        <target>Kartenspiele</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.puzzles">
+      <segment>
+        <source>gally.category.puzzles</source>
+        <target>Rätsel</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.jigsaw_puzzles">
+      <segment>
+        <source>gally.category.jigsaw_puzzles</source>
+        <target>Puzzles</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.role_playing">
+      <segment>
+        <source>gally.category.role_playing</source>
+        <target>Rollenspiele</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.miniatures">
+      <segment>
+        <source>gally.category.miniatures</source>
+        <target>Miniaturen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.art_supplies">
+      <segment>
+        <source>gally.category.art_supplies</source>
+        <target>Kunstbedarf</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.painting_supplies">
+      <segment>
+        <source>gally.category.painting_supplies</source>
+        <target>Malzubehör</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.drawing">
+      <segment>
+        <source>gally.category.drawing</source>
+        <target>Zeichnen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.sculpting">
+      <segment>
+        <source>gally.category.sculpting</source>
+        <target>Bildhauerei</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.photography">
+      <segment>
+        <source>gally.category.photography</source>
+        <target>Fotografie</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.cameras">
+      <segment>
+        <source>gally.category.cameras</source>
+        <target>Kameras</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.dslr">
+      <segment>
+        <source>gally.category.dslr</source>
+        <target>DSLR-Kameras</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.mirrorless">
+      <segment>
+        <source>gally.category.mirrorless</source>
+        <target>Spiegellose Kameras</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.action_cameras">
+      <segment>
+        <source>gally.category.action_cameras</source>
+        <target>Action-Kameras</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.lenses">
+      <segment>
+        <source>gally.category.lenses</source>
+        <target>Objektive</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.tripods">
+      <segment>
+        <source>gally.category.tripods</source>
+        <target>Stative</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.camera_bags">
+      <segment>
+        <source>gally.category.camera_bags</source>
+        <target>Kameratranschen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.beauty_health">
+      <segment>
+        <source>gally.category.beauty_health</source>
+        <target>Schönheit &amp; Gesundheit</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.skincare">
+      <segment>
+        <source>gally.category.skincare</source>
+        <target>Hautpflege</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.moisturizers">
+      <segment>
+        <source>gally.category.moisturizers</source>
+        <target>Feuchtigkeitscremes</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.serums">
+      <segment>
+        <source>gally.category.serums</source>
+        <target>Seren</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.cleansers">
+      <segment>
+        <source>gally.category.cleansers</source>
+        <target>Reiniger</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.sunscreen">
+      <segment>
+        <source>gally.category.sunscreen</source>
+        <target>Sonnenschutzmittel</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.face_masks">
+      <segment>
+        <source>gally.category.face_masks</source>
+        <target>Gesichtsmasken</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.eye_cream">
+      <segment>
+        <source>gally.category.eye_cream</source>
+        <target>Augencreme</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.toners">
+      <segment>
+        <source>gally.category.toners</source>
+        <target>Toner</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.makeup">
+      <segment>
+        <source>gally.category.makeup</source>
+        <target>Make-up</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.foundation">
+      <segment>
+        <source>gally.category.foundation</source>
+        <target>Foundation</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.lipstick">
+      <segment>
+        <source>gally.category.lipstick</source>
+        <target>Lippenstift</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.mascara">
+      <segment>
+        <source>gally.category.mascara</source>
+        <target>Mascara</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.eyeshadow">
+      <segment>
+        <source>gally.category.eyeshadow</source>
+        <target>Lidschatten</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.blush">
+      <segment>
+        <source>gally.category.blush</source>
+        <target>Rouge</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.concealer">
+      <segment>
+        <source>gally.category.concealer</source>
+        <target>Concealer</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.nail_polish">
+      <segment>
+        <source>gally.category.nail_polish</source>
+        <target>Nagellack</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.haircare">
+      <segment>
+        <source>gally.category.haircare</source>
+        <target>Haarpflege</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.shampoo">
+      <segment>
+        <source>gally.category.shampoo</source>
+        <target>Shampoo</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.conditioner">
+      <segment>
+        <source>gally.category.conditioner</source>
+        <target>Conditioner</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.hair_masks">
+      <segment>
+        <source>gally.category.hair_masks</source>
+        <target>Haarmasken</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.hair_oils">
+      <segment>
+        <source>gally.category.hair_oils</source>
+        <target>Haaröle</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.hair_styling">
+      <segment>
+        <source>gally.category.hair_styling</source>
+        <target>Haarstyling</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.hair_dryers">
+      <segment>
+        <source>gally.category.hair_dryers</source>
+        <target>Haartrockner</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.straighteners">
+      <segment>
+        <source>gally.category.straighteners</source>
+        <target>Glätteisen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.curling_irons">
+      <segment>
+        <source>gally.category.curling_irons</source>
+        <target>Lockenstäbe</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.fragrances">
+      <segment>
+        <source>gally.category.fragrances</source>
+        <target>Düfte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.perfumes">
+      <segment>
+        <source>gally.category.perfumes</source>
+        <target>Parfüms</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.colognes">
+      <segment>
+        <source>gally.category.colognes</source>
+        <target>Kölnischwasser</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.body_care">
+      <segment>
+        <source>gally.category.body_care</source>
+        <target>Körperpflege</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.body_lotion">
+      <segment>
+        <source>gally.category.body_lotion</source>
+        <target>Körperlotion</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.body_wash">
+      <segment>
+        <source>gally.category.body_wash</source>
+        <target>Duschgel</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.deodorants">
+      <segment>
+        <source>gally.category.deodorants</source>
+        <target>Deodorants</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.bath_salts">
+      <segment>
+        <source>gally.category.bath_salts</source>
+        <target>Badesalze</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.oral_care">
+      <segment>
+        <source>gally.category.oral_care</source>
+        <target>Mundpflege</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.toothbrushes">
+      <segment>
+        <source>gally.category.toothbrushes</source>
+        <target>Zahnbürsten</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.toothpaste">
+      <segment>
+        <source>gally.category.toothpaste</source>
+        <target>Zahnpasta</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.mouthwash">
+      <segment>
+        <source>gally.category.mouthwash</source>
+        <target>Mundwasser</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.health">
+      <segment>
+        <source>gally.category.health</source>
+        <target>Gesundheit</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.vitamins">
+      <segment>
+        <source>gally.category.vitamins</source>
+        <target>Vitamine</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.supplements">
+      <segment>
+        <source>gally.category.supplements</source>
+        <target>Nahrungsergänzungsmittel</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.protein_powders">
+      <segment>
+        <source>gally.category.protein_powders</source>
+        <target>Proteinpulver</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.omega3">
+      <segment>
+        <source>gally.category.omega3</source>
+        <target>Omega-3</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.probiotics">
+      <segment>
+        <source>gally.category.probiotics</source>
+        <target>Probiotika</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.medical_devices">
+      <segment>
+        <source>gally.category.medical_devices</source>
+        <target>Medizingeräte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.blood_pressure_monitors">
+      <segment>
+        <source>gally.category.blood_pressure_monitors</source>
+        <target>Blutdruckmessgeräte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.thermometers">
+      <segment>
+        <source>gally.category.thermometers</source>
+        <target>Thermometer</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.pulse_oximeters">
+      <segment>
+        <source>gally.category.pulse_oximeters</source>
+        <target>Pulsoximeter</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.food_grocery">
+      <segment>
+        <source>gally.category.food_grocery</source>
+        <target>Lebensmittel</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.fresh_produce">
+      <segment>
+        <source>gally.category.fresh_produce</source>
+        <target>Frische Produkte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.fruits">
+      <segment>
+        <source>gally.category.fruits</source>
+        <target>Obst</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.citrus">
+      <segment>
+        <source>gally.category.citrus</source>
+        <target>Zitrusfrüchte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.berries">
+      <segment>
+        <source>gally.category.berries</source>
+        <target>Beeren</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.tropical_fruits">
+      <segment>
+        <source>gally.category.tropical_fruits</source>
+        <target>Tropische Früchte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.dairy">
+      <segment>
+        <source>gally.category.dairy</source>
+        <target>Milchprodukte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.milk">
+      <segment>
+        <source>gally.category.milk</source>
+        <target>Milch</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.cheese">
+      <segment>
+        <source>gally.category.cheese</source>
+        <target>Käse</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.yogurt">
+      <segment>
+        <source>gally.category.yogurt</source>
+        <target>Joghurt</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.butter">
+      <segment>
+        <source>gally.category.butter</source>
+        <target>Butter</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.eggs">
+      <segment>
+        <source>gally.category.eggs</source>
+        <target>Eier</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.meat">
+      <segment>
+        <source>gally.category.meat</source>
+        <target>Fleisch</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.beef">
+      <segment>
+        <source>gally.category.beef</source>
+        <target>Rindfleisch</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.chicken">
+      <segment>
+        <source>gally.category.chicken</source>
+        <target>Hähnchen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.pork">
+      <segment>
+        <source>gally.category.pork</source>
+        <target>Schweinefleisch</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.lamb">
+      <segment>
+        <source>gally.category.lamb</source>
+        <target>Lammfleisch</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.seafood">
+      <segment>
+        <source>gally.category.seafood</source>
+        <target>Meeresfrüchte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.fish">
+      <segment>
+        <source>gally.category.fish</source>
+        <target>Fisch</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.shrimp">
+      <segment>
+        <source>gally.category.shrimp</source>
+        <target>Garnelen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.bakery">
+      <segment>
+        <source>gally.category.bakery</source>
+        <target>Bäckerei</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.bread">
+      <segment>
+        <source>gally.category.bread</source>
+        <target>Brot</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.pastries">
+      <segment>
+        <source>gally.category.pastries</source>
+        <target>Gebäck</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.cakes">
+      <segment>
+        <source>gally.category.cakes</source>
+        <target>Kuchen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.beverages">
+      <segment>
+        <source>gally.category.beverages</source>
+        <target>Getränke</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.water">
+      <segment>
+        <source>gally.category.water</source>
+        <target>Wasser</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.juices">
+      <segment>
+        <source>gally.category.juices</source>
+        <target>Säfte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.sodas">
+      <segment>
+        <source>gally.category.sodas</source>
+        <target>Limonaden</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.coffee">
+      <segment>
+        <source>gally.category.coffee</source>
+        <target>Kaffee</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.tea">
+      <segment>
+        <source>gally.category.tea</source>
+        <target>Tee</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.energy_drinks">
+      <segment>
+        <source>gally.category.energy_drinks</source>
+        <target>Energydrinks</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.snacks">
+      <segment>
+        <source>gally.category.snacks</source>
+        <target>Snacks</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.chips">
+      <segment>
+        <source>gally.category.chips</source>
+        <target>Chips</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.crackers">
+      <segment>
+        <source>gally.category.crackers</source>
+        <target>Cracker</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.nuts">
+      <segment>
+        <source>gally.category.nuts</source>
+        <target>Nüsse</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.dried_fruits">
+      <segment>
+        <source>gally.category.dried_fruits</source>
+        <target>Trockenfrüchte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.chocolate">
+      <segment>
+        <source>gally.category.chocolate</source>
+        <target>Schokolade</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.candy">
+      <segment>
+        <source>gally.category.candy</source>
+        <target>Süßigkeiten</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.frozen_foods">
+      <segment>
+        <source>gally.category.frozen_foods</source>
+        <target>Tiefkühlkost</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.frozen_meals">
+      <segment>
+        <source>gally.category.frozen_meals</source>
+        <target>Tiefkühlgerichte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.ice_cream">
+      <segment>
+        <source>gally.category.ice_cream</source>
+        <target>Eis</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.frozen_vegetables">
+      <segment>
+        <source>gally.category.frozen_vegetables</source>
+        <target>Tiefkühlgemüse</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.pantry">
+      <segment>
+        <source>gally.category.pantry</source>
+        <target>Vorratskammer</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.pasta">
+      <segment>
+        <source>gally.category.pasta</source>
+        <target>Nudeln</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.rice">
+      <segment>
+        <source>gally.category.rice</source>
+        <target>Reis</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.cereals">
+      <segment>
+        <source>gally.category.cereals</source>
+        <target>Müsli</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.sauces">
+      <segment>
+        <source>gally.category.sauces</source>
+        <target>Saucen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.condiments">
+      <segment>
+        <source>gally.category.condiments</source>
+        <target>Gewürze</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.spices">
+      <segment>
+        <source>gally.category.spices</source>
+        <target>Gewürze</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.oils_vinegars">
+      <segment>
+        <source>gally.category.oils_vinegars</source>
+        <target>Öle &amp; Essige</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.canned_goods">
+      <segment>
+        <source>gally.category.canned_goods</source>
+        <target>Konserven</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.soups">
+      <segment>
+        <source>gally.category.soups</source>
+        <target>Suppen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.organic">
+      <segment>
+        <source>gally.category.organic</source>
+        <target>Bio</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.vegan">
+      <segment>
+        <source>gally.category.vegan</source>
+        <target>Vegan</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.gluten_free">
+      <segment>
+        <source>gally.category.gluten_free</source>
+        <target>Glutenfrei</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.toys_baby">
+      <segment>
+        <source>gally.category.toys_baby</source>
+        <target>Spielzeug &amp; Baby</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.toys">
+      <segment>
+        <source>gally.category.toys</source>
+        <target>Spielzeug</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.action_figures">
+      <segment>
+        <source>gally.category.action_figures</source>
+        <target>Actionfiguren</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.dolls">
+      <segment>
+        <source>gally.category.dolls</source>
+        <target>Puppen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.stuffed_animals">
+      <segment>
+        <source>gally.category.stuffed_animals</source>
+        <target>Kuscheltiere</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.building_blocks">
+      <segment>
+        <source>gally.category.building_blocks</source>
+        <target>Bausteine</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.lego">
+      <segment>
+        <source>gally.category.lego</source>
+        <target>Lego</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.remote_control">
+      <segment>
+        <source>gally.category.remote_control</source>
+        <target>Ferngesteuert</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.rc_cars">
+      <segment>
+        <source>gally.category.rc_cars</source>
+        <target>RC-Autos</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.rc_drones">
+      <segment>
+        <source>gally.category.rc_drones</source>
+        <target>RC-Drohnen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.educational_toys">
+      <segment>
+        <source>gally.category.educational_toys</source>
+        <target>Lernspielzeug</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.science_kits">
+      <segment>
+        <source>gally.category.science_kits</source>
+        <target>Wissenschaftskits</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.outdoor_toys">
+      <segment>
+        <source>gally.category.outdoor_toys</source>
+        <target>Outdoor-Spielzeug</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.trampolines">
+      <segment>
+        <source>gally.category.trampolines</source>
+        <target>Trampoline</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.swing_sets">
+      <segment>
+        <source>gally.category.swing_sets</source>
+        <target>Schaukelsets</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.baby">
+      <segment>
+        <source>gally.category.baby</source>
+        <target>Baby</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.strollers">
+      <segment>
+        <source>gally.category.strollers</source>
+        <target>Kinderwagen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.car_seats">
+      <segment>
+        <source>gally.category.car_seats</source>
+        <target>Autositze</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.baby_monitors">
+      <segment>
+        <source>gally.category.baby_monitors</source>
+        <target>Babyphones</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.cribs">
+      <segment>
+        <source>gally.category.cribs</source>
+        <target>Babybetten</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.diapers">
+      <segment>
+        <source>gally.category.diapers</source>
+        <target>Windeln</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.baby_food">
+      <segment>
+        <source>gally.category.baby_food</source>
+        <target>Babynahrung</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.feeding">
+      <segment>
+        <source>gally.category.feeding</source>
+        <target>Füttern</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.bottles">
+      <segment>
+        <source>gally.category.bottles</source>
+        <target>Flaschen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.pacifiers">
+      <segment>
+        <source>gally.category.pacifiers</source>
+        <target>Schnuller</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.automotive">
+      <segment>
+        <source>gally.category.automotive</source>
+        <target>Automobil</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.car_accessories">
+      <segment>
+        <source>gally.category.car_accessories</source>
+        <target>Auto-Zubehör</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.car_audio">
+      <segment>
+        <source>gally.category.car_audio</source>
+        <target>Autoradio</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.car_speakers">
+      <segment>
+        <source>gally.category.car_speakers</source>
+        <target>Auto-Lautsprecher</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.dash_cams">
+      <segment>
+        <source>gally.category.dash_cams</source>
+        <target>Dashcams</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.gps_navigation">
+      <segment>
+        <source>gally.category.gps_navigation</source>
+        <target>GPS-Navigation</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.car_care">
+      <segment>
+        <source>gally.category.car_care</source>
+        <target>Autopflege</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.car_wash">
+      <segment>
+        <source>gally.category.car_wash</source>
+        <target>Autowäsche</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.waxing">
+      <segment>
+        <source>gally.category.waxing</source>
+        <target>Autowachs</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.car_parts">
+      <segment>
+        <source>gally.category.car_parts</source>
+        <target>Autoteile</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.tires">
+      <segment>
+        <source>gally.category.tires</source>
+        <target>Reifen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.wheels">
+      <segment>
+        <source>gally.category.wheels</source>
+        <target>Felgen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.brake_pads">
+      <segment>
+        <source>gally.category.brake_pads</source>
+        <target>Bremsbeläge</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.oil_filters">
+      <segment>
+        <source>gally.category.oil_filters</source>
+        <target>Ölfilter</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.batteries">
+      <segment>
+        <source>gally.category.batteries</source>
+        <target>Batterien</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.motor_oil">
+      <segment>
+        <source>gally.category.motor_oil</source>
+        <target>Motoröl</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.electric_vehicles">
+      <segment>
+        <source>gally.category.electric_vehicles</source>
+        <target>Elektrofahrzeuge</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.ev_chargers">
+      <segment>
+        <source>gally.category.ev_chargers</source>
+        <target>Ladestationen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.ev_accessories">
+      <segment>
+        <source>gally.category.ev_accessories</source>
+        <target>EV-Zubehör</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.motorcycles">
+      <segment>
+        <source>gally.category.motorcycles</source>
+        <target>Motorräder</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.motorcycle_helmets">
+      <segment>
+        <source>gally.category.motorcycle_helmets</source>
+        <target>Motorradhelme</target>
+      </segment>
+    </unit>
+    <!-- Unités conservées (absentes de EN) -->
+    <unit id="gally.category.sales">
+      <segment>
+        <source>gally.category.sales</source>
+        <target>Sale &amp; Aktionen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.new_arrivals">
+      <segment>
+        <source>gally.category.new_arrivals</source>
+        <target>Neuheiten</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.bags">
+      <segment>
+        <source>gally.category.bags</source>
+        <target>Taschen</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.hats">
+      <segment>
+        <source>gally.category.hats</source>
+        <target>Hüte</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.outdoor_furniture">
+      <segment>
+        <source>gally.category.outdoor_furniture</source>
+        <target>Gartenmöbel</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.bbq">
+      <segment>
+        <source>gally.category.bbq</source>
+        <target>Grill</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.dvds">
+      <segment>
+        <source>gally.category.dvds</source>
+        <target>DVDs &amp; Blu-rays</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.merchandise">
+      <segment>
+        <source>gally.category.merchandise</source>
+        <target>Merchandise</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.clearance">
+      <segment>
+        <source>gally.category.clearance</source>
+        <target>Räumungsverkauf</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.seasonal_sales">
+      <segment>
+        <source>gally.category.seasonal_sales</source>
+        <target>Saisonale Angebote</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.this_week">
+      <segment>
+        <source>gally.category.this_week</source>
+        <target>Diese Woche</target>
+      </segment>
+    </unit>
+    <unit id="gally.category.this_month">
+      <segment>
+        <source>gally.category.this_month</source>
+        <target>Diesen Monat</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
