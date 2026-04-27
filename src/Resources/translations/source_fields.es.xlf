@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en-US" trgLang="es-ES">
+  <file id="source_fields.es">
+    <unit id="gally.source_field.brand"><segment><source>gally.source_field.brand</source><target>Marca</target></segment></unit>
+    <unit id="gally.source_field.color"><segment><source>gally.source_field.color</source><target>Color</target></segment></unit>
+    <unit id="gally.source_field.size"><segment><source>gally.source_field.size</source><target>Talla</target></segment></unit>
+    <unit id="gally.source_field.material"><segment><source>gally.source_field.material</source><target>Material</target></segment></unit>
+    <unit id="gally.source_field.manufacturer"><segment><source>gally.source_field.manufacturer</source><target>Fabricante</target></segment></unit>
+    <unit id="gally.source_field.gender"><segment><source>gally.source_field.gender</source><target>Género</target></segment></unit>
+    <unit id="gally.source_field.style"><segment><source>gally.source_field.style</source><target>Estilo</target></segment></unit>
+    <unit id="gally.source_field.pattern"><segment><source>gally.source_field.pattern</source><target>Patrón</target></segment></unit>
+    <unit id="gally.source_field.season"><segment><source>gally.source_field.season</source><target>Temporada</target></segment></unit>
+    <unit id="gally.source_field.country_of_manufacture"><segment><source>gally.source_field.country_of_manufacture</source><target>País de fabricación</target></segment></unit>
+    <unit id="gally.source_field.certification"><segment><source>gally.source_field.certification</source><target>Certificación</target></segment></unit>
+    <unit id="gally.source_field.warranty"><segment><source>gally.source_field.warranty</source><target>Garantía</target></segment></unit>
+    <unit id="gally.source_field.collection"><segment><source>gally.source_field.collection</source><target>Colección</target></segment></unit>
+    <unit id="gally.source_field.weight"><segment><source>gally.source_field.weight</source><target>Peso</target></segment></unit>
+    <unit id="gally.source_field.price"><segment><source>gally.source_field.price</source><target>Precio</target></segment></unit>
+    <unit id="gally.source_field.description"><segment><source>gally.source_field.description</source><target>Descripción</target></segment></unit>
+    <unit id="gally.source_field.name"><segment><source>gally.source_field.name</source><target>Nombre</target></segment></unit>
+    <unit id="gally.source_field.stock"><segment><source>gally.source_field.stock</source><target>Stock</target></segment></unit>
+    <unit id="gally.source_field.rating"><segment><source>gally.source_field.rating</source><target>Valoración</target></segment></unit>
+    <unit id="gally.source_field.reviews_count"><segment><source>gally.source_field.reviews_count</source><target>Número de reseñas</target></segment></unit>
+    <unit id="gally.source_field.is_new"><segment><source>gally.source_field.is_new</source><target>Novedad</target></segment></unit>
+    <unit id="gally.source_field.is_sale"><segment><source>gally.source_field.is_sale</source><target>En oferta</target></segment></unit>
+    <unit id="gally.source_field.tags"><segment><source>gally.source_field.tags</source><target>Etiquetas</target></segment></unit>
+    <unit id="gally.source_field.short_description"><segment><source>gally.source_field.short_description</source><target>Descripción corta</target></segment></unit>
+    <unit id="gally.source_field.meta_title"><segment><source>gally.source_field.meta_title</source><target>Título meta</target></segment></unit>
+    <unit id="gally.source_field.meta_description"><segment><source>gally.source_field.meta_description</source><target>Descripción meta</target></segment></unit>
+  </file>
+</xliff>
