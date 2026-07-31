@@ -9,10 +9,8 @@
         "metadata_code": "category",
         "localized_catalog_code": "com_en",
         "entity_code": "cat_18",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d"
-        },
+        "session_uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "product_list": {
           "item_count": 50,
@@ -38,10 +36,8 @@
           "context_type": "category",
           "context_code": "cat_18"
         },
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d"
-        },
+        "session_uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "display": {
           "position": 4
@@ -62,10 +58,8 @@
           "context_type": "category",
           "context_code": "cat_18"
         },
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d"
-        },
+        "session_uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0"
       },
       {
@@ -83,10 +77,8 @@
           "context_type": "category",
           "context_code": "cat_18"
         },
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d"
-        },
+        "session_uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "display": {
           "position": 20
@@ -107,10 +99,8 @@
           "context_type": "category",
           "context_code": "cat_18"
         },
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d"
-        },
+        "session_uid": "58ef2bc9-008f-4a0a-a837-a6454a8e5b7d",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0"
       },
       {
@@ -119,10 +109,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "dress",
@@ -157,10 +145,8 @@
           "context_type": "search",
           "context_code": "dress"
         },
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "display": {
           "position": 14
@@ -181,10 +167,8 @@
           "context_type": "search",
           "context_code": "dress"
         },
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0"
       },
       {
@@ -202,10 +186,8 @@
           "context_type": "search",
           "context_code": "dress"
         },
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "display": {
           "position": 5
@@ -217,10 +199,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0"
-        },
+        "session_uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0",
         "search_query": {
           "query_text": "pants",
@@ -249,10 +229,8 @@
           "context_type": "search",
           "context_code": "pants"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0"
-        },
+        "session_uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0",
         "display": {
           "position": 3
@@ -273,10 +251,8 @@
           "context_type": "search",
           "context_code": "pants"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0"
-        },
+        "session_uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0",
         "display": {
           "position": 11
@@ -297,10 +273,8 @@
           "context_type": "search",
           "context_code": "pants"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0"
-        },
+        "session_uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0"
       },
       {
@@ -318,10 +292,8 @@
           "context_type": "search",
           "context_code": "pants"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0"
-        },
+        "session_uid": "2fd3d558-1b9c-4489-8e7c-c61bf28e9ef0",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0",
         "cart": {
           "qty": 3
@@ -337,10 +309,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
-        },
+        "session_uid": "306019cf-9dc5-4d86-88b2-318ed73a4179",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0",
         "search_query": {
           "query_text": "shoes",
@@ -375,10 +345,8 @@
           "context_type": "search",
           "context_code": "shoes"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
-        },
+        "session_uid": "306019cf-9dc5-4d86-88b2-318ed73a4179",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0",
         "display": {
           "position": 14
@@ -399,10 +367,8 @@
           "context_type": "search",
           "context_code": "shoes"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
-        },
+        "session_uid": "306019cf-9dc5-4d86-88b2-318ed73a4179",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0"
       },
       {
@@ -420,10 +386,8 @@
           "context_type": "search",
           "context_code": "shoes"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
-        },
+        "session_uid": "306019cf-9dc5-4d86-88b2-318ed73a4179",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0",
         "display": {
           "position": 16
@@ -444,10 +408,8 @@
           "context_type": "search",
           "context_code": "shoes"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
-        },
+        "session_uid": "306019cf-9dc5-4d86-88b2-318ed73a4179",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0"
       },
       {
@@ -465,10 +427,8 @@
           "context_type": "search",
           "context_code": "shoes"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
-        },
+        "session_uid": "306019cf-9dc5-4d86-88b2-318ed73a4179",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0",
         "display": {
           "position": 9
@@ -489,10 +449,8 @@
           "context_type": "search",
           "context_code": "shoes"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
-        },
+        "session_uid": "306019cf-9dc5-4d86-88b2-318ed73a4179",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0"
       },
       {
@@ -510,10 +468,8 @@
           "context_type": "search",
           "context_code": "shoes"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "306019cf-9dc5-4d86-88b2-318ed73a4179"
-        },
+        "session_uid": "306019cf-9dc5-4d86-88b2-318ed73a4179",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0",
         "display": {
           "position": 4
@@ -525,10 +481,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "00fed88d-f4fe-4cd3-9bc5-34e89f25bff7"
-        },
+        "session_uid": "00fed88d-f4fe-4cd3-9bc5-34e89f25bff7",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0",
         "search_query": {
           "query_text": "jacket",
@@ -563,10 +517,8 @@
           "context_type": "search",
           "context_code": "jacket"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "00fed88d-f4fe-4cd3-9bc5-34e89f25bff7"
-        },
+        "session_uid": "00fed88d-f4fe-4cd3-9bc5-34e89f25bff7",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0",
         "display": {
           "position": 4
@@ -587,10 +539,8 @@
           "context_type": "search",
           "context_code": "jacket"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "00fed88d-f4fe-4cd3-9bc5-34e89f25bff7"
-        },
+        "session_uid": "00fed88d-f4fe-4cd3-9bc5-34e89f25bff7",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0"
       },
       {
@@ -608,10 +558,8 @@
           "context_type": "search",
           "context_code": "jacket"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "00fed88d-f4fe-4cd3-9bc5-34e89f25bff7"
-        },
+        "session_uid": "00fed88d-f4fe-4cd3-9bc5-34e89f25bff7",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0",
         "cart": {
           "qty": 1
@@ -627,10 +575,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36"
-        },
+        "session_uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0",
         "search_query": {
           "query_text": "dress",
@@ -660,10 +606,8 @@
           "context_type": "search",
           "context_code": "dress"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36"
-        },
+        "session_uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0",
         "display": {
           "position": 8
@@ -684,10 +628,8 @@
           "context_type": "search",
           "context_code": "dress"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36"
-        },
+        "session_uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0"
       },
       {
@@ -705,10 +647,8 @@
           "context_type": "search",
           "context_code": "dress"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36"
-        },
+        "session_uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0",
         "cart": {
           "qty": 2
@@ -733,10 +673,8 @@
           "context_type": "search",
           "context_code": "dress"
         },
-        "session": {
-          "vid": "f6710a7f-9612-4203-817a-743248b5d310",
-          "uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36"
-        },
+        "session_uid": "7825c960-7f93-4cfc-b2db-b427d1ff9e36",
+        "session_vid": "f6710a7f-9612-4203-817a-743248b5d310",
         "group_id": "0",
         "order": {
           "order_id": "167",
@@ -753,10 +691,8 @@
         "metadata_code": "category",
         "localized_catalog_code": "com_en",
         "entity_code": "cat_7",
-        "session": {
-          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
-          "uid": "b374e42f-5802-4ba3-9665-3588a50f74d9"
-        },
+        "session_uid": "b374e42f-5802-4ba3-9665-3588a50f74d9",
+        "session_vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
         "group_id": "0",
         "product_list": {
           "item_count": 66,
@@ -787,10 +723,8 @@
           "context_type": "category",
           "context_code": "cat_7"
         },
-        "session": {
-          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
-          "uid": "b374e42f-5802-4ba3-9665-3588a50f74d9"
-        },
+        "session_uid": "b374e42f-5802-4ba3-9665-3588a50f74d9",
+        "session_vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
         "group_id": "0",
         "display": {
           "position": 10
@@ -811,10 +745,8 @@
           "context_type": "category",
           "context_code": "cat_7"
         },
-        "session": {
-          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
-          "uid": "b374e42f-5802-4ba3-9665-3588a50f74d9"
-        },
+        "session_uid": "b374e42f-5802-4ba3-9665-3588a50f74d9",
+        "session_vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
         "group_id": "0",
         "display": {
           "position": 16
@@ -835,10 +767,8 @@
           "context_type": "category",
           "context_code": "cat_7"
         },
-        "session": {
-          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
-          "uid": "b374e42f-5802-4ba3-9665-3588a50f74d9"
-        },
+        "session_uid": "b374e42f-5802-4ba3-9665-3588a50f74d9",
+        "session_vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
         "group_id": "0",
         "cart": {
           "qty": 2
@@ -863,10 +793,8 @@
           "context_type": "category",
           "context_code": "cat_7"
         },
-        "session": {
-          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
-          "uid": "b374e42f-5802-4ba3-9665-3588a50f74d9"
-        },
+        "session_uid": "b374e42f-5802-4ba3-9665-3588a50f74d9",
+        "session_vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
         "group_id": "0",
         "order": {
           "order_id": "121",
@@ -882,10 +810,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
-          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
-        },
+        "session_uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a",
+        "session_vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
         "group_id": "0",
         "search_query": {
           "query_text": "shirt",
@@ -920,10 +846,8 @@
           "context_type": "search",
           "context_code": "shirt"
         },
-        "session": {
-          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
-          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
-        },
+        "session_uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a",
+        "session_vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
         "group_id": "0",
         "display": {
           "position": 7
@@ -944,10 +868,8 @@
           "context_type": "search",
           "context_code": "shirt"
         },
-        "session": {
-          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
-          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
-        },
+        "session_uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a",
+        "session_vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
         "group_id": "0"
       },
       {
@@ -965,10 +887,8 @@
           "context_type": "search",
           "context_code": "shirt"
         },
-        "session": {
-          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
-          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
-        },
+        "session_uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a",
+        "session_vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
         "group_id": "0",
         "display": {
           "position": 17
@@ -989,10 +909,8 @@
           "context_type": "search",
           "context_code": "shirt"
         },
-        "session": {
-          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
-          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
-        },
+        "session_uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a",
+        "session_vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
         "group_id": "0"
       },
       {
@@ -1010,10 +928,8 @@
           "context_type": "search",
           "context_code": "shirt"
         },
-        "session": {
-          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
-          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
-        },
+        "session_uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a",
+        "session_vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
         "group_id": "0",
         "display": {
           "position": 9
@@ -1034,10 +950,8 @@
           "context_type": "search",
           "context_code": "shirt"
         },
-        "session": {
-          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
-          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
-        },
+        "session_uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a",
+        "session_vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
         "group_id": "0"
       },
       {
@@ -1055,10 +969,8 @@
           "context_type": "search",
           "context_code": "shirt"
         },
-        "session": {
-          "vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
-          "uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a"
-        },
+        "session_uid": "b003d66a-57be-4dcd-a42f-3bda92f6d42a",
+        "session_vid": "91f04421-6002-4ee5-8a1d-78182441d99d",
         "group_id": "0",
         "cart": {
           "qty": 2
@@ -1075,10 +987,8 @@
         "metadata_code": "category",
         "localized_catalog_code": "com_en",
         "entity_code": "cat_3",
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "40356c48-b23f-40b9-aa76-458956d1d118"
-        },
+        "session_uid": "40356c48-b23f-40b9-aa76-458956d1d118",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "product_list": {
           "item_count": 67,
@@ -1109,10 +1019,8 @@
           "context_type": "category",
           "context_code": "cat_3"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "40356c48-b23f-40b9-aa76-458956d1d118"
-        },
+        "session_uid": "40356c48-b23f-40b9-aa76-458956d1d118",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "display": {
           "position": 2
@@ -1133,10 +1041,8 @@
           "context_type": "category",
           "context_code": "cat_3"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "40356c48-b23f-40b9-aa76-458956d1d118"
-        },
+        "session_uid": "40356c48-b23f-40b9-aa76-458956d1d118",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "cart": {
           "qty": 2
@@ -1161,10 +1067,8 @@
           "context_type": "category",
           "context_code": "cat_3"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "40356c48-b23f-40b9-aa76-458956d1d118"
-        },
+        "session_uid": "40356c48-b23f-40b9-aa76-458956d1d118",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "order": {
           "order_id": "116",
@@ -1181,10 +1085,8 @@
         "metadata_code": "category",
         "localized_catalog_code": "com_en",
         "entity_code": "cat_14",
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
-        },
+        "session_uid": "22aee392-a2b7-4b02-b670-de9f559cd581",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "product_list": {
           "item_count": 43,
@@ -1215,10 +1117,8 @@
           "context_type": "category",
           "context_code": "cat_14"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
-        },
+        "session_uid": "22aee392-a2b7-4b02-b670-de9f559cd581",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "display": {
           "position": 7
@@ -1239,10 +1139,8 @@
           "context_type": "category",
           "context_code": "cat_14"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
-        },
+        "session_uid": "22aee392-a2b7-4b02-b670-de9f559cd581",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0"
       },
       {
@@ -1260,10 +1158,8 @@
           "context_type": "category",
           "context_code": "cat_14"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
-        },
+        "session_uid": "22aee392-a2b7-4b02-b670-de9f559cd581",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "display": {
           "position": 3
@@ -1284,10 +1180,8 @@
           "context_type": "category",
           "context_code": "cat_14"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
-        },
+        "session_uid": "22aee392-a2b7-4b02-b670-de9f559cd581",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0"
       },
       {
@@ -1305,10 +1199,8 @@
           "context_type": "category",
           "context_code": "cat_14"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
-        },
+        "session_uid": "22aee392-a2b7-4b02-b670-de9f559cd581",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "display": {
           "position": 11
@@ -1329,10 +1221,8 @@
           "context_type": "category",
           "context_code": "cat_14"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
-        },
+        "session_uid": "22aee392-a2b7-4b02-b670-de9f559cd581",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0"
       },
       {
@@ -1350,10 +1240,8 @@
           "context_type": "category",
           "context_code": "cat_14"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "22aee392-a2b7-4b02-b670-de9f559cd581"
-        },
+        "session_uid": "22aee392-a2b7-4b02-b670-de9f559cd581",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "display": {
           "position": 15
@@ -1365,10 +1253,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
-        },
+        "session_uid": "8f5eaab1-c249-4a75-a507-4775a0999710",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "search_query": {
           "query_text": "jacket",
@@ -1398,10 +1284,8 @@
           "context_type": "search",
           "context_code": "jacket"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
-        },
+        "session_uid": "8f5eaab1-c249-4a75-a507-4775a0999710",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "display": {
           "position": 12
@@ -1422,10 +1306,8 @@
           "context_type": "search",
           "context_code": "jacket"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
-        },
+        "session_uid": "8f5eaab1-c249-4a75-a507-4775a0999710",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "display": {
           "position": 9
@@ -1446,10 +1328,8 @@
           "context_type": "search",
           "context_code": "jacket"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
-        },
+        "session_uid": "8f5eaab1-c249-4a75-a507-4775a0999710",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0"
       },
       {
@@ -1467,10 +1347,8 @@
           "context_type": "search",
           "context_code": "jacket"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
-        },
+        "session_uid": "8f5eaab1-c249-4a75-a507-4775a0999710",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "cart": {
           "qty": 2
@@ -1495,10 +1373,8 @@
           "context_type": "search",
           "context_code": "jacket"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "8f5eaab1-c249-4a75-a507-4775a0999710"
-        },
+        "session_uid": "8f5eaab1-c249-4a75-a507-4775a0999710",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "order": {
           "order_id": "158",
@@ -1514,10 +1390,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "c6b8c45b-df3a-499b-9224-e92b36a08402"
-        },
+        "session_uid": "c6b8c45b-df3a-499b-9224-e92b36a08402",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "search_query": {
           "query_text": "dress",
@@ -1552,10 +1426,8 @@
           "context_type": "search",
           "context_code": "dress"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "c6b8c45b-df3a-499b-9224-e92b36a08402"
-        },
+        "session_uid": "c6b8c45b-df3a-499b-9224-e92b36a08402",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "display": {
           "position": 2
@@ -1576,10 +1448,8 @@
           "context_type": "search",
           "context_code": "dress"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "c6b8c45b-df3a-499b-9224-e92b36a08402"
-        },
+        "session_uid": "c6b8c45b-df3a-499b-9224-e92b36a08402",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0"
       },
       {
@@ -1597,10 +1467,8 @@
           "context_type": "search",
           "context_code": "dress"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "c6b8c45b-df3a-499b-9224-e92b36a08402"
-        },
+        "session_uid": "c6b8c45b-df3a-499b-9224-e92b36a08402",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "display": {
           "position": 4
@@ -1621,10 +1489,8 @@
           "context_type": "search",
           "context_code": "dress"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "c6b8c45b-df3a-499b-9224-e92b36a08402"
-        },
+        "session_uid": "c6b8c45b-df3a-499b-9224-e92b36a08402",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0"
       },
       {
@@ -1634,10 +1500,8 @@
         "metadata_code": "category",
         "localized_catalog_code": "com_en",
         "entity_code": "cat_1",
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "67d38897-49b2-4724-ae61-2969bbb82946"
-        },
+        "session_uid": "67d38897-49b2-4724-ae61-2969bbb82946",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "product_list": {
           "item_count": 62,
@@ -1668,10 +1532,8 @@
           "context_type": "category",
           "context_code": "cat_1"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "67d38897-49b2-4724-ae61-2969bbb82946"
-        },
+        "session_uid": "67d38897-49b2-4724-ae61-2969bbb82946",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "display": {
           "position": 11
@@ -1692,10 +1554,8 @@
           "context_type": "category",
           "context_code": "cat_1"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "67d38897-49b2-4724-ae61-2969bbb82946"
-        },
+        "session_uid": "67d38897-49b2-4724-ae61-2969bbb82946",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0"
       },
       {
@@ -1713,10 +1573,8 @@
           "context_type": "category",
           "context_code": "cat_1"
         },
-        "session": {
-          "vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
-          "uid": "67d38897-49b2-4724-ae61-2969bbb82946"
-        },
+        "session_uid": "67d38897-49b2-4724-ae61-2969bbb82946",
+        "session_vid": "940645a2-e0a6-4533-b22d-849589cdb6d3",
         "group_id": "0",
         "cart": {
           "qty": 1
@@ -1733,10 +1591,8 @@
         "metadata_code": "category",
         "localized_catalog_code": "com_en",
         "entity_code": "cat_14",
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
-        },
+        "session_uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0",
         "product_list": {
           "item_count": 51,
@@ -1767,10 +1623,8 @@
           "context_type": "category",
           "context_code": "cat_14"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
-        },
+        "session_uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0",
         "display": {
           "position": 16
@@ -1791,10 +1645,8 @@
           "context_type": "category",
           "context_code": "cat_14"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
-        },
+        "session_uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0",
         "display": {
           "position": 4
@@ -1815,10 +1667,8 @@
           "context_type": "category",
           "context_code": "cat_14"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
-        },
+        "session_uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0",
         "display": {
           "position": 7
@@ -1839,10 +1689,8 @@
           "context_type": "category",
           "context_code": "cat_14"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
-        },
+        "session_uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0"
       },
       {
@@ -1860,10 +1708,8 @@
           "context_type": "category",
           "context_code": "cat_14"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d"
-        },
+        "session_uid": "27e9a84b-77e1-4751-8cc0-09f4f5babe3d",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0",
         "cart": {
           "qty": 2
@@ -1880,10 +1726,8 @@
         "metadata_code": "category",
         "localized_catalog_code": "com_en",
         "entity_code": "cat_4",
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
-        },
+        "session_uid": "70182334-8d1c-420f-8561-b367a4da15a4",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0",
         "product_list": {
           "item_count": 39,
@@ -1909,10 +1753,8 @@
           "context_type": "category",
           "context_code": "cat_4"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
-        },
+        "session_uid": "70182334-8d1c-420f-8561-b367a4da15a4",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0",
         "display": {
           "position": 6
@@ -1933,10 +1775,8 @@
           "context_type": "category",
           "context_code": "cat_4"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
-        },
+        "session_uid": "70182334-8d1c-420f-8561-b367a4da15a4",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0",
         "display": {
           "position": 10
@@ -1957,10 +1797,8 @@
           "context_type": "category",
           "context_code": "cat_4"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
-        },
+        "session_uid": "70182334-8d1c-420f-8561-b367a4da15a4",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0",
         "display": {
           "position": 1
@@ -1981,10 +1819,8 @@
           "context_type": "category",
           "context_code": "cat_4"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
-        },
+        "session_uid": "70182334-8d1c-420f-8561-b367a4da15a4",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0"
       },
       {
@@ -2002,10 +1838,8 @@
           "context_type": "category",
           "context_code": "cat_4"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
-        },
+        "session_uid": "70182334-8d1c-420f-8561-b367a4da15a4",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0",
         "display": {
           "position": 13
@@ -2026,10 +1860,8 @@
           "context_type": "category",
           "context_code": "cat_4"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
-        },
+        "session_uid": "70182334-8d1c-420f-8561-b367a4da15a4",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0"
       },
       {
@@ -2047,10 +1879,8 @@
           "context_type": "category",
           "context_code": "cat_4"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "70182334-8d1c-420f-8561-b367a4da15a4"
-        },
+        "session_uid": "70182334-8d1c-420f-8561-b367a4da15a4",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0",
         "cart": {
           "qty": 3
@@ -2066,10 +1896,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "2d346b45-8c8d-4d45-af72-239233d1df53"
-        },
+        "session_uid": "2d346b45-8c8d-4d45-af72-239233d1df53",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0",
         "search_query": {
           "query_text": "jacket",
@@ -2099,10 +1927,8 @@
           "context_type": "search",
           "context_code": "jacket"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "2d346b45-8c8d-4d45-af72-239233d1df53"
-        },
+        "session_uid": "2d346b45-8c8d-4d45-af72-239233d1df53",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0",
         "display": {
           "position": 14
@@ -2123,10 +1949,8 @@
           "context_type": "search",
           "context_code": "jacket"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "2d346b45-8c8d-4d45-af72-239233d1df53"
-        },
+        "session_uid": "2d346b45-8c8d-4d45-af72-239233d1df53",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0"
       },
       {
@@ -2144,10 +1968,8 @@
           "context_type": "search",
           "context_code": "jacket"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "2d346b45-8c8d-4d45-af72-239233d1df53"
-        },
+        "session_uid": "2d346b45-8c8d-4d45-af72-239233d1df53",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0",
         "display": {
           "position": 20
@@ -2168,10 +1990,8 @@
           "context_type": "search",
           "context_code": "jacket"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "2d346b45-8c8d-4d45-af72-239233d1df53"
-        },
+        "session_uid": "2d346b45-8c8d-4d45-af72-239233d1df53",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0"
       },
       {
@@ -2180,10 +2000,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "7731a21c-2ed4-43f2-ace8-0f31d967828d"
-        },
+        "session_uid": "7731a21c-2ed4-43f2-ace8-0f31d967828d",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0",
         "search_query": {
           "query_text": "pants",
@@ -2212,10 +2030,8 @@
           "context_type": "search",
           "context_code": "pants"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "7731a21c-2ed4-43f2-ace8-0f31d967828d"
-        },
+        "session_uid": "7731a21c-2ed4-43f2-ace8-0f31d967828d",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0",
         "display": {
           "position": 2
@@ -2236,10 +2052,8 @@
           "context_type": "search",
           "context_code": "pants"
         },
-        "session": {
-          "vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
-          "uid": "7731a21c-2ed4-43f2-ace8-0f31d967828d"
-        },
+        "session_uid": "7731a21c-2ed4-43f2-ace8-0f31d967828d",
+        "session_vid": "a404e8c3-622b-4930-ad27-ba829d89b36b",
         "group_id": "0",
         "cart": {
           "qty": 1
@@ -2256,10 +2070,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "dress",
@@ -2285,10 +2097,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "shoes",
@@ -2308,10 +2118,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "dress",
@@ -2331,10 +2139,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "dress",
@@ -2354,10 +2160,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "dress",
@@ -2377,10 +2181,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "formal dress",
@@ -2400,10 +2202,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "long dress",
@@ -2423,10 +2223,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "evening dress",
@@ -2446,10 +2244,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "black dress",
@@ -2469,10 +2265,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "casual dress",
@@ -2492,10 +2286,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "midi dress",
@@ -2515,10 +2307,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "winter dress",
@@ -2538,10 +2328,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "dress",
@@ -2561,10 +2349,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "wool dress",
@@ -2584,10 +2370,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "sundress",
@@ -2607,10 +2391,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "sundress",
@@ -2630,10 +2412,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "light summer dress",
@@ -2653,10 +2433,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "summer dress",
@@ -2676,10 +2454,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "hot weather dress",
@@ -2699,10 +2475,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "hot weather dress",
@@ -2722,10 +2496,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "white dress",
@@ -2745,10 +2517,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "party dress",
@@ -2768,10 +2538,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "cocktail dress",
@@ -2791,10 +2559,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "cocktail dress",
@@ -2814,10 +2580,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "blue dress",
@@ -2837,10 +2601,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "striped dress",
@@ -2860,10 +2622,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "vintage dress",
@@ -2883,10 +2643,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "floral dress",
@@ -2906,10 +2664,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "zoo dress",
@@ -2929,10 +2685,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "maxi dress",
@@ -2952,10 +2706,8 @@
         "event_type": "search",
         "metadata_code": "cms_page",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "terms of sale",
@@ -2975,10 +2727,8 @@
         "event_type": "search",
         "metadata_code": "cms_page",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "sale conditions",
@@ -2998,10 +2748,8 @@
         "event_type": "search",
         "metadata_code": "cms_page",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "return policy sale",
@@ -3021,10 +2769,8 @@
         "event_type": "search",
         "metadata_code": "cms_page",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "general sale terms",
@@ -3044,10 +2790,8 @@
         "event_type": "search",
         "metadata_code": "cms_page",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "sale agreement",
@@ -3067,10 +2811,8 @@
         "event_type": "search",
         "metadata_code": "cms_page",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "dress care guide",
@@ -3090,10 +2832,8 @@
         "event_type": "search",
         "metadata_code": "cms_page",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "how to style a dress",
@@ -3113,10 +2853,8 @@
         "event_type": "search",
         "metadata_code": "cms_page",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "dress fabric types",
@@ -3136,10 +2874,8 @@
         "event_type": "search",
         "metadata_code": "cms_page",
         "localized_catalog_code": "com_en",
-        "session": {
-          "vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
-          "uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828"
-        },
+        "session_uid": "c850f9d8-3c9e-48ad-963e-a6a2d9af5828",
+        "session_vid": "d3ff8eb4-c4f0-452d-9a5b-3269af1e3370",
         "group_id": "0",
         "search_query": {
           "query_text": "too far dress to be suggested",
@@ -3165,10 +2901,8 @@
         "metadata_code": "category",
         "localized_catalog_code": "com_fr",
         "entity_code": "cat_12",
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e"
-        },
+        "session_uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0",
         "product_list": {
           "item_count": 42,
@@ -3194,10 +2928,8 @@
           "context_type": "category",
           "context_code": "cat_12"
         },
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e"
-        },
+        "session_uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0",
         "display": {
           "position": 7
@@ -3218,10 +2950,8 @@
           "context_type": "category",
           "context_code": "cat_12"
         },
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e"
-        },
+        "session_uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0"
       },
       {
@@ -3239,10 +2969,8 @@
           "context_type": "category",
           "context_code": "cat_12"
         },
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e"
-        },
+        "session_uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0",
         "display": {
           "position": 15
@@ -3263,10 +2991,8 @@
           "context_type": "category",
           "context_code": "cat_12"
         },
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e"
-        },
+        "session_uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0"
       },
       {
@@ -3275,10 +3001,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_fr",
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "d961g0e9-4d0f-59be-a74f-b7b3e0bg6939"
-        },
+        "session_uid": "d961g0e9-4d0f-59be-a74f-b7b3e0bg6939",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0",
         "search_query": {
           "query_text": "chemise",
@@ -3308,10 +3032,8 @@
           "context_type": "search",
           "context_code": "chemise"
         },
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "d961g0e9-4d0f-59be-a74f-b7b3e0bg6939"
-        },
+        "session_uid": "d961g0e9-4d0f-59be-a74f-b7b3e0bg6939",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0",
         "display": {
           "position": 3
@@ -3332,10 +3054,8 @@
           "context_type": "search",
           "context_code": "chemise"
         },
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "d961g0e9-4d0f-59be-a74f-b7b3e0bg6939"
-        },
+        "session_uid": "d961g0e9-4d0f-59be-a74f-b7b3e0bg6939",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0"
       },
       {
@@ -3353,10 +3073,8 @@
           "context_type": "search",
           "context_code": "chemise"
         },
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "d961g0e9-4d0f-59be-a74f-b7b3e0bg6939"
-        },
+        "session_uid": "d961g0e9-4d0f-59be-a74f-b7b3e0bg6939",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0",
         "cart": {
           "qty": 1
@@ -3372,10 +3090,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_fr",
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1"
-        },
+        "session_uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0",
         "search_query": {
           "query_text": "veste",
@@ -3410,10 +3126,8 @@
           "context_type": "search",
           "context_code": "veste"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1"
-        },
+        "session_uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0",
         "display": {
           "position": 8
@@ -3434,10 +3148,8 @@
           "context_type": "search",
           "context_code": "veste"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1"
-        },
+        "session_uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0",
         "display": {
           "position": 18
@@ -3458,10 +3170,8 @@
           "context_type": "search",
           "context_code": "veste"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1"
-        },
+        "session_uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0"
       },
       {
@@ -3479,10 +3189,8 @@
           "context_type": "search",
           "context_code": "veste"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1"
-        },
+        "session_uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0",
         "cart": {
           "qty": 2
@@ -3499,10 +3207,8 @@
         "metadata_code": "category",
         "localized_catalog_code": "com_fr",
         "entity_code": "cat_5",
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "417130dg-0ed6-5e97-99c3-429fe84a6290"
-        },
+        "session_uid": "417130dg-0ed6-5e97-99c3-429fe84a6290",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0",
         "product_list": {
           "item_count": 38,
@@ -3528,10 +3234,8 @@
           "context_type": "category",
           "context_code": "cat_5"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "417130dg-0ed6-5e97-99c3-429fe84a6290"
-        },
+        "session_uid": "417130dg-0ed6-5e97-99c3-429fe84a6290",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0",
         "display": {
           "position": 5
@@ -3552,10 +3256,8 @@
           "context_type": "category",
           "context_code": "cat_5"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "417130dg-0ed6-5e97-99c3-429fe84a6290"
-        },
+        "session_uid": "417130dg-0ed6-5e97-99c3-429fe84a6290",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0"
       },
       {
@@ -3573,10 +3275,8 @@
           "context_type": "category",
           "context_code": "cat_5"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "417130dg-0ed6-5e97-99c3-429fe84a6290"
-        },
+        "session_uid": "417130dg-0ed6-5e97-99c3-429fe84a6290",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0",
         "display": {
           "position": 12
@@ -3597,10 +3297,8 @@
           "context_type": "category",
           "context_code": "cat_5"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "417130dg-0ed6-5e97-99c3-429fe84a6290"
-        },
+        "session_uid": "417130dg-0ed6-5e97-99c3-429fe84a6290",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0"
       },
       {
@@ -3618,10 +3316,8 @@
           "context_type": "category",
           "context_code": "cat_5"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "417130dg-0ed6-5e97-99c3-429fe84a6290"
-        },
+        "session_uid": "417130dg-0ed6-5e97-99c3-429fe84a6290",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0",
         "cart": {
           "qty": 1
@@ -3637,10 +3333,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_fr",
-        "session": {
-          "vid": "h8932c9h-1834-6425-a39c-965460d7g532",
-          "uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2"
-        },
+        "session_uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2",
+        "session_vid": "h8932c9h-1834-6425-a39c-965460d7g532",
         "group_id": "0",
         "search_query": {
           "query_text": "pull",
@@ -3675,10 +3369,8 @@
           "context_type": "search",
           "context_code": "pull"
         },
-        "session": {
-          "vid": "h8932c9h-1834-6425-a39c-965460d7g532",
-          "uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2"
-        },
+        "session_uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2",
+        "session_vid": "h8932c9h-1834-6425-a39c-965460d7g532",
         "group_id": "0",
         "display": {
           "position": 11
@@ -3699,10 +3391,8 @@
           "context_type": "search",
           "context_code": "pull"
         },
-        "session": {
-          "vid": "h8932c9h-1834-6425-a39c-965460d7g532",
-          "uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2"
-        },
+        "session_uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2",
+        "session_vid": "h8932c9h-1834-6425-a39c-965460d7g532",
         "group_id": "0"
       },
       {
@@ -3720,10 +3410,8 @@
           "context_type": "search",
           "context_code": "pull"
         },
-        "session": {
-          "vid": "h8932c9h-1834-6425-a39c-965460d7g532",
-          "uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2"
-        },
+        "session_uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2",
+        "session_vid": "h8932c9h-1834-6425-a39c-965460d7g532",
         "group_id": "0",
         "display": {
           "position": 6
@@ -3744,10 +3432,8 @@
           "context_type": "search",
           "context_code": "pull"
         },
-        "session": {
-          "vid": "h8932c9h-1834-6425-a39c-965460d7g532",
-          "uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2"
-        },
+        "session_uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2",
+        "session_vid": "h8932c9h-1834-6425-a39c-965460d7g532",
         "group_id": "0"
       },
       {
@@ -3765,10 +3451,8 @@
           "context_type": "search",
           "context_code": "pull"
         },
-        "session": {
-          "vid": "h8932c9h-1834-6425-a39c-965460d7g532",
-          "uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2"
-        },
+        "session_uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2",
+        "session_vid": "h8932c9h-1834-6425-a39c-965460d7g532",
         "group_id": "0",
         "cart": {
           "qty": 3
@@ -3793,10 +3477,8 @@
           "context_type": "search",
           "context_code": "pull"
         },
-        "session": {
-          "vid": "h8932c9h-1834-6425-a39c-965460d7g532",
-          "uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2"
-        },
+        "session_uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2",
+        "session_vid": "h8932c9h-1834-6425-a39c-965460d7g532",
         "group_id": "0",
         "order": {
           "order_id": "203",
@@ -3813,10 +3495,8 @@
         "metadata_code": "category",
         "localized_catalog_code": "com_fr",
         "entity_code": "cat_9",
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3"
-        },
+        "session_uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0",
         "product_list": {
           "item_count": 55,
@@ -3847,10 +3527,8 @@
           "context_type": "category",
           "context_code": "cat_9"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3"
-        },
+        "session_uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0",
         "display": {
           "position": 13
@@ -3871,10 +3549,8 @@
           "context_type": "category",
           "context_code": "cat_9"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3"
-        },
+        "session_uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0",
         "display": {
           "position": 22
@@ -3895,10 +3571,8 @@
           "context_type": "category",
           "context_code": "cat_9"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3"
-        },
+        "session_uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0"
       },
       {
@@ -3916,10 +3590,8 @@
           "context_type": "category",
           "context_code": "cat_9"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3"
-        },
+        "session_uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0",
         "cart": {
           "qty": 1
@@ -3935,10 +3607,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_fr",
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4"
-        },
+        "session_uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0",
         "search_query": {
           "query_text": "robe",
@@ -3973,10 +3643,8 @@
           "context_type": "search",
           "context_code": "robe"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4"
-        },
+        "session_uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0",
         "display": {
           "position": 9
@@ -3997,10 +3665,8 @@
           "context_type": "search",
           "context_code": "robe"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4"
-        },
+        "session_uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0"
       },
       {
@@ -4018,10 +3684,8 @@
           "context_type": "search",
           "context_code": "robe"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4"
-        },
+        "session_uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0",
         "display": {
           "position": 14
@@ -4042,10 +3706,8 @@
           "context_type": "search",
           "context_code": "robe"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4"
-        },
+        "session_uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0"
       },
       {
@@ -4063,10 +3725,8 @@
           "context_type": "search",
           "context_code": "robe"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4"
-        },
+        "session_uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0",
         "cart": {
           "qty": 2
@@ -4088,10 +3748,8 @@
         "metadata_code": "category",
         "localized_catalog_code": "com_fr",
         "entity_code": "cat_12",
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e"
-        },
+        "session_uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0",
         "product_list": {
           "item_count": 42,
@@ -4117,10 +3775,8 @@
           "context_type": "category",
           "context_code": "cat_12"
         },
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e"
-        },
+        "session_uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0",
         "display": {
           "position": 7
@@ -4141,10 +3797,8 @@
           "context_type": "category",
           "context_code": "cat_12"
         },
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e"
-        },
+        "session_uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0"
       },
       {
@@ -4162,10 +3816,8 @@
           "context_type": "category",
           "context_code": "cat_12"
         },
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e"
-        },
+        "session_uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0",
         "display": {
           "position": 15
@@ -4186,10 +3838,8 @@
           "context_type": "category",
           "context_code": "cat_12"
         },
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e"
-        },
+        "session_uid": "69fa3cd0-119g-5b1b-b948-b7565b9f6c8e",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0"
       },
       {
@@ -4198,10 +3848,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_fr",
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "d961g0e9-4d0f-59be-a74f-b7b3e0bg6939"
-        },
+        "session_uid": "d961g0e9-4d0f-59be-a74f-b7b3e0bg6939",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0",
         "search_query": {
           "query_text": "chemise",
@@ -4231,10 +3879,8 @@
           "context_type": "search",
           "context_code": "chemise"
         },
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "d961g0e9-4d0f-59be-a74f-b7b3e0bg6939"
-        },
+        "session_uid": "d961g0e9-4d0f-59be-a74f-b7b3e0bg6939",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0",
         "display": {
           "position": 3
@@ -4255,10 +3901,8 @@
           "context_type": "search",
           "context_code": "chemise"
         },
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "d961g0e9-4d0f-59be-a74f-b7b3e0bg6939"
-        },
+        "session_uid": "d961g0e9-4d0f-59be-a74f-b7b3e0bg6939",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0"
       },
       {
@@ -4276,10 +3920,8 @@
           "context_type": "search",
           "context_code": "chemise"
         },
-        "session": {
-          "vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
-          "uid": "d961g0e9-4d0f-59be-a74f-b7b3e0bg6939"
-        },
+        "session_uid": "d961g0e9-4d0f-59be-a74f-b7b3e0bg6939",
+        "session_vid": "e4aa9bc5-d3f1-563e-8b6c-4379bf2e4481",
         "group_id": "0",
         "cart": {
           "qty": 1
@@ -4295,10 +3937,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_fr",
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1"
-        },
+        "session_uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0",
         "search_query": {
           "query_text": "veste",
@@ -4333,10 +3973,8 @@
           "context_type": "search",
           "context_code": "veste"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1"
-        },
+        "session_uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0",
         "display": {
           "position": 8
@@ -4357,10 +3995,8 @@
           "context_type": "search",
           "context_code": "veste"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1"
-        },
+        "session_uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0",
         "display": {
           "position": 18
@@ -4381,10 +4017,8 @@
           "context_type": "search",
           "context_code": "veste"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1"
-        },
+        "session_uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0"
       },
       {
@@ -4402,10 +4036,8 @@
           "context_type": "search",
           "context_code": "veste"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1"
-        },
+        "session_uid": "3ge4e669-2c0d-5590-9f8d-d72cg39f0fg1",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0",
         "cart": {
           "qty": 2
@@ -4422,10 +4054,8 @@
         "metadata_code": "category",
         "localized_catalog_code": "com_fr",
         "entity_code": "cat_5",
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "417130dg-0ed6-5e97-99c3-429fe84a6290"
-        },
+        "session_uid": "417130dg-0ed6-5e97-99c3-429fe84a6290",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0",
         "product_list": {
           "item_count": 38,
@@ -4451,10 +4081,8 @@
           "context_type": "category",
           "context_code": "cat_5"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "417130dg-0ed6-5e97-99c3-429fe84a6290"
-        },
+        "session_uid": "417130dg-0ed6-5e97-99c3-429fe84a6290",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0",
         "display": {
           "position": 5
@@ -4475,10 +4103,8 @@
           "context_type": "category",
           "context_code": "cat_5"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "417130dg-0ed6-5e97-99c3-429fe84a6290"
-        },
+        "session_uid": "417130dg-0ed6-5e97-99c3-429fe84a6290",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0"
       },
       {
@@ -4496,10 +4122,8 @@
           "context_type": "category",
           "context_code": "cat_5"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "417130dg-0ed6-5e97-99c3-429fe84a6290"
-        },
+        "session_uid": "417130dg-0ed6-5e97-99c3-429fe84a6290",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0",
         "display": {
           "position": 12
@@ -4520,10 +4144,8 @@
           "context_type": "category",
           "context_code": "cat_5"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "417130dg-0ed6-5e97-99c3-429fe84a6290"
-        },
+        "session_uid": "417130dg-0ed6-5e97-99c3-429fe84a6290",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0"
       },
       {
@@ -4541,10 +4163,8 @@
           "context_type": "category",
           "context_code": "cat_5"
         },
-        "session": {
-          "vid": "g7821b8g-0723-5314-928b-854359c6f421",
-          "uid": "417130dg-0ed6-5e97-99c3-429fe84a6290"
-        },
+        "session_uid": "417130dg-0ed6-5e97-99c3-429fe84a6290",
+        "session_vid": "g7821b8g-0723-5314-928b-854359c6f421",
         "group_id": "0",
         "cart": {
           "qty": 1
@@ -4560,10 +4180,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_fr",
-        "session": {
-          "vid": "h8932c9h-1834-6425-a39c-965460d7g532",
-          "uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2"
-        },
+        "session_uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2",
+        "session_vid": "h8932c9h-1834-6425-a39c-965460d7g532",
         "group_id": "0",
         "search_query": {
           "query_text": "pull",
@@ -4598,10 +4216,8 @@
           "context_type": "search",
           "context_code": "pull"
         },
-        "session": {
-          "vid": "h8932c9h-1834-6425-a39c-965460d7g532",
-          "uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2"
-        },
+        "session_uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2",
+        "session_vid": "h8932c9h-1834-6425-a39c-965460d7g532",
         "group_id": "0",
         "display": {
           "position": 11
@@ -4622,10 +4238,8 @@
           "context_type": "search",
           "context_code": "pull"
         },
-        "session": {
-          "vid": "h8932c9h-1834-6425-a39c-965460d7g532",
-          "uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2"
-        },
+        "session_uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2",
+        "session_vid": "h8932c9h-1834-6425-a39c-965460d7g532",
         "group_id": "0"
       },
       {
@@ -4643,10 +4257,8 @@
           "context_type": "search",
           "context_code": "pull"
         },
-        "session": {
-          "vid": "h8932c9h-1834-6425-a39c-965460d7g532",
-          "uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2"
-        },
+        "session_uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2",
+        "session_vid": "h8932c9h-1834-6425-a39c-965460d7g532",
         "group_id": "0",
         "display": {
           "position": 6
@@ -4667,10 +4279,8 @@
           "context_type": "search",
           "context_code": "pull"
         },
-        "session": {
-          "vid": "h8932c9h-1834-6425-a39c-965460d7g532",
-          "uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2"
-        },
+        "session_uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2",
+        "session_vid": "h8932c9h-1834-6425-a39c-965460d7g532",
         "group_id": "0"
       },
       {
@@ -4688,10 +4298,8 @@
           "context_type": "search",
           "context_code": "pull"
         },
-        "session": {
-          "vid": "h8932c9h-1834-6425-a39c-965460d7g532",
-          "uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2"
-        },
+        "session_uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2",
+        "session_vid": "h8932c9h-1834-6425-a39c-965460d7g532",
         "group_id": "0",
         "cart": {
           "qty": 3
@@ -4716,10 +4324,8 @@
           "context_type": "search",
           "context_code": "pull"
         },
-        "session": {
-          "vid": "h8932c9h-1834-6425-a39c-965460d7g532",
-          "uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2"
-        },
+        "session_uid": "4hf5f770-3d1e-6601-ag9e-e83dh40g1gh2",
+        "session_vid": "h8932c9h-1834-6425-a39c-965460d7g532",
         "group_id": "0",
         "order": {
           "order_id": "203",
@@ -4736,10 +4342,8 @@
         "metadata_code": "category",
         "localized_catalog_code": "com_fr",
         "entity_code": "cat_9",
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3"
-        },
+        "session_uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0",
         "product_list": {
           "item_count": 55,
@@ -4770,10 +4374,8 @@
           "context_type": "category",
           "context_code": "cat_9"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3"
-        },
+        "session_uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0",
         "display": {
           "position": 13
@@ -4794,10 +4396,8 @@
           "context_type": "category",
           "context_code": "cat_9"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3"
-        },
+        "session_uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0",
         "display": {
           "position": 22
@@ -4818,10 +4418,8 @@
           "context_type": "category",
           "context_code": "cat_9"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3"
-        },
+        "session_uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0"
       },
       {
@@ -4839,10 +4437,8 @@
           "context_type": "category",
           "context_code": "cat_9"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3"
-        },
+        "session_uid": "5ig6g881-4e2f-7712-bha f-f94ei51h2hi3",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0",
         "cart": {
           "qty": 1
@@ -4858,10 +4454,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "com_fr",
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4"
-        },
+        "session_uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0",
         "search_query": {
           "query_text": "robe",
@@ -4896,10 +4490,8 @@
           "context_type": "search",
           "context_code": "robe"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4"
-        },
+        "session_uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0",
         "display": {
           "position": 9
@@ -4920,10 +4512,8 @@
           "context_type": "search",
           "context_code": "robe"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4"
-        },
+        "session_uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0"
       },
       {
@@ -4941,10 +4531,8 @@
           "context_type": "search",
           "context_code": "robe"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4"
-        },
+        "session_uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0",
         "display": {
           "position": 14
@@ -4965,10 +4553,8 @@
           "context_type": "search",
           "context_code": "robe"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4"
-        },
+        "session_uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0"
       },
       {
@@ -4986,10 +4572,8 @@
           "context_type": "search",
           "context_code": "robe"
         },
-        "session": {
-          "vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
-          "uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4"
-        },
+        "session_uid": "6jh7h992-5f3g-8823-cibg-ga5fj62i3ij4",
+        "session_vid": "i9a43daj-2945-7536-b4ad-a76571e8h643",
         "group_id": "0",
         "cart": {
           "qty": 2
@@ -5006,10 +4590,8 @@
         "metadata_code": "category",
         "localized_catalog_code": "fr_fr",
         "entity_code": "cat_8",
-        "session": {
-          "vid": "j0b54ebk-3056-8647-c5be-b87682f9i754",
-          "uid": "6ki8i003-6f4h-9934-dkch-hb6fk73j4kj5"
-        },
+        "session_uid": "6ki8i003-6f4h-9934-dkch-hb6fk73j4kj5",
+        "session_vid": "j0b54ebk-3056-8647-c5be-b87682f9i754",
         "group_id": "0",
         "product_list": {
           "item_count": 38,
@@ -5035,10 +4617,8 @@
           "context_type": "category",
           "context_code": "cat_8"
         },
-        "session": {
-          "vid": "j0b54ebk-3056-8647-c5be-b87682f9i754",
-          "uid": "6ki8i003-6f4h-9934-dkch-hb6fk73j4kj5"
-        },
+        "session_uid": "6ki8i003-6f4h-9934-dkch-hb6fk73j4kj5",
+        "session_vid": "j0b54ebk-3056-8647-c5be-b87682f9i754",
         "group_id": "0",
         "display": {
           "position": 4
@@ -5059,10 +4639,8 @@
           "context_type": "category",
           "context_code": "cat_8"
         },
-        "session": {
-          "vid": "j0b54ebk-3056-8647-c5be-b87682f9i754",
-          "uid": "6ki8i003-6f4h-9934-dkch-hb6fk73j4kj5"
-        },
+        "session_uid": "6ki8i003-6f4h-9934-dkch-hb6fk73j4kj5",
+        "session_vid": "j0b54ebk-3056-8647-c5be-b87682f9i754",
         "group_id": "0"
       },
       {
@@ -5071,10 +4649,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "fr_fr",
-        "session": {
-          "vid": "k1c65fcl-4167-9758-d6cf-c98793gaj865",
-          "uid": "7lj9j114-7g5i-a045-eldi-ic7gl84k5lk6"
-        },
+        "session_uid": "7lj9j114-7g5i-a045-eldi-ic7gl84k5lk6",
+        "session_vid": "k1c65fcl-4167-9758-d6cf-c98793gaj865",
         "group_id": "0",
         "search_query": {
           "query_text": "pantalon",
@@ -5109,10 +4685,8 @@
           "context_type": "search",
           "context_code": "pantalon"
         },
-        "session": {
-          "vid": "k1c65fcl-4167-9758-d6cf-c98793gaj865",
-          "uid": "7lj9j114-7g5i-a045-eldi-ic7gl84k5lk6"
-        },
+        "session_uid": "7lj9j114-7g5i-a045-eldi-ic7gl84k5lk6",
+        "session_vid": "k1c65fcl-4167-9758-d6cf-c98793gaj865",
         "group_id": "0",
         "display": {
           "position": 6
@@ -5133,10 +4707,8 @@
           "context_type": "search",
           "context_code": "pantalon"
         },
-        "session": {
-          "vid": "k1c65fcl-4167-9758-d6cf-c98793gaj865",
-          "uid": "7lj9j114-7g5i-a045-eldi-ic7gl84k5lk6"
-        },
+        "session_uid": "7lj9j114-7g5i-a045-eldi-ic7gl84k5lk6",
+        "session_vid": "k1c65fcl-4167-9758-d6cf-c98793gaj865",
         "group_id": "0"
       },
       {
@@ -5154,10 +4726,8 @@
           "context_type": "search",
           "context_code": "pantalon"
         },
-        "session": {
-          "vid": "k1c65fcl-4167-9758-d6cf-c98793gaj865",
-          "uid": "7lj9j114-7g5i-a045-eldi-ic7gl84k5lk6"
-        },
+        "session_uid": "7lj9j114-7g5i-a045-eldi-ic7gl84k5lk6",
+        "session_vid": "k1c65fcl-4167-9758-d6cf-c98793gaj865",
         "group_id": "0",
         "cart": {
           "qty": 1
@@ -5174,10 +4744,8 @@
         "metadata_code": "category",
         "localized_catalog_code": "fr_fr",
         "entity_code": "cat_15",
-        "session": {
-          "vid": "l2d76gdm-5278-a869-e7dg-da8804hbk976",
-          "uid": "8mk0k225-8h6j-b156-fmej-jd8hm95l6ml7"
-        },
+        "session_uid": "8mk0k225-8h6j-b156-fmej-jd8hm95l6ml7",
+        "session_vid": "l2d76gdm-5278-a869-e7dg-da8804hbk976",
         "group_id": "0",
         "product_list": {
           "item_count": 47,
@@ -5208,10 +4776,8 @@
           "context_type": "category",
           "context_code": "cat_15"
         },
-        "session": {
-          "vid": "l2d76gdm-5278-a869-e7dg-da8804hbk976",
-          "uid": "8mk0k225-8h6j-b156-fmej-jd8hm95l6ml7"
-        },
+        "session_uid": "8mk0k225-8h6j-b156-fmej-jd8hm95l6ml7",
+        "session_vid": "l2d76gdm-5278-a869-e7dg-da8804hbk976",
         "group_id": "0",
         "display": {
           "position": 11
@@ -5232,10 +4798,8 @@
           "context_type": "category",
           "context_code": "cat_15"
         },
-        "session": {
-          "vid": "l2d76gdm-5278-a869-e7dg-da8804hbk976",
-          "uid": "8mk0k225-8h6j-b156-fmej-jd8hm95l6ml7"
-        },
+        "session_uid": "8mk0k225-8h6j-b156-fmej-jd8hm95l6ml7",
+        "session_vid": "l2d76gdm-5278-a869-e7dg-da8804hbk976",
         "group_id": "0"
       },
       {
@@ -5253,10 +4817,8 @@
           "context_type": "category",
           "context_code": "cat_15"
         },
-        "session": {
-          "vid": "l2d76gdm-5278-a869-e7dg-da8804hbk976",
-          "uid": "8mk0k225-8h6j-b156-fmej-jd8hm95l6ml7"
-        },
+        "session_uid": "8mk0k225-8h6j-b156-fmej-jd8hm95l6ml7",
+        "session_vid": "l2d76gdm-5278-a869-e7dg-da8804hbk976",
         "group_id": "0",
         "cart": {
           "qty": 2
@@ -5272,10 +4834,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "fr_fr",
-        "session": {
-          "vid": "m3e87hen-6389-b97a-f8eh-eb9915icl087",
-          "uid": "9nl1l336-9i7k-c267-gnfk-ke9in06m7nm8"
-        },
+        "session_uid": "9nl1l336-9i7k-c267-gnfk-ke9in06m7nm8",
+        "session_vid": "m3e87hen-6389-b97a-f8eh-eb9915icl087",
         "group_id": "0",
         "search_query": {
           "query_text": "blouson",
@@ -5305,10 +4865,8 @@
           "context_type": "search",
           "context_code": "blouson"
         },
-        "session": {
-          "vid": "m3e87hen-6389-b97a-f8eh-eb9915icl087",
-          "uid": "9nl1l336-9i7k-c267-gnfk-ke9in06m7nm8"
-        },
+        "session_uid": "9nl1l336-9i7k-c267-gnfk-ke9in06m7nm8",
+        "session_vid": "m3e87hen-6389-b97a-f8eh-eb9915icl087",
         "group_id": "0",
         "display": {
           "position": 3
@@ -5329,10 +4887,8 @@
           "context_type": "search",
           "context_code": "blouson"
         },
-        "session": {
-          "vid": "m3e87hen-6389-b97a-f8eh-eb9915icl087",
-          "uid": "9nl1l336-9i7k-c267-gnfk-ke9in06m7nm8"
-        },
+        "session_uid": "9nl1l336-9i7k-c267-gnfk-ke9in06m7nm8",
+        "session_vid": "m3e87hen-6389-b97a-f8eh-eb9915icl087",
         "group_id": "0"
       },
       {
@@ -5350,10 +4906,8 @@
           "context_type": "search",
           "context_code": "blouson"
         },
-        "session": {
-          "vid": "m3e87hen-6389-b97a-f8eh-eb9915icl087",
-          "uid": "9nl1l336-9i7k-c267-gnfk-ke9in06m7nm8"
-        },
+        "session_uid": "9nl1l336-9i7k-c267-gnfk-ke9in06m7nm8",
+        "session_vid": "m3e87hen-6389-b97a-f8eh-eb9915icl087",
         "group_id": "0",
         "cart": {
           "qty": 1
@@ -5378,10 +4932,8 @@
           "context_type": "search",
           "context_code": "blouson"
         },
-        "session": {
-          "vid": "m3e87hen-6389-b97a-f8eh-eb9915icl087",
-          "uid": "9nl1l336-9i7k-c267-gnfk-ke9in06m7nm8"
-        },
+        "session_uid": "9nl1l336-9i7k-c267-gnfk-ke9in06m7nm8",
+        "session_vid": "m3e87hen-6389-b97a-f8eh-eb9915icl087",
         "group_id": "0",
         "order": {
           "order_id": "204",
@@ -5398,10 +4950,8 @@
         "metadata_code": "category",
         "localized_catalog_code": "fr_fr",
         "entity_code": "cat_7",
-        "session": {
-          "vid": "n4f98ifo-7490-ca8b-g9fi-fc0a26jdm198",
-          "uid": "0om2m447-0j8l-d378-hogl-lf0jo17n8on9"
-        },
+        "session_uid": "0om2m447-0j8l-d378-hogl-lf0jo17n8on9",
+        "session_vid": "n4f98ifo-7490-ca8b-g9fi-fc0a26jdm198",
         "group_id": "0",
         "product_list": {
           "item_count": 61,
@@ -5432,10 +4982,8 @@
           "context_type": "category",
           "context_code": "cat_7"
         },
-        "session": {
-          "vid": "n4f98ifo-7490-ca8b-g9fi-fc0a26jdm198",
-          "uid": "0om2m447-0j8l-d378-hogl-lf0jo17n8on9"
-        },
+        "session_uid": "0om2m447-0j8l-d378-hogl-lf0jo17n8on9",
+        "session_vid": "n4f98ifo-7490-ca8b-g9fi-fc0a26jdm198",
         "group_id": "0",
         "display": {
           "position": 9
@@ -5456,10 +5004,8 @@
           "context_type": "category",
           "context_code": "cat_7"
         },
-        "session": {
-          "vid": "n4f98ifo-7490-ca8b-g9fi-fc0a26jdm198",
-          "uid": "0om2m447-0j8l-d378-hogl-lf0jo17n8on9"
-        },
+        "session_uid": "0om2m447-0j8l-d378-hogl-lf0jo17n8on9",
+        "session_vid": "n4f98ifo-7490-ca8b-g9fi-fc0a26jdm198",
         "group_id": "0"
       },
       {
@@ -5468,10 +5014,8 @@
         "event_type": "search",
         "metadata_code": "product",
         "localized_catalog_code": "fr_fr",
-        "session": {
-          "vid": "o5g09jgp-8501-db9c-h0gj-gd1b37ken209",
-          "uid": "1pn3n558-1k9m-e489-iphn-mg1kp28o9po0"
-        },
+        "session_uid": "1pn3n558-1k9m-e489-iphn-mg1kp28o9po0",
+        "session_vid": "o5g09jgp-8501-db9c-h0gj-gd1b37ken209",
         "group_id": "0",
         "search_query": {
           "query_text": "jean",
@@ -5506,10 +5050,8 @@
           "context_type": "search",
           "context_code": "jean"
         },
-        "session": {
-          "vid": "o5g09jgp-8501-db9c-h0gj-gd1b37ken209",
-          "uid": "1pn3n558-1k9m-e489-iphn-mg1kp28o9po0"
-        },
+        "session_uid": "1pn3n558-1k9m-e489-iphn-mg1kp28o9po0",
+        "session_vid": "o5g09jgp-8501-db9c-h0gj-gd1b37ken209",
         "group_id": "0",
         "display": {
           "position": 5
@@ -5530,10 +5072,8 @@
           "context_type": "search",
           "context_code": "jean"
         },
-        "session": {
-          "vid": "o5g09jgp-8501-db9c-h0gj-gd1b37ken209",
-          "uid": "1pn3n558-1k9m-e489-iphn-mg1kp28o9po0"
-        },
+        "session_uid": "1pn3n558-1k9m-e489-iphn-mg1kp28o9po0",
+        "session_vid": "o5g09jgp-8501-db9c-h0gj-gd1b37ken209",
         "group_id": "0"
       },
       {
@@ -5551,10 +5091,8 @@
           "context_type": "search",
           "context_code": "jean"
         },
-        "session": {
-          "vid": "o5g09jgp-8501-db9c-h0gj-gd1b37ken209",
-          "uid": "1pn3n558-1k9m-e489-iphn-mg1kp28o9po0"
-        },
+        "session_uid": "1pn3n558-1k9m-e489-iphn-mg1kp28o9po0",
+        "session_vid": "o5g09jgp-8501-db9c-h0gj-gd1b37ken209",
         "group_id": "0",
         "cart": {
           "qty": 3
