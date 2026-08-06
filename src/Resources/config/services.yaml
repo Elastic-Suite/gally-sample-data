@@ -31,5 +31,7 @@ services:
         arguments:
             - '@Gally\Fixture\Service\ElasticsearchFixtures'
             - '@Gally\Fixture\Service\EntityDataStreamsFixturesInterface'
+            - '@Gally\Catalog\Repository\LocalizedCatalogRepository'
+            - '@Gally\Tracker\Service\SessionTransformProvisioner'
         tags:
             - { name: doctrine.fixture.orm }
