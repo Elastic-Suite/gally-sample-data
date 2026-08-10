@@ -1,18 +1,127 @@
 services:
+    Random\Randomizer: ~
+
+    Gally\SampleData\Service\CodeGenerator: ~
+
+    Gally\SampleData\Service\BatchPersister:
+        arguments:
+            - '@doctrine.orm.entity_manager'
+
+    Gally\SampleData\Service\DatabaseResetService:
+        arguments:
+            - '@doctrine.orm.entity_manager'
+            - '@doctrine.migrations.dependency_factory'
+
+    Gally\SampleData\Provider\CategoryHierarchyProvider: ~
+    Gally\SampleData\Provider\FakeTextProvider: ~
+    Gally\SampleData\Provider\FieldTypeProvider: ~
+    Gally\SampleData\Provider\ImageProvider: ~
+    Gally\SampleData\Provider\LocaleProvider: ~
+    Gally\SampleData\Provider\ProductNameProvider:
+        arguments:
+            - '@translator'
+
+    Gally\SampleData\Provider\UserProvider:
+        arguments:
+            - '@doctrine.orm.entity_manager'
+            - '@Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface'
+
+    Gally\SampleData\Provider\MetadataProvider:
+        arguments:
+            - '@doctrine.orm.entity_manager'
+
+    Gally\SampleData\Service\LabelTranslator:
+        arguments:
+            - '@translator'
+
+    Gally\SampleData\Generator\CatalogGenerator:
+        arguments:
+            - '@Gally\SampleData\Service\CodeGenerator'
+            - '@Gally\SampleData\Service\BatchPersister'
+
+    Gally\SampleData\Generator\LocalizedCatalogGenerator:
+        arguments:
+            - '@Gally\SampleData\Service\CodeGenerator'
+            - '@Gally\SampleData\Provider\LocaleProvider'
+            - '@Gally\SampleData\Service\BatchPersister'
+            - '@Gally\Catalog\Repository\CatalogRepository'
+
+    Gally\SampleData\Generator\SourceFieldGenerator:
+        arguments:
+            - '@Gally\SampleData\Service\CodeGenerator'
+            - '@Gally\SampleData\Provider\FieldTypeProvider'
+            - '@Gally\Metadata\Repository\MetadataRepository'
+            - '@Gally\Catalog\Repository\LocalizedCatalogRepository'
+            - '@Gally\Metadata\State\SourceFieldProcessor'
+            - '@Gally\SampleData\Service\LabelTranslator'
+            - '%route_prefix%'
+
+    Gally\SampleData\Generator\SourceFieldOptionGenerator:
+        arguments:
+            - '@Gally\SampleData\Service\CodeGenerator'
+            - '@Gally\Metadata\Repository\SourceFieldRepository'
+            - '@Gally\Catalog\Repository\LocalizedCatalogRepository'
+            - '@Gally\Metadata\State\SourceFieldOptionProcessor'
+            - '@Gally\SampleData\Provider\FieldTypeProvider'
+            - '@Gally\SampleData\Service\LabelTranslator'
+            - '%route_prefix%'
+
+    Gally\SampleData\Generator\CategoryGenerator:
+        arguments:
+            - '@Gally\SampleData\Service\CodeGenerator'
+            - '@doctrine.orm.entity_manager'
+            - '@Gally\Index\Service\IndexOperation'
+            - '@Gally\SampleData\Provider\CategoryHierarchyProvider'
+            - '@Gally\Catalog\Repository\CatalogRepository'
+            - '@Gally\Index\Repository\Index\IndexRepositoryInterface'
+            - '@Gally\Metadata\Repository\MetadataRepository'
+            - '@Gally\Metadata\Repository\SourceFieldRepository'
+            - '@translator'
+
+    Gally\SampleData\Generator\ProductGenerator:
+        arguments:
+            - '@Gally\SampleData\Service\CodeGenerator'
+            - '@doctrine.orm.entity_manager'
+            - '@Gally\Index\Service\IndexOperation'
+            - '@Gally\Catalog\Repository\CatalogRepository'
+            - '@Gally\Index\Repository\Index\IndexRepositoryInterface'
+            - '@Gally\Metadata\Repository\MetadataRepository'
+            - '@Gally\Metadata\Repository\SourceFieldRepository'
+            - '@translator'
+            - '@Gally\SampleData\Provider\ProductNameProvider'
+            - '@Gally\Category\Service\CategoryTreeBuilder'
+
+    # Command
+    Gally\SampleData\Command\GenerateTestDataCommand:
+        arguments:
+            - '@Gally\SampleData\Generator\CatalogGenerator'
+            - '@Gally\SampleData\Generator\LocalizedCatalogGenerator'
+            - '@Gally\SampleData\Generator\SourceFieldGenerator'
+            - '@Gally\SampleData\Generator\SourceFieldOptionGenerator'
+            - '@Gally\SampleData\Generator\CategoryGenerator'
+            - '@Gally\SampleData\Generator\ProductGenerator'
+            - '@Gally\SampleData\Provider\UserProvider'
+            - '@Gally\SampleData\Provider\MetadataProvider'
+            - '@Gally\Index\Repository\Index\IndexRepositoryInterface'
+            - '@Gally\SampleData\Service\DatabaseResetService'
+        tags:
+            - { name: 'console.command' }
+
+    # Existing fixture services
     Gally\SampleData\Locator\PremiumFilesLocator:
         arguments:
             - '@hautelook_alice.locator.environmentless'
             - '@Gally\Bundle\State\ExtraBundleProvider'
 
     hautelook_alice.locator: '@Gally\SampleData\Locator\PremiumFilesLocator'
-    
+
     Gally\SampleData\Service\ElasticsearchCategoryFixtures:
         arguments:
             - '@Gally\Fixture\Service\ElasticsearchFixtures'
             - '@Gally\Fixture\Service\EntityIndicesFixturesInterface'
         tags:
             - { name: doctrine.fixture.orm }
-                
+
     Gally\SampleData\Service\ElasticsearchProductFixtures:
         arguments:
             - '@Gally\Fixture\Service\ElasticsearchFixtures'
