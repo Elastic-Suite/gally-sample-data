@@ -23,7 +23,7 @@
         "phpstan/phpstan-doctrine": "^1.2",
         "phpstan/phpstan-phpunit": "^1.0",
         "phpstan/phpstan-symfony": "^1.1",
-        "symfony/web-profiler-bundle": "6.4.*"
+        "symfony/web-profiler-bundle": "7.4.*"
     },
     "autoload": {
         "psr-4": {
@@ -44,7 +44,7 @@
     },
     "extra": {
         "symfony": {
-            "require": "^6.1"
+            "require": "^7.4"
         }
     }
 }
