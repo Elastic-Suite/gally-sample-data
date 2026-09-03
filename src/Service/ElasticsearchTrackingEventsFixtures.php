@@ -35,7 +35,7 @@ class ElasticsearchTrackingEventsFixtures extends Fixture
     {
         $this->entityDataStreamsFixtures->createEntityElasticsearchDataStreams('tracking_event');
         $this->elasticsearchFixtures->loadFixturesDocumentFiles(
-            [__DIR__ . '/../DataFixtures/elasticsearch/tracking_event_documents.json']
+            [__DIR__ . '/../DataFixtures/default/elasticsearch/tracking_event_documents.json']
         );
 
         // Bypasses TrackingEventHandler, so its automated tracking_session provisioning never

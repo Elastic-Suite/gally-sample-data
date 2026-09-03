@@ -1,0 +1,100 @@
+include:
+    - cms_source_field.yaml
+
+Gally\Metadata\Entity\SourceFieldLabel:
+    cms_page_title_com_en:
+        source_field: '@cms_page_tile'
+        localized_catalog: '@com_en'
+        label: 'Title'
+    cms_page_title_com_fr:
+        source_field: '@cms_page_tile'
+        localized_catalog: '@com_fr'
+        label: 'Titre'
+    cms_page_content_heading_com_en:
+        source_field: '@cms_page_content_heading'
+        localized_catalog: '@com_en'
+        label: 'Summary'
+    cms_page_content_heading_com_fr:
+        source_field: '@cms_page_content_heading'
+        localized_catalog: '@com_fr'
+        label: 'Résumé'
+    cms_page_content_com_en:
+        source_field: '@cms_page_content'
+        localized_catalog: '@com_en'
+        label: 'Content'
+    cms_page_content_com_fr:
+        source_field: '@cms_page_content'
+        localized_catalog: '@com_fr'
+        label: 'Contenu'
+    cms_page_tags_com_en:
+        source_field: '@cms_page_tags'
+        localized_catalog: '@com_en'
+        label: 'Tags'
+    cms_page_tags_com_fr:
+        source_field: '@cms_page_tags'
+        localized_catalog: '@com_fr'
+        label: 'Mots clés'
+    cms_page_content_type_com_en:
+        source_field: '@cms_page_content_type'
+        localized_catalog: '@com_en'
+        label: 'Content type'
+    cms_page_content_type_com_fr:
+        source_field: '@cms_page_content_type'
+        localized_catalog: '@com_fr'
+        label: 'Type de contenu'
+    cms_page_topic_com_en:
+        source_field: '@cms_page_topic'
+        localized_catalog: '@com_en'
+        label: 'Topic'
+    cms_page_topic_com_fr:
+        source_field: '@cms_page_topic'
+        localized_catalog: '@com_fr'
+        label: 'Rubrique'
+    cms_page_author_com_en:
+        source_field: '@cms_page_author'
+        localized_catalog: '@com_en'
+        label: 'Author'
+    cms_page_author_com_fr:
+        source_field: '@cms_page_author'
+        localized_catalog: '@com_fr'
+        label: 'Auteur'
+    cms_page_published_at_com_en:
+        source_field: '@cms_page_published_at'
+        localized_catalog: '@com_en'
+        label: 'Published on'
+    cms_page_published_at_com_fr:
+        source_field: '@cms_page_published_at'
+        localized_catalog: '@com_fr'
+        label: 'Publié le'
+    cms_page_reading_time_com_en:
+        source_field: '@cms_page_reading_time'
+        localized_catalog: '@com_en'
+        label: 'Reading time (min)'
+    cms_page_reading_time_com_fr:
+        source_field: '@cms_page_reading_time'
+        localized_catalog: '@com_fr'
+        label: 'Temps de lecture (min)'
+    cms_page_is_featured_com_en:
+        source_field: '@cms_page_is_featured'
+        localized_catalog: '@com_en'
+        label: 'Featured'
+    cms_page_is_featured_com_fr:
+        source_field: '@cms_page_is_featured'
+        localized_catalog: '@com_fr'
+        label: 'À la une'
+    cms_page_image_com_en:
+        source_field: '@cms_page_image'
+        localized_catalog: '@com_en'
+        label: 'Cover image'
+    cms_page_image_com_fr:
+        source_field: '@cms_page_image'
+        localized_catalog: '@com_fr'
+        label: 'Image de couverture'
+    cms_page_related_skus_com_en:
+        source_field: '@cms_page_related_skus'
+        localized_catalog: '@com_en'
+        label: 'Related products'
+    cms_page_related_skus_com_fr:
+        source_field: '@cms_page_related_skus'
+        localized_catalog: '@com_fr'
+        label: 'Produits associés'
