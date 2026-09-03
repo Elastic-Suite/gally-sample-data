@@ -1,0 +1,492 @@
+include:
+    - cms_source_field_option.yaml
+
+Gally\Metadata\Entity\SourceFieldOptionLabel:
+    cms_page_content_type_option_blog_com_en:
+        source_field_option: '@cms_page_content_type_option_blog'
+        localized_catalog: '@com_en'
+        label: 'Blog Post'
+    cms_page_content_type_option_blog_com_fr:
+        source_field_option: '@cms_page_content_type_option_blog'
+        localized_catalog: '@com_fr'
+        label: 'Article de blog'
+    cms_page_content_type_option_guide_com_en:
+        source_field_option: '@cms_page_content_type_option_guide'
+        localized_catalog: '@com_en'
+        label: 'Buying Guide'
+    cms_page_content_type_option_guide_com_fr:
+        source_field_option: '@cms_page_content_type_option_guide'
+        localized_catalog: '@com_fr'
+        label: 'Guide d''achat'
+    cms_page_topic_option_style_guide_com_en:
+        source_field_option: '@cms_page_topic_option_style_guide'
+        localized_catalog: '@com_en'
+        label: 'Style Guide'
+    cms_page_topic_option_style_guide_com_fr:
+        source_field_option: '@cms_page_topic_option_style_guide'
+        localized_catalog: '@com_fr'
+        label: 'Guide de style'
+    cms_page_topic_option_trends_com_en:
+        source_field_option: '@cms_page_topic_option_trends'
+        localized_catalog: '@com_en'
+        label: 'Trends'
+    cms_page_topic_option_trends_com_fr:
+        source_field_option: '@cms_page_topic_option_trends'
+        localized_catalog: '@com_fr'
+        label: 'Tendances'
+    cms_page_topic_option_materials_com_en:
+        source_field_option: '@cms_page_topic_option_materials'
+        localized_catalog: '@com_en'
+        label: 'Materials'
+    cms_page_topic_option_materials_com_fr:
+        source_field_option: '@cms_page_topic_option_materials'
+        localized_catalog: '@com_fr'
+        label: 'Matières'
+    cms_page_topic_option_care_com_en:
+        source_field_option: '@cms_page_topic_option_care'
+        localized_catalog: '@com_en'
+        label: 'Garment Care'
+    cms_page_topic_option_care_com_fr:
+        source_field_option: '@cms_page_topic_option_care'
+        localized_catalog: '@com_fr'
+        label: 'Entretien'
+    cms_page_topic_option_sustainability_com_en:
+        source_field_option: '@cms_page_topic_option_sustainability'
+        localized_catalog: '@com_en'
+        label: 'Sustainability'
+    cms_page_topic_option_sustainability_com_fr:
+        source_field_option: '@cms_page_topic_option_sustainability'
+        localized_catalog: '@com_fr'
+        label: 'Mode responsable'
+    cms_page_topic_option_accessories_com_en:
+        source_field_option: '@cms_page_topic_option_accessories'
+        localized_catalog: '@com_en'
+        label: 'Accessories'
+    cms_page_topic_option_accessories_com_fr:
+        source_field_option: '@cms_page_topic_option_accessories'
+        localized_catalog: '@com_fr'
+        label: 'Accessoires'
+    cms_page_topic_option_occasions_com_en:
+        source_field_option: '@cms_page_topic_option_occasions'
+        localized_catalog: '@com_en'
+        label: 'Occasions'
+    cms_page_topic_option_occasions_com_fr:
+        source_field_option: '@cms_page_topic_option_occasions'
+        localized_catalog: '@com_fr'
+        label: 'Occasions'
+    cms_page_topic_option_fit_sizing_com_en:
+        source_field_option: '@cms_page_topic_option_fit_sizing'
+        localized_catalog: '@com_en'
+        label: 'Fit & Sizing'
+    cms_page_topic_option_fit_sizing_com_fr:
+        source_field_option: '@cms_page_topic_option_fit_sizing'
+        localized_catalog: '@com_fr'
+        label: 'Coupe et taille'
+    cms_page_topic_option_color_com_en:
+        source_field_option: '@cms_page_topic_option_color'
+        localized_catalog: '@com_en'
+        label: 'Colour'
+    cms_page_topic_option_color_com_fr:
+        source_field_option: '@cms_page_topic_option_color'
+        localized_catalog: '@com_fr'
+        label: 'Couleur'
+    cms_page_topic_option_behind_scenes_com_en:
+        source_field_option: '@cms_page_topic_option_behind_scenes'
+        localized_catalog: '@com_en'
+        label: 'Behind the Scenes'
+    cms_page_topic_option_behind_scenes_com_fr:
+        source_field_option: '@cms_page_topic_option_behind_scenes'
+        localized_catalog: '@com_fr'
+        label: 'Coulisses'
+    cms_page_author_option_camille_laurent_com_en:
+        source_field_option: '@cms_page_author_option_camille_laurent'
+        localized_catalog: '@com_en'
+        label: 'Camille Laurent'
+    cms_page_author_option_camille_laurent_com_fr:
+        source_field_option: '@cms_page_author_option_camille_laurent'
+        localized_catalog: '@com_fr'
+        label: 'Camille Laurent'
+    cms_page_author_option_lea_moreau_com_en:
+        source_field_option: '@cms_page_author_option_lea_moreau'
+        localized_catalog: '@com_en'
+        label: 'Léa Moreau'
+    cms_page_author_option_lea_moreau_com_fr:
+        source_field_option: '@cms_page_author_option_lea_moreau'
+        localized_catalog: '@com_fr'
+        label: 'Léa Moreau'
+    cms_page_author_option_julien_faure_com_en:
+        source_field_option: '@cms_page_author_option_julien_faure'
+        localized_catalog: '@com_en'
+        label: 'Julien Faure'
+    cms_page_author_option_julien_faure_com_fr:
+        source_field_option: '@cms_page_author_option_julien_faure'
+        localized_catalog: '@com_fr'
+        label: 'Julien Faure'
+    cms_page_author_option_sofia_marchetti_com_en:
+        source_field_option: '@cms_page_author_option_sofia_marchetti'
+        localized_catalog: '@com_en'
+        label: 'Sofia Marchetti'
+    cms_page_author_option_sofia_marchetti_com_fr:
+        source_field_option: '@cms_page_author_option_sofia_marchetti'
+        localized_catalog: '@com_fr'
+        label: 'Sofia Marchetti'
+    cms_page_author_option_noemie_girard_com_en:
+        source_field_option: '@cms_page_author_option_noemie_girard'
+        localized_catalog: '@com_en'
+        label: 'Noémie Girard'
+    cms_page_author_option_noemie_girard_com_fr:
+        source_field_option: '@cms_page_author_option_noemie_girard'
+        localized_catalog: '@com_fr'
+        label: 'Noémie Girard'
+    cms_page_author_option_thomas_bertrand_com_en:
+        source_field_option: '@cms_page_author_option_thomas_bertrand'
+        localized_catalog: '@com_en'
+        label: 'Thomas Bertrand'
+    cms_page_author_option_thomas_bertrand_com_fr:
+        source_field_option: '@cms_page_author_option_thomas_bertrand'
+        localized_catalog: '@com_fr'
+        label: 'Thomas Bertrand'
+    cms_page_author_option_ines_rahmani_com_en:
+        source_field_option: '@cms_page_author_option_ines_rahmani'
+        localized_catalog: '@com_en'
+        label: 'Inès Rahmani'
+    cms_page_author_option_ines_rahmani_com_fr:
+        source_field_option: '@cms_page_author_option_ines_rahmani'
+        localized_catalog: '@com_fr'
+        label: 'Inès Rahmani'
+    cms_page_author_option_marc_delaunay_com_en:
+        source_field_option: '@cms_page_author_option_marc_delaunay'
+        localized_catalog: '@com_en'
+        label: 'Marc Delaunay'
+    cms_page_author_option_marc_delaunay_com_fr:
+        source_field_option: '@cms_page_author_option_marc_delaunay'
+        localized_catalog: '@com_fr'
+        label: 'Marc Delaunay'
+    cms_page_tags_option_fashion_com_en:
+        source_field_option: '@cms_page_tags_option_fashion'
+        localized_catalog: '@com_en'
+        label: 'Fashion'
+    cms_page_tags_option_fashion_com_fr:
+        source_field_option: '@cms_page_tags_option_fashion'
+        localized_catalog: '@com_fr'
+        label: 'Mode'
+    cms_page_tags_option_dress_com_en:
+        source_field_option: '@cms_page_tags_option_dress'
+        localized_catalog: '@com_en'
+        label: 'Dress'
+    cms_page_tags_option_dress_com_fr:
+        source_field_option: '@cms_page_tags_option_dress'
+        localized_catalog: '@com_fr'
+        label: 'Robe'
+    cms_page_tags_option_summer_com_en:
+        source_field_option: '@cms_page_tags_option_summer'
+        localized_catalog: '@com_en'
+        label: 'Summer'
+    cms_page_tags_option_summer_com_fr:
+        source_field_option: '@cms_page_tags_option_summer'
+        localized_catalog: '@com_fr'
+        label: 'Été'
+    cms_page_tags_option_slick_com_en:
+        source_field_option: '@cms_page_tags_option_slick'
+        localized_catalog: '@com_en'
+        label: 'Slick'
+    cms_page_tags_option_slick_com_fr:
+        source_field_option: '@cms_page_tags_option_slick'
+        localized_catalog: '@com_fr'
+        label: 'Soie'
+    cms_page_tags_option_nylon_com_en:
+        source_field_option: '@cms_page_tags_option_nylon'
+        localized_catalog: '@com_en'
+        label: 'Nylon'
+    cms_page_tags_option_nylon_com_fr:
+        source_field_option: '@cms_page_tags_option_nylon'
+        localized_catalog: '@com_fr'
+        label: 'Nylon'
+    cms_page_tags_option_jewelry_com_en:
+        source_field_option: '@cms_page_tags_option_jewelry'
+        localized_catalog: '@com_en'
+        label: 'Jewelry'
+    cms_page_tags_option_jewelry_com_fr:
+        source_field_option: '@cms_page_tags_option_jewelry'
+        localized_catalog: '@com_fr'
+        label: 'Bijoux'
+    cms_page_tags_option_gold_com_en:
+        source_field_option: '@cms_page_tags_option_gold'
+        localized_catalog: '@com_en'
+        label: 'Gold'
+    cms_page_tags_option_gold_com_fr:
+        source_field_option: '@cms_page_tags_option_gold'
+        localized_catalog: '@com_fr'
+        label: 'Or'
+    cms_page_tags_option_colors_com_en:
+        source_field_option: '@cms_page_tags_option_colors'
+        localized_catalog: '@com_en'
+        label: 'Colors'
+    cms_page_tags_option_colors_com_fr:
+        source_field_option: '@cms_page_tags_option_colors'
+        localized_catalog: '@com_fr'
+        label: 'Couleurs'
+    cms_page_tags_option_shirts_com_en:
+        source_field_option: '@cms_page_tags_option_shirts'
+        localized_catalog: '@com_en'
+        label: 'Shirts'
+    cms_page_tags_option_shirts_com_fr:
+        source_field_option: '@cms_page_tags_option_shirts'
+        localized_catalog: '@com_fr'
+        label: 'Chemises'
+    cms_page_tags_option_blouses_com_en:
+        source_field_option: '@cms_page_tags_option_blouses'
+        localized_catalog: '@com_en'
+        label: 'Blouses'
+    cms_page_tags_option_blouses_com_fr:
+        source_field_option: '@cms_page_tags_option_blouses'
+        localized_catalog: '@com_fr'
+        label: 'Chemisiers'
+    cms_page_tags_option_neckline_com_en:
+        source_field_option: '@cms_page_tags_option_neckline'
+        localized_catalog: '@com_en'
+        label: 'Neckline'
+    cms_page_tags_option_neckline_com_fr:
+        source_field_option: '@cms_page_tags_option_neckline'
+        localized_catalog: '@com_fr'
+        label: 'Encolure'
+    cms_page_tags_option_materials_com_en:
+        source_field_option: '@cms_page_tags_option_materials'
+        localized_catalog: '@com_en'
+        label: 'Materials'
+    cms_page_tags_option_materials_com_fr:
+        source_field_option: '@cms_page_tags_option_materials'
+        localized_catalog: '@com_fr'
+        label: 'Matériaux'
+    cms_page_tags_option_natural_com_en:
+        source_field_option: '@cms_page_tags_option_natural'
+        localized_catalog: '@com_en'
+        label: 'Natural'
+    cms_page_tags_option_natural_com_fr:
+        source_field_option: '@cms_page_tags_option_natural'
+        localized_catalog: '@com_fr'
+        label: 'Naturel'
+    cms_page_tags_option_capsule_wardrobe_com_en:
+        source_field_option: '@cms_page_tags_option_capsule_wardrobe'
+        localized_catalog: '@com_en'
+        label: 'Capsule Wardrobe'
+    cms_page_tags_option_capsule_wardrobe_com_fr:
+        source_field_option: '@cms_page_tags_option_capsule_wardrobe'
+        localized_catalog: '@com_fr'
+        label: 'Garde-robe capsule'
+    cms_page_tags_option_layering_com_en:
+        source_field_option: '@cms_page_tags_option_layering'
+        localized_catalog: '@com_en'
+        label: 'Layering'
+    cms_page_tags_option_layering_com_fr:
+        source_field_option: '@cms_page_tags_option_layering'
+        localized_catalog: '@com_fr'
+        label: 'Superposition'
+    cms_page_tags_option_trends_com_en:
+        source_field_option: '@cms_page_tags_option_trends'
+        localized_catalog: '@com_en'
+        label: 'Trends'
+    cms_page_tags_option_trends_com_fr:
+        source_field_option: '@cms_page_tags_option_trends'
+        localized_catalog: '@com_fr'
+        label: 'Tendances'
+    cms_page_tags_option_tailoring_com_en:
+        source_field_option: '@cms_page_tags_option_tailoring'
+        localized_catalog: '@com_en'
+        label: 'Tailoring'
+    cms_page_tags_option_tailoring_com_fr:
+        source_field_option: '@cms_page_tags_option_tailoring'
+        localized_catalog: '@com_fr'
+        label: 'Retouches'
+    cms_page_tags_option_prints_com_en:
+        source_field_option: '@cms_page_tags_option_prints'
+        localized_catalog: '@com_en'
+        label: 'Prints'
+    cms_page_tags_option_prints_com_fr:
+        source_field_option: '@cms_page_tags_option_prints'
+        localized_catalog: '@com_fr'
+        label: 'Imprimés'
+    cms_page_tags_option_minimalism_com_en:
+        source_field_option: '@cms_page_tags_option_minimalism'
+        localized_catalog: '@com_en'
+        label: 'Minimalism'
+    cms_page_tags_option_minimalism_com_fr:
+        source_field_option: '@cms_page_tags_option_minimalism'
+        localized_catalog: '@com_fr'
+        label: 'Minimalisme'
+    cms_page_tags_option_linen_com_en:
+        source_field_option: '@cms_page_tags_option_linen'
+        localized_catalog: '@com_en'
+        label: 'Linen'
+    cms_page_tags_option_linen_com_fr:
+        source_field_option: '@cms_page_tags_option_linen'
+        localized_catalog: '@com_fr'
+        label: 'Lin'
+    cms_page_tags_option_cotton_com_en:
+        source_field_option: '@cms_page_tags_option_cotton'
+        localized_catalog: '@com_en'
+        label: 'Cotton'
+    cms_page_tags_option_cotton_com_fr:
+        source_field_option: '@cms_page_tags_option_cotton'
+        localized_catalog: '@com_fr'
+        label: 'Coton'
+    cms_page_tags_option_silk_com_en:
+        source_field_option: '@cms_page_tags_option_silk'
+        localized_catalog: '@com_en'
+        label: 'Silk'
+    cms_page_tags_option_silk_com_fr:
+        source_field_option: '@cms_page_tags_option_silk'
+        localized_catalog: '@com_fr'
+        label: 'Soie'
+    cms_page_tags_option_wool_com_en:
+        source_field_option: '@cms_page_tags_option_wool'
+        localized_catalog: '@com_en'
+        label: 'Wool'
+    cms_page_tags_option_wool_com_fr:
+        source_field_option: '@cms_page_tags_option_wool'
+        localized_catalog: '@com_fr'
+        label: 'Laine'
+    cms_page_tags_option_knitwear_com_en:
+        source_field_option: '@cms_page_tags_option_knitwear'
+        localized_catalog: '@com_en'
+        label: 'Knitwear'
+    cms_page_tags_option_knitwear_com_fr:
+        source_field_option: '@cms_page_tags_option_knitwear'
+        localized_catalog: '@com_fr'
+        label: 'Maille'
+    cms_page_tags_option_denim_com_en:
+        source_field_option: '@cms_page_tags_option_denim'
+        localized_catalog: '@com_en'
+        label: 'Denim'
+    cms_page_tags_option_denim_com_fr:
+        source_field_option: '@cms_page_tags_option_denim'
+        localized_catalog: '@com_fr'
+        label: 'Denim'
+    cms_page_tags_option_care_com_en:
+        source_field_option: '@cms_page_tags_option_care'
+        localized_catalog: '@com_en'
+        label: 'Garment Care'
+    cms_page_tags_option_care_com_fr:
+        source_field_option: '@cms_page_tags_option_care'
+        localized_catalog: '@com_fr'
+        label: 'Entretien'
+    cms_page_tags_option_washing_com_en:
+        source_field_option: '@cms_page_tags_option_washing'
+        localized_catalog: '@com_en'
+        label: 'Washing'
+    cms_page_tags_option_washing_com_fr:
+        source_field_option: '@cms_page_tags_option_washing'
+        localized_catalog: '@com_fr'
+        label: 'Lavage'
+    cms_page_tags_option_storage_com_en:
+        source_field_option: '@cms_page_tags_option_storage'
+        localized_catalog: '@com_en'
+        label: 'Storage'
+    cms_page_tags_option_storage_com_fr:
+        source_field_option: '@cms_page_tags_option_storage'
+        localized_catalog: '@com_fr'
+        label: 'Rangement'
+    cms_page_tags_option_sustainability_com_en:
+        source_field_option: '@cms_page_tags_option_sustainability'
+        localized_catalog: '@com_en'
+        label: 'Sustainability'
+    cms_page_tags_option_sustainability_com_fr:
+        source_field_option: '@cms_page_tags_option_sustainability'
+        localized_catalog: '@com_fr'
+        label: 'Mode responsable'
+    cms_page_tags_option_belts_com_en:
+        source_field_option: '@cms_page_tags_option_belts'
+        localized_catalog: '@com_en'
+        label: 'Belts'
+    cms_page_tags_option_belts_com_fr:
+        source_field_option: '@cms_page_tags_option_belts'
+        localized_catalog: '@com_fr'
+        label: 'Ceintures'
+    cms_page_tags_option_scarves_com_en:
+        source_field_option: '@cms_page_tags_option_scarves'
+        localized_catalog: '@com_en'
+        label: 'Scarves'
+    cms_page_tags_option_scarves_com_fr:
+        source_field_option: '@cms_page_tags_option_scarves'
+        localized_catalog: '@com_fr'
+        label: 'Foulards'
+    cms_page_tags_option_accessories_com_en:
+        source_field_option: '@cms_page_tags_option_accessories'
+        localized_catalog: '@com_en'
+        label: 'Accessories'
+    cms_page_tags_option_accessories_com_fr:
+        source_field_option: '@cms_page_tags_option_accessories'
+        localized_catalog: '@com_fr'
+        label: 'Accessoires'
+    cms_page_tags_option_travel_com_en:
+        source_field_option: '@cms_page_tags_option_travel'
+        localized_catalog: '@com_en'
+        label: 'Travel'
+    cms_page_tags_option_travel_com_fr:
+        source_field_option: '@cms_page_tags_option_travel'
+        localized_catalog: '@com_fr'
+        label: 'Voyage'
+    cms_page_tags_option_wedding_com_en:
+        source_field_option: '@cms_page_tags_option_wedding'
+        localized_catalog: '@com_en'
+        label: 'Wedding'
+    cms_page_tags_option_wedding_com_fr:
+        source_field_option: '@cms_page_tags_option_wedding'
+        localized_catalog: '@com_fr'
+        label: 'Mariage'
+    cms_page_tags_option_occasions_com_en:
+        source_field_option: '@cms_page_tags_option_occasions'
+        localized_catalog: '@com_en'
+        label: 'Occasions'
+    cms_page_tags_option_occasions_com_fr:
+        source_field_option: '@cms_page_tags_option_occasions'
+        localized_catalog: '@com_fr'
+        label: 'Occasions'
+    cms_page_tags_option_office_com_en:
+        source_field_option: '@cms_page_tags_option_office'
+        localized_catalog: '@com_en'
+        label: 'Office'
+    cms_page_tags_option_office_com_fr:
+        source_field_option: '@cms_page_tags_option_office'
+        localized_catalog: '@com_fr'
+        label: 'Bureau'
+    cms_page_tags_option_beach_com_en:
+        source_field_option: '@cms_page_tags_option_beach'
+        localized_catalog: '@com_en'
+        label: 'Beach'
+    cms_page_tags_option_beach_com_fr:
+        source_field_option: '@cms_page_tags_option_beach'
+        localized_catalog: '@com_fr'
+        label: 'Plage'
+    cms_page_tags_option_sizing_com_en:
+        source_field_option: '@cms_page_tags_option_sizing'
+        localized_catalog: '@com_en'
+        label: 'Sizing'
+    cms_page_tags_option_sizing_com_fr:
+        source_field_option: '@cms_page_tags_option_sizing'
+        localized_catalog: '@com_fr'
+        label: 'Tailles'
+    cms_page_tags_option_spring_com_en:
+        source_field_option: '@cms_page_tags_option_spring'
+        localized_catalog: '@com_en'
+        label: 'Spring'
+    cms_page_tags_option_spring_com_fr:
+        source_field_option: '@cms_page_tags_option_spring'
+        localized_catalog: '@com_fr'
+        label: 'Printemps'
+    cms_page_tags_option_autumn_com_en:
+        source_field_option: '@cms_page_tags_option_autumn'
+        localized_catalog: '@com_en'
+        label: 'Autumn'
+    cms_page_tags_option_autumn_com_fr:
+        source_field_option: '@cms_page_tags_option_autumn'
+        localized_catalog: '@com_fr'
+        label: 'Automne'
+    cms_page_tags_option_behind_the_scenes_com_en:
+        source_field_option: '@cms_page_tags_option_behind_the_scenes'
+        localized_catalog: '@com_en'
+        label: 'Behind the Scenes'
+    cms_page_tags_option_behind_the_scenes_com_fr:
+        source_field_option: '@cms_page_tags_option_behind_the_scenes'
+        localized_catalog: '@com_fr'
+        label: 'Coulisses'

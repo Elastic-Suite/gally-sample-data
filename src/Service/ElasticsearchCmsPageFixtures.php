@@ -30,6 +30,6 @@ class ElasticsearchCmsPageFixtures extends Fixture
     public function load(ObjectManager $manager): void
     {
         $this->entityIndicesFixtures->createEntityElasticsearchIndices('cms_page');
-        $this->elasticsearchFixtures->loadFixturesDocumentFiles([__DIR__ . '/../DataFixtures/elasticsearch/cms_page_documents.json']);
+        $this->elasticsearchFixtures->loadFixturesDocumentFiles([__DIR__ . '/../DataFixtures/default/elasticsearch/cms_page_documents.json']);
     }
 }
