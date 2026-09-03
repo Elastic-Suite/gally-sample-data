@@ -37,8 +37,8 @@ class GallySampleDataExtension extends Extension
         $container->prependExtensionConfig(
             'hautelook_alice',
             ['fixtures_path' => [
-                'DataFixtures',
-                'DataFixtures/premium',
+                'DataFixtures/default',
+                'DataFixtures/default/premium',
             ],
             ]);
     }

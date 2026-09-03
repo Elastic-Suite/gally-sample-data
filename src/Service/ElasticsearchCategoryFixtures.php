@@ -30,6 +30,6 @@ class ElasticsearchCategoryFixtures extends Fixture
     public function load(ObjectManager $manager): void
     {
         $this->entityIndicesFixtures->createEntityElasticsearchIndices('category');
-        $this->elasticsearchFixtures->loadFixturesDocumentFiles([__DIR__ . '/../DataFixtures/elasticsearch/categories_documents.json']);
+        $this->elasticsearchFixtures->loadFixturesDocumentFiles([__DIR__ . '/../DataFixtures/default/elasticsearch/categories_documents.json']);
     }
 }

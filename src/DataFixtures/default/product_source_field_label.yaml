@@ -74,6 +74,14 @@ Gally\Metadata\Entity\SourceFieldLabel:
         source_field: '@product_color'
         localized_catalog: '@com_fr'
         label: Color
+    product_configurable_attributes_com_en:
+        source_field: '@product_configurable_attributes'
+        localized_catalog: '@com_en'
+        label: 'Configurable Attributes'
+    product_configurable_attributes_com_fr:
+        source_field: '@product_configurable_attributes'
+        localized_catalog: '@com_fr'
+        label: 'Attributs configurables'
     product_cost_com_en:
         source_field: '@product_cost'
         localized_catalog: '@com_en'
@@ -141,7 +149,7 @@ Gally\Metadata\Entity\SourceFieldLabel:
     product_fashion_color_com_en:
         source_field: '@product_fashion_color'
         localized_catalog: '@com_en'
-        label: 'Fashion Color'
+        label: Color
     product_fashion_color_com_fr:
         source_field: '@product_fashion_color'
         localized_catalog: '@com_fr'
@@ -149,7 +157,7 @@ Gally\Metadata\Entity\SourceFieldLabel:
     product_fashion_material_com_en:
         source_field: '@product_fashion_material'
         localized_catalog: '@com_en'
-        label: 'Fashion Material'
+        label: Material
     product_fashion_material_com_fr:
         source_field: '@product_fashion_material'
         localized_catalog: '@com_fr'
@@ -157,15 +165,15 @@ Gally\Metadata\Entity\SourceFieldLabel:
     product_fashion_size_com_en:
         source_field: '@product_fashion_size'
         localized_catalog: '@com_en'
-        label: 'Fashion Size'
+        label: Size
     product_fashion_size_com_fr:
         source_field: '@product_fashion_size'
         localized_catalog: '@com_fr'
-        label: Size
+        label: Taille
     product_fashion_style_com_en:
         source_field: '@product_fashion_style'
         localized_catalog: '@com_en'
-        label: 'Fashion Style'
+        label: Style
     product_fashion_style_com_fr:
         source_field: '@product_fashion_style'
         localized_catalog: '@com_fr'
@@ -594,10 +602,14 @@ Gally\Metadata\Entity\SourceFieldLabel:
         source_field: '@product_material'
         localized_catalog: '@com_fr'
         label: Material
+    product_new_com_en:
+        source_field: '@product_new'
+        localized_catalog: '@com_en'
+        label: New
     product_new_com_fr:
         source_field: '@product_new'
         localized_catalog: '@com_fr'
-        label: New
+        label: Nouveauté
     product_old_id_com_fr:
         source_field: '@product_old_id'
         localized_catalog: '@com_fr'
@@ -622,10 +634,14 @@ Gally\Metadata\Entity\SourceFieldLabel:
         source_field: '@product_purpose'
         localized_catalog: '@com_fr'
         label: Purpose
+    product_sale_com_en:
+        source_field: '@product_sale'
+        localized_catalog: '@com_en'
+        label: Sale
     product_sale_com_fr:
         source_field: '@product_sale'
         localized_catalog: '@com_fr'
-        label: Sale
+        label: Promotion
     product_size_com_fr:
         source_field: '@product_size'
         localized_catalog: '@com_fr'

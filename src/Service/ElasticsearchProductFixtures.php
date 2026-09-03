@@ -30,6 +30,6 @@ class ElasticsearchProductFixtures extends Fixture
     public function load(ObjectManager $manager): void
     {
         $this->entityIndicesFixtures->createEntityElasticsearchIndices('product');
-        $this->elasticsearchFixtures->loadFixturesDocumentFiles([__DIR__ . '/../DataFixtures/elasticsearch/product_documents.json']);
+        $this->elasticsearchFixtures->loadFixturesDocumentFiles([__DIR__ . '/../DataFixtures/default/elasticsearch/product_documents.json']);
     }
 }
