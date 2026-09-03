@@ -92,6 +92,22 @@ Gally\Metadata\Entity\SourceField:
         isFilterable: true
         isSortable: false
         isUsedForRules: true
+    # Names the attributes a configurable product varies on ("fashion_color", "fashion_size").
+    # Every product document already carries it; declaring it here is what puts it on the GraphQL
+    # Product type, so a storefront can tell a configurable from a simple one without pulling the
+    # whole `source`. Gally already maps this field as `keyword` in the base mapping it applies to
+    # every index it creates, so the declaration aligns with that rather than competing with it.
+    # Deliberately inert: it is plumbing, not merchandising — never a facet, never searched.
+    product_configurable_attributes:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: configurable_attributes
+        type: keyword
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: false
+        isSortable: false
+        isUsedForRules: false
     product_cost:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: cost
@@ -170,6 +186,7 @@ Gally\Metadata\Entity\SourceField:
         weight: 1
         isSpellchecked: true
         isFilterable: true
+        isUsedInAutocomplete: true
         isSortable: false
         isUsedForRules: true
     product_fashion_material:
@@ -180,6 +197,7 @@ Gally\Metadata\Entity\SourceField:
         weight: 1
         isSpellchecked: true
         isFilterable: true
+        isUsedInAutocomplete: true
         isSortable: false
         isUsedForRules: true
     product_fashion_size:
@@ -190,6 +208,7 @@ Gally\Metadata\Entity\SourceField:
         weight: 1
         isSpellchecked: false
         isFilterable: true
+        isUsedInAutocomplete: true
         isSortable: false
         isUsedForRules: true
     product_fashion_style:
@@ -200,6 +219,7 @@ Gally\Metadata\Entity\SourceField:
         weight: 1
         isSpellchecked: true
         isFilterable: true
+        isUsedInAutocomplete: true
         isSortable: false
         isUsedForRules: true
     product_gallery:
