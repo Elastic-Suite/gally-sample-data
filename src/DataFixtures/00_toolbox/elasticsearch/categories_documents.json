@@ -1,0 +1,4037 @@
+[
+  {
+    "index_name": "gally_localized_catalog_toolbox_fr_category",
+    "documents": [
+      {
+        "id": "cat_tbx_1",
+        "path": "cat_tbx_1",
+        "level": "1",
+        "position": "1",
+        "children_count": "11",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Tous les produits"
+        ]
+      },
+      {
+        "id": "cat_tbx_2",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_2",
+        "level": "2",
+        "position": "1",
+        "children_count": "7",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Outillage \u00e0 main"
+        ],
+        "url_key": [
+          "outillage-a-main"
+        ]
+      },
+      {
+        "id": "cat_tbx_3",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_3",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Tournevis"
+        ],
+        "url_key": [
+          "tournevis"
+        ]
+      },
+      {
+        "id": "cat_tbx_4",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_4",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Cl\u00e9s"
+        ],
+        "url_key": [
+          "cles"
+        ]
+      },
+      {
+        "id": "cat_tbx_5",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_5",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Pinces"
+        ],
+        "url_key": [
+          "pinces"
+        ]
+      },
+      {
+        "id": "cat_tbx_6",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_6",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Marteaux"
+        ],
+        "url_key": [
+          "marteaux"
+        ]
+      },
+      {
+        "id": "cat_tbx_7",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_7",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Scies \u00e0 main"
+        ],
+        "url_key": [
+          "scies-a-main"
+        ]
+      },
+      {
+        "id": "cat_tbx_8",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_8",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Mesure & Tra\u00e7age"
+        ],
+        "url_key": [
+          "mesure-tracage"
+        ]
+      },
+      {
+        "id": "cat_tbx_9",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_9",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Limes & R\u00e2pes"
+        ],
+        "url_key": [
+          "limes-rapes"
+        ]
+      },
+      {
+        "id": "cat_tbx_10",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_10",
+        "level": "2",
+        "position": "2",
+        "children_count": "8",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Outillage \u00e9lectroportatif"
+        ],
+        "url_key": [
+          "outillage-electroportatif"
+        ]
+      },
+      {
+        "id": "cat_tbx_11",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_11",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Perceuses & Visseuses"
+        ],
+        "url_key": [
+          "perceuses-visseuses"
+        ]
+      },
+      {
+        "id": "cat_tbx_12",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_12",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Visseuses \u00e0 chocs"
+        ],
+        "url_key": [
+          "visseuses-a-chocs"
+        ]
+      },
+      {
+        "id": "cat_tbx_13",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_13",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Perforateurs"
+        ],
+        "url_key": [
+          "perforateurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_14",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_14",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Meuleuses"
+        ],
+        "url_key": [
+          "meuleuses"
+        ]
+      },
+      {
+        "id": "cat_tbx_15",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_15",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Scies \u00e9lectriques"
+        ],
+        "url_key": [
+          "scies-electriques"
+        ]
+      },
+      {
+        "id": "cat_tbx_16",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_16",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Ponceuses"
+        ],
+        "url_key": [
+          "ponceuses"
+        ]
+      },
+      {
+        "id": "cat_tbx_17",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_17",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "D\u00e9fonceuses & Rabots"
+        ],
+        "url_key": [
+          "defonceuses-rabots"
+        ]
+      },
+      {
+        "id": "cat_tbx_18",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_18",
+        "level": "3",
+        "position": "8",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Multi-outils & D\u00e9capeurs"
+        ],
+        "url_key": [
+          "multi-outils-decapeurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_19",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_19",
+        "level": "2",
+        "position": "3",
+        "children_count": "4",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Batteries & Chargeurs"
+        ],
+        "url_key": [
+          "batteries-chargeurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_20",
+        "parentId": "cat_tbx_19",
+        "path": "cat_tbx_1\/cat_tbx_19\/cat_tbx_20",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Batteries 12V"
+        ],
+        "url_key": [
+          "batteries-12v"
+        ]
+      },
+      {
+        "id": "cat_tbx_21",
+        "parentId": "cat_tbx_19",
+        "path": "cat_tbx_1\/cat_tbx_19\/cat_tbx_21",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Batteries 18V"
+        ],
+        "url_key": [
+          "batteries-18v"
+        ]
+      },
+      {
+        "id": "cat_tbx_22",
+        "parentId": "cat_tbx_19",
+        "path": "cat_tbx_1\/cat_tbx_19\/cat_tbx_22",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Batteries 36V"
+        ],
+        "url_key": [
+          "batteries-36v"
+        ]
+      },
+      {
+        "id": "cat_tbx_23",
+        "parentId": "cat_tbx_19",
+        "path": "cat_tbx_1\/cat_tbx_19\/cat_tbx_23",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Chargeurs"
+        ],
+        "url_key": [
+          "chargeurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_24",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_24",
+        "level": "2",
+        "position": "4",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Accessoires & Consommables"
+        ],
+        "url_key": [
+          "accessoires-consommables"
+        ]
+      },
+      {
+        "id": "cat_tbx_25",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_25",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Forets"
+        ],
+        "url_key": [
+          "forets"
+        ]
+      },
+      {
+        "id": "cat_tbx_26",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_26",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Lames de scie"
+        ],
+        "url_key": [
+          "lames-de-scie"
+        ]
+      },
+      {
+        "id": "cat_tbx_27",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_27",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Disques pour meuleuse"
+        ],
+        "url_key": [
+          "disques-meuleuse"
+        ]
+      },
+      {
+        "id": "cat_tbx_28",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_28",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Abrasifs & Pon\u00e7age"
+        ],
+        "url_key": [
+          "abrasifs-poncage"
+        ]
+      },
+      {
+        "id": "cat_tbx_29",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_29",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Embouts de vissage"
+        ],
+        "url_key": [
+          "embouts-vissage"
+        ]
+      },
+      {
+        "id": "cat_tbx_30",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_30",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Couronnes & Tr\u00e9pans"
+        ],
+        "url_key": [
+          "couronnes-trepans"
+        ]
+      },
+      {
+        "id": "cat_tbx_31",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_31",
+        "level": "2",
+        "position": "5",
+        "children_count": "7",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Peinture & D\u00e9coration"
+        ],
+        "url_key": [
+          "peinture-decoration"
+        ]
+      },
+      {
+        "id": "cat_tbx_32",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_32",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Peintures murales"
+        ],
+        "url_key": [
+          "peintures-murales"
+        ]
+      },
+      {
+        "id": "cat_tbx_33",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_33",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Peintures bois & m\u00e9tal"
+        ],
+        "url_key": [
+          "peintures-bois-metal"
+        ]
+      },
+      {
+        "id": "cat_tbx_34",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_34",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Peintures ext\u00e9rieures"
+        ],
+        "url_key": [
+          "peintures-exterieures"
+        ]
+      },
+      {
+        "id": "cat_tbx_35",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_35",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Vernis & Lasures"
+        ],
+        "url_key": [
+          "vernis-lasures"
+        ]
+      },
+      {
+        "id": "cat_tbx_36",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_36",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Enduits & Pr\u00e9paration"
+        ],
+        "url_key": [
+          "enduits-preparation"
+        ]
+      },
+      {
+        "id": "cat_tbx_37",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_37",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Pinceaux & Rouleaux"
+        ],
+        "url_key": [
+          "pinceaux-rouleaux"
+        ]
+      },
+      {
+        "id": "cat_tbx_38",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_38",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "B\u00e2ches & Masquage"
+        ],
+        "url_key": [
+          "baches-masquage"
+        ]
+      },
+      {
+        "id": "cat_tbx_39",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_39",
+        "level": "2",
+        "position": "6",
+        "children_count": "7",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Plomberie"
+        ],
+        "url_key": [
+          "plomberie"
+        ]
+      },
+      {
+        "id": "cat_tbx_40",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_40",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Tubes & Raccords cuivre"
+        ],
+        "url_key": [
+          "tubes-raccords-cuivre"
+        ]
+      },
+      {
+        "id": "cat_tbx_41",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_41",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "PER & Multicouche"
+        ],
+        "url_key": [
+          "per-multicouche"
+        ]
+      },
+      {
+        "id": "cat_tbx_42",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_42",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "PVC \u00c9vacuation"
+        ],
+        "url_key": [
+          "pvc-evacuation"
+        ]
+      },
+      {
+        "id": "cat_tbx_43",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_43",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Robinetterie"
+        ],
+        "url_key": [
+          "robinetterie"
+        ]
+      },
+      {
+        "id": "cat_tbx_44",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_44",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Joints & \u00c9tanch\u00e9it\u00e9"
+        ],
+        "url_key": [
+          "joints-etancheite"
+        ]
+      },
+      {
+        "id": "cat_tbx_45",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_45",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Outillage plomberie"
+        ],
+        "url_key": [
+          "outillage-plomberie"
+        ]
+      },
+      {
+        "id": "cat_tbx_46",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_46",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Chauffage & Sanitaire"
+        ],
+        "url_key": [
+          "chauffage-sanitaire"
+        ]
+      },
+      {
+        "id": "cat_tbx_47",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_47",
+        "level": "2",
+        "position": "7",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "\u00c9lectricit\u00e9"
+        ],
+        "url_key": [
+          "electricite"
+        ]
+      },
+      {
+        "id": "cat_tbx_48",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_48",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Tableaux & Disjoncteurs"
+        ],
+        "url_key": [
+          "tableaux-disjoncteurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_49",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_49",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Appareillage"
+        ],
+        "url_key": [
+          "appareillage"
+        ]
+      },
+      {
+        "id": "cat_tbx_50",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_50",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "C\u00e2bles & Gaines"
+        ],
+        "url_key": [
+          "cables-gaines"
+        ]
+      },
+      {
+        "id": "cat_tbx_51",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_51",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "\u00c9clairage"
+        ],
+        "url_key": [
+          "eclairage"
+        ]
+      },
+      {
+        "id": "cat_tbx_52",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_52",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Outillage \u00e9lectricien"
+        ],
+        "url_key": [
+          "outillage-electricien"
+        ]
+      },
+      {
+        "id": "cat_tbx_53",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_53",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Domotique"
+        ],
+        "url_key": [
+          "domotique"
+        ]
+      },
+      {
+        "id": "cat_tbx_54",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_54",
+        "level": "2",
+        "position": "8",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Quincaillerie"
+        ],
+        "url_key": [
+          "quincaillerie"
+        ]
+      },
+      {
+        "id": "cat_tbx_55",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_55",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Visserie"
+        ],
+        "url_key": [
+          "visserie"
+        ]
+      },
+      {
+        "id": "cat_tbx_56",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_56",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Chevilles & Fixations"
+        ],
+        "url_key": [
+          "chevilles-fixations"
+        ]
+      },
+      {
+        "id": "cat_tbx_57",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_57",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Serrurerie"
+        ],
+        "url_key": [
+          "serrurerie"
+        ]
+      },
+      {
+        "id": "cat_tbx_58",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_58",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Colles & Adh\u00e9sifs"
+        ],
+        "url_key": [
+          "colles-adhesifs"
+        ]
+      },
+      {
+        "id": "cat_tbx_59",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_59",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Abrasifs & Nettoyants"
+        ],
+        "url_key": [
+          "abrasifs-nettoyants"
+        ]
+      },
+      {
+        "id": "cat_tbx_60",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_60",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Rangement & Organisation"
+        ],
+        "url_key": [
+          "rangement-organisation"
+        ]
+      },
+      {
+        "id": "cat_tbx_61",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_61",
+        "level": "2",
+        "position": "9",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Jardin & Ext\u00e9rieur"
+        ],
+        "url_key": [
+          "jardin-exterieur"
+        ]
+      },
+      {
+        "id": "cat_tbx_62",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_62",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Outils manuels de jardin"
+        ],
+        "url_key": [
+          "outils-manuels-jardin"
+        ]
+      },
+      {
+        "id": "cat_tbx_63",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_63",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Outils \u00e9lectriques de jardin"
+        ],
+        "url_key": [
+          "outils-electriques-jardin"
+        ]
+      },
+      {
+        "id": "cat_tbx_64",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_64",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Arrosage"
+        ],
+        "url_key": [
+          "arrosage"
+        ]
+      },
+      {
+        "id": "cat_tbx_65",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_65",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Cl\u00f4tures & Grillages"
+        ],
+        "url_key": [
+          "clotures-grillages"
+        ]
+      },
+      {
+        "id": "cat_tbx_66",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_66",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Terrasse & Am\u00e9nagement"
+        ],
+        "url_key": [
+          "terrasse-amenagement"
+        ]
+      },
+      {
+        "id": "cat_tbx_67",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_67",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Serre & Culture"
+        ],
+        "url_key": [
+          "serre-culture"
+        ]
+      },
+      {
+        "id": "cat_tbx_68",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_68",
+        "level": "2",
+        "position": "10",
+        "children_count": "7",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "S\u00e9curit\u00e9 & EPI"
+        ],
+        "url_key": [
+          "securite-epi"
+        ]
+      },
+      {
+        "id": "cat_tbx_69",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_69",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Protection des yeux"
+        ],
+        "url_key": [
+          "protection-yeux"
+        ]
+      },
+      {
+        "id": "cat_tbx_70",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_70",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Protection auditive"
+        ],
+        "url_key": [
+          "protection-auditive"
+        ]
+      },
+      {
+        "id": "cat_tbx_71",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_71",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Protection de la t\u00eate"
+        ],
+        "url_key": [
+          "protection-tete"
+        ]
+      },
+      {
+        "id": "cat_tbx_72",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_72",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Protection des mains"
+        ],
+        "url_key": [
+          "protection-mains"
+        ]
+      },
+      {
+        "id": "cat_tbx_73",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_73",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Protection respiratoire"
+        ],
+        "url_key": [
+          "protection-respiratoire"
+        ]
+      },
+      {
+        "id": "cat_tbx_74",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_74",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Protection du corps"
+        ],
+        "url_key": [
+          "protection-corps"
+        ]
+      },
+      {
+        "id": "cat_tbx_75",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_75",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Signalisation & S\u00e9curit\u00e9"
+        ],
+        "url_key": [
+          "signalisation-securite"
+        ]
+      },
+      {
+        "id": "cat_tbx_76",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_76",
+        "level": "2",
+        "position": "11",
+        "children_count": "8",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Machines d'atelier"
+        ],
+        "url_key": [
+          "machines-atelier"
+        ]
+      },
+      {
+        "id": "cat_tbx_77",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_77",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Perceuses \u00e0 colonne"
+        ],
+        "url_key": [
+          "perceuses-colonne"
+        ]
+      },
+      {
+        "id": "cat_tbx_78",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_78",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Scies stationnaires"
+        ],
+        "url_key": [
+          "scies-stationnaires"
+        ]
+      },
+      {
+        "id": "cat_tbx_79",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_79",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Tours \u00e0 bois"
+        ],
+        "url_key": [
+          "tours-bois"
+        ]
+      },
+      {
+        "id": "cat_tbx_80",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_80",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Tours \u00e0 m\u00e9taux & Fraiseuses"
+        ],
+        "url_key": [
+          "tours-metaux-fraiseuses"
+        ]
+      },
+      {
+        "id": "cat_tbx_81",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_81",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Soudure"
+        ],
+        "url_key": [
+          "soudure"
+        ]
+      },
+      {
+        "id": "cat_tbx_82",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_82",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Compresseurs"
+        ],
+        "url_key": [
+          "compresseurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_83",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_83",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Nettoyage & Aspiration"
+        ],
+        "url_key": [
+          "nettoyage-aspiration"
+        ]
+      },
+      {
+        "id": "cat_tbx_84",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_84",
+        "level": "3",
+        "position": "8",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Accessoires d'atelier"
+        ],
+        "url_key": [
+          "accessoires-atelier"
+        ]
+      }
+    ]
+  },
+  {
+    "index_name": "gally_localized_catalog_toolbox_en_category",
+    "documents": [
+      {
+        "id": "cat_tbx_1",
+        "path": "cat_tbx_1",
+        "level": "1",
+        "position": "1",
+        "children_count": "11",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "All products"
+        ]
+      },
+      {
+        "id": "cat_tbx_2",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_2",
+        "level": "2",
+        "position": "1",
+        "children_count": "7",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Hand Tools"
+        ],
+        "url_key": [
+          "outillage-a-main"
+        ]
+      },
+      {
+        "id": "cat_tbx_3",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_3",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Screwdrivers"
+        ],
+        "url_key": [
+          "tournevis"
+        ]
+      },
+      {
+        "id": "cat_tbx_4",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_4",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Wrenches"
+        ],
+        "url_key": [
+          "cles"
+        ]
+      },
+      {
+        "id": "cat_tbx_5",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_5",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Pliers"
+        ],
+        "url_key": [
+          "pinces"
+        ]
+      },
+      {
+        "id": "cat_tbx_6",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_6",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Hammers"
+        ],
+        "url_key": [
+          "marteaux"
+        ]
+      },
+      {
+        "id": "cat_tbx_7",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_7",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Hand Saws"
+        ],
+        "url_key": [
+          "scies-a-main"
+        ]
+      },
+      {
+        "id": "cat_tbx_8",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_8",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Measuring & Marking"
+        ],
+        "url_key": [
+          "mesure-tracage"
+        ]
+      },
+      {
+        "id": "cat_tbx_9",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_9",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Files & Rasps"
+        ],
+        "url_key": [
+          "limes-rapes"
+        ]
+      },
+      {
+        "id": "cat_tbx_10",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_10",
+        "level": "2",
+        "position": "2",
+        "children_count": "8",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Power Tools"
+        ],
+        "url_key": [
+          "outillage-electroportatif"
+        ]
+      },
+      {
+        "id": "cat_tbx_11",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_11",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Drills & Drivers"
+        ],
+        "url_key": [
+          "perceuses-visseuses"
+        ]
+      },
+      {
+        "id": "cat_tbx_12",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_12",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Impact Drivers"
+        ],
+        "url_key": [
+          "visseuses-a-chocs"
+        ]
+      },
+      {
+        "id": "cat_tbx_13",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_13",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Rotary Hammers"
+        ],
+        "url_key": [
+          "perforateurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_14",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_14",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Angle Grinders"
+        ],
+        "url_key": [
+          "meuleuses"
+        ]
+      },
+      {
+        "id": "cat_tbx_15",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_15",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Power Saws"
+        ],
+        "url_key": [
+          "scies-electriques"
+        ]
+      },
+      {
+        "id": "cat_tbx_16",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_16",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sanders"
+        ],
+        "url_key": [
+          "ponceuses"
+        ]
+      },
+      {
+        "id": "cat_tbx_17",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_17",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Routers & Planers"
+        ],
+        "url_key": [
+          "defonceuses-rabots"
+        ]
+      },
+      {
+        "id": "cat_tbx_18",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_18",
+        "level": "3",
+        "position": "8",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Multi-tools & Heat Guns"
+        ],
+        "url_key": [
+          "multi-outils-decapeurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_19",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_19",
+        "level": "2",
+        "position": "3",
+        "children_count": "4",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Batteries & Chargers"
+        ],
+        "url_key": [
+          "batteries-chargeurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_20",
+        "parentId": "cat_tbx_19",
+        "path": "cat_tbx_1\/cat_tbx_19\/cat_tbx_20",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "12V Batteries"
+        ],
+        "url_key": [
+          "batteries-12v"
+        ]
+      },
+      {
+        "id": "cat_tbx_21",
+        "parentId": "cat_tbx_19",
+        "path": "cat_tbx_1\/cat_tbx_19\/cat_tbx_21",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "18V Batteries"
+        ],
+        "url_key": [
+          "batteries-18v"
+        ]
+      },
+      {
+        "id": "cat_tbx_22",
+        "parentId": "cat_tbx_19",
+        "path": "cat_tbx_1\/cat_tbx_19\/cat_tbx_22",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "36V Batteries"
+        ],
+        "url_key": [
+          "batteries-36v"
+        ]
+      },
+      {
+        "id": "cat_tbx_23",
+        "parentId": "cat_tbx_19",
+        "path": "cat_tbx_1\/cat_tbx_19\/cat_tbx_23",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Chargers"
+        ],
+        "url_key": [
+          "chargeurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_24",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_24",
+        "level": "2",
+        "position": "4",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Accessories & Consumables"
+        ],
+        "url_key": [
+          "accessoires-consommables"
+        ]
+      },
+      {
+        "id": "cat_tbx_25",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_25",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Drill Bits"
+        ],
+        "url_key": [
+          "forets"
+        ]
+      },
+      {
+        "id": "cat_tbx_26",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_26",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Saw Blades"
+        ],
+        "url_key": [
+          "lames-de-scie"
+        ]
+      },
+      {
+        "id": "cat_tbx_27",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_27",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Grinder Discs"
+        ],
+        "url_key": [
+          "disques-meuleuse"
+        ]
+      },
+      {
+        "id": "cat_tbx_28",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_28",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Abrasives & Sanding"
+        ],
+        "url_key": [
+          "abrasifs-poncage"
+        ]
+      },
+      {
+        "id": "cat_tbx_29",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_29",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Screwdriver Bits"
+        ],
+        "url_key": [
+          "embouts-vissage"
+        ]
+      },
+      {
+        "id": "cat_tbx_30",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_30",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Hole Saws & Core Bits"
+        ],
+        "url_key": [
+          "couronnes-trepans"
+        ]
+      },
+      {
+        "id": "cat_tbx_31",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_31",
+        "level": "2",
+        "position": "5",
+        "children_count": "7",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Paint & Decoration"
+        ],
+        "url_key": [
+          "peinture-decoration"
+        ]
+      },
+      {
+        "id": "cat_tbx_32",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_32",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Wall Paints"
+        ],
+        "url_key": [
+          "peintures-murales"
+        ]
+      },
+      {
+        "id": "cat_tbx_33",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_33",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Wood & Metal Paints"
+        ],
+        "url_key": [
+          "peintures-bois-metal"
+        ]
+      },
+      {
+        "id": "cat_tbx_34",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_34",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Exterior Paints"
+        ],
+        "url_key": [
+          "peintures-exterieures"
+        ]
+      },
+      {
+        "id": "cat_tbx_35",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_35",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Varnishes & Wood Stains"
+        ],
+        "url_key": [
+          "vernis-lasures"
+        ]
+      },
+      {
+        "id": "cat_tbx_36",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_36",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Fillers & Preparation"
+        ],
+        "url_key": [
+          "enduits-preparation"
+        ]
+      },
+      {
+        "id": "cat_tbx_37",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_37",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Brushes & Rollers"
+        ],
+        "url_key": [
+          "pinceaux-rouleaux"
+        ]
+      },
+      {
+        "id": "cat_tbx_38",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_38",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Tarps & Masking"
+        ],
+        "url_key": [
+          "baches-masquage"
+        ]
+      },
+      {
+        "id": "cat_tbx_39",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_39",
+        "level": "2",
+        "position": "6",
+        "children_count": "7",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Plumbing"
+        ],
+        "url_key": [
+          "plomberie"
+        ]
+      },
+      {
+        "id": "cat_tbx_40",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_40",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Copper Pipes & Fittings"
+        ],
+        "url_key": [
+          "tubes-raccords-cuivre"
+        ]
+      },
+      {
+        "id": "cat_tbx_41",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_41",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "PEX & Multilayer Pipe"
+        ],
+        "url_key": [
+          "per-multicouche"
+        ]
+      },
+      {
+        "id": "cat_tbx_42",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_42",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "PVC Drainage"
+        ],
+        "url_key": [
+          "pvc-evacuation"
+        ]
+      },
+      {
+        "id": "cat_tbx_43",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_43",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Taps & Fittings"
+        ],
+        "url_key": [
+          "robinetterie"
+        ]
+      },
+      {
+        "id": "cat_tbx_44",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_44",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Seals & Sealant"
+        ],
+        "url_key": [
+          "joints-etancheite"
+        ]
+      },
+      {
+        "id": "cat_tbx_45",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_45",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Plumbing Tools"
+        ],
+        "url_key": [
+          "outillage-plomberie"
+        ]
+      },
+      {
+        "id": "cat_tbx_46",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_46",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Heating & Sanitary"
+        ],
+        "url_key": [
+          "chauffage-sanitaire"
+        ]
+      },
+      {
+        "id": "cat_tbx_47",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_47",
+        "level": "2",
+        "position": "7",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Electrical"
+        ],
+        "url_key": [
+          "electricite"
+        ]
+      },
+      {
+        "id": "cat_tbx_48",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_48",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Panels & Circuit Breakers"
+        ],
+        "url_key": [
+          "tableaux-disjoncteurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_49",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_49",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Wiring Devices"
+        ],
+        "url_key": [
+          "appareillage"
+        ]
+      },
+      {
+        "id": "cat_tbx_50",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_50",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Cables & Conduits"
+        ],
+        "url_key": [
+          "cables-gaines"
+        ]
+      },
+      {
+        "id": "cat_tbx_51",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_51",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Lighting"
+        ],
+        "url_key": [
+          "eclairage"
+        ]
+      },
+      {
+        "id": "cat_tbx_52",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_52",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Electrician Tools"
+        ],
+        "url_key": [
+          "outillage-electricien"
+        ]
+      },
+      {
+        "id": "cat_tbx_53",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_53",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Home Automation"
+        ],
+        "url_key": [
+          "domotique"
+        ]
+      },
+      {
+        "id": "cat_tbx_54",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_54",
+        "level": "2",
+        "position": "8",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Hardware"
+        ],
+        "url_key": [
+          "quincaillerie"
+        ]
+      },
+      {
+        "id": "cat_tbx_55",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_55",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Screws"
+        ],
+        "url_key": [
+          "visserie"
+        ]
+      },
+      {
+        "id": "cat_tbx_56",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_56",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Wall Plugs & Fixings"
+        ],
+        "url_key": [
+          "chevilles-fixations"
+        ]
+      },
+      {
+        "id": "cat_tbx_57",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_57",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Locksmithing"
+        ],
+        "url_key": [
+          "serrurerie"
+        ]
+      },
+      {
+        "id": "cat_tbx_58",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_58",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Glues & Adhesives"
+        ],
+        "url_key": [
+          "colles-adhesifs"
+        ]
+      },
+      {
+        "id": "cat_tbx_59",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_59",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Abrasives & Cleaners"
+        ],
+        "url_key": [
+          "abrasifs-nettoyants"
+        ]
+      },
+      {
+        "id": "cat_tbx_60",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_60",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Storage & Organisation"
+        ],
+        "url_key": [
+          "rangement-organisation"
+        ]
+      },
+      {
+        "id": "cat_tbx_61",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_61",
+        "level": "2",
+        "position": "9",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Garden & Outdoor"
+        ],
+        "url_key": [
+          "jardin-exterieur"
+        ]
+      },
+      {
+        "id": "cat_tbx_62",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_62",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Manual Garden Tools"
+        ],
+        "url_key": [
+          "outils-manuels-jardin"
+        ]
+      },
+      {
+        "id": "cat_tbx_63",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_63",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Powered Garden Tools"
+        ],
+        "url_key": [
+          "outils-electriques-jardin"
+        ]
+      },
+      {
+        "id": "cat_tbx_64",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_64",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Watering"
+        ],
+        "url_key": [
+          "arrosage"
+        ]
+      },
+      {
+        "id": "cat_tbx_65",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_65",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Fencing & Wire Mesh"
+        ],
+        "url_key": [
+          "clotures-grillages"
+        ]
+      },
+      {
+        "id": "cat_tbx_66",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_66",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Decking & Landscaping"
+        ],
+        "url_key": [
+          "terrasse-amenagement"
+        ]
+      },
+      {
+        "id": "cat_tbx_67",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_67",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Greenhouse & Growing"
+        ],
+        "url_key": [
+          "serre-culture"
+        ]
+      },
+      {
+        "id": "cat_tbx_68",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_68",
+        "level": "2",
+        "position": "10",
+        "children_count": "7",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Safety & PPE"
+        ],
+        "url_key": [
+          "securite-epi"
+        ]
+      },
+      {
+        "id": "cat_tbx_69",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_69",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Eye Protection"
+        ],
+        "url_key": [
+          "protection-yeux"
+        ]
+      },
+      {
+        "id": "cat_tbx_70",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_70",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Hearing Protection"
+        ],
+        "url_key": [
+          "protection-auditive"
+        ]
+      },
+      {
+        "id": "cat_tbx_71",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_71",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Head Protection"
+        ],
+        "url_key": [
+          "protection-tete"
+        ]
+      },
+      {
+        "id": "cat_tbx_72",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_72",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Hand Protection"
+        ],
+        "url_key": [
+          "protection-mains"
+        ]
+      },
+      {
+        "id": "cat_tbx_73",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_73",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Respiratory Protection"
+        ],
+        "url_key": [
+          "protection-respiratoire"
+        ]
+      },
+      {
+        "id": "cat_tbx_74",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_74",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Body Protection"
+        ],
+        "url_key": [
+          "protection-corps"
+        ]
+      },
+      {
+        "id": "cat_tbx_75",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_75",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Signage & Safety"
+        ],
+        "url_key": [
+          "signalisation-securite"
+        ]
+      },
+      {
+        "id": "cat_tbx_76",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_76",
+        "level": "2",
+        "position": "11",
+        "children_count": "8",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Workshop Machines"
+        ],
+        "url_key": [
+          "machines-atelier"
+        ]
+      },
+      {
+        "id": "cat_tbx_77",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_77",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Pillar Drills"
+        ],
+        "url_key": [
+          "perceuses-colonne"
+        ]
+      },
+      {
+        "id": "cat_tbx_78",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_78",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Stationary Saws"
+        ],
+        "url_key": [
+          "scies-stationnaires"
+        ]
+      },
+      {
+        "id": "cat_tbx_79",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_79",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Wood Lathes"
+        ],
+        "url_key": [
+          "tours-bois"
+        ]
+      },
+      {
+        "id": "cat_tbx_80",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_80",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Metal Lathes & Milling Machines"
+        ],
+        "url_key": [
+          "tours-metaux-fraiseuses"
+        ]
+      },
+      {
+        "id": "cat_tbx_81",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_81",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Welding"
+        ],
+        "url_key": [
+          "soudure"
+        ]
+      },
+      {
+        "id": "cat_tbx_82",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_82",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Compressors"
+        ],
+        "url_key": [
+          "compresseurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_83",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_83",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Cleaning & Vacuuming"
+        ],
+        "url_key": [
+          "nettoyage-aspiration"
+        ]
+      },
+      {
+        "id": "cat_tbx_84",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_84",
+        "level": "3",
+        "position": "8",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Workshop Accessories"
+        ],
+        "url_key": [
+          "accessoires-atelier"
+        ]
+      }
+    ]
+  },
+  {
+    "index_name": "gally_localized_catalog_toolbox_de_category",
+    "documents": [
+      {
+        "id": "cat_tbx_1",
+        "path": "cat_tbx_1",
+        "level": "1",
+        "position": "1",
+        "children_count": "11",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Alle Produkte"
+        ]
+      },
+      {
+        "id": "cat_tbx_2",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_2",
+        "level": "2",
+        "position": "1",
+        "children_count": "7",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Handwerkzeuge"
+        ],
+        "url_key": [
+          "outillage-a-main"
+        ]
+      },
+      {
+        "id": "cat_tbx_3",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_3",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schraubendreher"
+        ],
+        "url_key": [
+          "tournevis"
+        ]
+      },
+      {
+        "id": "cat_tbx_4",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_4",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schraubenschl\u00fcssel"
+        ],
+        "url_key": [
+          "cles"
+        ]
+      },
+      {
+        "id": "cat_tbx_5",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_5",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Zangen"
+        ],
+        "url_key": [
+          "pinces"
+        ]
+      },
+      {
+        "id": "cat_tbx_6",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_6",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "H\u00e4mmer"
+        ],
+        "url_key": [
+          "marteaux"
+        ]
+      },
+      {
+        "id": "cat_tbx_7",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_7",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Hands\u00e4gen"
+        ],
+        "url_key": [
+          "scies-a-main"
+        ]
+      },
+      {
+        "id": "cat_tbx_8",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_8",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Messen & Anzeichnen"
+        ],
+        "url_key": [
+          "mesure-tracage"
+        ]
+      },
+      {
+        "id": "cat_tbx_9",
+        "parentId": "cat_tbx_2",
+        "path": "cat_tbx_1\/cat_tbx_2\/cat_tbx_9",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Feilen & Raspeln"
+        ],
+        "url_key": [
+          "limes-rapes"
+        ]
+      },
+      {
+        "id": "cat_tbx_10",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_10",
+        "level": "2",
+        "position": "2",
+        "children_count": "8",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Elektrowerkzeuge"
+        ],
+        "url_key": [
+          "outillage-electroportatif"
+        ]
+      },
+      {
+        "id": "cat_tbx_11",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_11",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bohrschrauber"
+        ],
+        "url_key": [
+          "perceuses-visseuses"
+        ]
+      },
+      {
+        "id": "cat_tbx_12",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_12",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schlagschrauber"
+        ],
+        "url_key": [
+          "visseuses-a-chocs"
+        ]
+      },
+      {
+        "id": "cat_tbx_13",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_13",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bohrh\u00e4mmer"
+        ],
+        "url_key": [
+          "perforateurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_14",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_14",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Winkelschleifer"
+        ],
+        "url_key": [
+          "meuleuses"
+        ]
+      },
+      {
+        "id": "cat_tbx_15",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_15",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Elektrische S\u00e4gen"
+        ],
+        "url_key": [
+          "scies-electriques"
+        ]
+      },
+      {
+        "id": "cat_tbx_16",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_16",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schleifmaschinen"
+        ],
+        "url_key": [
+          "ponceuses"
+        ]
+      },
+      {
+        "id": "cat_tbx_17",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_17",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Oberfr\u00e4sen & Hobel"
+        ],
+        "url_key": [
+          "defonceuses-rabots"
+        ]
+      },
+      {
+        "id": "cat_tbx_18",
+        "parentId": "cat_tbx_10",
+        "path": "cat_tbx_1\/cat_tbx_10\/cat_tbx_18",
+        "level": "3",
+        "position": "8",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Multifunktionswerkzeuge & Hei\u00dfluftpistolen"
+        ],
+        "url_key": [
+          "multi-outils-decapeurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_19",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_19",
+        "level": "2",
+        "position": "3",
+        "children_count": "4",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Akkus & Ladeger\u00e4te"
+        ],
+        "url_key": [
+          "batteries-chargeurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_20",
+        "parentId": "cat_tbx_19",
+        "path": "cat_tbx_1\/cat_tbx_19\/cat_tbx_20",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "12V-Akkus"
+        ],
+        "url_key": [
+          "batteries-12v"
+        ]
+      },
+      {
+        "id": "cat_tbx_21",
+        "parentId": "cat_tbx_19",
+        "path": "cat_tbx_1\/cat_tbx_19\/cat_tbx_21",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "18V-Akkus"
+        ],
+        "url_key": [
+          "batteries-18v"
+        ]
+      },
+      {
+        "id": "cat_tbx_22",
+        "parentId": "cat_tbx_19",
+        "path": "cat_tbx_1\/cat_tbx_19\/cat_tbx_22",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "36V-Akkus"
+        ],
+        "url_key": [
+          "batteries-36v"
+        ]
+      },
+      {
+        "id": "cat_tbx_23",
+        "parentId": "cat_tbx_19",
+        "path": "cat_tbx_1\/cat_tbx_19\/cat_tbx_23",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Ladeger\u00e4te"
+        ],
+        "url_key": [
+          "chargeurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_24",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_24",
+        "level": "2",
+        "position": "4",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Zubeh\u00f6r & Verbrauchsmaterial"
+        ],
+        "url_key": [
+          "accessoires-consommables"
+        ]
+      },
+      {
+        "id": "cat_tbx_25",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_25",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bohrer"
+        ],
+        "url_key": [
+          "forets"
+        ]
+      },
+      {
+        "id": "cat_tbx_26",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_26",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "S\u00e4gebl\u00e4tter"
+        ],
+        "url_key": [
+          "lames-de-scie"
+        ]
+      },
+      {
+        "id": "cat_tbx_27",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_27",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Trennscheiben"
+        ],
+        "url_key": [
+          "disques-meuleuse"
+        ]
+      },
+      {
+        "id": "cat_tbx_28",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_28",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schleifmittel & Schleifen"
+        ],
+        "url_key": [
+          "abrasifs-poncage"
+        ]
+      },
+      {
+        "id": "cat_tbx_29",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_29",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schrauberbits"
+        ],
+        "url_key": [
+          "embouts-vissage"
+        ]
+      },
+      {
+        "id": "cat_tbx_30",
+        "parentId": "cat_tbx_24",
+        "path": "cat_tbx_1\/cat_tbx_24\/cat_tbx_30",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Lochs\u00e4gen & Bohrkronen"
+        ],
+        "url_key": [
+          "couronnes-trepans"
+        ]
+      },
+      {
+        "id": "cat_tbx_31",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_31",
+        "level": "2",
+        "position": "5",
+        "children_count": "7",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Farben & Dekoration"
+        ],
+        "url_key": [
+          "peinture-decoration"
+        ]
+      },
+      {
+        "id": "cat_tbx_32",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_32",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Wandfarben"
+        ],
+        "url_key": [
+          "peintures-murales"
+        ]
+      },
+      {
+        "id": "cat_tbx_33",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_33",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Holz- & Metallfarben"
+        ],
+        "url_key": [
+          "peintures-bois-metal"
+        ]
+      },
+      {
+        "id": "cat_tbx_34",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_34",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Au\u00dfenfarben"
+        ],
+        "url_key": [
+          "peintures-exterieures"
+        ]
+      },
+      {
+        "id": "cat_tbx_35",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_35",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Lacke & Lasuren"
+        ],
+        "url_key": [
+          "vernis-lasures"
+        ]
+      },
+      {
+        "id": "cat_tbx_36",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_36",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Spachtel & Vorbereitung"
+        ],
+        "url_key": [
+          "enduits-preparation"
+        ]
+      },
+      {
+        "id": "cat_tbx_37",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_37",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Pinsel & Rollen"
+        ],
+        "url_key": [
+          "pinceaux-rouleaux"
+        ]
+      },
+      {
+        "id": "cat_tbx_38",
+        "parentId": "cat_tbx_31",
+        "path": "cat_tbx_1\/cat_tbx_31\/cat_tbx_38",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Planen & Abdeckung"
+        ],
+        "url_key": [
+          "baches-masquage"
+        ]
+      },
+      {
+        "id": "cat_tbx_39",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_39",
+        "level": "2",
+        "position": "6",
+        "children_count": "7",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sanit\u00e4rinstallation"
+        ],
+        "url_key": [
+          "plomberie"
+        ]
+      },
+      {
+        "id": "cat_tbx_40",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_40",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Kupferrohre & Fittings"
+        ],
+        "url_key": [
+          "tubes-raccords-cuivre"
+        ]
+      },
+      {
+        "id": "cat_tbx_41",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_41",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "PEX- & Mehrschichtrohre"
+        ],
+        "url_key": [
+          "per-multicouche"
+        ]
+      },
+      {
+        "id": "cat_tbx_42",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_42",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "PVC-Abwasser"
+        ],
+        "url_key": [
+          "pvc-evacuation"
+        ]
+      },
+      {
+        "id": "cat_tbx_43",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_43",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Armaturen"
+        ],
+        "url_key": [
+          "robinetterie"
+        ]
+      },
+      {
+        "id": "cat_tbx_44",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_44",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Dichtungen & Abdichtung"
+        ],
+        "url_key": [
+          "joints-etancheite"
+        ]
+      },
+      {
+        "id": "cat_tbx_45",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_45",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Klempnerwerkzeug"
+        ],
+        "url_key": [
+          "outillage-plomberie"
+        ]
+      },
+      {
+        "id": "cat_tbx_46",
+        "parentId": "cat_tbx_39",
+        "path": "cat_tbx_1\/cat_tbx_39\/cat_tbx_46",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Heizung & Sanit\u00e4r"
+        ],
+        "url_key": [
+          "chauffage-sanitaire"
+        ]
+      },
+      {
+        "id": "cat_tbx_47",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_47",
+        "level": "2",
+        "position": "7",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Elektrik"
+        ],
+        "url_key": [
+          "electricite"
+        ]
+      },
+      {
+        "id": "cat_tbx_48",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_48",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Verteiler & Sicherungen"
+        ],
+        "url_key": [
+          "tableaux-disjoncteurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_49",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_49",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schalter & Steckdosen"
+        ],
+        "url_key": [
+          "appareillage"
+        ]
+      },
+      {
+        "id": "cat_tbx_50",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_50",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Kabel & Leerrohre"
+        ],
+        "url_key": [
+          "cables-gaines"
+        ]
+      },
+      {
+        "id": "cat_tbx_51",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_51",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Beleuchtung"
+        ],
+        "url_key": [
+          "eclairage"
+        ]
+      },
+      {
+        "id": "cat_tbx_52",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_52",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Elektrikerwerkzeug"
+        ],
+        "url_key": [
+          "outillage-electricien"
+        ]
+      },
+      {
+        "id": "cat_tbx_53",
+        "parentId": "cat_tbx_47",
+        "path": "cat_tbx_1\/cat_tbx_47\/cat_tbx_53",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Smart Home"
+        ],
+        "url_key": [
+          "domotique"
+        ]
+      },
+      {
+        "id": "cat_tbx_54",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_54",
+        "level": "2",
+        "position": "8",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Beschl\u00e4ge"
+        ],
+        "url_key": [
+          "quincaillerie"
+        ]
+      },
+      {
+        "id": "cat_tbx_55",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_55",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schrauben"
+        ],
+        "url_key": [
+          "visserie"
+        ]
+      },
+      {
+        "id": "cat_tbx_56",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_56",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "D\u00fcbel & Befestigungen"
+        ],
+        "url_key": [
+          "chevilles-fixations"
+        ]
+      },
+      {
+        "id": "cat_tbx_57",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_57",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schlosserei"
+        ],
+        "url_key": [
+          "serrurerie"
+        ]
+      },
+      {
+        "id": "cat_tbx_58",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_58",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Kleber & Klebeb\u00e4nder"
+        ],
+        "url_key": [
+          "colles-adhesifs"
+        ]
+      },
+      {
+        "id": "cat_tbx_59",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_59",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schleifmittel & Reiniger"
+        ],
+        "url_key": [
+          "abrasifs-nettoyants"
+        ]
+      },
+      {
+        "id": "cat_tbx_60",
+        "parentId": "cat_tbx_54",
+        "path": "cat_tbx_1\/cat_tbx_54\/cat_tbx_60",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Aufbewahrung & Organisation"
+        ],
+        "url_key": [
+          "rangement-organisation"
+        ]
+      },
+      {
+        "id": "cat_tbx_61",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_61",
+        "level": "2",
+        "position": "9",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Garten & Au\u00dfenbereich"
+        ],
+        "url_key": [
+          "jardin-exterieur"
+        ]
+      },
+      {
+        "id": "cat_tbx_62",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_62",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Handgef\u00fchrte Gartenger\u00e4te"
+        ],
+        "url_key": [
+          "outils-manuels-jardin"
+        ]
+      },
+      {
+        "id": "cat_tbx_63",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_63",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Elektrische Gartenger\u00e4te"
+        ],
+        "url_key": [
+          "outils-electriques-jardin"
+        ]
+      },
+      {
+        "id": "cat_tbx_64",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_64",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bew\u00e4sserung"
+        ],
+        "url_key": [
+          "arrosage"
+        ]
+      },
+      {
+        "id": "cat_tbx_65",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_65",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Z\u00e4une & Drahtgeflecht"
+        ],
+        "url_key": [
+          "clotures-grillages"
+        ]
+      },
+      {
+        "id": "cat_tbx_66",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_66",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Terrasse & Gestaltung"
+        ],
+        "url_key": [
+          "terrasse-amenagement"
+        ]
+      },
+      {
+        "id": "cat_tbx_67",
+        "parentId": "cat_tbx_61",
+        "path": "cat_tbx_1\/cat_tbx_61\/cat_tbx_67",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Gew\u00e4chshaus & Anzucht"
+        ],
+        "url_key": [
+          "serre-culture"
+        ]
+      },
+      {
+        "id": "cat_tbx_68",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_68",
+        "level": "2",
+        "position": "10",
+        "children_count": "7",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sicherheit & PSA"
+        ],
+        "url_key": [
+          "securite-epi"
+        ]
+      },
+      {
+        "id": "cat_tbx_69",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_69",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Augenschutz"
+        ],
+        "url_key": [
+          "protection-yeux"
+        ]
+      },
+      {
+        "id": "cat_tbx_70",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_70",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Geh\u00f6rschutz"
+        ],
+        "url_key": [
+          "protection-auditive"
+        ]
+      },
+      {
+        "id": "cat_tbx_71",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_71",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Kopfschutz"
+        ],
+        "url_key": [
+          "protection-tete"
+        ]
+      },
+      {
+        "id": "cat_tbx_72",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_72",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Handschutz"
+        ],
+        "url_key": [
+          "protection-mains"
+        ]
+      },
+      {
+        "id": "cat_tbx_73",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_73",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Atemschutz"
+        ],
+        "url_key": [
+          "protection-respiratoire"
+        ]
+      },
+      {
+        "id": "cat_tbx_74",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_74",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "K\u00f6rperschutz"
+        ],
+        "url_key": [
+          "protection-corps"
+        ]
+      },
+      {
+        "id": "cat_tbx_75",
+        "parentId": "cat_tbx_68",
+        "path": "cat_tbx_1\/cat_tbx_68\/cat_tbx_75",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Kennzeichnung & Sicherheit"
+        ],
+        "url_key": [
+          "signalisation-securite"
+        ]
+      },
+      {
+        "id": "cat_tbx_76",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_76",
+        "level": "2",
+        "position": "11",
+        "children_count": "8",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Werkstattmaschinen"
+        ],
+        "url_key": [
+          "machines-atelier"
+        ]
+      },
+      {
+        "id": "cat_tbx_77",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_77",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "S\u00e4ulenbohrmaschinen"
+        ],
+        "url_key": [
+          "perceuses-colonne"
+        ]
+      },
+      {
+        "id": "cat_tbx_78",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_78",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Station\u00e4re S\u00e4gen"
+        ],
+        "url_key": [
+          "scies-stationnaires"
+        ]
+      },
+      {
+        "id": "cat_tbx_79",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_79",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Holzdrehmaschinen"
+        ],
+        "url_key": [
+          "tours-bois"
+        ]
+      },
+      {
+        "id": "cat_tbx_80",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_80",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Metalldrehmaschinen & Fr\u00e4smaschinen"
+        ],
+        "url_key": [
+          "tours-metaux-fraiseuses"
+        ]
+      },
+      {
+        "id": "cat_tbx_81",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_81",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schwei\u00dfen"
+        ],
+        "url_key": [
+          "soudure"
+        ]
+      },
+      {
+        "id": "cat_tbx_82",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_82",
+        "level": "3",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Kompressoren"
+        ],
+        "url_key": [
+          "compresseurs"
+        ]
+      },
+      {
+        "id": "cat_tbx_83",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_83",
+        "level": "3",
+        "position": "7",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Reinigung & Absaugung"
+        ],
+        "url_key": [
+          "nettoyage-aspiration"
+        ]
+      },
+      {
+        "id": "cat_tbx_84",
+        "parentId": "cat_tbx_76",
+        "path": "cat_tbx_1\/cat_tbx_76\/cat_tbx_84",
+        "level": "3",
+        "position": "8",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Werkstattzubeh\u00f6r"
+        ],
+        "url_key": [
+          "accessoires-atelier"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,834 @@
+include:
+    - product_source_field.yaml
+
+Gally\Metadata\Entity\SourceFieldOption:
+    product_tbx_tool_material_option_acier_chrome_vanadium:
+        code: 'acier-chrome-vanadium'
+        source_field: '@product_tbx_tool_material'
+        position: 0
+        defaultLabel: 'Acier chrome-vanadium'
+    product_tbx_tool_material_option_acier_s2:
+        code: 'acier-s2'
+        source_field: '@product_tbx_tool_material'
+        position: 1
+        defaultLabel: 'Acier S2'
+    product_tbx_tool_material_option_acier_crmo:
+        code: 'acier-crmo'
+        source_field: '@product_tbx_tool_material'
+        position: 2
+        defaultLabel: 'Acier CrMo'
+    product_tbx_tool_material_option_acier_inox:
+        code: 'acier-inox'
+        source_field: '@product_tbx_tool_material'
+        position: 3
+        defaultLabel: 'Acier inox'
+    product_tbx_tool_material_option_bi_matiere:
+        code: 'bi-matiere'
+        source_field: '@product_tbx_tool_material'
+        position: 4
+        defaultLabel: 'Bi-matière'
+    product_tbx_tool_finish_option_chrome:
+        code: 'chrome'
+        source_field: '@product_tbx_tool_finish'
+        position: 0
+        defaultLabel: 'Chrome'
+    product_tbx_tool_finish_option_satine:
+        code: 'satine'
+        source_field: '@product_tbx_tool_finish'
+        position: 1
+        defaultLabel: 'Satiné'
+    product_tbx_tool_finish_option_nickele:
+        code: 'nickele'
+        source_field: '@product_tbx_tool_finish'
+        position: 2
+        defaultLabel: 'Nickelé'
+    product_tbx_tool_finish_option_noir_oxyde:
+        code: 'noir-oxyde'
+        source_field: '@product_tbx_tool_finish'
+        position: 3
+        defaultLabel: 'Noir oxydé'
+    product_tbx_tool_finish_option_phosphate:
+        code: 'phosphate'
+        source_field: '@product_tbx_tool_finish'
+        position: 4
+        defaultLabel: 'Phosphaté'
+    product_tbx_pieces_count_option_1:
+        code: '1'
+        source_field: '@product_tbx_pieces_count'
+        position: 0
+        defaultLabel: '1'
+    product_tbx_pieces_count_option_3:
+        code: '3'
+        source_field: '@product_tbx_pieces_count'
+        position: 1
+        defaultLabel: '3'
+    product_tbx_pieces_count_option_5:
+        code: '5'
+        source_field: '@product_tbx_pieces_count'
+        position: 2
+        defaultLabel: '5'
+    product_tbx_pieces_count_option_6:
+        code: '6'
+        source_field: '@product_tbx_pieces_count'
+        position: 3
+        defaultLabel: '6'
+    product_tbx_pieces_count_option_7:
+        code: '7'
+        source_field: '@product_tbx_pieces_count'
+        position: 4
+        defaultLabel: '7'
+    product_tbx_pieces_count_option_8:
+        code: '8'
+        source_field: '@product_tbx_pieces_count'
+        position: 5
+        defaultLabel: '8'
+    product_tbx_pieces_count_option_9:
+        code: '9'
+        source_field: '@product_tbx_pieces_count'
+        position: 6
+        defaultLabel: '9'
+    product_tbx_pieces_count_option_10:
+        code: '10'
+        source_field: '@product_tbx_pieces_count'
+        position: 7
+        defaultLabel: '10'
+    product_tbx_pieces_count_option_12:
+        code: '12'
+        source_field: '@product_tbx_pieces_count'
+        position: 8
+        defaultLabel: '12'
+    product_tbx_pieces_count_option_18:
+        code: '18'
+        source_field: '@product_tbx_pieces_count'
+        position: 9
+        defaultLabel: '18'
+    product_tbx_pieces_count_option_24:
+        code: '24'
+        source_field: '@product_tbx_pieces_count'
+        position: 10
+        defaultLabel: '24'
+    product_tbx_pieces_count_option_32:
+        code: '32'
+        source_field: '@product_tbx_pieces_count'
+        position: 11
+        defaultLabel: '32'
+    product_tbx_voltage_option_12v:
+        code: '12v'
+        source_field: '@product_tbx_voltage'
+        position: 0
+        defaultLabel: '12V'
+    product_tbx_voltage_option_18v:
+        code: '18v'
+        source_field: '@product_tbx_voltage'
+        position: 1
+        defaultLabel: '18V'
+    product_tbx_voltage_option_36v:
+        code: '36v'
+        source_field: '@product_tbx_voltage'
+        position: 2
+        defaultLabel: '36V'
+    product_tbx_voltage_option_230v:
+        code: '230v'
+        source_field: '@product_tbx_voltage'
+        position: 3
+        defaultLabel: '230V'
+    product_tbx_motor_type_option_brushless:
+        code: 'brushless'
+        source_field: '@product_tbx_motor_type'
+        position: 0
+        defaultLabel: 'Brushless'
+    product_tbx_motor_type_option_charbon:
+        code: 'charbon'
+        source_field: '@product_tbx_motor_type'
+        position: 1
+        defaultLabel: 'Charbon'
+    product_tbx_max_torque_nm_option_28:
+        code: '28'
+        source_field: '@product_tbx_max_torque_nm'
+        position: 0
+        defaultLabel: '28'
+    product_tbx_max_torque_nm_option_30:
+        code: '30'
+        source_field: '@product_tbx_max_torque_nm'
+        position: 1
+        defaultLabel: '30'
+    product_tbx_max_torque_nm_option_50:
+        code: '50'
+        source_field: '@product_tbx_max_torque_nm'
+        position: 2
+        defaultLabel: '50'
+    product_tbx_max_torque_nm_option_55:
+        code: '55'
+        source_field: '@product_tbx_max_torque_nm'
+        position: 3
+        defaultLabel: '55'
+    product_tbx_max_torque_nm_option_60:
+        code: '60'
+        source_field: '@product_tbx_max_torque_nm'
+        position: 4
+        defaultLabel: '60'
+    product_tbx_max_torque_nm_option_82:
+        code: '82'
+        source_field: '@product_tbx_max_torque_nm'
+        position: 5
+        defaultLabel: '82'
+    product_tbx_max_torque_nm_option_100:
+        code: '100'
+        source_field: '@product_tbx_max_torque_nm'
+        position: 6
+        defaultLabel: '100'
+    product_tbx_max_torque_nm_option_135:
+        code: '135'
+        source_field: '@product_tbx_max_torque_nm'
+        position: 7
+        defaultLabel: '135'
+    product_tbx_max_torque_nm_option_200:
+        code: '200'
+        source_field: '@product_tbx_max_torque_nm'
+        position: 8
+        defaultLabel: '200'
+    product_tbx_max_torque_nm_option_220:
+        code: '220'
+        source_field: '@product_tbx_max_torque_nm'
+        position: 9
+        defaultLabel: '220'
+    product_tbx_max_torque_nm_option_350:
+        code: '350'
+        source_field: '@product_tbx_max_torque_nm'
+        position: 10
+        defaultLabel: '350'
+    product_tbx_max_torque_nm_option_400:
+        code: '400'
+        source_field: '@product_tbx_max_torque_nm'
+        position: 11
+        defaultLabel: '400'
+    product_tbx_max_torque_nm_option_700:
+        code: '700'
+        source_field: '@product_tbx_max_torque_nm'
+        position: 12
+        defaultLabel: '700'
+    product_tbx_speed_settings_option_1_vitesse:
+        code: '1-vitesse'
+        source_field: '@product_tbx_speed_settings'
+        position: 0
+        defaultLabel: '1 vitesse'
+    product_tbx_speed_settings_option_2_vitesses:
+        code: '2-vitesses'
+        source_field: '@product_tbx_speed_settings'
+        position: 1
+        defaultLabel: '2 vitesses'
+    product_tbx_speed_settings_option_variateur_electronique:
+        code: 'variateur-electronique'
+        source_field: '@product_tbx_speed_settings'
+        position: 2
+        defaultLabel: 'Variateur électronique'
+    product_tbx_battery_voltage_option_12v:
+        code: '12v'
+        source_field: '@product_tbx_battery_voltage'
+        position: 0
+        defaultLabel: '12V'
+    product_tbx_battery_voltage_option_18v:
+        code: '18v'
+        source_field: '@product_tbx_battery_voltage'
+        position: 1
+        defaultLabel: '18V'
+    product_tbx_battery_voltage_option_36v:
+        code: '36v'
+        source_field: '@product_tbx_battery_voltage'
+        position: 2
+        defaultLabel: '36V'
+    product_tbx_battery_capacity_ah_option_2_0:
+        code: '2-0'
+        source_field: '@product_tbx_battery_capacity_ah'
+        position: 0
+        defaultLabel: '2.0'
+    product_tbx_battery_capacity_ah_option_3_0:
+        code: '3-0'
+        source_field: '@product_tbx_battery_capacity_ah'
+        position: 1
+        defaultLabel: '3.0'
+    product_tbx_battery_capacity_ah_option_4_0:
+        code: '4-0'
+        source_field: '@product_tbx_battery_capacity_ah'
+        position: 2
+        defaultLabel: '4.0'
+    product_tbx_battery_capacity_ah_option_5_0:
+        code: '5-0'
+        source_field: '@product_tbx_battery_capacity_ah'
+        position: 3
+        defaultLabel: '5.0'
+    product_tbx_battery_capacity_ah_option_6_0:
+        code: '6-0'
+        source_field: '@product_tbx_battery_capacity_ah'
+        position: 4
+        defaultLabel: '6.0'
+    product_tbx_battery_capacity_ah_option_8_0:
+        code: '8-0'
+        source_field: '@product_tbx_battery_capacity_ah'
+        position: 5
+        defaultLabel: '8.0'
+    product_tbx_battery_technology_option_li_ion:
+        code: 'li-ion'
+        source_field: '@product_tbx_battery_technology'
+        position: 0
+        defaultLabel: 'Li-Ion'
+    product_tbx_battery_technology_option_li_hdp:
+        code: 'li-hdp'
+        source_field: '@product_tbx_battery_technology'
+        position: 1
+        defaultLabel: 'Li-HDP'
+    product_tbx_accessory_material_option_hss:
+        code: 'hss'
+        source_field: '@product_tbx_accessory_material'
+        position: 0
+        defaultLabel: 'HSS'
+    product_tbx_accessory_material_option_hss_co:
+        code: 'hss-co'
+        source_field: '@product_tbx_accessory_material'
+        position: 1
+        defaultLabel: 'HSS-Co'
+    product_tbx_accessory_material_option_carbure:
+        code: 'carbure'
+        source_field: '@product_tbx_accessory_material'
+        position: 2
+        defaultLabel: 'Carbure'
+    product_tbx_accessory_material_option_diamant:
+        code: 'diamant'
+        source_field: '@product_tbx_accessory_material'
+        position: 3
+        defaultLabel: 'Diamant'
+    product_tbx_accessory_material_option_corindon:
+        code: 'corindon'
+        source_field: '@product_tbx_accessory_material'
+        position: 4
+        defaultLabel: 'Corindon'
+    product_tbx_accessory_material_option_zirconium:
+        code: 'zirconium'
+        source_field: '@product_tbx_accessory_material'
+        position: 5
+        defaultLabel: 'Zirconium'
+    product_tbx_accessory_material_option_acier:
+        code: 'acier'
+        source_field: '@product_tbx_accessory_material'
+        position: 6
+        defaultLabel: 'Acier'
+    product_tbx_compatible_brands_option_forcemax:
+        code: 'forcemax'
+        source_field: '@product_tbx_compatible_brands'
+        position: 0
+        defaultLabel: 'ForceMax'
+    product_tbx_compatible_brands_option_turbotec:
+        code: 'turbotec'
+        source_field: '@product_tbx_compatible_brands'
+        position: 1
+        defaultLabel: 'TurboTec'
+    product_tbx_compatible_brands_option_universel:
+        code: 'universel'
+        source_field: '@product_tbx_compatible_brands'
+        position: 2
+        defaultLabel: 'Universel'
+    product_tbx_pack_quantity_option_1:
+        code: '1'
+        source_field: '@product_tbx_pack_quantity'
+        position: 0
+        defaultLabel: '1'
+    product_tbx_pack_quantity_option_3:
+        code: '3'
+        source_field: '@product_tbx_pack_quantity'
+        position: 1
+        defaultLabel: '3'
+    product_tbx_pack_quantity_option_5:
+        code: '5'
+        source_field: '@product_tbx_pack_quantity'
+        position: 2
+        defaultLabel: '5'
+    product_tbx_pack_quantity_option_6:
+        code: '6'
+        source_field: '@product_tbx_pack_quantity'
+        position: 3
+        defaultLabel: '6'
+    product_tbx_pack_quantity_option_8:
+        code: '8'
+        source_field: '@product_tbx_pack_quantity'
+        position: 4
+        defaultLabel: '8'
+    product_tbx_pack_quantity_option_10:
+        code: '10'
+        source_field: '@product_tbx_pack_quantity'
+        position: 5
+        defaultLabel: '10'
+    product_tbx_pack_quantity_option_15:
+        code: '15'
+        source_field: '@product_tbx_pack_quantity'
+        position: 6
+        defaultLabel: '15'
+    product_tbx_pack_quantity_option_20:
+        code: '20'
+        source_field: '@product_tbx_pack_quantity'
+        position: 7
+        defaultLabel: '20'
+    product_tbx_pack_quantity_option_25:
+        code: '25'
+        source_field: '@product_tbx_pack_quantity'
+        position: 8
+        defaultLabel: '25'
+    product_tbx_pack_quantity_option_50:
+        code: '50'
+        source_field: '@product_tbx_pack_quantity'
+        position: 9
+        defaultLabel: '50'
+    product_tbx_pack_quantity_option_100:
+        code: '100'
+        source_field: '@product_tbx_pack_quantity'
+        position: 10
+        defaultLabel: '100'
+    product_tbx_paint_color_option_blanc:
+        code: 'blanc'
+        source_field: '@product_tbx_paint_color'
+        position: 0
+        defaultLabel: 'Blanc'
+    product_tbx_paint_color_option_noir:
+        code: 'noir'
+        source_field: '@product_tbx_paint_color'
+        position: 1
+        defaultLabel: 'Noir'
+    product_tbx_paint_color_option_gris:
+        code: 'gris'
+        source_field: '@product_tbx_paint_color'
+        position: 2
+        defaultLabel: 'Gris'
+    product_tbx_paint_color_option_beige:
+        code: 'beige'
+        source_field: '@product_tbx_paint_color'
+        position: 3
+        defaultLabel: 'Beige'
+    product_tbx_paint_color_option_bleu:
+        code: 'bleu'
+        source_field: '@product_tbx_paint_color'
+        position: 4
+        defaultLabel: 'Bleu'
+    product_tbx_paint_color_option_vert:
+        code: 'vert'
+        source_field: '@product_tbx_paint_color'
+        position: 5
+        defaultLabel: 'Vert'
+    product_tbx_paint_color_option_rouge:
+        code: 'rouge'
+        source_field: '@product_tbx_paint_color'
+        position: 6
+        defaultLabel: 'Rouge'
+    product_tbx_paint_color_option_jaune:
+        code: 'jaune'
+        source_field: '@product_tbx_paint_color'
+        position: 7
+        defaultLabel: 'Jaune'
+    product_tbx_paint_color_option_brun:
+        code: 'brun'
+        source_field: '@product_tbx_paint_color'
+        position: 8
+        defaultLabel: 'Brun'
+    product_tbx_paint_color_option_incolore:
+        code: 'incolore'
+        source_field: '@product_tbx_paint_color'
+        position: 9
+        defaultLabel: 'Incolore'
+    product_tbx_paint_finish_option_mat:
+        code: 'mat'
+        source_field: '@product_tbx_paint_finish'
+        position: 0
+        defaultLabel: 'Mat'
+    product_tbx_paint_finish_option_satine:
+        code: 'satine'
+        source_field: '@product_tbx_paint_finish'
+        position: 1
+        defaultLabel: 'Satiné'
+    product_tbx_paint_finish_option_brillant:
+        code: 'brillant'
+        source_field: '@product_tbx_paint_finish'
+        position: 2
+        defaultLabel: 'Brillant'
+    product_tbx_paint_finish_option_velours:
+        code: 'velours'
+        source_field: '@product_tbx_paint_finish'
+        position: 3
+        defaultLabel: 'Velours'
+    product_tbx_paint_base_option_acrylique_eau:
+        code: 'acrylique-eau'
+        source_field: '@product_tbx_paint_base'
+        position: 0
+        defaultLabel: 'Acrylique (eau)'
+    product_tbx_paint_base_option_glycero_solvant:
+        code: 'glycero-solvant'
+        source_field: '@product_tbx_paint_base'
+        position: 1
+        defaultLabel: 'Glycéro (solvant)'
+    product_tbx_paint_base_option_alkyde:
+        code: 'alkyde'
+        source_field: '@product_tbx_paint_base'
+        position: 2
+        defaultLabel: 'Alkyde'
+    product_tbx_pipe_material_option_cuivre:
+        code: 'cuivre'
+        source_field: '@product_tbx_pipe_material'
+        position: 0
+        defaultLabel: 'Cuivre'
+    product_tbx_pipe_material_option_per:
+        code: 'per'
+        source_field: '@product_tbx_pipe_material'
+        position: 1
+        defaultLabel: 'PER'
+    product_tbx_pipe_material_option_multicouche:
+        code: 'multicouche'
+        source_field: '@product_tbx_pipe_material'
+        position: 2
+        defaultLabel: 'Multicouche'
+    product_tbx_pipe_material_option_pvc:
+        code: 'pvc'
+        source_field: '@product_tbx_pipe_material'
+        position: 3
+        defaultLabel: 'PVC'
+    product_tbx_pipe_material_option_laiton:
+        code: 'laiton'
+        source_field: '@product_tbx_pipe_material'
+        position: 4
+        defaultLabel: 'Laiton'
+    product_tbx_pipe_material_option_inox:
+        code: 'inox'
+        source_field: '@product_tbx_pipe_material'
+        position: 5
+        defaultLabel: 'Inox'
+    product_tbx_connection_type_option_a_souder:
+        code: 'a-souder'
+        source_field: '@product_tbx_connection_type'
+        position: 0
+        defaultLabel: 'À souder'
+    product_tbx_connection_type_option_a_sertir:
+        code: 'a-sertir'
+        source_field: '@product_tbx_connection_type'
+        position: 1
+        defaultLabel: 'À sertir'
+    product_tbx_connection_type_option_a_visser:
+        code: 'a-visser'
+        source_field: '@product_tbx_connection_type'
+        position: 2
+        defaultLabel: 'À visser'
+    product_tbx_connection_type_option_colle:
+        code: 'colle'
+        source_field: '@product_tbx_connection_type'
+        position: 3
+        defaultLabel: 'Collé'
+    product_tbx_connection_type_option_push_fit:
+        code: 'push-fit'
+        source_field: '@product_tbx_connection_type'
+        position: 4
+        defaultLabel: 'Push-fit'
+    product_tbx_ip_rating_option_ip20:
+        code: 'ip20'
+        source_field: '@product_tbx_ip_rating'
+        position: 0
+        defaultLabel: 'IP20'
+    product_tbx_ip_rating_option_ip44:
+        code: 'ip44'
+        source_field: '@product_tbx_ip_rating'
+        position: 1
+        defaultLabel: 'IP44'
+    product_tbx_ip_rating_option_ip54:
+        code: 'ip54'
+        source_field: '@product_tbx_ip_rating'
+        position: 2
+        defaultLabel: 'IP54'
+    product_tbx_ip_rating_option_ip65:
+        code: 'ip65'
+        source_field: '@product_tbx_ip_rating'
+        position: 3
+        defaultLabel: 'IP65'
+    product_tbx_ip_rating_option_ip67:
+        code: 'ip67'
+        source_field: '@product_tbx_ip_rating'
+        position: 4
+        defaultLabel: 'IP67'
+    product_tbx_elec_color_option_blanc:
+        code: 'blanc'
+        source_field: '@product_tbx_elec_color'
+        position: 0
+        defaultLabel: 'Blanc'
+    product_tbx_elec_color_option_ivoire:
+        code: 'ivoire'
+        source_field: '@product_tbx_elec_color'
+        position: 1
+        defaultLabel: 'Ivoire'
+    product_tbx_elec_color_option_anthracite:
+        code: 'anthracite'
+        source_field: '@product_tbx_elec_color'
+        position: 2
+        defaultLabel: 'Anthracite'
+    product_tbx_elec_color_option_noir:
+        code: 'noir'
+        source_field: '@product_tbx_elec_color'
+        position: 3
+        defaultLabel: 'Noir'
+    product_tbx_elec_color_option_inox_brosse:
+        code: 'inox-brosse'
+        source_field: '@product_tbx_elec_color'
+        position: 4
+        defaultLabel: 'Inox brossé'
+    product_tbx_fastener_material_option_acier_zingue:
+        code: 'acier-zingue'
+        source_field: '@product_tbx_fastener_material'
+        position: 0
+        defaultLabel: 'Acier zingué'
+    product_tbx_fastener_material_option_inox_a2:
+        code: 'inox-a2'
+        source_field: '@product_tbx_fastener_material'
+        position: 1
+        defaultLabel: 'Inox A2'
+    product_tbx_fastener_material_option_inox_a4:
+        code: 'inox-a4'
+        source_field: '@product_tbx_fastener_material'
+        position: 2
+        defaultLabel: 'Inox A4'
+    product_tbx_fastener_material_option_laiton:
+        code: 'laiton'
+        source_field: '@product_tbx_fastener_material'
+        position: 3
+        defaultLabel: 'Laiton'
+    product_tbx_fastener_material_option_nylon:
+        code: 'nylon'
+        source_field: '@product_tbx_fastener_material'
+        position: 4
+        defaultLabel: 'Nylon'
+    product_tbx_fastener_head_option_plate:
+        code: 'plate'
+        source_field: '@product_tbx_fastener_head'
+        position: 0
+        defaultLabel: 'Plate'
+    product_tbx_fastener_head_option_bombee:
+        code: 'bombee'
+        source_field: '@product_tbx_fastener_head'
+        position: 1
+        defaultLabel: 'Bombée'
+    product_tbx_fastener_head_option_hexagonale:
+        code: 'hexagonale'
+        source_field: '@product_tbx_fastener_head'
+        position: 2
+        defaultLabel: 'Hexagonale'
+    product_tbx_fastener_head_option_cylindrique:
+        code: 'cylindrique'
+        source_field: '@product_tbx_fastener_head'
+        position: 3
+        defaultLabel: 'Cylindrique'
+    product_tbx_fastener_head_option_fraisee:
+        code: 'fraisee'
+        source_field: '@product_tbx_fastener_head'
+        position: 4
+        defaultLabel: 'Fraisée'
+    product_tbx_thread_type_option_metrique:
+        code: 'metrique'
+        source_field: '@product_tbx_thread_type'
+        position: 0
+        defaultLabel: 'Métrique'
+    product_tbx_thread_type_option_bois:
+        code: 'bois'
+        source_field: '@product_tbx_thread_type'
+        position: 1
+        defaultLabel: 'Bois'
+    product_tbx_thread_type_option_autotaraudeuse:
+        code: 'autotaraudeuse'
+        source_field: '@product_tbx_thread_type'
+        position: 2
+        defaultLabel: 'Autotaraudeuse'
+    product_tbx_thread_type_option_autoperceuse:
+        code: 'autoperceuse'
+        source_field: '@product_tbx_thread_type'
+        position: 3
+        defaultLabel: 'Autoperceuse'
+    product_tbx_power_source_option_manuel:
+        code: 'manuel'
+        source_field: '@product_tbx_power_source'
+        position: 0
+        defaultLabel: 'Manuel'
+    product_tbx_power_source_option_electrique_230v:
+        code: 'electrique-230v'
+        source_field: '@product_tbx_power_source'
+        position: 1
+        defaultLabel: 'Électrique 230V'
+    product_tbx_power_source_option_batterie:
+        code: 'batterie'
+        source_field: '@product_tbx_power_source'
+        position: 2
+        defaultLabel: 'Batterie'
+    product_tbx_power_source_option_thermique:
+        code: 'thermique'
+        source_field: '@product_tbx_power_source'
+        position: 3
+        defaultLabel: 'Thermique'
+    product_tbx_noise_level_db_option_lt_70_db:
+        code: 'lt-70-db'
+        source_field: '@product_tbx_noise_level_db'
+        position: 0
+        defaultLabel: '< 70 dB'
+    product_tbx_noise_level_db_option_70_80_db:
+        code: '70-80-db'
+        source_field: '@product_tbx_noise_level_db'
+        position: 1
+        defaultLabel: '70-80 dB'
+    product_tbx_noise_level_db_option_80_90_db:
+        code: '80-90-db'
+        source_field: '@product_tbx_noise_level_db'
+        position: 2
+        defaultLabel: '80-90 dB'
+    product_tbx_noise_level_db_option_90_100_db:
+        code: '90-100-db'
+        source_field: '@product_tbx_noise_level_db'
+        position: 3
+        defaultLabel: '90-100 dB'
+    product_tbx_noise_level_db_option_gt_100_db:
+        code: 'gt-100-db'
+        source_field: '@product_tbx_noise_level_db'
+        position: 4
+        defaultLabel: '> 100 dB'
+    product_tbx_protection_norm_option_en166:
+        code: 'en166'
+        source_field: '@product_tbx_protection_norm'
+        position: 0
+        defaultLabel: 'EN166'
+    product_tbx_protection_norm_option_en388:
+        code: 'en388'
+        source_field: '@product_tbx_protection_norm'
+        position: 1
+        defaultLabel: 'EN388'
+    product_tbx_protection_norm_option_en397:
+        code: 'en397'
+        source_field: '@product_tbx_protection_norm'
+        position: 2
+        defaultLabel: 'EN397'
+    product_tbx_protection_norm_option_en352:
+        code: 'en352'
+        source_field: '@product_tbx_protection_norm'
+        position: 3
+        defaultLabel: 'EN352'
+    product_tbx_protection_norm_option_en_iso_20345:
+        code: 'en-iso-20345'
+        source_field: '@product_tbx_protection_norm'
+        position: 4
+        defaultLabel: 'EN ISO 20345'
+    product_tbx_protection_norm_option_en343:
+        code: 'en343'
+        source_field: '@product_tbx_protection_norm'
+        position: 5
+        defaultLabel: 'EN343'
+    product_tbx_size_range_option_xs:
+        code: 'xs'
+        source_field: '@product_tbx_size_range'
+        position: 0
+        defaultLabel: 'XS'
+    product_tbx_size_range_option_s:
+        code: 's'
+        source_field: '@product_tbx_size_range'
+        position: 1
+        defaultLabel: 'S'
+    product_tbx_size_range_option_m:
+        code: 'm'
+        source_field: '@product_tbx_size_range'
+        position: 2
+        defaultLabel: 'M'
+    product_tbx_size_range_option_l:
+        code: 'l'
+        source_field: '@product_tbx_size_range'
+        position: 3
+        defaultLabel: 'L'
+    product_tbx_size_range_option_xl:
+        code: 'xl'
+        source_field: '@product_tbx_size_range'
+        position: 4
+        defaultLabel: 'XL'
+    product_tbx_size_range_option_xxl:
+        code: 'xxl'
+        source_field: '@product_tbx_size_range'
+        position: 5
+        defaultLabel: 'XXL'
+    product_tbx_size_range_option_taille_unique:
+        code: 'taille-unique'
+        source_field: '@product_tbx_size_range'
+        position: 6
+        defaultLabel: 'Taille unique'
+    product_tbx_comfort_level_option_basique:
+        code: 'basique'
+        source_field: '@product_tbx_comfort_level'
+        position: 0
+        defaultLabel: 'Basique'
+    product_tbx_comfort_level_option_confort:
+        code: 'confort'
+        source_field: '@product_tbx_comfort_level'
+        position: 1
+        defaultLabel: 'Confort'
+    product_tbx_comfort_level_option_premium:
+        code: 'premium'
+        source_field: '@product_tbx_comfort_level'
+        position: 2
+        defaultLabel: 'Premium'
+    product_tbx_weight_class_option_leger_lt_15_kg:
+        code: 'leger-lt-15-kg'
+        source_field: '@product_tbx_weight_class'
+        position: 0
+        defaultLabel: 'Léger (< 15 kg)'
+    product_tbx_weight_class_option_moyen_15_50_kg:
+        code: 'moyen-15-50-kg'
+        source_field: '@product_tbx_weight_class'
+        position: 1
+        defaultLabel: 'Moyen (15-50 kg)'
+    product_tbx_weight_class_option_lourd_50_100_kg:
+        code: 'lourd-50-100-kg'
+        source_field: '@product_tbx_weight_class'
+        position: 2
+        defaultLabel: 'Lourd (50-100 kg)'
+    product_tbx_weight_class_option_tres_lourd_gt_100_kg:
+        code: 'tres-lourd-gt-100-kg'
+        source_field: '@product_tbx_weight_class'
+        position: 3
+        defaultLabel: 'Très lourd (> 100 kg)'
+    product_tbx_brand_option_voltsafe:
+        code: 'voltsafe'
+        source_field: '@product_tbx_brand'
+        position: 0
+        defaultLabel: 'VoltSafe'
+    product_tbx_brand_option_forcemax:
+        code: 'forcemax'
+        source_field: '@product_tbx_brand'
+        position: 1
+        defaultLabel: 'ForceMax'
+    product_tbx_brand_option_turbotec:
+        code: 'turbotec'
+        source_field: '@product_tbx_brand'
+        position: 2
+        defaultLabel: 'TurboTec'
+    product_tbx_brand_option_atelierpro:
+        code: 'atelierpro'
+        source_field: '@product_tbx_brand'
+        position: 3
+        defaultLabel: 'AtelierPro'
+    product_tbx_brand_option_peintexpress:
+        code: 'peintexpress'
+        source_field: '@product_tbx_brand'
+        position: 4
+        defaultLabel: 'PeintExpress'
+    product_tbx_brand_option_fluxpro:
+        code: 'fluxpro'
+        source_field: '@product_tbx_brand'
+        position: 5
+        defaultLabel: 'FluxPro'
+    product_tbx_brand_option_fixmaster:
+        code: 'fixmaster'
+        source_field: '@product_tbx_brand'
+        position: 6
+        defaultLabel: 'FixMaster'
+    product_tbx_brand_option_verdoyjardin:
+        code: 'verdoyjardin'
+        source_field: '@product_tbx_brand'
+        position: 7
+        defaultLabel: 'VerdoyJardin'
+    product_tbx_brand_option_bricosafe:
+        code: 'bricosafe'
+        source_field: '@product_tbx_brand'
+        position: 8
+        defaultLabel: 'BricoSafe'

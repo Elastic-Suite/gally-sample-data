@@ -1,0 +1,222 @@
+include:
+    - localized_catalogs.yaml
+    - product_source_field.yaml
+    - shared_product_source_field.yaml
+
+Gally\Metadata\Entity\SourceFieldLabel:
+    product_llv_brand_papershop_fr:
+        source_field: '@product_llv_brand'
+        localized_catalog: '@papershop_fr'
+        label: 'Marque'
+    product_llv_brand_papershop_en:
+        source_field: '@product_llv_brand'
+        localized_catalog: '@papershop_en'
+        label: 'Brand'
+    product_llv_brand_papershop_de:
+        source_field: '@product_llv_brand'
+        localized_catalog: '@papershop_de'
+        label: 'Marke'
+    product_llv_material_papershop_fr:
+        source_field: '@product_llv_material'
+        localized_catalog: '@papershop_fr'
+        label: 'Matière'
+    product_llv_material_papershop_en:
+        source_field: '@product_llv_material'
+        localized_catalog: '@papershop_en'
+        label: 'Material'
+    product_llv_material_papershop_de:
+        source_field: '@product_llv_material'
+        localized_catalog: '@papershop_de'
+        label: 'Material'
+    product_llv_color_papershop_fr:
+        source_field: '@product_llv_color'
+        localized_catalog: '@papershop_fr'
+        label: 'Couleur'
+    product_llv_color_papershop_en:
+        source_field: '@product_llv_color'
+        localized_catalog: '@papershop_en'
+        label: 'Colour'
+    product_llv_color_papershop_de:
+        source_field: '@product_llv_color'
+        localized_catalog: '@papershop_de'
+        label: 'Farbe'
+    product_llv_origin_papershop_fr:
+        source_field: '@product_llv_origin'
+        localized_catalog: '@papershop_fr'
+        label: 'Pays de fabrication'
+    product_llv_origin_papershop_en:
+        source_field: '@product_llv_origin'
+        localized_catalog: '@papershop_en'
+        label: 'Country of manufacture'
+    product_llv_origin_papershop_de:
+        source_field: '@product_llv_origin'
+        localized_catalog: '@papershop_de'
+        label: 'Herstellungsland'
+    product_llv_is_eco_papershop_fr:
+        source_field: '@product_llv_is_eco'
+        localized_catalog: '@papershop_fr'
+        label: 'Matières durables'
+    product_llv_is_eco_papershop_en:
+        source_field: '@product_llv_is_eco'
+        localized_catalog: '@papershop_en'
+        label: 'Sustainable materials'
+    product_llv_is_eco_papershop_de:
+        source_field: '@product_llv_is_eco'
+        localized_catalog: '@papershop_de'
+        label: 'Nachhaltige Materialien'
+    product_llv_paper_weight_papershop_fr:
+        source_field: '@product_llv_paper_weight'
+        localized_catalog: '@papershop_fr'
+        label: 'Grammage (g/m²)'
+    product_llv_paper_weight_papershop_en:
+        source_field: '@product_llv_paper_weight'
+        localized_catalog: '@papershop_en'
+        label: 'Paper weight (gsm)'
+    product_llv_paper_weight_papershop_de:
+        source_field: '@product_llv_paper_weight'
+        localized_catalog: '@papershop_de'
+        label: 'Papiergewicht (g/m²)'
+    product_llv_ruling_papershop_fr:
+        source_field: '@product_llv_ruling'
+        localized_catalog: '@papershop_fr'
+        label: 'Réglure'
+    product_llv_ruling_papershop_en:
+        source_field: '@product_llv_ruling'
+        localized_catalog: '@papershop_en'
+        label: 'Ruling'
+    product_llv_ruling_papershop_de:
+        source_field: '@product_llv_ruling'
+        localized_catalog: '@papershop_de'
+        label: 'Lineatur'
+    product_llv_format_papershop_fr:
+        source_field: '@product_llv_format'
+        localized_catalog: '@papershop_fr'
+        label: 'Format'
+    product_llv_format_papershop_en:
+        source_field: '@product_llv_format'
+        localized_catalog: '@papershop_en'
+        label: 'Size'
+    product_llv_format_papershop_de:
+        source_field: '@product_llv_format'
+        localized_catalog: '@papershop_de'
+        label: 'Größe'
+    product_llv_binding_papershop_fr:
+        source_field: '@product_llv_binding'
+        localized_catalog: '@papershop_fr'
+        label: 'Reliure'
+    product_llv_binding_papershop_en:
+        source_field: '@product_llv_binding'
+        localized_catalog: '@papershop_en'
+        label: 'Binding'
+    product_llv_binding_papershop_de:
+        source_field: '@product_llv_binding'
+        localized_catalog: '@papershop_de'
+        label: 'Bindung'
+    product_llv_author_papershop_fr:
+        source_field: '@product_llv_author'
+        localized_catalog: '@papershop_fr'
+        label: 'Auteur'
+    product_llv_author_papershop_en:
+        source_field: '@product_llv_author'
+        localized_catalog: '@papershop_en'
+        label: 'Author'
+    product_llv_author_papershop_de:
+        source_field: '@product_llv_author'
+        localized_catalog: '@papershop_de'
+        label: 'Autor'
+    product_llv_language_papershop_fr:
+        source_field: '@product_llv_language'
+        localized_catalog: '@papershop_fr'
+        label: 'Langue du texte'
+    product_llv_language_papershop_en:
+        source_field: '@product_llv_language'
+        localized_catalog: '@papershop_en'
+        label: 'Text language'
+    product_llv_language_papershop_de:
+        source_field: '@product_llv_language'
+        localized_catalog: '@papershop_de'
+        label: 'Textsprache'
+    product_llv_page_count_papershop_fr:
+        source_field: '@product_llv_page_count'
+        localized_catalog: '@papershop_fr'
+        label: 'Nombre de pages'
+    product_llv_page_count_papershop_en:
+        source_field: '@product_llv_page_count'
+        localized_catalog: '@papershop_en'
+        label: 'Page count'
+    product_llv_page_count_papershop_de:
+        source_field: '@product_llv_page_count'
+        localized_catalog: '@papershop_de'
+        label: 'Seitenzahl'
+    product_llv_publication_year_papershop_fr:
+        source_field: '@product_llv_publication_year'
+        localized_catalog: '@papershop_fr'
+        label: 'Année de parution'
+    product_llv_publication_year_papershop_en:
+        source_field: '@product_llv_publication_year'
+        localized_catalog: '@papershop_en'
+        label: 'Year of publication'
+    product_llv_publication_year_papershop_de:
+        source_field: '@product_llv_publication_year'
+        localized_catalog: '@papershop_de'
+        label: 'Erscheinungsjahr'
+    product_llv_width_cm_papershop_fr:
+        source_field: '@product_llv_width_cm'
+        localized_catalog: '@papershop_fr'
+        label: 'Largeur (cm)'
+    product_llv_width_cm_papershop_en:
+        source_field: '@product_llv_width_cm'
+        localized_catalog: '@papershop_en'
+        label: 'Width (cm)'
+    product_llv_width_cm_papershop_de:
+        source_field: '@product_llv_width_cm'
+        localized_catalog: '@papershop_de'
+        label: 'Breite (cm)'
+    product_llv_height_cm_papershop_fr:
+        source_field: '@product_llv_height_cm'
+        localized_catalog: '@papershop_fr'
+        label: 'Hauteur (cm)'
+    product_llv_height_cm_papershop_en:
+        source_field: '@product_llv_height_cm'
+        localized_catalog: '@papershop_en'
+        label: 'Height (cm)'
+    product_llv_height_cm_papershop_de:
+        source_field: '@product_llv_height_cm'
+        localized_catalog: '@papershop_de'
+        label: 'Höhe (cm)'
+    product_llv_depth_cm_papershop_fr:
+        source_field: '@product_llv_depth_cm'
+        localized_catalog: '@papershop_fr'
+        label: 'Profondeur (cm)'
+    product_llv_depth_cm_papershop_en:
+        source_field: '@product_llv_depth_cm'
+        localized_catalog: '@papershop_en'
+        label: 'Depth (cm)'
+    product_llv_depth_cm_papershop_de:
+        source_field: '@product_llv_depth_cm'
+        localized_catalog: '@papershop_de'
+        label: 'Tiefe (cm)'
+    product_llv_assembly_required_papershop_fr:
+        source_field: '@product_llv_assembly_required'
+        localized_catalog: '@papershop_fr'
+        label: 'Montage nécessaire'
+    product_llv_assembly_required_papershop_en:
+        source_field: '@product_llv_assembly_required'
+        localized_catalog: '@papershop_en'
+        label: 'Assembly required'
+    product_llv_assembly_required_papershop_de:
+        source_field: '@product_llv_assembly_required'
+        localized_catalog: '@papershop_de'
+        label: 'Montage erforderlich'
+    product_image_generated_at_papershop_fr:
+        source_field: '@product_image_generated_at'
+        localized_catalog: '@papershop_fr'
+        label: 'Date de génération de l''image'
+    product_image_generated_at_papershop_en:
+        source_field: '@product_image_generated_at'
+        localized_catalog: '@papershop_en'
+        label: 'Image generated on'
+    product_image_generated_at_papershop_de:
+        source_field: '@product_image_generated_at'
+        localized_catalog: '@papershop_de'
+        label: 'Bild erzeugt am'

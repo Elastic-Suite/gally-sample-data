@@ -1,0 +1,19 @@
+# Load order insurance: no data of its own.
+#
+# Alice takes its class order from the alphabetically last fixture file across all catalog
+# folders, and persists objects in that order. A SourceField persisted before its Metadata kills
+# the load, because the prePersist validator binds the Metadata as a query parameter and a
+# Metadata only has an id once persisted.
+#
+# It only matters when this catalog folder sorts after the one that declares the metadata. While
+# the folder sorts first, the last file is default/product_source_field_option_label.yaml, whose
+# include chain reaches
+# metadata.yaml, and this file changes nothing. Renaming the folder so it sorts last is what makes
+# it load-critical.
+#
+# The reference name below is the one default/metadata.yaml uses, so the two blocks merge into one
+# object and a single row is inserted either way.
+
+Gally\Metadata\Entity\Metadata:
+    cms_page:
+        entity: cms_page

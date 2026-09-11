@@ -1,0 +1,426 @@
+include:
+    - cms_source_field_option.yaml
+    - shared_cms_source_field_option.yaml
+    - localized_catalogs.yaml
+
+Gally\Metadata\Entity\SourceFieldOptionLabel:
+    cms_page_content_type_option_blog_fashion_fr:
+        source_field_option: '@cms_page_content_type_option_blog'
+        localized_catalog: '@fashion_fr'
+        label: 'Article de blog'
+    cms_page_content_type_option_blog_fashion_en:
+        source_field_option: '@cms_page_content_type_option_blog'
+        localized_catalog: '@fashion_en'
+        label: 'Blog Post'
+    cms_page_content_type_option_blog_fashion_de:
+        source_field_option: '@cms_page_content_type_option_blog'
+        localized_catalog: '@fashion_de'
+        label: 'Blogbeitrag'
+    cms_page_content_type_option_guide_fashion_fr:
+        source_field_option: '@cms_page_content_type_option_guide'
+        localized_catalog: '@fashion_fr'
+        label: 'Guide d''achat'
+    cms_page_content_type_option_guide_fashion_en:
+        source_field_option: '@cms_page_content_type_option_guide'
+        localized_catalog: '@fashion_en'
+        label: 'Buying Guide'
+    cms_page_content_type_option_guide_fashion_de:
+        source_field_option: '@cms_page_content_type_option_guide'
+        localized_catalog: '@fashion_de'
+        label: 'Kaufberatung'
+    cms_page_topic_option_accessories_fashion_fr:
+        source_field_option: '@cms_page_topic_option_accessories'
+        localized_catalog: '@fashion_fr'
+        label: 'Accessoires'
+    cms_page_topic_option_accessories_fashion_en:
+        source_field_option: '@cms_page_topic_option_accessories'
+        localized_catalog: '@fashion_en'
+        label: 'Accessories'
+    cms_page_topic_option_accessories_fashion_de:
+        source_field_option: '@cms_page_topic_option_accessories'
+        localized_catalog: '@fashion_de'
+        label: 'Accessoires'
+    cms_page_topic_option_care_fashion_fr:
+        source_field_option: '@cms_page_topic_option_care'
+        localized_catalog: '@fashion_fr'
+        label: 'Entretien'
+    cms_page_topic_option_care_fashion_en:
+        source_field_option: '@cms_page_topic_option_care'
+        localized_catalog: '@fashion_en'
+        label: 'Garment Care'
+    cms_page_topic_option_care_fashion_de:
+        source_field_option: '@cms_page_topic_option_care'
+        localized_catalog: '@fashion_de'
+        label: 'Pflege'
+    cms_page_topic_option_color_fashion_fr:
+        source_field_option: '@cms_page_topic_option_color'
+        localized_catalog: '@fashion_fr'
+        label: 'Couleur'
+    cms_page_topic_option_color_fashion_en:
+        source_field_option: '@cms_page_topic_option_color'
+        localized_catalog: '@fashion_en'
+        label: 'Colour'
+    cms_page_topic_option_color_fashion_de:
+        source_field_option: '@cms_page_topic_option_color'
+        localized_catalog: '@fashion_de'
+        label: 'Farbe'
+    cms_page_topic_option_fit_sizing_fashion_fr:
+        source_field_option: '@cms_page_topic_option_fit_sizing'
+        localized_catalog: '@fashion_fr'
+        label: 'Coupe et taille'
+    cms_page_topic_option_fit_sizing_fashion_en:
+        source_field_option: '@cms_page_topic_option_fit_sizing'
+        localized_catalog: '@fashion_en'
+        label: 'Fit & Sizing'
+    cms_page_topic_option_fit_sizing_fashion_de:
+        source_field_option: '@cms_page_topic_option_fit_sizing'
+        localized_catalog: '@fashion_de'
+        label: 'Passform und Größe'
+    cms_page_topic_option_materials_fashion_fr:
+        source_field_option: '@cms_page_topic_option_materials'
+        localized_catalog: '@fashion_fr'
+        label: 'Matières'
+    cms_page_topic_option_materials_fashion_en:
+        source_field_option: '@cms_page_topic_option_materials'
+        localized_catalog: '@fashion_en'
+        label: 'Materials'
+    cms_page_topic_option_materials_fashion_de:
+        source_field_option: '@cms_page_topic_option_materials'
+        localized_catalog: '@fashion_de'
+        label: 'Materialien'
+    cms_page_topic_option_occasions_fashion_fr:
+        source_field_option: '@cms_page_topic_option_occasions'
+        localized_catalog: '@fashion_fr'
+        label: 'Occasions'
+    cms_page_topic_option_occasions_fashion_en:
+        source_field_option: '@cms_page_topic_option_occasions'
+        localized_catalog: '@fashion_en'
+        label: 'Occasions'
+    cms_page_topic_option_occasions_fashion_de:
+        source_field_option: '@cms_page_topic_option_occasions'
+        localized_catalog: '@fashion_de'
+        label: 'Anlässe'
+    cms_page_topic_option_style_guide_fashion_fr:
+        source_field_option: '@cms_page_topic_option_style_guide'
+        localized_catalog: '@fashion_fr'
+        label: 'Guide de style'
+    cms_page_topic_option_style_guide_fashion_en:
+        source_field_option: '@cms_page_topic_option_style_guide'
+        localized_catalog: '@fashion_en'
+        label: 'Style Guide'
+    cms_page_topic_option_style_guide_fashion_de:
+        source_field_option: '@cms_page_topic_option_style_guide'
+        localized_catalog: '@fashion_de'
+        label: 'Stilberatung'
+    cms_page_topic_option_sustainability_fashion_fr:
+        source_field_option: '@cms_page_topic_option_sustainability'
+        localized_catalog: '@fashion_fr'
+        label: 'Durabilité'
+    cms_page_topic_option_sustainability_fashion_en:
+        source_field_option: '@cms_page_topic_option_sustainability'
+        localized_catalog: '@fashion_en'
+        label: 'Sustainability'
+    cms_page_topic_option_sustainability_fashion_de:
+        source_field_option: '@cms_page_topic_option_sustainability'
+        localized_catalog: '@fashion_de'
+        label: 'Nachhaltigkeit'
+    cms_page_topic_option_trends_fashion_fr:
+        source_field_option: '@cms_page_topic_option_trends'
+        localized_catalog: '@fashion_fr'
+        label: 'Tendances'
+    cms_page_topic_option_trends_fashion_en:
+        source_field_option: '@cms_page_topic_option_trends'
+        localized_catalog: '@fashion_en'
+        label: 'Trends'
+    cms_page_topic_option_trends_fashion_de:
+        source_field_option: '@cms_page_topic_option_trends'
+        localized_catalog: '@fashion_de'
+        label: 'Trends'
+    cms_page_author_option_camille_laurent_fashion_fr:
+        source_field_option: '@cms_page_author_option_camille_laurent'
+        localized_catalog: '@fashion_fr'
+        label: 'Camille Laurent'
+    cms_page_author_option_camille_laurent_fashion_en:
+        source_field_option: '@cms_page_author_option_camille_laurent'
+        localized_catalog: '@fashion_en'
+        label: 'Camille Laurent'
+    cms_page_author_option_camille_laurent_fashion_de:
+        source_field_option: '@cms_page_author_option_camille_laurent'
+        localized_catalog: '@fashion_de'
+        label: 'Camille Laurent'
+    cms_page_author_option_lea_moreau_fashion_fr:
+        source_field_option: '@cms_page_author_option_lea_moreau'
+        localized_catalog: '@fashion_fr'
+        label: 'Léa Moreau'
+    cms_page_author_option_lea_moreau_fashion_en:
+        source_field_option: '@cms_page_author_option_lea_moreau'
+        localized_catalog: '@fashion_en'
+        label: 'Léa Moreau'
+    cms_page_author_option_lea_moreau_fashion_de:
+        source_field_option: '@cms_page_author_option_lea_moreau'
+        localized_catalog: '@fashion_de'
+        label: 'Léa Moreau'
+    cms_page_author_option_julien_faure_fashion_fr:
+        source_field_option: '@cms_page_author_option_julien_faure'
+        localized_catalog: '@fashion_fr'
+        label: 'Julien Faure'
+    cms_page_author_option_julien_faure_fashion_en:
+        source_field_option: '@cms_page_author_option_julien_faure'
+        localized_catalog: '@fashion_en'
+        label: 'Julien Faure'
+    cms_page_author_option_julien_faure_fashion_de:
+        source_field_option: '@cms_page_author_option_julien_faure'
+        localized_catalog: '@fashion_de'
+        label: 'Julien Faure'
+    cms_page_author_option_sofia_marchetti_fashion_fr:
+        source_field_option: '@cms_page_author_option_sofia_marchetti'
+        localized_catalog: '@fashion_fr'
+        label: 'Sofia Marchetti'
+    cms_page_author_option_sofia_marchetti_fashion_en:
+        source_field_option: '@cms_page_author_option_sofia_marchetti'
+        localized_catalog: '@fashion_en'
+        label: 'Sofia Marchetti'
+    cms_page_author_option_sofia_marchetti_fashion_de:
+        source_field_option: '@cms_page_author_option_sofia_marchetti'
+        localized_catalog: '@fashion_de'
+        label: 'Sofia Marchetti'
+    cms_page_author_option_noemie_girard_fashion_fr:
+        source_field_option: '@cms_page_author_option_noemie_girard'
+        localized_catalog: '@fashion_fr'
+        label: 'Noémie Girard'
+    cms_page_author_option_noemie_girard_fashion_en:
+        source_field_option: '@cms_page_author_option_noemie_girard'
+        localized_catalog: '@fashion_en'
+        label: 'Noémie Girard'
+    cms_page_author_option_noemie_girard_fashion_de:
+        source_field_option: '@cms_page_author_option_noemie_girard'
+        localized_catalog: '@fashion_de'
+        label: 'Noémie Girard'
+    cms_page_tags_option_accessories_fashion_fr:
+        source_field_option: '@cms_page_tags_option_accessories'
+        localized_catalog: '@fashion_fr'
+        label: 'Accessoires'
+    cms_page_tags_option_accessories_fashion_en:
+        source_field_option: '@cms_page_tags_option_accessories'
+        localized_catalog: '@fashion_en'
+        label: 'Accessories'
+    cms_page_tags_option_accessories_fashion_de:
+        source_field_option: '@cms_page_tags_option_accessories'
+        localized_catalog: '@fashion_de'
+        label: 'Accessoires'
+    cms_page_tags_option_capsule_wardrobe_fashion_fr:
+        source_field_option: '@cms_page_tags_option_capsule_wardrobe'
+        localized_catalog: '@fashion_fr'
+        label: 'Vestiaire minimal'
+    cms_page_tags_option_capsule_wardrobe_fashion_en:
+        source_field_option: '@cms_page_tags_option_capsule_wardrobe'
+        localized_catalog: '@fashion_en'
+        label: 'Capsule wardrobe'
+    cms_page_tags_option_capsule_wardrobe_fashion_de:
+        source_field_option: '@cms_page_tags_option_capsule_wardrobe'
+        localized_catalog: '@fashion_de'
+        label: 'Capsule Wardrobe'
+    cms_page_tags_option_care_fashion_fr:
+        source_field_option: '@cms_page_tags_option_care'
+        localized_catalog: '@fashion_fr'
+        label: 'Entretien'
+    cms_page_tags_option_care_fashion_en:
+        source_field_option: '@cms_page_tags_option_care'
+        localized_catalog: '@fashion_en'
+        label: 'Care'
+    cms_page_tags_option_care_fashion_de:
+        source_field_option: '@cms_page_tags_option_care'
+        localized_catalog: '@fashion_de'
+        label: 'Pflege'
+    cms_page_tags_option_colors_fashion_fr:
+        source_field_option: '@cms_page_tags_option_colors'
+        localized_catalog: '@fashion_fr'
+        label: 'Couleurs'
+    cms_page_tags_option_colors_fashion_en:
+        source_field_option: '@cms_page_tags_option_colors'
+        localized_catalog: '@fashion_en'
+        label: 'Colours'
+    cms_page_tags_option_colors_fashion_de:
+        source_field_option: '@cms_page_tags_option_colors'
+        localized_catalog: '@fashion_de'
+        label: 'Farben'
+    cms_page_tags_option_denim_fashion_fr:
+        source_field_option: '@cms_page_tags_option_denim'
+        localized_catalog: '@fashion_fr'
+        label: 'Denim'
+    cms_page_tags_option_denim_fashion_en:
+        source_field_option: '@cms_page_tags_option_denim'
+        localized_catalog: '@fashion_en'
+        label: 'Denim'
+    cms_page_tags_option_denim_fashion_de:
+        source_field_option: '@cms_page_tags_option_denim'
+        localized_catalog: '@fashion_de'
+        label: 'Denim'
+    cms_page_tags_option_dress_fashion_fr:
+        source_field_option: '@cms_page_tags_option_dress'
+        localized_catalog: '@fashion_fr'
+        label: 'Robe'
+    cms_page_tags_option_dress_fashion_en:
+        source_field_option: '@cms_page_tags_option_dress'
+        localized_catalog: '@fashion_en'
+        label: 'Dress'
+    cms_page_tags_option_dress_fashion_de:
+        source_field_option: '@cms_page_tags_option_dress'
+        localized_catalog: '@fashion_de'
+        label: 'Kleid'
+    cms_page_tags_option_fashion_fashion_fr:
+        source_field_option: '@cms_page_tags_option_fashion'
+        localized_catalog: '@fashion_fr'
+        label: 'Mode'
+    cms_page_tags_option_fashion_fashion_en:
+        source_field_option: '@cms_page_tags_option_fashion'
+        localized_catalog: '@fashion_en'
+        label: 'Fashion'
+    cms_page_tags_option_fashion_fashion_de:
+        source_field_option: '@cms_page_tags_option_fashion'
+        localized_catalog: '@fashion_de'
+        label: 'Mode'
+    cms_page_tags_option_layering_fashion_fr:
+        source_field_option: '@cms_page_tags_option_layering'
+        localized_catalog: '@fashion_fr'
+        label: 'Superposition'
+    cms_page_tags_option_layering_fashion_en:
+        source_field_option: '@cms_page_tags_option_layering'
+        localized_catalog: '@fashion_en'
+        label: 'Layering'
+    cms_page_tags_option_layering_fashion_de:
+        source_field_option: '@cms_page_tags_option_layering'
+        localized_catalog: '@fashion_de'
+        label: 'Lagenlook'
+    cms_page_tags_option_leather_goods_fashion_fr:
+        source_field_option: '@cms_page_tags_option_leather_goods'
+        localized_catalog: '@fashion_fr'
+        label: 'Maroquinerie'
+    cms_page_tags_option_leather_goods_fashion_en:
+        source_field_option: '@cms_page_tags_option_leather_goods'
+        localized_catalog: '@fashion_en'
+        label: 'Leather goods'
+    cms_page_tags_option_leather_goods_fashion_de:
+        source_field_option: '@cms_page_tags_option_leather_goods'
+        localized_catalog: '@fashion_de'
+        label: 'Lederwaren'
+    cms_page_tags_option_linen_fashion_fr:
+        source_field_option: '@cms_page_tags_option_linen'
+        localized_catalog: '@fashion_fr'
+        label: 'Lin'
+    cms_page_tags_option_linen_fashion_en:
+        source_field_option: '@cms_page_tags_option_linen'
+        localized_catalog: '@fashion_en'
+        label: 'Linen'
+    cms_page_tags_option_linen_fashion_de:
+        source_field_option: '@cms_page_tags_option_linen'
+        localized_catalog: '@fashion_de'
+        label: 'Leinen'
+    cms_page_tags_option_materials_fashion_fr:
+        source_field_option: '@cms_page_tags_option_materials'
+        localized_catalog: '@fashion_fr'
+        label: 'Matières'
+    cms_page_tags_option_materials_fashion_en:
+        source_field_option: '@cms_page_tags_option_materials'
+        localized_catalog: '@fashion_en'
+        label: 'Materials'
+    cms_page_tags_option_materials_fashion_de:
+        source_field_option: '@cms_page_tags_option_materials'
+        localized_catalog: '@fashion_de'
+        label: 'Materialien'
+    cms_page_tags_option_occasions_fashion_fr:
+        source_field_option: '@cms_page_tags_option_occasions'
+        localized_catalog: '@fashion_fr'
+        label: 'Occasions'
+    cms_page_tags_option_occasions_fashion_en:
+        source_field_option: '@cms_page_tags_option_occasions'
+        localized_catalog: '@fashion_en'
+        label: 'Occasions'
+    cms_page_tags_option_occasions_fashion_de:
+        source_field_option: '@cms_page_tags_option_occasions'
+        localized_catalog: '@fashion_de'
+        label: 'Anlässe'
+    cms_page_tags_option_silk_fashion_fr:
+        source_field_option: '@cms_page_tags_option_silk'
+        localized_catalog: '@fashion_fr'
+        label: 'Soie'
+    cms_page_tags_option_silk_fashion_en:
+        source_field_option: '@cms_page_tags_option_silk'
+        localized_catalog: '@fashion_en'
+        label: 'Silk'
+    cms_page_tags_option_silk_fashion_de:
+        source_field_option: '@cms_page_tags_option_silk'
+        localized_catalog: '@fashion_de'
+        label: 'Seide'
+    cms_page_tags_option_sizing_fashion_fr:
+        source_field_option: '@cms_page_tags_option_sizing'
+        localized_catalog: '@fashion_fr'
+        label: 'Tailles'
+    cms_page_tags_option_sizing_fashion_en:
+        source_field_option: '@cms_page_tags_option_sizing'
+        localized_catalog: '@fashion_en'
+        label: 'Sizing'
+    cms_page_tags_option_sizing_fashion_de:
+        source_field_option: '@cms_page_tags_option_sizing'
+        localized_catalog: '@fashion_de'
+        label: 'Größen'
+    cms_page_tags_option_sneakers_fashion_fr:
+        source_field_option: '@cms_page_tags_option_sneakers'
+        localized_catalog: '@fashion_fr'
+        label: 'Baskets'
+    cms_page_tags_option_sneakers_fashion_en:
+        source_field_option: '@cms_page_tags_option_sneakers'
+        localized_catalog: '@fashion_en'
+        label: 'Sneakers'
+    cms_page_tags_option_sneakers_fashion_de:
+        source_field_option: '@cms_page_tags_option_sneakers'
+        localized_catalog: '@fashion_de'
+        label: 'Sneaker'
+    cms_page_tags_option_sustainability_fashion_fr:
+        source_field_option: '@cms_page_tags_option_sustainability'
+        localized_catalog: '@fashion_fr'
+        label: 'Durabilité'
+    cms_page_tags_option_sustainability_fashion_en:
+        source_field_option: '@cms_page_tags_option_sustainability'
+        localized_catalog: '@fashion_en'
+        label: 'Sustainability'
+    cms_page_tags_option_sustainability_fashion_de:
+        source_field_option: '@cms_page_tags_option_sustainability'
+        localized_catalog: '@fashion_de'
+        label: 'Nachhaltigkeit'
+    cms_page_tags_option_tailoring_fashion_fr:
+        source_field_option: '@cms_page_tags_option_tailoring'
+        localized_catalog: '@fashion_fr'
+        label: 'Tailleur'
+    cms_page_tags_option_tailoring_fashion_en:
+        source_field_option: '@cms_page_tags_option_tailoring'
+        localized_catalog: '@fashion_en'
+        label: 'Tailoring'
+    cms_page_tags_option_tailoring_fashion_de:
+        source_field_option: '@cms_page_tags_option_tailoring'
+        localized_catalog: '@fashion_de'
+        label: 'Schneiderarbeit'
+    cms_page_tags_option_washing_fashion_fr:
+        source_field_option: '@cms_page_tags_option_washing'
+        localized_catalog: '@fashion_fr'
+        label: 'Lavage'
+    cms_page_tags_option_washing_fashion_en:
+        source_field_option: '@cms_page_tags_option_washing'
+        localized_catalog: '@fashion_en'
+        label: 'Washing'
+    cms_page_tags_option_washing_fashion_de:
+        source_field_option: '@cms_page_tags_option_washing'
+        localized_catalog: '@fashion_de'
+        label: 'Waschen'
+    cms_page_tags_option_wool_fashion_fr:
+        source_field_option: '@cms_page_tags_option_wool'
+        localized_catalog: '@fashion_fr'
+        label: 'Laine'
+    cms_page_tags_option_wool_fashion_en:
+        source_field_option: '@cms_page_tags_option_wool'
+        localized_catalog: '@fashion_en'
+        label: 'Wool'
+    cms_page_tags_option_wool_fashion_de:
+        source_field_option: '@cms_page_tags_option_wool'
+        localized_catalog: '@fashion_de'
+        label: 'Wolle'

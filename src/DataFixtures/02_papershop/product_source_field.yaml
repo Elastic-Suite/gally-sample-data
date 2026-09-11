@@ -1,0 +1,209 @@
+# Attributes this catalog owns. The system fields are inserted by gally-standard's
+# install migration and the shared_*.yaml copies; redeclaring one breaks the load on
+# the unique (code, metadata_id) constraint.
+
+Gally\Metadata\Entity\SourceField:
+    product_llv_brand:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_brand
+        type: select
+        defaultLabel: 'Marque'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_llv_material:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_material
+        type: select
+        defaultLabel: 'Matière'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_llv_color:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_color
+        type: select
+        defaultLabel: 'Couleur'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_llv_origin:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_origin
+        type: select
+        defaultLabel: 'Pays de fabrication'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_llv_is_eco:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_is_eco
+        type: boolean
+        defaultLabel: 'Matières durables'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_llv_paper_weight:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_paper_weight
+        type: int
+        defaultLabel: 'Grammage (g/m²)'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_llv_ruling:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_ruling
+        type: select
+        defaultLabel: 'Réglure'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_llv_format:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_format
+        type: select
+        defaultLabel: 'Format'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_llv_binding:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_binding
+        type: select
+        defaultLabel: 'Reliure'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_llv_author:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_author
+        type: select
+        defaultLabel: 'Auteur'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_llv_language:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_language
+        type: select
+        defaultLabel: 'Langue du texte'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_llv_page_count:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_page_count
+        type: int
+        defaultLabel: 'Nombre de pages'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_llv_publication_year:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_publication_year
+        type: int
+        defaultLabel: 'Année de parution'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_llv_width_cm:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_width_cm
+        type: int
+        defaultLabel: 'Largeur (cm)'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_llv_height_cm:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_height_cm
+        type: int
+        defaultLabel: 'Hauteur (cm)'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_llv_depth_cm:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_depth_cm
+        type: int
+        defaultLabel: 'Profondeur (cm)'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_llv_assembly_required:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_assembly_required
+        type: boolean
+        defaultLabel: 'Montage nécessaire'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_image_generated_at:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: image_generated_at
+        type: date
+        defaultLabel: 'Date de génération de l''image'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
