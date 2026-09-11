@@ -1,0 +1,23 @@
+Gally\Metadata\Entity\SourceField:
+    categories_children_count:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
+        code: children_count
+        type: int
+        defaultLabel: 'Nombre d''enfants'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: false
+        isSortable: false
+        isUsedForRules: false
+    categories_position:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
+        code: position
+        type: int
+        defaultLabel: 'Position'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: false
+        isSortable: false
+        isUsedForRules: false

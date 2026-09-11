@@ -1,0 +1,690 @@
+include:
+    - localized_catalogs.yaml
+    - product_source_field.yaml
+    - shared_product_source_field.yaml
+
+Gally\Metadata\Entity\SourceFieldLabel:
+    product_tbx_tool_material_toolbox_fr:
+        source_field: '@product_tbx_tool_material'
+        localized_catalog: '@toolbox_fr'
+        label: 'Matériau'
+    product_tbx_tool_material_toolbox_en:
+        source_field: '@product_tbx_tool_material'
+        localized_catalog: '@toolbox_en'
+        label: 'Material'
+    product_tbx_tool_material_toolbox_de:
+        source_field: '@product_tbx_tool_material'
+        localized_catalog: '@toolbox_de'
+        label: 'Material'
+    product_tbx_tool_finish_toolbox_fr:
+        source_field: '@product_tbx_tool_finish'
+        localized_catalog: '@toolbox_fr'
+        label: 'Finition'
+    product_tbx_tool_finish_toolbox_en:
+        source_field: '@product_tbx_tool_finish'
+        localized_catalog: '@toolbox_en'
+        label: 'Finish'
+    product_tbx_tool_finish_toolbox_de:
+        source_field: '@product_tbx_tool_finish'
+        localized_catalog: '@toolbox_de'
+        label: 'Oberfläche'
+    product_tbx_insulated_1000v_toolbox_fr:
+        source_field: '@product_tbx_insulated_1000v'
+        localized_catalog: '@toolbox_fr'
+        label: 'Isolé 1000V'
+    product_tbx_insulated_1000v_toolbox_en:
+        source_field: '@product_tbx_insulated_1000v'
+        localized_catalog: '@toolbox_en'
+        label: '1000V Insulated'
+    product_tbx_insulated_1000v_toolbox_de:
+        source_field: '@product_tbx_insulated_1000v'
+        localized_catalog: '@toolbox_de'
+        label: '1000V-isoliert'
+    product_tbx_pieces_count_toolbox_fr:
+        source_field: '@product_tbx_pieces_count'
+        localized_catalog: '@toolbox_fr'
+        label: 'Nombre de pièces'
+    product_tbx_pieces_count_toolbox_en:
+        source_field: '@product_tbx_pieces_count'
+        localized_catalog: '@toolbox_en'
+        label: 'Piece count'
+    product_tbx_pieces_count_toolbox_de:
+        source_field: '@product_tbx_pieces_count'
+        localized_catalog: '@toolbox_de'
+        label: 'Anzahl Teile'
+    product_tbx_voltage_toolbox_fr:
+        source_field: '@product_tbx_voltage'
+        localized_catalog: '@toolbox_fr'
+        label: 'Tension'
+    product_tbx_voltage_toolbox_en:
+        source_field: '@product_tbx_voltage'
+        localized_catalog: '@toolbox_en'
+        label: 'Voltage'
+    product_tbx_voltage_toolbox_de:
+        source_field: '@product_tbx_voltage'
+        localized_catalog: '@toolbox_de'
+        label: 'Spannung'
+    product_tbx_motor_type_toolbox_fr:
+        source_field: '@product_tbx_motor_type'
+        localized_catalog: '@toolbox_fr'
+        label: 'Type de moteur'
+    product_tbx_motor_type_toolbox_en:
+        source_field: '@product_tbx_motor_type'
+        localized_catalog: '@toolbox_en'
+        label: 'Motor type'
+    product_tbx_motor_type_toolbox_de:
+        source_field: '@product_tbx_motor_type'
+        localized_catalog: '@toolbox_de'
+        label: 'Motortyp'
+    product_tbx_max_torque_nm_toolbox_fr:
+        source_field: '@product_tbx_max_torque_nm'
+        localized_catalog: '@toolbox_fr'
+        label: 'Couple max (Nm)'
+    product_tbx_max_torque_nm_toolbox_en:
+        source_field: '@product_tbx_max_torque_nm'
+        localized_catalog: '@toolbox_en'
+        label: 'Max torque (Nm)'
+    product_tbx_max_torque_nm_toolbox_de:
+        source_field: '@product_tbx_max_torque_nm'
+        localized_catalog: '@toolbox_de'
+        label: 'Max. Drehmoment (Nm)'
+    product_tbx_speed_settings_toolbox_fr:
+        source_field: '@product_tbx_speed_settings'
+        localized_catalog: '@toolbox_fr'
+        label: 'Vitesses'
+    product_tbx_speed_settings_toolbox_en:
+        source_field: '@product_tbx_speed_settings'
+        localized_catalog: '@toolbox_en'
+        label: 'Speed settings'
+    product_tbx_speed_settings_toolbox_de:
+        source_field: '@product_tbx_speed_settings'
+        localized_catalog: '@toolbox_de'
+        label: 'Geschwindigkeiten'
+    product_tbx_cordless_toolbox_fr:
+        source_field: '@product_tbx_cordless'
+        localized_catalog: '@toolbox_fr'
+        label: 'Sans fil'
+    product_tbx_cordless_toolbox_en:
+        source_field: '@product_tbx_cordless'
+        localized_catalog: '@toolbox_en'
+        label: 'Cordless'
+    product_tbx_cordless_toolbox_de:
+        source_field: '@product_tbx_cordless'
+        localized_catalog: '@toolbox_de'
+        label: 'Kabellos'
+    product_tbx_battery_voltage_toolbox_fr:
+        source_field: '@product_tbx_battery_voltage'
+        localized_catalog: '@toolbox_fr'
+        label: 'Tension batterie'
+    product_tbx_battery_voltage_toolbox_en:
+        source_field: '@product_tbx_battery_voltage'
+        localized_catalog: '@toolbox_en'
+        label: 'Battery voltage'
+    product_tbx_battery_voltage_toolbox_de:
+        source_field: '@product_tbx_battery_voltage'
+        localized_catalog: '@toolbox_de'
+        label: 'Akkuspannung'
+    product_tbx_battery_capacity_ah_toolbox_fr:
+        source_field: '@product_tbx_battery_capacity_ah'
+        localized_catalog: '@toolbox_fr'
+        label: 'Capacité (Ah)'
+    product_tbx_battery_capacity_ah_toolbox_en:
+        source_field: '@product_tbx_battery_capacity_ah'
+        localized_catalog: '@toolbox_en'
+        label: 'Capacity (Ah)'
+    product_tbx_battery_capacity_ah_toolbox_de:
+        source_field: '@product_tbx_battery_capacity_ah'
+        localized_catalog: '@toolbox_de'
+        label: 'Kapazität (Ah)'
+    product_tbx_battery_technology_toolbox_fr:
+        source_field: '@product_tbx_battery_technology'
+        localized_catalog: '@toolbox_fr'
+        label: 'Technologie'
+    product_tbx_battery_technology_toolbox_en:
+        source_field: '@product_tbx_battery_technology'
+        localized_catalog: '@toolbox_en'
+        label: 'Technology'
+    product_tbx_battery_technology_toolbox_de:
+        source_field: '@product_tbx_battery_technology'
+        localized_catalog: '@toolbox_de'
+        label: 'Technologie'
+    product_tbx_fast_charge_toolbox_fr:
+        source_field: '@product_tbx_fast_charge'
+        localized_catalog: '@toolbox_fr'
+        label: 'Charge rapide'
+    product_tbx_fast_charge_toolbox_en:
+        source_field: '@product_tbx_fast_charge'
+        localized_catalog: '@toolbox_en'
+        label: 'Fast charge'
+    product_tbx_fast_charge_toolbox_de:
+        source_field: '@product_tbx_fast_charge'
+        localized_catalog: '@toolbox_de'
+        label: 'Schnellladung'
+    product_tbx_accessory_material_toolbox_fr:
+        source_field: '@product_tbx_accessory_material'
+        localized_catalog: '@toolbox_fr'
+        label: 'Matériau (accessoire)'
+    product_tbx_accessory_material_toolbox_en:
+        source_field: '@product_tbx_accessory_material'
+        localized_catalog: '@toolbox_en'
+        label: 'Material (accessory)'
+    product_tbx_accessory_material_toolbox_de:
+        source_field: '@product_tbx_accessory_material'
+        localized_catalog: '@toolbox_de'
+        label: 'Material (Zubehör)'
+    product_tbx_diameter_mm_toolbox_fr:
+        source_field: '@product_tbx_diameter_mm'
+        localized_catalog: '@toolbox_fr'
+        label: 'Diamètre (mm)'
+    product_tbx_diameter_mm_toolbox_en:
+        source_field: '@product_tbx_diameter_mm'
+        localized_catalog: '@toolbox_en'
+        label: 'Diameter (mm)'
+    product_tbx_diameter_mm_toolbox_de:
+        source_field: '@product_tbx_diameter_mm'
+        localized_catalog: '@toolbox_de'
+        label: 'Durchmesser (mm)'
+    product_tbx_compatible_brands_toolbox_fr:
+        source_field: '@product_tbx_compatible_brands'
+        localized_catalog: '@toolbox_fr'
+        label: 'Compatibilité marques'
+    product_tbx_compatible_brands_toolbox_en:
+        source_field: '@product_tbx_compatible_brands'
+        localized_catalog: '@toolbox_en'
+        label: 'Brand compatibility'
+    product_tbx_compatible_brands_toolbox_de:
+        source_field: '@product_tbx_compatible_brands'
+        localized_catalog: '@toolbox_de'
+        label: 'Markenkompatibilität'
+    product_tbx_pack_quantity_toolbox_fr:
+        source_field: '@product_tbx_pack_quantity'
+        localized_catalog: '@toolbox_fr'
+        label: 'Quantité par lot'
+    product_tbx_pack_quantity_toolbox_en:
+        source_field: '@product_tbx_pack_quantity'
+        localized_catalog: '@toolbox_en'
+        label: 'Pack quantity'
+    product_tbx_pack_quantity_toolbox_de:
+        source_field: '@product_tbx_pack_quantity'
+        localized_catalog: '@toolbox_de'
+        label: 'Packungsmenge'
+    product_tbx_paint_color_toolbox_fr:
+        source_field: '@product_tbx_paint_color'
+        localized_catalog: '@toolbox_fr'
+        label: 'Couleur'
+    product_tbx_paint_color_toolbox_en:
+        source_field: '@product_tbx_paint_color'
+        localized_catalog: '@toolbox_en'
+        label: 'Colour'
+    product_tbx_paint_color_toolbox_de:
+        source_field: '@product_tbx_paint_color'
+        localized_catalog: '@toolbox_de'
+        label: 'Farbe'
+    product_tbx_paint_finish_toolbox_fr:
+        source_field: '@product_tbx_paint_finish'
+        localized_catalog: '@toolbox_fr'
+        label: 'Finition (peinture)'
+    product_tbx_paint_finish_toolbox_en:
+        source_field: '@product_tbx_paint_finish'
+        localized_catalog: '@toolbox_en'
+        label: 'Finish (paint)'
+    product_tbx_paint_finish_toolbox_de:
+        source_field: '@product_tbx_paint_finish'
+        localized_catalog: '@toolbox_de'
+        label: 'Oberfläche (Farbe)'
+    product_tbx_paint_base_toolbox_fr:
+        source_field: '@product_tbx_paint_base'
+        localized_catalog: '@toolbox_fr'
+        label: 'Base'
+    product_tbx_paint_base_toolbox_en:
+        source_field: '@product_tbx_paint_base'
+        localized_catalog: '@toolbox_en'
+        label: 'Base'
+    product_tbx_paint_base_toolbox_de:
+        source_field: '@product_tbx_paint_base'
+        localized_catalog: '@toolbox_de'
+        label: 'Basis'
+    product_tbx_coverage_m2_l_toolbox_fr:
+        source_field: '@product_tbx_coverage_m2_l'
+        localized_catalog: '@toolbox_fr'
+        label: 'Rendement (m²/L)'
+    product_tbx_coverage_m2_l_toolbox_en:
+        source_field: '@product_tbx_coverage_m2_l'
+        localized_catalog: '@toolbox_en'
+        label: 'Coverage (m²/L)'
+    product_tbx_coverage_m2_l_toolbox_de:
+        source_field: '@product_tbx_coverage_m2_l'
+        localized_catalog: '@toolbox_de'
+        label: 'Ergiebigkeit (m²/L)'
+    product_tbx_quick_dry_toolbox_fr:
+        source_field: '@product_tbx_quick_dry'
+        localized_catalog: '@toolbox_fr'
+        label: 'Séchage rapide'
+    product_tbx_quick_dry_toolbox_en:
+        source_field: '@product_tbx_quick_dry'
+        localized_catalog: '@toolbox_en'
+        label: 'Quick dry'
+    product_tbx_quick_dry_toolbox_de:
+        source_field: '@product_tbx_quick_dry'
+        localized_catalog: '@toolbox_de'
+        label: 'Schnelltrocknend'
+    product_tbx_pipe_material_toolbox_fr:
+        source_field: '@product_tbx_pipe_material'
+        localized_catalog: '@toolbox_fr'
+        label: 'Matériau tuyauterie'
+    product_tbx_pipe_material_toolbox_en:
+        source_field: '@product_tbx_pipe_material'
+        localized_catalog: '@toolbox_en'
+        label: 'Pipe material'
+    product_tbx_pipe_material_toolbox_de:
+        source_field: '@product_tbx_pipe_material'
+        localized_catalog: '@toolbox_de'
+        label: 'Rohrmaterial'
+    product_tbx_pipe_diameter_mm_toolbox_fr:
+        source_field: '@product_tbx_pipe_diameter_mm'
+        localized_catalog: '@toolbox_fr'
+        label: 'Diamètre de tuyau (mm)'
+    product_tbx_pipe_diameter_mm_toolbox_en:
+        source_field: '@product_tbx_pipe_diameter_mm'
+        localized_catalog: '@toolbox_en'
+        label: 'Pipe diameter (mm)'
+    product_tbx_pipe_diameter_mm_toolbox_de:
+        source_field: '@product_tbx_pipe_diameter_mm'
+        localized_catalog: '@toolbox_de'
+        label: 'Rohrdurchmesser (mm)'
+    product_tbx_connection_type_toolbox_fr:
+        source_field: '@product_tbx_connection_type'
+        localized_catalog: '@toolbox_fr'
+        label: 'Type de raccord'
+    product_tbx_connection_type_toolbox_en:
+        source_field: '@product_tbx_connection_type'
+        localized_catalog: '@toolbox_en'
+        label: 'Connection type'
+    product_tbx_connection_type_toolbox_de:
+        source_field: '@product_tbx_connection_type'
+        localized_catalog: '@toolbox_de'
+        label: 'Verbindungsart'
+    product_tbx_drinking_water_safe_toolbox_fr:
+        source_field: '@product_tbx_drinking_water_safe'
+        localized_catalog: '@toolbox_fr'
+        label: 'Contact alimentaire (ACS)'
+    product_tbx_drinking_water_safe_toolbox_en:
+        source_field: '@product_tbx_drinking_water_safe'
+        localized_catalog: '@toolbox_en'
+        label: 'Drinking water safe (ACS)'
+    product_tbx_drinking_water_safe_toolbox_de:
+        source_field: '@product_tbx_drinking_water_safe'
+        localized_catalog: '@toolbox_de'
+        label: 'Trinkwasser-geeignet (ACS)'
+    product_tbx_ip_rating_toolbox_fr:
+        source_field: '@product_tbx_ip_rating'
+        localized_catalog: '@toolbox_fr'
+        label: 'Indice IP'
+    product_tbx_ip_rating_toolbox_en:
+        source_field: '@product_tbx_ip_rating'
+        localized_catalog: '@toolbox_en'
+        label: 'IP rating'
+    product_tbx_ip_rating_toolbox_de:
+        source_field: '@product_tbx_ip_rating'
+        localized_catalog: '@toolbox_de'
+        label: 'Schutzart'
+    product_tbx_wire_section_mm2_toolbox_fr:
+        source_field: '@product_tbx_wire_section_mm2'
+        localized_catalog: '@toolbox_fr'
+        label: 'Section (mm²)'
+    product_tbx_wire_section_mm2_toolbox_en:
+        source_field: '@product_tbx_wire_section_mm2'
+        localized_catalog: '@toolbox_en'
+        label: 'Cross-section (mm²)'
+    product_tbx_wire_section_mm2_toolbox_de:
+        source_field: '@product_tbx_wire_section_mm2'
+        localized_catalog: '@toolbox_de'
+        label: 'Querschnitt (mm²)'
+    product_tbx_smart_compatible_toolbox_fr:
+        source_field: '@product_tbx_smart_compatible'
+        localized_catalog: '@toolbox_fr'
+        label: 'Compatible domotique'
+    product_tbx_smart_compatible_toolbox_en:
+        source_field: '@product_tbx_smart_compatible'
+        localized_catalog: '@toolbox_en'
+        label: 'Smart home compatible'
+    product_tbx_smart_compatible_toolbox_de:
+        source_field: '@product_tbx_smart_compatible'
+        localized_catalog: '@toolbox_de'
+        label: 'Smart-Home-kompatibel'
+    product_tbx_elec_color_toolbox_fr:
+        source_field: '@product_tbx_elec_color'
+        localized_catalog: '@toolbox_fr'
+        label: 'Coloris'
+    product_tbx_elec_color_toolbox_en:
+        source_field: '@product_tbx_elec_color'
+        localized_catalog: '@toolbox_en'
+        label: 'Colour (electrical)'
+    product_tbx_elec_color_toolbox_de:
+        source_field: '@product_tbx_elec_color'
+        localized_catalog: '@toolbox_de'
+        label: 'Farbe (Elektro)'
+    product_tbx_fastener_material_toolbox_fr:
+        source_field: '@product_tbx_fastener_material'
+        localized_catalog: '@toolbox_fr'
+        label: 'Matériau fixation'
+    product_tbx_fastener_material_toolbox_en:
+        source_field: '@product_tbx_fastener_material'
+        localized_catalog: '@toolbox_en'
+        label: 'Fastener material'
+    product_tbx_fastener_material_toolbox_de:
+        source_field: '@product_tbx_fastener_material'
+        localized_catalog: '@toolbox_de'
+        label: 'Befestigungsmaterial'
+    product_tbx_fastener_head_toolbox_fr:
+        source_field: '@product_tbx_fastener_head'
+        localized_catalog: '@toolbox_fr'
+        label: 'Tête'
+    product_tbx_fastener_head_toolbox_en:
+        source_field: '@product_tbx_fastener_head'
+        localized_catalog: '@toolbox_en'
+        label: 'Head type'
+    product_tbx_fastener_head_toolbox_de:
+        source_field: '@product_tbx_fastener_head'
+        localized_catalog: '@toolbox_de'
+        label: 'Kopfform'
+    product_tbx_thread_type_toolbox_fr:
+        source_field: '@product_tbx_thread_type'
+        localized_catalog: '@toolbox_fr'
+        label: 'Type de filetage'
+    product_tbx_thread_type_toolbox_en:
+        source_field: '@product_tbx_thread_type'
+        localized_catalog: '@toolbox_en'
+        label: 'Thread type'
+    product_tbx_thread_type_toolbox_de:
+        source_field: '@product_tbx_thread_type'
+        localized_catalog: '@toolbox_de'
+        label: 'Gewindeart'
+    product_tbx_corrosion_resistant_toolbox_fr:
+        source_field: '@product_tbx_corrosion_resistant'
+        localized_catalog: '@toolbox_fr'
+        label: 'Résistant corrosion'
+    product_tbx_corrosion_resistant_toolbox_en:
+        source_field: '@product_tbx_corrosion_resistant'
+        localized_catalog: '@toolbox_en'
+        label: 'Corrosion resistant'
+    product_tbx_corrosion_resistant_toolbox_de:
+        source_field: '@product_tbx_corrosion_resistant'
+        localized_catalog: '@toolbox_de'
+        label: 'Korrosionsbeständig'
+    product_tbx_power_source_toolbox_fr:
+        source_field: '@product_tbx_power_source'
+        localized_catalog: '@toolbox_fr'
+        label: 'Source d''énergie'
+    product_tbx_power_source_toolbox_en:
+        source_field: '@product_tbx_power_source'
+        localized_catalog: '@toolbox_en'
+        label: 'Power source'
+    product_tbx_power_source_toolbox_de:
+        source_field: '@product_tbx_power_source'
+        localized_catalog: '@toolbox_de'
+        label: 'Antriebsart'
+    product_tbx_cutting_width_cm_toolbox_fr:
+        source_field: '@product_tbx_cutting_width_cm'
+        localized_catalog: '@toolbox_fr'
+        label: 'Largeur de coupe (cm)'
+    product_tbx_cutting_width_cm_toolbox_en:
+        source_field: '@product_tbx_cutting_width_cm'
+        localized_catalog: '@toolbox_en'
+        label: 'Cutting width (cm)'
+    product_tbx_cutting_width_cm_toolbox_de:
+        source_field: '@product_tbx_cutting_width_cm'
+        localized_catalog: '@toolbox_de'
+        label: 'Schnittbreite (cm)'
+    product_tbx_noise_level_db_toolbox_fr:
+        source_field: '@product_tbx_noise_level_db'
+        localized_catalog: '@toolbox_fr'
+        label: 'Niveau sonore'
+    product_tbx_noise_level_db_toolbox_en:
+        source_field: '@product_tbx_noise_level_db'
+        localized_catalog: '@toolbox_en'
+        label: 'Noise level'
+    product_tbx_noise_level_db_toolbox_de:
+        source_field: '@product_tbx_noise_level_db'
+        localized_catalog: '@toolbox_de'
+        label: 'Lautstärke'
+    product_tbx_foldable_toolbox_fr:
+        source_field: '@product_tbx_foldable'
+        localized_catalog: '@toolbox_fr'
+        label: 'Pliable / Compact'
+    product_tbx_foldable_toolbox_en:
+        source_field: '@product_tbx_foldable'
+        localized_catalog: '@toolbox_en'
+        label: 'Foldable / Compact'
+    product_tbx_foldable_toolbox_de:
+        source_field: '@product_tbx_foldable'
+        localized_catalog: '@toolbox_de'
+        label: 'Klappbar / Kompakt'
+    product_tbx_protection_norm_toolbox_fr:
+        source_field: '@product_tbx_protection_norm'
+        localized_catalog: '@toolbox_fr'
+        label: 'Norme'
+    product_tbx_protection_norm_toolbox_en:
+        source_field: '@product_tbx_protection_norm'
+        localized_catalog: '@toolbox_en'
+        label: 'Standard'
+    product_tbx_protection_norm_toolbox_de:
+        source_field: '@product_tbx_protection_norm'
+        localized_catalog: '@toolbox_de'
+        label: 'Norm'
+    product_tbx_size_range_toolbox_fr:
+        source_field: '@product_tbx_size_range'
+        localized_catalog: '@toolbox_fr'
+        label: 'Tailles disponibles'
+    product_tbx_size_range_toolbox_en:
+        source_field: '@product_tbx_size_range'
+        localized_catalog: '@toolbox_en'
+        label: 'Size range'
+    product_tbx_size_range_toolbox_de:
+        source_field: '@product_tbx_size_range'
+        localized_catalog: '@toolbox_de'
+        label: 'Größenbereich'
+    product_tbx_high_visibility_toolbox_fr:
+        source_field: '@product_tbx_high_visibility'
+        localized_catalog: '@toolbox_fr'
+        label: 'Haute visibilité'
+    product_tbx_high_visibility_toolbox_en:
+        source_field: '@product_tbx_high_visibility'
+        localized_catalog: '@toolbox_en'
+        label: 'High visibility'
+    product_tbx_high_visibility_toolbox_de:
+        source_field: '@product_tbx_high_visibility'
+        localized_catalog: '@toolbox_de'
+        label: 'Warnschutz'
+    product_tbx_comfort_level_toolbox_fr:
+        source_field: '@product_tbx_comfort_level'
+        localized_catalog: '@toolbox_fr'
+        label: 'Niveau de confort'
+    product_tbx_comfort_level_toolbox_en:
+        source_field: '@product_tbx_comfort_level'
+        localized_catalog: '@toolbox_en'
+        label: 'Comfort level'
+    product_tbx_comfort_level_toolbox_de:
+        source_field: '@product_tbx_comfort_level'
+        localized_catalog: '@toolbox_de'
+        label: 'Komfortstufe'
+    product_tbx_power_watt_toolbox_fr:
+        source_field: '@product_tbx_power_watt'
+        localized_catalog: '@toolbox_fr'
+        label: 'Puissance (W)'
+    product_tbx_power_watt_toolbox_en:
+        source_field: '@product_tbx_power_watt'
+        localized_catalog: '@toolbox_en'
+        label: 'Power (W)'
+    product_tbx_power_watt_toolbox_de:
+        source_field: '@product_tbx_power_watt'
+        localized_catalog: '@toolbox_de'
+        label: 'Leistung (W)'
+    product_tbx_weight_class_toolbox_fr:
+        source_field: '@product_tbx_weight_class'
+        localized_catalog: '@toolbox_fr'
+        label: 'Classe de poids'
+    product_tbx_weight_class_toolbox_en:
+        source_field: '@product_tbx_weight_class'
+        localized_catalog: '@toolbox_en'
+        label: 'Weight class'
+    product_tbx_weight_class_toolbox_de:
+        source_field: '@product_tbx_weight_class'
+        localized_catalog: '@toolbox_de'
+        label: 'Gewichtsklasse'
+    product_tbx_dust_extraction_toolbox_fr:
+        source_field: '@product_tbx_dust_extraction'
+        localized_catalog: '@toolbox_fr'
+        label: 'Aspiration intégrée'
+    product_tbx_dust_extraction_toolbox_en:
+        source_field: '@product_tbx_dust_extraction'
+        localized_catalog: '@toolbox_en'
+        label: 'Built-in dust extraction'
+    product_tbx_dust_extraction_toolbox_de:
+        source_field: '@product_tbx_dust_extraction'
+        localized_catalog: '@toolbox_de'
+        label: 'Integrierte Absaugung'
+    product_tbx_three_phase_toolbox_fr:
+        source_field: '@product_tbx_three_phase'
+        localized_catalog: '@toolbox_fr'
+        label: 'Triphasé 380V'
+    product_tbx_three_phase_toolbox_en:
+        source_field: '@product_tbx_three_phase'
+        localized_catalog: '@toolbox_en'
+        label: 'Three-phase 380V'
+    product_tbx_three_phase_toolbox_de:
+        source_field: '@product_tbx_three_phase'
+        localized_catalog: '@toolbox_de'
+        label: 'Drehstrom 380V'
+    product_tbx_brand_toolbox_fr:
+        source_field: '@product_tbx_brand'
+        localized_catalog: '@toolbox_fr'
+        label: 'Marque'
+    product_tbx_brand_toolbox_en:
+        source_field: '@product_tbx_brand'
+        localized_catalog: '@toolbox_en'
+        label: 'Brand'
+    product_tbx_brand_toolbox_de:
+        source_field: '@product_tbx_brand'
+        localized_catalog: '@toolbox_de'
+        label: 'Marke'
+    product_type_id_toolbox_fr:
+        source_field: '@product_type_id'
+        localized_catalog: '@toolbox_fr'
+        label: 'Type de produit'
+    product_type_id_toolbox_en:
+        source_field: '@product_type_id'
+        localized_catalog: '@toolbox_en'
+        label: 'Product type'
+    product_type_id_toolbox_de:
+        source_field: '@product_type_id'
+        localized_catalog: '@toolbox_de'
+        label: 'Produkttyp'
+    product_indexed_attributes_toolbox_fr:
+        source_field: '@product_indexed_attributes'
+        localized_catalog: '@toolbox_fr'
+        label: 'Attributs indexés'
+    product_indexed_attributes_toolbox_en:
+        source_field: '@product_indexed_attributes'
+        localized_catalog: '@toolbox_en'
+        label: 'Indexed attributes'
+    product_indexed_attributes_toolbox_de:
+        source_field: '@product_indexed_attributes'
+        localized_catalog: '@toolbox_de'
+        label: 'Indexierte Attribute'
+    product_created_at_toolbox_fr:
+        source_field: '@product_created_at'
+        localized_catalog: '@toolbox_fr'
+        label: 'Date de création'
+    product_created_at_toolbox_en:
+        source_field: '@product_created_at'
+        localized_catalog: '@toolbox_en'
+        label: 'Created at'
+    product_created_at_toolbox_de:
+        source_field: '@product_created_at'
+        localized_catalog: '@toolbox_de'
+        label: 'Erstellt am'
+    product_url_key_toolbox_fr:
+        source_field: '@product_url_key'
+        localized_catalog: '@toolbox_fr'
+        label: 'Clé d''URL'
+    product_url_key_toolbox_en:
+        source_field: '@product_url_key'
+        localized_catalog: '@toolbox_en'
+        label: 'URL key'
+    product_url_key_toolbox_de:
+        source_field: '@product_url_key'
+        localized_catalog: '@toolbox_de'
+        label: 'URL-Schlüssel'
+    product_short_description_toolbox_fr:
+        source_field: '@product_short_description'
+        localized_catalog: '@toolbox_fr'
+        label: 'Description courte'
+    product_short_description_toolbox_en:
+        source_field: '@product_short_description'
+        localized_catalog: '@toolbox_en'
+        label: 'Short description'
+    product_short_description_toolbox_de:
+        source_field: '@product_short_description'
+        localized_catalog: '@toolbox_de'
+        label: 'Kurzbeschreibung'
+    product_visibility_toolbox_fr:
+        source_field: '@product_visibility'
+        localized_catalog: '@toolbox_fr'
+        label: 'Visibilité'
+    product_visibility_toolbox_en:
+        source_field: '@product_visibility'
+        localized_catalog: '@toolbox_en'
+        label: 'Visibility'
+    product_visibility_toolbox_de:
+        source_field: '@product_visibility'
+        localized_catalog: '@toolbox_de'
+        label: 'Sichtbarkeit'
+    product_weight_toolbox_fr:
+        source_field: '@product_weight'
+        localized_catalog: '@toolbox_fr'
+        label: 'Poids'
+    product_weight_toolbox_en:
+        source_field: '@product_weight'
+        localized_catalog: '@toolbox_en'
+        label: 'Weight'
+    product_weight_toolbox_de:
+        source_field: '@product_weight'
+        localized_catalog: '@toolbox_de'
+        label: 'Gewicht'
+    product_cost_toolbox_fr:
+        source_field: '@product_cost'
+        localized_catalog: '@toolbox_fr'
+        label: 'Coût'
+    product_cost_toolbox_en:
+        source_field: '@product_cost'
+        localized_catalog: '@toolbox_en'
+        label: 'Cost'
+    product_cost_toolbox_de:
+        source_field: '@product_cost'
+        localized_catalog: '@toolbox_de'
+        label: 'Kosten'
+    product_new_toolbox_fr:
+        source_field: '@product_new'
+        localized_catalog: '@toolbox_fr'
+        label: 'Nouveauté'
+    product_new_toolbox_en:
+        source_field: '@product_new'
+        localized_catalog: '@toolbox_en'
+        label: 'New'
+    product_new_toolbox_de:
+        source_field: '@product_new'
+        localized_catalog: '@toolbox_de'
+        label: 'Neu'
+    product_sale_toolbox_fr:
+        source_field: '@product_sale'
+        localized_catalog: '@toolbox_fr'
+        label: 'En promotion'
+    product_sale_toolbox_en:
+        source_field: '@product_sale'
+        localized_catalog: '@toolbox_en'
+        label: 'On sale'
+    product_sale_toolbox_de:
+        source_field: '@product_sale'
+        localized_catalog: '@toolbox_de'
+        label: 'Im Angebot'

@@ -1,0 +1,554 @@
+Gally\Metadata\Entity\SourceField:
+    product_tbx_tool_material:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_tool_material
+        type: select
+        defaultLabel: 'Matériau'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_tbx_tool_finish:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_tool_finish
+        type: select
+        defaultLabel: 'Finition'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_insulated_1000v:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_insulated_1000v
+        type: boolean
+        defaultLabel: 'Isolé 1000V'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_pieces_count:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_pieces_count
+        type: select
+        defaultLabel: 'Nombre de pièces'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_voltage:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_voltage
+        type: select
+        defaultLabel: 'Tension'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_motor_type:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_motor_type
+        type: select
+        defaultLabel: 'Type de moteur'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_max_torque_nm:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_max_torque_nm
+        type: select
+        defaultLabel: 'Couple max (Nm)'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_speed_settings:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_speed_settings
+        type: select
+        defaultLabel: 'Vitesses'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_cordless:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_cordless
+        type: boolean
+        defaultLabel: 'Sans fil'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_battery_voltage:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_battery_voltage
+        type: select
+        defaultLabel: 'Tension batterie'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_battery_capacity_ah:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_battery_capacity_ah
+        type: select
+        defaultLabel: 'Capacité (Ah)'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_battery_technology:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_battery_technology
+        type: select
+        defaultLabel: 'Technologie'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_fast_charge:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_fast_charge
+        type: boolean
+        defaultLabel: 'Charge rapide'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_accessory_material:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_accessory_material
+        type: select
+        defaultLabel: 'Matériau (accessoire)'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_diameter_mm:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_diameter_mm
+        type: float
+        defaultLabel: 'Diamètre (mm)'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_tbx_compatible_brands:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_compatible_brands
+        type: select
+        defaultLabel: 'Compatibilité marques'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_pack_quantity:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_pack_quantity
+        type: select
+        defaultLabel: 'Quantité par lot'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_paint_color:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_paint_color
+        type: select
+        defaultLabel: 'Couleur'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_tbx_paint_finish:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_paint_finish
+        type: select
+        defaultLabel: 'Finition (peinture)'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_paint_base:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_paint_base
+        type: select
+        defaultLabel: 'Base'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_coverage_m2_l:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_coverage_m2_l
+        type: float
+        defaultLabel: 'Rendement (m²/L)'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_tbx_quick_dry:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_quick_dry
+        type: boolean
+        defaultLabel: 'Séchage rapide'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_pipe_material:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_pipe_material
+        type: select
+        defaultLabel: 'Matériau tuyauterie'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_pipe_diameter_mm:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_pipe_diameter_mm
+        type: float
+        defaultLabel: 'Diamètre de tuyau (mm)'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_tbx_connection_type:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_connection_type
+        type: select
+        defaultLabel: 'Type de raccord'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_drinking_water_safe:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_drinking_water_safe
+        type: boolean
+        defaultLabel: 'Contact alimentaire (ACS)'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_ip_rating:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_ip_rating
+        type: select
+        defaultLabel: 'Indice IP'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_wire_section_mm2:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_wire_section_mm2
+        type: float
+        defaultLabel: 'Section (mm²)'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_tbx_smart_compatible:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_smart_compatible
+        type: boolean
+        defaultLabel: 'Compatible domotique'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_elec_color:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_elec_color
+        type: select
+        defaultLabel: 'Coloris'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_fastener_material:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_fastener_material
+        type: select
+        defaultLabel: 'Matériau fixation'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_fastener_head:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_fastener_head
+        type: select
+        defaultLabel: 'Tête'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_thread_type:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_thread_type
+        type: select
+        defaultLabel: 'Type de filetage'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_corrosion_resistant:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_corrosion_resistant
+        type: boolean
+        defaultLabel: 'Résistant corrosion'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_power_source:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_power_source
+        type: select
+        defaultLabel: 'Source d''énergie'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_cutting_width_cm:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_cutting_width_cm
+        type: float
+        defaultLabel: 'Largeur de coupe (cm)'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_tbx_noise_level_db:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_noise_level_db
+        type: select
+        defaultLabel: 'Niveau sonore'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_foldable:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_foldable
+        type: boolean
+        defaultLabel: 'Pliable / Compact'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_protection_norm:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_protection_norm
+        type: select
+        defaultLabel: 'Norme'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_size_range:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_size_range
+        type: select
+        defaultLabel: 'Tailles disponibles'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_high_visibility:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_high_visibility
+        type: boolean
+        defaultLabel: 'Haute visibilité'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_comfort_level:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_comfort_level
+        type: select
+        defaultLabel: 'Niveau de confort'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_power_watt:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_power_watt
+        type: float
+        defaultLabel: 'Puissance (W)'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_tbx_weight_class:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_weight_class
+        type: select
+        defaultLabel: 'Classe de poids'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_dust_extraction:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_dust_extraction
+        type: boolean
+        defaultLabel: 'Aspiration intégrée'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_three_phase:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_three_phase
+        type: boolean
+        defaultLabel: 'Triphasé 380V'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_tbx_brand:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: tbx_brand
+        type: select
+        defaultLabel: 'Marque'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_type_id:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: type_id
+        type: keyword
+        defaultLabel: 'Type de produit'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: false
+        isSortable: false
+        isUsedForRules: false
+    product_indexed_attributes:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: indexed_attributes
+        type: keyword
+        defaultLabel: 'Attributs indexés'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: false
+        isSortable: false
+        isUsedForRules: false
+    product_created_at:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: created_at
+        type: date
+        defaultLabel: 'Date de création'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: false
+        isSortable: true
+        isUsedForRules: false

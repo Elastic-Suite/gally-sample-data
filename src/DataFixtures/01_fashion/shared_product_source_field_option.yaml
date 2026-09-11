@@ -1,0 +1,24 @@
+include:
+    - shared_product_source_field.yaml
+
+Gally\Metadata\Entity\SourceFieldOption:
+    product_visibility_option_1:
+        code: '1'
+        source_field: '@product_visibility'
+        position: 0
+        defaultLabel: 'Not Visible Individually'
+    product_visibility_option_2:
+        code: '2'
+        source_field: '@product_visibility'
+        position: 1
+        defaultLabel: 'Catalog'
+    product_visibility_option_3:
+        code: '3'
+        source_field: '@product_visibility'
+        position: 2
+        defaultLabel: 'Search'
+    product_visibility_option_4:
+        code: '4'
+        source_field: '@product_visibility'
+        position: 3
+        defaultLabel: 'Catalog, Search'

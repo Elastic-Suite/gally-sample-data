@@ -1,0 +1,14 @@
+include:
+    - shared_cms_source_field.yaml
+
+Gally\Metadata\Entity\SourceFieldOption:
+    cms_page_tags_option_leather_goods:
+        code: 'leather_goods'
+        source_field: '@cms_page_tags'
+        position: 41
+        defaultLabel: 'Leather goods'
+    cms_page_tags_option_sneakers:
+        code: 'sneakers'
+        source_field: '@cms_page_tags'
+        position: 42
+        defaultLabel: 'Sneakers'

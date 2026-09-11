@@ -1,0 +1,4 @@
+Gally\Catalog\Entity\Catalog:
+    toolbox:
+        code: 'toolbox'
+        name: 'Toolbox Bricolage'

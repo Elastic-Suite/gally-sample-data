@@ -1,0 +1,4 @@
+Gally\Catalog\Entity\Catalog:
+    fashion:
+        code: 'fashion'
+        name: 'Fiora Fashion'
