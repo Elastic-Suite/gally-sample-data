@@ -1,0 +1,1802 @@
+[
+  {
+    "index_name": "gally_localized_catalog_toolbox_fr_cms_page",
+    "documents": [
+      {
+        "id": "1",
+        "title": "Bien choisir sa perceuse-visseuse",
+        "content_heading": "Couple, tension et mandrin : les trois chiffres qui d\u00e9cident vraiment de votre achat.",
+        "content": "<p><strong>Une perceuse-visseuse se choisit sur trois chiffres, pas sur son prix.<\/strong><\/p><ul><li>Le couple, en newtons-m\u00e8tres : 30 Nm suffisent pour du montage de meuble, 50 Nm pour de la charpente l\u00e9g\u00e8re.<\/li><li>La tension : 12V pour un usage occasionnel et un poids r\u00e9duit, 18V d\u00e8s que vous percez du b\u00e9ton ou vissez du long.<\/li><li>Le mandrin : 13 mm auto-serrant accepte presque tous les forets du commerce.<\/li><\/ul><p>Ajoutez une deuxi\u00e8me batterie plut\u00f4t qu'un mod\u00e8le plus puissant. Sur un chantier, c'est l'autonomie qui manque en premier, pas le couple.<\/p>",
+        "url_key": "bien_choisir_sa_perceuse_visseuse.html",
+        "meta_description": "Couple, tension et mandrin : les trois chiffres qui d\u00e9cident vraiment de votre achat.",
+        "meta_keyword": "per\u00e7age, sans fil",
+        "meta_title": "Bien choisir sa perceuse-visseuse",
+        "tags": [
+          {
+            "value": "drilling",
+            "label": "Per\u00e7age"
+          },
+          {
+            "value": "cordless",
+            "label": "Sans fil"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "tool_choice",
+          "label": "Choisir son outil"
+        },
+        "author": {
+          "value": "bob_le_bricoleur",
+          "label": "Bob le bricoleur"
+        },
+        "published_at": "@now:-4d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "\/t\/b\/tbx-elp-pv-006.jpg",
+        "related_skus": [
+          "TBX-ELP-PV-006",
+          "TBX-ELP-PV-002",
+          "TBX-ELP-PV-003"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Percer dans le b\u00e9ton sans casser son foret",
+        "content_heading": "Le b\u00e9ton ne se perce pas plus fort, il se perce autrement.",
+        "content": "<p><strong>La panne la plus courante n'est pas le foret : c'est la m\u00e9thode.<\/strong><\/p><ul><li>Passez en mode percussion. En rotation seule, un foret b\u00e9ton chauffe et s'\u00e9mousse en quelques secondes.<\/li><li>R\u00e9duisez la vitesse. Le b\u00e9ton se perce lentement, avec une pression constante et sans forcer.<\/li><li>Ressortez le foret r\u00e9guli\u00e8rement pour \u00e9vacuer la poussi\u00e8re, sinon elle bloque la coupe.<\/li><\/ul><p>Si le foret n'avance plus, vous avez touch\u00e9 un granulat ou un fer \u00e0 b\u00e9ton. D\u00e9calez le trou de deux centim\u00e8tres plut\u00f4t que d'insister.<\/p>",
+        "url_key": "percer_dans_le_beton_sans_casser_son_foret.html",
+        "meta_description": "Le b\u00e9ton ne se perce pas plus fort, il se perce autrement.",
+        "meta_keyword": "per\u00e7age, fixations",
+        "meta_title": "Percer dans le b\u00e9ton sans casser son foret",
+        "tags": [
+          {
+            "value": "drilling",
+            "label": "Per\u00e7age"
+          },
+          {
+            "value": "fixings",
+            "label": "Fixations"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "techniques",
+          "label": "Techniques"
+        },
+        "author": {
+          "value": "bob_le_bricoleur",
+          "label": "Bob le bricoleur"
+        },
+        "published_at": "@now:-19d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-elp-pe-002.jpg",
+        "related_skus": [
+          "TBX-ELP-PE-002",
+          "TBX-ELP-PE-006",
+          "TBX-ELP-PE-003"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Fixer une \u00e9tag\u00e8re qui ne bouge plus",
+        "content_heading": "La cheville se choisit sur le mur, jamais sur la charge annonc\u00e9e.",
+        "content": "<p><strong>Une \u00e9tag\u00e8re qui s'affaisse est presque toujours une cheville choisie pour la mauvaise paroi.<\/strong><\/p><ul><li>Mur plein en brique ou b\u00e9ton : cheville \u00e0 expansion, la plus simple et la plus s\u00fbre.<\/li><li>Plaque de pl\u00e2tre : cheville \u00e0 bascule ou Molly, jamais une cheville plastique droite.<\/li><li>Carreau de pl\u00e2tre : cheville longue sp\u00e9cifique, le mat\u00e9riau est tendre et ne tient pas en surface.<\/li><\/ul><p>Percez, aspirez le trou, puis serrez. La poussi\u00e8re laiss\u00e9e dans le trou fait perdre \u00e0 la fixation la moiti\u00e9 de sa tenue.<\/p>",
+        "url_key": "fixer_une_etagere_qui_ne_bouge_plus.html",
+        "meta_description": "La cheville se choisit sur le mur, jamais sur la charge annonc\u00e9e.",
+        "meta_keyword": "fixations, mesure",
+        "meta_title": "Fixer une \u00e9tag\u00e8re qui ne bouge plus",
+        "tags": [
+          {
+            "value": "fixings",
+            "label": "Fixations"
+          },
+          {
+            "value": "measuring",
+            "label": "Mesure"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "techniques",
+          "label": "Techniques"
+        },
+        "author": {
+          "value": "bob_le_bricoleur",
+          "label": "Bob le bricoleur"
+        },
+        "published_at": "@now:-33d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-qui-ch-002.jpg",
+        "related_skus": [
+          "TBX-QUI-CH-002",
+          "TBX-QUI-CH-006",
+          "TBX-QUI-CH-007"
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Faire durer ses batteries 18V",
+        "content_heading": "Une batterie lithium ne meurt pas d'usage, elle meurt de stockage.",
+        "content": "<p><strong>Trois habitudes suffisent \u00e0 doubler la dur\u00e9e de vie d'un pack 18V.<\/strong><\/p><ul><li>Ne la stockez jamais vide. Un pack laiss\u00e9 \u00e0 plat pendant l'hiver peut ne plus se recharger du tout.<\/li><li>\u00c9vitez le chargeur en permanence. D\u00e9branchez une fois la charge termin\u00e9e.<\/li><li>Laissez-la refroidir avant de la recharger : charger un pack encore chaud ab\u00eeme les cellules.<\/li><\/ul><p>Pour un hivernage long, visez la moiti\u00e9 de charge et une pi\u00e8ce hors gel. C'est le meilleur compromis pour la chimie lithium.<\/p>",
+        "url_key": "faire_durer_ses_batteries_18v.html",
+        "meta_description": "Une batterie lithium ne meurt pas d'usage, elle meurt de stockage.",
+        "meta_keyword": "sans fil, entretien",
+        "meta_title": "Faire durer ses batteries 18V",
+        "tags": [
+          {
+            "value": "cordless",
+            "label": "Sans fil"
+          },
+          {
+            "value": "tool_care",
+            "label": "Entretien"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "maintenance",
+          "label": "Entretien"
+        },
+        "author": {
+          "value": "bob_le_bricoleur",
+          "label": "Bob le bricoleur"
+        },
+        "published_at": "@now:-52d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-bat-18-003.jpg",
+        "related_skus": [
+          "TBX-BAT-18-003",
+          "TBX-BAT-18-007",
+          "TBX-BAT-18-006"
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Construire un \u00e9tabli en une journ\u00e9e",
+        "content_heading": "Un plateau, quatre pieds, deux traverses : le reste n'est que du serrage.",
+        "content": "<p><strong>Un \u00e9tabli utile se construit en une journ\u00e9e et co\u00fbte moins qu'une \u00e9tag\u00e8re du commerce.<\/strong><\/p><ul><li>Le plateau d'abord : 3 cm d'\u00e9paisseur minimum, sinon il vibre et la scie d\u00e9rape.<\/li><li>Une hauteur \u00e0 la hanche, pas au nombril. On travaille les bras tendus, pas les \u00e9paules lev\u00e9es.<\/li><li>Contreventez l'arri\u00e8re par une planche en diagonale. C'est ce qui emp\u00eache l'ensemble de vriller.<\/li><\/ul><p>Percez tous les trous avant d'assembler. Une fois les pieds en place, plus rien n'est accessible \u00e0 la perceuse.<\/p>",
+        "url_key": "construire_un_etabli_en_une_journee.html",
+        "meta_description": "Un plateau, quatre pieds, deux traverses : le reste n'est que du serrage.",
+        "meta_keyword": "travail du bois, mesure",
+        "meta_title": "Construire un \u00e9tabli en une journ\u00e9e",
+        "tags": [
+          {
+            "value": "woodworking",
+            "label": "Travail du bois"
+          },
+          {
+            "value": "measuring",
+            "label": "Mesure"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "projects",
+          "label": "Projets"
+        },
+        "author": {
+          "value": "bob_le_bricoleur",
+          "label": "Bob le bricoleur"
+        },
+        "published_at": "@now:-70d",
+        "reading_time": 8,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-oam-sc-002.jpg",
+        "related_skus": [
+          "TBX-OAM-SC-002",
+          "TBX-OAM-SC-006",
+          "TBX-OAM-SC-003"
+        ]
+      },
+      {
+        "id": "6",
+        "title": "Peindre un mur sans laisser de traces",
+        "content_heading": "Les traces viennent presque toujours du s\u00e9chage, pas du rouleau.",
+        "content": "<p><strong>Un mur qui marque a \u00e9t\u00e9 peint trop lentement, pas trop vite.<\/strong><\/p><ul><li>Travaillez par bandes verticales de la largeur du rouleau, en reprenant toujours sur du frais.<\/li><li>Ne rechargez pas le rouleau \u00e0 moiti\u00e9 de bande : la reprise se verra une fois sec.<\/li><li>Deux couches fines valent mieux qu'une \u00e9paisse, qui coule et met deux jours \u00e0 durcir.<\/li><\/ul><p>Gardez la m\u00eame source de lumi\u00e8re pendant toute la pose. Peindre le matin et finir le soir fait voir des raccords qui n'existent pas.<\/p>",
+        "url_key": "peindre_un_mur_sans_laisser_de_traces.html",
+        "meta_description": "Les traces viennent presque toujours du s\u00e9chage, pas du rouleau.",
+        "meta_keyword": "peinture",
+        "meta_title": "Peindre un mur sans laisser de traces",
+        "tags": [
+          {
+            "value": "painting",
+            "label": "Peinture"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "techniques",
+          "label": "Techniques"
+        },
+        "author": {
+          "value": "claire_dubois",
+          "label": "Claire Dubois"
+        },
+        "published_at": "@now:-9d",
+        "reading_time": 7,
+        "is_featured": true,
+        "image": "\/t\/b\/tbx-pei-pm-006.jpg",
+        "related_skus": [
+          "TBX-PEI-PM-006",
+          "TBX-PEI-PM-002",
+          "TBX-PEI-PM-003"
+        ]
+      },
+      {
+        "id": "7",
+        "title": "Scie circulaire, sauteuse ou sabre : laquelle vous manque",
+        "content_heading": "Trois scies, trois coupes. Prendre la mauvaise co\u00fbte plus cher que la bonne.",
+        "content": "<p><strong>Chaque scie \u00e9lectrique fait une seule chose vraiment bien.<\/strong><\/p><ul><li>La circulaire coupe droit et vite, dans le panneau et le bastaing. Elle ne tourne pas.<\/li><li>La sauteuse suit une courbe et d\u00e9bouche dans un panneau, mais laisse une coupe moins nette.<\/li><li>La sabre d\u00e9molit : cloison, branche, tube. Ce n'est pas un outil de finition.<\/li><\/ul><p>Si vous n'en achetez qu'une, prenez la circulaire avec un rail de guidage. C'est la seule qui remplace une machine stationnaire.<\/p>",
+        "url_key": "scie_circulaire_sauteuse_ou_sabre_laquelle_vous_manque.html",
+        "meta_description": "Trois scies, trois coupes. Prendre la mauvaise co\u00fbte plus cher que la bonne.",
+        "meta_keyword": "travail du bois",
+        "meta_title": "Scie circulaire, sauteuse ou sabre : laquelle vous manque",
+        "tags": [
+          {
+            "value": "woodworking",
+            "label": "Travail du bois"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "tool_choice",
+          "label": "Choisir son outil"
+        },
+        "author": {
+          "value": "hugo_marchand",
+          "label": "Hugo Marchand"
+        },
+        "published_at": "@now:-14d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-elp-se-009.jpg",
+        "related_skus": [
+          "TBX-ELP-SE-009",
+          "TBX-ELP-SE-005",
+          "TBX-ELP-SE-001"
+        ]
+      },
+      {
+        "id": "8",
+        "title": "Mains, yeux, oreilles : ce qu'il faut porter et quand",
+        "content_heading": "La protection qui g\u00eane est celle qu'on enl\u00e8ve. Choisissez-la pour la t\u00e2che.",
+        "content": "<p><strong>Trois protections, trois moments pr\u00e9cis o\u00f9 elles ne sont pas n\u00e9gociables.<\/strong><\/p><ul><li>Les yeux, d\u00e8s qu'un outil tourne. Une meuleuse projette des particules \u00e0 plusieurs m\u00e8tres.<\/li><li>Les oreilles, au-del\u00e0 de 85 dB : perforateur, scie stationnaire, souffleur. La perte auditive ne revient pas.<\/li><li>Les mains, selon le risque : anti-coupure pour la lame, enduit nitrile pour la chimie, cuir pour le manutention.<\/li><\/ul><p>Un gant trop \u00e9pais fait l\u00e2cher la pi\u00e8ce. Prenez la finesse maximale compatible avec le risque, pas la plus r\u00e9sistante du rayon.<\/p>",
+        "url_key": "mains_yeux_oreilles_ce_qu_il_faut_porter_et_quand.html",
+        "meta_description": "La protection qui g\u00eane est celle qu'on enl\u00e8ve. Choisissez-la pour la t\u00e2che.",
+        "meta_keyword": "\u00e9quipement de protection",
+        "meta_title": "Mains, yeux, oreilles : ce qu'il faut porter et quand",
+        "tags": [
+          {
+            "value": "safety_gear",
+            "label": "\u00c9quipement de protection"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "safety",
+          "label": "S\u00e9curit\u00e9"
+        },
+        "author": {
+          "value": "sonia_lefevre",
+          "label": "Sonia Lef\u00e8vre"
+        },
+        "published_at": "@now:-26d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-sec-ma-006.jpg",
+        "related_skus": [
+          "TBX-SEC-MA-006",
+          "TBX-SEC-MA-002",
+          "TBX-SEC-MA-003"
+        ]
+      },
+      {
+        "id": "9",
+        "title": "Remplacer un robinet sans inonder la cuisine",
+        "content_heading": "Le robinet n'est pas le probl\u00e8me. Le raccord sous l'\u00e9vier, souvent, oui.",
+        "content": "<p><strong>Un remplacement de mitigeur tient en quatre gestes, dans cet ordre.<\/strong><\/p><ul><li>Coupez l'arriv\u00e9e sous l'\u00e9vier, puis ouvrez le robinet pour vider la pression restante.<\/li><li>D\u00e9vissez les flexibles c\u00f4t\u00e9 mur, pas c\u00f4t\u00e9 robinet : c'est l\u00e0 que le joint est accessible.<\/li><li>Nettoyez le plan de pose avant de poser le nouveau joint, sinon il fuira malgr\u00e9 le serrage.<\/li><\/ul><p>Serrez \u00e0 la main puis un quart de tour \u00e0 la cl\u00e9. Au-del\u00e0, vous \u00e9crasez le joint et cr\u00e9ez la fuite que vous vouliez \u00e9viter.<\/p>",
+        "url_key": "remplacer_un_robinet_sans_inonder_la_cuisine.html",
+        "meta_description": "Le robinet n'est pas le probl\u00e8me. Le raccord sous l'\u00e9vier, souvent, oui.",
+        "meta_keyword": "plomberie",
+        "meta_title": "Remplacer un robinet sans inonder la cuisine",
+        "tags": [
+          {
+            "value": "plumbing",
+            "label": "Plomberie"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "techniques",
+          "label": "Techniques"
+        },
+        "author": {
+          "value": "karim_benali",
+          "label": "Karim Benali"
+        },
+        "published_at": "@now:-38d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-plb-ro-004.jpg",
+        "related_skus": [
+          "TBX-PLB-RO-004",
+          "TBX-PLB-RO-001",
+          "TBX-PLB-RO-005"
+        ]
+      },
+      {
+        "id": "10",
+        "title": "Quel rouleau pour quelle peinture",
+        "content_heading": "La longueur des fibres compte plus que la marque.",
+        "content": "<p><strong>Le rouleau se choisit sur le support, pas sur la peinture.<\/strong><\/p><ul><li>Fibres courtes, 5 \u00e0 8 mm : mur lisse, plafond, peinture satin\u00e9e. Rendu tendu.<\/li><li>Fibres moyennes, 10 \u00e0 12 mm : mur l\u00e9g\u00e8rement structur\u00e9, peinture mate. Le compromis courant.<\/li><li>Fibres longues, 18 mm et plus : cr\u00e9pi, fa\u00e7ade, surface tr\u00e8s irr\u00e9guli\u00e8re.<\/li><\/ul><p>Un rouleau mousse ne sert qu'au vernis et \u00e0 la laque. Sur une peinture murale, il laisse des bulles qui s\u00e8chent en crat\u00e8res.<\/p>",
+        "url_key": "quel_rouleau_pour_quelle_peinture.html",
+        "meta_description": "La longueur des fibres compte plus que la marque.",
+        "meta_keyword": "peinture, mat\u00e9riaux",
+        "meta_title": "Quel rouleau pour quelle peinture",
+        "tags": [
+          {
+            "value": "painting",
+            "label": "Peinture"
+          },
+          {
+            "value": "materials",
+            "label": "Mat\u00e9riaux"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "tool_choice",
+          "label": "Choisir son outil"
+        },
+        "author": {
+          "value": "claire_dubois",
+          "label": "Claire Dubois"
+        },
+        "published_at": "@now:-45d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-pei-ro-002.jpg",
+        "related_skus": [
+          "TBX-PEI-RO-002",
+          "TBX-PEI-RO-006",
+          "TBX-PEI-RO-007"
+        ]
+      },
+      {
+        "id": "11",
+        "title": "Lire son tableau \u00e9lectrique",
+        "content_heading": "Un tableau se lit de gauche \u00e0 droite : protection des personnes, puis des circuits.",
+        "content": "<p><strong>Trois familles d'appareils, et rien d'autre, dans un tableau domestique.<\/strong><\/p><ul><li>Le disjoncteur de branchement, en t\u00eate : il coupe tout et appartient au distributeur.<\/li><li>Les interrupteurs diff\u00e9rentiels, 30 mA : ils prot\u00e8gent les personnes en d\u00e9tectant une fuite \u00e0 la terre.<\/li><li>Les disjoncteurs divisionnaires : 16 A pour les prises, 10 A pour l'\u00e9clairage, 20 A pour le lave-linge.<\/li><\/ul><p>\u00c9tiquetez chaque ligne au crayon d\u00e8s que vous l'identifiez. Un tableau non rep\u00e9r\u00e9 transforme une panne de dix minutes en apr\u00e8s-midi enti\u00e8re.<\/p>",
+        "url_key": "lire_son_tableau_electrique.html",
+        "meta_description": "Un tableau se lit de gauche \u00e0 droite : protection des personnes, puis des circuits.",
+        "meta_keyword": "\u00e9lectricit\u00e9, \u00e9quipement de protection",
+        "meta_title": "Lire son tableau \u00e9lectrique",
+        "tags": [
+          {
+            "value": "electrical",
+            "label": "\u00c9lectricit\u00e9"
+          },
+          {
+            "value": "safety_gear",
+            "label": "\u00c9quipement de protection"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "safety",
+          "label": "S\u00e9curit\u00e9"
+        },
+        "author": {
+          "value": "hugo_marchand",
+          "label": "Hugo Marchand"
+        },
+        "published_at": "@now:-58d",
+        "reading_time": 8,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-ele-tb-006.jpg",
+        "related_skus": [
+          "TBX-ELE-TB-006",
+          "TBX-ELE-TB-002",
+          "TBX-ELE-TB-003"
+        ]
+      },
+      {
+        "id": "12",
+        "title": "Poser du carrelage mural sans se rater",
+        "content_heading": "Tout se d\u00e9cide avant la premi\u00e8re colle : la plan\u00e9it\u00e9 et le point de d\u00e9part.",
+        "content": "<p><strong>Un carrelage mural rate presque toujours pour l'une de ces trois raisons.<\/strong><\/p><ul><li>Le mur n'\u00e9tait pas plan. Au-del\u00e0 de 3 mm sur 2 m, il faut un enduit de ragr\u00e9age.<\/li><li>Le d\u00e9part \u00e9tait en bas. Commencez par la deuxi\u00e8me rang\u00e9e sur tasseau, et coupez en bas.<\/li><li>Les croisillons ont \u00e9t\u00e9 retir\u00e9s trop t\u00f4t, avant la prise compl\u00e8te de la colle.<\/li><\/ul><p>Posez \u00e0 sec la premi\u00e8re rang\u00e9e enti\u00e8re avant d'encoller. C'est le seul moyen de voir o\u00f9 tombera la coupe.<\/p>",
+        "url_key": "poser_du_carrelage_mural_sans_se_rater.html",
+        "meta_description": "Tout se d\u00e9cide avant la premi\u00e8re colle : la plan\u00e9it\u00e9 et le point de d\u00e9part.",
+        "meta_keyword": "carrelage, mat\u00e9riaux",
+        "meta_title": "Poser du carrelage mural sans se rater",
+        "tags": [
+          {
+            "value": "tiling",
+            "label": "Carrelage"
+          },
+          {
+            "value": "materials",
+            "label": "Mat\u00e9riaux"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "projects",
+          "label": "Projets"
+        },
+        "author": {
+          "value": "sonia_lefevre",
+          "label": "Sonia Lef\u00e8vre"
+        },
+        "published_at": "@now:-64d",
+        "reading_time": 7,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-pei-en-002.jpg",
+        "related_skus": [
+          "TBX-PEI-EN-002",
+          "TBX-PEI-EN-006",
+          "TBX-PEI-EN-007"
+        ]
+      },
+      {
+        "id": "13",
+        "title": "Arroser mieux en consommant moins",
+        "content_heading": "Le gaspillage vient de l'heure et de la m\u00e9thode, pas du volume.",
+        "content": "<p><strong>Trois changements r\u00e9duisent la consommation d'arrosage de moiti\u00e9.<\/strong><\/p><ul><li>Arrosez t\u00f4t le matin. \u00c0 midi, la moiti\u00e9 part en \u00e9vaporation avant d'atteindre les racines.<\/li><li>Passez au goutte-\u00e0-goutte pour les massifs : l'eau va \u00e0 la plante, pas \u00e0 l'all\u00e9e.<\/li><li>Paillez le sol. Cinq centim\u00e8tres de paillis divisent l'\u00e9vaporation par deux.<\/li><\/ul><p>Un arrosage long et espac\u00e9 vaut mieux que quotidien et bref : les racines descendent chercher l'eau au lieu de rester en surface.<\/p>",
+        "url_key": "arroser_mieux_en_consommant_moins.html",
+        "meta_description": "Le gaspillage vient de l'heure et de la m\u00e9thode, pas du volume.",
+        "meta_keyword": "jardinage, durabilit\u00e9",
+        "meta_title": "Arroser mieux en consommant moins",
+        "tags": [
+          {
+            "value": "gardening",
+            "label": "Jardinage"
+          },
+          {
+            "value": "sustainability",
+            "label": "Durabilit\u00e9"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "sustainability",
+          "label": "Durabilit\u00e9"
+        },
+        "author": {
+          "value": "karim_benali",
+          "label": "Karim Benali"
+        },
+        "published_at": "@now:-77d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-jar-ar-007.jpg",
+        "related_skus": [
+          "TBX-JAR-AR-007",
+          "TBX-JAR-AR-003",
+          "TBX-JAR-AR-002"
+        ]
+      },
+      {
+        "id": "14",
+        "title": "Quel bois pour quel usage",
+        "content_heading": "Un bois se choisit sur son exposition, avant son prix et son aspect.",
+        "content": "<p><strong>Quatre familles couvrent presque tous les usages domestiques.<\/strong><\/p><ul><li>Le pin, tendre et bon march\u00e9 : structure cach\u00e9e, coffrage, \u00e9tag\u00e8re peinte.<\/li><li>Le h\u00eatre, dur et stable : plan de travail, \u00e9tabli, tout ce qui prend des coups.<\/li><li>Le ch\u00eane, dur et durable : marche d'escalier, plateau visible, meuble de g\u00e9n\u00e9ration.<\/li><li>Le douglas et le m\u00e9l\u00e8ze, naturellement r\u00e9sistants : terrasse et bardage sans traitement.<\/li><\/ul><p>En ext\u00e9rieur, l'essence compte plus que la lasure. Un pin trait\u00e9 mal ventil\u00e9 pourrira avant un m\u00e9l\u00e8ze brut.<\/p>",
+        "url_key": "quel_bois_pour_quel_usage.html",
+        "meta_description": "Un bois se choisit sur son exposition, avant son prix et son aspect.",
+        "meta_keyword": "travail du bois, mat\u00e9riaux",
+        "meta_title": "Quel bois pour quel usage",
+        "tags": [
+          {
+            "value": "woodworking",
+            "label": "Travail du bois"
+          },
+          {
+            "value": "materials",
+            "label": "Mat\u00e9riaux"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "materials",
+          "label": "Mat\u00e9riaux"
+        },
+        "author": {
+          "value": "claire_dubois",
+          "label": "Claire Dubois"
+        },
+        "published_at": "@now:-85d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-mat-st-005.jpg",
+        "related_skus": [
+          "TBX-MAT-ST-005",
+          "TBX-MAT-ST-001",
+          "TBX-MAT-ST-004"
+        ]
+      },
+      {
+        "id": "15",
+        "title": "Mesurer juste pour ne couper qu'une fois",
+        "content_heading": "Trois erreurs de mesure expliquent la moiti\u00e9 des chutes inutilisables.",
+        "content": "<p><strong>La cote fausse vient rarement du m\u00e8tre, mais de la fa\u00e7on de le lire.<\/strong><\/p><ul><li>Lisez toujours du m\u00eame c\u00f4t\u00e9 du trait. Un crayon large de 1 mm suffit \u00e0 d\u00e9caler un assemblage.<\/li><li>Reportez depuis un seul point de r\u00e9f\u00e9rence, jamais de bout en bout en cumulant.<\/li><li>V\u00e9rifiez l'\u00e9querrage par les diagonales : si elles sont \u00e9gales, le cadre est d'aplomb.<\/li><\/ul><p>Marquez la chute d'un trait en croix d\u00e8s la mesure prise. On ne coupe jamais du bon c\u00f4t\u00e9 du trait par hasard.<\/p>",
+        "url_key": "mesurer_juste_pour_ne_couper_qu_une_fois.html",
+        "meta_description": "Trois erreurs de mesure expliquent la moiti\u00e9 des chutes inutilisables.",
+        "meta_keyword": "mesure",
+        "meta_title": "Mesurer juste pour ne couper qu'une fois",
+        "tags": [
+          {
+            "value": "measuring",
+            "label": "Mesure"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "techniques",
+          "label": "Techniques"
+        },
+        "author": {
+          "value": "hugo_marchand",
+          "label": "Hugo Marchand"
+        },
+        "published_at": "@now:-95d",
+        "reading_time": 4,
+        "is_featured": true,
+        "image": "\/t\/b\/tbx-oam-me-005.jpg",
+        "related_skus": [
+          "TBX-OAM-ME-005",
+          "TBX-OAM-ME-001",
+          "TBX-OAM-ME-009"
+        ]
+      }
+    ]
+  },
+  {
+    "index_name": "gally_localized_catalog_toolbox_en_cms_page",
+    "documents": [
+      {
+        "id": "1",
+        "title": "Choosing a cordless drill driver",
+        "content_heading": "Torque, voltage and chuck size: the three numbers that actually decide your purchase.",
+        "content": "<p><strong>A drill driver is chosen on three numbers, not on its price.<\/strong><\/p><ul><li>Torque, in newton-metres: 30 Nm is enough for flat-pack furniture, 50 Nm for light timber work.<\/li><li>Voltage: 12V for occasional use and a lighter tool, 18V as soon as you drill masonry or drive long screws.<\/li><li>Chuck: a 13 mm keyless chuck takes almost every bit on the market.<\/li><\/ul><p>Buy a second battery rather than a more powerful model. On site it is runtime that runs out first, not torque.<\/p>",
+        "url_key": "choosing_a_cordless_drill_driver.html",
+        "meta_description": "Torque, voltage and chuck size: the three numbers that actually decide your purchase.",
+        "meta_keyword": "drilling, cordless",
+        "meta_title": "Choosing a cordless drill driver",
+        "tags": [
+          {
+            "value": "drilling",
+            "label": "Drilling"
+          },
+          {
+            "value": "cordless",
+            "label": "Cordless"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying Guide"
+        },
+        "topic": {
+          "value": "tool_choice",
+          "label": "Choosing your tool"
+        },
+        "author": {
+          "value": "bob_le_bricoleur",
+          "label": "Bob le bricoleur"
+        },
+        "published_at": "@now:-4d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "\/t\/b\/tbx-elp-pv-006.jpg",
+        "related_skus": [
+          "TBX-ELP-PV-006",
+          "TBX-ELP-PV-002",
+          "TBX-ELP-PV-003"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Drilling concrete without wrecking the bit",
+        "content_heading": "Concrete is not drilled harder, it is drilled differently.",
+        "content": "<p><strong>The usual failure is not the bit, it is the method.<\/strong><\/p><ul><li>Switch to hammer mode. In rotation only, a masonry bit heats up and goes blunt in seconds.<\/li><li>Slow down. Concrete is drilled slowly, with steady pressure and no forcing.<\/li><li>Withdraw the bit regularly to clear the dust, or it packs in and stops the cutting edge.<\/li><\/ul><p>If the bit stops advancing you have hit aggregate or rebar. Move the hole two centimetres rather than pushing on.<\/p>",
+        "url_key": "drilling_concrete_without_wrecking_the_bit.html",
+        "meta_description": "Concrete is not drilled harder, it is drilled differently.",
+        "meta_keyword": "drilling, fixings",
+        "meta_title": "Drilling concrete without wrecking the bit",
+        "tags": [
+          {
+            "value": "drilling",
+            "label": "Drilling"
+          },
+          {
+            "value": "fixings",
+            "label": "Fixings"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog Post"
+        },
+        "topic": {
+          "value": "techniques",
+          "label": "Techniques"
+        },
+        "author": {
+          "value": "bob_le_bricoleur",
+          "label": "Bob le bricoleur"
+        },
+        "published_at": "@now:-19d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-elp-pe-002.jpg",
+        "related_skus": [
+          "TBX-ELP-PE-002",
+          "TBX-ELP-PE-006",
+          "TBX-ELP-PE-003"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Putting up a shelf that stays put",
+        "content_heading": "The fixing is chosen for the wall, never for the load printed on the box.",
+        "content": "<p><strong>A sagging shelf is nearly always a fixing chosen for the wrong wall.<\/strong><\/p><ul><li>Solid brick or concrete: an expansion plug, the simplest and the most reliable.<\/li><li>Plasterboard: a spring toggle or a Molly bolt, never a straight plastic plug.<\/li><li>Plaster block: a dedicated long fixing, because the material is soft and holds nothing at the surface.<\/li><\/ul><p>Drill, vacuum the hole, then tighten. Dust left in the hole costs a fixing half its pull-out strength.<\/p>",
+        "url_key": "putting_up_a_shelf_that_stays_put.html",
+        "meta_description": "The fixing is chosen for the wall, never for the load printed on the box.",
+        "meta_keyword": "fixings, measuring",
+        "meta_title": "Putting up a shelf that stays put",
+        "tags": [
+          {
+            "value": "fixings",
+            "label": "Fixings"
+          },
+          {
+            "value": "measuring",
+            "label": "Measuring"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog Post"
+        },
+        "topic": {
+          "value": "techniques",
+          "label": "Techniques"
+        },
+        "author": {
+          "value": "bob_le_bricoleur",
+          "label": "Bob le bricoleur"
+        },
+        "published_at": "@now:-33d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-qui-ch-002.jpg",
+        "related_skus": [
+          "TBX-QUI-CH-002",
+          "TBX-QUI-CH-006",
+          "TBX-QUI-CH-007"
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Making 18V batteries last",
+        "content_heading": "A lithium pack rarely dies from use. It dies from storage.",
+        "content": "<p><strong>Three habits are enough to double the life of an 18V pack.<\/strong><\/p><ul><li>Never store it empty. A pack left flat over winter may never take a charge again.<\/li><li>Do not leave it on the charger. Unplug it once charging finishes.<\/li><li>Let it cool before recharging: charging a pack that is still hot damages the cells.<\/li><\/ul><p>For long storage, aim for half charge in a frost-free room. That is the best compromise for lithium chemistry.<\/p>",
+        "url_key": "making_18v_batteries_last.html",
+        "meta_description": "A lithium pack rarely dies from use. It dies from storage.",
+        "meta_keyword": "cordless, tool care",
+        "meta_title": "Making 18V batteries last",
+        "tags": [
+          {
+            "value": "cordless",
+            "label": "Cordless"
+          },
+          {
+            "value": "tool_care",
+            "label": "Tool care"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog Post"
+        },
+        "topic": {
+          "value": "maintenance",
+          "label": "Maintenance"
+        },
+        "author": {
+          "value": "bob_le_bricoleur",
+          "label": "Bob le bricoleur"
+        },
+        "published_at": "@now:-52d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-bat-18-003.jpg",
+        "related_skus": [
+          "TBX-BAT-18-003",
+          "TBX-BAT-18-007",
+          "TBX-BAT-18-006"
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Building a workbench in a day",
+        "content_heading": "A top, four legs, two rails. The rest is just tightening.",
+        "content": "<p><strong>A workbench worth having takes a day and costs less than a shop-bought shelf unit.<\/strong><\/p><ul><li>The top first: 30 mm thick at least, or it flexes and the saw wanders.<\/li><li>Hip height, not waist height. You work with your arms out, not your shoulders up.<\/li><li>Brace the back with one diagonal board. That is what stops the whole thing racking.<\/li><\/ul><p>Drill every hole before assembly. Once the legs are on, nothing is reachable with a drill any more.<\/p>",
+        "url_key": "building_a_workbench_in_a_day.html",
+        "meta_description": "A top, four legs, two rails. The rest is just tightening.",
+        "meta_keyword": "woodworking, measuring",
+        "meta_title": "Building a workbench in a day",
+        "tags": [
+          {
+            "value": "woodworking",
+            "label": "Woodworking"
+          },
+          {
+            "value": "measuring",
+            "label": "Measuring"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog Post"
+        },
+        "topic": {
+          "value": "projects",
+          "label": "Projects"
+        },
+        "author": {
+          "value": "bob_le_bricoleur",
+          "label": "Bob le bricoleur"
+        },
+        "published_at": "@now:-70d",
+        "reading_time": 8,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-oam-sc-002.jpg",
+        "related_skus": [
+          "TBX-OAM-SC-002",
+          "TBX-OAM-SC-006",
+          "TBX-OAM-SC-003"
+        ]
+      },
+      {
+        "id": "6",
+        "title": "Painting a wall without leaving marks",
+        "content_heading": "Lap marks nearly always come from the drying, not from the roller.",
+        "content": "<p><strong>A wall that shows marks was painted too slowly, not too fast.<\/strong><\/p><ul><li>Work in vertical bands the width of the roller, always rolling back into wet paint.<\/li><li>Do not reload the roller halfway through a band: the join will show once it dries.<\/li><li>Two thin coats beat one thick one, which runs and takes two days to harden.<\/li><\/ul><p>Keep the same light source for the whole job. Starting in the morning and finishing at dusk makes you chase joins that are not there.<\/p>",
+        "url_key": "painting_a_wall_without_leaving_marks.html",
+        "meta_description": "Lap marks nearly always come from the drying, not from the roller.",
+        "meta_keyword": "painting",
+        "meta_title": "Painting a wall without leaving marks",
+        "tags": [
+          {
+            "value": "painting",
+            "label": "Painting"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying Guide"
+        },
+        "topic": {
+          "value": "techniques",
+          "label": "Techniques"
+        },
+        "author": {
+          "value": "claire_dubois",
+          "label": "Claire Dubois"
+        },
+        "published_at": "@now:-9d",
+        "reading_time": 7,
+        "is_featured": true,
+        "image": "\/t\/b\/tbx-pei-pm-006.jpg",
+        "related_skus": [
+          "TBX-PEI-PM-006",
+          "TBX-PEI-PM-002",
+          "TBX-PEI-PM-003"
+        ]
+      },
+      {
+        "id": "7",
+        "title": "Circular, jigsaw or reciprocating: which one you are missing",
+        "content_heading": "Three saws, three cuts. Buying the wrong one costs more than buying the right one.",
+        "content": "<p><strong>Each power saw does exactly one thing really well.<\/strong><\/p><ul><li>A circular saw cuts straight and fast, through sheet goods and timber. It does not turn.<\/li><li>A jigsaw follows a curve and starts a cut mid-panel, but leaves a rougher edge.<\/li><li>A reciprocating saw demolishes: studwork, branches, pipe. It is not a finishing tool.<\/li><\/ul><p>If you buy only one, buy the circular saw with a guide rail. It is the only one that stands in for a stationary machine.<\/p>",
+        "url_key": "circular_jigsaw_or_reciprocating_which_one_you_are_missing.html",
+        "meta_description": "Three saws, three cuts. Buying the wrong one costs more than buying the right one.",
+        "meta_keyword": "woodworking",
+        "meta_title": "Circular, jigsaw or reciprocating: which one you are missing",
+        "tags": [
+          {
+            "value": "woodworking",
+            "label": "Woodworking"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying Guide"
+        },
+        "topic": {
+          "value": "tool_choice",
+          "label": "Choosing your tool"
+        },
+        "author": {
+          "value": "hugo_marchand",
+          "label": "Hugo Marchand"
+        },
+        "published_at": "@now:-14d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-elp-se-009.jpg",
+        "related_skus": [
+          "TBX-ELP-SE-009",
+          "TBX-ELP-SE-005",
+          "TBX-ELP-SE-001"
+        ]
+      },
+      {
+        "id": "8",
+        "title": "Hands, eyes, ears: what to wear and when",
+        "content_heading": "The protection that gets in the way is the protection you take off. Choose it for the task.",
+        "content": "<p><strong>Three kinds of protection, and the three moments they stop being optional.<\/strong><\/p><ul><li>Eyes, whenever a tool spins. An angle grinder throws particles several metres.<\/li><li>Ears, above 85 dB: hammer drill, table saw, blower. Hearing loss does not come back.<\/li><li>Hands, by risk: cut-resistant for blades, nitrile-coated for chemicals, leather for handling.<\/li><\/ul><p>A glove that is too thick makes you drop the work. Take the thinnest one the risk allows, not the toughest on the shelf.<\/p>",
+        "url_key": "hands_eyes_ears_what_to_wear_and_when.html",
+        "meta_description": "The protection that gets in the way is the protection you take off. Choose it for the task.",
+        "meta_keyword": "safety gear",
+        "meta_title": "Hands, eyes, ears: what to wear and when",
+        "tags": [
+          {
+            "value": "safety_gear",
+            "label": "Safety gear"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying Guide"
+        },
+        "topic": {
+          "value": "safety",
+          "label": "Safety"
+        },
+        "author": {
+          "value": "sonia_lefevre",
+          "label": "Sonia Lef\u00e8vre"
+        },
+        "published_at": "@now:-26d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-sec-ma-006.jpg",
+        "related_skus": [
+          "TBX-SEC-MA-006",
+          "TBX-SEC-MA-002",
+          "TBX-SEC-MA-003"
+        ]
+      },
+      {
+        "id": "9",
+        "title": "Replacing a tap without flooding the kitchen",
+        "content_heading": "The tap is rarely the problem. The connector under the sink often is.",
+        "content": "<p><strong>Swapping a mixer tap is four moves, in this order.<\/strong><\/p><ul><li>Shut the supply under the sink, then open the tap to release the pressure left in the line.<\/li><li>Undo the hoses at the wall end, not at the tap end: that is where the seal is reachable.<\/li><li>Clean the mounting surface before fitting the new seal, or it will weep however hard you tighten.<\/li><\/ul><p>Hand-tight, then a quarter turn with a spanner. Past that you crush the seal and create the leak you set out to avoid.<\/p>",
+        "url_key": "replacing_a_tap_without_flooding_the_kitchen.html",
+        "meta_description": "The tap is rarely the problem. The connector under the sink often is.",
+        "meta_keyword": "plumbing",
+        "meta_title": "Replacing a tap without flooding the kitchen",
+        "tags": [
+          {
+            "value": "plumbing",
+            "label": "Plumbing"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog Post"
+        },
+        "topic": {
+          "value": "techniques",
+          "label": "Techniques"
+        },
+        "author": {
+          "value": "karim_benali",
+          "label": "Karim Benali"
+        },
+        "published_at": "@now:-38d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-plb-ro-004.jpg",
+        "related_skus": [
+          "TBX-PLB-RO-004",
+          "TBX-PLB-RO-001",
+          "TBX-PLB-RO-005"
+        ]
+      },
+      {
+        "id": "10",
+        "title": "Which roller for which paint",
+        "content_heading": "Pile length matters more than the brand on the sleeve.",
+        "content": "<p><strong>A roller is chosen for the surface, not for the paint.<\/strong><\/p><ul><li>Short pile, 5 to 8 mm: smooth walls, ceilings, satin finishes. Leaves a tight finish.<\/li><li>Medium pile, 10 to 12 mm: lightly textured walls, matt paint. The usual compromise.<\/li><li>Long pile, 18 mm and up: render, facades, very uneven surfaces.<\/li><\/ul><p>A foam roller is for varnish and lacquer only. On wall paint it leaves bubbles that dry as craters.<\/p>",
+        "url_key": "which_roller_for_which_paint.html",
+        "meta_description": "Pile length matters more than the brand on the sleeve.",
+        "meta_keyword": "painting, materials",
+        "meta_title": "Which roller for which paint",
+        "tags": [
+          {
+            "value": "painting",
+            "label": "Painting"
+          },
+          {
+            "value": "materials",
+            "label": "Materials"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying Guide"
+        },
+        "topic": {
+          "value": "tool_choice",
+          "label": "Choosing your tool"
+        },
+        "author": {
+          "value": "claire_dubois",
+          "label": "Claire Dubois"
+        },
+        "published_at": "@now:-45d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-pei-ro-002.jpg",
+        "related_skus": [
+          "TBX-PEI-RO-002",
+          "TBX-PEI-RO-006",
+          "TBX-PEI-RO-007"
+        ]
+      },
+      {
+        "id": "11",
+        "title": "Reading your consumer unit",
+        "content_heading": "A consumer unit reads left to right: people first, then circuits.",
+        "content": "<p><strong>Three families of device in a domestic board, and nothing else.<\/strong><\/p><ul><li>The main incoming breaker, first in line: it kills everything and belongs to the supplier.<\/li><li>The RCDs, 30 mA: they protect people by detecting a leak to earth.<\/li><li>The individual breakers: 16 A for sockets, 10 A for lighting, 20 A for the washing machine.<\/li><\/ul><p>Label every way in pencil as you identify it. An unlabelled board turns a ten-minute fault into a whole afternoon.<\/p>",
+        "url_key": "reading_your_consumer_unit.html",
+        "meta_description": "A consumer unit reads left to right: people first, then circuits.",
+        "meta_keyword": "electrical, safety gear",
+        "meta_title": "Reading your consumer unit",
+        "tags": [
+          {
+            "value": "electrical",
+            "label": "Electrical"
+          },
+          {
+            "value": "safety_gear",
+            "label": "Safety gear"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying Guide"
+        },
+        "topic": {
+          "value": "safety",
+          "label": "Safety"
+        },
+        "author": {
+          "value": "hugo_marchand",
+          "label": "Hugo Marchand"
+        },
+        "published_at": "@now:-58d",
+        "reading_time": 8,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-ele-tb-006.jpg",
+        "related_skus": [
+          "TBX-ELE-TB-006",
+          "TBX-ELE-TB-002",
+          "TBX-ELE-TB-003"
+        ]
+      },
+      {
+        "id": "12",
+        "title": "Tiling a wall and getting it right",
+        "content_heading": "Everything is decided before the first adhesive: flatness and where you start.",
+        "content": "<p><strong>Wall tiling goes wrong for one of three reasons, almost always.<\/strong><\/p><ul><li>The wall was not flat. Past 3 mm over 2 m, it needs levelling compound first.<\/li><li>You started at the bottom. Start on the second row off a batten, and cut at the bottom.<\/li><li>The spacers came out too early, before the adhesive had fully set.<\/li><\/ul><p>Dry-lay the whole first row before you spread anything. It is the only way to see where the cut will land.<\/p>",
+        "url_key": "tiling_a_wall_and_getting_it_right.html",
+        "meta_description": "Everything is decided before the first adhesive: flatness and where you start.",
+        "meta_keyword": "tiling, materials",
+        "meta_title": "Tiling a wall and getting it right",
+        "tags": [
+          {
+            "value": "tiling",
+            "label": "Tiling"
+          },
+          {
+            "value": "materials",
+            "label": "Materials"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog Post"
+        },
+        "topic": {
+          "value": "projects",
+          "label": "Projects"
+        },
+        "author": {
+          "value": "sonia_lefevre",
+          "label": "Sonia Lef\u00e8vre"
+        },
+        "published_at": "@now:-64d",
+        "reading_time": 7,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-pei-en-002.jpg",
+        "related_skus": [
+          "TBX-PEI-EN-002",
+          "TBX-PEI-EN-006",
+          "TBX-PEI-EN-007"
+        ]
+      },
+      {
+        "id": "13",
+        "title": "Watering better and using less",
+        "content_heading": "The waste comes from the hour and the method, not the volume.",
+        "content": "<p><strong>Three changes halve the water a garden needs.<\/strong><\/p><ul><li>Water early in the morning. At midday half of it evaporates before reaching the roots.<\/li><li>Switch beds to drip irrigation: the water goes to the plant, not to the path.<\/li><li>Mulch the soil. Five centimetres of mulch halves evaporation.<\/li><\/ul><p>A long soak every few days beats a short daily one: roots grow down to find water instead of staying at the surface.<\/p>",
+        "url_key": "watering_better_and_using_less.html",
+        "meta_description": "The waste comes from the hour and the method, not the volume.",
+        "meta_keyword": "gardening, sustainability",
+        "meta_title": "Watering better and using less",
+        "tags": [
+          {
+            "value": "gardening",
+            "label": "Gardening"
+          },
+          {
+            "value": "sustainability",
+            "label": "Sustainability"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog Post"
+        },
+        "topic": {
+          "value": "sustainability",
+          "label": "Sustainability"
+        },
+        "author": {
+          "value": "karim_benali",
+          "label": "Karim Benali"
+        },
+        "published_at": "@now:-77d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-jar-ar-007.jpg",
+        "related_skus": [
+          "TBX-JAR-AR-007",
+          "TBX-JAR-AR-003",
+          "TBX-JAR-AR-002"
+        ]
+      },
+      {
+        "id": "14",
+        "title": "Which wood for which job",
+        "content_heading": "Wood is chosen for its exposure, ahead of price and looks.",
+        "content": "<p><strong>Four families cover almost every job around a house.<\/strong><\/p><ul><li>Pine, soft and cheap: hidden structure, formwork, a shelf that will be painted.<\/li><li>Beech, hard and stable: worktops, benches, anything that takes knocks.<\/li><li>Oak, hard and durable: stair treads, visible tops, furniture meant to outlive you.<\/li><li>Douglas fir and larch, naturally durable: decking and cladding with no treatment.<\/li><\/ul><p>Outdoors the species matters more than the finish. Treated pine with poor ventilation will rot before bare larch does.<\/p>",
+        "url_key": "which_wood_for_which_job.html",
+        "meta_description": "Wood is chosen for its exposure, ahead of price and looks.",
+        "meta_keyword": "woodworking, materials",
+        "meta_title": "Which wood for which job",
+        "tags": [
+          {
+            "value": "woodworking",
+            "label": "Woodworking"
+          },
+          {
+            "value": "materials",
+            "label": "Materials"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying Guide"
+        },
+        "topic": {
+          "value": "materials",
+          "label": "Materials"
+        },
+        "author": {
+          "value": "claire_dubois",
+          "label": "Claire Dubois"
+        },
+        "published_at": "@now:-85d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-mat-st-005.jpg",
+        "related_skus": [
+          "TBX-MAT-ST-005",
+          "TBX-MAT-ST-001",
+          "TBX-MAT-ST-004"
+        ]
+      },
+      {
+        "id": "15",
+        "title": "Measure right, cut once",
+        "content_heading": "Three measuring mistakes explain half of all unusable offcuts.",
+        "content": "<p><strong>A wrong dimension rarely comes from the tape. It comes from how it was read.<\/strong><\/p><ul><li>Always read from the same side of the line. A 1 mm pencil is enough to throw a joint out.<\/li><li>Mark from a single reference point, never end to end, accumulating error as you go.<\/li><li>Check square with the diagonals: if they match, the frame is true.<\/li><\/ul><p>Cross-mark the waste side as soon as you take the measurement. Nobody cuts the right side of the line by luck.<\/p>",
+        "url_key": "measure_right_cut_once.html",
+        "meta_description": "Three measuring mistakes explain half of all unusable offcuts.",
+        "meta_keyword": "measuring",
+        "meta_title": "Measure right, cut once",
+        "tags": [
+          {
+            "value": "measuring",
+            "label": "Measuring"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog Post"
+        },
+        "topic": {
+          "value": "techniques",
+          "label": "Techniques"
+        },
+        "author": {
+          "value": "hugo_marchand",
+          "label": "Hugo Marchand"
+        },
+        "published_at": "@now:-95d",
+        "reading_time": 4,
+        "is_featured": true,
+        "image": "\/t\/b\/tbx-oam-me-005.jpg",
+        "related_skus": [
+          "TBX-OAM-ME-005",
+          "TBX-OAM-ME-001",
+          "TBX-OAM-ME-009"
+        ]
+      }
+    ]
+  },
+  {
+    "index_name": "gally_localized_catalog_toolbox_de_cms_page",
+    "documents": [
+      {
+        "id": "1",
+        "title": "Den richtigen Akkuschrauber w\u00e4hlen",
+        "content_heading": "Drehmoment, Spannung und Bohrfutter: die drei Zahlen, die \u00fcber den Kauf entscheiden.",
+        "content": "<p><strong>Ein Akkuschrauber wird \u00fcber drei Zahlen gew\u00e4hlt, nicht \u00fcber den Preis.<\/strong><\/p><ul><li>Drehmoment in Newtonmetern: 30 Nm gen\u00fcgen f\u00fcr M\u00f6belmontage, 50 Nm f\u00fcr leichte Holzarbeiten.<\/li><li>Spannung: 12V f\u00fcr gelegentlichen Einsatz und geringes Gewicht, 18V sobald Mauerwerk gebohrt wird.<\/li><li>Bohrfutter: ein 13-mm-Schnellspannfutter nimmt fast jeden handels\u00fcblichen Bohrer auf.<\/li><\/ul><p>Kaufen Sie lieber einen zweiten Akku als ein st\u00e4rkeres Modell. Auf der Baustelle geht zuerst die Laufzeit aus, nicht das Drehmoment.<\/p>",
+        "url_key": "den_richtigen_akkuschrauber_wahlen.html",
+        "meta_description": "Drehmoment, Spannung und Bohrfutter: die drei Zahlen, die \u00fcber den Kauf entscheiden.",
+        "meta_keyword": "bohren, akkubetrieben",
+        "meta_title": "Den richtigen Akkuschrauber w\u00e4hlen",
+        "tags": [
+          {
+            "value": "drilling",
+            "label": "Bohren"
+          },
+          {
+            "value": "cordless",
+            "label": "Akkubetrieben"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "tool_choice",
+          "label": "Werkzeugwahl"
+        },
+        "author": {
+          "value": "bob_le_bricoleur",
+          "label": "Bob le bricoleur"
+        },
+        "published_at": "@now:-4d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "\/t\/b\/tbx-elp-pv-006.jpg",
+        "related_skus": [
+          "TBX-ELP-PV-006",
+          "TBX-ELP-PV-002",
+          "TBX-ELP-PV-003"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Beton bohren, ohne den Bohrer zu ruinieren",
+        "content_heading": "Beton wird nicht kr\u00e4ftiger gebohrt, sondern anders.",
+        "content": "<p><strong>Der h\u00e4ufigste Fehler liegt nicht am Bohrer, sondern an der Methode.<\/strong><\/p><ul><li>Auf Schlagbohren umstellen. Im reinen Drehgang wird ein Betonbohrer in Sekunden stumpf.<\/li><li>Drehzahl reduzieren. Beton wird langsam gebohrt, mit gleichm\u00e4\u00dfigem Druck und ohne Gewalt.<\/li><li>Den Bohrer regelm\u00e4\u00dfig herausziehen, damit der Staub abgef\u00fchrt wird.<\/li><\/ul><p>Kommt der Bohrer nicht mehr voran, sitzt dort ein Zuschlagkorn oder ein Bewehrungsstahl. Das Loch besser zwei Zentimeter versetzen.<\/p>",
+        "url_key": "beton_bohren_ohne_den_bohrer_zu_ruinieren.html",
+        "meta_description": "Beton wird nicht kr\u00e4ftiger gebohrt, sondern anders.",
+        "meta_keyword": "bohren, befestigungen",
+        "meta_title": "Beton bohren, ohne den Bohrer zu ruinieren",
+        "tags": [
+          {
+            "value": "drilling",
+            "label": "Bohren"
+          },
+          {
+            "value": "fixings",
+            "label": "Befestigungen"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "techniques",
+          "label": "Techniken"
+        },
+        "author": {
+          "value": "bob_le_bricoleur",
+          "label": "Bob le bricoleur"
+        },
+        "published_at": "@now:-19d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-elp-pe-002.jpg",
+        "related_skus": [
+          "TBX-ELP-PE-002",
+          "TBX-ELP-PE-006",
+          "TBX-ELP-PE-003"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Ein Regal montieren, das h\u00e4lt",
+        "content_heading": "Der D\u00fcbel wird nach der Wand gew\u00e4hlt, nie nach der angegebenen Last.",
+        "content": "<p><strong>Ein absinkendes Regal ist fast immer ein D\u00fcbel f\u00fcr die falsche Wand.<\/strong><\/p><ul><li>Vollziegel oder Beton: Spreizd\u00fcbel, am einfachsten und am sichersten.<\/li><li>Gipskarton: Kippd\u00fcbel oder Hohlraumd\u00fcbel, nie ein gerader Kunststoffd\u00fcbel.<\/li><li>Gipsplatte: spezieller Langd\u00fcbel, das Material ist weich und tr\u00e4gt oberfl\u00e4chlich nicht.<\/li><\/ul><p>Bohren, das Loch aussaugen, dann anziehen. Zur\u00fcckgebliebener Staub kostet die H\u00e4lfte der Auszugskraft.<\/p>",
+        "url_key": "ein_regal_montieren_das_halt.html",
+        "meta_description": "Der D\u00fcbel wird nach der Wand gew\u00e4hlt, nie nach der angegebenen Last.",
+        "meta_keyword": "befestigungen, messen",
+        "meta_title": "Ein Regal montieren, das h\u00e4lt",
+        "tags": [
+          {
+            "value": "fixings",
+            "label": "Befestigungen"
+          },
+          {
+            "value": "measuring",
+            "label": "Messen"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "techniques",
+          "label": "Techniken"
+        },
+        "author": {
+          "value": "bob_le_bricoleur",
+          "label": "Bob le bricoleur"
+        },
+        "published_at": "@now:-33d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-qui-ch-002.jpg",
+        "related_skus": [
+          "TBX-QUI-CH-002",
+          "TBX-QUI-CH-006",
+          "TBX-QUI-CH-007"
+        ]
+      },
+      {
+        "id": "4",
+        "title": "18V-Akkus l\u00e4nger nutzen",
+        "content_heading": "Ein Lithium-Akku stirbt selten am Gebrauch, sondern an der Lagerung.",
+        "content": "<p><strong>Drei Gewohnheiten verdoppeln die Lebensdauer eines 18V-Akkus.<\/strong><\/p><ul><li>Nie leer lagern. Ein \u00fcber den Winter entleerter Akku nimmt oft keine Ladung mehr an.<\/li><li>Nicht dauerhaft am Ladeger\u00e4t lassen. Nach Ladeschluss abziehen.<\/li><li>Vor dem Laden abk\u00fchlen lassen: ein noch warmer Akku wird beim Laden gesch\u00e4digt.<\/li><\/ul><p>F\u00fcr l\u00e4ngere Lagerung halb geladen und frostfrei aufbewahren. Das ist der beste Kompromiss f\u00fcr Lithiumzellen.<\/p>",
+        "url_key": "18v_akkus_langer_nutzen.html",
+        "meta_description": "Ein Lithium-Akku stirbt selten am Gebrauch, sondern an der Lagerung.",
+        "meta_keyword": "akkubetrieben, werkzeugpflege",
+        "meta_title": "18V-Akkus l\u00e4nger nutzen",
+        "tags": [
+          {
+            "value": "cordless",
+            "label": "Akkubetrieben"
+          },
+          {
+            "value": "tool_care",
+            "label": "Werkzeugpflege"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "maintenance",
+          "label": "Wartung"
+        },
+        "author": {
+          "value": "bob_le_bricoleur",
+          "label": "Bob le bricoleur"
+        },
+        "published_at": "@now:-52d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-bat-18-003.jpg",
+        "related_skus": [
+          "TBX-BAT-18-003",
+          "TBX-BAT-18-007",
+          "TBX-BAT-18-006"
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Eine Werkbank an einem Tag bauen",
+        "content_heading": "Eine Platte, vier Beine, zwei Zargen. Der Rest ist Anziehen.",
+        "content": "<p><strong>Eine brauchbare Werkbank entsteht an einem Tag und kostet weniger als ein Fertigregal.<\/strong><\/p><ul><li>Zuerst die Platte: mindestens 30 mm, sonst federt sie und die S\u00e4ge l\u00e4uft weg.<\/li><li>H\u00fcfthoch, nicht bauchhoch. Gearbeitet wird mit gestreckten Armen, nicht mit hochgezogenen Schultern.<\/li><li>Die R\u00fcckseite mit einem diagonalen Brett aussteifen. Das verhindert das Verwinden.<\/li><\/ul><p>Alle L\u00f6cher vor dem Zusammenbau bohren. Sitzen die Beine, kommt die Bohrmaschine nirgends mehr hin.<\/p>",
+        "url_key": "eine_werkbank_an_einem_tag_bauen.html",
+        "meta_description": "Eine Platte, vier Beine, zwei Zargen. Der Rest ist Anziehen.",
+        "meta_keyword": "holzbearbeitung, messen",
+        "meta_title": "Eine Werkbank an einem Tag bauen",
+        "tags": [
+          {
+            "value": "woodworking",
+            "label": "Holzbearbeitung"
+          },
+          {
+            "value": "measuring",
+            "label": "Messen"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "projects",
+          "label": "Projekte"
+        },
+        "author": {
+          "value": "bob_le_bricoleur",
+          "label": "Bob le bricoleur"
+        },
+        "published_at": "@now:-70d",
+        "reading_time": 8,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-oam-sc-002.jpg",
+        "related_skus": [
+          "TBX-OAM-SC-002",
+          "TBX-OAM-SC-006",
+          "TBX-OAM-SC-003"
+        ]
+      },
+      {
+        "id": "6",
+        "title": "Eine Wand ohne Ans\u00e4tze streichen",
+        "content_heading": "Ans\u00e4tze entstehen fast immer beim Trocknen, nicht durch die Rolle.",
+        "content": "<p><strong>Eine Wand mit Ans\u00e4tzen wurde zu langsam gestrichen, nicht zu schnell.<\/strong><\/p><ul><li>In senkrechten Bahnen in Rollenbreite arbeiten und immer nass in nass ansetzen.<\/li><li>Die Rolle nicht mitten in der Bahn neu f\u00fcllen: die Naht zeigt sich nach dem Trocknen.<\/li><li>Zwei d\u00fcnne Schichten sind besser als eine dicke, die l\u00e4uft und zwei Tage braucht.<\/li><\/ul><p>W\u00e4hrend der gesamten Arbeit dieselbe Lichtquelle behalten. Morgens beginnen und abends aufh\u00f6ren l\u00e4sst N\u00e4hte sehen, die es nicht gibt.<\/p>",
+        "url_key": "eine_wand_ohne_ansatze_streichen.html",
+        "meta_description": "Ans\u00e4tze entstehen fast immer beim Trocknen, nicht durch die Rolle.",
+        "meta_keyword": "malerarbeiten",
+        "meta_title": "Eine Wand ohne Ans\u00e4tze streichen",
+        "tags": [
+          {
+            "value": "painting",
+            "label": "Malerarbeiten"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "techniques",
+          "label": "Techniken"
+        },
+        "author": {
+          "value": "claire_dubois",
+          "label": "Claire Dubois"
+        },
+        "published_at": "@now:-9d",
+        "reading_time": 7,
+        "is_featured": true,
+        "image": "\/t\/b\/tbx-pei-pm-006.jpg",
+        "related_skus": [
+          "TBX-PEI-PM-006",
+          "TBX-PEI-PM-002",
+          "TBX-PEI-PM-003"
+        ]
+      },
+      {
+        "id": "7",
+        "title": "Handkreiss\u00e4ge, Stichs\u00e4ge oder S\u00e4bels\u00e4ge: was fehlt",
+        "content_heading": "Drei S\u00e4gen, drei Schnitte. Die falsche kostet mehr als die richtige.",
+        "content": "<p><strong>Jede Elektros\u00e4ge kann genau eine Sache richtig gut.<\/strong><\/p><ul><li>Die Handkreiss\u00e4ge schneidet gerade und schnell, durch Platten und Kanth\u00f6lzer. Kurven kann sie nicht.<\/li><li>Die Stichs\u00e4ge folgt einer Kurve und setzt mitten in der Platte an, hinterl\u00e4sst aber eine gr\u00f6bere Kante.<\/li><li>Die S\u00e4bels\u00e4ge rei\u00dft ab: St\u00e4nderwerk, Ast, Rohr. Ein Finish-Werkzeug ist sie nicht.<\/li><\/ul><p>Wer nur eine kauft, nimmt die Handkreiss\u00e4ge mit F\u00fchrungsschiene. Nur sie ersetzt eine station\u00e4re Maschine.<\/p>",
+        "url_key": "handkreissage_stichsage_oder_sabelsage_was_fehlt.html",
+        "meta_description": "Drei S\u00e4gen, drei Schnitte. Die falsche kostet mehr als die richtige.",
+        "meta_keyword": "holzbearbeitung",
+        "meta_title": "Handkreiss\u00e4ge, Stichs\u00e4ge oder S\u00e4bels\u00e4ge: was fehlt",
+        "tags": [
+          {
+            "value": "woodworking",
+            "label": "Holzbearbeitung"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "tool_choice",
+          "label": "Werkzeugwahl"
+        },
+        "author": {
+          "value": "hugo_marchand",
+          "label": "Hugo Marchand"
+        },
+        "published_at": "@now:-14d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-elp-se-009.jpg",
+        "related_skus": [
+          "TBX-ELP-SE-009",
+          "TBX-ELP-SE-005",
+          "TBX-ELP-SE-001"
+        ]
+      },
+      {
+        "id": "8",
+        "title": "H\u00e4nde, Augen, Ohren: was wann getragen wird",
+        "content_heading": "Schutz, der st\u00f6rte, wird abgelegt. W\u00e4hlen Sie ihn nach der Aufgabe.",
+        "content": "<p><strong>Drei Schutzarten und die drei Momente, in denen sie nicht verhandelbar sind.<\/strong><\/p><ul><li>Augen, sobald ein Werkzeug dreht. Ein Winkelschleifer schleudert Partikel mehrere Meter weit.<\/li><li>Ohren, ab 85 dB: Bohrhammer, Tischkreiss\u00e4ge, Laubbl\u00e4ser. H\u00f6rverlust kommt nicht zur\u00fcck.<\/li><li>H\u00e4nde, je nach Risiko: schnittfest f\u00fcr Klingen, nitrilbeschichtet f\u00fcr Chemie, Leder f\u00fcr Transport.<\/li><\/ul><p>Ein zu dicker Handschuh l\u00e4sst das Werkst\u00fcck rutschen. Nehmen Sie den d\u00fcnnsten, den das Risiko erlaubt, nicht den st\u00e4rksten im Regal.<\/p>",
+        "url_key": "hande_augen_ohren_was_wann_getragen_wird.html",
+        "meta_description": "Schutz, der st\u00f6rte, wird abgelegt. W\u00e4hlen Sie ihn nach der Aufgabe.",
+        "meta_keyword": "schutzausr\u00fcstung",
+        "meta_title": "H\u00e4nde, Augen, Ohren: was wann getragen wird",
+        "tags": [
+          {
+            "value": "safety_gear",
+            "label": "Schutzausr\u00fcstung"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "safety",
+          "label": "Sicherheit"
+        },
+        "author": {
+          "value": "sonia_lefevre",
+          "label": "Sonia Lef\u00e8vre"
+        },
+        "published_at": "@now:-26d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-sec-ma-006.jpg",
+        "related_skus": [
+          "TBX-SEC-MA-006",
+          "TBX-SEC-MA-002",
+          "TBX-SEC-MA-003"
+        ]
+      },
+      {
+        "id": "9",
+        "title": "Einen Wasserhahn wechseln, ohne die K\u00fcche zu \u00fcberschwemmen",
+        "content_heading": "Der Hahn ist selten das Problem. Der Anschluss unter der Sp\u00fcle oft schon.",
+        "content": "<p><strong>Ein Mischbatterie-Wechsel besteht aus vier Schritten, in dieser Reihenfolge.<\/strong><\/p><ul><li>Zulauf unter der Sp\u00fcle schlie\u00dfen, dann den Hahn \u00f6ffnen, um den Restdruck abzulassen.<\/li><li>Die Schl\u00e4uche wandseitig l\u00f6sen, nicht am Hahn: dort ist die Dichtung zug\u00e4nglich.<\/li><li>Die Auflagefl\u00e4che vor der neuen Dichtung reinigen, sonst tropft sie trotz Anzug.<\/li><\/ul><p>Handfest anziehen, dann eine Vierteldrehung mit dem Schl\u00fcssel. Mehr quetscht die Dichtung und erzeugt genau das Leck.<\/p>",
+        "url_key": "einen_wasserhahn_wechseln_ohne_die_kuche_zu_uberschwemmen.html",
+        "meta_description": "Der Hahn ist selten das Problem. Der Anschluss unter der Sp\u00fcle oft schon.",
+        "meta_keyword": "sanit\u00e4r",
+        "meta_title": "Einen Wasserhahn wechseln, ohne die K\u00fcche zu \u00fcberschwemmen",
+        "tags": [
+          {
+            "value": "plumbing",
+            "label": "Sanit\u00e4r"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "techniques",
+          "label": "Techniken"
+        },
+        "author": {
+          "value": "karim_benali",
+          "label": "Karim Benali"
+        },
+        "published_at": "@now:-38d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-plb-ro-004.jpg",
+        "related_skus": [
+          "TBX-PLB-RO-004",
+          "TBX-PLB-RO-001",
+          "TBX-PLB-RO-005"
+        ]
+      },
+      {
+        "id": "10",
+        "title": "Welche Rolle f\u00fcr welche Farbe",
+        "content_heading": "Die Florh\u00f6he z\u00e4hlt mehr als die Marke.",
+        "content": "<p><strong>Die Rolle wird nach dem Untergrund gew\u00e4hlt, nicht nach der Farbe.<\/strong><\/p><ul><li>Kurzer Flor, 5 bis 8 mm: glatte Wand, Decke, Seidenglanz. Ergibt ein glattes Bild.<\/li><li>Mittlerer Flor, 10 bis 12 mm: leicht strukturierte Wand, matte Farbe. Der \u00fcbliche Kompromiss.<\/li><li>Langer Flor, ab 18 mm: Putz, Fassade, sehr unebene Fl\u00e4chen.<\/li><\/ul><p>Eine Schaumstoffrolle taugt nur f\u00fcr Lack und Klarlack. Auf Wandfarbe hinterl\u00e4sst sie Blasen, die als Krater trocknen.<\/p>",
+        "url_key": "welche_rolle_fur_welche_farbe.html",
+        "meta_description": "Die Florh\u00f6he z\u00e4hlt mehr als die Marke.",
+        "meta_keyword": "malerarbeiten, materialien",
+        "meta_title": "Welche Rolle f\u00fcr welche Farbe",
+        "tags": [
+          {
+            "value": "painting",
+            "label": "Malerarbeiten"
+          },
+          {
+            "value": "materials",
+            "label": "Materialien"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "tool_choice",
+          "label": "Werkzeugwahl"
+        },
+        "author": {
+          "value": "claire_dubois",
+          "label": "Claire Dubois"
+        },
+        "published_at": "@now:-45d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-pei-ro-002.jpg",
+        "related_skus": [
+          "TBX-PEI-RO-002",
+          "TBX-PEI-RO-006",
+          "TBX-PEI-RO-007"
+        ]
+      },
+      {
+        "id": "11",
+        "title": "Den Sicherungskasten lesen",
+        "content_heading": "Ein Verteiler wird von links nach rechts gelesen: erst Personenschutz, dann Stromkreise.",
+        "content": "<p><strong>Drei Ger\u00e4tefamilien im Hausverteiler, und sonst nichts.<\/strong><\/p><ul><li>Der Hauptschalter am Anfang: er trennt alles und geh\u00f6rt dem Netzbetreiber.<\/li><li>Die Fehlerstromschutzschalter, 30 mA: sie sch\u00fctzen Personen, indem sie Ableitstr\u00f6me erkennen.<\/li><li>Die Leitungsschutzschalter: 16 A f\u00fcr Steckdosen, 10 A f\u00fcr Licht, 20 A f\u00fcr die Waschmaschine.<\/li><\/ul><p>Jeden Abgang beim Identifizieren mit Bleistift beschriften. Ein unbeschrifteter Verteiler macht aus zehn Minuten einen ganzen Nachmittag.<\/p>",
+        "url_key": "den_sicherungskasten_lesen.html",
+        "meta_description": "Ein Verteiler wird von links nach rechts gelesen: erst Personenschutz, dann Stromkreise.",
+        "meta_keyword": "elektrik, schutzausr\u00fcstung",
+        "meta_title": "Den Sicherungskasten lesen",
+        "tags": [
+          {
+            "value": "electrical",
+            "label": "Elektrik"
+          },
+          {
+            "value": "safety_gear",
+            "label": "Schutzausr\u00fcstung"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "safety",
+          "label": "Sicherheit"
+        },
+        "author": {
+          "value": "hugo_marchand",
+          "label": "Hugo Marchand"
+        },
+        "published_at": "@now:-58d",
+        "reading_time": 8,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-ele-tb-006.jpg",
+        "related_skus": [
+          "TBX-ELE-TB-006",
+          "TBX-ELE-TB-002",
+          "TBX-ELE-TB-003"
+        ]
+      },
+      {
+        "id": "12",
+        "title": "Wandfliesen legen, ohne daneben zu greifen",
+        "content_heading": "Alles entscheidet sich vor dem ersten Kleber: Ebenheit und Startpunkt.",
+        "content": "<p><strong>Wandfliesen misslingen fast immer aus einem von drei Gr\u00fcnden.<\/strong><\/p><ul><li>Die Wand war nicht eben. \u00dcber 3 mm auf 2 m braucht es zuerst Ausgleichsmasse.<\/li><li>Begonnen wurde unten. Fangen Sie mit der zweiten Reihe auf einer Latte an und schneiden Sie unten.<\/li><li>Die Fugenkreuze wurden zu fr\u00fch entfernt, bevor der Kleber ausgeh\u00e4rtet war.<\/li><\/ul><p>Legen Sie die ganze erste Reihe trocken aus, bevor Sie kleben. Nur so sehen Sie, wo der Schnitt landet.<\/p>",
+        "url_key": "wandfliesen_legen_ohne_daneben_zu_greifen.html",
+        "meta_description": "Alles entscheidet sich vor dem ersten Kleber: Ebenheit und Startpunkt.",
+        "meta_keyword": "fliesen, materialien",
+        "meta_title": "Wandfliesen legen, ohne daneben zu greifen",
+        "tags": [
+          {
+            "value": "tiling",
+            "label": "Fliesen"
+          },
+          {
+            "value": "materials",
+            "label": "Materialien"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "projects",
+          "label": "Projekte"
+        },
+        "author": {
+          "value": "sonia_lefevre",
+          "label": "Sonia Lef\u00e8vre"
+        },
+        "published_at": "@now:-64d",
+        "reading_time": 7,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-pei-en-002.jpg",
+        "related_skus": [
+          "TBX-PEI-EN-002",
+          "TBX-PEI-EN-006",
+          "TBX-PEI-EN-007"
+        ]
+      },
+      {
+        "id": "13",
+        "title": "Besser gie\u00dfen, weniger verbrauchen",
+        "content_heading": "Die Verschwendung kommt von der Uhrzeit und der Methode, nicht von der Menge.",
+        "content": "<p><strong>Drei \u00c4nderungen halbieren den Wasserbedarf im Garten.<\/strong><\/p><ul><li>Fr\u00fch morgens gie\u00dfen. Mittags verdunstet die H\u00e4lfte, bevor sie die Wurzeln erreicht.<\/li><li>Beete auf Tropfbew\u00e4sserung umstellen: das Wasser geht zur Pflanze, nicht auf den Weg.<\/li><li>Den Boden mulchen. F\u00fcnf Zentimeter Mulch halbieren die Verdunstung.<\/li><\/ul><p>Selten und lange gie\u00dfen ist besser als t\u00e4glich und kurz: die Wurzeln wachsen nach unten statt oberfl\u00e4chlich zu bleiben.<\/p>",
+        "url_key": "besser_giessen_weniger_verbrauchen.html",
+        "meta_description": "Die Verschwendung kommt von der Uhrzeit und der Methode, nicht von der Menge.",
+        "meta_keyword": "gartenarbeit, nachhaltigkeit",
+        "meta_title": "Besser gie\u00dfen, weniger verbrauchen",
+        "tags": [
+          {
+            "value": "gardening",
+            "label": "Gartenarbeit"
+          },
+          {
+            "value": "sustainability",
+            "label": "Nachhaltigkeit"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "sustainability",
+          "label": "Nachhaltigkeit"
+        },
+        "author": {
+          "value": "karim_benali",
+          "label": "Karim Benali"
+        },
+        "published_at": "@now:-77d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-jar-ar-007.jpg",
+        "related_skus": [
+          "TBX-JAR-AR-007",
+          "TBX-JAR-AR-003",
+          "TBX-JAR-AR-002"
+        ]
+      },
+      {
+        "id": "14",
+        "title": "Welches Holz f\u00fcr welchen Zweck",
+        "content_heading": "Holz wird nach der Beanspruchung gew\u00e4hlt, vor Preis und Aussehen.",
+        "content": "<p><strong>Vier Familien deckten fast jeden Einsatz im Haus ab.<\/strong><\/p><ul><li>Kiefer, weich und g\u00fcnstig: verdeckte Konstruktion, Schalung, gestrichenes Regal.<\/li><li>Buche, hart und formstabil: Arbeitsplatte, Werkbank, alles was Schl\u00e4ge abbekommt.<\/li><li>Eiche, hart und dauerhaft: Treppenstufe, sichtbare Platte, M\u00f6bel f\u00fcr Generationen.<\/li><li>Douglasie und L\u00e4rche, von Natur aus widerstandsf\u00e4hig: Terrasse und Fassade ohne Behandlung.<\/li><\/ul><p>Drau\u00dfen z\u00e4hlt die Holzart mehr als die Lasur. Schlecht bel\u00fcftete behandelte Kiefer fault vor unbehandelter L\u00e4rche.<\/p>",
+        "url_key": "welches_holz_fur_welchen_zweck.html",
+        "meta_description": "Holz wird nach der Beanspruchung gew\u00e4hlt, vor Preis und Aussehen.",
+        "meta_keyword": "holzbearbeitung, materialien",
+        "meta_title": "Welches Holz f\u00fcr welchen Zweck",
+        "tags": [
+          {
+            "value": "woodworking",
+            "label": "Holzbearbeitung"
+          },
+          {
+            "value": "materials",
+            "label": "Materialien"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "materials",
+          "label": "Materialien"
+        },
+        "author": {
+          "value": "claire_dubois",
+          "label": "Claire Dubois"
+        },
+        "published_at": "@now:-85d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/t\/b\/tbx-mat-st-005.jpg",
+        "related_skus": [
+          "TBX-MAT-ST-005",
+          "TBX-MAT-ST-001",
+          "TBX-MAT-ST-004"
+        ]
+      },
+      {
+        "id": "15",
+        "title": "Richtig messen, einmal schneiden",
+        "content_heading": "Drei Messfehler erkl\u00e4ren die H\u00e4lfte aller unbrauchbaren Restst\u00fccke.",
+        "content": "<p><strong>Ein falsches Ma\u00df kommt selten vom Bandma\u00df, sondern vom Ablesen.<\/strong><\/p><ul><li>Immer von derselben Seite des Striches ablesen. Ein 1 mm breiter Stift verschiebt eine Verbindung.<\/li><li>Von einem einzigen Bezugspunkt abtragen, nie von Ende zu Ende mit summierendem Fehler.<\/li><li>Die Rechtwinkligkeit \u00fcber die Diagonalen pr\u00fcfen: sind sie gleich, stimmt der Rahmen.<\/li><\/ul><p>Die Abfallseite sofort nach dem Messen kreuzweise markieren. Die richtige Seite trifft niemand zuf\u00e4llig.<\/p>",
+        "url_key": "richtig_messen_einmal_schneiden.html",
+        "meta_description": "Drei Messfehler erkl\u00e4ren die H\u00e4lfte aller unbrauchbaren Restst\u00fccke.",
+        "meta_keyword": "messen",
+        "meta_title": "Richtig messen, einmal schneiden",
+        "tags": [
+          {
+            "value": "measuring",
+            "label": "Messen"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "techniques",
+          "label": "Techniken"
+        },
+        "author": {
+          "value": "hugo_marchand",
+          "label": "Hugo Marchand"
+        },
+        "published_at": "@now:-95d",
+        "reading_time": 4,
+        "is_featured": true,
+        "image": "\/t\/b\/tbx-oam-me-005.jpg",
+        "related_skus": [
+          "TBX-OAM-ME-005",
+          "TBX-OAM-ME-001",
+          "TBX-OAM-ME-009"
+        ]
+      }
+    ]
+  }
+]

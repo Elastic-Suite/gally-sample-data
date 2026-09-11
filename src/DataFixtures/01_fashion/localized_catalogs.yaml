@@ -1,0 +1,23 @@
+include:
+    - catalogs.yaml
+
+Gally\Catalog\Entity\LocalizedCatalog:
+    fashion_fr:
+        catalog: '@fashion'
+        code: 'fashion_fr'
+        locale: fr_FR
+        currency: EUR
+        name: 'Fiora Français'
+        isDefault: true
+    fashion_en:
+        catalog: '@fashion'
+        code: 'fashion_en'
+        locale: en_US
+        currency: EUR
+        name: 'Fiora English'
+    fashion_de:
+        catalog: '@fashion'
+        code: 'fashion_de'
+        locale: de_DE
+        currency: EUR
+        name: 'Fiora Deutsch'

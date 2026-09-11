@@ -36,11 +36,39 @@ class GallySampleDataExtension extends Extension
     {
         $container->prependExtensionConfig(
             'hautelook_alice',
-            ['fixtures_path' => [
-                'DataFixtures/default',
-                'DataFixtures/default/premium',
-            ],
-            ]);
+            ['fixtures_path' => $this->fixturePaths()]
+        );
+    }
+
+    /**
+     * One entry per catalog folder under DataFixtures, plus its premium subfolder.
+     *
+     * Discovered rather than listed, so adding a catalog is a matter of dropping its folder in.
+     * A glob cannot be put in the config directly: hautelook's EnvDirectoryLocator filters the
+     * configured paths through file_exists() before handing them to the Finder, and then runs
+     * the Finder with depth(0), so a pattern is discarded and a subdirectory is invisible.
+     *
+     * The premium folder has to be named exactly `premium`, because PremiumFilesLocator hides
+     * it from an open-source install with a plain str_contains($file, '/premium/').
+     *
+     * @return string[]
+     */
+    private function fixturePaths(): array
+    {
+        $paths = [];
+
+        foreach (glob(__DIR__ . '/../DataFixtures/*', \GLOB_ONLYDIR) ?: [] as $directory) {
+            $catalog = basename($directory);
+            $paths[] = 'DataFixtures/' . $catalog;
+
+            if (is_dir($directory . '/premium')) {
+                $paths[] = 'DataFixtures/' . $catalog . '/premium';
+            }
+        }
+
+        sort($paths);
+
+        return $paths;
     }
 
     /**

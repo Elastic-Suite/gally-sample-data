@@ -1,0 +1,4 @@
+Gally\Catalog\Entity\Catalog:
+    papershop:
+        code: 'papershop'
+        name: 'Le livre & le lièvre'

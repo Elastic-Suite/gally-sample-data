@@ -1,0 +1,474 @@
+include:
+    - product_source_field.yaml
+
+Gally\Metadata\Entity\SourceFieldOption:
+    product_llv_brand_option_lievre_et_cie:
+        code: 'lievre-et-cie'
+        source_field: '@product_llv_brand'
+        position: 0
+        defaultLabel: 'Lièvre & Cie'
+    product_llv_brand_option_verso:
+        code: 'verso'
+        source_field: '@product_llv_brand'
+        position: 1
+        defaultLabel: 'Verso'
+    product_llv_brand_option_papeloup:
+        code: 'papeloup'
+        source_field: '@product_llv_brand'
+        position: 2
+        defaultLabel: 'Papeloup'
+    product_llv_brand_option_boisclair:
+        code: 'boisclair'
+        source_field: '@product_llv_brand'
+        position: 3
+        defaultLabel: 'Boisclair'
+    product_llv_brand_option_lumen_atelier:
+        code: 'lumen-atelier'
+        source_field: '@product_llv_brand'
+        position: 4
+        defaultLabel: 'Lumen Atelier'
+    product_llv_brand_option_reliure_du_nord:
+        code: 'reliure-du-nord'
+        source_field: '@product_llv_brand'
+        position: 5
+        defaultLabel: 'Reliure du Nord'
+    product_llv_brand_option_chene_et_fer:
+        code: 'chene-et-fer'
+        source_field: '@product_llv_brand'
+        position: 6
+        defaultLabel: 'Chêne & Fer'
+    product_llv_brand_option_encrier_bleu:
+        code: 'encrier-bleu'
+        source_field: '@product_llv_brand'
+        position: 7
+        defaultLabel: 'Encrier Bleu'
+    product_llv_brand_option_feuillet:
+        code: 'feuillet'
+        source_field: '@product_llv_brand'
+        position: 8
+        defaultLabel: 'Feuillet'
+    product_llv_material_option_papier_recycle:
+        code: 'papier-recycle'
+        source_field: '@product_llv_material'
+        position: 0
+        defaultLabel: 'Papier recyclé'
+    product_llv_material_option_papier_verge:
+        code: 'papier-verge'
+        source_field: '@product_llv_material'
+        position: 1
+        defaultLabel: 'Papier vergé'
+    product_llv_material_option_carton_relie:
+        code: 'carton-relie'
+        source_field: '@product_llv_material'
+        position: 2
+        defaultLabel: 'Carton relié'
+    product_llv_material_option_chene_massif:
+        code: 'chene-massif'
+        source_field: '@product_llv_material'
+        position: 3
+        defaultLabel: 'Chêne massif'
+    product_llv_material_option_hetre:
+        code: 'hetre'
+        source_field: '@product_llv_material'
+        position: 4
+        defaultLabel: 'Hêtre'
+    product_llv_material_option_noyer:
+        code: 'noyer'
+        source_field: '@product_llv_material'
+        position: 5
+        defaultLabel: 'Noyer'
+    product_llv_material_option_pin:
+        code: 'pin'
+        source_field: '@product_llv_material'
+        position: 6
+        defaultLabel: 'Pin'
+    product_llv_material_option_acier:
+        code: 'acier'
+        source_field: '@product_llv_material'
+        position: 7
+        defaultLabel: 'Acier'
+    product_llv_material_option_laiton:
+        code: 'laiton'
+        source_field: '@product_llv_material'
+        position: 8
+        defaultLabel: 'Laiton'
+    product_llv_material_option_verre:
+        code: 'verre'
+        source_field: '@product_llv_material'
+        position: 9
+        defaultLabel: 'Verre'
+    product_llv_material_option_lin:
+        code: 'lin'
+        source_field: '@product_llv_material'
+        position: 10
+        defaultLabel: 'Lin'
+    product_llv_material_option_cuir_vegetal:
+        code: 'cuir-vegetal'
+        source_field: '@product_llv_material'
+        position: 11
+        defaultLabel: 'Cuir végétal'
+    product_llv_material_option_feutre:
+        code: 'feutre'
+        source_field: '@product_llv_material'
+        position: 12
+        defaultLabel: 'Feutre'
+    product_llv_material_option_resine:
+        code: 'resine'
+        source_field: '@product_llv_material'
+        position: 13
+        defaultLabel: 'Résine'
+    product_llv_color_option_noir:
+        code: 'noir'
+        source_field: '@product_llv_color'
+        position: 0
+        defaultLabel: 'Noir'
+    product_llv_color_option_blanc:
+        code: 'blanc'
+        source_field: '@product_llv_color'
+        position: 1
+        defaultLabel: 'Blanc'
+    product_llv_color_option_ivoire:
+        code: 'ivoire'
+        source_field: '@product_llv_color'
+        position: 2
+        defaultLabel: 'Ivoire'
+    product_llv_color_option_gris:
+        code: 'gris'
+        source_field: '@product_llv_color'
+        position: 3
+        defaultLabel: 'Gris'
+    product_llv_color_option_bleu_nuit:
+        code: 'bleu-nuit'
+        source_field: '@product_llv_color'
+        position: 4
+        defaultLabel: 'Bleu nuit'
+    product_llv_color_option_vert_sauge:
+        code: 'vert-sauge'
+        source_field: '@product_llv_color'
+        position: 5
+        defaultLabel: 'Vert sauge'
+    product_llv_color_option_bordeaux:
+        code: 'bordeaux'
+        source_field: '@product_llv_color'
+        position: 6
+        defaultLabel: 'Bordeaux'
+    product_llv_color_option_terracotta:
+        code: 'terracotta'
+        source_field: '@product_llv_color'
+        position: 7
+        defaultLabel: 'Terracotta'
+    product_llv_color_option_naturel:
+        code: 'naturel'
+        source_field: '@product_llv_color'
+        position: 8
+        defaultLabel: 'Naturel'
+    product_llv_color_option_ocre:
+        code: 'ocre'
+        source_field: '@product_llv_color'
+        position: 9
+        defaultLabel: 'Ocre'
+    product_llv_color_option_sable:
+        code: 'sable'
+        source_field: '@product_llv_color'
+        position: 10
+        defaultLabel: 'Sable'
+    product_llv_color_option_anthracite:
+        code: 'anthracite'
+        source_field: '@product_llv_color'
+        position: 11
+        defaultLabel: 'Anthracite'
+    product_llv_origin_option_france:
+        code: 'france'
+        source_field: '@product_llv_origin'
+        position: 0
+        defaultLabel: 'France'
+    product_llv_origin_option_portugal:
+        code: 'portugal'
+        source_field: '@product_llv_origin'
+        position: 1
+        defaultLabel: 'Portugal'
+    product_llv_origin_option_italie:
+        code: 'italie'
+        source_field: '@product_llv_origin'
+        position: 2
+        defaultLabel: 'Italie'
+    product_llv_origin_option_allemagne:
+        code: 'allemagne'
+        source_field: '@product_llv_origin'
+        position: 3
+        defaultLabel: 'Allemagne'
+    product_llv_origin_option_pologne:
+        code: 'pologne'
+        source_field: '@product_llv_origin'
+        position: 4
+        defaultLabel: 'Pologne'
+    product_llv_origin_option_suede:
+        code: 'suede'
+        source_field: '@product_llv_origin'
+        position: 5
+        defaultLabel: 'Suède'
+    product_llv_origin_option_espagne:
+        code: 'espagne'
+        source_field: '@product_llv_origin'
+        position: 6
+        defaultLabel: 'Espagne'
+    product_llv_ruling_option_seyes:
+        code: 'seyes'
+        source_field: '@product_llv_ruling'
+        position: 0
+        defaultLabel: 'Seyès'
+    product_llv_ruling_option_ligne:
+        code: 'ligne'
+        source_field: '@product_llv_ruling'
+        position: 1
+        defaultLabel: 'Ligné'
+    product_llv_ruling_option_quadrille_5:
+        code: 'quadrille-5'
+        source_field: '@product_llv_ruling'
+        position: 2
+        defaultLabel: 'Quadrillé 5 mm'
+    product_llv_ruling_option_pointille:
+        code: 'pointille'
+        source_field: '@product_llv_ruling'
+        position: 3
+        defaultLabel: 'Pointillé'
+    product_llv_ruling_option_uni:
+        code: 'uni'
+        source_field: '@product_llv_ruling'
+        position: 4
+        defaultLabel: 'Uni'
+    product_llv_ruling_option_portees:
+        code: 'portees'
+        source_field: '@product_llv_ruling'
+        position: 5
+        defaultLabel: 'Portées musicales'
+    product_llv_format_option_a6:
+        code: 'a6'
+        source_field: '@product_llv_format'
+        position: 0
+        defaultLabel: 'A6'
+    product_llv_format_option_a5:
+        code: 'a5'
+        source_field: '@product_llv_format'
+        position: 1
+        defaultLabel: 'A5'
+    product_llv_format_option_b5:
+        code: 'b5'
+        source_field: '@product_llv_format'
+        position: 2
+        defaultLabel: 'B5'
+    product_llv_format_option_a4:
+        code: 'a4'
+        source_field: '@product_llv_format'
+        position: 3
+        defaultLabel: 'A4'
+    product_llv_format_option_a3:
+        code: 'a3'
+        source_field: '@product_llv_format'
+        position: 4
+        defaultLabel: 'A3'
+    product_llv_format_option_carre_15:
+        code: 'carre-15'
+        source_field: '@product_llv_format'
+        position: 5
+        defaultLabel: '15 x 15 cm'
+    product_llv_format_option_poche:
+        code: 'poche'
+        source_field: '@product_llv_format'
+        position: 6
+        defaultLabel: 'Poche'
+    product_llv_binding_option_spirale:
+        code: 'spirale'
+        source_field: '@product_llv_binding'
+        position: 0
+        defaultLabel: 'Spirale'
+    product_llv_binding_option_spirale_double:
+        code: 'spirale-double'
+        source_field: '@product_llv_binding'
+        position: 1
+        defaultLabel: 'Double spirale'
+    product_llv_binding_option_cousu:
+        code: 'cousu'
+        source_field: '@product_llv_binding'
+        position: 2
+        defaultLabel: 'Cousu'
+    product_llv_binding_option_agrafe:
+        code: 'agrafe'
+        source_field: '@product_llv_binding'
+        position: 3
+        defaultLabel: 'Agrafé'
+    product_llv_binding_option_dos_carre_colle:
+        code: 'dos-carre-colle'
+        source_field: '@product_llv_binding'
+        position: 4
+        defaultLabel: 'Dos carré collé'
+    product_llv_binding_option_relie:
+        code: 'relie'
+        source_field: '@product_llv_binding'
+        position: 5
+        defaultLabel: 'Relié'
+    product_llv_binding_option_broche:
+        code: 'broche'
+        source_field: '@product_llv_binding'
+        position: 6
+        defaultLabel: 'Broché'
+    product_llv_author_option_jane_austen:
+        code: 'jane-austen'
+        source_field: '@product_llv_author'
+        position: 0
+        defaultLabel: 'Jane Austen'
+    product_llv_author_option_victor_hugo:
+        code: 'victor-hugo'
+        source_field: '@product_llv_author'
+        position: 1
+        defaultLabel: 'Victor Hugo'
+    product_llv_author_option_jules_verne:
+        code: 'jules-verne'
+        source_field: '@product_llv_author'
+        position: 2
+        defaultLabel: 'Jules Verne'
+    product_llv_author_option_charles_dickens:
+        code: 'charles-dickens'
+        source_field: '@product_llv_author'
+        position: 3
+        defaultLabel: 'Charles Dickens'
+    product_llv_author_option_mary_shelley:
+        code: 'mary-shelley'
+        source_field: '@product_llv_author'
+        position: 4
+        defaultLabel: 'Mary Shelley'
+    product_llv_author_option_gustave_flaubert:
+        code: 'gustave-flaubert'
+        source_field: '@product_llv_author'
+        position: 5
+        defaultLabel: 'Gustave Flaubert'
+    product_llv_author_option_emily_bronte:
+        code: 'emily-bronte'
+        source_field: '@product_llv_author'
+        position: 6
+        defaultLabel: 'Emily Brontë'
+    product_llv_author_option_herman_melville:
+        code: 'herman-melville'
+        source_field: '@product_llv_author'
+        position: 7
+        defaultLabel: 'Herman Melville'
+    product_llv_author_option_franz_kafka:
+        code: 'franz-kafka'
+        source_field: '@product_llv_author'
+        position: 8
+        defaultLabel: 'Franz Kafka'
+    product_llv_author_option_goethe:
+        code: 'goethe'
+        source_field: '@product_llv_author'
+        position: 9
+        defaultLabel: 'Johann Wolfgang von Goethe'
+    product_llv_author_option_maupassant:
+        code: 'maupassant'
+        source_field: '@product_llv_author'
+        position: 10
+        defaultLabel: 'Guy de Maupassant'
+    product_llv_author_option_conan_doyle:
+        code: 'conan-doyle'
+        source_field: '@product_llv_author'
+        position: 11
+        defaultLabel: 'Arthur Conan Doyle'
+    product_llv_author_option_bram_stoker:
+        code: 'bram-stoker'
+        source_field: '@product_llv_author'
+        position: 12
+        defaultLabel: 'Bram Stoker'
+    product_llv_author_option_hg_wells:
+        code: 'hg-wells'
+        source_field: '@product_llv_author'
+        position: 13
+        defaultLabel: 'H. G. Wells'
+    product_llv_author_option_stevenson:
+        code: 'stevenson'
+        source_field: '@product_llv_author'
+        position: 14
+        defaultLabel: 'Robert Louis Stevenson'
+    product_llv_author_option_alcott:
+        code: 'alcott'
+        source_field: '@product_llv_author'
+        position: 15
+        defaultLabel: 'Louisa May Alcott'
+    product_llv_author_option_lewis_carroll:
+        code: 'lewis-carroll'
+        source_field: '@product_llv_author'
+        position: 16
+        defaultLabel: 'Lewis Carroll'
+    product_llv_author_option_edgar_allan_poe:
+        code: 'edgar-allan-poe'
+        source_field: '@product_llv_author'
+        position: 17
+        defaultLabel: 'Edgar Allan Poe'
+    product_llv_author_option_baudelaire:
+        code: 'baudelaire'
+        source_field: '@product_llv_author'
+        position: 18
+        defaultLabel: 'Charles Baudelaire'
+    product_llv_author_option_rimbaud:
+        code: 'rimbaud'
+        source_field: '@product_llv_author'
+        position: 19
+        defaultLabel: 'Arthur Rimbaud'
+    product_llv_author_option_grimm:
+        code: 'grimm'
+        source_field: '@product_llv_author'
+        position: 20
+        defaultLabel: 'Frères Grimm'
+    product_llv_author_option_jack_london:
+        code: 'jack-london'
+        source_field: '@product_llv_author'
+        position: 21
+        defaultLabel: 'Jack London'
+    product_llv_author_option_thoreau:
+        code: 'thoreau'
+        source_field: '@product_llv_author'
+        position: 22
+        defaultLabel: 'Henry David Thoreau'
+    product_llv_author_option_darwin:
+        code: 'darwin'
+        source_field: '@product_llv_author'
+        position: 23
+        defaultLabel: 'Charles Darwin'
+    product_llv_author_option_rousseau:
+        code: 'rousseau'
+        source_field: '@product_llv_author'
+        position: 24
+        defaultLabel: 'Jean-Jacques Rousseau'
+    product_llv_author_option_nietzsche:
+        code: 'nietzsche'
+        source_field: '@product_llv_author'
+        position: 25
+        defaultLabel: 'Friedrich Nietzsche'
+    product_llv_author_option_marc_aurele:
+        code: 'marc-aurele'
+        source_field: '@product_llv_author'
+        position: 26
+        defaultLabel: 'Marc Aurèle'
+    product_llv_author_option_homere:
+        code: 'homere'
+        source_field: '@product_llv_author'
+        position: 27
+        defaultLabel: 'Homère'
+    product_llv_language_option_francais:
+        code: 'francais'
+        source_field: '@product_llv_language'
+        position: 0
+        defaultLabel: 'Français'
+    product_llv_language_option_anglais:
+        code: 'anglais'
+        source_field: '@product_llv_language'
+        position: 1
+        defaultLabel: 'Anglais'
+    product_llv_language_option_allemand:
+        code: 'allemand'
+        source_field: '@product_llv_language'
+        position: 2
+        defaultLabel: 'Allemand'
+    product_llv_language_option_bilingue:
+        code: 'bilingue'
+        source_field: '@product_llv_language'
+        position: 3
+        defaultLabel: 'Bilingue'

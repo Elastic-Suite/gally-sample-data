@@ -29,7 +29,15 @@ class ElasticsearchCategoryFixtures extends Fixture
 
     public function load(ObjectManager $manager): void
     {
+        // See ElasticsearchProductFixtures: one call covers every localized catalog, and one
+        // document file per catalog folder.
         $this->entityIndicesFixtures->createEntityElasticsearchIndices('category');
-        $this->elasticsearchFixtures->loadFixturesDocumentFiles([__DIR__ . '/../DataFixtures/default/elasticsearch/categories_documents.json']);
+
+        $this->elasticsearchFixtures->loadFixturesDocumentFiles([
+            __DIR__ . '/../DataFixtures/default/elasticsearch/categories_documents.json',
+            __DIR__ . '/../DataFixtures/00_toolbox/elasticsearch/categories_documents.json',
+            __DIR__ . '/../DataFixtures/01_fashion/elasticsearch/categories_documents.json',
+            __DIR__ . '/../DataFixtures/02_papershop/elasticsearch/categories_documents.json',
+        ]);
     }
 }

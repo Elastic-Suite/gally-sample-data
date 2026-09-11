@@ -1,0 +1,109 @@
+include:
+    - shared_cms_source_field.yaml
+
+Gally\Metadata\Entity\SourceFieldOption:
+    cms_page_topic_option_reading:
+        code: 'reading'
+        source_field: '@cms_page_topic'
+        position: 10
+        defaultLabel: 'Lecture'
+    cms_page_topic_option_writing:
+        code: 'writing'
+        source_field: '@cms_page_topic'
+        position: 11
+        defaultLabel: 'Écriture'
+    cms_page_topic_option_workspace:
+        code: 'workspace'
+        source_field: '@cms_page_topic'
+        position: 12
+        defaultLabel: 'Espace de travail'
+    cms_page_topic_option_bookbinding:
+        code: 'bookbinding'
+        source_field: '@cms_page_topic'
+        position: 13
+        defaultLabel: 'Reliure'
+    cms_page_topic_option_paper_choice:
+        code: 'paper_choice'
+        source_field: '@cms_page_topic'
+        position: 14
+        defaultLabel: 'Choisir son papier'
+    cms_page_topic_option_furniture_care:
+        code: 'furniture_care'
+        source_field: '@cms_page_topic'
+        position: 15
+        defaultLabel: 'Entretien du mobilier'
+    cms_page_author_option_elise_marchand:
+        code: 'elise_marchand'
+        source_field: '@cms_page_author'
+        position: 10
+        defaultLabel: 'Élise Marchand'
+    cms_page_author_option_thomas_reverdy:
+        code: 'thomas_reverdy'
+        source_field: '@cms_page_author'
+        position: 11
+        defaultLabel: 'Thomas Reverdy'
+    cms_page_author_option_nadia_belkacem:
+        code: 'nadia_belkacem'
+        source_field: '@cms_page_author'
+        position: 12
+        defaultLabel: 'Nadia Belkacem'
+    cms_page_author_option_julien_ferrand:
+        code: 'julien_ferrand'
+        source_field: '@cms_page_author'
+        position: 13
+        defaultLabel: 'Julien Ferrand'
+    cms_page_author_option_margaux_dubreuil:
+        code: 'margaux_dubreuil'
+        source_field: '@cms_page_author'
+        position: 14
+        defaultLabel: 'Margaux Dubreuil'
+    cms_page_tags_option_notebooks:
+        code: 'notebooks'
+        source_field: '@cms_page_tags'
+        position: 10
+        defaultLabel: 'Carnets'
+    cms_page_tags_option_fountain_pens:
+        code: 'fountain_pens'
+        source_field: '@cms_page_tags'
+        position: 11
+        defaultLabel: 'Stylos plume'
+    cms_page_tags_option_paper:
+        code: 'paper'
+        source_field: '@cms_page_tags'
+        position: 12
+        defaultLabel: 'Papier'
+    cms_page_tags_option_classics:
+        code: 'classics'
+        source_field: '@cms_page_tags'
+        position: 13
+        defaultLabel: 'Classiques'
+    cms_page_tags_option_public_domain:
+        code: 'public_domain'
+        source_field: '@cms_page_tags'
+        position: 14
+        defaultLabel: 'Domaine public'
+    cms_page_tags_option_bookcases:
+        code: 'bookcases'
+        source_field: '@cms_page_tags'
+        position: 15
+        defaultLabel: 'Bibliothèques'
+    cms_page_tags_option_desks:
+        code: 'desks'
+        source_field: '@cms_page_tags'
+        position: 16
+        defaultLabel: 'Bureaux'
+    cms_page_tags_option_lighting:
+        code: 'lighting'
+        source_field: '@cms_page_tags'
+        position: 17
+        defaultLabel: 'Éclairage'
+    cms_page_tags_option_ergonomics:
+        code: 'ergonomics'
+        source_field: '@cms_page_tags'
+        position: 18
+        defaultLabel: 'Ergonomie'
+    cms_page_tags_option_gift_ideas:
+        code: 'gift_ideas'
+        source_field: '@cms_page_tags'
+        position: 19
+        defaultLabel: 'Idées cadeaux'

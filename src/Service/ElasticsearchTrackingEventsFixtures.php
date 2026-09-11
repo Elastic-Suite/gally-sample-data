@@ -29,9 +29,20 @@ class ElasticsearchTrackingEventsFixtures extends Fixture
 
     public function load(ObjectManager $manager): void
     {
+        // Called once, from here only. Unlike the index equivalents, this drops the data stream,
+        // its ISM policy and its index template before recreating them, so a second service
+        // calling it again would wipe whatever the first had already indexed. It iterates every
+        // localized catalog, so every catalog folder's data streams come from this one call.
         $this->entityDataStreamsFixtures->createEntityElasticsearchDataStreams('tracking_event');
-        $this->elasticsearchFixtures->loadFixturesDocumentFiles( // ); loadFixturesDocumentFilesForDataStream(
-            [__DIR__ . '/../DataFixtures/default/elasticsearch/tracking_event_documents.json']
-        );
+
+        // One line per catalog folder. A data stream is written with op_type `create`, not
+        // `index`, so a duplicate event id inside one stream is a 409 that fails the whole load
+        // rather than silently overwriting the way the product documents would.
+        $this->elasticsearchFixtures->loadFixturesDocumentFiles([
+            __DIR__ . '/../DataFixtures/default/elasticsearch/tracking_event_documents.json',
+            __DIR__ . '/../DataFixtures/00_toolbox/elasticsearch/tracking_event_documents.json',
+            __DIR__ . '/../DataFixtures/01_fashion/elasticsearch/tracking_event_documents.json',
+            __DIR__ . '/../DataFixtures/02_papershop/elasticsearch/tracking_event_documents.json',
+        ]);
     }
 }

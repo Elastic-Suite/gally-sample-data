@@ -1,0 +1,3029 @@
+[
+  {
+    "index_name": "gally_localized_catalog_fashion_fr_category",
+    "documents": [
+      {
+        "id": "cat_fio_1",
+        "path": "cat_fio_1",
+        "level": "1",
+        "position": "1",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Toute la mode"
+        ]
+      },
+      {
+        "id": "cat_fio_2",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_2",
+        "level": "2",
+        "position": "1",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Femme"
+        ],
+        "url_key": [
+          "femme"
+        ]
+      },
+      {
+        "id": "cat_fio_3",
+        "parentId": "cat_fio_2",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3",
+        "level": "3",
+        "position": "1",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Hauts"
+        ],
+        "url_key": [
+          "hauts-femme-2"
+        ]
+      },
+      {
+        "id": "cat_fio_4",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_4",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Tops & Blouses"
+        ],
+        "url_key": [
+          "tops-blouses"
+        ]
+      },
+      {
+        "id": "cat_fio_5",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_5",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "T-shirts & D\u00e9bardeurs"
+        ],
+        "url_key": [
+          "t-shirts-debardeurs"
+        ]
+      },
+      {
+        "id": "cat_fio_6",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_6",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Chemisiers"
+        ],
+        "url_key": [
+          "chemisiers"
+        ]
+      },
+      {
+        "id": "cat_fio_7",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_7",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bodies & Crop tops"
+        ],
+        "url_key": [
+          "bodies-crop-tops"
+        ]
+      },
+      {
+        "id": "cat_fio_8",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_8",
+        "level": "4",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Pulls & Gilets"
+        ],
+        "url_key": [
+          "pulls-gilets-femme"
+        ]
+      },
+      {
+        "id": "cat_fio_9",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_9",
+        "level": "4",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Maille & Tricot"
+        ],
+        "url_key": [
+          "maille-tricot"
+        ]
+      },
+      {
+        "id": "cat_fio_10",
+        "parentId": "cat_fio_2",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10",
+        "level": "3",
+        "position": "2",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bas"
+        ],
+        "url_key": [
+          "bas-femme-2"
+        ]
+      },
+      {
+        "id": "cat_fio_11",
+        "parentId": "cat_fio_10",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10\/cat_fio_11",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Pantalons"
+        ],
+        "url_key": [
+          "pantalons"
+        ]
+      },
+      {
+        "id": "cat_fio_12",
+        "parentId": "cat_fio_10",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10\/cat_fio_12",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Jeans"
+        ],
+        "url_key": [
+          "jeans"
+        ]
+      },
+      {
+        "id": "cat_fio_13",
+        "parentId": "cat_fio_10",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10\/cat_fio_13",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Jupes"
+        ],
+        "url_key": [
+          "jupes"
+        ]
+      },
+      {
+        "id": "cat_fio_14",
+        "parentId": "cat_fio_10",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10\/cat_fio_14",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Shorts"
+        ],
+        "url_key": [
+          "shorts"
+        ]
+      },
+      {
+        "id": "cat_fio_15",
+        "parentId": "cat_fio_10",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10\/cat_fio_15",
+        "level": "4",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Leggings"
+        ],
+        "url_key": [
+          "leggings"
+        ]
+      },
+      {
+        "id": "cat_fio_16",
+        "parentId": "cat_fio_2",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16",
+        "level": "3",
+        "position": "3",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Robes & Combinaisons"
+        ],
+        "url_key": [
+          "robes-combinaisons"
+        ]
+      },
+      {
+        "id": "cat_fio_17",
+        "parentId": "cat_fio_16",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16\/cat_fio_17",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Robes courtes"
+        ],
+        "url_key": [
+          "robes-courtes"
+        ]
+      },
+      {
+        "id": "cat_fio_18",
+        "parentId": "cat_fio_16",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16\/cat_fio_18",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Robes midi"
+        ],
+        "url_key": [
+          "robes-midi"
+        ]
+      },
+      {
+        "id": "cat_fio_19",
+        "parentId": "cat_fio_16",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16\/cat_fio_19",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Robes longues"
+        ],
+        "url_key": [
+          "robes-longues"
+        ]
+      },
+      {
+        "id": "cat_fio_20",
+        "parentId": "cat_fio_16",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16\/cat_fio_20",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Robes de soir\u00e9e"
+        ],
+        "url_key": [
+          "robes-soiree"
+        ]
+      },
+      {
+        "id": "cat_fio_21",
+        "parentId": "cat_fio_16",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16\/cat_fio_21",
+        "level": "4",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Combinaisons"
+        ],
+        "url_key": [
+          "combinaisons"
+        ]
+      },
+      {
+        "id": "cat_fio_22",
+        "parentId": "cat_fio_2",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_22",
+        "level": "3",
+        "position": "4",
+        "children_count": "4",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Manteaux & Vestes"
+        ],
+        "url_key": [
+          "manteaux-vestes-homme-2"
+        ]
+      },
+      {
+        "id": "cat_fio_23",
+        "parentId": "cat_fio_22",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_22\/cat_fio_23",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Trenchs & Manteaux laine"
+        ],
+        "url_key": [
+          "trenchs-manteaux-laine"
+        ]
+      },
+      {
+        "id": "cat_fio_24",
+        "parentId": "cat_fio_22",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_22\/cat_fio_24",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Blousons & Vestes en jean"
+        ],
+        "url_key": [
+          "blousons-vestes-en-jean"
+        ]
+      },
+      {
+        "id": "cat_fio_25",
+        "parentId": "cat_fio_22",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_22\/cat_fio_25",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Doudounes"
+        ],
+        "url_key": [
+          "doudounes"
+        ]
+      },
+      {
+        "id": "cat_fio_26",
+        "parentId": "cat_fio_22",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_22\/cat_fio_26",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Capes & Ponchos"
+        ],
+        "url_key": [
+          "capes-ponchos"
+        ]
+      },
+      {
+        "id": "cat_fio_27",
+        "parentId": "cat_fio_2",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27",
+        "level": "3",
+        "position": "5",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Lingerie & Homewear"
+        ],
+        "url_key": [
+          "lingerie-homewear"
+        ]
+      },
+      {
+        "id": "cat_fio_28",
+        "parentId": "cat_fio_27",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27\/cat_fio_28",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Soutiens-gorge"
+        ],
+        "url_key": [
+          "soutiens-gorge"
+        ]
+      },
+      {
+        "id": "cat_fio_29",
+        "parentId": "cat_fio_27",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27\/cat_fio_29",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Culottes & Strings"
+        ],
+        "url_key": [
+          "culottes-strings"
+        ]
+      },
+      {
+        "id": "cat_fio_30",
+        "parentId": "cat_fio_27",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27\/cat_fio_30",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Pyjamas & Nuisettes"
+        ],
+        "url_key": [
+          "pyjamas-nuisettes"
+        ]
+      },
+      {
+        "id": "cat_fio_31",
+        "parentId": "cat_fio_27",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27\/cat_fio_31",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bodies lingerie"
+        ],
+        "url_key": [
+          "bodies-lingerie"
+        ]
+      },
+      {
+        "id": "cat_fio_32",
+        "parentId": "cat_fio_27",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27\/cat_fio_32",
+        "level": "4",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Collants & Chaussettes"
+        ],
+        "url_key": [
+          "collants-chaussettes"
+        ]
+      },
+      {
+        "id": "cat_fio_33",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_33",
+        "level": "2",
+        "position": "2",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Homme"
+        ],
+        "url_key": [
+          "homme"
+        ]
+      },
+      {
+        "id": "cat_fio_34",
+        "parentId": "cat_fio_33",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_34",
+        "level": "3",
+        "position": "1",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Hauts"
+        ],
+        "url_key": [
+          "hauts-homme"
+        ]
+      },
+      {
+        "id": "cat_fio_35",
+        "parentId": "cat_fio_34",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_34\/cat_fio_35",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Chemises"
+        ],
+        "url_key": [
+          "chemises"
+        ]
+      },
+      {
+        "id": "cat_fio_36",
+        "parentId": "cat_fio_34",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_34\/cat_fio_36",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "T-shirts & Polos"
+        ],
+        "url_key": [
+          "tshirts-polos-homme"
+        ]
+      },
+      {
+        "id": "cat_fio_37",
+        "parentId": "cat_fio_34",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_34\/cat_fio_37",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Pulls & Sweats"
+        ],
+        "url_key": [
+          "pulls-sweats-homme"
+        ]
+      },
+      {
+        "id": "cat_fio_38",
+        "parentId": "cat_fio_33",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_38",
+        "level": "3",
+        "position": "2",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bas"
+        ],
+        "url_key": [
+          "bas-homme"
+        ]
+      },
+      {
+        "id": "cat_fio_39",
+        "parentId": "cat_fio_38",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_38\/cat_fio_39",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Pantalons & Chinos"
+        ],
+        "url_key": [
+          "pantalons-chinos"
+        ]
+      },
+      {
+        "id": "cat_fio_40",
+        "parentId": "cat_fio_38",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_38\/cat_fio_40",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Jeans"
+        ],
+        "url_key": [
+          "bas-homme-jeans"
+        ]
+      },
+      {
+        "id": "cat_fio_41",
+        "parentId": "cat_fio_38",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_38\/cat_fio_41",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Shorts"
+        ],
+        "url_key": [
+          "bas-homme-shorts"
+        ]
+      },
+      {
+        "id": "cat_fio_42",
+        "parentId": "cat_fio_33",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_42",
+        "level": "3",
+        "position": "3",
+        "children_count": "1",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Manteaux & Vestes"
+        ],
+        "url_key": [
+          "manteaux-vestes-homme"
+        ]
+      },
+      {
+        "id": "cat_fio_43",
+        "parentId": "cat_fio_42",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_42\/cat_fio_43",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Vestes & Blazers"
+        ],
+        "url_key": [
+          "vestes-blazers"
+        ]
+      },
+      {
+        "id": "cat_fio_44",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_44",
+        "level": "2",
+        "position": "3",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Chaussures"
+        ],
+        "url_key": [
+          "chaussures"
+        ]
+      },
+      {
+        "id": "cat_fio_45",
+        "parentId": "cat_fio_44",
+        "path": "cat_fio_1\/cat_fio_44\/cat_fio_45",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Baskets & Sneakers"
+        ],
+        "url_key": [
+          "baskets-sneakers"
+        ]
+      },
+      {
+        "id": "cat_fio_46",
+        "parentId": "cat_fio_44",
+        "path": "cat_fio_1\/cat_fio_44\/cat_fio_46",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Escarpins & Ballerines"
+        ],
+        "url_key": [
+          "escarpins-ballerines"
+        ]
+      },
+      {
+        "id": "cat_fio_47",
+        "parentId": "cat_fio_44",
+        "path": "cat_fio_1\/cat_fio_44\/cat_fio_47",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bottes & Bottines"
+        ],
+        "url_key": [
+          "bottes-bottines"
+        ]
+      },
+      {
+        "id": "cat_fio_48",
+        "parentId": "cat_fio_44",
+        "path": "cat_fio_1\/cat_fio_44\/cat_fio_48",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sandales, Mules & Claquettes"
+        ],
+        "url_key": [
+          "sandales-mules-claquettes"
+        ]
+      },
+      {
+        "id": "cat_fio_49",
+        "parentId": "cat_fio_44",
+        "path": "cat_fio_1\/cat_fio_44\/cat_fio_49",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Mocassins & Derbies"
+        ],
+        "url_key": [
+          "mocassins-derbies"
+        ]
+      },
+      {
+        "id": "cat_fio_50",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_50",
+        "level": "2",
+        "position": "4",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sacs & Maroquinerie"
+        ],
+        "url_key": [
+          "sacs-maroquinerie"
+        ]
+      },
+      {
+        "id": "cat_fio_51",
+        "parentId": "cat_fio_50",
+        "path": "cat_fio_1\/cat_fio_50\/cat_fio_51",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sacs \u00e0 main & Pochettes"
+        ],
+        "url_key": [
+          "sacs-a-main-pochettes"
+        ]
+      },
+      {
+        "id": "cat_fio_52",
+        "parentId": "cat_fio_50",
+        "path": "cat_fio_1\/cat_fio_50\/cat_fio_52",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Petite maroquinerie"
+        ],
+        "url_key": [
+          "petite-maroquinerie"
+        ]
+      },
+      {
+        "id": "cat_fio_53",
+        "parentId": "cat_fio_50",
+        "path": "cat_fio_1\/cat_fio_50\/cat_fio_53",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bagages & Voyage"
+        ],
+        "url_key": [
+          "bagages-voyage"
+        ]
+      },
+      {
+        "id": "cat_fio_54",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_54",
+        "level": "2",
+        "position": "5",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Accessoires & Bijoux"
+        ],
+        "url_key": [
+          "accessoires-bijoux"
+        ]
+      },
+      {
+        "id": "cat_fio_55",
+        "parentId": "cat_fio_54",
+        "path": "cat_fio_1\/cat_fio_54\/cat_fio_55",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Ceintures & Accessoires textiles"
+        ],
+        "url_key": [
+          "ceintures-accessoires-textiles"
+        ]
+      },
+      {
+        "id": "cat_fio_56",
+        "parentId": "cat_fio_54",
+        "path": "cat_fio_1\/cat_fio_54\/cat_fio_56",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Lunettes de soleil"
+        ],
+        "url_key": [
+          "lunettes-soleil"
+        ]
+      },
+      {
+        "id": "cat_fio_57",
+        "parentId": "cat_fio_54",
+        "path": "cat_fio_1\/cat_fio_54\/cat_fio_57",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Chapeaux & Bonnets"
+        ],
+        "url_key": [
+          "chapeaux-bonnets"
+        ]
+      },
+      {
+        "id": "cat_fio_58",
+        "parentId": "cat_fio_54",
+        "path": "cat_fio_1\/cat_fio_54\/cat_fio_58",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bijoux"
+        ],
+        "url_key": [
+          "bijoux"
+        ]
+      },
+      {
+        "id": "cat_fio_59",
+        "parentId": "cat_fio_54",
+        "path": "cat_fio_1\/cat_fio_54\/cat_fio_59",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Montres"
+        ],
+        "url_key": [
+          "montres"
+        ]
+      },
+      {
+        "id": "cat_fio_60",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_60",
+        "level": "2",
+        "position": "6",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sport & Performance"
+        ],
+        "url_key": [
+          "sport-performance"
+        ]
+      },
+      {
+        "id": "cat_fio_61",
+        "parentId": "cat_fio_60",
+        "path": "cat_fio_1\/cat_fio_60\/cat_fio_61",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Leggings & Brassi\u00e8res"
+        ],
+        "url_key": [
+          "leggings-brassieres"
+        ]
+      },
+      {
+        "id": "cat_fio_62",
+        "parentId": "cat_fio_60",
+        "path": "cat_fio_1\/cat_fio_60\/cat_fio_62",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Hauts & Vestes techniques"
+        ],
+        "url_key": [
+          "hauts-vestes-techniques"
+        ]
+      },
+      {
+        "id": "cat_fio_63",
+        "parentId": "cat_fio_60",
+        "path": "cat_fio_1\/cat_fio_60\/cat_fio_63",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Shorts & Joggings"
+        ],
+        "url_key": [
+          "shorts-joggings"
+        ]
+      }
+    ]
+  },
+  {
+    "index_name": "gally_localized_catalog_fashion_en_category",
+    "documents": [
+      {
+        "id": "cat_fio_1",
+        "path": "cat_fio_1",
+        "level": "1",
+        "position": "1",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "All fashion"
+        ]
+      },
+      {
+        "id": "cat_fio_2",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_2",
+        "level": "2",
+        "position": "1",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Women"
+        ],
+        "url_key": [
+          "femme"
+        ]
+      },
+      {
+        "id": "cat_fio_3",
+        "parentId": "cat_fio_2",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3",
+        "level": "3",
+        "position": "1",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Tops"
+        ],
+        "url_key": [
+          "hauts-femme-2"
+        ]
+      },
+      {
+        "id": "cat_fio_4",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_4",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Tops & Blouses"
+        ],
+        "url_key": [
+          "tops-blouses"
+        ]
+      },
+      {
+        "id": "cat_fio_5",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_5",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "T-shirts & Tank Tops"
+        ],
+        "url_key": [
+          "t-shirts-debardeurs"
+        ]
+      },
+      {
+        "id": "cat_fio_6",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_6",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Blouses"
+        ],
+        "url_key": [
+          "chemisiers"
+        ]
+      },
+      {
+        "id": "cat_fio_7",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_7",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bodysuits & Crop Tops"
+        ],
+        "url_key": [
+          "bodies-crop-tops"
+        ]
+      },
+      {
+        "id": "cat_fio_8",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_8",
+        "level": "4",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Jumpers & Cardigans"
+        ],
+        "url_key": [
+          "pulls-gilets-femme"
+        ]
+      },
+      {
+        "id": "cat_fio_9",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_9",
+        "level": "4",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Knitwear"
+        ],
+        "url_key": [
+          "maille-tricot"
+        ]
+      },
+      {
+        "id": "cat_fio_10",
+        "parentId": "cat_fio_2",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10",
+        "level": "3",
+        "position": "2",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bottoms"
+        ],
+        "url_key": [
+          "bas-femme-2"
+        ]
+      },
+      {
+        "id": "cat_fio_11",
+        "parentId": "cat_fio_10",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10\/cat_fio_11",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Trousers"
+        ],
+        "url_key": [
+          "pantalons"
+        ]
+      },
+      {
+        "id": "cat_fio_12",
+        "parentId": "cat_fio_10",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10\/cat_fio_12",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Jeans"
+        ],
+        "url_key": [
+          "jeans"
+        ]
+      },
+      {
+        "id": "cat_fio_13",
+        "parentId": "cat_fio_10",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10\/cat_fio_13",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Skirts"
+        ],
+        "url_key": [
+          "jupes"
+        ]
+      },
+      {
+        "id": "cat_fio_14",
+        "parentId": "cat_fio_10",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10\/cat_fio_14",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Shorts"
+        ],
+        "url_key": [
+          "shorts"
+        ]
+      },
+      {
+        "id": "cat_fio_15",
+        "parentId": "cat_fio_10",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10\/cat_fio_15",
+        "level": "4",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Leggings"
+        ],
+        "url_key": [
+          "leggings"
+        ]
+      },
+      {
+        "id": "cat_fio_16",
+        "parentId": "cat_fio_2",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16",
+        "level": "3",
+        "position": "3",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Dresses & Jumpsuits"
+        ],
+        "url_key": [
+          "robes-combinaisons"
+        ]
+      },
+      {
+        "id": "cat_fio_17",
+        "parentId": "cat_fio_16",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16\/cat_fio_17",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Short Dresses"
+        ],
+        "url_key": [
+          "robes-courtes"
+        ]
+      },
+      {
+        "id": "cat_fio_18",
+        "parentId": "cat_fio_16",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16\/cat_fio_18",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Midi Dresses"
+        ],
+        "url_key": [
+          "robes-midi"
+        ]
+      },
+      {
+        "id": "cat_fio_19",
+        "parentId": "cat_fio_16",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16\/cat_fio_19",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Long Dresses"
+        ],
+        "url_key": [
+          "robes-longues"
+        ]
+      },
+      {
+        "id": "cat_fio_20",
+        "parentId": "cat_fio_16",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16\/cat_fio_20",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Evening Dresses"
+        ],
+        "url_key": [
+          "robes-soiree"
+        ]
+      },
+      {
+        "id": "cat_fio_21",
+        "parentId": "cat_fio_16",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16\/cat_fio_21",
+        "level": "4",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Jumpsuits"
+        ],
+        "url_key": [
+          "combinaisons"
+        ]
+      },
+      {
+        "id": "cat_fio_22",
+        "parentId": "cat_fio_2",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_22",
+        "level": "3",
+        "position": "4",
+        "children_count": "4",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Coats & Jackets"
+        ],
+        "url_key": [
+          "manteaux-vestes-homme-2"
+        ]
+      },
+      {
+        "id": "cat_fio_23",
+        "parentId": "cat_fio_22",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_22\/cat_fio_23",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Trench Coats & Wool Coats"
+        ],
+        "url_key": [
+          "trenchs-manteaux-laine"
+        ]
+      },
+      {
+        "id": "cat_fio_24",
+        "parentId": "cat_fio_22",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_22\/cat_fio_24",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Denim Jackets"
+        ],
+        "url_key": [
+          "blousons-vestes-en-jean"
+        ]
+      },
+      {
+        "id": "cat_fio_25",
+        "parentId": "cat_fio_22",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_22\/cat_fio_25",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Puffer Jackets"
+        ],
+        "url_key": [
+          "doudounes"
+        ]
+      },
+      {
+        "id": "cat_fio_26",
+        "parentId": "cat_fio_22",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_22\/cat_fio_26",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Capes & Ponchos"
+        ],
+        "url_key": [
+          "capes-ponchos"
+        ]
+      },
+      {
+        "id": "cat_fio_27",
+        "parentId": "cat_fio_2",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27",
+        "level": "3",
+        "position": "5",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Lingerie & Homewear"
+        ],
+        "url_key": [
+          "lingerie-homewear"
+        ]
+      },
+      {
+        "id": "cat_fio_28",
+        "parentId": "cat_fio_27",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27\/cat_fio_28",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bras"
+        ],
+        "url_key": [
+          "soutiens-gorge"
+        ]
+      },
+      {
+        "id": "cat_fio_29",
+        "parentId": "cat_fio_27",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27\/cat_fio_29",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Briefs & Thongs"
+        ],
+        "url_key": [
+          "culottes-strings"
+        ]
+      },
+      {
+        "id": "cat_fio_30",
+        "parentId": "cat_fio_27",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27\/cat_fio_30",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Pyjamas & Nightdresses"
+        ],
+        "url_key": [
+          "pyjamas-nuisettes"
+        ]
+      },
+      {
+        "id": "cat_fio_31",
+        "parentId": "cat_fio_27",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27\/cat_fio_31",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Lingerie Bodysuits"
+        ],
+        "url_key": [
+          "bodies-lingerie"
+        ]
+      },
+      {
+        "id": "cat_fio_32",
+        "parentId": "cat_fio_27",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27\/cat_fio_32",
+        "level": "4",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Tights & Socks"
+        ],
+        "url_key": [
+          "collants-chaussettes"
+        ]
+      },
+      {
+        "id": "cat_fio_33",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_33",
+        "level": "2",
+        "position": "2",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Men"
+        ],
+        "url_key": [
+          "homme"
+        ]
+      },
+      {
+        "id": "cat_fio_34",
+        "parentId": "cat_fio_33",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_34",
+        "level": "3",
+        "position": "1",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Tops"
+        ],
+        "url_key": [
+          "hauts-homme"
+        ]
+      },
+      {
+        "id": "cat_fio_35",
+        "parentId": "cat_fio_34",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_34\/cat_fio_35",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Shirts"
+        ],
+        "url_key": [
+          "chemises"
+        ]
+      },
+      {
+        "id": "cat_fio_36",
+        "parentId": "cat_fio_34",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_34\/cat_fio_36",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "T-shirts & Polos"
+        ],
+        "url_key": [
+          "tshirts-polos-homme"
+        ]
+      },
+      {
+        "id": "cat_fio_37",
+        "parentId": "cat_fio_34",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_34\/cat_fio_37",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Jumpers & Sweatshirts"
+        ],
+        "url_key": [
+          "pulls-sweats-homme"
+        ]
+      },
+      {
+        "id": "cat_fio_38",
+        "parentId": "cat_fio_33",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_38",
+        "level": "3",
+        "position": "2",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bottoms"
+        ],
+        "url_key": [
+          "bas-homme"
+        ]
+      },
+      {
+        "id": "cat_fio_39",
+        "parentId": "cat_fio_38",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_38\/cat_fio_39",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Trousers & Chinos"
+        ],
+        "url_key": [
+          "pantalons-chinos"
+        ]
+      },
+      {
+        "id": "cat_fio_40",
+        "parentId": "cat_fio_38",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_38\/cat_fio_40",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Jeans"
+        ],
+        "url_key": [
+          "bas-homme-jeans"
+        ]
+      },
+      {
+        "id": "cat_fio_41",
+        "parentId": "cat_fio_38",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_38\/cat_fio_41",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Shorts"
+        ],
+        "url_key": [
+          "bas-homme-shorts"
+        ]
+      },
+      {
+        "id": "cat_fio_42",
+        "parentId": "cat_fio_33",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_42",
+        "level": "3",
+        "position": "3",
+        "children_count": "1",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Coats & Jackets"
+        ],
+        "url_key": [
+          "manteaux-vestes-homme"
+        ]
+      },
+      {
+        "id": "cat_fio_43",
+        "parentId": "cat_fio_42",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_42\/cat_fio_43",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Jackets & Blazers"
+        ],
+        "url_key": [
+          "vestes-blazers"
+        ]
+      },
+      {
+        "id": "cat_fio_44",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_44",
+        "level": "2",
+        "position": "3",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Shoes"
+        ],
+        "url_key": [
+          "chaussures"
+        ]
+      },
+      {
+        "id": "cat_fio_45",
+        "parentId": "cat_fio_44",
+        "path": "cat_fio_1\/cat_fio_44\/cat_fio_45",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Trainers & Sneakers"
+        ],
+        "url_key": [
+          "baskets-sneakers"
+        ]
+      },
+      {
+        "id": "cat_fio_46",
+        "parentId": "cat_fio_44",
+        "path": "cat_fio_1\/cat_fio_44\/cat_fio_46",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Heels & Ballet Flats"
+        ],
+        "url_key": [
+          "escarpins-ballerines"
+        ]
+      },
+      {
+        "id": "cat_fio_47",
+        "parentId": "cat_fio_44",
+        "path": "cat_fio_1\/cat_fio_44\/cat_fio_47",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Boots & Ankle Boots"
+        ],
+        "url_key": [
+          "bottes-bottines"
+        ]
+      },
+      {
+        "id": "cat_fio_48",
+        "parentId": "cat_fio_44",
+        "path": "cat_fio_1\/cat_fio_44\/cat_fio_48",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sandals, Mules & Sliders"
+        ],
+        "url_key": [
+          "sandales-mules-claquettes"
+        ]
+      },
+      {
+        "id": "cat_fio_49",
+        "parentId": "cat_fio_44",
+        "path": "cat_fio_1\/cat_fio_44\/cat_fio_49",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Loafers & Derbies"
+        ],
+        "url_key": [
+          "mocassins-derbies"
+        ]
+      },
+      {
+        "id": "cat_fio_50",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_50",
+        "level": "2",
+        "position": "4",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bags & Leather Goods"
+        ],
+        "url_key": [
+          "sacs-maroquinerie"
+        ]
+      },
+      {
+        "id": "cat_fio_51",
+        "parentId": "cat_fio_50",
+        "path": "cat_fio_1\/cat_fio_50\/cat_fio_51",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Handbags & Clutches"
+        ],
+        "url_key": [
+          "sacs-a-main-pochettes"
+        ]
+      },
+      {
+        "id": "cat_fio_52",
+        "parentId": "cat_fio_50",
+        "path": "cat_fio_1\/cat_fio_50\/cat_fio_52",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Small Leather Goods"
+        ],
+        "url_key": [
+          "petite-maroquinerie"
+        ]
+      },
+      {
+        "id": "cat_fio_53",
+        "parentId": "cat_fio_50",
+        "path": "cat_fio_1\/cat_fio_50\/cat_fio_53",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Luggage & Travel"
+        ],
+        "url_key": [
+          "bagages-voyage"
+        ]
+      },
+      {
+        "id": "cat_fio_54",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_54",
+        "level": "2",
+        "position": "5",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Accessories & Jewelry"
+        ],
+        "url_key": [
+          "accessoires-bijoux"
+        ]
+      },
+      {
+        "id": "cat_fio_55",
+        "parentId": "cat_fio_54",
+        "path": "cat_fio_1\/cat_fio_54\/cat_fio_55",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Belts & Textile Accessories"
+        ],
+        "url_key": [
+          "ceintures-accessoires-textiles"
+        ]
+      },
+      {
+        "id": "cat_fio_56",
+        "parentId": "cat_fio_54",
+        "path": "cat_fio_1\/cat_fio_54\/cat_fio_56",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sunglasses"
+        ],
+        "url_key": [
+          "lunettes-soleil"
+        ]
+      },
+      {
+        "id": "cat_fio_57",
+        "parentId": "cat_fio_54",
+        "path": "cat_fio_1\/cat_fio_54\/cat_fio_57",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Hats & Beanies"
+        ],
+        "url_key": [
+          "chapeaux-bonnets"
+        ]
+      },
+      {
+        "id": "cat_fio_58",
+        "parentId": "cat_fio_54",
+        "path": "cat_fio_1\/cat_fio_54\/cat_fio_58",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Jewelry"
+        ],
+        "url_key": [
+          "bijoux"
+        ]
+      },
+      {
+        "id": "cat_fio_59",
+        "parentId": "cat_fio_54",
+        "path": "cat_fio_1\/cat_fio_54\/cat_fio_59",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Watches"
+        ],
+        "url_key": [
+          "montres"
+        ]
+      },
+      {
+        "id": "cat_fio_60",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_60",
+        "level": "2",
+        "position": "6",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sport & Performance"
+        ],
+        "url_key": [
+          "sport-performance"
+        ]
+      },
+      {
+        "id": "cat_fio_61",
+        "parentId": "cat_fio_60",
+        "path": "cat_fio_1\/cat_fio_60\/cat_fio_61",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Leggings & Sports Bras"
+        ],
+        "url_key": [
+          "leggings-brassieres"
+        ]
+      },
+      {
+        "id": "cat_fio_62",
+        "parentId": "cat_fio_60",
+        "path": "cat_fio_1\/cat_fio_60\/cat_fio_62",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Technical Tops & Jackets"
+        ],
+        "url_key": [
+          "hauts-vestes-techniques"
+        ]
+      },
+      {
+        "id": "cat_fio_63",
+        "parentId": "cat_fio_60",
+        "path": "cat_fio_1\/cat_fio_60\/cat_fio_63",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Shorts & Joggers"
+        ],
+        "url_key": [
+          "shorts-joggings"
+        ]
+      }
+    ]
+  },
+  {
+    "index_name": "gally_localized_catalog_fashion_de_category",
+    "documents": [
+      {
+        "id": "cat_fio_1",
+        "path": "cat_fio_1",
+        "level": "1",
+        "position": "1",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Alle Mode"
+        ]
+      },
+      {
+        "id": "cat_fio_2",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_2",
+        "level": "2",
+        "position": "1",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Damen"
+        ],
+        "url_key": [
+          "femme"
+        ]
+      },
+      {
+        "id": "cat_fio_3",
+        "parentId": "cat_fio_2",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3",
+        "level": "3",
+        "position": "1",
+        "children_count": "6",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Oberteile"
+        ],
+        "url_key": [
+          "hauts-femme-2"
+        ]
+      },
+      {
+        "id": "cat_fio_4",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_4",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Tops & Blouses"
+        ],
+        "url_key": [
+          "tops-blouses"
+        ]
+      },
+      {
+        "id": "cat_fio_5",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_5",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "T-Shirts & Tr\u00e4gertops"
+        ],
+        "url_key": [
+          "t-shirts-debardeurs"
+        ]
+      },
+      {
+        "id": "cat_fio_6",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_6",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Blusen"
+        ],
+        "url_key": [
+          "chemisiers"
+        ]
+      },
+      {
+        "id": "cat_fio_7",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_7",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bodys & Crop Tops"
+        ],
+        "url_key": [
+          "bodies-crop-tops"
+        ]
+      },
+      {
+        "id": "cat_fio_8",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_8",
+        "level": "4",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Pullover & Strickjacken"
+        ],
+        "url_key": [
+          "pulls-gilets-femme"
+        ]
+      },
+      {
+        "id": "cat_fio_9",
+        "parentId": "cat_fio_3",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_3\/cat_fio_9",
+        "level": "4",
+        "position": "6",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Strickwaren"
+        ],
+        "url_key": [
+          "maille-tricot"
+        ]
+      },
+      {
+        "id": "cat_fio_10",
+        "parentId": "cat_fio_2",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10",
+        "level": "3",
+        "position": "2",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Unterteile"
+        ],
+        "url_key": [
+          "bas-femme-2"
+        ]
+      },
+      {
+        "id": "cat_fio_11",
+        "parentId": "cat_fio_10",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10\/cat_fio_11",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Hosen"
+        ],
+        "url_key": [
+          "pantalons"
+        ]
+      },
+      {
+        "id": "cat_fio_12",
+        "parentId": "cat_fio_10",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10\/cat_fio_12",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Jeans"
+        ],
+        "url_key": [
+          "jeans"
+        ]
+      },
+      {
+        "id": "cat_fio_13",
+        "parentId": "cat_fio_10",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10\/cat_fio_13",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "R\u00f6cke"
+        ],
+        "url_key": [
+          "jupes"
+        ]
+      },
+      {
+        "id": "cat_fio_14",
+        "parentId": "cat_fio_10",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10\/cat_fio_14",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Shorts"
+        ],
+        "url_key": [
+          "shorts"
+        ]
+      },
+      {
+        "id": "cat_fio_15",
+        "parentId": "cat_fio_10",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_10\/cat_fio_15",
+        "level": "4",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Leggings"
+        ],
+        "url_key": [
+          "leggings"
+        ]
+      },
+      {
+        "id": "cat_fio_16",
+        "parentId": "cat_fio_2",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16",
+        "level": "3",
+        "position": "3",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Kleider & Overalls"
+        ],
+        "url_key": [
+          "robes-combinaisons"
+        ]
+      },
+      {
+        "id": "cat_fio_17",
+        "parentId": "cat_fio_16",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16\/cat_fio_17",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Kurze Kleider"
+        ],
+        "url_key": [
+          "robes-courtes"
+        ]
+      },
+      {
+        "id": "cat_fio_18",
+        "parentId": "cat_fio_16",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16\/cat_fio_18",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Midikleider"
+        ],
+        "url_key": [
+          "robes-midi"
+        ]
+      },
+      {
+        "id": "cat_fio_19",
+        "parentId": "cat_fio_16",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16\/cat_fio_19",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Lange Kleider"
+        ],
+        "url_key": [
+          "robes-longues"
+        ]
+      },
+      {
+        "id": "cat_fio_20",
+        "parentId": "cat_fio_16",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16\/cat_fio_20",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Abendkleider"
+        ],
+        "url_key": [
+          "robes-soiree"
+        ]
+      },
+      {
+        "id": "cat_fio_21",
+        "parentId": "cat_fio_16",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_16\/cat_fio_21",
+        "level": "4",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Overalls"
+        ],
+        "url_key": [
+          "combinaisons"
+        ]
+      },
+      {
+        "id": "cat_fio_22",
+        "parentId": "cat_fio_2",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_22",
+        "level": "3",
+        "position": "4",
+        "children_count": "4",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "M\u00e4ntel & Jacken"
+        ],
+        "url_key": [
+          "manteaux-vestes-homme-2"
+        ]
+      },
+      {
+        "id": "cat_fio_23",
+        "parentId": "cat_fio_22",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_22\/cat_fio_23",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Trenchcoats & Wollm\u00e4ntel"
+        ],
+        "url_key": [
+          "trenchs-manteaux-laine"
+        ]
+      },
+      {
+        "id": "cat_fio_24",
+        "parentId": "cat_fio_22",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_22\/cat_fio_24",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Jeansjacken"
+        ],
+        "url_key": [
+          "blousons-vestes-en-jean"
+        ]
+      },
+      {
+        "id": "cat_fio_25",
+        "parentId": "cat_fio_22",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_22\/cat_fio_25",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Daunenjacken"
+        ],
+        "url_key": [
+          "doudounes"
+        ]
+      },
+      {
+        "id": "cat_fio_26",
+        "parentId": "cat_fio_22",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_22\/cat_fio_26",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Capes & Ponchos"
+        ],
+        "url_key": [
+          "capes-ponchos"
+        ]
+      },
+      {
+        "id": "cat_fio_27",
+        "parentId": "cat_fio_2",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27",
+        "level": "3",
+        "position": "5",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Dessous & Homewear"
+        ],
+        "url_key": [
+          "lingerie-homewear"
+        ]
+      },
+      {
+        "id": "cat_fio_28",
+        "parentId": "cat_fio_27",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27\/cat_fio_28",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "BHs"
+        ],
+        "url_key": [
+          "soutiens-gorge"
+        ]
+      },
+      {
+        "id": "cat_fio_29",
+        "parentId": "cat_fio_27",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27\/cat_fio_29",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Slips & Strings"
+        ],
+        "url_key": [
+          "culottes-strings"
+        ]
+      },
+      {
+        "id": "cat_fio_30",
+        "parentId": "cat_fio_27",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27\/cat_fio_30",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Pyjamas & Nachthemden"
+        ],
+        "url_key": [
+          "pyjamas-nuisettes"
+        ]
+      },
+      {
+        "id": "cat_fio_31",
+        "parentId": "cat_fio_27",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27\/cat_fio_31",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Dessous-Bodys"
+        ],
+        "url_key": [
+          "bodies-lingerie"
+        ]
+      },
+      {
+        "id": "cat_fio_32",
+        "parentId": "cat_fio_27",
+        "path": "cat_fio_1\/cat_fio_2\/cat_fio_27\/cat_fio_32",
+        "level": "4",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Strumpfhosen & Socken"
+        ],
+        "url_key": [
+          "collants-chaussettes"
+        ]
+      },
+      {
+        "id": "cat_fio_33",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_33",
+        "level": "2",
+        "position": "2",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Herren"
+        ],
+        "url_key": [
+          "homme"
+        ]
+      },
+      {
+        "id": "cat_fio_34",
+        "parentId": "cat_fio_33",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_34",
+        "level": "3",
+        "position": "1",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Oberteile"
+        ],
+        "url_key": [
+          "hauts-homme"
+        ]
+      },
+      {
+        "id": "cat_fio_35",
+        "parentId": "cat_fio_34",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_34\/cat_fio_35",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Hemden"
+        ],
+        "url_key": [
+          "chemises"
+        ]
+      },
+      {
+        "id": "cat_fio_36",
+        "parentId": "cat_fio_34",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_34\/cat_fio_36",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "T-Shirts & Polos"
+        ],
+        "url_key": [
+          "tshirts-polos-homme"
+        ]
+      },
+      {
+        "id": "cat_fio_37",
+        "parentId": "cat_fio_34",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_34\/cat_fio_37",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Pullover & Sweatshirts"
+        ],
+        "url_key": [
+          "pulls-sweats-homme"
+        ]
+      },
+      {
+        "id": "cat_fio_38",
+        "parentId": "cat_fio_33",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_38",
+        "level": "3",
+        "position": "2",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Unterteile"
+        ],
+        "url_key": [
+          "bas-homme"
+        ]
+      },
+      {
+        "id": "cat_fio_39",
+        "parentId": "cat_fio_38",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_38\/cat_fio_39",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Hosen & Chinos"
+        ],
+        "url_key": [
+          "pantalons-chinos"
+        ]
+      },
+      {
+        "id": "cat_fio_40",
+        "parentId": "cat_fio_38",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_38\/cat_fio_40",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Jeans"
+        ],
+        "url_key": [
+          "bas-homme-jeans"
+        ]
+      },
+      {
+        "id": "cat_fio_41",
+        "parentId": "cat_fio_38",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_38\/cat_fio_41",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Shorts"
+        ],
+        "url_key": [
+          "bas-homme-shorts"
+        ]
+      },
+      {
+        "id": "cat_fio_42",
+        "parentId": "cat_fio_33",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_42",
+        "level": "3",
+        "position": "3",
+        "children_count": "1",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "M\u00e4ntel & Jacken"
+        ],
+        "url_key": [
+          "manteaux-vestes-homme"
+        ]
+      },
+      {
+        "id": "cat_fio_43",
+        "parentId": "cat_fio_42",
+        "path": "cat_fio_1\/cat_fio_33\/cat_fio_42\/cat_fio_43",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Jacken & Blazer"
+        ],
+        "url_key": [
+          "vestes-blazers"
+        ]
+      },
+      {
+        "id": "cat_fio_44",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_44",
+        "level": "2",
+        "position": "3",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schuhe"
+        ],
+        "url_key": [
+          "chaussures"
+        ]
+      },
+      {
+        "id": "cat_fio_45",
+        "parentId": "cat_fio_44",
+        "path": "cat_fio_1\/cat_fio_44\/cat_fio_45",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sneaker & Turnschuhe"
+        ],
+        "url_key": [
+          "baskets-sneakers"
+        ]
+      },
+      {
+        "id": "cat_fio_46",
+        "parentId": "cat_fio_44",
+        "path": "cat_fio_1\/cat_fio_44\/cat_fio_46",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Pumps & Ballerinas"
+        ],
+        "url_key": [
+          "escarpins-ballerines"
+        ]
+      },
+      {
+        "id": "cat_fio_47",
+        "parentId": "cat_fio_44",
+        "path": "cat_fio_1\/cat_fio_44\/cat_fio_47",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Stiefel & Stiefeletten"
+        ],
+        "url_key": [
+          "bottes-bottines"
+        ]
+      },
+      {
+        "id": "cat_fio_48",
+        "parentId": "cat_fio_44",
+        "path": "cat_fio_1\/cat_fio_44\/cat_fio_48",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sandalen, Pantoletten & Slides"
+        ],
+        "url_key": [
+          "sandales-mules-claquettes"
+        ]
+      },
+      {
+        "id": "cat_fio_49",
+        "parentId": "cat_fio_44",
+        "path": "cat_fio_1\/cat_fio_44\/cat_fio_49",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Mokassins & Derbys"
+        ],
+        "url_key": [
+          "mocassins-derbies"
+        ]
+      },
+      {
+        "id": "cat_fio_50",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_50",
+        "level": "2",
+        "position": "4",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Taschen & Lederwaren"
+        ],
+        "url_key": [
+          "sacs-maroquinerie"
+        ]
+      },
+      {
+        "id": "cat_fio_51",
+        "parentId": "cat_fio_50",
+        "path": "cat_fio_1\/cat_fio_50\/cat_fio_51",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Handtaschen & Clutches"
+        ],
+        "url_key": [
+          "sacs-a-main-pochettes"
+        ]
+      },
+      {
+        "id": "cat_fio_52",
+        "parentId": "cat_fio_50",
+        "path": "cat_fio_1\/cat_fio_50\/cat_fio_52",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Kleinlederwaren"
+        ],
+        "url_key": [
+          "petite-maroquinerie"
+        ]
+      },
+      {
+        "id": "cat_fio_53",
+        "parentId": "cat_fio_50",
+        "path": "cat_fio_1\/cat_fio_50\/cat_fio_53",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Gep\u00e4ck & Reise"
+        ],
+        "url_key": [
+          "bagages-voyage"
+        ]
+      },
+      {
+        "id": "cat_fio_54",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_54",
+        "level": "2",
+        "position": "5",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Accessoires & Schmuck"
+        ],
+        "url_key": [
+          "accessoires-bijoux"
+        ]
+      },
+      {
+        "id": "cat_fio_55",
+        "parentId": "cat_fio_54",
+        "path": "cat_fio_1\/cat_fio_54\/cat_fio_55",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "G\u00fcrtel & Textilaccessoires"
+        ],
+        "url_key": [
+          "ceintures-accessoires-textiles"
+        ]
+      },
+      {
+        "id": "cat_fio_56",
+        "parentId": "cat_fio_54",
+        "path": "cat_fio_1\/cat_fio_54\/cat_fio_56",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sonnenbrillen"
+        ],
+        "url_key": [
+          "lunettes-soleil"
+        ]
+      },
+      {
+        "id": "cat_fio_57",
+        "parentId": "cat_fio_54",
+        "path": "cat_fio_1\/cat_fio_54\/cat_fio_57",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "H\u00fcte & M\u00fctzen"
+        ],
+        "url_key": [
+          "chapeaux-bonnets"
+        ]
+      },
+      {
+        "id": "cat_fio_58",
+        "parentId": "cat_fio_54",
+        "path": "cat_fio_1\/cat_fio_54\/cat_fio_58",
+        "level": "3",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schmuck"
+        ],
+        "url_key": [
+          "bijoux"
+        ]
+      },
+      {
+        "id": "cat_fio_59",
+        "parentId": "cat_fio_54",
+        "path": "cat_fio_1\/cat_fio_54\/cat_fio_59",
+        "level": "3",
+        "position": "5",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Uhren"
+        ],
+        "url_key": [
+          "montres"
+        ]
+      },
+      {
+        "id": "cat_fio_60",
+        "parentId": "cat_fio_1",
+        "path": "cat_fio_1\/cat_fio_60",
+        "level": "2",
+        "position": "6",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sport & Performance"
+        ],
+        "url_key": [
+          "sport-performance"
+        ]
+      },
+      {
+        "id": "cat_fio_61",
+        "parentId": "cat_fio_60",
+        "path": "cat_fio_1\/cat_fio_60\/cat_fio_61",
+        "level": "3",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Leggings & Sport-BHs"
+        ],
+        "url_key": [
+          "leggings-brassieres"
+        ]
+      },
+      {
+        "id": "cat_fio_62",
+        "parentId": "cat_fio_60",
+        "path": "cat_fio_1\/cat_fio_60\/cat_fio_62",
+        "level": "3",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Technische Oberteile & Jacken"
+        ],
+        "url_key": [
+          "hauts-vestes-techniques"
+        ]
+      },
+      {
+        "id": "cat_fio_63",
+        "parentId": "cat_fio_60",
+        "path": "cat_fio_1\/cat_fio_60\/cat_fio_63",
+        "level": "3",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Shorts & Jogginghosen"
+        ],
+        "url_key": [
+          "shorts-joggings"
+        ]
+      }
+    ]
+  }
+]

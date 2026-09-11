@@ -30,6 +30,15 @@ class ElasticsearchCmsPageFixtures extends Fixture
     public function load(ObjectManager $manager): void
     {
         $this->entityIndicesFixtures->createEntityElasticsearchIndices('cms_page');
-        $this->elasticsearchFixtures->loadFixturesDocumentFiles([__DIR__ . '/../DataFixtures/default/elasticsearch/cms_page_documents.json']);
+
+        // One line per catalog folder that has authored editorial content. The Magento demo the
+        // other catalogs are generated from ships none, so a folder without a cms_page document
+        // file simply does not appear here.
+        $this->elasticsearchFixtures->loadFixturesDocumentFiles([
+            __DIR__ . '/../DataFixtures/default/elasticsearch/cms_page_documents.json',
+            __DIR__ . '/../DataFixtures/00_toolbox/elasticsearch/cms_page_documents.json',
+            __DIR__ . '/../DataFixtures/01_fashion/elasticsearch/cms_page_documents.json',
+            __DIR__ . '/../DataFixtures/02_papershop/elasticsearch/cms_page_documents.json',
+        ]);
     }
 }
