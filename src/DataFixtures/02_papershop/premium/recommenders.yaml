@@ -1,0 +1,676 @@
+include:
+    - ../localized_catalogs.yaml
+
+# One recommender per source SKU per relation type: the Recommender module resolves a
+# sourceRule against the seed product and offers whatever the targetRule matches. It
+# reads no tracking data, so the affinity has to be stated here.
+
+Gally\Recommender\Entity\Recommender\Type:
+    recommender_type_cross_sell:
+        name: 'Cross-sell'
+        code: 'cross-sell'
+    recommender_type_upsell:
+        name: 'Upsell'
+        code: 'upsell'
+
+Gally\Recommender\Entity\Recommender:
+    papershop_reco_crosssell_llv_liv_cla_001:
+        isActive: true
+        name: 'Cross-sell - LLV-LIV-CLA-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-CRO-007","LLV-MOB-FAU-004","LLV-PAP-TRI-001","LLV-PAP-MAC-006"]}]}'')>'
+    papershop_reco_crosssell_llv_liv_cla_002:
+        isActive: true
+        name: 'Cross-sell - LLV-LIV-CLA-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-CRO-004","LLV-PAP-PLU-003","LLV-MOB-CHB-006","LLV-PAP-CLA-002"]}]}'')>'
+    papershop_reco_crosssell_llv_liv_cla_003:
+        isActive: true
+        name: 'Cross-sell - LLV-LIV-CLA-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-MAC-006","LLV-PAP-PLU-002","LLV-MOB-FAU-005","LLV-MOB-SER-003"]}]}'')>'
+    papershop_reco_crosssell_llv_liv_cla_004:
+        isActive: true
+        name: 'Cross-sell - LLV-LIV-CLA-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-CAL-003","LLV-PAP-CAH-005","LLV-PAP-BIL-007","LLV-MOB-BUR-006"]}]}'')>'
+    papershop_reco_crosssell_llv_liv_cla_005:
+        isActive: true
+        name: 'Cross-sell - LLV-LIV-CLA-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-CAI-007","LLV-MOB-CHB-002","LLV-PAP-PLU-007","LLV-PAP-ENC-002"]}]}'')>'
+    papershop_reco_crosssell_llv_liv_cla_006:
+        isActive: true
+        name: 'Cross-sell - LLV-LIV-CLA-006'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-006"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-DES-002","LLV-PAP-ENC-002","LLV-PAP-BIL-006","LLV-PAP-PLU-008"]}]}'')>'
+    papershop_reco_crosssell_llv_liv_cla_007:
+        isActive: true
+        name: 'Cross-sell - LLV-LIV-CLA-007'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-007"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-BIB-005","LLV-MOB-SER-002","LLV-PAP-AGE-008","LLV-MOB-ETA-006"]}]}'')>'
+    papershop_reco_crosssell_llv_liv_cla_008:
+        isActive: true
+        name: 'Cross-sell - LLV-LIV-CLA-008'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-008"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-CAI-001","LLV-PAP-BIL-007","LLV-PAP-CAH-007","LLV-MOB-FAU-001"]}]}'')>'
+    papershop_reco_crosssell_llv_liv_cla_009:
+        isActive: true
+        name: 'Cross-sell - LLV-LIV-CLA-009'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-009"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-LAM-006","LLV-MOB-ASD-003","LLV-MOB-LIS-005","LLV-PAP-CAH-006"]}]}'')>'
+    papershop_reco_crosssell_llv_liv_cla_010:
+        isActive: true
+        name: 'Cross-sell - LLV-LIV-CLA-010'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-010"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-BIL-003","LLV-PAP-ENC-006","LLV-PAP-CLA-005","LLV-PAP-BIL-008"]}]}'')>'
+    papershop_reco_crosssell_llv_liv_cla_011:
+        isActive: true
+        name: 'Cross-sell - LLV-LIV-CLA-011'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-011"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-BIL-001","LLV-PAP-CLA-001","LLV-PAP-CLA-005","LLV-PAP-CAH-003"]}]}'')>'
+    papershop_reco_crosssell_llv_liv_cla_012:
+        isActive: true
+        name: 'Cross-sell - LLV-LIV-CLA-012'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-012"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-MAC-002","LLV-MOB-LAM-004","LLV-MOB-BUR-004","LLV-PAP-CLA-006"]}]}'')>'
+    papershop_reco_crosssell_llv_liv_nou_001:
+        isActive: true
+        name: 'Cross-sell - LLV-LIV-NOU-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-NOU-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-PLU-007","LLV-PAP-CRA-004","LLV-MOB-ASD-002","LLV-MOB-BIB-007"]}]}'')>'
+    papershop_reco_crosssell_llv_liv_nou_002:
+        isActive: true
+        name: 'Cross-sell - LLV-LIV-NOU-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-NOU-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-DES-007","LLV-MOB-LIS-001","LLV-MOB-FAU-006","LLV-MOB-CAI-001"]}]}'')>'
+    papershop_reco_upsell_llv_liv_cla_001:
+        isActive: true
+        name: 'Upsell - LLV-LIV-CLA-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-CLA-012","LLV-LIV-CLA-005","LLV-LIV-SFF-008","LLV-LIV-POE-001"]}]}'')>'
+    papershop_reco_upsell_llv_liv_cla_002:
+        isActive: true
+        name: 'Upsell - LLV-LIV-CLA-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-SCI-005","LLV-LIV-POL-007","LLV-LIV-PHI-004","LLV-LIV-SFF-007"]}]}'')>'
+    papershop_reco_upsell_llv_liv_cla_003:
+        isActive: true
+        name: 'Upsell - LLV-LIV-CLA-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-ADO-008","LLV-LIV-POE-002","LLV-LIV-HIS-007","LLV-LIV-SFF-007"]}]}'')>'
+    papershop_reco_upsell_llv_liv_cla_004:
+        isActive: true
+        name: 'Upsell - LLV-LIV-CLA-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-POL-005","LLV-LIV-ADO-001","LLV-LIV-POL-007","LLV-LIV-SFF-003"]}]}'')>'
+    papershop_reco_upsell_llv_liv_cla_005:
+        isActive: true
+        name: 'Upsell - LLV-LIV-CLA-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-SFF-004","LLV-LIV-POL-001","LLV-LIV-SCI-005","LLV-LIV-NOU-007"]}]}'')>'
+    papershop_reco_upsell_llv_liv_cla_006:
+        isActive: true
+        name: 'Upsell - LLV-LIV-CLA-006'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-006"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-CLA-011","LLV-LIV-PHI-002","LLV-LIV-SFF-004","LLV-LIV-SCI-002"]}]}'')>'
+    papershop_reco_upsell_llv_liv_cla_007:
+        isActive: true
+        name: 'Upsell - LLV-LIV-CLA-007'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-007"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-ALB-004","LLV-LIV-POE-002","LLV-LIV-ADO-007","LLV-LIV-SCI-007"]}]}'')>'
+    papershop_reco_upsell_llv_liv_cla_008:
+        isActive: true
+        name: 'Upsell - LLV-LIV-CLA-008'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-LIV-CLA-008"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-SCI-004","LLV-LIV-PHI-004","LLV-LIV-PHI-006","LLV-LIV-ADO-001"]}]}'')>'
+    papershop_reco_crosssell_llv_mob_bur_001:
+        isActive: true
+        name: 'Cross-sell - LLV-MOB-BUR-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-BUR-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-SCI-002","LLV-PAP-PLU-004","LLV-PAP-BIL-007","LLV-PAP-CLA-008"]}]}'')>'
+    papershop_reco_crosssell_llv_mob_bur_002:
+        isActive: true
+        name: 'Cross-sell - LLV-MOB-BUR-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-BUR-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-HIS-005","LLV-LIV-SCI-002","LLV-PAP-MAC-004","LLV-PAP-PLU-001"]}]}'')>'
+    papershop_reco_crosssell_llv_mob_bur_003:
+        isActive: true
+        name: 'Cross-sell - LLV-MOB-BUR-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-BUR-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-SFF-004","LLV-PAP-ENC-005","LLV-PAP-MAC-001","LLV-PAP-DES-004"]}]}'')>'
+    papershop_reco_crosssell_llv_mob_bur_004:
+        isActive: true
+        name: 'Cross-sell - LLV-MOB-BUR-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-BUR-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-POL-005","LLV-PAP-AGE-008","LLV-LIV-CLA-006","LLV-LIV-HIS-007"]}]}'')>'
+    papershop_reco_crosssell_llv_mob_bur_005:
+        isActive: true
+        name: 'Cross-sell - LLV-MOB-BUR-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-BUR-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-CAH-005","LLV-PAP-BIL-003","LLV-LIV-CLA-009","LLV-PAP-BIL-007"]}]}'')>'
+    papershop_reco_crosssell_llv_mob_bur_006:
+        isActive: true
+        name: 'Cross-sell - LLV-MOB-BUR-006'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-BUR-006"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-TRI-002","LLV-LIV-CLA-012","LLV-LIV-CLA-009","LLV-LIV-ADO-003"]}]}'')>'
+    papershop_reco_crosssell_llv_mob_bur_007:
+        isActive: true
+        name: 'Cross-sell - LLV-MOB-BUR-007'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-BUR-007"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-MAC-004","LLV-LIV-ALB-002","LLV-LIV-NOU-006","LLV-LIV-HIS-007"]}]}'')>'
+    papershop_reco_crosssell_llv_mob_bur_008:
+        isActive: true
+        name: 'Cross-sell - LLV-MOB-BUR-008'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-BUR-008"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-SCI-002","LLV-LIV-NOU-002","LLV-LIV-SCI-006","LLV-PAP-BIL-003"]}]}'')>'
+    papershop_reco_crosssell_llv_mob_asd_001:
+        isActive: true
+        name: 'Cross-sell - LLV-MOB-ASD-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-ASD-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-CRA-005","LLV-LIV-ADO-008","LLV-LIV-ART-006","LLV-PAP-CRA-007"]}]}'')>'
+    papershop_reco_crosssell_llv_mob_asd_002:
+        isActive: true
+        name: 'Cross-sell - LLV-MOB-ASD-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-ASD-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-CRA-001","LLV-LIV-ART-005","LLV-LIV-ALB-002","LLV-LIV-ART-001"]}]}'')>'
+    papershop_reco_crosssell_llv_mob_asd_003:
+        isActive: true
+        name: 'Cross-sell - LLV-MOB-ASD-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-ASD-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-DES-005","LLV-PAP-MAC-007","LLV-LIV-ALB-004","LLV-PAP-CAL-003"]}]}'')>'
+    papershop_reco_crosssell_llv_mob_asd_004:
+        isActive: true
+        name: 'Cross-sell - LLV-MOB-ASD-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-ASD-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-ENC-004","LLV-LIV-HIS-007","LLV-PAP-CAH-004","LLV-LIV-POE-004"]}]}'')>'
+    papershop_reco_crosssell_llv_mob_asd_005:
+        isActive: true
+        name: 'Cross-sell - LLV-MOB-ASD-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-ASD-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-CLA-002","LLV-PAP-PLU-003","LLV-PAP-TRI-007","LLV-PAP-PLU-005"]}]}'')>'
+    papershop_reco_crosssell_llv_mob_asd_006:
+        isActive: true
+        name: 'Cross-sell - LLV-MOB-ASD-006'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-ASD-006"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-CLA-003","LLV-PAP-MAC-007","LLV-LIV-CLA-003","LLV-PAP-CRA-006"]}]}'')>'
+    papershop_reco_upsell_llv_mob_bur_001:
+        isActive: true
+        name: 'Upsell - LLV-MOB-BUR-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-BUR-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-CHB-002","LLV-MOB-LIS-001","LLV-MOB-SER-001","LLV-MOB-CAI-003"]}]}'')>'
+    papershop_reco_upsell_llv_mob_bur_002:
+        isActive: true
+        name: 'Upsell - LLV-MOB-BUR-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-BUR-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-LAM-007","LLV-MOB-FAU-004","LLV-MOB-LAM-004","LLV-MOB-LAM-003"]}]}'')>'
+    papershop_reco_upsell_llv_mob_bur_003:
+        isActive: true
+        name: 'Upsell - LLV-MOB-BUR-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-BUR-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-LIS-005","LLV-MOB-ASD-005","LLV-MOB-CHB-003","LLV-MOB-SER-005"]}]}'')>'
+    papershop_reco_upsell_llv_mob_bur_004:
+        isActive: true
+        name: 'Upsell - LLV-MOB-BUR-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-BUR-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-FAU-006","LLV-MOB-BIB-004","LLV-MOB-ASD-003","LLV-MOB-LIS-002"]}]}'')>'
+    papershop_reco_upsell_llv_mob_bur_005:
+        isActive: true
+        name: 'Upsell - LLV-MOB-BUR-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-BUR-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-LIS-006","LLV-MOB-ETA-007","LLV-MOB-BUR-003","LLV-MOB-SER-004"]}]}'')>'
+    papershop_reco_upsell_llv_mob_bur_006:
+        isActive: true
+        name: 'Upsell - LLV-MOB-BUR-006'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-BUR-006"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-FAU-003","LLV-MOB-FAU-002","LLV-MOB-CAI-001","LLV-MOB-BIB-002"]}]}'')>'
+    papershop_reco_upsell_llv_mob_bur_007:
+        isActive: true
+        name: 'Upsell - LLV-MOB-BUR-007'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-BUR-007"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-ETA-002","LLV-MOB-BIB-005","LLV-MOB-BIB-006","LLV-MOB-CAI-004"]}]}'')>'
+    papershop_reco_upsell_llv_mob_bur_008:
+        isActive: true
+        name: 'Upsell - LLV-MOB-BUR-008'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-MOB-BUR-008"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-ASD-005","LLV-MOB-SER-003","LLV-MOB-LAM-003","LLV-MOB-CHB-001"]}]}'')>'
+    papershop_reco_crosssell_llv_pap_cah_001:
+        isActive: true
+        name: 'Cross-sell - LLV-PAP-CAH-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CAH-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-LAM-006","LLV-LIV-PHI-001","LLV-MOB-BUR-006","LLV-MOB-ASD-001"]}]}'')>'
+    papershop_reco_crosssell_llv_pap_cah_002:
+        isActive: true
+        name: 'Cross-sell - LLV-PAP-CAH-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CAH-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-CHB-008","LLV-MOB-ASD-006","LLV-LIV-NOU-001","LLV-LIV-SFF-002"]}]}'')>'
+    papershop_reco_crosssell_llv_pap_cah_003:
+        isActive: true
+        name: 'Cross-sell - LLV-PAP-CAH-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CAH-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-ETA-006","LLV-MOB-SER-005","LLV-LIV-ART-006","LLV-LIV-PHI-002"]}]}'')>'
+    papershop_reco_crosssell_llv_pap_cah_004:
+        isActive: true
+        name: 'Cross-sell - LLV-PAP-CAH-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CAH-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-CLA-002","LLV-MOB-BUR-001","LLV-LIV-PHI-002","LLV-MOB-ETA-002"]}]}'')>'
+    papershop_reco_crosssell_llv_pap_cah_005:
+        isActive: true
+        name: 'Cross-sell - LLV-PAP-CAH-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CAH-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-ETA-006","LLV-LIV-POL-003","LLV-MOB-FAU-005","LLV-LIV-POL-006"]}]}'')>'
+    papershop_reco_crosssell_llv_pap_cah_006:
+        isActive: true
+        name: 'Cross-sell - LLV-PAP-CAH-006'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CAH-006"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-BIB-008","LLV-LIV-VOY-002","LLV-LIV-NOU-002","LLV-LIV-NOU-006"]}]}'')>'
+    papershop_reco_crosssell_llv_pap_cah_007:
+        isActive: true
+        name: 'Cross-sell - LLV-PAP-CAH-007'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CAH-007"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-ADO-005","LLV-LIV-ALB-007","LLV-LIV-POE-002","LLV-LIV-PHI-006"]}]}'')>'
+    papershop_reco_crosssell_llv_pap_cah_008:
+        isActive: true
+        name: 'Cross-sell - LLV-PAP-CAH-008'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CAH-008"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-LAM-001","LLV-LIV-HIS-007","LLV-MOB-CHB-006","LLV-MOB-CAI-007"]}]}'')>'
+    papershop_reco_crosssell_llv_pap_cro_001:
+        isActive: true
+        name: 'Cross-sell - LLV-PAP-CRO-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CRO-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-ETA-001","LLV-MOB-CAI-002","LLV-LIV-ADO-006","LLV-LIV-HIS-004"]}]}'')>'
+    papershop_reco_crosssell_llv_pap_cro_002:
+        isActive: true
+        name: 'Cross-sell - LLV-PAP-CRO-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CRO-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-ETA-002","LLV-LIV-ALB-001","LLV-MOB-LIS-002","LLV-LIV-HIS-004"]}]}'')>'
+    papershop_reco_crosssell_llv_pap_cro_003:
+        isActive: true
+        name: 'Cross-sell - LLV-PAP-CRO-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CRO-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-ADO-007","LLV-MOB-FAU-007","LLV-MOB-BIB-003","LLV-LIV-CLA-007"]}]}'')>'
+    papershop_reco_crosssell_llv_pap_cro_004:
+        isActive: true
+        name: 'Cross-sell - LLV-PAP-CRO-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CRO-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-POE-002","LLV-MOB-LAM-006","LLV-LIV-ART-005","LLV-LIV-POE-003"]}]}'')>'
+    papershop_reco_crosssell_llv_pap_cro_005:
+        isActive: true
+        name: 'Cross-sell - LLV-PAP-CRO-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CRO-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-MOB-CAI-006","LLV-LIV-HIS-007","LLV-LIV-ART-002","LLV-LIV-ADO-003"]}]}'')>'
+    papershop_reco_crosssell_llv_pap_cro_006:
+        isActive: true
+        name: 'Cross-sell - LLV-PAP-CRO-006'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CRO-006"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-LIV-CLA-002","LLV-MOB-LAM-005","LLV-MOB-LIS-004","LLV-MOB-LAM-004"]}]}'')>'
+    papershop_reco_upsell_llv_pap_cah_001:
+        isActive: true
+        name: 'Upsell - LLV-PAP-CAH-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CAH-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-AGE-004","LLV-PAP-PLU-007","LLV-PAP-CRA-005","LLV-PAP-BIL-004"]}]}'')>'
+    papershop_reco_upsell_llv_pap_cah_002:
+        isActive: true
+        name: 'Upsell - LLV-PAP-CAH-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CAH-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-CAH-006","LLV-PAP-MAC-003","LLV-PAP-TRI-002","LLV-PAP-CLA-004"]}]}'')>'
+    papershop_reco_upsell_llv_pap_cah_003:
+        isActive: true
+        name: 'Upsell - LLV-PAP-CAH-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CAH-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-MAC-007","LLV-PAP-CRO-006","LLV-PAP-CRO-001","LLV-PAP-AGE-004"]}]}'')>'
+    papershop_reco_upsell_llv_pap_cah_004:
+        isActive: true
+        name: 'Upsell - LLV-PAP-CAH-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CAH-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-CAH-008","LLV-PAP-BIL-006","LLV-PAP-TRI-001","LLV-PAP-CAH-002"]}]}'')>'
+    papershop_reco_upsell_llv_pap_cah_005:
+        isActive: true
+        name: 'Upsell - LLV-PAP-CAH-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CAH-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-AGE-006","LLV-PAP-TRI-001","LLV-PAP-CLA-006","LLV-PAP-CLA-005"]}]}'')>'
+    papershop_reco_upsell_llv_pap_cah_006:
+        isActive: true
+        name: 'Upsell - LLV-PAP-CAH-006'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CAH-006"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-CLA-008","LLV-PAP-AGE-005","LLV-PAP-CAL-001","LLV-PAP-CRO-001"]}]}'')>'
+    papershop_reco_upsell_llv_pap_cah_007:
+        isActive: true
+        name: 'Upsell - LLV-PAP-CAH-007'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CAH-007"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-ENC-004","LLV-PAP-CLA-007","LLV-PAP-CLA-006","LLV-PAP-CAL-003"]}]}'')>'
+    papershop_reco_upsell_llv_pap_cah_008:
+        isActive: true
+        name: 'Upsell - LLV-PAP-CAH-008'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"LLV-PAP-CAH-008"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["LLV-PAP-ENC-005","LLV-PAP-PLU-007","LLV-PAP-CLA-006","LLV-PAP-DES-001"]}]}'')>'

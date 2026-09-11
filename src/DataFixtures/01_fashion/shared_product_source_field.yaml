@@ -1,0 +1,95 @@
+# Source field codes that the sample data's own default/ catalog already declares.
+#
+# source_field is unique on (code, metadata_id), so these cannot be declared twice under two
+# different Alice reference names: the second INSERT violates the
+# constraint and the load dies. The reference names below are default/'s own, which makes Alice
+# merge the two blocks into one object and insert exactly one row.
+#
+# Alice keeps the first definition it reads and files load in alphabetical path order, so default/
+# wins and this block is inert. The values are copied verbatim
+# from default/ so that "who wins" is unobservable. Run bin/generate --verify-shared to check them
+# against default/ after a Gally upgrade.
+#
+# Delete this file if default/ is ever removed from the load.
+
+Gally\Metadata\Entity\SourceField:
+    product_configurable_attributes:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: configurable_attributes
+        type: keyword
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: false
+        isSortable: false
+        isUsedForRules: false
+    product_url_key:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: url_key
+        type: text
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: false
+        isSortable: false
+        isUsedForRules: false
+    product_short_description:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: short_description
+        type: text
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: false
+        isSortable: false
+        isUsedForRules: false
+    product_visibility:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: visibility
+        type: select
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: false
+        isSortable: false
+        isUsedForRules: false
+    product_weight:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: weight
+        type: float
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: false
+        isSortable: false
+        isUsedForRules: false
+    product_cost:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: cost
+        type: float
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: false
+        isSortable: false
+        isUsedForRules: true
+    product_new:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: new
+        type: boolean
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_sale:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: sale
+        type: boolean
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true

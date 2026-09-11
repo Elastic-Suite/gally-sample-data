@@ -1,0 +1,2044 @@
+include:
+    - product_source_field.yaml
+
+Gally\Metadata\Entity\SourceFieldOption:
+    product_fio_color_option_noir:
+        code: 'noir'
+        source_field: '@product_fio_color'
+        position: 0
+        defaultLabel: 'Noir'
+    product_fio_color_option_blanc:
+        code: 'blanc'
+        source_field: '@product_fio_color'
+        position: 1
+        defaultLabel: 'Blanc'
+    product_fio_color_option_blanc_casse:
+        code: 'blanc-casse'
+        source_field: '@product_fio_color'
+        position: 2
+        defaultLabel: 'Blanc cassé'
+    product_fio_color_option_bleu_marine:
+        code: 'bleu-marine'
+        source_field: '@product_fio_color'
+        position: 3
+        defaultLabel: 'Bleu marine'
+    product_fio_color_option_rouge:
+        code: 'rouge'
+        source_field: '@product_fio_color'
+        position: 4
+        defaultLabel: 'Rouge'
+    product_fio_color_option_beige:
+        code: 'beige'
+        source_field: '@product_fio_color'
+        position: 5
+        defaultLabel: 'Beige'
+    product_fio_color_option_rose_poudre:
+        code: 'rose-poudre'
+        source_field: '@product_fio_color'
+        position: 6
+        defaultLabel: 'Rose poudré'
+    product_fio_color_option_camel:
+        code: 'camel'
+        source_field: '@product_fio_color'
+        position: 7
+        defaultLabel: 'Camel'
+    product_fio_color_option_gris_chine:
+        code: 'gris-chine'
+        source_field: '@product_fio_color'
+        position: 8
+        defaultLabel: 'Gris chiné'
+    product_fio_color_option_bordeaux:
+        code: 'bordeaux'
+        source_field: '@product_fio_color'
+        position: 9
+        defaultLabel: 'Bordeaux'
+    product_fio_color_option_vert_sapin:
+        code: 'vert-sapin'
+        source_field: '@product_fio_color'
+        position: 10
+        defaultLabel: 'Vert sapin'
+    product_fio_color_option_cognac:
+        code: 'cognac'
+        source_field: '@product_fio_color'
+        position: 11
+        defaultLabel: 'Cognac'
+    product_fio_color_option_bleu_ciel:
+        code: 'bleu-ciel'
+        source_field: '@product_fio_color'
+        position: 12
+        defaultLabel: 'Bleu ciel'
+    product_fio_color_option_kaki:
+        code: 'kaki'
+        source_field: '@product_fio_color'
+        position: 13
+        defaultLabel: 'Kaki'
+    product_fio_color_option_ivoire:
+        code: 'ivoire'
+        source_field: '@product_fio_color'
+        position: 14
+        defaultLabel: 'Ivoire'
+    product_fio_clothing_size_option_xs:
+        code: 'xs'
+        source_field: '@product_fio_clothing_size'
+        position: 0
+        defaultLabel: 'XS'
+    product_fio_clothing_size_option_s:
+        code: 's'
+        source_field: '@product_fio_clothing_size'
+        position: 1
+        defaultLabel: 'S'
+    product_fio_clothing_size_option_m:
+        code: 'm'
+        source_field: '@product_fio_clothing_size'
+        position: 2
+        defaultLabel: 'M'
+    product_fio_clothing_size_option_l:
+        code: 'l'
+        source_field: '@product_fio_clothing_size'
+        position: 3
+        defaultLabel: 'L'
+    product_fio_clothing_size_option_xl:
+        code: 'xl'
+        source_field: '@product_fio_clothing_size'
+        position: 4
+        defaultLabel: 'XL'
+    product_fio_clothing_size_option_xxl:
+        code: 'xxl'
+        source_field: '@product_fio_clothing_size'
+        position: 5
+        defaultLabel: 'XXL'
+    product_fio_neckline_option_col_rond:
+        code: 'col-rond'
+        source_field: '@product_fio_neckline'
+        position: 0
+        defaultLabel: 'Col rond'
+    product_fio_neckline_option_col_v:
+        code: 'col-v'
+        source_field: '@product_fio_neckline'
+        position: 1
+        defaultLabel: 'Col V'
+    product_fio_neckline_option_col_bateau:
+        code: 'col-bateau'
+        source_field: '@product_fio_neckline'
+        position: 2
+        defaultLabel: 'Col bateau'
+    product_fio_neckline_option_decollete:
+        code: 'decollete'
+        source_field: '@product_fio_neckline'
+        position: 3
+        defaultLabel: 'Décolleté'
+    product_fio_neckline_option_col_montant:
+        code: 'col-montant'
+        source_field: '@product_fio_neckline'
+        position: 4
+        defaultLabel: 'Col montant'
+    product_fio_neckline_option_col_lavalliere:
+        code: 'col-lavalliere'
+        source_field: '@product_fio_neckline'
+        position: 5
+        defaultLabel: 'Col lavallière'
+    product_fio_sleeve_length_option_sans_manches:
+        code: 'sans-manches'
+        source_field: '@product_fio_sleeve_length'
+        position: 0
+        defaultLabel: 'Sans manches'
+    product_fio_sleeve_length_option_manches_courtes:
+        code: 'manches-courtes'
+        source_field: '@product_fio_sleeve_length'
+        position: 1
+        defaultLabel: 'Manches courtes'
+    product_fio_sleeve_length_option_manches_3_4:
+        code: 'manches-3-4'
+        source_field: '@product_fio_sleeve_length'
+        position: 2
+        defaultLabel: 'Manches 3/4'
+    product_fio_sleeve_length_option_manches_longues:
+        code: 'manches-longues'
+        source_field: '@product_fio_sleeve_length'
+        position: 3
+        defaultLabel: 'Manches longues'
+    product_fio_fabric_option_coton:
+        code: 'coton'
+        source_field: '@product_fio_fabric'
+        position: 0
+        defaultLabel: 'Coton'
+    product_fio_fabric_option_soie:
+        code: 'soie'
+        source_field: '@product_fio_fabric'
+        position: 1
+        defaultLabel: 'Soie'
+    product_fio_fabric_option_lin:
+        code: 'lin'
+        source_field: '@product_fio_fabric'
+        position: 2
+        defaultLabel: 'Lin'
+    product_fio_fabric_option_viscose:
+        code: 'viscose'
+        source_field: '@product_fio_fabric'
+        position: 3
+        defaultLabel: 'Viscose'
+    product_fio_fabric_option_jersey:
+        code: 'jersey'
+        source_field: '@product_fio_fabric'
+        position: 4
+        defaultLabel: 'Jersey'
+    product_fio_fabric_option_mousseline:
+        code: 'mousseline'
+        source_field: '@product_fio_fabric'
+        position: 5
+        defaultLabel: 'Mousseline'
+    product_fio_fabric_option_satin:
+        code: 'satin'
+        source_field: '@product_fio_fabric'
+        position: 6
+        defaultLabel: 'Satin'
+    product_fio_dress_length_option_mini:
+        code: 'mini'
+        source_field: '@product_fio_dress_length'
+        position: 0
+        defaultLabel: 'Mini'
+    product_fio_dress_length_option_au_dessus_du_genou:
+        code: 'au-dessus-du-genou'
+        source_field: '@product_fio_dress_length'
+        position: 1
+        defaultLabel: 'Au-dessus du genou'
+    product_fio_dress_length_option_midi:
+        code: 'midi'
+        source_field: '@product_fio_dress_length'
+        position: 2
+        defaultLabel: 'Midi'
+    product_fio_dress_length_option_maxi:
+        code: 'maxi'
+        source_field: '@product_fio_dress_length'
+        position: 3
+        defaultLabel: 'Maxi'
+    product_fio_dress_length_option_asymetrique:
+        code: 'asymetrique'
+        source_field: '@product_fio_dress_length'
+        position: 4
+        defaultLabel: 'Asymétrique'
+    product_fio_dress_occasion_option_casual:
+        code: 'casual'
+        source_field: '@product_fio_dress_occasion'
+        position: 0
+        defaultLabel: 'Casual'
+    product_fio_dress_occasion_option_cocktail:
+        code: 'cocktail'
+        source_field: '@product_fio_dress_occasion'
+        position: 1
+        defaultLabel: 'Cocktail'
+    product_fio_dress_occasion_option_soiree:
+        code: 'soiree'
+        source_field: '@product_fio_dress_occasion'
+        position: 2
+        defaultLabel: 'Soirée'
+    product_fio_dress_occasion_option_bureau:
+        code: 'bureau'
+        source_field: '@product_fio_dress_occasion'
+        position: 3
+        defaultLabel: 'Bureau'
+    product_fio_dress_occasion_option_ceremonie:
+        code: 'ceremonie'
+        source_field: '@product_fio_dress_occasion'
+        position: 4
+        defaultLabel: 'Cérémonie'
+    product_fio_dress_occasion_option_plage:
+        code: 'plage'
+        source_field: '@product_fio_dress_occasion'
+        position: 5
+        defaultLabel: 'Plage'
+    product_fio_dress_material_option_coton:
+        code: 'coton'
+        source_field: '@product_fio_dress_material'
+        position: 0
+        defaultLabel: 'Coton'
+    product_fio_dress_material_option_soie:
+        code: 'soie'
+        source_field: '@product_fio_dress_material'
+        position: 1
+        defaultLabel: 'Soie'
+    product_fio_dress_material_option_satin:
+        code: 'satin'
+        source_field: '@product_fio_dress_material'
+        position: 2
+        defaultLabel: 'Satin'
+    product_fio_dress_material_option_jersey:
+        code: 'jersey'
+        source_field: '@product_fio_dress_material'
+        position: 3
+        defaultLabel: 'Jersey'
+    product_fio_dress_material_option_dentelle:
+        code: 'dentelle'
+        source_field: '@product_fio_dress_material'
+        position: 4
+        defaultLabel: 'Dentelle'
+    product_fio_dress_material_option_mousseline:
+        code: 'mousseline'
+        source_field: '@product_fio_dress_material'
+        position: 5
+        defaultLabel: 'Mousseline'
+    product_fio_dress_material_option_crepe:
+        code: 'crepe'
+        source_field: '@product_fio_dress_material'
+        position: 6
+        defaultLabel: 'Crêpe'
+    product_fio_dress_color_option_noir:
+        code: 'noir'
+        source_field: '@product_fio_dress_color'
+        position: 0
+        defaultLabel: 'Noir'
+    product_fio_dress_color_option_bleu_marine:
+        code: 'bleu-marine'
+        source_field: '@product_fio_dress_color'
+        position: 1
+        defaultLabel: 'Bleu marine'
+    product_fio_dress_color_option_imprime_floral:
+        code: 'imprime-floral'
+        source_field: '@product_fio_dress_color'
+        position: 2
+        defaultLabel: 'Imprimé floral'
+    product_fio_dress_color_option_blanc:
+        code: 'blanc'
+        source_field: '@product_fio_dress_color'
+        position: 3
+        defaultLabel: 'Blanc'
+    product_fio_dress_color_option_rouge:
+        code: 'rouge'
+        source_field: '@product_fio_dress_color'
+        position: 4
+        defaultLabel: 'Rouge'
+    product_fio_dress_color_option_vert_emeraude:
+        code: 'vert-emeraude'
+        source_field: '@product_fio_dress_color'
+        position: 5
+        defaultLabel: 'Vert émeraude'
+    product_fio_dress_color_option_bordeaux:
+        code: 'bordeaux'
+        source_field: '@product_fio_dress_color'
+        position: 6
+        defaultLabel: 'Bordeaux'
+    product_fio_dress_color_option_rose_poudre:
+        code: 'rose-poudre'
+        source_field: '@product_fio_dress_color'
+        position: 7
+        defaultLabel: 'Rose poudré'
+    product_fio_dress_color_option_dore:
+        code: 'dore'
+        source_field: '@product_fio_dress_color'
+        position: 8
+        defaultLabel: 'Doré'
+    product_fio_dress_color_option_nude:
+        code: 'nude'
+        source_field: '@product_fio_dress_color'
+        position: 9
+        defaultLabel: 'Nude'
+    product_fio_bottom_size_option_34:
+        code: '34'
+        source_field: '@product_fio_bottom_size'
+        position: 0
+        defaultLabel: '34'
+    product_fio_bottom_size_option_36:
+        code: '36'
+        source_field: '@product_fio_bottom_size'
+        position: 1
+        defaultLabel: '36'
+    product_fio_bottom_size_option_38:
+        code: '38'
+        source_field: '@product_fio_bottom_size'
+        position: 2
+        defaultLabel: '38'
+    product_fio_bottom_size_option_40:
+        code: '40'
+        source_field: '@product_fio_bottom_size'
+        position: 3
+        defaultLabel: '40'
+    product_fio_bottom_size_option_42:
+        code: '42'
+        source_field: '@product_fio_bottom_size'
+        position: 4
+        defaultLabel: '42'
+    product_fio_bottom_size_option_44:
+        code: '44'
+        source_field: '@product_fio_bottom_size'
+        position: 5
+        defaultLabel: '44'
+    product_fio_bottom_size_option_46:
+        code: '46'
+        source_field: '@product_fio_bottom_size'
+        position: 6
+        defaultLabel: '46'
+    product_fio_length_option_court:
+        code: 'court'
+        source_field: '@product_fio_length'
+        position: 0
+        defaultLabel: 'Court'
+    product_fio_length_option_mi_long:
+        code: 'mi-long'
+        source_field: '@product_fio_length'
+        position: 1
+        defaultLabel: 'Mi-long'
+    product_fio_length_option_long:
+        code: 'long'
+        source_field: '@product_fio_length'
+        position: 2
+        defaultLabel: 'Long'
+    product_fio_length_option_7_8:
+        code: '7-8'
+        source_field: '@product_fio_length'
+        position: 3
+        defaultLabel: '7/8'
+    product_fio_length_option_cheville:
+        code: 'cheville'
+        source_field: '@product_fio_length'
+        position: 4
+        defaultLabel: 'Cheville'
+    product_fio_waist_type_option_taille_haute:
+        code: 'taille-haute'
+        source_field: '@product_fio_waist_type'
+        position: 0
+        defaultLabel: 'Taille haute'
+    product_fio_waist_type_option_taille_normale:
+        code: 'taille-normale'
+        source_field: '@product_fio_waist_type'
+        position: 1
+        defaultLabel: 'Taille normale'
+    product_fio_waist_type_option_taille_basse:
+        code: 'taille-basse'
+        source_field: '@product_fio_waist_type'
+        position: 2
+        defaultLabel: 'Taille basse'
+    product_fio_men_size_option_xs:
+        code: 'xs'
+        source_field: '@product_fio_men_size'
+        position: 0
+        defaultLabel: 'XS'
+    product_fio_men_size_option_s:
+        code: 's'
+        source_field: '@product_fio_men_size'
+        position: 1
+        defaultLabel: 'S'
+    product_fio_men_size_option_m:
+        code: 'm'
+        source_field: '@product_fio_men_size'
+        position: 2
+        defaultLabel: 'M'
+    product_fio_men_size_option_l:
+        code: 'l'
+        source_field: '@product_fio_men_size'
+        position: 3
+        defaultLabel: 'L'
+    product_fio_men_size_option_xl:
+        code: 'xl'
+        source_field: '@product_fio_men_size'
+        position: 4
+        defaultLabel: 'XL'
+    product_fio_men_size_option_xxl:
+        code: 'xxl'
+        source_field: '@product_fio_men_size'
+        position: 5
+        defaultLabel: 'XXL'
+    product_fio_men_size_option_3xl:
+        code: '3xl'
+        source_field: '@product_fio_men_size'
+        position: 6
+        defaultLabel: '3XL'
+    product_fio_men_fit_option_slim:
+        code: 'slim'
+        source_field: '@product_fio_men_fit'
+        position: 0
+        defaultLabel: 'Slim'
+    product_fio_men_fit_option_regular:
+        code: 'regular'
+        source_field: '@product_fio_men_fit'
+        position: 1
+        defaultLabel: 'Regular'
+    product_fio_men_fit_option_relaxed:
+        code: 'relaxed'
+        source_field: '@product_fio_men_fit'
+        position: 2
+        defaultLabel: 'Relaxed'
+    product_fio_men_fit_option_oversize:
+        code: 'oversize'
+        source_field: '@product_fio_men_fit'
+        position: 3
+        defaultLabel: 'Oversize'
+    product_fio_men_fit_option_ajuste:
+        code: 'ajuste'
+        source_field: '@product_fio_men_fit'
+        position: 4
+        defaultLabel: 'Ajusté'
+    product_fio_men_collar_option_col_classique:
+        code: 'col-classique'
+        source_field: '@product_fio_men_collar'
+        position: 0
+        defaultLabel: 'Col classique'
+    product_fio_men_collar_option_col_mao:
+        code: 'col-mao'
+        source_field: '@product_fio_men_collar'
+        position: 1
+        defaultLabel: 'Col mao'
+    product_fio_men_collar_option_col_v:
+        code: 'col-v'
+        source_field: '@product_fio_men_collar'
+        position: 2
+        defaultLabel: 'Col V'
+    product_fio_men_collar_option_col_rond:
+        code: 'col-rond'
+        source_field: '@product_fio_men_collar'
+        position: 3
+        defaultLabel: 'Col rond'
+    product_fio_men_collar_option_col_boutonne:
+        code: 'col-boutonne'
+        source_field: '@product_fio_men_collar'
+        position: 4
+        defaultLabel: 'Col boutonné'
+    product_fio_men_collar_option_col_officier:
+        code: 'col-officier'
+        source_field: '@product_fio_men_collar'
+        position: 5
+        defaultLabel: 'Col officier'
+    product_fio_men_collar_option_col_italien:
+        code: 'col-italien'
+        source_field: '@product_fio_men_collar'
+        position: 6
+        defaultLabel: 'Col italien'
+    product_fio_men_collar_option_col_revers_crante:
+        code: 'col-revers-crante'
+        source_field: '@product_fio_men_collar'
+        position: 7
+        defaultLabel: 'Col revers cranté'
+    product_fio_men_collar_option_col_francais:
+        code: 'col-francais'
+        source_field: '@product_fio_men_collar'
+        position: 8
+        defaultLabel: 'Col français'
+    product_fio_men_collar_option_col_polo:
+        code: 'col-polo'
+        source_field: '@product_fio_men_collar'
+        position: 9
+        defaultLabel: 'Col polo'
+    product_fio_men_collar_option_col_chale:
+        code: 'col-chale'
+        source_field: '@product_fio_men_collar'
+        position: 10
+        defaultLabel: 'Col châle'
+    product_fio_men_fabric_option_coton:
+        code: 'coton'
+        source_field: '@product_fio_men_fabric'
+        position: 0
+        defaultLabel: 'Coton'
+    product_fio_men_fabric_option_lin:
+        code: 'lin'
+        source_field: '@product_fio_men_fabric'
+        position: 1
+        defaultLabel: 'Lin'
+    product_fio_men_fabric_option_popeline:
+        code: 'popeline'
+        source_field: '@product_fio_men_fabric'
+        position: 2
+        defaultLabel: 'Popeline'
+    product_fio_men_fabric_option_oxford:
+        code: 'oxford'
+        source_field: '@product_fio_men_fabric'
+        position: 3
+        defaultLabel: 'Oxford'
+    product_fio_men_fabric_option_flanelle:
+        code: 'flanelle'
+        source_field: '@product_fio_men_fabric'
+        position: 4
+        defaultLabel: 'Flanelle'
+    product_fio_men_fabric_option_denim:
+        code: 'denim'
+        source_field: '@product_fio_men_fabric'
+        position: 5
+        defaultLabel: 'Denim'
+    product_fio_men_fabric_option_laine_merinos:
+        code: 'laine-merinos'
+        source_field: '@product_fio_men_fabric'
+        position: 6
+        defaultLabel: 'Laine mérinos'
+    product_fio_men_fabric_option_jersey_coton:
+        code: 'jersey-coton'
+        source_field: '@product_fio_men_fabric'
+        position: 7
+        defaultLabel: 'Jersey coton'
+    product_fio_men_fabric_option_coton_serge:
+        code: 'coton-serge'
+        source_field: '@product_fio_men_fabric'
+        position: 8
+        defaultLabel: 'Coton sergé'
+    product_fio_men_fabric_option_laine_melangee:
+        code: 'laine-melangee'
+        source_field: '@product_fio_men_fabric'
+        position: 9
+        defaultLabel: 'Laine mélangée'
+    product_fio_men_fabric_option_pique_coton:
+        code: 'pique-coton'
+        source_field: '@product_fio_men_fabric'
+        position: 10
+        defaultLabel: 'Piqué coton'
+    product_fio_men_fabric_option_lin_melange:
+        code: 'lin-melange'
+        source_field: '@product_fio_men_fabric'
+        position: 11
+        defaultLabel: 'Lin mélangé'
+    product_fio_men_fabric_option_coton_stretch:
+        code: 'coton-stretch'
+        source_field: '@product_fio_men_fabric'
+        position: 12
+        defaultLabel: 'Coton stretch'
+    product_fio_men_fabric_option_velours:
+        code: 'velours'
+        source_field: '@product_fio_men_fabric'
+        position: 13
+        defaultLabel: 'Velours'
+    product_fio_men_fabric_option_polyester_coton:
+        code: 'polyester-coton'
+        source_field: '@product_fio_men_fabric'
+        position: 14
+        defaultLabel: 'Polyester/coton'
+    product_fio_outerwear_size_option_xs:
+        code: 'xs'
+        source_field: '@product_fio_outerwear_size'
+        position: 0
+        defaultLabel: 'XS'
+    product_fio_outerwear_size_option_s:
+        code: 's'
+        source_field: '@product_fio_outerwear_size'
+        position: 1
+        defaultLabel: 'S'
+    product_fio_outerwear_size_option_m:
+        code: 'm'
+        source_field: '@product_fio_outerwear_size'
+        position: 2
+        defaultLabel: 'M'
+    product_fio_outerwear_size_option_l:
+        code: 'l'
+        source_field: '@product_fio_outerwear_size'
+        position: 3
+        defaultLabel: 'L'
+    product_fio_outerwear_size_option_xl:
+        code: 'xl'
+        source_field: '@product_fio_outerwear_size'
+        position: 4
+        defaultLabel: 'XL'
+    product_fio_outerwear_size_option_xxl:
+        code: 'xxl'
+        source_field: '@product_fio_outerwear_size'
+        position: 5
+        defaultLabel: 'XXL'
+    product_fio_outerwear_length_option_court:
+        code: 'court'
+        source_field: '@product_fio_outerwear_length'
+        position: 0
+        defaultLabel: 'Court'
+    product_fio_outerwear_length_option_mi_long:
+        code: 'mi-long'
+        source_field: '@product_fio_outerwear_length'
+        position: 1
+        defaultLabel: 'Mi-long'
+    product_fio_outerwear_length_option_long:
+        code: 'long'
+        source_field: '@product_fio_outerwear_length'
+        position: 2
+        defaultLabel: 'Long'
+    product_fio_outerwear_length_option_trois_quarts:
+        code: 'trois-quarts'
+        source_field: '@product_fio_outerwear_length'
+        position: 3
+        defaultLabel: 'Trois-quarts'
+    product_fio_outerwear_material_option_laine:
+        code: 'laine'
+        source_field: '@product_fio_outerwear_material'
+        position: 0
+        defaultLabel: 'Laine'
+    product_fio_outerwear_material_option_cuir:
+        code: 'cuir'
+        source_field: '@product_fio_outerwear_material'
+        position: 1
+        defaultLabel: 'Cuir'
+    product_fio_outerwear_material_option_cuir_vegan:
+        code: 'cuir-vegan'
+        source_field: '@product_fio_outerwear_material'
+        position: 2
+        defaultLabel: 'Cuir vegan'
+    product_fio_outerwear_material_option_denim:
+        code: 'denim'
+        source_field: '@product_fio_outerwear_material'
+        position: 3
+        defaultLabel: 'Denim'
+    product_fio_outerwear_material_option_nylon:
+        code: 'nylon'
+        source_field: '@product_fio_outerwear_material'
+        position: 4
+        defaultLabel: 'Nylon'
+    product_fio_outerwear_material_option_polyester_recycle:
+        code: 'polyester-recycle'
+        source_field: '@product_fio_outerwear_material'
+        position: 5
+        defaultLabel: 'Polyester recyclé'
+    product_fio_outerwear_material_option_tweed:
+        code: 'tweed'
+        source_field: '@product_fio_outerwear_material'
+        position: 6
+        defaultLabel: 'Tweed'
+    product_fio_outerwear_material_option_gabardine:
+        code: 'gabardine'
+        source_field: '@product_fio_outerwear_material'
+        position: 7
+        defaultLabel: 'Gabardine'
+    product_fio_outerwear_material_option_laine_melangee:
+        code: 'laine-melangee'
+        source_field: '@product_fio_outerwear_material'
+        position: 8
+        defaultLabel: 'Laine mélangée'
+    product_fio_outerwear_material_option_polyester:
+        code: 'polyester'
+        source_field: '@product_fio_outerwear_material'
+        position: 9
+        defaultLabel: 'Polyester'
+    product_fio_outerwear_material_option_cachemire_melange:
+        code: 'cachemire-melange'
+        source_field: '@product_fio_outerwear_material'
+        position: 10
+        defaultLabel: 'Cachemire mélangé'
+    product_fio_outerwear_material_option_cuir_vachette:
+        code: 'cuir-vachette'
+        source_field: '@product_fio_outerwear_material'
+        position: 11
+        defaultLabel: 'Cuir vachette'
+    product_fio_outerwear_material_option_daim:
+        code: 'daim'
+        source_field: '@product_fio_outerwear_material'
+        position: 12
+        defaultLabel: 'Daim'
+    product_fio_outerwear_material_option_denim_recycle:
+        code: 'denim-recycle'
+        source_field: '@product_fio_outerwear_material'
+        position: 13
+        defaultLabel: 'Denim recyclé'
+    product_fio_lining_option_soie:
+        code: 'soie'
+        source_field: '@product_fio_lining'
+        position: 0
+        defaultLabel: 'Soie'
+    product_fio_lining_option_polyester:
+        code: 'polyester'
+        source_field: '@product_fio_lining'
+        position: 1
+        defaultLabel: 'Polyester'
+    product_fio_lining_option_coton:
+        code: 'coton'
+        source_field: '@product_fio_lining'
+        position: 2
+        defaultLabel: 'Coton'
+    product_fio_lining_option_polaire:
+        code: 'polaire'
+        source_field: '@product_fio_lining'
+        position: 3
+        defaultLabel: 'Polaire'
+    product_fio_lining_option_duvet:
+        code: 'duvet'
+        source_field: '@product_fio_lining'
+        position: 4
+        defaultLabel: 'Duvet'
+    product_fio_lining_option_sans_doublure:
+        code: 'sans-doublure'
+        source_field: '@product_fio_lining'
+        position: 5
+        defaultLabel: 'Sans doublure'
+    product_fio_lining_option_double_entierement:
+        code: 'double-entierement'
+        source_field: '@product_fio_lining'
+        position: 6
+        defaultLabel: 'Doublé entièrement'
+    product_fio_lining_option_garnissage_synthetique:
+        code: 'garnissage-synthetique'
+        source_field: '@product_fio_lining'
+        position: 7
+        defaultLabel: 'Garnissage synthétique'
+    product_fio_lining_option_doublure_mouton:
+        code: 'doublure-mouton'
+        source_field: '@product_fio_lining'
+        position: 8
+        defaultLabel: 'Doublure mouton'
+    product_fio_shoe_size_option_35:
+        code: '35'
+        source_field: '@product_fio_shoe_size'
+        position: 0
+        defaultLabel: '35'
+    product_fio_shoe_size_option_36:
+        code: '36'
+        source_field: '@product_fio_shoe_size'
+        position: 1
+        defaultLabel: '36'
+    product_fio_shoe_size_option_37:
+        code: '37'
+        source_field: '@product_fio_shoe_size'
+        position: 2
+        defaultLabel: '37'
+    product_fio_shoe_size_option_38:
+        code: '38'
+        source_field: '@product_fio_shoe_size'
+        position: 3
+        defaultLabel: '38'
+    product_fio_shoe_size_option_39:
+        code: '39'
+        source_field: '@product_fio_shoe_size'
+        position: 4
+        defaultLabel: '39'
+    product_fio_shoe_size_option_40:
+        code: '40'
+        source_field: '@product_fio_shoe_size'
+        position: 5
+        defaultLabel: '40'
+    product_fio_shoe_size_option_41:
+        code: '41'
+        source_field: '@product_fio_shoe_size'
+        position: 6
+        defaultLabel: '41'
+    product_fio_shoe_size_option_42:
+        code: '42'
+        source_field: '@product_fio_shoe_size'
+        position: 7
+        defaultLabel: '42'
+    product_fio_shoe_size_option_43:
+        code: '43'
+        source_field: '@product_fio_shoe_size'
+        position: 8
+        defaultLabel: '43'
+    product_fio_shoe_size_option_44:
+        code: '44'
+        source_field: '@product_fio_shoe_size'
+        position: 9
+        defaultLabel: '44'
+    product_fio_shoe_size_option_45:
+        code: '45'
+        source_field: '@product_fio_shoe_size'
+        position: 10
+        defaultLabel: '45'
+    product_fio_heel_height_option_plat_0_2_cm:
+        code: 'plat-0-2-cm'
+        source_field: '@product_fio_heel_height'
+        position: 0
+        defaultLabel: 'Plat (0-2 cm)'
+    product_fio_heel_height_option_petit_talon_3_5_cm:
+        code: 'petit-talon-3-5-cm'
+        source_field: '@product_fio_heel_height'
+        position: 1
+        defaultLabel: 'Petit talon (3-5 cm)'
+    product_fio_heel_height_option_talon_moyen_6_8_cm:
+        code: 'talon-moyen-6-8-cm'
+        source_field: '@product_fio_heel_height'
+        position: 2
+        defaultLabel: 'Talon moyen (6-8 cm)'
+    product_fio_heel_height_option_talon_haut_9_11_cm:
+        code: 'talon-haut-9-11-cm'
+        source_field: '@product_fio_heel_height'
+        position: 3
+        defaultLabel: 'Talon haut (9-11 cm)'
+    product_fio_heel_height_option_talon_tres_haut_12_plus_cm:
+        code: 'talon-tres-haut-12-plus-cm'
+        source_field: '@product_fio_heel_height'
+        position: 4
+        defaultLabel: 'Talon très haut (12+ cm)'
+    product_fio_shoe_material_option_cuir:
+        code: 'cuir'
+        source_field: '@product_fio_shoe_material'
+        position: 0
+        defaultLabel: 'Cuir'
+    product_fio_shoe_material_option_cuir_vegan:
+        code: 'cuir-vegan'
+        source_field: '@product_fio_shoe_material'
+        position: 1
+        defaultLabel: 'Cuir vegan'
+    product_fio_shoe_material_option_daim:
+        code: 'daim'
+        source_field: '@product_fio_shoe_material'
+        position: 2
+        defaultLabel: 'Daim'
+    product_fio_shoe_material_option_toile:
+        code: 'toile'
+        source_field: '@product_fio_shoe_material'
+        position: 3
+        defaultLabel: 'Toile'
+    product_fio_shoe_material_option_cuir_verni:
+        code: 'cuir-verni'
+        source_field: '@product_fio_shoe_material'
+        position: 4
+        defaultLabel: 'Cuir verni'
+    product_fio_shoe_material_option_synthetique:
+        code: 'synthetique'
+        source_field: '@product_fio_shoe_material'
+        position: 5
+        defaultLabel: 'Synthétique'
+    product_fio_shoe_material_option_maille_tricotee:
+        code: 'maille-tricotee'
+        source_field: '@product_fio_shoe_material'
+        position: 6
+        defaultLabel: 'Maille tricotée'
+    product_fio_shoe_material_option_cuir_toile:
+        code: 'cuir-toile'
+        source_field: '@product_fio_shoe_material'
+        position: 7
+        defaultLabel: 'Cuir/toile'
+    product_fio_shoe_material_option_matiere_recyclee:
+        code: 'matiere-recyclee'
+        source_field: '@product_fio_shoe_material'
+        position: 8
+        defaultLabel: 'Matière recyclée'
+    product_fio_shoe_material_option_satin:
+        code: 'satin'
+        source_field: '@product_fio_shoe_material'
+        position: 9
+        defaultLabel: 'Satin'
+    product_fio_shoe_material_option_matiere_vegetale:
+        code: 'matiere-vegetale'
+        source_field: '@product_fio_shoe_material'
+        position: 10
+        defaultLabel: 'Matière végétale'
+    product_fio_shoe_material_option_tissu:
+        code: 'tissu'
+        source_field: '@product_fio_shoe_material'
+        position: 11
+        defaultLabel: 'Tissu'
+    product_fio_sole_type_option_cuir:
+        code: 'cuir'
+        source_field: '@product_fio_sole_type'
+        position: 0
+        defaultLabel: 'Cuir'
+    product_fio_sole_type_option_caoutchouc:
+        code: 'caoutchouc'
+        source_field: '@product_fio_sole_type'
+        position: 1
+        defaultLabel: 'Caoutchouc'
+    product_fio_sole_type_option_crepe:
+        code: 'crepe'
+        source_field: '@product_fio_sole_type'
+        position: 2
+        defaultLabel: 'Crêpe'
+    product_fio_sole_type_option_compensee:
+        code: 'compensee'
+        source_field: '@product_fio_sole_type'
+        position: 3
+        defaultLabel: 'Compensée'
+    product_fio_sole_type_option_plateforme:
+        code: 'plateforme'
+        source_field: '@product_fio_sole_type'
+        position: 4
+        defaultLabel: 'Plateforme'
+    product_fio_sole_type_option_gomme:
+        code: 'gomme'
+        source_field: '@product_fio_sole_type'
+        position: 5
+        defaultLabel: 'Gomme'
+    product_fio_sole_type_option_corde_espadrille:
+        code: 'corde-espadrille'
+        source_field: '@product_fio_sole_type'
+        position: 6
+        defaultLabel: 'Corde (espadrille)'
+    product_fio_acc_material_option_cuir:
+        code: 'cuir'
+        source_field: '@product_fio_acc_material'
+        position: 0
+        defaultLabel: 'Cuir'
+    product_fio_acc_material_option_cuir_vegan:
+        code: 'cuir-vegan'
+        source_field: '@product_fio_acc_material'
+        position: 1
+        defaultLabel: 'Cuir vegan'
+    product_fio_acc_material_option_toile:
+        code: 'toile'
+        source_field: '@product_fio_acc_material'
+        position: 2
+        defaultLabel: 'Toile'
+    product_fio_acc_material_option_metal:
+        code: 'metal'
+        source_field: '@product_fio_acc_material'
+        position: 3
+        defaultLabel: 'Métal'
+    product_fio_acc_material_option_resine:
+        code: 'resine'
+        source_field: '@product_fio_acc_material'
+        position: 4
+        defaultLabel: 'Résine'
+    product_fio_acc_material_option_tissu:
+        code: 'tissu'
+        source_field: '@product_fio_acc_material'
+        position: 5
+        defaultLabel: 'Tissu'
+    product_fio_acc_material_option_paille:
+        code: 'paille'
+        source_field: '@product_fio_acc_material'
+        position: 6
+        defaultLabel: 'Paille'
+    product_fio_acc_material_option_cuir_lisse:
+        code: 'cuir-lisse'
+        source_field: '@product_fio_acc_material'
+        position: 7
+        defaultLabel: 'Cuir lisse'
+    product_fio_acc_material_option_soie:
+        code: 'soie'
+        source_field: '@product_fio_acc_material'
+        position: 8
+        defaultLabel: 'Soie'
+    product_fio_acc_material_option_acetate:
+        code: 'acetate'
+        source_field: '@product_fio_acc_material'
+        position: 9
+        defaultLabel: 'Acétate'
+    product_fio_acc_material_option_laine_feutree:
+        code: 'laine-feutree'
+        source_field: '@product_fio_acc_material'
+        position: 10
+        defaultLabel: 'Laine feutrée'
+    product_fio_acc_material_option_cuir_matelasse:
+        code: 'cuir-matelasse'
+        source_field: '@product_fio_acc_material'
+        position: 11
+        defaultLabel: 'Cuir matelassé'
+    product_fio_acc_material_option_cuir_nappa:
+        code: 'cuir-nappa'
+        source_field: '@product_fio_acc_material'
+        position: 12
+        defaultLabel: 'Cuir nappa'
+    product_fio_acc_material_option_cuir_souple:
+        code: 'cuir-souple'
+        source_field: '@product_fio_acc_material'
+        position: 13
+        defaultLabel: 'Cuir souple'
+    product_fio_acc_material_option_toile_cuir:
+        code: 'toile-cuir'
+        source_field: '@product_fio_acc_material'
+        position: 14
+        defaultLabel: 'Toile/cuir'
+    product_fio_acc_material_option_satin:
+        code: 'satin'
+        source_field: '@product_fio_acc_material'
+        position: 15
+        defaultLabel: 'Satin'
+    product_fio_acc_material_option_cuir_embosse:
+        code: 'cuir-embosse'
+        source_field: '@product_fio_acc_material'
+        position: 16
+        defaultLabel: 'Cuir embossé'
+    product_fio_acc_material_option_textile_brode:
+        code: 'textile-brode'
+        source_field: '@product_fio_acc_material'
+        position: 17
+        defaultLabel: 'Textile brodé'
+    product_fio_acc_material_option_daim:
+        code: 'daim'
+        source_field: '@product_fio_acc_material'
+        position: 18
+        defaultLabel: 'Daim'
+    product_fio_acc_material_option_pvc_cuir:
+        code: 'pvc-cuir'
+        source_field: '@product_fio_acc_material'
+        position: 19
+        defaultLabel: 'PVC/cuir'
+    product_fio_acc_material_option_metal_dore_cuir:
+        code: 'metal-dore-cuir'
+        source_field: '@product_fio_acc_material'
+        position: 20
+        defaultLabel: 'Métal doré/cuir'
+    product_fio_acc_material_option_cuir_tresse:
+        code: 'cuir-tresse'
+        source_field: '@product_fio_acc_material'
+        position: 21
+        defaultLabel: 'Cuir tressé'
+    product_fio_acc_material_option_cuir_verni:
+        code: 'cuir-verni'
+        source_field: '@product_fio_acc_material'
+        position: 22
+        defaultLabel: 'Cuir verni'
+    product_fio_acc_material_option_cuir_cloute:
+        code: 'cuir-cloute'
+        source_field: '@product_fio_acc_material'
+        position: 23
+        defaultLabel: 'Cuir clouté'
+    product_fio_acc_material_option_elastique_tresse:
+        code: 'elastique-tresse'
+        source_field: '@product_fio_acc_material'
+        position: 24
+        defaultLabel: 'Élastique tressé'
+    product_fio_acc_material_option_soie_twill:
+        code: 'soie-twill'
+        source_field: '@product_fio_acc_material'
+        position: 25
+        defaultLabel: 'Soie twill'
+    product_fio_acc_material_option_cachemire:
+        code: 'cachemire'
+        source_field: '@product_fio_acc_material'
+        position: 26
+        defaultLabel: 'Cachemire'
+    product_fio_acc_material_option_laine:
+        code: 'laine'
+        source_field: '@product_fio_acc_material'
+        position: 27
+        defaultLabel: 'Laine'
+    product_fio_acc_material_option_modal:
+        code: 'modal'
+        source_field: '@product_fio_acc_material'
+        position: 28
+        defaultLabel: 'Modal'
+    product_fio_acc_material_option_laine_acrylique:
+        code: 'laine-acrylique'
+        source_field: '@product_fio_acc_material'
+        position: 29
+        defaultLabel: 'Laine/acrylique'
+    product_fio_acc_material_option_coton:
+        code: 'coton'
+        source_field: '@product_fio_acc_material'
+        position: 30
+        defaultLabel: 'Coton'
+    product_fio_acc_material_option_soie_laine:
+        code: 'soie-laine'
+        source_field: '@product_fio_acc_material'
+        position: 31
+        defaultLabel: 'Soie/laine'
+    product_fio_acc_material_option_metal_dore:
+        code: 'metal-dore'
+        source_field: '@product_fio_acc_material'
+        position: 32
+        defaultLabel: 'Métal doré'
+    product_fio_acc_material_option_metal_fin:
+        code: 'metal-fin'
+        source_field: '@product_fio_acc_material'
+        position: 33
+        defaultLabel: 'Métal fin'
+    product_fio_acc_material_option_acetate_ecaille:
+        code: 'acetate-ecaille'
+        source_field: '@product_fio_acc_material'
+        position: 34
+        defaultLabel: 'Acétate écaille'
+    product_fio_acc_material_option_bio_acetate:
+        code: 'bio-acetate'
+        source_field: '@product_fio_acc_material'
+        position: 35
+        defaultLabel: 'Bio-acétate'
+    product_fio_acc_material_option_acetate_translucide:
+        code: 'acetate-translucide'
+        source_field: '@product_fio_acc_material'
+        position: 36
+        defaultLabel: 'Acétate translucide'
+    product_fio_acc_material_option_laine_merinos:
+        code: 'laine-merinos'
+        source_field: '@product_fio_acc_material'
+        position: 37
+        defaultLabel: 'Laine mérinos'
+    product_fio_acc_material_option_tweed:
+        code: 'tweed'
+        source_field: '@product_fio_acc_material'
+        position: 38
+        defaultLabel: 'Tweed'
+    product_fio_acc_material_option_coton_bio:
+        code: 'coton-bio'
+        source_field: '@product_fio_acc_material'
+        position: 39
+        defaultLabel: 'Coton bio'
+    product_fio_acc_material_option_paille_toquilla:
+        code: 'paille-toquilla'
+        source_field: '@product_fio_acc_material'
+        position: 40
+        defaultLabel: 'Paille toquilla'
+    product_fio_acc_material_option_cachemire_melange:
+        code: 'cachemire-melange'
+        source_field: '@product_fio_acc_material'
+        position: 41
+        defaultLabel: 'Cachemire mélangé'
+    product_fio_closure_option_zip:
+        code: 'zip'
+        source_field: '@product_fio_closure'
+        position: 0
+        defaultLabel: 'Zip'
+    product_fio_closure_option_bouton_pression:
+        code: 'bouton-pression'
+        source_field: '@product_fio_closure'
+        position: 1
+        defaultLabel: 'Bouton-pression'
+    product_fio_closure_option_magnetique:
+        code: 'magnetique'
+        source_field: '@product_fio_closure'
+        position: 2
+        defaultLabel: 'Magnétique'
+    product_fio_closure_option_boucle:
+        code: 'boucle'
+        source_field: '@product_fio_closure'
+        position: 3
+        defaultLabel: 'Boucle'
+    product_fio_closure_option_rabat:
+        code: 'rabat'
+        source_field: '@product_fio_closure'
+        position: 4
+        defaultLabel: 'Rabat'
+    product_fio_closure_option_aucune:
+        code: 'aucune'
+        source_field: '@product_fio_closure'
+        position: 5
+        defaultLabel: 'Aucune'
+    product_fio_closure_option_coulissant:
+        code: 'coulissant'
+        source_field: '@product_fio_closure'
+        position: 6
+        defaultLabel: 'Coulissant'
+    product_fio_closure_option_magnetique_plus_zip:
+        code: 'magnetique-plus-zip'
+        source_field: '@product_fio_closure'
+        position: 7
+        defaultLabel: 'Magnétique + zip'
+    product_fio_closure_option_fermoir_bijou:
+        code: 'fermoir-bijou'
+        source_field: '@product_fio_closure'
+        position: 8
+        defaultLabel: 'Fermoir bijou'
+    product_fio_closure_option_cadre_clip:
+        code: 'cadre-clip'
+        source_field: '@product_fio_closure'
+        position: 9
+        defaultLabel: 'Cadre clip'
+    product_fio_closure_option_clic_clac:
+        code: 'clic-clac'
+        source_field: '@product_fio_closure'
+        position: 10
+        defaultLabel: 'Clic-clac'
+    product_fio_closure_option_boucle_ronde:
+        code: 'boucle-ronde'
+        source_field: '@product_fio_closure'
+        position: 11
+        defaultLabel: 'Boucle ronde'
+    product_fio_closure_option_boucle_ovale:
+        code: 'boucle-ovale'
+        source_field: '@product_fio_closure'
+        position: 12
+        defaultLabel: 'Boucle ovale'
+    product_fio_closure_option_grande_boucle:
+        code: 'grande-boucle'
+        source_field: '@product_fio_closure'
+        position: 13
+        defaultLabel: 'Grande boucle'
+    product_fio_closure_option_boucle_metal:
+        code: 'boucle-metal'
+        source_field: '@product_fio_closure'
+        position: 14
+        defaultLabel: 'Boucle métal'
+    product_fio_closure_option_double_boucle:
+        code: 'double-boucle'
+        source_field: '@product_fio_closure'
+        position: 15
+        defaultLabel: 'Double boucle'
+    product_fio_acc_color_option_noir:
+        code: 'noir'
+        source_field: '@product_fio_acc_color'
+        position: 0
+        defaultLabel: 'Noir'
+    product_fio_acc_color_option_dore:
+        code: 'dore'
+        source_field: '@product_fio_acc_color'
+        position: 1
+        defaultLabel: 'Doré'
+    product_fio_acc_color_option_ecaille:
+        code: 'ecaille'
+        source_field: '@product_fio_acc_color'
+        position: 2
+        defaultLabel: 'Écaille'
+    product_fio_acc_color_option_rose:
+        code: 'rose'
+        source_field: '@product_fio_acc_color'
+        position: 3
+        defaultLabel: 'Rose'
+    product_fio_lingerie_size_option_xs:
+        code: 'xs'
+        source_field: '@product_fio_lingerie_size'
+        position: 0
+        defaultLabel: 'XS'
+    product_fio_lingerie_size_option_s:
+        code: 's'
+        source_field: '@product_fio_lingerie_size'
+        position: 1
+        defaultLabel: 'S'
+    product_fio_lingerie_size_option_m:
+        code: 'm'
+        source_field: '@product_fio_lingerie_size'
+        position: 2
+        defaultLabel: 'M'
+    product_fio_lingerie_size_option_l:
+        code: 'l'
+        source_field: '@product_fio_lingerie_size'
+        position: 3
+        defaultLabel: 'L'
+    product_fio_lingerie_size_option_xl:
+        code: 'xl'
+        source_field: '@product_fio_lingerie_size'
+        position: 4
+        defaultLabel: 'XL'
+    product_fio_lingerie_material_option_coton:
+        code: 'coton'
+        source_field: '@product_fio_lingerie_material'
+        position: 0
+        defaultLabel: 'Coton'
+    product_fio_lingerie_material_option_dentelle:
+        code: 'dentelle'
+        source_field: '@product_fio_lingerie_material'
+        position: 1
+        defaultLabel: 'Dentelle'
+    product_fio_lingerie_material_option_soie:
+        code: 'soie'
+        source_field: '@product_fio_lingerie_material'
+        position: 2
+        defaultLabel: 'Soie'
+    product_fio_lingerie_material_option_microfibre:
+        code: 'microfibre'
+        source_field: '@product_fio_lingerie_material'
+        position: 3
+        defaultLabel: 'Microfibre'
+    product_fio_lingerie_material_option_tulle:
+        code: 'tulle'
+        source_field: '@product_fio_lingerie_material'
+        position: 4
+        defaultLabel: 'Tulle'
+    product_fio_lingerie_material_option_satin:
+        code: 'satin'
+        source_field: '@product_fio_lingerie_material'
+        position: 5
+        defaultLabel: 'Satin'
+    product_fio_lingerie_material_option_tulle_brode:
+        code: 'tulle-brode'
+        source_field: '@product_fio_lingerie_material'
+        position: 6
+        defaultLabel: 'Tulle brodé'
+    product_fio_lingerie_material_option_polyamide:
+        code: 'polyamide'
+        source_field: '@product_fio_lingerie_material'
+        position: 7
+        defaultLabel: 'Polyamide'
+    product_fio_lingerie_material_option_dentelle_de_calais:
+        code: 'dentelle-de-calais'
+        source_field: '@product_fio_lingerie_material'
+        position: 8
+        defaultLabel: 'Dentelle de Calais'
+    product_fio_lingerie_material_option_coton_bio:
+        code: 'coton-bio'
+        source_field: '@product_fio_lingerie_material'
+        position: 9
+        defaultLabel: 'Coton bio'
+    product_fio_lingerie_material_option_satin_dentelle:
+        code: 'satin-dentelle'
+        source_field: '@product_fio_lingerie_material'
+        position: 10
+        defaultLabel: 'Satin/dentelle'
+    product_fio_lingerie_material_option_jersey_coton:
+        code: 'jersey-coton'
+        source_field: '@product_fio_lingerie_material'
+        position: 11
+        defaultLabel: 'Jersey coton'
+    product_fio_lingerie_material_option_mousseline:
+        code: 'mousseline'
+        source_field: '@product_fio_lingerie_material'
+        position: 12
+        defaultLabel: 'Mousseline'
+    product_fio_lingerie_material_option_elastique:
+        code: 'elastique'
+        source_field: '@product_fio_lingerie_material'
+        position: 13
+        defaultLabel: 'Élastique'
+    product_fio_lingerie_material_option_jersey_modal:
+        code: 'jersey-modal'
+        source_field: '@product_fio_lingerie_material'
+        position: 14
+        defaultLabel: 'Jersey modal'
+    product_fio_lingerie_material_option_tulle_dentelle_calais:
+        code: 'tulle-dentelle-calais'
+        source_field: '@product_fio_lingerie_material'
+        position: 15
+        defaultLabel: 'Tulle/dentelle Calais'
+    product_fio_lingerie_material_option_laine_merinos:
+        code: 'laine-merinos'
+        source_field: '@product_fio_lingerie_material'
+        position: 16
+        defaultLabel: 'Laine mérinos'
+    product_fio_lingerie_style_option_bralette:
+        code: 'bralette'
+        source_field: '@product_fio_lingerie_style'
+        position: 0
+        defaultLabel: 'Bralette'
+    product_fio_lingerie_style_option_push_up:
+        code: 'push-up'
+        source_field: '@product_fio_lingerie_style'
+        position: 1
+        defaultLabel: 'Push-up'
+    product_fio_lingerie_style_option_triangle:
+        code: 'triangle'
+        source_field: '@product_fio_lingerie_style'
+        position: 2
+        defaultLabel: 'Triangle'
+    product_fio_lingerie_style_option_bandeau:
+        code: 'bandeau'
+        source_field: '@product_fio_lingerie_style'
+        position: 3
+        defaultLabel: 'Bandeau'
+    product_fio_lingerie_style_option_minimizer:
+        code: 'minimizer'
+        source_field: '@product_fio_lingerie_style'
+        position: 4
+        defaultLabel: 'Minimizer'
+    product_fio_lingerie_style_option_sans_armatures:
+        code: 'sans-armatures'
+        source_field: '@product_fio_lingerie_style'
+        position: 5
+        defaultLabel: 'Sans armatures'
+    product_fio_lingerie_style_option_corbeille:
+        code: 'corbeille'
+        source_field: '@product_fio_lingerie_style'
+        position: 6
+        defaultLabel: 'Corbeille'
+    product_fio_lingerie_style_option_culotte_classique:
+        code: 'culotte-classique'
+        source_field: '@product_fio_lingerie_style'
+        position: 7
+        defaultLabel: 'Culotte classique'
+    product_fio_lingerie_style_option_nuisette:
+        code: 'nuisette'
+        source_field: '@product_fio_lingerie_style'
+        position: 8
+        defaultLabel: 'Nuisette'
+    product_fio_lingerie_style_option_body:
+        code: 'body'
+        source_field: '@product_fio_lingerie_style'
+        position: 9
+        defaultLabel: 'Body'
+    product_fio_lingerie_style_option_collant:
+        code: 'collant'
+        source_field: '@product_fio_lingerie_style'
+        position: 10
+        defaultLabel: 'Collant'
+    product_fio_lingerie_style_option_brassiere:
+        code: 'brassiere'
+        source_field: '@product_fio_lingerie_style'
+        position: 11
+        defaultLabel: 'Brassière'
+    product_fio_lingerie_style_option_emboitant:
+        code: 'emboitant'
+        source_field: '@product_fio_lingerie_style'
+        position: 12
+        defaultLabel: 'Emboîtant'
+    product_fio_lingerie_style_option_bustier:
+        code: 'bustier'
+        source_field: '@product_fio_lingerie_style'
+        position: 13
+        defaultLabel: 'Bustier'
+    product_fio_lingerie_style_option_string:
+        code: 'string'
+        source_field: '@product_fio_lingerie_style'
+        position: 14
+        defaultLabel: 'String'
+    product_fio_lingerie_style_option_shorty:
+        code: 'shorty'
+        source_field: '@product_fio_lingerie_style'
+        position: 15
+        defaultLabel: 'Shorty'
+    product_fio_lingerie_style_option_bresilienne:
+        code: 'bresilienne'
+        source_field: '@product_fio_lingerie_style'
+        position: 16
+        defaultLabel: 'Brésilienne'
+    product_fio_lingerie_style_option_culotte_gainante:
+        code: 'culotte-gainante'
+        source_field: '@product_fio_lingerie_style'
+        position: 17
+        defaultLabel: 'Culotte gainante'
+    product_fio_lingerie_style_option_tanga:
+        code: 'tanga'
+        source_field: '@product_fio_lingerie_style'
+        position: 18
+        defaultLabel: 'Tanga'
+    product_fio_lingerie_style_option_pyjama_2_pieces:
+        code: 'pyjama-2-pieces'
+        source_field: '@product_fio_lingerie_style'
+        position: 19
+        defaultLabel: 'Pyjama 2 pièces'
+    product_fio_lingerie_style_option_chemise_de_nuit:
+        code: 'chemise-de-nuit'
+        source_field: '@product_fio_lingerie_style'
+        position: 20
+        defaultLabel: 'Chemise de nuit'
+    product_fio_lingerie_style_option_caraco_plus_short:
+        code: 'caraco-plus-short'
+        source_field: '@product_fio_lingerie_style'
+        position: 21
+        defaultLabel: 'Caraco + short'
+    product_fio_lingerie_style_option_kimono:
+        code: 'kimono'
+        source_field: '@product_fio_lingerie_style'
+        position: 22
+        defaultLabel: 'Kimono'
+    product_fio_lingerie_style_option_deshabille:
+        code: 'deshabille'
+        source_field: '@product_fio_lingerie_style'
+        position: 23
+        defaultLabel: 'Déshabillé'
+    product_fio_lingerie_style_option_body_sculptant:
+        code: 'body-sculptant'
+        source_field: '@product_fio_lingerie_style'
+        position: 24
+        defaultLabel: 'Body sculptant'
+    product_fio_lingerie_style_option_body_harness:
+        code: 'body-harness'
+        source_field: '@product_fio_lingerie_style'
+        position: 25
+        defaultLabel: 'Body harness'
+    product_fio_lingerie_style_option_body_col_roule:
+        code: 'body-col-roule'
+        source_field: '@product_fio_lingerie_style'
+        position: 26
+        defaultLabel: 'Body col roulé'
+    product_fio_lingerie_style_option_body_luxe:
+        code: 'body-luxe'
+        source_field: '@product_fio_lingerie_style'
+        position: 27
+        defaultLabel: 'Body luxe'
+    product_fio_lingerie_style_option_body_cache_coeur:
+        code: 'body-cache-coeur'
+        source_field: '@product_fio_lingerie_style'
+        position: 28
+        defaultLabel: 'Body cache-cœur'
+    product_fio_lingerie_style_option_body_dos_nu:
+        code: 'body-dos-nu'
+        source_field: '@product_fio_lingerie_style'
+        position: 29
+        defaultLabel: 'Body dos nu'
+    product_fio_lingerie_style_option_bas_autofixants:
+        code: 'bas-autofixants'
+        source_field: '@product_fio_lingerie_style'
+        position: 30
+        defaultLabel: 'Bas autofixants'
+    product_fio_lingerie_style_option_collant_a_motif:
+        code: 'collant-a-motif'
+        source_field: '@product_fio_lingerie_style'
+        position: 31
+        defaultLabel: 'Collant à motif'
+    product_fio_lingerie_style_option_chaussettes_hautes:
+        code: 'chaussettes-hautes'
+        source_field: '@product_fio_lingerie_style'
+        position: 32
+        defaultLabel: 'Chaussettes hautes'
+    product_fio_lingerie_style_option_collant_resille:
+        code: 'collant-resille'
+        source_field: '@product_fio_lingerie_style'
+        position: 33
+        defaultLabel: 'Collant résille'
+    product_fio_sport_size_option_xs:
+        code: 'xs'
+        source_field: '@product_fio_sport_size'
+        position: 0
+        defaultLabel: 'XS'
+    product_fio_sport_size_option_s:
+        code: 's'
+        source_field: '@product_fio_sport_size'
+        position: 1
+        defaultLabel: 'S'
+    product_fio_sport_size_option_m:
+        code: 'm'
+        source_field: '@product_fio_sport_size'
+        position: 2
+        defaultLabel: 'M'
+    product_fio_sport_size_option_l:
+        code: 'l'
+        source_field: '@product_fio_sport_size'
+        position: 3
+        defaultLabel: 'L'
+    product_fio_sport_size_option_xl:
+        code: 'xl'
+        source_field: '@product_fio_sport_size'
+        position: 4
+        defaultLabel: 'XL'
+    product_fio_sport_size_option_xxl:
+        code: 'xxl'
+        source_field: '@product_fio_sport_size'
+        position: 5
+        defaultLabel: 'XXL'
+    product_fio_sport_fabric_option_polyester_recycle:
+        code: 'polyester-recycle'
+        source_field: '@product_fio_sport_fabric'
+        position: 0
+        defaultLabel: 'Polyester recyclé'
+    product_fio_sport_fabric_option_nylon:
+        code: 'nylon'
+        source_field: '@product_fio_sport_fabric'
+        position: 1
+        defaultLabel: 'Nylon'
+    product_fio_sport_fabric_option_elasthanne:
+        code: 'elasthanne'
+        source_field: '@product_fio_sport_fabric'
+        position: 2
+        defaultLabel: 'Élasthanne'
+    product_fio_sport_fabric_option_mesh:
+        code: 'mesh'
+        source_field: '@product_fio_sport_fabric'
+        position: 3
+        defaultLabel: 'Mesh'
+    product_fio_sport_fabric_option_softshell:
+        code: 'softshell'
+        source_field: '@product_fio_sport_fabric'
+        position: 4
+        defaultLabel: 'Softshell'
+    product_fio_sport_fabric_option_polaire:
+        code: 'polaire'
+        source_field: '@product_fio_sport_fabric'
+        position: 5
+        defaultLabel: 'Polaire'
+    product_fio_sport_fabric_option_polyester_elasthanne:
+        code: 'polyester-elasthanne'
+        source_field: '@product_fio_sport_fabric'
+        position: 6
+        defaultLabel: 'Polyester/élasthanne'
+    product_fio_sport_fabric_option_polyamide_seamless:
+        code: 'polyamide-seamless'
+        source_field: '@product_fio_sport_fabric'
+        position: 7
+        defaultLabel: 'Polyamide seamless'
+    product_fio_sport_fabric_option_polyester_polaire:
+        code: 'polyester-polaire'
+        source_field: '@product_fio_sport_fabric'
+        position: 8
+        defaultLabel: 'Polyester polaire'
+    product_fio_sport_fabric_option_polyamide_buttery_soft:
+        code: 'polyamide-buttery-soft'
+        source_field: '@product_fio_sport_fabric'
+        position: 9
+        defaultLabel: 'Polyamide buttery-soft'
+    product_fio_sport_fabric_option_polyamide_compression:
+        code: 'polyamide-compression'
+        source_field: '@product_fio_sport_fabric'
+        position: 10
+        defaultLabel: 'Polyamide compression'
+    product_fio_sport_fabric_option_coton_bio:
+        code: 'coton-bio'
+        source_field: '@product_fio_sport_fabric'
+        position: 11
+        defaultLabel: 'Coton bio'
+    product_fio_sport_fabric_option_molleton_coton:
+        code: 'molleton-coton'
+        source_field: '@product_fio_sport_fabric'
+        position: 12
+        defaultLabel: 'Molleton coton'
+    product_fio_sport_fabric_option_polyester_stretch:
+        code: 'polyester-stretch'
+        source_field: '@product_fio_sport_fabric'
+        position: 13
+        defaultLabel: 'Polyester stretch'
+    product_fio_sport_fabric_option_polyamide:
+        code: 'polyamide'
+        source_field: '@product_fio_sport_fabric'
+        position: 14
+        defaultLabel: 'Polyamide'
+    product_fio_sport_fabric_option_jersey_coton:
+        code: 'jersey-coton'
+        source_field: '@product_fio_sport_fabric'
+        position: 15
+        defaultLabel: 'Jersey coton'
+    product_fio_sport_fabric_option_softshell_stretch:
+        code: 'softshell-stretch'
+        source_field: '@product_fio_sport_fabric'
+        position: 16
+        defaultLabel: 'Softshell stretch'
+    product_fio_sport_fabric_option_duvet_recycle:
+        code: 'duvet-recycle'
+        source_field: '@product_fio_sport_fabric'
+        position: 17
+        defaultLabel: 'Duvet recyclé'
+    product_fio_sport_fabric_option_micro_polaire_recycle:
+        code: 'micro-polaire-recycle'
+        source_field: '@product_fio_sport_fabric'
+        position: 18
+        defaultLabel: 'Micro-polaire recyclé'
+    product_fio_sport_fabric_option_polyester_3_couches:
+        code: 'polyester-3-couches'
+        source_field: '@product_fio_sport_fabric'
+        position: 19
+        defaultLabel: 'Polyester 3 couches'
+    product_fio_sport_fabric_option_laine_merinos:
+        code: 'laine-merinos'
+        source_field: '@product_fio_sport_fabric'
+        position: 20
+        defaultLabel: 'Laine mérinos'
+    product_fio_sport_fabric_option_coton_modal:
+        code: 'coton-modal'
+        source_field: '@product_fio_sport_fabric'
+        position: 21
+        defaultLabel: 'Coton/modal'
+    product_fio_sport_intensity_option_legere:
+        code: 'legere'
+        source_field: '@product_fio_sport_intensity'
+        position: 0
+        defaultLabel: 'Légère'
+    product_fio_sport_intensity_option_moderee:
+        code: 'moderee'
+        source_field: '@product_fio_sport_intensity'
+        position: 1
+        defaultLabel: 'Modérée'
+    product_fio_sport_intensity_option_intense:
+        code: 'intense'
+        source_field: '@product_fio_sport_intensity'
+        position: 2
+        defaultLabel: 'Intense'
+    product_fio_sport_intensity_option_impact_fort:
+        code: 'impact-fort'
+        source_field: '@product_fio_sport_intensity'
+        position: 3
+        defaultLabel: 'Impact fort'
+    product_fio_item_material_option_cuir_pleine_fleur:
+        code: 'cuir-pleine-fleur'
+        source_field: '@product_fio_item_material'
+        position: 0
+        defaultLabel: 'Cuir pleine fleur'
+    product_fio_item_material_option_cuir_de_veau:
+        code: 'cuir-de-veau'
+        source_field: '@product_fio_item_material'
+        position: 1
+        defaultLabel: 'Cuir de veau'
+    product_fio_item_material_option_cuir_vegan:
+        code: 'cuir-vegan'
+        source_field: '@product_fio_item_material'
+        position: 2
+        defaultLabel: 'Cuir vegan'
+    product_fio_item_material_option_argent_925:
+        code: 'argent-925'
+        source_field: '@product_fio_item_material'
+        position: 3
+        defaultLabel: 'Argent 925'
+    product_fio_item_material_option_or_18_carats:
+        code: 'or-18-carats'
+        source_field: '@product_fio_item_material'
+        position: 4
+        defaultLabel: 'Or 18 carats'
+    product_fio_item_material_option_plaque_or:
+        code: 'plaque-or'
+        source_field: '@product_fio_item_material'
+        position: 5
+        defaultLabel: 'Plaqué or'
+    product_fio_item_material_option_acier_inoxydable:
+        code: 'acier-inoxydable'
+        source_field: '@product_fio_item_material'
+        position: 6
+        defaultLabel: 'Acier inoxydable'
+    product_fio_item_material_option_laiton:
+        code: 'laiton'
+        source_field: '@product_fio_item_material'
+        position: 7
+        defaultLabel: 'Laiton'
+    product_fio_item_material_option_cuir_saffiano:
+        code: 'cuir-saffiano'
+        source_field: '@product_fio_item_material'
+        position: 8
+        defaultLabel: 'Cuir saffiano'
+    product_fio_item_material_option_or_9_carats:
+        code: 'or-9-carats'
+        source_field: '@product_fio_item_material'
+        position: 9
+        defaultLabel: 'Or 9 carats'
+    product_fio_item_material_option_polycarbonate:
+        code: 'polycarbonate'
+        source_field: '@product_fio_item_material'
+        position: 10
+        defaultLabel: 'Polycarbonate'
+    product_fio_item_material_option_cuir_lisse:
+        code: 'cuir-lisse'
+        source_field: '@product_fio_item_material'
+        position: 11
+        defaultLabel: 'Cuir lisse'
+    product_fio_item_material_option_cuir_matelasse:
+        code: 'cuir-matelasse'
+        source_field: '@product_fio_item_material'
+        position: 12
+        defaultLabel: 'Cuir matelassé'
+    product_fio_item_material_option_cuir_souple:
+        code: 'cuir-souple'
+        source_field: '@product_fio_item_material'
+        position: 13
+        defaultLabel: 'Cuir souple'
+    product_fio_item_material_option_cuir_patine:
+        code: 'cuir-patine'
+        source_field: '@product_fio_item_material'
+        position: 14
+        defaultLabel: 'Cuir patiné'
+    product_fio_item_material_option_cuir_verni:
+        code: 'cuir-verni'
+        source_field: '@product_fio_item_material'
+        position: 15
+        defaultLabel: 'Cuir verni'
+    product_fio_item_material_option_acier_cuir:
+        code: 'acier-cuir'
+        source_field: '@product_fio_item_material'
+        position: 16
+        defaultLabel: 'Acier/cuir'
+    product_fio_item_material_option_cuir_tresse:
+        code: 'cuir-tresse'
+        source_field: '@product_fio_item_material'
+        position: 17
+        defaultLabel: 'Cuir tressé'
+    product_fio_item_material_option_cuir_recycle:
+        code: 'cuir-recycle'
+        source_field: '@product_fio_item_material'
+        position: 18
+        defaultLabel: 'Cuir recyclé'
+    product_fio_item_material_option_cuir_graine:
+        code: 'cuir-graine'
+        source_field: '@product_fio_item_material'
+        position: 19
+        defaultLabel: 'Cuir grainé'
+    product_fio_item_material_option_resine_acrylique:
+        code: 'resine-acrylique'
+        source_field: '@product_fio_item_material'
+        position: 20
+        defaultLabel: 'Résine acrylique'
+    product_fio_item_material_option_laiton_martele:
+        code: 'laiton-martele'
+        source_field: '@product_fio_item_material'
+        position: 21
+        defaultLabel: 'Laiton martelé'
+    product_fio_item_material_option_acier_dore:
+        code: 'acier-dore'
+        source_field: '@product_fio_item_material'
+        position: 22
+        defaultLabel: 'Acier doré'
+    product_fio_item_material_option_perles_eau_douce_acier_dore:
+        code: 'perles-eau-douce-acier-dore'
+        source_field: '@product_fio_item_material'
+        position: 23
+        defaultLabel: 'Perles eau douce/acier doré'
+    product_fio_item_material_option_fil_de_soie_metal_dore:
+        code: 'fil-de-soie-metal-dore'
+        source_field: '@product_fio_item_material'
+        position: 24
+        defaultLabel: 'Fil de soie/métal doré'
+    product_fio_item_material_option_or_blanc_9_carats:
+        code: 'or-blanc-9-carats'
+        source_field: '@product_fio_item_material'
+        position: 25
+        defaultLabel: 'Or blanc 9 carats'
+    product_fio_item_material_option_or_rose_9_carats:
+        code: 'or-rose-9-carats'
+        source_field: '@product_fio_item_material'
+        position: 26
+        defaultLabel: 'Or rose 9 carats'
+    product_fio_item_material_option_argent_925_rhodie:
+        code: 'argent-925-rhodie'
+        source_field: '@product_fio_item_material'
+        position: 27
+        defaultLabel: 'Argent 925 rhodié'
+    product_fio_item_material_option_vermeil_argent_925_plaque_or:
+        code: 'vermeil-argent-925-plaque-or'
+        source_field: '@product_fio_item_material'
+        position: 28
+        defaultLabel: 'Vermeil (argent 925 plaqué or)'
+    product_fio_item_material_option_acier_dore_rose_cuir:
+        code: 'acier-dore-rose-cuir'
+        source_field: '@product_fio_item_material'
+        position: 29
+        defaultLabel: 'Acier doré rose/cuir'
+    product_fio_item_material_option_acier_brosse:
+        code: 'acier-brosse'
+        source_field: '@product_fio_item_material'
+        position: 30
+        defaultLabel: 'Acier brossé'
+    product_fio_item_material_option_acier_poli_nato:
+        code: 'acier-poli-nato'
+        source_field: '@product_fio_item_material'
+        position: 31
+        defaultLabel: 'Acier poli/NATO'
+    product_fio_item_material_option_acier_dore_cuir:
+        code: 'acier-dore-cuir'
+        source_field: '@product_fio_item_material'
+        position: 32
+        defaultLabel: 'Acier doré/cuir'
+    product_fio_item_material_option_toile_cuir:
+        code: 'toile-cuir'
+        source_field: '@product_fio_item_material'
+        position: 33
+        defaultLabel: 'Toile/cuir'
+    product_fio_item_material_option_cuir_nylon:
+        code: 'cuir-nylon'
+        source_field: '@product_fio_item_material'
+        position: 34
+        defaultLabel: 'Cuir/nylon'
+    product_fio_item_material_option_nylon:
+        code: 'nylon'
+        source_field: '@product_fio_item_material'
+        position: 35
+        defaultLabel: 'Nylon'
+    product_fio_item_material_option_nylon_ripstop:
+        code: 'nylon-ripstop'
+        source_field: '@product_fio_item_material'
+        position: 36
+        defaultLabel: 'Nylon ripstop'
+    product_fio_item_material_option_cuir:
+        code: 'cuir'
+        source_field: '@product_fio_item_material'
+        position: 37
+        defaultLabel: 'Cuir'
+    product_fio_item_material_option_polyester_recycle:
+        code: 'polyester-recycle'
+        source_field: '@product_fio_item_material'
+        position: 38
+        defaultLabel: 'Polyester recyclé'
+    product_fio_stone_option_aucune:
+        code: 'aucune'
+        source_field: '@product_fio_stone'
+        position: 0
+        defaultLabel: 'Aucune'
+    product_fio_stone_option_diamant:
+        code: 'diamant'
+        source_field: '@product_fio_stone'
+        position: 1
+        defaultLabel: 'Diamant'
+    product_fio_stone_option_zircone:
+        code: 'zircone'
+        source_field: '@product_fio_stone'
+        position: 2
+        defaultLabel: 'Zircone'
+    product_fio_stone_option_perle:
+        code: 'perle'
+        source_field: '@product_fio_stone'
+        position: 3
+        defaultLabel: 'Perle'
+    product_fio_stone_option_turquoise:
+        code: 'turquoise'
+        source_field: '@product_fio_stone'
+        position: 4
+        defaultLabel: 'Turquoise'
+    product_fio_stone_option_amethyste:
+        code: 'amethyste'
+        source_field: '@product_fio_stone'
+        position: 5
+        defaultLabel: 'Améthyste'
+    product_fio_stone_option_agate:
+        code: 'agate'
+        source_field: '@product_fio_stone'
+        position: 6
+        defaultLabel: 'Agate'
+    product_fio_stone_option_labradorite:
+        code: 'labradorite'
+        source_field: '@product_fio_stone'
+        position: 7
+        defaultLabel: 'Labradorite'
+    product_fio_stone_option_diamant_0_10_ct:
+        code: 'diamant-0-10-ct'
+        source_field: '@product_fio_stone'
+        position: 8
+        defaultLabel: 'Diamant 0,10 ct'
+    product_fio_stone_option_grenat:
+        code: 'grenat'
+        source_field: '@product_fio_stone'
+        position: 9
+        defaultLabel: 'Grenat'
+    product_fio_item_color_option_noir:
+        code: 'noir'
+        source_field: '@product_fio_item_color'
+        position: 0
+        defaultLabel: 'Noir'
+    product_fio_item_color_option_or_jaune:
+        code: 'or-jaune'
+        source_field: '@product_fio_item_color'
+        position: 1
+        defaultLabel: 'Or jaune'
+    product_fio_item_color_option_rose:
+        code: 'rose'
+        source_field: '@product_fio_item_color'
+        position: 2
+        defaultLabel: 'Rose'
+    product_fio_item_color_option_camel:
+        code: 'camel'
+        source_field: '@product_fio_item_color'
+        position: 3
+        defaultLabel: 'Camel'
+    product_fio_item_color_option_marron:
+        code: 'marron'
+        source_field: '@product_fio_item_color'
+        position: 4
+        defaultLabel: 'Marron'
+    product_fio_item_color_option_rouge:
+        code: 'rouge'
+        source_field: '@product_fio_item_color'
+        position: 5
+        defaultLabel: 'Rouge'
+    product_fio_item_color_option_cognac:
+        code: 'cognac'
+        source_field: '@product_fio_item_color'
+        position: 6
+        defaultLabel: 'Cognac'
+    product_fio_item_color_option_olive:
+        code: 'olive'
+        source_field: '@product_fio_item_color'
+        position: 7
+        defaultLabel: 'Olive'
+    product_fio_item_color_option_vert_fonce:
+        code: 'vert-fonce'
+        source_field: '@product_fio_item_color'
+        position: 8
+        defaultLabel: 'Vert foncé'
+    product_fio_item_color_option_orange:
+        code: 'orange'
+        source_field: '@product_fio_item_color'
+        position: 9
+        defaultLabel: 'Orange'
+    product_fio_item_color_option_or_blanc:
+        code: 'or-blanc'
+        source_field: '@product_fio_item_color'
+        position: 10
+        defaultLabel: 'Or blanc'
+    product_fio_item_color_option_or_rose:
+        code: 'or-rose'
+        source_field: '@product_fio_item_color'
+        position: 11
+        defaultLabel: 'Or rose'
+    product_fio_item_color_option_argent:
+        code: 'argent'
+        source_field: '@product_fio_item_color'
+        position: 12
+        defaultLabel: 'Argent'
+    product_fio_item_color_option_bleu_marine:
+        code: 'bleu-marine'
+        source_field: '@product_fio_item_color'
+        position: 13
+        defaultLabel: 'Bleu marine'
+    product_fio_item_color_option_bleu_canard:
+        code: 'bleu-canard'
+        source_field: '@product_fio_item_color'
+        position: 14
+        defaultLabel: 'Bleu canard'
+    product_fio_item_color_option_bordeaux:
+        code: 'bordeaux'
+        source_field: '@product_fio_item_color'
+        position: 15
+        defaultLabel: 'Bordeaux'
+    product_fio_item_color_option_gris:
+        code: 'gris'
+        source_field: '@product_fio_item_color'
+        position: 16
+        defaultLabel: 'Gris'
+    product_fio_brand_option_fiora:
+        code: 'fiora'
+        source_field: '@product_fio_brand'
+        position: 0
+        defaultLabel: 'Fiora'
+    product_fio_brand_option_purebasics:
+        code: 'purebasics'
+        source_field: '@product_fio_brand'
+        position: 1
+        defaultLabel: 'PureBasics'
+    product_fio_brand_option_urbanedge:
+        code: 'urbanedge'
+        source_field: '@product_fio_brand'
+        position: 2
+        defaultLabel: 'UrbanEdge'
+    product_fio_brand_option_luxeline:
+        code: 'luxeline'
+        source_field: '@product_fio_brand'
+        position: 3
+        defaultLabel: 'LuxeLine'
+    product_fio_brand_option_activepulse:
+        code: 'activepulse'
+        source_field: '@product_fio_brand'
+        position: 4
+        defaultLabel: 'ActivePulse'

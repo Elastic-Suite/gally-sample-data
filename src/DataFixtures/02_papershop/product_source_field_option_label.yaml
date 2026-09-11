@@ -1,0 +1,1133 @@
+include:
+    - localized_catalogs.yaml
+    - product_source_field_option.yaml
+
+Gally\Metadata\Entity\SourceFieldOptionLabel:
+    product_llv_brand_option_lievre_et_cie_papershop_fr:
+        source_field_option: '@product_llv_brand_option_lievre_et_cie'
+        localized_catalog: '@papershop_fr'
+        label: 'Lièvre & Cie'
+    product_llv_brand_option_lievre_et_cie_papershop_en:
+        source_field_option: '@product_llv_brand_option_lievre_et_cie'
+        localized_catalog: '@papershop_en'
+        label: 'Lièvre & Cie'
+    product_llv_brand_option_lievre_et_cie_papershop_de:
+        source_field_option: '@product_llv_brand_option_lievre_et_cie'
+        localized_catalog: '@papershop_de'
+        label: 'Lièvre & Cie'
+    product_llv_brand_option_verso_papershop_fr:
+        source_field_option: '@product_llv_brand_option_verso'
+        localized_catalog: '@papershop_fr'
+        label: 'Verso'
+    product_llv_brand_option_verso_papershop_en:
+        source_field_option: '@product_llv_brand_option_verso'
+        localized_catalog: '@papershop_en'
+        label: 'Verso'
+    product_llv_brand_option_verso_papershop_de:
+        source_field_option: '@product_llv_brand_option_verso'
+        localized_catalog: '@papershop_de'
+        label: 'Verso'
+    product_llv_brand_option_papeloup_papershop_fr:
+        source_field_option: '@product_llv_brand_option_papeloup'
+        localized_catalog: '@papershop_fr'
+        label: 'Papeloup'
+    product_llv_brand_option_papeloup_papershop_en:
+        source_field_option: '@product_llv_brand_option_papeloup'
+        localized_catalog: '@papershop_en'
+        label: 'Papeloup'
+    product_llv_brand_option_papeloup_papershop_de:
+        source_field_option: '@product_llv_brand_option_papeloup'
+        localized_catalog: '@papershop_de'
+        label: 'Papeloup'
+    product_llv_brand_option_boisclair_papershop_fr:
+        source_field_option: '@product_llv_brand_option_boisclair'
+        localized_catalog: '@papershop_fr'
+        label: 'Boisclair'
+    product_llv_brand_option_boisclair_papershop_en:
+        source_field_option: '@product_llv_brand_option_boisclair'
+        localized_catalog: '@papershop_en'
+        label: 'Boisclair'
+    product_llv_brand_option_boisclair_papershop_de:
+        source_field_option: '@product_llv_brand_option_boisclair'
+        localized_catalog: '@papershop_de'
+        label: 'Boisclair'
+    product_llv_brand_option_lumen_atelier_papershop_fr:
+        source_field_option: '@product_llv_brand_option_lumen_atelier'
+        localized_catalog: '@papershop_fr'
+        label: 'Lumen Atelier'
+    product_llv_brand_option_lumen_atelier_papershop_en:
+        source_field_option: '@product_llv_brand_option_lumen_atelier'
+        localized_catalog: '@papershop_en'
+        label: 'Lumen Atelier'
+    product_llv_brand_option_lumen_atelier_papershop_de:
+        source_field_option: '@product_llv_brand_option_lumen_atelier'
+        localized_catalog: '@papershop_de'
+        label: 'Lumen Atelier'
+    product_llv_brand_option_reliure_du_nord_papershop_fr:
+        source_field_option: '@product_llv_brand_option_reliure_du_nord'
+        localized_catalog: '@papershop_fr'
+        label: 'Reliure du Nord'
+    product_llv_brand_option_reliure_du_nord_papershop_en:
+        source_field_option: '@product_llv_brand_option_reliure_du_nord'
+        localized_catalog: '@papershop_en'
+        label: 'Reliure du Nord'
+    product_llv_brand_option_reliure_du_nord_papershop_de:
+        source_field_option: '@product_llv_brand_option_reliure_du_nord'
+        localized_catalog: '@papershop_de'
+        label: 'Reliure du Nord'
+    product_llv_brand_option_chene_et_fer_papershop_fr:
+        source_field_option: '@product_llv_brand_option_chene_et_fer'
+        localized_catalog: '@papershop_fr'
+        label: 'Chêne & Fer'
+    product_llv_brand_option_chene_et_fer_papershop_en:
+        source_field_option: '@product_llv_brand_option_chene_et_fer'
+        localized_catalog: '@papershop_en'
+        label: 'Chêne & Fer'
+    product_llv_brand_option_chene_et_fer_papershop_de:
+        source_field_option: '@product_llv_brand_option_chene_et_fer'
+        localized_catalog: '@papershop_de'
+        label: 'Chêne & Fer'
+    product_llv_brand_option_encrier_bleu_papershop_fr:
+        source_field_option: '@product_llv_brand_option_encrier_bleu'
+        localized_catalog: '@papershop_fr'
+        label: 'Encrier Bleu'
+    product_llv_brand_option_encrier_bleu_papershop_en:
+        source_field_option: '@product_llv_brand_option_encrier_bleu'
+        localized_catalog: '@papershop_en'
+        label: 'Encrier Bleu'
+    product_llv_brand_option_encrier_bleu_papershop_de:
+        source_field_option: '@product_llv_brand_option_encrier_bleu'
+        localized_catalog: '@papershop_de'
+        label: 'Encrier Bleu'
+    product_llv_brand_option_feuillet_papershop_fr:
+        source_field_option: '@product_llv_brand_option_feuillet'
+        localized_catalog: '@papershop_fr'
+        label: 'Feuillet'
+    product_llv_brand_option_feuillet_papershop_en:
+        source_field_option: '@product_llv_brand_option_feuillet'
+        localized_catalog: '@papershop_en'
+        label: 'Feuillet'
+    product_llv_brand_option_feuillet_papershop_de:
+        source_field_option: '@product_llv_brand_option_feuillet'
+        localized_catalog: '@papershop_de'
+        label: 'Feuillet'
+    product_llv_material_option_papier_recycle_papershop_fr:
+        source_field_option: '@product_llv_material_option_papier_recycle'
+        localized_catalog: '@papershop_fr'
+        label: 'Papier recyclé'
+    product_llv_material_option_papier_recycle_papershop_en:
+        source_field_option: '@product_llv_material_option_papier_recycle'
+        localized_catalog: '@papershop_en'
+        label: 'Recycled paper'
+    product_llv_material_option_papier_recycle_papershop_de:
+        source_field_option: '@product_llv_material_option_papier_recycle'
+        localized_catalog: '@papershop_de'
+        label: 'Recyclingpapier'
+    product_llv_material_option_papier_verge_papershop_fr:
+        source_field_option: '@product_llv_material_option_papier_verge'
+        localized_catalog: '@papershop_fr'
+        label: 'Papier vergé'
+    product_llv_material_option_papier_verge_papershop_en:
+        source_field_option: '@product_llv_material_option_papier_verge'
+        localized_catalog: '@papershop_en'
+        label: 'Laid paper'
+    product_llv_material_option_papier_verge_papershop_de:
+        source_field_option: '@product_llv_material_option_papier_verge'
+        localized_catalog: '@papershop_de'
+        label: 'Büttenpapier'
+    product_llv_material_option_carton_relie_papershop_fr:
+        source_field_option: '@product_llv_material_option_carton_relie'
+        localized_catalog: '@papershop_fr'
+        label: 'Carton relié'
+    product_llv_material_option_carton_relie_papershop_en:
+        source_field_option: '@product_llv_material_option_carton_relie'
+        localized_catalog: '@papershop_en'
+        label: 'Bound board'
+    product_llv_material_option_carton_relie_papershop_de:
+        source_field_option: '@product_llv_material_option_carton_relie'
+        localized_catalog: '@papershop_de'
+        label: 'Buchbinderkarton'
+    product_llv_material_option_chene_massif_papershop_fr:
+        source_field_option: '@product_llv_material_option_chene_massif'
+        localized_catalog: '@papershop_fr'
+        label: 'Chêne massif'
+    product_llv_material_option_chene_massif_papershop_en:
+        source_field_option: '@product_llv_material_option_chene_massif'
+        localized_catalog: '@papershop_en'
+        label: 'Solid oak'
+    product_llv_material_option_chene_massif_papershop_de:
+        source_field_option: '@product_llv_material_option_chene_massif'
+        localized_catalog: '@papershop_de'
+        label: 'Eiche massiv'
+    product_llv_material_option_hetre_papershop_fr:
+        source_field_option: '@product_llv_material_option_hetre'
+        localized_catalog: '@papershop_fr'
+        label: 'Hêtre'
+    product_llv_material_option_hetre_papershop_en:
+        source_field_option: '@product_llv_material_option_hetre'
+        localized_catalog: '@papershop_en'
+        label: 'Beech'
+    product_llv_material_option_hetre_papershop_de:
+        source_field_option: '@product_llv_material_option_hetre'
+        localized_catalog: '@papershop_de'
+        label: 'Buche'
+    product_llv_material_option_noyer_papershop_fr:
+        source_field_option: '@product_llv_material_option_noyer'
+        localized_catalog: '@papershop_fr'
+        label: 'Noyer'
+    product_llv_material_option_noyer_papershop_en:
+        source_field_option: '@product_llv_material_option_noyer'
+        localized_catalog: '@papershop_en'
+        label: 'Walnut'
+    product_llv_material_option_noyer_papershop_de:
+        source_field_option: '@product_llv_material_option_noyer'
+        localized_catalog: '@papershop_de'
+        label: 'Nussbaum'
+    product_llv_material_option_pin_papershop_fr:
+        source_field_option: '@product_llv_material_option_pin'
+        localized_catalog: '@papershop_fr'
+        label: 'Pin'
+    product_llv_material_option_pin_papershop_en:
+        source_field_option: '@product_llv_material_option_pin'
+        localized_catalog: '@papershop_en'
+        label: 'Pine'
+    product_llv_material_option_pin_papershop_de:
+        source_field_option: '@product_llv_material_option_pin'
+        localized_catalog: '@papershop_de'
+        label: 'Kiefer'
+    product_llv_material_option_acier_papershop_fr:
+        source_field_option: '@product_llv_material_option_acier'
+        localized_catalog: '@papershop_fr'
+        label: 'Acier'
+    product_llv_material_option_acier_papershop_en:
+        source_field_option: '@product_llv_material_option_acier'
+        localized_catalog: '@papershop_en'
+        label: 'Steel'
+    product_llv_material_option_acier_papershop_de:
+        source_field_option: '@product_llv_material_option_acier'
+        localized_catalog: '@papershop_de'
+        label: 'Stahl'
+    product_llv_material_option_laiton_papershop_fr:
+        source_field_option: '@product_llv_material_option_laiton'
+        localized_catalog: '@papershop_fr'
+        label: 'Laiton'
+    product_llv_material_option_laiton_papershop_en:
+        source_field_option: '@product_llv_material_option_laiton'
+        localized_catalog: '@papershop_en'
+        label: 'Brass'
+    product_llv_material_option_laiton_papershop_de:
+        source_field_option: '@product_llv_material_option_laiton'
+        localized_catalog: '@papershop_de'
+        label: 'Messing'
+    product_llv_material_option_verre_papershop_fr:
+        source_field_option: '@product_llv_material_option_verre'
+        localized_catalog: '@papershop_fr'
+        label: 'Verre'
+    product_llv_material_option_verre_papershop_en:
+        source_field_option: '@product_llv_material_option_verre'
+        localized_catalog: '@papershop_en'
+        label: 'Glass'
+    product_llv_material_option_verre_papershop_de:
+        source_field_option: '@product_llv_material_option_verre'
+        localized_catalog: '@papershop_de'
+        label: 'Glas'
+    product_llv_material_option_lin_papershop_fr:
+        source_field_option: '@product_llv_material_option_lin'
+        localized_catalog: '@papershop_fr'
+        label: 'Lin'
+    product_llv_material_option_lin_papershop_en:
+        source_field_option: '@product_llv_material_option_lin'
+        localized_catalog: '@papershop_en'
+        label: 'Linen'
+    product_llv_material_option_lin_papershop_de:
+        source_field_option: '@product_llv_material_option_lin'
+        localized_catalog: '@papershop_de'
+        label: 'Leinen'
+    product_llv_material_option_cuir_vegetal_papershop_fr:
+        source_field_option: '@product_llv_material_option_cuir_vegetal'
+        localized_catalog: '@papershop_fr'
+        label: 'Cuir végétal'
+    product_llv_material_option_cuir_vegetal_papershop_en:
+        source_field_option: '@product_llv_material_option_cuir_vegetal'
+        localized_catalog: '@papershop_en'
+        label: 'Vegetable-tanned leather'
+    product_llv_material_option_cuir_vegetal_papershop_de:
+        source_field_option: '@product_llv_material_option_cuir_vegetal'
+        localized_catalog: '@papershop_de'
+        label: 'Naturleder'
+    product_llv_material_option_feutre_papershop_fr:
+        source_field_option: '@product_llv_material_option_feutre'
+        localized_catalog: '@papershop_fr'
+        label: 'Feutre'
+    product_llv_material_option_feutre_papershop_en:
+        source_field_option: '@product_llv_material_option_feutre'
+        localized_catalog: '@papershop_en'
+        label: 'Felt'
+    product_llv_material_option_feutre_papershop_de:
+        source_field_option: '@product_llv_material_option_feutre'
+        localized_catalog: '@papershop_de'
+        label: 'Filz'
+    product_llv_material_option_resine_papershop_fr:
+        source_field_option: '@product_llv_material_option_resine'
+        localized_catalog: '@papershop_fr'
+        label: 'Résine'
+    product_llv_material_option_resine_papershop_en:
+        source_field_option: '@product_llv_material_option_resine'
+        localized_catalog: '@papershop_en'
+        label: 'Resin'
+    product_llv_material_option_resine_papershop_de:
+        source_field_option: '@product_llv_material_option_resine'
+        localized_catalog: '@papershop_de'
+        label: 'Harz'
+    product_llv_color_option_noir_papershop_fr:
+        source_field_option: '@product_llv_color_option_noir'
+        localized_catalog: '@papershop_fr'
+        label: 'Noir'
+    product_llv_color_option_noir_papershop_en:
+        source_field_option: '@product_llv_color_option_noir'
+        localized_catalog: '@papershop_en'
+        label: 'Black'
+    product_llv_color_option_noir_papershop_de:
+        source_field_option: '@product_llv_color_option_noir'
+        localized_catalog: '@papershop_de'
+        label: 'Schwarz'
+    product_llv_color_option_blanc_papershop_fr:
+        source_field_option: '@product_llv_color_option_blanc'
+        localized_catalog: '@papershop_fr'
+        label: 'Blanc'
+    product_llv_color_option_blanc_papershop_en:
+        source_field_option: '@product_llv_color_option_blanc'
+        localized_catalog: '@papershop_en'
+        label: 'White'
+    product_llv_color_option_blanc_papershop_de:
+        source_field_option: '@product_llv_color_option_blanc'
+        localized_catalog: '@papershop_de'
+        label: 'Weiß'
+    product_llv_color_option_ivoire_papershop_fr:
+        source_field_option: '@product_llv_color_option_ivoire'
+        localized_catalog: '@papershop_fr'
+        label: 'Ivoire'
+    product_llv_color_option_ivoire_papershop_en:
+        source_field_option: '@product_llv_color_option_ivoire'
+        localized_catalog: '@papershop_en'
+        label: 'Ivory'
+    product_llv_color_option_ivoire_papershop_de:
+        source_field_option: '@product_llv_color_option_ivoire'
+        localized_catalog: '@papershop_de'
+        label: 'Elfenbein'
+    product_llv_color_option_gris_papershop_fr:
+        source_field_option: '@product_llv_color_option_gris'
+        localized_catalog: '@papershop_fr'
+        label: 'Gris'
+    product_llv_color_option_gris_papershop_en:
+        source_field_option: '@product_llv_color_option_gris'
+        localized_catalog: '@papershop_en'
+        label: 'Grey'
+    product_llv_color_option_gris_papershop_de:
+        source_field_option: '@product_llv_color_option_gris'
+        localized_catalog: '@papershop_de'
+        label: 'Grau'
+    product_llv_color_option_bleu_nuit_papershop_fr:
+        source_field_option: '@product_llv_color_option_bleu_nuit'
+        localized_catalog: '@papershop_fr'
+        label: 'Bleu nuit'
+    product_llv_color_option_bleu_nuit_papershop_en:
+        source_field_option: '@product_llv_color_option_bleu_nuit'
+        localized_catalog: '@papershop_en'
+        label: 'Midnight blue'
+    product_llv_color_option_bleu_nuit_papershop_de:
+        source_field_option: '@product_llv_color_option_bleu_nuit'
+        localized_catalog: '@papershop_de'
+        label: 'Mitternachtsblau'
+    product_llv_color_option_vert_sauge_papershop_fr:
+        source_field_option: '@product_llv_color_option_vert_sauge'
+        localized_catalog: '@papershop_fr'
+        label: 'Vert sauge'
+    product_llv_color_option_vert_sauge_papershop_en:
+        source_field_option: '@product_llv_color_option_vert_sauge'
+        localized_catalog: '@papershop_en'
+        label: 'Sage green'
+    product_llv_color_option_vert_sauge_papershop_de:
+        source_field_option: '@product_llv_color_option_vert_sauge'
+        localized_catalog: '@papershop_de'
+        label: 'Salbeigrün'
+    product_llv_color_option_bordeaux_papershop_fr:
+        source_field_option: '@product_llv_color_option_bordeaux'
+        localized_catalog: '@papershop_fr'
+        label: 'Bordeaux'
+    product_llv_color_option_bordeaux_papershop_en:
+        source_field_option: '@product_llv_color_option_bordeaux'
+        localized_catalog: '@papershop_en'
+        label: 'Burgundy'
+    product_llv_color_option_bordeaux_papershop_de:
+        source_field_option: '@product_llv_color_option_bordeaux'
+        localized_catalog: '@papershop_de'
+        label: 'Bordeauxrot'
+    product_llv_color_option_terracotta_papershop_fr:
+        source_field_option: '@product_llv_color_option_terracotta'
+        localized_catalog: '@papershop_fr'
+        label: 'Terracotta'
+    product_llv_color_option_terracotta_papershop_en:
+        source_field_option: '@product_llv_color_option_terracotta'
+        localized_catalog: '@papershop_en'
+        label: 'Terracotta'
+    product_llv_color_option_terracotta_papershop_de:
+        source_field_option: '@product_llv_color_option_terracotta'
+        localized_catalog: '@papershop_de'
+        label: 'Terrakotta'
+    product_llv_color_option_naturel_papershop_fr:
+        source_field_option: '@product_llv_color_option_naturel'
+        localized_catalog: '@papershop_fr'
+        label: 'Naturel'
+    product_llv_color_option_naturel_papershop_en:
+        source_field_option: '@product_llv_color_option_naturel'
+        localized_catalog: '@papershop_en'
+        label: 'Natural'
+    product_llv_color_option_naturel_papershop_de:
+        source_field_option: '@product_llv_color_option_naturel'
+        localized_catalog: '@papershop_de'
+        label: 'Natur'
+    product_llv_color_option_ocre_papershop_fr:
+        source_field_option: '@product_llv_color_option_ocre'
+        localized_catalog: '@papershop_fr'
+        label: 'Ocre'
+    product_llv_color_option_ocre_papershop_en:
+        source_field_option: '@product_llv_color_option_ocre'
+        localized_catalog: '@papershop_en'
+        label: 'Ochre'
+    product_llv_color_option_ocre_papershop_de:
+        source_field_option: '@product_llv_color_option_ocre'
+        localized_catalog: '@papershop_de'
+        label: 'Ocker'
+    product_llv_color_option_sable_papershop_fr:
+        source_field_option: '@product_llv_color_option_sable'
+        localized_catalog: '@papershop_fr'
+        label: 'Sable'
+    product_llv_color_option_sable_papershop_en:
+        source_field_option: '@product_llv_color_option_sable'
+        localized_catalog: '@papershop_en'
+        label: 'Sand'
+    product_llv_color_option_sable_papershop_de:
+        source_field_option: '@product_llv_color_option_sable'
+        localized_catalog: '@papershop_de'
+        label: 'Sandbeige'
+    product_llv_color_option_anthracite_papershop_fr:
+        source_field_option: '@product_llv_color_option_anthracite'
+        localized_catalog: '@papershop_fr'
+        label: 'Anthracite'
+    product_llv_color_option_anthracite_papershop_en:
+        source_field_option: '@product_llv_color_option_anthracite'
+        localized_catalog: '@papershop_en'
+        label: 'Charcoal'
+    product_llv_color_option_anthracite_papershop_de:
+        source_field_option: '@product_llv_color_option_anthracite'
+        localized_catalog: '@papershop_de'
+        label: 'Anthrazit'
+    product_llv_origin_option_france_papershop_fr:
+        source_field_option: '@product_llv_origin_option_france'
+        localized_catalog: '@papershop_fr'
+        label: 'France'
+    product_llv_origin_option_france_papershop_en:
+        source_field_option: '@product_llv_origin_option_france'
+        localized_catalog: '@papershop_en'
+        label: 'France'
+    product_llv_origin_option_france_papershop_de:
+        source_field_option: '@product_llv_origin_option_france'
+        localized_catalog: '@papershop_de'
+        label: 'Frankreich'
+    product_llv_origin_option_portugal_papershop_fr:
+        source_field_option: '@product_llv_origin_option_portugal'
+        localized_catalog: '@papershop_fr'
+        label: 'Portugal'
+    product_llv_origin_option_portugal_papershop_en:
+        source_field_option: '@product_llv_origin_option_portugal'
+        localized_catalog: '@papershop_en'
+        label: 'Portugal'
+    product_llv_origin_option_portugal_papershop_de:
+        source_field_option: '@product_llv_origin_option_portugal'
+        localized_catalog: '@papershop_de'
+        label: 'Portugal'
+    product_llv_origin_option_italie_papershop_fr:
+        source_field_option: '@product_llv_origin_option_italie'
+        localized_catalog: '@papershop_fr'
+        label: 'Italie'
+    product_llv_origin_option_italie_papershop_en:
+        source_field_option: '@product_llv_origin_option_italie'
+        localized_catalog: '@papershop_en'
+        label: 'Italy'
+    product_llv_origin_option_italie_papershop_de:
+        source_field_option: '@product_llv_origin_option_italie'
+        localized_catalog: '@papershop_de'
+        label: 'Italien'
+    product_llv_origin_option_allemagne_papershop_fr:
+        source_field_option: '@product_llv_origin_option_allemagne'
+        localized_catalog: '@papershop_fr'
+        label: 'Allemagne'
+    product_llv_origin_option_allemagne_papershop_en:
+        source_field_option: '@product_llv_origin_option_allemagne'
+        localized_catalog: '@papershop_en'
+        label: 'Germany'
+    product_llv_origin_option_allemagne_papershop_de:
+        source_field_option: '@product_llv_origin_option_allemagne'
+        localized_catalog: '@papershop_de'
+        label: 'Deutschland'
+    product_llv_origin_option_pologne_papershop_fr:
+        source_field_option: '@product_llv_origin_option_pologne'
+        localized_catalog: '@papershop_fr'
+        label: 'Pologne'
+    product_llv_origin_option_pologne_papershop_en:
+        source_field_option: '@product_llv_origin_option_pologne'
+        localized_catalog: '@papershop_en'
+        label: 'Poland'
+    product_llv_origin_option_pologne_papershop_de:
+        source_field_option: '@product_llv_origin_option_pologne'
+        localized_catalog: '@papershop_de'
+        label: 'Polen'
+    product_llv_origin_option_suede_papershop_fr:
+        source_field_option: '@product_llv_origin_option_suede'
+        localized_catalog: '@papershop_fr'
+        label: 'Suède'
+    product_llv_origin_option_suede_papershop_en:
+        source_field_option: '@product_llv_origin_option_suede'
+        localized_catalog: '@papershop_en'
+        label: 'Sweden'
+    product_llv_origin_option_suede_papershop_de:
+        source_field_option: '@product_llv_origin_option_suede'
+        localized_catalog: '@papershop_de'
+        label: 'Schweden'
+    product_llv_origin_option_espagne_papershop_fr:
+        source_field_option: '@product_llv_origin_option_espagne'
+        localized_catalog: '@papershop_fr'
+        label: 'Espagne'
+    product_llv_origin_option_espagne_papershop_en:
+        source_field_option: '@product_llv_origin_option_espagne'
+        localized_catalog: '@papershop_en'
+        label: 'Spain'
+    product_llv_origin_option_espagne_papershop_de:
+        source_field_option: '@product_llv_origin_option_espagne'
+        localized_catalog: '@papershop_de'
+        label: 'Spanien'
+    product_llv_ruling_option_seyes_papershop_fr:
+        source_field_option: '@product_llv_ruling_option_seyes'
+        localized_catalog: '@papershop_fr'
+        label: 'Seyès'
+    product_llv_ruling_option_seyes_papershop_en:
+        source_field_option: '@product_llv_ruling_option_seyes'
+        localized_catalog: '@papershop_en'
+        label: 'French ruled'
+    product_llv_ruling_option_seyes_papershop_de:
+        source_field_option: '@product_llv_ruling_option_seyes'
+        localized_catalog: '@papershop_de'
+        label: 'Lineatur 28'
+    product_llv_ruling_option_ligne_papershop_fr:
+        source_field_option: '@product_llv_ruling_option_ligne'
+        localized_catalog: '@papershop_fr'
+        label: 'Ligné'
+    product_llv_ruling_option_ligne_papershop_en:
+        source_field_option: '@product_llv_ruling_option_ligne'
+        localized_catalog: '@papershop_en'
+        label: 'Lined'
+    product_llv_ruling_option_ligne_papershop_de:
+        source_field_option: '@product_llv_ruling_option_ligne'
+        localized_catalog: '@papershop_de'
+        label: 'Liniert'
+    product_llv_ruling_option_quadrille_5_papershop_fr:
+        source_field_option: '@product_llv_ruling_option_quadrille_5'
+        localized_catalog: '@papershop_fr'
+        label: 'Quadrillé 5 mm'
+    product_llv_ruling_option_quadrille_5_papershop_en:
+        source_field_option: '@product_llv_ruling_option_quadrille_5'
+        localized_catalog: '@papershop_en'
+        label: '5 mm grid'
+    product_llv_ruling_option_quadrille_5_papershop_de:
+        source_field_option: '@product_llv_ruling_option_quadrille_5'
+        localized_catalog: '@papershop_de'
+        label: 'Kariert 5 mm'
+    product_llv_ruling_option_pointille_papershop_fr:
+        source_field_option: '@product_llv_ruling_option_pointille'
+        localized_catalog: '@papershop_fr'
+        label: 'Pointillé'
+    product_llv_ruling_option_pointille_papershop_en:
+        source_field_option: '@product_llv_ruling_option_pointille'
+        localized_catalog: '@papershop_en'
+        label: 'Dotted'
+    product_llv_ruling_option_pointille_papershop_de:
+        source_field_option: '@product_llv_ruling_option_pointille'
+        localized_catalog: '@papershop_de'
+        label: 'Gepunktet'
+    product_llv_ruling_option_uni_papershop_fr:
+        source_field_option: '@product_llv_ruling_option_uni'
+        localized_catalog: '@papershop_fr'
+        label: 'Uni'
+    product_llv_ruling_option_uni_papershop_en:
+        source_field_option: '@product_llv_ruling_option_uni'
+        localized_catalog: '@papershop_en'
+        label: 'Blank'
+    product_llv_ruling_option_uni_papershop_de:
+        source_field_option: '@product_llv_ruling_option_uni'
+        localized_catalog: '@papershop_de'
+        label: 'Blanko'
+    product_llv_ruling_option_portees_papershop_fr:
+        source_field_option: '@product_llv_ruling_option_portees'
+        localized_catalog: '@papershop_fr'
+        label: 'Portées musicales'
+    product_llv_ruling_option_portees_papershop_en:
+        source_field_option: '@product_llv_ruling_option_portees'
+        localized_catalog: '@papershop_en'
+        label: 'Music staves'
+    product_llv_ruling_option_portees_papershop_de:
+        source_field_option: '@product_llv_ruling_option_portees'
+        localized_catalog: '@papershop_de'
+        label: 'Notenlinien'
+    product_llv_format_option_a6_papershop_fr:
+        source_field_option: '@product_llv_format_option_a6'
+        localized_catalog: '@papershop_fr'
+        label: 'A6'
+    product_llv_format_option_a6_papershop_en:
+        source_field_option: '@product_llv_format_option_a6'
+        localized_catalog: '@papershop_en'
+        label: 'A6'
+    product_llv_format_option_a6_papershop_de:
+        source_field_option: '@product_llv_format_option_a6'
+        localized_catalog: '@papershop_de'
+        label: 'A6'
+    product_llv_format_option_a5_papershop_fr:
+        source_field_option: '@product_llv_format_option_a5'
+        localized_catalog: '@papershop_fr'
+        label: 'A5'
+    product_llv_format_option_a5_papershop_en:
+        source_field_option: '@product_llv_format_option_a5'
+        localized_catalog: '@papershop_en'
+        label: 'A5'
+    product_llv_format_option_a5_papershop_de:
+        source_field_option: '@product_llv_format_option_a5'
+        localized_catalog: '@papershop_de'
+        label: 'A5'
+    product_llv_format_option_b5_papershop_fr:
+        source_field_option: '@product_llv_format_option_b5'
+        localized_catalog: '@papershop_fr'
+        label: 'B5'
+    product_llv_format_option_b5_papershop_en:
+        source_field_option: '@product_llv_format_option_b5'
+        localized_catalog: '@papershop_en'
+        label: 'B5'
+    product_llv_format_option_b5_papershop_de:
+        source_field_option: '@product_llv_format_option_b5'
+        localized_catalog: '@papershop_de'
+        label: 'B5'
+    product_llv_format_option_a4_papershop_fr:
+        source_field_option: '@product_llv_format_option_a4'
+        localized_catalog: '@papershop_fr'
+        label: 'A4'
+    product_llv_format_option_a4_papershop_en:
+        source_field_option: '@product_llv_format_option_a4'
+        localized_catalog: '@papershop_en'
+        label: 'A4'
+    product_llv_format_option_a4_papershop_de:
+        source_field_option: '@product_llv_format_option_a4'
+        localized_catalog: '@papershop_de'
+        label: 'A4'
+    product_llv_format_option_a3_papershop_fr:
+        source_field_option: '@product_llv_format_option_a3'
+        localized_catalog: '@papershop_fr'
+        label: 'A3'
+    product_llv_format_option_a3_papershop_en:
+        source_field_option: '@product_llv_format_option_a3'
+        localized_catalog: '@papershop_en'
+        label: 'A3'
+    product_llv_format_option_a3_papershop_de:
+        source_field_option: '@product_llv_format_option_a3'
+        localized_catalog: '@papershop_de'
+        label: 'A3'
+    product_llv_format_option_carre_15_papershop_fr:
+        source_field_option: '@product_llv_format_option_carre_15'
+        localized_catalog: '@papershop_fr'
+        label: '15 x 15 cm'
+    product_llv_format_option_carre_15_papershop_en:
+        source_field_option: '@product_llv_format_option_carre_15'
+        localized_catalog: '@papershop_en'
+        label: '15 x 15 cm'
+    product_llv_format_option_carre_15_papershop_de:
+        source_field_option: '@product_llv_format_option_carre_15'
+        localized_catalog: '@papershop_de'
+        label: '15 x 15 cm'
+    product_llv_format_option_poche_papershop_fr:
+        source_field_option: '@product_llv_format_option_poche'
+        localized_catalog: '@papershop_fr'
+        label: 'Poche'
+    product_llv_format_option_poche_papershop_en:
+        source_field_option: '@product_llv_format_option_poche'
+        localized_catalog: '@papershop_en'
+        label: 'Pocket size'
+    product_llv_format_option_poche_papershop_de:
+        source_field_option: '@product_llv_format_option_poche'
+        localized_catalog: '@papershop_de'
+        label: 'Taschenformat'
+    product_llv_binding_option_spirale_papershop_fr:
+        source_field_option: '@product_llv_binding_option_spirale'
+        localized_catalog: '@papershop_fr'
+        label: 'Spirale'
+    product_llv_binding_option_spirale_papershop_en:
+        source_field_option: '@product_llv_binding_option_spirale'
+        localized_catalog: '@papershop_en'
+        label: 'Spiral-bound'
+    product_llv_binding_option_spirale_papershop_de:
+        source_field_option: '@product_llv_binding_option_spirale'
+        localized_catalog: '@papershop_de'
+        label: 'Spiralbindung'
+    product_llv_binding_option_spirale_double_papershop_fr:
+        source_field_option: '@product_llv_binding_option_spirale_double'
+        localized_catalog: '@papershop_fr'
+        label: 'Double spirale'
+    product_llv_binding_option_spirale_double_papershop_en:
+        source_field_option: '@product_llv_binding_option_spirale_double'
+        localized_catalog: '@papershop_en'
+        label: 'Twin-wire'
+    product_llv_binding_option_spirale_double_papershop_de:
+        source_field_option: '@product_llv_binding_option_spirale_double'
+        localized_catalog: '@papershop_de'
+        label: 'Doppelspirale'
+    product_llv_binding_option_cousu_papershop_fr:
+        source_field_option: '@product_llv_binding_option_cousu'
+        localized_catalog: '@papershop_fr'
+        label: 'Cousu'
+    product_llv_binding_option_cousu_papershop_en:
+        source_field_option: '@product_llv_binding_option_cousu'
+        localized_catalog: '@papershop_en'
+        label: 'Sewn binding'
+    product_llv_binding_option_cousu_papershop_de:
+        source_field_option: '@product_llv_binding_option_cousu'
+        localized_catalog: '@papershop_de'
+        label: 'Fadenheftung'
+    product_llv_binding_option_agrafe_papershop_fr:
+        source_field_option: '@product_llv_binding_option_agrafe'
+        localized_catalog: '@papershop_fr'
+        label: 'Agrafé'
+    product_llv_binding_option_agrafe_papershop_en:
+        source_field_option: '@product_llv_binding_option_agrafe'
+        localized_catalog: '@papershop_en'
+        label: 'Stapled'
+    product_llv_binding_option_agrafe_papershop_de:
+        source_field_option: '@product_llv_binding_option_agrafe'
+        localized_catalog: '@papershop_de'
+        label: 'Geheftet'
+    product_llv_binding_option_dos_carre_colle_papershop_fr:
+        source_field_option: '@product_llv_binding_option_dos_carre_colle'
+        localized_catalog: '@papershop_fr'
+        label: 'Dos carré collé'
+    product_llv_binding_option_dos_carre_colle_papershop_en:
+        source_field_option: '@product_llv_binding_option_dos_carre_colle'
+        localized_catalog: '@papershop_en'
+        label: 'Perfect bound'
+    product_llv_binding_option_dos_carre_colle_papershop_de:
+        source_field_option: '@product_llv_binding_option_dos_carre_colle'
+        localized_catalog: '@papershop_de'
+        label: 'Klebebindung'
+    product_llv_binding_option_relie_papershop_fr:
+        source_field_option: '@product_llv_binding_option_relie'
+        localized_catalog: '@papershop_fr'
+        label: 'Relié'
+    product_llv_binding_option_relie_papershop_en:
+        source_field_option: '@product_llv_binding_option_relie'
+        localized_catalog: '@papershop_en'
+        label: 'Hardcover'
+    product_llv_binding_option_relie_papershop_de:
+        source_field_option: '@product_llv_binding_option_relie'
+        localized_catalog: '@papershop_de'
+        label: 'Gebunden'
+    product_llv_binding_option_broche_papershop_fr:
+        source_field_option: '@product_llv_binding_option_broche'
+        localized_catalog: '@papershop_fr'
+        label: 'Broché'
+    product_llv_binding_option_broche_papershop_en:
+        source_field_option: '@product_llv_binding_option_broche'
+        localized_catalog: '@papershop_en'
+        label: 'Paperback'
+    product_llv_binding_option_broche_papershop_de:
+        source_field_option: '@product_llv_binding_option_broche'
+        localized_catalog: '@papershop_de'
+        label: 'Broschiert'
+    product_llv_author_option_jane_austen_papershop_fr:
+        source_field_option: '@product_llv_author_option_jane_austen'
+        localized_catalog: '@papershop_fr'
+        label: 'Jane Austen'
+    product_llv_author_option_jane_austen_papershop_en:
+        source_field_option: '@product_llv_author_option_jane_austen'
+        localized_catalog: '@papershop_en'
+        label: 'Jane Austen'
+    product_llv_author_option_jane_austen_papershop_de:
+        source_field_option: '@product_llv_author_option_jane_austen'
+        localized_catalog: '@papershop_de'
+        label: 'Jane Austen'
+    product_llv_author_option_victor_hugo_papershop_fr:
+        source_field_option: '@product_llv_author_option_victor_hugo'
+        localized_catalog: '@papershop_fr'
+        label: 'Victor Hugo'
+    product_llv_author_option_victor_hugo_papershop_en:
+        source_field_option: '@product_llv_author_option_victor_hugo'
+        localized_catalog: '@papershop_en'
+        label: 'Victor Hugo'
+    product_llv_author_option_victor_hugo_papershop_de:
+        source_field_option: '@product_llv_author_option_victor_hugo'
+        localized_catalog: '@papershop_de'
+        label: 'Victor Hugo'
+    product_llv_author_option_jules_verne_papershop_fr:
+        source_field_option: '@product_llv_author_option_jules_verne'
+        localized_catalog: '@papershop_fr'
+        label: 'Jules Verne'
+    product_llv_author_option_jules_verne_papershop_en:
+        source_field_option: '@product_llv_author_option_jules_verne'
+        localized_catalog: '@papershop_en'
+        label: 'Jules Verne'
+    product_llv_author_option_jules_verne_papershop_de:
+        source_field_option: '@product_llv_author_option_jules_verne'
+        localized_catalog: '@papershop_de'
+        label: 'Jules Verne'
+    product_llv_author_option_charles_dickens_papershop_fr:
+        source_field_option: '@product_llv_author_option_charles_dickens'
+        localized_catalog: '@papershop_fr'
+        label: 'Charles Dickens'
+    product_llv_author_option_charles_dickens_papershop_en:
+        source_field_option: '@product_llv_author_option_charles_dickens'
+        localized_catalog: '@papershop_en'
+        label: 'Charles Dickens'
+    product_llv_author_option_charles_dickens_papershop_de:
+        source_field_option: '@product_llv_author_option_charles_dickens'
+        localized_catalog: '@papershop_de'
+        label: 'Charles Dickens'
+    product_llv_author_option_mary_shelley_papershop_fr:
+        source_field_option: '@product_llv_author_option_mary_shelley'
+        localized_catalog: '@papershop_fr'
+        label: 'Mary Shelley'
+    product_llv_author_option_mary_shelley_papershop_en:
+        source_field_option: '@product_llv_author_option_mary_shelley'
+        localized_catalog: '@papershop_en'
+        label: 'Mary Shelley'
+    product_llv_author_option_mary_shelley_papershop_de:
+        source_field_option: '@product_llv_author_option_mary_shelley'
+        localized_catalog: '@papershop_de'
+        label: 'Mary Shelley'
+    product_llv_author_option_gustave_flaubert_papershop_fr:
+        source_field_option: '@product_llv_author_option_gustave_flaubert'
+        localized_catalog: '@papershop_fr'
+        label: 'Gustave Flaubert'
+    product_llv_author_option_gustave_flaubert_papershop_en:
+        source_field_option: '@product_llv_author_option_gustave_flaubert'
+        localized_catalog: '@papershop_en'
+        label: 'Gustave Flaubert'
+    product_llv_author_option_gustave_flaubert_papershop_de:
+        source_field_option: '@product_llv_author_option_gustave_flaubert'
+        localized_catalog: '@papershop_de'
+        label: 'Gustave Flaubert'
+    product_llv_author_option_emily_bronte_papershop_fr:
+        source_field_option: '@product_llv_author_option_emily_bronte'
+        localized_catalog: '@papershop_fr'
+        label: 'Emily Brontë'
+    product_llv_author_option_emily_bronte_papershop_en:
+        source_field_option: '@product_llv_author_option_emily_bronte'
+        localized_catalog: '@papershop_en'
+        label: 'Emily Brontë'
+    product_llv_author_option_emily_bronte_papershop_de:
+        source_field_option: '@product_llv_author_option_emily_bronte'
+        localized_catalog: '@papershop_de'
+        label: 'Emily Brontë'
+    product_llv_author_option_herman_melville_papershop_fr:
+        source_field_option: '@product_llv_author_option_herman_melville'
+        localized_catalog: '@papershop_fr'
+        label: 'Herman Melville'
+    product_llv_author_option_herman_melville_papershop_en:
+        source_field_option: '@product_llv_author_option_herman_melville'
+        localized_catalog: '@papershop_en'
+        label: 'Herman Melville'
+    product_llv_author_option_herman_melville_papershop_de:
+        source_field_option: '@product_llv_author_option_herman_melville'
+        localized_catalog: '@papershop_de'
+        label: 'Herman Melville'
+    product_llv_author_option_franz_kafka_papershop_fr:
+        source_field_option: '@product_llv_author_option_franz_kafka'
+        localized_catalog: '@papershop_fr'
+        label: 'Franz Kafka'
+    product_llv_author_option_franz_kafka_papershop_en:
+        source_field_option: '@product_llv_author_option_franz_kafka'
+        localized_catalog: '@papershop_en'
+        label: 'Franz Kafka'
+    product_llv_author_option_franz_kafka_papershop_de:
+        source_field_option: '@product_llv_author_option_franz_kafka'
+        localized_catalog: '@papershop_de'
+        label: 'Franz Kafka'
+    product_llv_author_option_goethe_papershop_fr:
+        source_field_option: '@product_llv_author_option_goethe'
+        localized_catalog: '@papershop_fr'
+        label: 'Johann Wolfgang von Goethe'
+    product_llv_author_option_goethe_papershop_en:
+        source_field_option: '@product_llv_author_option_goethe'
+        localized_catalog: '@papershop_en'
+        label: 'Johann Wolfgang von Goethe'
+    product_llv_author_option_goethe_papershop_de:
+        source_field_option: '@product_llv_author_option_goethe'
+        localized_catalog: '@papershop_de'
+        label: 'Johann Wolfgang von Goethe'
+    product_llv_author_option_maupassant_papershop_fr:
+        source_field_option: '@product_llv_author_option_maupassant'
+        localized_catalog: '@papershop_fr'
+        label: 'Guy de Maupassant'
+    product_llv_author_option_maupassant_papershop_en:
+        source_field_option: '@product_llv_author_option_maupassant'
+        localized_catalog: '@papershop_en'
+        label: 'Guy de Maupassant'
+    product_llv_author_option_maupassant_papershop_de:
+        source_field_option: '@product_llv_author_option_maupassant'
+        localized_catalog: '@papershop_de'
+        label: 'Guy de Maupassant'
+    product_llv_author_option_conan_doyle_papershop_fr:
+        source_field_option: '@product_llv_author_option_conan_doyle'
+        localized_catalog: '@papershop_fr'
+        label: 'Arthur Conan Doyle'
+    product_llv_author_option_conan_doyle_papershop_en:
+        source_field_option: '@product_llv_author_option_conan_doyle'
+        localized_catalog: '@papershop_en'
+        label: 'Arthur Conan Doyle'
+    product_llv_author_option_conan_doyle_papershop_de:
+        source_field_option: '@product_llv_author_option_conan_doyle'
+        localized_catalog: '@papershop_de'
+        label: 'Arthur Conan Doyle'
+    product_llv_author_option_bram_stoker_papershop_fr:
+        source_field_option: '@product_llv_author_option_bram_stoker'
+        localized_catalog: '@papershop_fr'
+        label: 'Bram Stoker'
+    product_llv_author_option_bram_stoker_papershop_en:
+        source_field_option: '@product_llv_author_option_bram_stoker'
+        localized_catalog: '@papershop_en'
+        label: 'Bram Stoker'
+    product_llv_author_option_bram_stoker_papershop_de:
+        source_field_option: '@product_llv_author_option_bram_stoker'
+        localized_catalog: '@papershop_de'
+        label: 'Bram Stoker'
+    product_llv_author_option_hg_wells_papershop_fr:
+        source_field_option: '@product_llv_author_option_hg_wells'
+        localized_catalog: '@papershop_fr'
+        label: 'H. G. Wells'
+    product_llv_author_option_hg_wells_papershop_en:
+        source_field_option: '@product_llv_author_option_hg_wells'
+        localized_catalog: '@papershop_en'
+        label: 'H. G. Wells'
+    product_llv_author_option_hg_wells_papershop_de:
+        source_field_option: '@product_llv_author_option_hg_wells'
+        localized_catalog: '@papershop_de'
+        label: 'H. G. Wells'
+    product_llv_author_option_stevenson_papershop_fr:
+        source_field_option: '@product_llv_author_option_stevenson'
+        localized_catalog: '@papershop_fr'
+        label: 'Robert Louis Stevenson'
+    product_llv_author_option_stevenson_papershop_en:
+        source_field_option: '@product_llv_author_option_stevenson'
+        localized_catalog: '@papershop_en'
+        label: 'Robert Louis Stevenson'
+    product_llv_author_option_stevenson_papershop_de:
+        source_field_option: '@product_llv_author_option_stevenson'
+        localized_catalog: '@papershop_de'
+        label: 'Robert Louis Stevenson'
+    product_llv_author_option_alcott_papershop_fr:
+        source_field_option: '@product_llv_author_option_alcott'
+        localized_catalog: '@papershop_fr'
+        label: 'Louisa May Alcott'
+    product_llv_author_option_alcott_papershop_en:
+        source_field_option: '@product_llv_author_option_alcott'
+        localized_catalog: '@papershop_en'
+        label: 'Louisa May Alcott'
+    product_llv_author_option_alcott_papershop_de:
+        source_field_option: '@product_llv_author_option_alcott'
+        localized_catalog: '@papershop_de'
+        label: 'Louisa May Alcott'
+    product_llv_author_option_lewis_carroll_papershop_fr:
+        source_field_option: '@product_llv_author_option_lewis_carroll'
+        localized_catalog: '@papershop_fr'
+        label: 'Lewis Carroll'
+    product_llv_author_option_lewis_carroll_papershop_en:
+        source_field_option: '@product_llv_author_option_lewis_carroll'
+        localized_catalog: '@papershop_en'
+        label: 'Lewis Carroll'
+    product_llv_author_option_lewis_carroll_papershop_de:
+        source_field_option: '@product_llv_author_option_lewis_carroll'
+        localized_catalog: '@papershop_de'
+        label: 'Lewis Carroll'
+    product_llv_author_option_edgar_allan_poe_papershop_fr:
+        source_field_option: '@product_llv_author_option_edgar_allan_poe'
+        localized_catalog: '@papershop_fr'
+        label: 'Edgar Allan Poe'
+    product_llv_author_option_edgar_allan_poe_papershop_en:
+        source_field_option: '@product_llv_author_option_edgar_allan_poe'
+        localized_catalog: '@papershop_en'
+        label: 'Edgar Allan Poe'
+    product_llv_author_option_edgar_allan_poe_papershop_de:
+        source_field_option: '@product_llv_author_option_edgar_allan_poe'
+        localized_catalog: '@papershop_de'
+        label: 'Edgar Allan Poe'
+    product_llv_author_option_baudelaire_papershop_fr:
+        source_field_option: '@product_llv_author_option_baudelaire'
+        localized_catalog: '@papershop_fr'
+        label: 'Charles Baudelaire'
+    product_llv_author_option_baudelaire_papershop_en:
+        source_field_option: '@product_llv_author_option_baudelaire'
+        localized_catalog: '@papershop_en'
+        label: 'Charles Baudelaire'
+    product_llv_author_option_baudelaire_papershop_de:
+        source_field_option: '@product_llv_author_option_baudelaire'
+        localized_catalog: '@papershop_de'
+        label: 'Charles Baudelaire'
+    product_llv_author_option_rimbaud_papershop_fr:
+        source_field_option: '@product_llv_author_option_rimbaud'
+        localized_catalog: '@papershop_fr'
+        label: 'Arthur Rimbaud'
+    product_llv_author_option_rimbaud_papershop_en:
+        source_field_option: '@product_llv_author_option_rimbaud'
+        localized_catalog: '@papershop_en'
+        label: 'Arthur Rimbaud'
+    product_llv_author_option_rimbaud_papershop_de:
+        source_field_option: '@product_llv_author_option_rimbaud'
+        localized_catalog: '@papershop_de'
+        label: 'Arthur Rimbaud'
+    product_llv_author_option_grimm_papershop_fr:
+        source_field_option: '@product_llv_author_option_grimm'
+        localized_catalog: '@papershop_fr'
+        label: 'Frères Grimm'
+    product_llv_author_option_grimm_papershop_en:
+        source_field_option: '@product_llv_author_option_grimm'
+        localized_catalog: '@papershop_en'
+        label: 'Brothers Grimm'
+    product_llv_author_option_grimm_papershop_de:
+        source_field_option: '@product_llv_author_option_grimm'
+        localized_catalog: '@papershop_de'
+        label: 'Brüder Grimm'
+    product_llv_author_option_jack_london_papershop_fr:
+        source_field_option: '@product_llv_author_option_jack_london'
+        localized_catalog: '@papershop_fr'
+        label: 'Jack London'
+    product_llv_author_option_jack_london_papershop_en:
+        source_field_option: '@product_llv_author_option_jack_london'
+        localized_catalog: '@papershop_en'
+        label: 'Jack London'
+    product_llv_author_option_jack_london_papershop_de:
+        source_field_option: '@product_llv_author_option_jack_london'
+        localized_catalog: '@papershop_de'
+        label: 'Jack London'
+    product_llv_author_option_thoreau_papershop_fr:
+        source_field_option: '@product_llv_author_option_thoreau'
+        localized_catalog: '@papershop_fr'
+        label: 'Henry David Thoreau'
+    product_llv_author_option_thoreau_papershop_en:
+        source_field_option: '@product_llv_author_option_thoreau'
+        localized_catalog: '@papershop_en'
+        label: 'Henry David Thoreau'
+    product_llv_author_option_thoreau_papershop_de:
+        source_field_option: '@product_llv_author_option_thoreau'
+        localized_catalog: '@papershop_de'
+        label: 'Henry David Thoreau'
+    product_llv_author_option_darwin_papershop_fr:
+        source_field_option: '@product_llv_author_option_darwin'
+        localized_catalog: '@papershop_fr'
+        label: 'Charles Darwin'
+    product_llv_author_option_darwin_papershop_en:
+        source_field_option: '@product_llv_author_option_darwin'
+        localized_catalog: '@papershop_en'
+        label: 'Charles Darwin'
+    product_llv_author_option_darwin_papershop_de:
+        source_field_option: '@product_llv_author_option_darwin'
+        localized_catalog: '@papershop_de'
+        label: 'Charles Darwin'
+    product_llv_author_option_rousseau_papershop_fr:
+        source_field_option: '@product_llv_author_option_rousseau'
+        localized_catalog: '@papershop_fr'
+        label: 'Jean-Jacques Rousseau'
+    product_llv_author_option_rousseau_papershop_en:
+        source_field_option: '@product_llv_author_option_rousseau'
+        localized_catalog: '@papershop_en'
+        label: 'Jean-Jacques Rousseau'
+    product_llv_author_option_rousseau_papershop_de:
+        source_field_option: '@product_llv_author_option_rousseau'
+        localized_catalog: '@papershop_de'
+        label: 'Jean-Jacques Rousseau'
+    product_llv_author_option_nietzsche_papershop_fr:
+        source_field_option: '@product_llv_author_option_nietzsche'
+        localized_catalog: '@papershop_fr'
+        label: 'Friedrich Nietzsche'
+    product_llv_author_option_nietzsche_papershop_en:
+        source_field_option: '@product_llv_author_option_nietzsche'
+        localized_catalog: '@papershop_en'
+        label: 'Friedrich Nietzsche'
+    product_llv_author_option_nietzsche_papershop_de:
+        source_field_option: '@product_llv_author_option_nietzsche'
+        localized_catalog: '@papershop_de'
+        label: 'Friedrich Nietzsche'
+    product_llv_author_option_marc_aurele_papershop_fr:
+        source_field_option: '@product_llv_author_option_marc_aurele'
+        localized_catalog: '@papershop_fr'
+        label: 'Marc Aurèle'
+    product_llv_author_option_marc_aurele_papershop_en:
+        source_field_option: '@product_llv_author_option_marc_aurele'
+        localized_catalog: '@papershop_en'
+        label: 'Marcus Aurelius'
+    product_llv_author_option_marc_aurele_papershop_de:
+        source_field_option: '@product_llv_author_option_marc_aurele'
+        localized_catalog: '@papershop_de'
+        label: 'Mark Aurel'
+    product_llv_author_option_homere_papershop_fr:
+        source_field_option: '@product_llv_author_option_homere'
+        localized_catalog: '@papershop_fr'
+        label: 'Homère'
+    product_llv_author_option_homere_papershop_en:
+        source_field_option: '@product_llv_author_option_homere'
+        localized_catalog: '@papershop_en'
+        label: 'Homer'
+    product_llv_author_option_homere_papershop_de:
+        source_field_option: '@product_llv_author_option_homere'
+        localized_catalog: '@papershop_de'
+        label: 'Homer'
+    product_llv_language_option_francais_papershop_fr:
+        source_field_option: '@product_llv_language_option_francais'
+        localized_catalog: '@papershop_fr'
+        label: 'Français'
+    product_llv_language_option_francais_papershop_en:
+        source_field_option: '@product_llv_language_option_francais'
+        localized_catalog: '@papershop_en'
+        label: 'French'
+    product_llv_language_option_francais_papershop_de:
+        source_field_option: '@product_llv_language_option_francais'
+        localized_catalog: '@papershop_de'
+        label: 'Französisch'
+    product_llv_language_option_anglais_papershop_fr:
+        source_field_option: '@product_llv_language_option_anglais'
+        localized_catalog: '@papershop_fr'
+        label: 'Anglais'
+    product_llv_language_option_anglais_papershop_en:
+        source_field_option: '@product_llv_language_option_anglais'
+        localized_catalog: '@papershop_en'
+        label: 'English'
+    product_llv_language_option_anglais_papershop_de:
+        source_field_option: '@product_llv_language_option_anglais'
+        localized_catalog: '@papershop_de'
+        label: 'Englisch'
+    product_llv_language_option_allemand_papershop_fr:
+        source_field_option: '@product_llv_language_option_allemand'
+        localized_catalog: '@papershop_fr'
+        label: 'Allemand'
+    product_llv_language_option_allemand_papershop_en:
+        source_field_option: '@product_llv_language_option_allemand'
+        localized_catalog: '@papershop_en'
+        label: 'German'
+    product_llv_language_option_allemand_papershop_de:
+        source_field_option: '@product_llv_language_option_allemand'
+        localized_catalog: '@papershop_de'
+        label: 'Deutsch'
+    product_llv_language_option_bilingue_papershop_fr:
+        source_field_option: '@product_llv_language_option_bilingue'
+        localized_catalog: '@papershop_fr'
+        label: 'Bilingue'
+    product_llv_language_option_bilingue_papershop_en:
+        source_field_option: '@product_llv_language_option_bilingue'
+        localized_catalog: '@papershop_en'
+        label: 'Bilingual'
+    product_llv_language_option_bilingue_papershop_de:
+        source_field_option: '@product_llv_language_option_bilingue'
+        localized_catalog: '@papershop_de'
+        label: 'Zweisprachig'
