@@ -196,14 +196,3 @@ Gally\Metadata\Entity\SourceField:
         isFilterable: true
         isSortable: false
         isUsedForRules: true
-    product_image_generated_at:
-        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
-        code: image_generated_at
-        type: date
-        defaultLabel: 'Date de génération de l''image'
-        isSearchable: false
-        weight: 1
-        isSpellchecked: false
-        isFilterable: true
-        isSortable: true
-        isUsedForRules: true

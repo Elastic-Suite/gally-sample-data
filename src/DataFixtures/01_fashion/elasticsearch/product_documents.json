@@ -502,8 +502,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1330,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -5792,8 +5792,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1494,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -12018,8 +12018,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 2207,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -16302,8 +16302,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 2408,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -21526,8 +21526,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1699,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -25238,8 +25238,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 2651,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -29894,8 +29894,8 @@
         "new": true,
         "sale": true,
         "stock": {
-          "qty": 2745,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -35806,8 +35806,8 @@
         "new": false,
         "sale": true,
         "stock": {
-          "qty": 2304,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -42890,8 +42890,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1279,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -47030,8 +47030,8 @@
         "new": false,
         "sale": true,
         "stock": {
-          "qty": 2244,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -52176,8 +52176,8 @@
         "new": false,
         "sale": true,
         "stock": {
-          "qty": 3768,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -58455,8 +58455,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 3577,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -65646,8 +65646,8 @@
         "new": false,
         "sale": true,
         "stock": {
-          "qty": 592,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -69051,8 +69051,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 381,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -73038,8 +73038,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1415,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -76218,8 +76218,8 @@
         "new": true,
         "sale": false,
         "stock": {
-          "qty": 1231,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -80470,8 +80470,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1429,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -84394,8 +84394,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1654,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -89107,8 +89107,8 @@
         "new": false,
         "sale": true,
         "stock": {
-          "qty": 552,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -92169,8 +92169,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 52,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -95730,8 +95730,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1330,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -101020,8 +101020,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1494,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -107246,8 +107246,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 2207,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -111530,8 +111530,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 2408,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -116754,8 +116754,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1699,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -120466,8 +120466,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 2651,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -125122,8 +125122,8 @@
         "new": true,
         "sale": true,
         "stock": {
-          "qty": 2745,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -131034,8 +131034,8 @@
         "new": false,
         "sale": true,
         "stock": {
-          "qty": 2304,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -138118,8 +138118,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1279,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -142258,8 +142258,8 @@
         "new": false,
         "sale": true,
         "stock": {
-          "qty": 2244,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -147404,8 +147404,8 @@
         "new": false,
         "sale": true,
         "stock": {
-          "qty": 3768,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -153683,8 +153683,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 3577,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -160874,8 +160874,8 @@
         "new": false,
         "sale": true,
         "stock": {
-          "qty": 592,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -164279,8 +164279,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 381,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -168266,8 +168266,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1415,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -171446,8 +171446,8 @@
         "new": true,
         "sale": false,
         "stock": {
-          "qty": 1231,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -175698,8 +175698,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1429,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -179622,8 +179622,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1654,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -184335,8 +184335,8 @@
         "new": false,
         "sale": true,
         "stock": {
-          "qty": 552,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -187397,8 +187397,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 52,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -190958,8 +190958,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1330,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -196248,8 +196248,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1494,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -202474,8 +202474,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 2207,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -206758,8 +206758,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 2408,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -211982,8 +211982,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1699,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -215694,8 +215694,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 2651,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -220350,8 +220350,8 @@
         "new": true,
         "sale": true,
         "stock": {
-          "qty": 2745,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -226262,8 +226262,8 @@
         "new": false,
         "sale": true,
         "stock": {
-          "qty": 2304,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -233346,8 +233346,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1279,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -237486,8 +237486,8 @@
         "new": false,
         "sale": true,
         "stock": {
-          "qty": 2244,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -242632,8 +242632,8 @@
         "new": false,
         "sale": true,
         "stock": {
-          "qty": 3768,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -248911,8 +248911,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 3577,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -256102,8 +256102,8 @@
         "new": false,
         "sale": true,
         "stock": {
-          "qty": 592,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -259507,8 +259507,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 381,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -263494,8 +263494,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1415,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -266674,8 +266674,8 @@
         "new": true,
         "sale": false,
         "stock": {
-          "qty": 1231,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -270926,8 +270926,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1429,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -274850,8 +274850,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 1654,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -279563,8 +279563,8 @@
         "new": false,
         "sale": true,
         "stock": {
-          "qty": 552,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {
@@ -282625,8 +282625,8 @@
         "new": false,
         "sale": false,
         "stock": {
-          "qty": 52,
-          "status": true
+          "qty": 0,
+          "status": false
         },
         "category": [
           {

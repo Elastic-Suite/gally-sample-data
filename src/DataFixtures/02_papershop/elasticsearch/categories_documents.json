@@ -24,10 +24,10 @@
         "is_active": true,
         "is_displayed_in_autocomplete": true,
         "name": [
-          "Images générées"
+          "Sélection éco-responsable"
         ],
         "url_key": [
-          "images-generees"
+          "selection-eco-responsable"
         ]
       },
       {
@@ -889,10 +889,10 @@
         "is_active": true,
         "is_displayed_in_autocomplete": true,
         "name": [
-          "Generated images"
+          "Sustainable selection"
         ],
         "url_key": [
-          "generated-images"
+          "sustainable-selection"
         ]
       },
       {
@@ -1754,10 +1754,10 @@
         "is_active": true,
         "is_displayed_in_autocomplete": true,
         "name": [
-          "Erzeugte Bilder"
+          "Nachhaltige Auswahl"
         ],
         "url_key": [
-          "erzeugte-bilder"
+          "nachhaltige-auswahl"
         ]
       },
       {

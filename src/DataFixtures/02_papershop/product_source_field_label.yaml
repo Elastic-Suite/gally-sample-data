@@ -208,15 +208,3 @@ Gally\Metadata\Entity\SourceFieldLabel:
         source_field: '@product_llv_assembly_required'
         localized_catalog: '@papershop_de'
         label: 'Montage erforderlich'
-    product_image_generated_at_papershop_fr:
-        source_field: '@product_image_generated_at'
-        localized_catalog: '@papershop_fr'
-        label: 'Date de génération de l''image'
-    product_image_generated_at_papershop_en:
-        source_field: '@product_image_generated_at'
-        localized_catalog: '@papershop_en'
-        label: 'Image generated on'
-    product_image_generated_at_papershop_de:
-        source_field: '@product_image_generated_at'
-        localized_catalog: '@papershop_de'
-        label: 'Bild erzeugt am'

@@ -293,26 +293,23 @@ Gally\Category\Entity\Category\Configuration:
         category: '@cat_llv_54'
         catalog: '@papershop'
         localizedCatalog: '@papershop_fr'
-        name: 'Images générées'
+        name: 'Sélection éco-responsable'
         isVirtual: true
-        virtualRule: <strval('{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"image_generated_at","operator":"gte","attribute_type":"date","value":"2020-01-01"}]}')>
-        defaultSorting: image_generated_at
+        virtualRule: <strval('{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"llv_is_eco","operator":"eq","attribute_type":"boolean","value":true}]}')>
     config_cat_llv_54_papershop_en:
         category: '@cat_llv_54'
         catalog: '@papershop'
         localizedCatalog: '@papershop_en'
-        name: 'Generated images'
+        name: 'Sustainable selection'
         isVirtual: true
-        virtualRule: <strval('{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"image_generated_at","operator":"gte","attribute_type":"date","value":"2020-01-01"}]}')>
-        defaultSorting: image_generated_at
+        virtualRule: <strval('{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"llv_is_eco","operator":"eq","attribute_type":"boolean","value":true}]}')>
     config_cat_llv_54_papershop_de:
         category: '@cat_llv_54'
         catalog: '@papershop'
         localizedCatalog: '@papershop_de'
-        name: 'Erzeugte Bilder'
+        name: 'Nachhaltige Auswahl'
         isVirtual: true
-        virtualRule: <strval('{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"image_generated_at","operator":"gte","attribute_type":"date","value":"2020-01-01"}]}')>
-        defaultSorting: image_generated_at
+        virtualRule: <strval('{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"llv_is_eco","operator":"eq","attribute_type":"boolean","value":true}]}')>
     config_cat_llv_2_papershop_fr:
         category: '@cat_llv_2'
         catalog: '@papershop'

@@ -1,0 +1,55 @@
+include:
+    - ../categories.yaml
+
+# The request type decides which limitation is read: product_catalog reads the category
+# limitation, product_search reads the query text one. product_autocomplete is left out,
+# so the popup keeps plain relevance. An inactive boost is one to switch on live.
+
+Gally\Boost\Entity\Boost:
+    llv_boost_eco:
+        name: 'Éco-responsable en tête'
+        isActive: true
+        fromDate: null
+        toDate: null
+        conditionRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"llv_is_eco","operator":"eq","attribute_type":"boolean","value":true}]}'')>'
+        model: !php/const Gally\Boost\Service\Model\ConstantScore::MODEL_CONSTANT_SCORE
+        modelConfig: '<strval(''{"constant_score_value":"100"}'')>'
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+    llv_boost_reliure:
+        name: 'Reliure du Nord en tête'
+        isActive: false
+        fromDate: null
+        toDate: null
+        conditionRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"llv_brand","operator":"eq","attribute_type":"select","value":"reliure-du-nord"}]}'')>'
+        model: !php/const Gally\Boost\Service\Model\ConstantScore::MODEL_CONSTANT_SCORE
+        modelConfig: '<strval(''{"constant_score_value":"80"}'')>'
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+
+Gally\Boost\Entity\Boost\RequestType:
+    llv_boost_eco_product_catalog:
+        boost: '@llv_boost_eco'
+        requestType: 'product_catalog'
+        applyToAll: false
+    llv_boost_eco_product_search:
+        boost: '@llv_boost_eco'
+        requestType: 'product_search'
+        applyToAll: false
+    llv_boost_reliure_product_search:
+        boost: '@llv_boost_reliure'
+        requestType: 'product_search'
+        applyToAll: true
+
+Gally\Boost\Entity\Boost\CategoryLimitation:
+    llv_boost_eco_category:
+        boost: '@llv_boost_eco'
+        category: '@cat_llv_54'
+
+Gally\Boost\Entity\Boost\SearchLimitation:
+    llv_boost_eco_query_papier:
+        boost: '@llv_boost_eco'
+        operator: !php/const Gally\Boost\Constant\QueryTextOperator::OPERATOR_CONTAINS
+        queryText: 'papier'
+    llv_boost_eco_query_paper:
+        boost: '@llv_boost_eco'
+        operator: !php/const Gally\Boost\Constant\QueryTextOperator::OPERATOR_CONTAINS
+        queryText: 'paper'

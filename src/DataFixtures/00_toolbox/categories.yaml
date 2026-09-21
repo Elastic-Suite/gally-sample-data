@@ -422,6 +422,15 @@ Gally\Category\Entity\Category:
         parentId: cat_tbx_76
         level: 3
         path: cat_tbx_1/cat_tbx_76/cat_tbx_84
+    # A virtual category: no product is assigned to it, the rule on its configuration below
+    # decides what it holds. `any` because the two conditions never meet on one product - a tool
+    # carries tbx_cordless, a battery carries tbx_battery_voltage - so the category gathers the
+    # 32 cordless tools and the 13 18V batteries that go with them into one page of 45.
+    cat_tbx_85:
+        id: cat_tbx_85
+        parentId: cat_tbx_1
+        level: 2
+        path: cat_tbx_1/cat_tbx_85
 
 Gally\Category\Entity\Category\Configuration:
     config_cat_tbx_1_toolbox_fr:
@@ -1684,3 +1693,24 @@ Gally\Category\Entity\Category\Configuration:
         catalog: '@toolbox'
         localizedCatalog: '@toolbox_de'
         name: 'Werkstattzubehör'
+    config_cat_tbx_85_toolbox_fr:
+        category: '@cat_tbx_85'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Univers 18V sans fil'
+        isVirtual: true
+        virtualRule: <strval('{"type":"combination","operator":"any","value":"true","children":[{"type":"attribute","field":"tbx_cordless","operator":"eq","attribute_type":"boolean","value":true},{"type":"attribute","field":"tbx_battery_voltage","operator":"eq","attribute_type":"select","value":"18v"}]}')>
+    config_cat_tbx_85_toolbox_en:
+        category: '@cat_tbx_85'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: '18V cordless range'
+        isVirtual: true
+        virtualRule: <strval('{"type":"combination","operator":"any","value":"true","children":[{"type":"attribute","field":"tbx_cordless","operator":"eq","attribute_type":"boolean","value":true},{"type":"attribute","field":"tbx_battery_voltage","operator":"eq","attribute_type":"select","value":"18v"}]}')>
+    config_cat_tbx_85_toolbox_de:
+        category: '@cat_tbx_85'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: '18V Akku-Welt'
+        isVirtual: true
+        virtualRule: <strval('{"type":"combination","operator":"any","value":"true","children":[{"type":"attribute","field":"tbx_cordless","operator":"eq","attribute_type":"boolean","value":true},{"type":"attribute","field":"tbx_battery_voltage","operator":"eq","attribute_type":"select","value":"18v"}]}')>
