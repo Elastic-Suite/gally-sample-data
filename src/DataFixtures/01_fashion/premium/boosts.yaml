@@ -1,0 +1,56 @@
+include:
+    - ../categories.yaml
+
+# Two boosts, one on and one off. The request type decides which limitation is read:
+# product_catalog reads the category limitation, product_search reads the query text one.
+# product_autocomplete is left out, so the popup keeps plain relevance.
+#
+# fio_boost2 ships inactive on purpose, to be switched on from the admin during a demo.
+Gally\Boost\Entity\Boost:
+    fio_boost1:
+        name: 'Promotions en tête'
+        isActive: true
+        fromDate: null
+        toDate: null
+        conditionRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sale","operator":"eq","attribute_type":"boolean","value":true}]}'')>'
+        model: !php/const Gally\Boost\Service\Model\ConstantScore::MODEL_CONSTANT_SCORE
+        modelConfig: '<strval(''{"constant_score_value":"100"}'')>'
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+    fio_boost2:
+        name: 'LuxeLine en tête'
+        isActive: false
+        fromDate: null
+        toDate: null
+        conditionRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"fio_brand","operator":"eq","attribute_type":"select","value":"luxeline"}]}'')>'
+        model: !php/const Gally\Boost\Service\Model\ConstantScore::MODEL_CONSTANT_SCORE
+        modelConfig: '<strval(''{"constant_score_value":"80"}'')>'
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+
+Gally\Boost\Entity\Boost\RequestType:
+    fio_boost_request_type1:
+        boost: '@fio_boost1'
+        requestType: 'product_catalog'
+        applyToAll: false
+    fio_boost_request_type2:
+        boost: '@fio_boost1'
+        requestType: 'product_search'
+        applyToAll: false
+    fio_boost_request_type3:
+        boost: '@fio_boost2'
+        requestType: 'product_search'
+        applyToAll: true
+
+Gally\Boost\Entity\Boost\CategoryLimitation:
+    fio_boost_category_limitation1:
+        boost: '@fio_boost1'
+        category: '@cat_fio_16'
+
+Gally\Boost\Entity\Boost\SearchLimitation:
+    fio_boost_search_limitation1:
+        boost: '@fio_boost1'
+        operator: !php/const Gally\Boost\Constant\QueryTextOperator::OPERATOR_CONTAINS
+        queryText: 'robe'
+    fio_boost_search_limitation2:
+        boost: '@fio_boost1'
+        operator: !php/const Gally\Boost\Constant\QueryTextOperator::OPERATOR_CONTAINS
+        queryText: 'dress'
