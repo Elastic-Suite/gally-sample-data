@@ -7,7 +7,7 @@
         "path": "cat_tbx_1",
         "level": "1",
         "position": "1",
-        "children_count": "11",
+        "children_count": "12",
         "is_active": true,
         "is_displayed_in_autocomplete": true,
         "name": [
@@ -1341,6 +1341,22 @@
         "url_key": [
           "accessoires-atelier"
         ]
+      },
+      {
+        "id": "cat_tbx_85",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_85",
+        "level": "2",
+        "position": "12",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Univers 18V sans fil"
+        ],
+        "url_key": [
+          "univers-18v-sans-fil"
+        ]
       }
     ]
   },
@@ -1352,7 +1368,7 @@
         "path": "cat_tbx_1",
         "level": "1",
         "position": "1",
-        "children_count": "11",
+        "children_count": "12",
         "is_active": true,
         "is_displayed_in_autocomplete": true,
         "name": [
@@ -2686,6 +2702,22 @@
         "url_key": [
           "accessoires-atelier"
         ]
+      },
+      {
+        "id": "cat_tbx_85",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_85",
+        "level": "2",
+        "position": "12",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "18V cordless range"
+        ],
+        "url_key": [
+          "18v-cordless-range"
+        ]
       }
     ]
   },
@@ -2697,7 +2729,7 @@
         "path": "cat_tbx_1",
         "level": "1",
         "position": "1",
-        "children_count": "11",
+        "children_count": "12",
         "is_active": true,
         "is_displayed_in_autocomplete": true,
         "name": [
@@ -4030,6 +4062,22 @@
         ],
         "url_key": [
           "accessoires-atelier"
+        ]
+      },
+      {
+        "id": "cat_tbx_85",
+        "parentId": "cat_tbx_1",
+        "path": "cat_tbx_1\/cat_tbx_85",
+        "level": "2",
+        "position": "12",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "18V Akku-Welt"
+        ],
+        "url_key": [
+          "18v-akku-welt"
         ]
       }
     ]
