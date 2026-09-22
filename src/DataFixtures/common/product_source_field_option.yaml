@@ -1,5 +1,5 @@
 include:
-    - shared_product_source_field.yaml
+    - product_source_field.yaml
 
 Gally\Metadata\Entity\SourceFieldOption:
     product_visibility_option_1:
@@ -11,12 +11,12 @@ Gally\Metadata\Entity\SourceFieldOption:
         code: '2'
         source_field: '@product_visibility'
         position: 1
-        defaultLabel: 'Catalog'
+        defaultLabel: Catalog
     product_visibility_option_3:
         code: '3'
         source_field: '@product_visibility'
         position: 2
-        defaultLabel: 'Search'
+        defaultLabel: Search
     product_visibility_option_4:
         code: '4'
         source_field: '@product_visibility'

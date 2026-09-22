@@ -1,7 +1,7 @@
 include:
     - localized_catalogs.yaml
     - category_source_field.yaml
-    - shared_category_source_field.yaml
+    - ../common/category_source_field.yaml
 
 Gally\Metadata\Entity\SourceFieldLabel:
     categories_children_count_papershop_fr:

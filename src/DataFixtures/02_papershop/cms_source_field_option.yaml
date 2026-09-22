@@ -1,109 +1,129 @@
 include:
-    - shared_cms_source_field.yaml
+    - ../common/cms_source_field.yaml
 
 Gally\Metadata\Entity\SourceFieldOption:
-    cms_page_topic_option_reading:
-        code: 'reading'
+    cms_page_topic_option_llv_reading:
+        code: 'llv_reading'
         source_field: '@cms_page_topic'
         position: 10
         defaultLabel: 'Lecture'
-    cms_page_topic_option_writing:
-        code: 'writing'
+    cms_page_topic_option_llv_writing:
+        code: 'llv_writing'
         source_field: '@cms_page_topic'
         position: 11
         defaultLabel: 'Écriture'
-    cms_page_topic_option_workspace:
-        code: 'workspace'
+    cms_page_topic_option_llv_workspace:
+        code: 'llv_workspace'
         source_field: '@cms_page_topic'
         position: 12
         defaultLabel: 'Espace de travail'
-    cms_page_topic_option_bookbinding:
-        code: 'bookbinding'
+    cms_page_topic_option_llv_bookbinding:
+        code: 'llv_bookbinding'
         source_field: '@cms_page_topic'
         position: 13
         defaultLabel: 'Reliure'
-    cms_page_topic_option_paper_choice:
-        code: 'paper_choice'
+    cms_page_topic_option_llv_paper_choice:
+        code: 'llv_paper_choice'
         source_field: '@cms_page_topic'
         position: 14
         defaultLabel: 'Choisir son papier'
-    cms_page_topic_option_furniture_care:
-        code: 'furniture_care'
+    cms_page_topic_option_llv_furniture_care:
+        code: 'llv_furniture_care'
         source_field: '@cms_page_topic'
         position: 15
         defaultLabel: 'Entretien du mobilier'
-    cms_page_author_option_elise_marchand:
-        code: 'elise_marchand'
+    cms_page_topic_option_llv_materials:
+        code: 'llv_materials'
+        source_field: '@cms_page_topic'
+        position: 16
+        defaultLabel: 'Matières'
+    cms_page_topic_option_llv_sustainability:
+        code: 'llv_sustainability'
+        source_field: '@cms_page_topic'
+        position: 17
+        defaultLabel: 'Durabilité'
+    cms_page_author_option_llv_elise_marchand:
+        code: 'llv_elise_marchand'
         source_field: '@cms_page_author'
         position: 10
         defaultLabel: 'Élise Marchand'
-    cms_page_author_option_thomas_reverdy:
-        code: 'thomas_reverdy'
+    cms_page_author_option_llv_thomas_reverdy:
+        code: 'llv_thomas_reverdy'
         source_field: '@cms_page_author'
         position: 11
         defaultLabel: 'Thomas Reverdy'
-    cms_page_author_option_nadia_belkacem:
-        code: 'nadia_belkacem'
+    cms_page_author_option_llv_nadia_belkacem:
+        code: 'llv_nadia_belkacem'
         source_field: '@cms_page_author'
         position: 12
         defaultLabel: 'Nadia Belkacem'
-    cms_page_author_option_julien_ferrand:
-        code: 'julien_ferrand'
+    cms_page_author_option_llv_julien_ferrand:
+        code: 'llv_julien_ferrand'
         source_field: '@cms_page_author'
         position: 13
         defaultLabel: 'Julien Ferrand'
-    cms_page_author_option_margaux_dubreuil:
-        code: 'margaux_dubreuil'
+    cms_page_author_option_llv_margaux_dubreuil:
+        code: 'llv_margaux_dubreuil'
         source_field: '@cms_page_author'
         position: 14
         defaultLabel: 'Margaux Dubreuil'
-    cms_page_tags_option_notebooks:
-        code: 'notebooks'
+    cms_page_tags_option_llv_notebooks:
+        code: 'llv_notebooks'
         source_field: '@cms_page_tags'
         position: 10
         defaultLabel: 'Carnets'
-    cms_page_tags_option_fountain_pens:
-        code: 'fountain_pens'
+    cms_page_tags_option_llv_fountain_pens:
+        code: 'llv_fountain_pens'
         source_field: '@cms_page_tags'
         position: 11
         defaultLabel: 'Stylos plume'
-    cms_page_tags_option_paper:
-        code: 'paper'
+    cms_page_tags_option_llv_paper:
+        code: 'llv_paper'
         source_field: '@cms_page_tags'
         position: 12
         defaultLabel: 'Papier'
-    cms_page_tags_option_classics:
-        code: 'classics'
+    cms_page_tags_option_llv_classics:
+        code: 'llv_classics'
         source_field: '@cms_page_tags'
         position: 13
         defaultLabel: 'Classiques'
-    cms_page_tags_option_public_domain:
-        code: 'public_domain'
+    cms_page_tags_option_llv_public_domain:
+        code: 'llv_public_domain'
         source_field: '@cms_page_tags'
         position: 14
         defaultLabel: 'Domaine public'
-    cms_page_tags_option_bookcases:
-        code: 'bookcases'
+    cms_page_tags_option_llv_bookcases:
+        code: 'llv_bookcases'
         source_field: '@cms_page_tags'
         position: 15
         defaultLabel: 'Bibliothèques'
-    cms_page_tags_option_desks:
-        code: 'desks'
+    cms_page_tags_option_llv_desks:
+        code: 'llv_desks'
         source_field: '@cms_page_tags'
         position: 16
         defaultLabel: 'Bureaux'
-    cms_page_tags_option_lighting:
-        code: 'lighting'
+    cms_page_tags_option_llv_lighting:
+        code: 'llv_lighting'
         source_field: '@cms_page_tags'
         position: 17
         defaultLabel: 'Éclairage'
-    cms_page_tags_option_ergonomics:
-        code: 'ergonomics'
+    cms_page_tags_option_llv_ergonomics:
+        code: 'llv_ergonomics'
         source_field: '@cms_page_tags'
         position: 18
         defaultLabel: 'Ergonomie'
-    cms_page_tags_option_gift_ideas:
-        code: 'gift_ideas'
+    cms_page_tags_option_llv_gift_ideas:
+        code: 'llv_gift_ideas'
         source_field: '@cms_page_tags'
         position: 19
         defaultLabel: 'Idées cadeaux'
+    cms_page_tags_option_llv_materials:
+        code: 'llv_materials'
+        source_field: '@cms_page_tags'
+        position: 20
+        defaultLabel: 'Matières'
+    cms_page_tags_option_llv_sustainability:
+        code: 'llv_sustainability'
+        source_field: '@cms_page_tags'
+        position: 21
+        defaultLabel: 'Durabilité'

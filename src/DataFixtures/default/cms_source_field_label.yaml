@@ -1,5 +1,5 @@
 include:
-    - cms_source_field.yaml
+    - ../common/cms_source_field.yaml
 
 Gally\Metadata\Entity\SourceFieldLabel:
     cms_page_title_com_en:

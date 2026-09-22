@@ -1,7 +1,7 @@
 include:
     - localized_catalogs.yaml
     - product_source_field.yaml
-    - shared_product_source_field.yaml
+    - ../common/product_source_field.yaml
 
 Gally\Metadata\Entity\SourceFieldLabel:
     product_fio_color_fashion_fr:

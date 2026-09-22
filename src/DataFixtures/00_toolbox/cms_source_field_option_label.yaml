@@ -1,6 +1,6 @@
 include:
     - cms_source_field_option.yaml
-    - shared_cms_source_field_option.yaml
+    - ../common/cms_source_field_option.yaml
     - localized_catalogs.yaml
 
 Gally\Metadata\Entity\SourceFieldOptionLabel:
@@ -28,315 +28,315 @@ Gally\Metadata\Entity\SourceFieldOptionLabel:
         source_field_option: '@cms_page_content_type_option_guide'
         localized_catalog: '@toolbox_de'
         label: 'Kaufberatung'
-    cms_page_topic_option_maintenance_toolbox_fr:
-        source_field_option: '@cms_page_topic_option_maintenance'
+    cms_page_topic_option_tbx_maintenance_toolbox_fr:
+        source_field_option: '@cms_page_topic_option_tbx_maintenance'
         localized_catalog: '@toolbox_fr'
         label: 'Entretien'
-    cms_page_topic_option_maintenance_toolbox_en:
-        source_field_option: '@cms_page_topic_option_maintenance'
+    cms_page_topic_option_tbx_maintenance_toolbox_en:
+        source_field_option: '@cms_page_topic_option_tbx_maintenance'
         localized_catalog: '@toolbox_en'
         label: 'Maintenance'
-    cms_page_topic_option_maintenance_toolbox_de:
-        source_field_option: '@cms_page_topic_option_maintenance'
+    cms_page_topic_option_tbx_maintenance_toolbox_de:
+        source_field_option: '@cms_page_topic_option_tbx_maintenance'
         localized_catalog: '@toolbox_de'
         label: 'Wartung'
-    cms_page_topic_option_materials_toolbox_fr:
-        source_field_option: '@cms_page_topic_option_materials'
+    cms_page_topic_option_tbx_materials_toolbox_fr:
+        source_field_option: '@cms_page_topic_option_tbx_materials'
         localized_catalog: '@toolbox_fr'
         label: 'Matériaux'
-    cms_page_topic_option_materials_toolbox_en:
-        source_field_option: '@cms_page_topic_option_materials'
+    cms_page_topic_option_tbx_materials_toolbox_en:
+        source_field_option: '@cms_page_topic_option_tbx_materials'
         localized_catalog: '@toolbox_en'
         label: 'Materials'
-    cms_page_topic_option_materials_toolbox_de:
-        source_field_option: '@cms_page_topic_option_materials'
+    cms_page_topic_option_tbx_materials_toolbox_de:
+        source_field_option: '@cms_page_topic_option_tbx_materials'
         localized_catalog: '@toolbox_de'
         label: 'Materialien'
-    cms_page_topic_option_projects_toolbox_fr:
-        source_field_option: '@cms_page_topic_option_projects'
+    cms_page_topic_option_tbx_projects_toolbox_fr:
+        source_field_option: '@cms_page_topic_option_tbx_projects'
         localized_catalog: '@toolbox_fr'
         label: 'Projets'
-    cms_page_topic_option_projects_toolbox_en:
-        source_field_option: '@cms_page_topic_option_projects'
+    cms_page_topic_option_tbx_projects_toolbox_en:
+        source_field_option: '@cms_page_topic_option_tbx_projects'
         localized_catalog: '@toolbox_en'
         label: 'Projects'
-    cms_page_topic_option_projects_toolbox_de:
-        source_field_option: '@cms_page_topic_option_projects'
+    cms_page_topic_option_tbx_projects_toolbox_de:
+        source_field_option: '@cms_page_topic_option_tbx_projects'
         localized_catalog: '@toolbox_de'
         label: 'Projekte'
-    cms_page_topic_option_safety_toolbox_fr:
-        source_field_option: '@cms_page_topic_option_safety'
+    cms_page_topic_option_tbx_safety_toolbox_fr:
+        source_field_option: '@cms_page_topic_option_tbx_safety'
         localized_catalog: '@toolbox_fr'
         label: 'Sécurité'
-    cms_page_topic_option_safety_toolbox_en:
-        source_field_option: '@cms_page_topic_option_safety'
+    cms_page_topic_option_tbx_safety_toolbox_en:
+        source_field_option: '@cms_page_topic_option_tbx_safety'
         localized_catalog: '@toolbox_en'
         label: 'Safety'
-    cms_page_topic_option_safety_toolbox_de:
-        source_field_option: '@cms_page_topic_option_safety'
+    cms_page_topic_option_tbx_safety_toolbox_de:
+        source_field_option: '@cms_page_topic_option_tbx_safety'
         localized_catalog: '@toolbox_de'
         label: 'Sicherheit'
-    cms_page_topic_option_sustainability_toolbox_fr:
-        source_field_option: '@cms_page_topic_option_sustainability'
+    cms_page_topic_option_tbx_sustainability_toolbox_fr:
+        source_field_option: '@cms_page_topic_option_tbx_sustainability'
         localized_catalog: '@toolbox_fr'
         label: 'Durabilité'
-    cms_page_topic_option_sustainability_toolbox_en:
-        source_field_option: '@cms_page_topic_option_sustainability'
+    cms_page_topic_option_tbx_sustainability_toolbox_en:
+        source_field_option: '@cms_page_topic_option_tbx_sustainability'
         localized_catalog: '@toolbox_en'
         label: 'Sustainability'
-    cms_page_topic_option_sustainability_toolbox_de:
-        source_field_option: '@cms_page_topic_option_sustainability'
+    cms_page_topic_option_tbx_sustainability_toolbox_de:
+        source_field_option: '@cms_page_topic_option_tbx_sustainability'
         localized_catalog: '@toolbox_de'
         label: 'Nachhaltigkeit'
-    cms_page_topic_option_techniques_toolbox_fr:
-        source_field_option: '@cms_page_topic_option_techniques'
+    cms_page_topic_option_tbx_techniques_toolbox_fr:
+        source_field_option: '@cms_page_topic_option_tbx_techniques'
         localized_catalog: '@toolbox_fr'
         label: 'Techniques'
-    cms_page_topic_option_techniques_toolbox_en:
-        source_field_option: '@cms_page_topic_option_techniques'
+    cms_page_topic_option_tbx_techniques_toolbox_en:
+        source_field_option: '@cms_page_topic_option_tbx_techniques'
         localized_catalog: '@toolbox_en'
         label: 'Techniques'
-    cms_page_topic_option_techniques_toolbox_de:
-        source_field_option: '@cms_page_topic_option_techniques'
+    cms_page_topic_option_tbx_techniques_toolbox_de:
+        source_field_option: '@cms_page_topic_option_tbx_techniques'
         localized_catalog: '@toolbox_de'
         label: 'Techniken'
-    cms_page_topic_option_tool_choice_toolbox_fr:
-        source_field_option: '@cms_page_topic_option_tool_choice'
+    cms_page_topic_option_tbx_tool_choice_toolbox_fr:
+        source_field_option: '@cms_page_topic_option_tbx_tool_choice'
         localized_catalog: '@toolbox_fr'
         label: 'Choisir son outil'
-    cms_page_topic_option_tool_choice_toolbox_en:
-        source_field_option: '@cms_page_topic_option_tool_choice'
+    cms_page_topic_option_tbx_tool_choice_toolbox_en:
+        source_field_option: '@cms_page_topic_option_tbx_tool_choice'
         localized_catalog: '@toolbox_en'
         label: 'Choosing your tool'
-    cms_page_topic_option_tool_choice_toolbox_de:
-        source_field_option: '@cms_page_topic_option_tool_choice'
+    cms_page_topic_option_tbx_tool_choice_toolbox_de:
+        source_field_option: '@cms_page_topic_option_tbx_tool_choice'
         localized_catalog: '@toolbox_de'
         label: 'Werkzeugwahl'
-    cms_page_author_option_bob_le_bricoleur_toolbox_fr:
-        source_field_option: '@cms_page_author_option_bob_le_bricoleur'
+    cms_page_author_option_tbx_bob_le_bricoleur_toolbox_fr:
+        source_field_option: '@cms_page_author_option_tbx_bob_le_bricoleur'
         localized_catalog: '@toolbox_fr'
         label: 'Bob le bricoleur'
-    cms_page_author_option_bob_le_bricoleur_toolbox_en:
-        source_field_option: '@cms_page_author_option_bob_le_bricoleur'
+    cms_page_author_option_tbx_bob_le_bricoleur_toolbox_en:
+        source_field_option: '@cms_page_author_option_tbx_bob_le_bricoleur'
         localized_catalog: '@toolbox_en'
         label: 'Bob le bricoleur'
-    cms_page_author_option_bob_le_bricoleur_toolbox_de:
-        source_field_option: '@cms_page_author_option_bob_le_bricoleur'
+    cms_page_author_option_tbx_bob_le_bricoleur_toolbox_de:
+        source_field_option: '@cms_page_author_option_tbx_bob_le_bricoleur'
         localized_catalog: '@toolbox_de'
         label: 'Bob le bricoleur'
-    cms_page_author_option_claire_dubois_toolbox_fr:
-        source_field_option: '@cms_page_author_option_claire_dubois'
+    cms_page_author_option_tbx_claire_dubois_toolbox_fr:
+        source_field_option: '@cms_page_author_option_tbx_claire_dubois'
         localized_catalog: '@toolbox_fr'
         label: 'Claire Dubois'
-    cms_page_author_option_claire_dubois_toolbox_en:
-        source_field_option: '@cms_page_author_option_claire_dubois'
+    cms_page_author_option_tbx_claire_dubois_toolbox_en:
+        source_field_option: '@cms_page_author_option_tbx_claire_dubois'
         localized_catalog: '@toolbox_en'
         label: 'Claire Dubois'
-    cms_page_author_option_claire_dubois_toolbox_de:
-        source_field_option: '@cms_page_author_option_claire_dubois'
+    cms_page_author_option_tbx_claire_dubois_toolbox_de:
+        source_field_option: '@cms_page_author_option_tbx_claire_dubois'
         localized_catalog: '@toolbox_de'
         label: 'Claire Dubois'
-    cms_page_author_option_hugo_marchand_toolbox_fr:
-        source_field_option: '@cms_page_author_option_hugo_marchand'
+    cms_page_author_option_tbx_hugo_marchand_toolbox_fr:
+        source_field_option: '@cms_page_author_option_tbx_hugo_marchand'
         localized_catalog: '@toolbox_fr'
         label: 'Hugo Marchand'
-    cms_page_author_option_hugo_marchand_toolbox_en:
-        source_field_option: '@cms_page_author_option_hugo_marchand'
+    cms_page_author_option_tbx_hugo_marchand_toolbox_en:
+        source_field_option: '@cms_page_author_option_tbx_hugo_marchand'
         localized_catalog: '@toolbox_en'
         label: 'Hugo Marchand'
-    cms_page_author_option_hugo_marchand_toolbox_de:
-        source_field_option: '@cms_page_author_option_hugo_marchand'
+    cms_page_author_option_tbx_hugo_marchand_toolbox_de:
+        source_field_option: '@cms_page_author_option_tbx_hugo_marchand'
         localized_catalog: '@toolbox_de'
         label: 'Hugo Marchand'
-    cms_page_author_option_sonia_lefevre_toolbox_fr:
-        source_field_option: '@cms_page_author_option_sonia_lefevre'
+    cms_page_author_option_tbx_sonia_lefevre_toolbox_fr:
+        source_field_option: '@cms_page_author_option_tbx_sonia_lefevre'
         localized_catalog: '@toolbox_fr'
         label: 'Sonia Lefèvre'
-    cms_page_author_option_sonia_lefevre_toolbox_en:
-        source_field_option: '@cms_page_author_option_sonia_lefevre'
+    cms_page_author_option_tbx_sonia_lefevre_toolbox_en:
+        source_field_option: '@cms_page_author_option_tbx_sonia_lefevre'
         localized_catalog: '@toolbox_en'
         label: 'Sonia Lefèvre'
-    cms_page_author_option_sonia_lefevre_toolbox_de:
-        source_field_option: '@cms_page_author_option_sonia_lefevre'
+    cms_page_author_option_tbx_sonia_lefevre_toolbox_de:
+        source_field_option: '@cms_page_author_option_tbx_sonia_lefevre'
         localized_catalog: '@toolbox_de'
         label: 'Sonia Lefèvre'
-    cms_page_author_option_karim_benali_toolbox_fr:
-        source_field_option: '@cms_page_author_option_karim_benali'
+    cms_page_author_option_tbx_karim_benali_toolbox_fr:
+        source_field_option: '@cms_page_author_option_tbx_karim_benali'
         localized_catalog: '@toolbox_fr'
         label: 'Karim Benali'
-    cms_page_author_option_karim_benali_toolbox_en:
-        source_field_option: '@cms_page_author_option_karim_benali'
+    cms_page_author_option_tbx_karim_benali_toolbox_en:
+        source_field_option: '@cms_page_author_option_tbx_karim_benali'
         localized_catalog: '@toolbox_en'
         label: 'Karim Benali'
-    cms_page_author_option_karim_benali_toolbox_de:
-        source_field_option: '@cms_page_author_option_karim_benali'
+    cms_page_author_option_tbx_karim_benali_toolbox_de:
+        source_field_option: '@cms_page_author_option_tbx_karim_benali'
         localized_catalog: '@toolbox_de'
         label: 'Karim Benali'
-    cms_page_tags_option_cordless_toolbox_fr:
-        source_field_option: '@cms_page_tags_option_cordless'
+    cms_page_tags_option_tbx_cordless_toolbox_fr:
+        source_field_option: '@cms_page_tags_option_tbx_cordless'
         localized_catalog: '@toolbox_fr'
         label: 'Sans fil'
-    cms_page_tags_option_cordless_toolbox_en:
-        source_field_option: '@cms_page_tags_option_cordless'
+    cms_page_tags_option_tbx_cordless_toolbox_en:
+        source_field_option: '@cms_page_tags_option_tbx_cordless'
         localized_catalog: '@toolbox_en'
         label: 'Cordless'
-    cms_page_tags_option_cordless_toolbox_de:
-        source_field_option: '@cms_page_tags_option_cordless'
+    cms_page_tags_option_tbx_cordless_toolbox_de:
+        source_field_option: '@cms_page_tags_option_tbx_cordless'
         localized_catalog: '@toolbox_de'
         label: 'Akkubetrieben'
-    cms_page_tags_option_drilling_toolbox_fr:
-        source_field_option: '@cms_page_tags_option_drilling'
+    cms_page_tags_option_tbx_drilling_toolbox_fr:
+        source_field_option: '@cms_page_tags_option_tbx_drilling'
         localized_catalog: '@toolbox_fr'
         label: 'Perçage'
-    cms_page_tags_option_drilling_toolbox_en:
-        source_field_option: '@cms_page_tags_option_drilling'
+    cms_page_tags_option_tbx_drilling_toolbox_en:
+        source_field_option: '@cms_page_tags_option_tbx_drilling'
         localized_catalog: '@toolbox_en'
         label: 'Drilling'
-    cms_page_tags_option_drilling_toolbox_de:
-        source_field_option: '@cms_page_tags_option_drilling'
+    cms_page_tags_option_tbx_drilling_toolbox_de:
+        source_field_option: '@cms_page_tags_option_tbx_drilling'
         localized_catalog: '@toolbox_de'
         label: 'Bohren'
-    cms_page_tags_option_electrical_toolbox_fr:
-        source_field_option: '@cms_page_tags_option_electrical'
+    cms_page_tags_option_tbx_electrical_toolbox_fr:
+        source_field_option: '@cms_page_tags_option_tbx_electrical'
         localized_catalog: '@toolbox_fr'
         label: 'Électricité'
-    cms_page_tags_option_electrical_toolbox_en:
-        source_field_option: '@cms_page_tags_option_electrical'
+    cms_page_tags_option_tbx_electrical_toolbox_en:
+        source_field_option: '@cms_page_tags_option_tbx_electrical'
         localized_catalog: '@toolbox_en'
         label: 'Electrical'
-    cms_page_tags_option_electrical_toolbox_de:
-        source_field_option: '@cms_page_tags_option_electrical'
+    cms_page_tags_option_tbx_electrical_toolbox_de:
+        source_field_option: '@cms_page_tags_option_tbx_electrical'
         localized_catalog: '@toolbox_de'
         label: 'Elektrik'
-    cms_page_tags_option_fixings_toolbox_fr:
-        source_field_option: '@cms_page_tags_option_fixings'
+    cms_page_tags_option_tbx_fixings_toolbox_fr:
+        source_field_option: '@cms_page_tags_option_tbx_fixings'
         localized_catalog: '@toolbox_fr'
         label: 'Fixations'
-    cms_page_tags_option_fixings_toolbox_en:
-        source_field_option: '@cms_page_tags_option_fixings'
+    cms_page_tags_option_tbx_fixings_toolbox_en:
+        source_field_option: '@cms_page_tags_option_tbx_fixings'
         localized_catalog: '@toolbox_en'
         label: 'Fixings'
-    cms_page_tags_option_fixings_toolbox_de:
-        source_field_option: '@cms_page_tags_option_fixings'
+    cms_page_tags_option_tbx_fixings_toolbox_de:
+        source_field_option: '@cms_page_tags_option_tbx_fixings'
         localized_catalog: '@toolbox_de'
         label: 'Befestigungen'
-    cms_page_tags_option_gardening_toolbox_fr:
-        source_field_option: '@cms_page_tags_option_gardening'
+    cms_page_tags_option_tbx_gardening_toolbox_fr:
+        source_field_option: '@cms_page_tags_option_tbx_gardening'
         localized_catalog: '@toolbox_fr'
         label: 'Jardinage'
-    cms_page_tags_option_gardening_toolbox_en:
-        source_field_option: '@cms_page_tags_option_gardening'
+    cms_page_tags_option_tbx_gardening_toolbox_en:
+        source_field_option: '@cms_page_tags_option_tbx_gardening'
         localized_catalog: '@toolbox_en'
         label: 'Gardening'
-    cms_page_tags_option_gardening_toolbox_de:
-        source_field_option: '@cms_page_tags_option_gardening'
+    cms_page_tags_option_tbx_gardening_toolbox_de:
+        source_field_option: '@cms_page_tags_option_tbx_gardening'
         localized_catalog: '@toolbox_de'
         label: 'Gartenarbeit'
-    cms_page_tags_option_materials_toolbox_fr:
-        source_field_option: '@cms_page_tags_option_materials'
+    cms_page_tags_option_tbx_materials_toolbox_fr:
+        source_field_option: '@cms_page_tags_option_tbx_materials'
         localized_catalog: '@toolbox_fr'
         label: 'Matériaux'
-    cms_page_tags_option_materials_toolbox_en:
-        source_field_option: '@cms_page_tags_option_materials'
+    cms_page_tags_option_tbx_materials_toolbox_en:
+        source_field_option: '@cms_page_tags_option_tbx_materials'
         localized_catalog: '@toolbox_en'
         label: 'Materials'
-    cms_page_tags_option_materials_toolbox_de:
-        source_field_option: '@cms_page_tags_option_materials'
+    cms_page_tags_option_tbx_materials_toolbox_de:
+        source_field_option: '@cms_page_tags_option_tbx_materials'
         localized_catalog: '@toolbox_de'
         label: 'Materialien'
-    cms_page_tags_option_measuring_toolbox_fr:
-        source_field_option: '@cms_page_tags_option_measuring'
+    cms_page_tags_option_tbx_measuring_toolbox_fr:
+        source_field_option: '@cms_page_tags_option_tbx_measuring'
         localized_catalog: '@toolbox_fr'
         label: 'Mesure'
-    cms_page_tags_option_measuring_toolbox_en:
-        source_field_option: '@cms_page_tags_option_measuring'
+    cms_page_tags_option_tbx_measuring_toolbox_en:
+        source_field_option: '@cms_page_tags_option_tbx_measuring'
         localized_catalog: '@toolbox_en'
         label: 'Measuring'
-    cms_page_tags_option_measuring_toolbox_de:
-        source_field_option: '@cms_page_tags_option_measuring'
+    cms_page_tags_option_tbx_measuring_toolbox_de:
+        source_field_option: '@cms_page_tags_option_tbx_measuring'
         localized_catalog: '@toolbox_de'
         label: 'Messen'
-    cms_page_tags_option_painting_toolbox_fr:
-        source_field_option: '@cms_page_tags_option_painting'
+    cms_page_tags_option_tbx_painting_toolbox_fr:
+        source_field_option: '@cms_page_tags_option_tbx_painting'
         localized_catalog: '@toolbox_fr'
         label: 'Peinture'
-    cms_page_tags_option_painting_toolbox_en:
-        source_field_option: '@cms_page_tags_option_painting'
+    cms_page_tags_option_tbx_painting_toolbox_en:
+        source_field_option: '@cms_page_tags_option_tbx_painting'
         localized_catalog: '@toolbox_en'
         label: 'Painting'
-    cms_page_tags_option_painting_toolbox_de:
-        source_field_option: '@cms_page_tags_option_painting'
+    cms_page_tags_option_tbx_painting_toolbox_de:
+        source_field_option: '@cms_page_tags_option_tbx_painting'
         localized_catalog: '@toolbox_de'
         label: 'Malerarbeiten'
-    cms_page_tags_option_plumbing_toolbox_fr:
-        source_field_option: '@cms_page_tags_option_plumbing'
+    cms_page_tags_option_tbx_plumbing_toolbox_fr:
+        source_field_option: '@cms_page_tags_option_tbx_plumbing'
         localized_catalog: '@toolbox_fr'
         label: 'Plomberie'
-    cms_page_tags_option_plumbing_toolbox_en:
-        source_field_option: '@cms_page_tags_option_plumbing'
+    cms_page_tags_option_tbx_plumbing_toolbox_en:
+        source_field_option: '@cms_page_tags_option_tbx_plumbing'
         localized_catalog: '@toolbox_en'
         label: 'Plumbing'
-    cms_page_tags_option_plumbing_toolbox_de:
-        source_field_option: '@cms_page_tags_option_plumbing'
+    cms_page_tags_option_tbx_plumbing_toolbox_de:
+        source_field_option: '@cms_page_tags_option_tbx_plumbing'
         localized_catalog: '@toolbox_de'
         label: 'Sanitär'
-    cms_page_tags_option_safety_gear_toolbox_fr:
-        source_field_option: '@cms_page_tags_option_safety_gear'
+    cms_page_tags_option_tbx_safety_gear_toolbox_fr:
+        source_field_option: '@cms_page_tags_option_tbx_safety_gear'
         localized_catalog: '@toolbox_fr'
         label: 'Équipement de protection'
-    cms_page_tags_option_safety_gear_toolbox_en:
-        source_field_option: '@cms_page_tags_option_safety_gear'
+    cms_page_tags_option_tbx_safety_gear_toolbox_en:
+        source_field_option: '@cms_page_tags_option_tbx_safety_gear'
         localized_catalog: '@toolbox_en'
         label: 'Safety gear'
-    cms_page_tags_option_safety_gear_toolbox_de:
-        source_field_option: '@cms_page_tags_option_safety_gear'
+    cms_page_tags_option_tbx_safety_gear_toolbox_de:
+        source_field_option: '@cms_page_tags_option_tbx_safety_gear'
         localized_catalog: '@toolbox_de'
         label: 'Schutzausrüstung'
-    cms_page_tags_option_sustainability_toolbox_fr:
-        source_field_option: '@cms_page_tags_option_sustainability'
+    cms_page_tags_option_tbx_sustainability_toolbox_fr:
+        source_field_option: '@cms_page_tags_option_tbx_sustainability'
         localized_catalog: '@toolbox_fr'
         label: 'Durabilité'
-    cms_page_tags_option_sustainability_toolbox_en:
-        source_field_option: '@cms_page_tags_option_sustainability'
+    cms_page_tags_option_tbx_sustainability_toolbox_en:
+        source_field_option: '@cms_page_tags_option_tbx_sustainability'
         localized_catalog: '@toolbox_en'
         label: 'Sustainability'
-    cms_page_tags_option_sustainability_toolbox_de:
-        source_field_option: '@cms_page_tags_option_sustainability'
+    cms_page_tags_option_tbx_sustainability_toolbox_de:
+        source_field_option: '@cms_page_tags_option_tbx_sustainability'
         localized_catalog: '@toolbox_de'
         label: 'Nachhaltigkeit'
-    cms_page_tags_option_tiling_toolbox_fr:
-        source_field_option: '@cms_page_tags_option_tiling'
+    cms_page_tags_option_tbx_tiling_toolbox_fr:
+        source_field_option: '@cms_page_tags_option_tbx_tiling'
         localized_catalog: '@toolbox_fr'
         label: 'Carrelage'
-    cms_page_tags_option_tiling_toolbox_en:
-        source_field_option: '@cms_page_tags_option_tiling'
+    cms_page_tags_option_tbx_tiling_toolbox_en:
+        source_field_option: '@cms_page_tags_option_tbx_tiling'
         localized_catalog: '@toolbox_en'
         label: 'Tiling'
-    cms_page_tags_option_tiling_toolbox_de:
-        source_field_option: '@cms_page_tags_option_tiling'
+    cms_page_tags_option_tbx_tiling_toolbox_de:
+        source_field_option: '@cms_page_tags_option_tbx_tiling'
         localized_catalog: '@toolbox_de'
         label: 'Fliesen'
-    cms_page_tags_option_tool_care_toolbox_fr:
-        source_field_option: '@cms_page_tags_option_tool_care'
+    cms_page_tags_option_tbx_tool_care_toolbox_fr:
+        source_field_option: '@cms_page_tags_option_tbx_tool_care'
         localized_catalog: '@toolbox_fr'
         label: 'Entretien'
-    cms_page_tags_option_tool_care_toolbox_en:
-        source_field_option: '@cms_page_tags_option_tool_care'
+    cms_page_tags_option_tbx_tool_care_toolbox_en:
+        source_field_option: '@cms_page_tags_option_tbx_tool_care'
         localized_catalog: '@toolbox_en'
         label: 'Tool care'
-    cms_page_tags_option_tool_care_toolbox_de:
-        source_field_option: '@cms_page_tags_option_tool_care'
+    cms_page_tags_option_tbx_tool_care_toolbox_de:
+        source_field_option: '@cms_page_tags_option_tbx_tool_care'
         localized_catalog: '@toolbox_de'
         label: 'Werkzeugpflege'
-    cms_page_tags_option_woodworking_toolbox_fr:
-        source_field_option: '@cms_page_tags_option_woodworking'
+    cms_page_tags_option_tbx_woodworking_toolbox_fr:
+        source_field_option: '@cms_page_tags_option_tbx_woodworking'
         localized_catalog: '@toolbox_fr'
         label: 'Travail du bois'
-    cms_page_tags_option_woodworking_toolbox_en:
-        source_field_option: '@cms_page_tags_option_woodworking'
+    cms_page_tags_option_tbx_woodworking_toolbox_en:
+        source_field_option: '@cms_page_tags_option_tbx_woodworking'
         localized_catalog: '@toolbox_en'
         label: 'Woodworking'
-    cms_page_tags_option_woodworking_toolbox_de:
-        source_field_option: '@cms_page_tags_option_woodworking'
+    cms_page_tags_option_tbx_woodworking_toolbox_de:
+        source_field_option: '@cms_page_tags_option_tbx_woodworking'
         localized_catalog: '@toolbox_de'
         label: 'Holzbearbeitung'

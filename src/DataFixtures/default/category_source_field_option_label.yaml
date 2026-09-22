@@ -1,5 +1,5 @@
 include:
-    - category_source_field_option.yaml
+    - ../common/category_source_field_option.yaml
 
 Gally\Metadata\Entity\SourceFieldOptionLabel:
     categories_custom_apply_to_products_option_1_com_fr:

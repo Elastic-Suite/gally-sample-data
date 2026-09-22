@@ -18,6 +18,7 @@ use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 use Gally\Fixture\Service\ElasticsearchFixturesInterface;
 use Gally\Fixture\Service\EntityIndicesFixturesInterface;
+use Gally\SampleData\CatalogSelection;
 
 class ElasticsearchProductFixtures extends Fixture
 {
@@ -35,13 +36,11 @@ class ElasticsearchProductFixtures extends Fixture
         // re-point the alias, orphaning whatever the first one had already indexed.
         $this->entityIndicesFixtures->createEntityElasticsearchIndices('product');
 
-        // One line per catalog. This list is the enable switch: the storefront takes the first
-        // catalog the API returns, so which catalogs carry documents is a decision.
-        $this->elasticsearchFixtures->loadFixturesDocumentFiles([
-            __DIR__ . '/../DataFixtures/default/elasticsearch/product_documents.json',
-            __DIR__ . '/../DataFixtures/00_toolbox/elasticsearch/product_documents.json',
-            __DIR__ . '/../DataFixtures/01_fashion/elasticsearch/product_documents.json',
-            __DIR__ . '/../DataFixtures/02_papershop/elasticsearch/product_documents.json',
-        ]);
+        // Which catalogs carry documents follows the selection in CatalogSelection; a folder
+        // without a product document file is skipped. The storefront takes the first catalog the
+        // API returns, so which catalogs carry documents stays a deliberate decision.
+        $this->elasticsearchFixtures->loadFixturesDocumentFiles(
+            CatalogSelection::documentFiles('product_documents.json')
+        );
     }
 }

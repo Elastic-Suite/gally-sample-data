@@ -1,5 +1,6 @@
 include:
     - product_source_field.yaml
+    - ../common/product_source_field.yaml
 
 Gally\Metadata\Entity\SourceFieldLabel:
     product_accessory_announcement_date_com_en:
