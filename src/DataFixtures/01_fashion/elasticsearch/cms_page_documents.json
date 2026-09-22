@@ -13,11 +13,11 @@
         "meta_title": "Choisir sa robe de soir\u00e9e",
         "tags": [
           {
-            "value": "dress",
+            "value": "fio_dress",
             "label": "Robe"
           },
           {
-            "value": "occasions",
+            "value": "fio_occasions",
             "label": "Occasions"
           }
         ],
@@ -26,11 +26,11 @@
           "label": "Guide d'achat"
         },
         "topic": {
-          "value": "style_guide",
+          "value": "fio_style_guide",
           "label": "Guide de style"
         },
         "author": {
-          "value": "camille_laurent",
+          "value": "fio_camille_laurent",
           "label": "Camille Laurent"
         },
         "published_at": "@now:-3d",
@@ -54,11 +54,11 @@
         "meta_title": "Les couleurs de la saison, et celles qui restent",
         "tags": [
           {
-            "value": "fashion",
+            "value": "fio_fashion",
             "label": "Mode"
           },
           {
-            "value": "colors",
+            "value": "fio_colors",
             "label": "Couleurs"
           }
         ],
@@ -67,11 +67,11 @@
           "label": "Article de blog"
         },
         "topic": {
-          "value": "trends",
+          "value": "fio_trends",
           "label": "Tendances"
         },
         "author": {
-          "value": "lea_moreau",
+          "value": "fio_lea_moreau",
           "label": "L\u00e9a Moreau"
         },
         "published_at": "@now:-8d",
@@ -95,11 +95,11 @@
         "meta_title": "Soie, coton, lin : reconna\u00eetre une bonne mati\u00e8re",
         "tags": [
           {
-            "value": "silk",
+            "value": "fio_silk",
             "label": "Soie"
           },
           {
-            "value": "materials",
+            "value": "fio_materials",
             "label": "Mati\u00e8res"
           }
         ],
@@ -108,11 +108,11 @@
           "label": "Guide d'achat"
         },
         "topic": {
-          "value": "materials",
+          "value": "fio_materials",
           "label": "Mati\u00e8res"
         },
         "author": {
-          "value": "julien_faure",
+          "value": "fio_julien_faure",
           "label": "Julien Faure"
         },
         "published_at": "@now:-13d",
@@ -136,11 +136,11 @@
         "meta_title": "Laver un pull en laine sans le r\u00e9tr\u00e9cir",
         "tags": [
           {
-            "value": "care",
+            "value": "fio_care",
             "label": "Entretien"
           },
           {
-            "value": "washing",
+            "value": "fio_washing",
             "label": "Lavage"
           }
         ],
@@ -149,11 +149,11 @@
           "label": "Article de blog"
         },
         "topic": {
-          "value": "care",
+          "value": "fio_care",
           "label": "Entretien"
         },
         "author": {
-          "value": "sofia_marchetti",
+          "value": "fio_sofia_marchetti",
           "label": "Sofia Marchetti"
         },
         "published_at": "@now:-18d",
@@ -177,11 +177,11 @@
         "meta_title": "Trouver sa taille sans essayer",
         "tags": [
           {
-            "value": "sizing",
+            "value": "fio_sizing",
             "label": "Tailles"
           },
           {
-            "value": "dress",
+            "value": "fio_dress",
             "label": "Robe"
           }
         ],
@@ -190,11 +190,11 @@
           "label": "Guide d'achat"
         },
         "topic": {
-          "value": "fit_sizing",
+          "value": "fio_fit_sizing",
           "label": "Coupe et taille"
         },
         "author": {
-          "value": "noemie_girard",
+          "value": "fio_noemie_girard",
           "label": "No\u00e9mie Girard"
         },
         "published_at": "@now:-24d",
@@ -218,11 +218,11 @@
         "meta_title": "Le sac qui va avec tout",
         "tags": [
           {
-            "value": "accessories",
+            "value": "fio_accessories",
             "label": "Accessoires"
           },
           {
-            "value": "leather_goods",
+            "value": "fio_leather_goods",
             "label": "Maroquinerie"
           }
         ],
@@ -231,11 +231,11 @@
           "label": "Article de blog"
         },
         "topic": {
-          "value": "accessories",
+          "value": "fio_accessories",
           "label": "Accessoires"
         },
         "author": {
-          "value": "camille_laurent",
+          "value": "fio_camille_laurent",
           "label": "Camille Laurent"
         },
         "published_at": "@now:-30d",
@@ -259,11 +259,11 @@
         "meta_title": "Un jean qui dure dix ans",
         "tags": [
           {
-            "value": "sustainability",
+            "value": "fio_sustainability",
             "label": "Durabilit\u00e9"
           },
           {
-            "value": "materials",
+            "value": "fio_materials",
             "label": "Mati\u00e8res"
           }
         ],
@@ -272,11 +272,11 @@
           "label": "Guide d'achat"
         },
         "topic": {
-          "value": "sustainability",
+          "value": "fio_sustainability",
           "label": "Durabilit\u00e9"
         },
         "author": {
-          "value": "lea_moreau",
+          "value": "fio_lea_moreau",
           "label": "L\u00e9a Moreau"
         },
         "published_at": "@now:-36d",
@@ -300,11 +300,11 @@
         "meta_title": "Le blazer, trois fa\u00e7ons",
         "tags": [
           {
-            "value": "tailoring",
+            "value": "fio_tailoring",
             "label": "Tailleur"
           },
           {
-            "value": "layering",
+            "value": "fio_layering",
             "label": "Superposition"
           }
         ],
@@ -313,11 +313,11 @@
           "label": "Article de blog"
         },
         "topic": {
-          "value": "style_guide",
+          "value": "fio_style_guide",
           "label": "Guide de style"
         },
         "author": {
-          "value": "julien_faure",
+          "value": "fio_julien_faure",
           "label": "Julien Faure"
         },
         "published_at": "@now:-42d",
@@ -341,11 +341,11 @@
         "meta_title": "Quelles couleurs vous vont vraiment",
         "tags": [
           {
-            "value": "colors",
+            "value": "fio_colors",
             "label": "Couleurs"
           },
           {
-            "value": "fashion",
+            "value": "fio_fashion",
             "label": "Mode"
           }
         ],
@@ -354,11 +354,11 @@
           "label": "Guide d'achat"
         },
         "topic": {
-          "value": "color",
+          "value": "fio_color",
           "label": "Couleur"
         },
         "author": {
-          "value": "sofia_marchetti",
+          "value": "fio_sofia_marchetti",
           "label": "Sofia Marchetti"
         },
         "published_at": "@now:-48d",
@@ -382,11 +382,11 @@
         "meta_title": "S'habiller pour un mariage sans se tromper",
         "tags": [
           {
-            "value": "occasions",
+            "value": "fio_occasions",
             "label": "Occasions"
           },
           {
-            "value": "dress",
+            "value": "fio_dress",
             "label": "Robe"
           }
         ],
@@ -395,11 +395,11 @@
           "label": "Article de blog"
         },
         "topic": {
-          "value": "occasions",
+          "value": "fio_occasions",
           "label": "Occasions"
         },
         "author": {
-          "value": "noemie_girard",
+          "value": "fio_noemie_girard",
           "label": "No\u00e9mie Girard"
         },
         "published_at": "@now:-55d",
@@ -423,11 +423,11 @@
         "meta_title": "Laine, cachemire, m\u00e9lange : quel manteau",
         "tags": [
           {
-            "value": "wool",
+            "value": "fio_wool",
             "label": "Laine"
           },
           {
-            "value": "linen",
+            "value": "fio_linen",
             "label": "Lin"
           }
         ],
@@ -436,11 +436,11 @@
           "label": "Guide d'achat"
         },
         "topic": {
-          "value": "materials",
+          "value": "fio_materials",
           "label": "Mati\u00e8res"
         },
         "author": {
-          "value": "camille_laurent",
+          "value": "fio_camille_laurent",
           "label": "Camille Laurent"
         },
         "published_at": "@now:-62d",
@@ -464,11 +464,11 @@
         "meta_title": "Entretenir ses chaussures en cuir",
         "tags": [
           {
-            "value": "care",
+            "value": "fio_care",
             "label": "Entretien"
           },
           {
-            "value": "leather_goods",
+            "value": "fio_leather_goods",
             "label": "Maroquinerie"
           }
         ],
@@ -477,11 +477,11 @@
           "label": "Article de blog"
         },
         "topic": {
-          "value": "care",
+          "value": "fio_care",
           "label": "Entretien"
         },
         "author": {
-          "value": "lea_moreau",
+          "value": "fio_lea_moreau",
           "label": "L\u00e9a Moreau"
         },
         "published_at": "@now:-70d",
@@ -505,11 +505,11 @@
         "meta_title": "Bien choisir la taille de ses baskets",
         "tags": [
           {
-            "value": "sizing",
+            "value": "fio_sizing",
             "label": "Tailles"
           },
           {
-            "value": "sneakers",
+            "value": "fio_sneakers",
             "label": "Baskets"
           }
         ],
@@ -518,11 +518,11 @@
           "label": "Guide d'achat"
         },
         "topic": {
-          "value": "fit_sizing",
+          "value": "fio_fit_sizing",
           "label": "Coupe et taille"
         },
         "author": {
-          "value": "julien_faure",
+          "value": "fio_julien_faure",
           "label": "Julien Faure"
         },
         "published_at": "@now:-78d",
@@ -546,11 +546,11 @@
         "meta_title": "Le retour de la veste en jean",
         "tags": [
           {
-            "value": "denim",
+            "value": "fio_denim",
             "label": "Denim"
           },
           {
-            "value": "fashion",
+            "value": "fio_fashion",
             "label": "Mode"
           }
         ],
@@ -559,11 +559,11 @@
           "label": "Article de blog"
         },
         "topic": {
-          "value": "trends",
+          "value": "fio_trends",
           "label": "Tendances"
         },
         "author": {
-          "value": "sofia_marchetti",
+          "value": "fio_sofia_marchetti",
           "label": "Sofia Marchetti"
         },
         "published_at": "@now:-86d",
@@ -587,11 +587,11 @@
         "meta_title": "Construire un vestiaire minimal",
         "tags": [
           {
-            "value": "sustainability",
+            "value": "fio_sustainability",
             "label": "Durabilit\u00e9"
           },
           {
-            "value": "capsule_wardrobe",
+            "value": "fio_capsule_wardrobe",
             "label": "Vestiaire minimal"
           }
         ],
@@ -600,11 +600,11 @@
           "label": "Guide d'achat"
         },
         "topic": {
-          "value": "sustainability",
+          "value": "fio_sustainability",
           "label": "Durabilit\u00e9"
         },
         "author": {
-          "value": "noemie_girard",
+          "value": "fio_noemie_girard",
           "label": "No\u00e9mie Girard"
         },
         "published_at": "@now:-94d",
@@ -633,11 +633,11 @@
         "meta_title": "Choosing an evening dress",
         "tags": [
           {
-            "value": "dress",
+            "value": "fio_dress",
             "label": "Dress"
           },
           {
-            "value": "occasions",
+            "value": "fio_occasions",
             "label": "Occasions"
           }
         ],
@@ -646,11 +646,11 @@
           "label": "Buying Guide"
         },
         "topic": {
-          "value": "style_guide",
+          "value": "fio_style_guide",
           "label": "Style Guide"
         },
         "author": {
-          "value": "camille_laurent",
+          "value": "fio_camille_laurent",
           "label": "Camille Laurent"
         },
         "published_at": "@now:-3d",
@@ -674,11 +674,11 @@
         "meta_title": "The colours of the season, and the ones that stay",
         "tags": [
           {
-            "value": "fashion",
+            "value": "fio_fashion",
             "label": "Fashion"
           },
           {
-            "value": "colors",
+            "value": "fio_colors",
             "label": "Colours"
           }
         ],
@@ -687,11 +687,11 @@
           "label": "Blog Post"
         },
         "topic": {
-          "value": "trends",
+          "value": "fio_trends",
           "label": "Trends"
         },
         "author": {
-          "value": "lea_moreau",
+          "value": "fio_lea_moreau",
           "label": "L\u00e9a Moreau"
         },
         "published_at": "@now:-8d",
@@ -715,11 +715,11 @@
         "meta_title": "Silk, cotton, linen: spotting a good fabric",
         "tags": [
           {
-            "value": "silk",
+            "value": "fio_silk",
             "label": "Silk"
           },
           {
-            "value": "materials",
+            "value": "fio_materials",
             "label": "Materials"
           }
         ],
@@ -728,11 +728,11 @@
           "label": "Buying Guide"
         },
         "topic": {
-          "value": "materials",
+          "value": "fio_materials",
           "label": "Materials"
         },
         "author": {
-          "value": "julien_faure",
+          "value": "fio_julien_faure",
           "label": "Julien Faure"
         },
         "published_at": "@now:-13d",
@@ -756,11 +756,11 @@
         "meta_title": "Washing a wool jumper without shrinking it",
         "tags": [
           {
-            "value": "care",
+            "value": "fio_care",
             "label": "Care"
           },
           {
-            "value": "washing",
+            "value": "fio_washing",
             "label": "Washing"
           }
         ],
@@ -769,11 +769,11 @@
           "label": "Blog Post"
         },
         "topic": {
-          "value": "care",
+          "value": "fio_care",
           "label": "Garment Care"
         },
         "author": {
-          "value": "sofia_marchetti",
+          "value": "fio_sofia_marchetti",
           "label": "Sofia Marchetti"
         },
         "published_at": "@now:-18d",
@@ -797,11 +797,11 @@
         "meta_title": "Finding your size without trying it on",
         "tags": [
           {
-            "value": "sizing",
+            "value": "fio_sizing",
             "label": "Sizing"
           },
           {
-            "value": "dress",
+            "value": "fio_dress",
             "label": "Dress"
           }
         ],
@@ -810,11 +810,11 @@
           "label": "Buying Guide"
         },
         "topic": {
-          "value": "fit_sizing",
+          "value": "fio_fit_sizing",
           "label": "Fit & Sizing"
         },
         "author": {
-          "value": "noemie_girard",
+          "value": "fio_noemie_girard",
           "label": "No\u00e9mie Girard"
         },
         "published_at": "@now:-24d",
@@ -838,11 +838,11 @@
         "meta_title": "The bag that goes with everything",
         "tags": [
           {
-            "value": "accessories",
+            "value": "fio_accessories",
             "label": "Accessories"
           },
           {
-            "value": "leather_goods",
+            "value": "fio_leather_goods",
             "label": "Leather goods"
           }
         ],
@@ -851,11 +851,11 @@
           "label": "Blog Post"
         },
         "topic": {
-          "value": "accessories",
+          "value": "fio_accessories",
           "label": "Accessories"
         },
         "author": {
-          "value": "camille_laurent",
+          "value": "fio_camille_laurent",
           "label": "Camille Laurent"
         },
         "published_at": "@now:-30d",
@@ -879,11 +879,11 @@
         "meta_title": "A pair of jeans that lasts ten years",
         "tags": [
           {
-            "value": "sustainability",
+            "value": "fio_sustainability",
             "label": "Sustainability"
           },
           {
-            "value": "materials",
+            "value": "fio_materials",
             "label": "Materials"
           }
         ],
@@ -892,11 +892,11 @@
           "label": "Buying Guide"
         },
         "topic": {
-          "value": "sustainability",
+          "value": "fio_sustainability",
           "label": "Sustainability"
         },
         "author": {
-          "value": "lea_moreau",
+          "value": "fio_lea_moreau",
           "label": "L\u00e9a Moreau"
         },
         "published_at": "@now:-36d",
@@ -920,11 +920,11 @@
         "meta_title": "The blazer, three ways",
         "tags": [
           {
-            "value": "tailoring",
+            "value": "fio_tailoring",
             "label": "Tailoring"
           },
           {
-            "value": "layering",
+            "value": "fio_layering",
             "label": "Layering"
           }
         ],
@@ -933,11 +933,11 @@
           "label": "Blog Post"
         },
         "topic": {
-          "value": "style_guide",
+          "value": "fio_style_guide",
           "label": "Style Guide"
         },
         "author": {
-          "value": "julien_faure",
+          "value": "fio_julien_faure",
           "label": "Julien Faure"
         },
         "published_at": "@now:-42d",
@@ -961,11 +961,11 @@
         "meta_title": "Which colours actually suit you",
         "tags": [
           {
-            "value": "colors",
+            "value": "fio_colors",
             "label": "Colours"
           },
           {
-            "value": "fashion",
+            "value": "fio_fashion",
             "label": "Fashion"
           }
         ],
@@ -974,11 +974,11 @@
           "label": "Buying Guide"
         },
         "topic": {
-          "value": "color",
+          "value": "fio_color",
           "label": "Colour"
         },
         "author": {
-          "value": "sofia_marchetti",
+          "value": "fio_sofia_marchetti",
           "label": "Sofia Marchetti"
         },
         "published_at": "@now:-48d",
@@ -1002,11 +1002,11 @@
         "meta_title": "Dressing for a wedding and getting it right",
         "tags": [
           {
-            "value": "occasions",
+            "value": "fio_occasions",
             "label": "Occasions"
           },
           {
-            "value": "dress",
+            "value": "fio_dress",
             "label": "Dress"
           }
         ],
@@ -1015,11 +1015,11 @@
           "label": "Blog Post"
         },
         "topic": {
-          "value": "occasions",
+          "value": "fio_occasions",
           "label": "Occasions"
         },
         "author": {
-          "value": "noemie_girard",
+          "value": "fio_noemie_girard",
           "label": "No\u00e9mie Girard"
         },
         "published_at": "@now:-55d",
@@ -1043,11 +1043,11 @@
         "meta_title": "Wool, cashmere, blends: which coat",
         "tags": [
           {
-            "value": "wool",
+            "value": "fio_wool",
             "label": "Wool"
           },
           {
-            "value": "linen",
+            "value": "fio_linen",
             "label": "Linen"
           }
         ],
@@ -1056,11 +1056,11 @@
           "label": "Buying Guide"
         },
         "topic": {
-          "value": "materials",
+          "value": "fio_materials",
           "label": "Materials"
         },
         "author": {
-          "value": "camille_laurent",
+          "value": "fio_camille_laurent",
           "label": "Camille Laurent"
         },
         "published_at": "@now:-62d",
@@ -1084,11 +1084,11 @@
         "meta_title": "Looking after leather shoes",
         "tags": [
           {
-            "value": "care",
+            "value": "fio_care",
             "label": "Care"
           },
           {
-            "value": "leather_goods",
+            "value": "fio_leather_goods",
             "label": "Leather goods"
           }
         ],
@@ -1097,11 +1097,11 @@
           "label": "Blog Post"
         },
         "topic": {
-          "value": "care",
+          "value": "fio_care",
           "label": "Garment Care"
         },
         "author": {
-          "value": "lea_moreau",
+          "value": "fio_lea_moreau",
           "label": "L\u00e9a Moreau"
         },
         "published_at": "@now:-70d",
@@ -1125,11 +1125,11 @@
         "meta_title": "Getting your trainer size right",
         "tags": [
           {
-            "value": "sizing",
+            "value": "fio_sizing",
             "label": "Sizing"
           },
           {
-            "value": "sneakers",
+            "value": "fio_sneakers",
             "label": "Sneakers"
           }
         ],
@@ -1138,11 +1138,11 @@
           "label": "Buying Guide"
         },
         "topic": {
-          "value": "fit_sizing",
+          "value": "fio_fit_sizing",
           "label": "Fit & Sizing"
         },
         "author": {
-          "value": "julien_faure",
+          "value": "fio_julien_faure",
           "label": "Julien Faure"
         },
         "published_at": "@now:-78d",
@@ -1166,11 +1166,11 @@
         "meta_title": "The denim jacket comes back",
         "tags": [
           {
-            "value": "denim",
+            "value": "fio_denim",
             "label": "Denim"
           },
           {
-            "value": "fashion",
+            "value": "fio_fashion",
             "label": "Fashion"
           }
         ],
@@ -1179,11 +1179,11 @@
           "label": "Blog Post"
         },
         "topic": {
-          "value": "trends",
+          "value": "fio_trends",
           "label": "Trends"
         },
         "author": {
-          "value": "sofia_marchetti",
+          "value": "fio_sofia_marchetti",
           "label": "Sofia Marchetti"
         },
         "published_at": "@now:-86d",
@@ -1207,11 +1207,11 @@
         "meta_title": "Building a capsule wardrobe",
         "tags": [
           {
-            "value": "sustainability",
+            "value": "fio_sustainability",
             "label": "Sustainability"
           },
           {
-            "value": "capsule_wardrobe",
+            "value": "fio_capsule_wardrobe",
             "label": "Capsule wardrobe"
           }
         ],
@@ -1220,11 +1220,11 @@
           "label": "Buying Guide"
         },
         "topic": {
-          "value": "sustainability",
+          "value": "fio_sustainability",
           "label": "Sustainability"
         },
         "author": {
-          "value": "noemie_girard",
+          "value": "fio_noemie_girard",
           "label": "No\u00e9mie Girard"
         },
         "published_at": "@now:-94d",
@@ -1253,11 +1253,11 @@
         "meta_title": "Das richtige Abendkleid w\u00e4hlen",
         "tags": [
           {
-            "value": "dress",
+            "value": "fio_dress",
             "label": "Kleid"
           },
           {
-            "value": "occasions",
+            "value": "fio_occasions",
             "label": "Anl\u00e4sse"
           }
         ],
@@ -1266,11 +1266,11 @@
           "label": "Kaufberatung"
         },
         "topic": {
-          "value": "style_guide",
+          "value": "fio_style_guide",
           "label": "Stilberatung"
         },
         "author": {
-          "value": "camille_laurent",
+          "value": "fio_camille_laurent",
           "label": "Camille Laurent"
         },
         "published_at": "@now:-3d",
@@ -1294,11 +1294,11 @@
         "meta_title": "Die Farben der Saison, und die, die bleiben",
         "tags": [
           {
-            "value": "fashion",
+            "value": "fio_fashion",
             "label": "Mode"
           },
           {
-            "value": "colors",
+            "value": "fio_colors",
             "label": "Farben"
           }
         ],
@@ -1307,11 +1307,11 @@
           "label": "Blogbeitrag"
         },
         "topic": {
-          "value": "trends",
+          "value": "fio_trends",
           "label": "Trends"
         },
         "author": {
-          "value": "lea_moreau",
+          "value": "fio_lea_moreau",
           "label": "L\u00e9a Moreau"
         },
         "published_at": "@now:-8d",
@@ -1335,11 +1335,11 @@
         "meta_title": "Seide, Baumwolle, Leinen: gute Stoffe erkennen",
         "tags": [
           {
-            "value": "silk",
+            "value": "fio_silk",
             "label": "Seide"
           },
           {
-            "value": "materials",
+            "value": "fio_materials",
             "label": "Materialien"
           }
         ],
@@ -1348,11 +1348,11 @@
           "label": "Kaufberatung"
         },
         "topic": {
-          "value": "materials",
+          "value": "fio_materials",
           "label": "Materialien"
         },
         "author": {
-          "value": "julien_faure",
+          "value": "fio_julien_faure",
           "label": "Julien Faure"
         },
         "published_at": "@now:-13d",
@@ -1376,11 +1376,11 @@
         "meta_title": "Einen Wollpullover waschen, ohne ihn einzulaufen",
         "tags": [
           {
-            "value": "care",
+            "value": "fio_care",
             "label": "Pflege"
           },
           {
-            "value": "washing",
+            "value": "fio_washing",
             "label": "Waschen"
           }
         ],
@@ -1389,11 +1389,11 @@
           "label": "Blogbeitrag"
         },
         "topic": {
-          "value": "care",
+          "value": "fio_care",
           "label": "Pflege"
         },
         "author": {
-          "value": "sofia_marchetti",
+          "value": "fio_sofia_marchetti",
           "label": "Sofia Marchetti"
         },
         "published_at": "@now:-18d",
@@ -1417,11 +1417,11 @@
         "meta_title": "Die eigene Gr\u00f6\u00dfe finden, ohne anzuprobieren",
         "tags": [
           {
-            "value": "sizing",
+            "value": "fio_sizing",
             "label": "Gr\u00f6\u00dfen"
           },
           {
-            "value": "dress",
+            "value": "fio_dress",
             "label": "Kleid"
           }
         ],
@@ -1430,11 +1430,11 @@
           "label": "Kaufberatung"
         },
         "topic": {
-          "value": "fit_sizing",
+          "value": "fio_fit_sizing",
           "label": "Passform und Gr\u00f6\u00dfe"
         },
         "author": {
-          "value": "noemie_girard",
+          "value": "fio_noemie_girard",
           "label": "No\u00e9mie Girard"
         },
         "published_at": "@now:-24d",
@@ -1458,11 +1458,11 @@
         "meta_title": "Die Tasche, die zu allem passt",
         "tags": [
           {
-            "value": "accessories",
+            "value": "fio_accessories",
             "label": "Accessoires"
           },
           {
-            "value": "leather_goods",
+            "value": "fio_leather_goods",
             "label": "Lederwaren"
           }
         ],
@@ -1471,11 +1471,11 @@
           "label": "Blogbeitrag"
         },
         "topic": {
-          "value": "accessories",
+          "value": "fio_accessories",
           "label": "Accessoires"
         },
         "author": {
-          "value": "camille_laurent",
+          "value": "fio_camille_laurent",
           "label": "Camille Laurent"
         },
         "published_at": "@now:-30d",
@@ -1499,11 +1499,11 @@
         "meta_title": "Eine Jeans, die zehn Jahre h\u00e4lt",
         "tags": [
           {
-            "value": "sustainability",
+            "value": "fio_sustainability",
             "label": "Nachhaltigkeit"
           },
           {
-            "value": "materials",
+            "value": "fio_materials",
             "label": "Materialien"
           }
         ],
@@ -1512,11 +1512,11 @@
           "label": "Kaufberatung"
         },
         "topic": {
-          "value": "sustainability",
+          "value": "fio_sustainability",
           "label": "Nachhaltigkeit"
         },
         "author": {
-          "value": "lea_moreau",
+          "value": "fio_lea_moreau",
           "label": "L\u00e9a Moreau"
         },
         "published_at": "@now:-36d",
@@ -1540,11 +1540,11 @@
         "meta_title": "Der Blazer, dreimal anders",
         "tags": [
           {
-            "value": "tailoring",
+            "value": "fio_tailoring",
             "label": "Schneiderarbeit"
           },
           {
-            "value": "layering",
+            "value": "fio_layering",
             "label": "Lagenlook"
           }
         ],
@@ -1553,11 +1553,11 @@
           "label": "Blogbeitrag"
         },
         "topic": {
-          "value": "style_guide",
+          "value": "fio_style_guide",
           "label": "Stilberatung"
         },
         "author": {
-          "value": "julien_faure",
+          "value": "fio_julien_faure",
           "label": "Julien Faure"
         },
         "published_at": "@now:-42d",
@@ -1581,11 +1581,11 @@
         "meta_title": "Welche Farben Ihnen wirklich stehen",
         "tags": [
           {
-            "value": "colors",
+            "value": "fio_colors",
             "label": "Farben"
           },
           {
-            "value": "fashion",
+            "value": "fio_fashion",
             "label": "Mode"
           }
         ],
@@ -1594,11 +1594,11 @@
           "label": "Kaufberatung"
         },
         "topic": {
-          "value": "color",
+          "value": "fio_color",
           "label": "Farbe"
         },
         "author": {
-          "value": "sofia_marchetti",
+          "value": "fio_sofia_marchetti",
           "label": "Sofia Marchetti"
         },
         "published_at": "@now:-48d",
@@ -1622,11 +1622,11 @@
         "meta_title": "Sich f\u00fcr eine Hochzeit richtig anziehen",
         "tags": [
           {
-            "value": "occasions",
+            "value": "fio_occasions",
             "label": "Anl\u00e4sse"
           },
           {
-            "value": "dress",
+            "value": "fio_dress",
             "label": "Kleid"
           }
         ],
@@ -1635,11 +1635,11 @@
           "label": "Blogbeitrag"
         },
         "topic": {
-          "value": "occasions",
+          "value": "fio_occasions",
           "label": "Anl\u00e4sse"
         },
         "author": {
-          "value": "noemie_girard",
+          "value": "fio_noemie_girard",
           "label": "No\u00e9mie Girard"
         },
         "published_at": "@now:-55d",
@@ -1663,11 +1663,11 @@
         "meta_title": "Wolle, Kaschmir, Mischung: welcher Mantel",
         "tags": [
           {
-            "value": "wool",
+            "value": "fio_wool",
             "label": "Wolle"
           },
           {
-            "value": "linen",
+            "value": "fio_linen",
             "label": "Leinen"
           }
         ],
@@ -1676,11 +1676,11 @@
           "label": "Kaufberatung"
         },
         "topic": {
-          "value": "materials",
+          "value": "fio_materials",
           "label": "Materialien"
         },
         "author": {
-          "value": "camille_laurent",
+          "value": "fio_camille_laurent",
           "label": "Camille Laurent"
         },
         "published_at": "@now:-62d",
@@ -1704,11 +1704,11 @@
         "meta_title": "Lederschuhe pflegen",
         "tags": [
           {
-            "value": "care",
+            "value": "fio_care",
             "label": "Pflege"
           },
           {
-            "value": "leather_goods",
+            "value": "fio_leather_goods",
             "label": "Lederwaren"
           }
         ],
@@ -1717,11 +1717,11 @@
           "label": "Blogbeitrag"
         },
         "topic": {
-          "value": "care",
+          "value": "fio_care",
           "label": "Pflege"
         },
         "author": {
-          "value": "lea_moreau",
+          "value": "fio_lea_moreau",
           "label": "L\u00e9a Moreau"
         },
         "published_at": "@now:-70d",
@@ -1745,11 +1745,11 @@
         "meta_title": "Die richtige Sneaker-Gr\u00f6\u00dfe finden",
         "tags": [
           {
-            "value": "sizing",
+            "value": "fio_sizing",
             "label": "Gr\u00f6\u00dfen"
           },
           {
-            "value": "sneakers",
+            "value": "fio_sneakers",
             "label": "Sneaker"
           }
         ],
@@ -1758,11 +1758,11 @@
           "label": "Kaufberatung"
         },
         "topic": {
-          "value": "fit_sizing",
+          "value": "fio_fit_sizing",
           "label": "Passform und Gr\u00f6\u00dfe"
         },
         "author": {
-          "value": "julien_faure",
+          "value": "fio_julien_faure",
           "label": "Julien Faure"
         },
         "published_at": "@now:-78d",
@@ -1786,11 +1786,11 @@
         "meta_title": "Die Jeansjacke kommt zur\u00fcck",
         "tags": [
           {
-            "value": "denim",
+            "value": "fio_denim",
             "label": "Denim"
           },
           {
-            "value": "fashion",
+            "value": "fio_fashion",
             "label": "Mode"
           }
         ],
@@ -1799,11 +1799,11 @@
           "label": "Blogbeitrag"
         },
         "topic": {
-          "value": "trends",
+          "value": "fio_trends",
           "label": "Trends"
         },
         "author": {
-          "value": "sofia_marchetti",
+          "value": "fio_sofia_marchetti",
           "label": "Sofia Marchetti"
         },
         "published_at": "@now:-86d",
@@ -1827,11 +1827,11 @@
         "meta_title": "Eine Capsule Wardrobe aufbauen",
         "tags": [
           {
-            "value": "sustainability",
+            "value": "fio_sustainability",
             "label": "Nachhaltigkeit"
           },
           {
-            "value": "capsule_wardrobe",
+            "value": "fio_capsule_wardrobe",
             "label": "Capsule Wardrobe"
           }
         ],
@@ -1840,11 +1840,11 @@
           "label": "Kaufberatung"
         },
         "topic": {
-          "value": "sustainability",
+          "value": "fio_sustainability",
           "label": "Nachhaltigkeit"
         },
         "author": {
-          "value": "noemie_girard",
+          "value": "fio_noemie_girard",
           "label": "No\u00e9mie Girard"
         },
         "published_at": "@now:-94d",

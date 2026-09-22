@@ -1,5 +1,5 @@
 include:
-    - metadata.yaml
+    - ../common/metadata.yaml
 
 Gally\Metadata\Entity\SourceField:
     product_accessory_announcement_date:
@@ -90,32 +90,6 @@ Gally\Metadata\Entity\SourceField:
         weight: 1
         isSpellchecked: true
         isFilterable: true
-        isSortable: false
-        isUsedForRules: true
-    # Names the attributes a configurable product varies on ("fashion_color", "fashion_size").
-    # Every product document already carries it; declaring it here is what puts it on the GraphQL
-    # Product type, so a storefront can tell a configurable from a simple one without pulling the
-    # whole `source`. Gally already maps this field as `keyword` in the base mapping it applies to
-    # every index it creates, so the declaration aligns with that rather than competing with it.
-    # Deliberately inert: it is plumbing, not merchandising — never a facet, never searched.
-    product_configurable_attributes:
-        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
-        code: configurable_attributes
-        type: keyword
-        isSearchable: false
-        weight: 1
-        isSpellchecked: false
-        isFilterable: false
-        isSortable: false
-        isUsedForRules: false
-    product_cost:
-        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
-        code: cost
-        type: float
-        isSearchable: false
-        weight: 1
-        isSpellchecked: false
-        isFilterable: false
         isSortable: false
         isUsedForRules: true
     product_country_of_manufacture:
@@ -452,16 +426,6 @@ Gally\Metadata\Entity\SourceField:
         isFilterable: false
         isSortable: false
         isUsedForRules: false
-    product_short_description:
-        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
-        code: short_description
-        type: text
-        isSearchable: true
-        weight: 1
-        isSpellchecked: true
-        isFilterable: false
-        isSortable: false
-        isUsedForRules: false
     product_sku_type:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: sku_type
@@ -582,16 +546,6 @@ Gally\Metadata\Entity\SourceField:
         isFilterable: false
         isSortable: false
         isUsedForRules: false
-    product_url_key:
-        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
-        code: url_key
-        type: text
-        isSearchable: true
-        weight: 1
-        isSpellchecked: true
-        isFilterable: false
-        isSortable: false
-        isUsedForRules: false
     product_url_path:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: url_path
@@ -606,26 +560,6 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: video_file
         type: text
-        isSearchable: false
-        weight: 1
-        isSpellchecked: false
-        isFilterable: false
-        isSortable: false
-        isUsedForRules: false
-    product_visibility:
-        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
-        code: visibility
-        type: select
-        isSearchable: false
-        weight: 1
-        isSpellchecked: false
-        isFilterable: false
-        isSortable: false
-        isUsedForRules: false
-    product_weight:
-        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
-        code: weight
-        type: float
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -867,16 +801,6 @@ Gally\Metadata\Entity\SourceField:
         isFilterable: true
         isSortable: false
         isUsedForRules: true
-    product_new:
-        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
-        code: new
-        type: boolean
-        isSearchable: false
-        weight: 1
-        isSpellchecked: false
-        isFilterable: true
-        isSortable: false
-        isUsedForRules: true
     product_open_amount_max:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: open_amount_max
@@ -921,16 +845,6 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: purpose
         type: select
-        isSearchable: false
-        weight: 1
-        isSpellchecked: false
-        isFilterable: true
-        isSortable: false
-        isUsedForRules: true
-    product_sale:
-        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
-        code: sale
-        type: boolean
         isSearchable: false
         weight: 1
         isSpellchecked: false

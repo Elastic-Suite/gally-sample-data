@@ -1,5 +1,5 @@
 # Attributes this catalog owns. The system fields are inserted by gally-standard's
-# install migration and the shared_*.yaml copies; redeclaring one breaks the load on
+# install migration and by common/; redeclaring one breaks the load on
 # the unique (code, metadata_id) constraint.
 
 Gally\Metadata\Entity\SourceField:
