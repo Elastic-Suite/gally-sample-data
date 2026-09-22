@@ -1,5 +1,6 @@
 include:
     - product_source_field_option.yaml
+    - ../common/product_source_field_option.yaml
         
 Gally\Metadata\Entity\SourceFieldOptionLabel:
     product_accessory_brand_option_13_com_en:

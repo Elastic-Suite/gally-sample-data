@@ -1,5 +1,5 @@
 include:
-    - category_source_field.yaml
+    - ../common/category_source_field.yaml
 
 Gally\Metadata\Entity\SourceFieldLabel:
     category_name_com_en:

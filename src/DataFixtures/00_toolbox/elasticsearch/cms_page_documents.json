@@ -13,11 +13,11 @@
         "meta_title": "Bien choisir sa perceuse-visseuse",
         "tags": [
           {
-            "value": "drilling",
+            "value": "tbx_drilling",
             "label": "Per\u00e7age"
           },
           {
-            "value": "cordless",
+            "value": "tbx_cordless",
             "label": "Sans fil"
           }
         ],
@@ -26,11 +26,11 @@
           "label": "Guide d'achat"
         },
         "topic": {
-          "value": "tool_choice",
+          "value": "tbx_tool_choice",
           "label": "Choisir son outil"
         },
         "author": {
-          "value": "bob_le_bricoleur",
+          "value": "tbx_bob_le_bricoleur",
           "label": "Bob le bricoleur"
         },
         "published_at": "@now:-4d",
@@ -54,11 +54,11 @@
         "meta_title": "Percer dans le b\u00e9ton sans casser son foret",
         "tags": [
           {
-            "value": "drilling",
+            "value": "tbx_drilling",
             "label": "Per\u00e7age"
           },
           {
-            "value": "fixings",
+            "value": "tbx_fixings",
             "label": "Fixations"
           }
         ],
@@ -67,11 +67,11 @@
           "label": "Article de blog"
         },
         "topic": {
-          "value": "techniques",
+          "value": "tbx_techniques",
           "label": "Techniques"
         },
         "author": {
-          "value": "bob_le_bricoleur",
+          "value": "tbx_bob_le_bricoleur",
           "label": "Bob le bricoleur"
         },
         "published_at": "@now:-19d",
@@ -95,11 +95,11 @@
         "meta_title": "Fixer une \u00e9tag\u00e8re qui ne bouge plus",
         "tags": [
           {
-            "value": "fixings",
+            "value": "tbx_fixings",
             "label": "Fixations"
           },
           {
-            "value": "measuring",
+            "value": "tbx_measuring",
             "label": "Mesure"
           }
         ],
@@ -108,11 +108,11 @@
           "label": "Article de blog"
         },
         "topic": {
-          "value": "techniques",
+          "value": "tbx_techniques",
           "label": "Techniques"
         },
         "author": {
-          "value": "bob_le_bricoleur",
+          "value": "tbx_bob_le_bricoleur",
           "label": "Bob le bricoleur"
         },
         "published_at": "@now:-33d",
@@ -136,11 +136,11 @@
         "meta_title": "Faire durer ses batteries 18V",
         "tags": [
           {
-            "value": "cordless",
+            "value": "tbx_cordless",
             "label": "Sans fil"
           },
           {
-            "value": "tool_care",
+            "value": "tbx_tool_care",
             "label": "Entretien"
           }
         ],
@@ -149,11 +149,11 @@
           "label": "Article de blog"
         },
         "topic": {
-          "value": "maintenance",
+          "value": "tbx_maintenance",
           "label": "Entretien"
         },
         "author": {
-          "value": "bob_le_bricoleur",
+          "value": "tbx_bob_le_bricoleur",
           "label": "Bob le bricoleur"
         },
         "published_at": "@now:-52d",
@@ -177,11 +177,11 @@
         "meta_title": "Construire un \u00e9tabli en une journ\u00e9e",
         "tags": [
           {
-            "value": "woodworking",
+            "value": "tbx_woodworking",
             "label": "Travail du bois"
           },
           {
-            "value": "measuring",
+            "value": "tbx_measuring",
             "label": "Mesure"
           }
         ],
@@ -190,11 +190,11 @@
           "label": "Article de blog"
         },
         "topic": {
-          "value": "projects",
+          "value": "tbx_projects",
           "label": "Projets"
         },
         "author": {
-          "value": "bob_le_bricoleur",
+          "value": "tbx_bob_le_bricoleur",
           "label": "Bob le bricoleur"
         },
         "published_at": "@now:-70d",
@@ -218,7 +218,7 @@
         "meta_title": "Peindre un mur sans laisser de traces",
         "tags": [
           {
-            "value": "painting",
+            "value": "tbx_painting",
             "label": "Peinture"
           }
         ],
@@ -227,11 +227,11 @@
           "label": "Guide d'achat"
         },
         "topic": {
-          "value": "techniques",
+          "value": "tbx_techniques",
           "label": "Techniques"
         },
         "author": {
-          "value": "claire_dubois",
+          "value": "tbx_claire_dubois",
           "label": "Claire Dubois"
         },
         "published_at": "@now:-9d",
@@ -255,7 +255,7 @@
         "meta_title": "Scie circulaire, sauteuse ou sabre : laquelle vous manque",
         "tags": [
           {
-            "value": "woodworking",
+            "value": "tbx_woodworking",
             "label": "Travail du bois"
           }
         ],
@@ -264,11 +264,11 @@
           "label": "Guide d'achat"
         },
         "topic": {
-          "value": "tool_choice",
+          "value": "tbx_tool_choice",
           "label": "Choisir son outil"
         },
         "author": {
-          "value": "hugo_marchand",
+          "value": "tbx_hugo_marchand",
           "label": "Hugo Marchand"
         },
         "published_at": "@now:-14d",
@@ -292,7 +292,7 @@
         "meta_title": "Mains, yeux, oreilles : ce qu'il faut porter et quand",
         "tags": [
           {
-            "value": "safety_gear",
+            "value": "tbx_safety_gear",
             "label": "\u00c9quipement de protection"
           }
         ],
@@ -301,11 +301,11 @@
           "label": "Guide d'achat"
         },
         "topic": {
-          "value": "safety",
+          "value": "tbx_safety",
           "label": "S\u00e9curit\u00e9"
         },
         "author": {
-          "value": "sonia_lefevre",
+          "value": "tbx_sonia_lefevre",
           "label": "Sonia Lef\u00e8vre"
         },
         "published_at": "@now:-26d",
@@ -329,7 +329,7 @@
         "meta_title": "Remplacer un robinet sans inonder la cuisine",
         "tags": [
           {
-            "value": "plumbing",
+            "value": "tbx_plumbing",
             "label": "Plomberie"
           }
         ],
@@ -338,11 +338,11 @@
           "label": "Article de blog"
         },
         "topic": {
-          "value": "techniques",
+          "value": "tbx_techniques",
           "label": "Techniques"
         },
         "author": {
-          "value": "karim_benali",
+          "value": "tbx_karim_benali",
           "label": "Karim Benali"
         },
         "published_at": "@now:-38d",
@@ -366,11 +366,11 @@
         "meta_title": "Quel rouleau pour quelle peinture",
         "tags": [
           {
-            "value": "painting",
+            "value": "tbx_painting",
             "label": "Peinture"
           },
           {
-            "value": "materials",
+            "value": "tbx_materials",
             "label": "Mat\u00e9riaux"
           }
         ],
@@ -379,11 +379,11 @@
           "label": "Guide d'achat"
         },
         "topic": {
-          "value": "tool_choice",
+          "value": "tbx_tool_choice",
           "label": "Choisir son outil"
         },
         "author": {
-          "value": "claire_dubois",
+          "value": "tbx_claire_dubois",
           "label": "Claire Dubois"
         },
         "published_at": "@now:-45d",
@@ -407,11 +407,11 @@
         "meta_title": "Lire son tableau \u00e9lectrique",
         "tags": [
           {
-            "value": "electrical",
+            "value": "tbx_electrical",
             "label": "\u00c9lectricit\u00e9"
           },
           {
-            "value": "safety_gear",
+            "value": "tbx_safety_gear",
             "label": "\u00c9quipement de protection"
           }
         ],
@@ -420,11 +420,11 @@
           "label": "Guide d'achat"
         },
         "topic": {
-          "value": "safety",
+          "value": "tbx_safety",
           "label": "S\u00e9curit\u00e9"
         },
         "author": {
-          "value": "hugo_marchand",
+          "value": "tbx_hugo_marchand",
           "label": "Hugo Marchand"
         },
         "published_at": "@now:-58d",
@@ -448,11 +448,11 @@
         "meta_title": "Poser du carrelage mural sans se rater",
         "tags": [
           {
-            "value": "tiling",
+            "value": "tbx_tiling",
             "label": "Carrelage"
           },
           {
-            "value": "materials",
+            "value": "tbx_materials",
             "label": "Mat\u00e9riaux"
           }
         ],
@@ -461,11 +461,11 @@
           "label": "Article de blog"
         },
         "topic": {
-          "value": "projects",
+          "value": "tbx_projects",
           "label": "Projets"
         },
         "author": {
-          "value": "sonia_lefevre",
+          "value": "tbx_sonia_lefevre",
           "label": "Sonia Lef\u00e8vre"
         },
         "published_at": "@now:-64d",
@@ -489,11 +489,11 @@
         "meta_title": "Arroser mieux en consommant moins",
         "tags": [
           {
-            "value": "gardening",
+            "value": "tbx_gardening",
             "label": "Jardinage"
           },
           {
-            "value": "sustainability",
+            "value": "tbx_sustainability",
             "label": "Durabilit\u00e9"
           }
         ],
@@ -502,11 +502,11 @@
           "label": "Article de blog"
         },
         "topic": {
-          "value": "sustainability",
+          "value": "tbx_sustainability",
           "label": "Durabilit\u00e9"
         },
         "author": {
-          "value": "karim_benali",
+          "value": "tbx_karim_benali",
           "label": "Karim Benali"
         },
         "published_at": "@now:-77d",
@@ -530,11 +530,11 @@
         "meta_title": "Quel bois pour quel usage",
         "tags": [
           {
-            "value": "woodworking",
+            "value": "tbx_woodworking",
             "label": "Travail du bois"
           },
           {
-            "value": "materials",
+            "value": "tbx_materials",
             "label": "Mat\u00e9riaux"
           }
         ],
@@ -543,11 +543,11 @@
           "label": "Guide d'achat"
         },
         "topic": {
-          "value": "materials",
+          "value": "tbx_materials",
           "label": "Mat\u00e9riaux"
         },
         "author": {
-          "value": "claire_dubois",
+          "value": "tbx_claire_dubois",
           "label": "Claire Dubois"
         },
         "published_at": "@now:-85d",
@@ -571,7 +571,7 @@
         "meta_title": "Mesurer juste pour ne couper qu'une fois",
         "tags": [
           {
-            "value": "measuring",
+            "value": "tbx_measuring",
             "label": "Mesure"
           }
         ],
@@ -580,11 +580,11 @@
           "label": "Article de blog"
         },
         "topic": {
-          "value": "techniques",
+          "value": "tbx_techniques",
           "label": "Techniques"
         },
         "author": {
-          "value": "hugo_marchand",
+          "value": "tbx_hugo_marchand",
           "label": "Hugo Marchand"
         },
         "published_at": "@now:-95d",
@@ -613,11 +613,11 @@
         "meta_title": "Choosing a cordless drill driver",
         "tags": [
           {
-            "value": "drilling",
+            "value": "tbx_drilling",
             "label": "Drilling"
           },
           {
-            "value": "cordless",
+            "value": "tbx_cordless",
             "label": "Cordless"
           }
         ],
@@ -626,11 +626,11 @@
           "label": "Buying Guide"
         },
         "topic": {
-          "value": "tool_choice",
+          "value": "tbx_tool_choice",
           "label": "Choosing your tool"
         },
         "author": {
-          "value": "bob_le_bricoleur",
+          "value": "tbx_bob_le_bricoleur",
           "label": "Bob le bricoleur"
         },
         "published_at": "@now:-4d",
@@ -654,11 +654,11 @@
         "meta_title": "Drilling concrete without wrecking the bit",
         "tags": [
           {
-            "value": "drilling",
+            "value": "tbx_drilling",
             "label": "Drilling"
           },
           {
-            "value": "fixings",
+            "value": "tbx_fixings",
             "label": "Fixings"
           }
         ],
@@ -667,11 +667,11 @@
           "label": "Blog Post"
         },
         "topic": {
-          "value": "techniques",
+          "value": "tbx_techniques",
           "label": "Techniques"
         },
         "author": {
-          "value": "bob_le_bricoleur",
+          "value": "tbx_bob_le_bricoleur",
           "label": "Bob le bricoleur"
         },
         "published_at": "@now:-19d",
@@ -695,11 +695,11 @@
         "meta_title": "Putting up a shelf that stays put",
         "tags": [
           {
-            "value": "fixings",
+            "value": "tbx_fixings",
             "label": "Fixings"
           },
           {
-            "value": "measuring",
+            "value": "tbx_measuring",
             "label": "Measuring"
           }
         ],
@@ -708,11 +708,11 @@
           "label": "Blog Post"
         },
         "topic": {
-          "value": "techniques",
+          "value": "tbx_techniques",
           "label": "Techniques"
         },
         "author": {
-          "value": "bob_le_bricoleur",
+          "value": "tbx_bob_le_bricoleur",
           "label": "Bob le bricoleur"
         },
         "published_at": "@now:-33d",
@@ -736,11 +736,11 @@
         "meta_title": "Making 18V batteries last",
         "tags": [
           {
-            "value": "cordless",
+            "value": "tbx_cordless",
             "label": "Cordless"
           },
           {
-            "value": "tool_care",
+            "value": "tbx_tool_care",
             "label": "Tool care"
           }
         ],
@@ -749,11 +749,11 @@
           "label": "Blog Post"
         },
         "topic": {
-          "value": "maintenance",
+          "value": "tbx_maintenance",
           "label": "Maintenance"
         },
         "author": {
-          "value": "bob_le_bricoleur",
+          "value": "tbx_bob_le_bricoleur",
           "label": "Bob le bricoleur"
         },
         "published_at": "@now:-52d",
@@ -777,11 +777,11 @@
         "meta_title": "Building a workbench in a day",
         "tags": [
           {
-            "value": "woodworking",
+            "value": "tbx_woodworking",
             "label": "Woodworking"
           },
           {
-            "value": "measuring",
+            "value": "tbx_measuring",
             "label": "Measuring"
           }
         ],
@@ -790,11 +790,11 @@
           "label": "Blog Post"
         },
         "topic": {
-          "value": "projects",
+          "value": "tbx_projects",
           "label": "Projects"
         },
         "author": {
-          "value": "bob_le_bricoleur",
+          "value": "tbx_bob_le_bricoleur",
           "label": "Bob le bricoleur"
         },
         "published_at": "@now:-70d",
@@ -818,7 +818,7 @@
         "meta_title": "Painting a wall without leaving marks",
         "tags": [
           {
-            "value": "painting",
+            "value": "tbx_painting",
             "label": "Painting"
           }
         ],
@@ -827,11 +827,11 @@
           "label": "Buying Guide"
         },
         "topic": {
-          "value": "techniques",
+          "value": "tbx_techniques",
           "label": "Techniques"
         },
         "author": {
-          "value": "claire_dubois",
+          "value": "tbx_claire_dubois",
           "label": "Claire Dubois"
         },
         "published_at": "@now:-9d",
@@ -855,7 +855,7 @@
         "meta_title": "Circular, jigsaw or reciprocating: which one you are missing",
         "tags": [
           {
-            "value": "woodworking",
+            "value": "tbx_woodworking",
             "label": "Woodworking"
           }
         ],
@@ -864,11 +864,11 @@
           "label": "Buying Guide"
         },
         "topic": {
-          "value": "tool_choice",
+          "value": "tbx_tool_choice",
           "label": "Choosing your tool"
         },
         "author": {
-          "value": "hugo_marchand",
+          "value": "tbx_hugo_marchand",
           "label": "Hugo Marchand"
         },
         "published_at": "@now:-14d",
@@ -892,7 +892,7 @@
         "meta_title": "Hands, eyes, ears: what to wear and when",
         "tags": [
           {
-            "value": "safety_gear",
+            "value": "tbx_safety_gear",
             "label": "Safety gear"
           }
         ],
@@ -901,11 +901,11 @@
           "label": "Buying Guide"
         },
         "topic": {
-          "value": "safety",
+          "value": "tbx_safety",
           "label": "Safety"
         },
         "author": {
-          "value": "sonia_lefevre",
+          "value": "tbx_sonia_lefevre",
           "label": "Sonia Lef\u00e8vre"
         },
         "published_at": "@now:-26d",
@@ -929,7 +929,7 @@
         "meta_title": "Replacing a tap without flooding the kitchen",
         "tags": [
           {
-            "value": "plumbing",
+            "value": "tbx_plumbing",
             "label": "Plumbing"
           }
         ],
@@ -938,11 +938,11 @@
           "label": "Blog Post"
         },
         "topic": {
-          "value": "techniques",
+          "value": "tbx_techniques",
           "label": "Techniques"
         },
         "author": {
-          "value": "karim_benali",
+          "value": "tbx_karim_benali",
           "label": "Karim Benali"
         },
         "published_at": "@now:-38d",
@@ -966,11 +966,11 @@
         "meta_title": "Which roller for which paint",
         "tags": [
           {
-            "value": "painting",
+            "value": "tbx_painting",
             "label": "Painting"
           },
           {
-            "value": "materials",
+            "value": "tbx_materials",
             "label": "Materials"
           }
         ],
@@ -979,11 +979,11 @@
           "label": "Buying Guide"
         },
         "topic": {
-          "value": "tool_choice",
+          "value": "tbx_tool_choice",
           "label": "Choosing your tool"
         },
         "author": {
-          "value": "claire_dubois",
+          "value": "tbx_claire_dubois",
           "label": "Claire Dubois"
         },
         "published_at": "@now:-45d",
@@ -1007,11 +1007,11 @@
         "meta_title": "Reading your consumer unit",
         "tags": [
           {
-            "value": "electrical",
+            "value": "tbx_electrical",
             "label": "Electrical"
           },
           {
-            "value": "safety_gear",
+            "value": "tbx_safety_gear",
             "label": "Safety gear"
           }
         ],
@@ -1020,11 +1020,11 @@
           "label": "Buying Guide"
         },
         "topic": {
-          "value": "safety",
+          "value": "tbx_safety",
           "label": "Safety"
         },
         "author": {
-          "value": "hugo_marchand",
+          "value": "tbx_hugo_marchand",
           "label": "Hugo Marchand"
         },
         "published_at": "@now:-58d",
@@ -1048,11 +1048,11 @@
         "meta_title": "Tiling a wall and getting it right",
         "tags": [
           {
-            "value": "tiling",
+            "value": "tbx_tiling",
             "label": "Tiling"
           },
           {
-            "value": "materials",
+            "value": "tbx_materials",
             "label": "Materials"
           }
         ],
@@ -1061,11 +1061,11 @@
           "label": "Blog Post"
         },
         "topic": {
-          "value": "projects",
+          "value": "tbx_projects",
           "label": "Projects"
         },
         "author": {
-          "value": "sonia_lefevre",
+          "value": "tbx_sonia_lefevre",
           "label": "Sonia Lef\u00e8vre"
         },
         "published_at": "@now:-64d",
@@ -1089,11 +1089,11 @@
         "meta_title": "Watering better and using less",
         "tags": [
           {
-            "value": "gardening",
+            "value": "tbx_gardening",
             "label": "Gardening"
           },
           {
-            "value": "sustainability",
+            "value": "tbx_sustainability",
             "label": "Sustainability"
           }
         ],
@@ -1102,11 +1102,11 @@
           "label": "Blog Post"
         },
         "topic": {
-          "value": "sustainability",
+          "value": "tbx_sustainability",
           "label": "Sustainability"
         },
         "author": {
-          "value": "karim_benali",
+          "value": "tbx_karim_benali",
           "label": "Karim Benali"
         },
         "published_at": "@now:-77d",
@@ -1130,11 +1130,11 @@
         "meta_title": "Which wood for which job",
         "tags": [
           {
-            "value": "woodworking",
+            "value": "tbx_woodworking",
             "label": "Woodworking"
           },
           {
-            "value": "materials",
+            "value": "tbx_materials",
             "label": "Materials"
           }
         ],
@@ -1143,11 +1143,11 @@
           "label": "Buying Guide"
         },
         "topic": {
-          "value": "materials",
+          "value": "tbx_materials",
           "label": "Materials"
         },
         "author": {
-          "value": "claire_dubois",
+          "value": "tbx_claire_dubois",
           "label": "Claire Dubois"
         },
         "published_at": "@now:-85d",
@@ -1171,7 +1171,7 @@
         "meta_title": "Measure right, cut once",
         "tags": [
           {
-            "value": "measuring",
+            "value": "tbx_measuring",
             "label": "Measuring"
           }
         ],
@@ -1180,11 +1180,11 @@
           "label": "Blog Post"
         },
         "topic": {
-          "value": "techniques",
+          "value": "tbx_techniques",
           "label": "Techniques"
         },
         "author": {
-          "value": "hugo_marchand",
+          "value": "tbx_hugo_marchand",
           "label": "Hugo Marchand"
         },
         "published_at": "@now:-95d",
@@ -1213,11 +1213,11 @@
         "meta_title": "Den richtigen Akkuschrauber w\u00e4hlen",
         "tags": [
           {
-            "value": "drilling",
+            "value": "tbx_drilling",
             "label": "Bohren"
           },
           {
-            "value": "cordless",
+            "value": "tbx_cordless",
             "label": "Akkubetrieben"
           }
         ],
@@ -1226,11 +1226,11 @@
           "label": "Kaufberatung"
         },
         "topic": {
-          "value": "tool_choice",
+          "value": "tbx_tool_choice",
           "label": "Werkzeugwahl"
         },
         "author": {
-          "value": "bob_le_bricoleur",
+          "value": "tbx_bob_le_bricoleur",
           "label": "Bob le bricoleur"
         },
         "published_at": "@now:-4d",
@@ -1254,11 +1254,11 @@
         "meta_title": "Beton bohren, ohne den Bohrer zu ruinieren",
         "tags": [
           {
-            "value": "drilling",
+            "value": "tbx_drilling",
             "label": "Bohren"
           },
           {
-            "value": "fixings",
+            "value": "tbx_fixings",
             "label": "Befestigungen"
           }
         ],
@@ -1267,11 +1267,11 @@
           "label": "Blogbeitrag"
         },
         "topic": {
-          "value": "techniques",
+          "value": "tbx_techniques",
           "label": "Techniken"
         },
         "author": {
-          "value": "bob_le_bricoleur",
+          "value": "tbx_bob_le_bricoleur",
           "label": "Bob le bricoleur"
         },
         "published_at": "@now:-19d",
@@ -1295,11 +1295,11 @@
         "meta_title": "Ein Regal montieren, das h\u00e4lt",
         "tags": [
           {
-            "value": "fixings",
+            "value": "tbx_fixings",
             "label": "Befestigungen"
           },
           {
-            "value": "measuring",
+            "value": "tbx_measuring",
             "label": "Messen"
           }
         ],
@@ -1308,11 +1308,11 @@
           "label": "Blogbeitrag"
         },
         "topic": {
-          "value": "techniques",
+          "value": "tbx_techniques",
           "label": "Techniken"
         },
         "author": {
-          "value": "bob_le_bricoleur",
+          "value": "tbx_bob_le_bricoleur",
           "label": "Bob le bricoleur"
         },
         "published_at": "@now:-33d",
@@ -1336,11 +1336,11 @@
         "meta_title": "18V-Akkus l\u00e4nger nutzen",
         "tags": [
           {
-            "value": "cordless",
+            "value": "tbx_cordless",
             "label": "Akkubetrieben"
           },
           {
-            "value": "tool_care",
+            "value": "tbx_tool_care",
             "label": "Werkzeugpflege"
           }
         ],
@@ -1349,11 +1349,11 @@
           "label": "Blogbeitrag"
         },
         "topic": {
-          "value": "maintenance",
+          "value": "tbx_maintenance",
           "label": "Wartung"
         },
         "author": {
-          "value": "bob_le_bricoleur",
+          "value": "tbx_bob_le_bricoleur",
           "label": "Bob le bricoleur"
         },
         "published_at": "@now:-52d",
@@ -1377,11 +1377,11 @@
         "meta_title": "Eine Werkbank an einem Tag bauen",
         "tags": [
           {
-            "value": "woodworking",
+            "value": "tbx_woodworking",
             "label": "Holzbearbeitung"
           },
           {
-            "value": "measuring",
+            "value": "tbx_measuring",
             "label": "Messen"
           }
         ],
@@ -1390,11 +1390,11 @@
           "label": "Blogbeitrag"
         },
         "topic": {
-          "value": "projects",
+          "value": "tbx_projects",
           "label": "Projekte"
         },
         "author": {
-          "value": "bob_le_bricoleur",
+          "value": "tbx_bob_le_bricoleur",
           "label": "Bob le bricoleur"
         },
         "published_at": "@now:-70d",
@@ -1418,7 +1418,7 @@
         "meta_title": "Eine Wand ohne Ans\u00e4tze streichen",
         "tags": [
           {
-            "value": "painting",
+            "value": "tbx_painting",
             "label": "Malerarbeiten"
           }
         ],
@@ -1427,11 +1427,11 @@
           "label": "Kaufberatung"
         },
         "topic": {
-          "value": "techniques",
+          "value": "tbx_techniques",
           "label": "Techniken"
         },
         "author": {
-          "value": "claire_dubois",
+          "value": "tbx_claire_dubois",
           "label": "Claire Dubois"
         },
         "published_at": "@now:-9d",
@@ -1455,7 +1455,7 @@
         "meta_title": "Handkreiss\u00e4ge, Stichs\u00e4ge oder S\u00e4bels\u00e4ge: was fehlt",
         "tags": [
           {
-            "value": "woodworking",
+            "value": "tbx_woodworking",
             "label": "Holzbearbeitung"
           }
         ],
@@ -1464,11 +1464,11 @@
           "label": "Kaufberatung"
         },
         "topic": {
-          "value": "tool_choice",
+          "value": "tbx_tool_choice",
           "label": "Werkzeugwahl"
         },
         "author": {
-          "value": "hugo_marchand",
+          "value": "tbx_hugo_marchand",
           "label": "Hugo Marchand"
         },
         "published_at": "@now:-14d",
@@ -1492,7 +1492,7 @@
         "meta_title": "H\u00e4nde, Augen, Ohren: was wann getragen wird",
         "tags": [
           {
-            "value": "safety_gear",
+            "value": "tbx_safety_gear",
             "label": "Schutzausr\u00fcstung"
           }
         ],
@@ -1501,11 +1501,11 @@
           "label": "Kaufberatung"
         },
         "topic": {
-          "value": "safety",
+          "value": "tbx_safety",
           "label": "Sicherheit"
         },
         "author": {
-          "value": "sonia_lefevre",
+          "value": "tbx_sonia_lefevre",
           "label": "Sonia Lef\u00e8vre"
         },
         "published_at": "@now:-26d",
@@ -1529,7 +1529,7 @@
         "meta_title": "Einen Wasserhahn wechseln, ohne die K\u00fcche zu \u00fcberschwemmen",
         "tags": [
           {
-            "value": "plumbing",
+            "value": "tbx_plumbing",
             "label": "Sanit\u00e4r"
           }
         ],
@@ -1538,11 +1538,11 @@
           "label": "Blogbeitrag"
         },
         "topic": {
-          "value": "techniques",
+          "value": "tbx_techniques",
           "label": "Techniken"
         },
         "author": {
-          "value": "karim_benali",
+          "value": "tbx_karim_benali",
           "label": "Karim Benali"
         },
         "published_at": "@now:-38d",
@@ -1566,11 +1566,11 @@
         "meta_title": "Welche Rolle f\u00fcr welche Farbe",
         "tags": [
           {
-            "value": "painting",
+            "value": "tbx_painting",
             "label": "Malerarbeiten"
           },
           {
-            "value": "materials",
+            "value": "tbx_materials",
             "label": "Materialien"
           }
         ],
@@ -1579,11 +1579,11 @@
           "label": "Kaufberatung"
         },
         "topic": {
-          "value": "tool_choice",
+          "value": "tbx_tool_choice",
           "label": "Werkzeugwahl"
         },
         "author": {
-          "value": "claire_dubois",
+          "value": "tbx_claire_dubois",
           "label": "Claire Dubois"
         },
         "published_at": "@now:-45d",
@@ -1607,11 +1607,11 @@
         "meta_title": "Den Sicherungskasten lesen",
         "tags": [
           {
-            "value": "electrical",
+            "value": "tbx_electrical",
             "label": "Elektrik"
           },
           {
-            "value": "safety_gear",
+            "value": "tbx_safety_gear",
             "label": "Schutzausr\u00fcstung"
           }
         ],
@@ -1620,11 +1620,11 @@
           "label": "Kaufberatung"
         },
         "topic": {
-          "value": "safety",
+          "value": "tbx_safety",
           "label": "Sicherheit"
         },
         "author": {
-          "value": "hugo_marchand",
+          "value": "tbx_hugo_marchand",
           "label": "Hugo Marchand"
         },
         "published_at": "@now:-58d",
@@ -1648,11 +1648,11 @@
         "meta_title": "Wandfliesen legen, ohne daneben zu greifen",
         "tags": [
           {
-            "value": "tiling",
+            "value": "tbx_tiling",
             "label": "Fliesen"
           },
           {
-            "value": "materials",
+            "value": "tbx_materials",
             "label": "Materialien"
           }
         ],
@@ -1661,11 +1661,11 @@
           "label": "Blogbeitrag"
         },
         "topic": {
-          "value": "projects",
+          "value": "tbx_projects",
           "label": "Projekte"
         },
         "author": {
-          "value": "sonia_lefevre",
+          "value": "tbx_sonia_lefevre",
           "label": "Sonia Lef\u00e8vre"
         },
         "published_at": "@now:-64d",
@@ -1689,11 +1689,11 @@
         "meta_title": "Besser gie\u00dfen, weniger verbrauchen",
         "tags": [
           {
-            "value": "gardening",
+            "value": "tbx_gardening",
             "label": "Gartenarbeit"
           },
           {
-            "value": "sustainability",
+            "value": "tbx_sustainability",
             "label": "Nachhaltigkeit"
           }
         ],
@@ -1702,11 +1702,11 @@
           "label": "Blogbeitrag"
         },
         "topic": {
-          "value": "sustainability",
+          "value": "tbx_sustainability",
           "label": "Nachhaltigkeit"
         },
         "author": {
-          "value": "karim_benali",
+          "value": "tbx_karim_benali",
           "label": "Karim Benali"
         },
         "published_at": "@now:-77d",
@@ -1730,11 +1730,11 @@
         "meta_title": "Welches Holz f\u00fcr welchen Zweck",
         "tags": [
           {
-            "value": "woodworking",
+            "value": "tbx_woodworking",
             "label": "Holzbearbeitung"
           },
           {
-            "value": "materials",
+            "value": "tbx_materials",
             "label": "Materialien"
           }
         ],
@@ -1743,11 +1743,11 @@
           "label": "Kaufberatung"
         },
         "topic": {
-          "value": "materials",
+          "value": "tbx_materials",
           "label": "Materialien"
         },
         "author": {
-          "value": "claire_dubois",
+          "value": "tbx_claire_dubois",
           "label": "Claire Dubois"
         },
         "published_at": "@now:-85d",
@@ -1771,7 +1771,7 @@
         "meta_title": "Richtig messen, einmal schneiden",
         "tags": [
           {
-            "value": "measuring",
+            "value": "tbx_measuring",
             "label": "Messen"
           }
         ],
@@ -1780,11 +1780,11 @@
           "label": "Blogbeitrag"
         },
         "topic": {
-          "value": "techniques",
+          "value": "tbx_techniques",
           "label": "Techniken"
         },
         "author": {
-          "value": "hugo_marchand",
+          "value": "tbx_hugo_marchand",
           "label": "Hugo Marchand"
         },
         "published_at": "@now:-95d",

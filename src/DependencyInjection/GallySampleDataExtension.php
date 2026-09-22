@@ -18,6 +18,7 @@ declare(strict_types=1);
 namespace Gally\SampleData\DependencyInjection;
 
 use Gally\DependencyInjection\Extension;
+use Gally\SampleData\CatalogSelection;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
@@ -41,9 +42,9 @@ class GallySampleDataExtension extends Extension
     }
 
     /**
-     * One entry per catalog folder under DataFixtures, plus its premium subfolder.
+     * One entry per selected catalog folder under DataFixtures, plus its premium subfolder.
      *
-     * Discovered rather than listed, so adding a catalog is a matter of dropping its folder in.
+     * Which folders take part is CatalogSelection's decision; see that class for the env var.
      * A glob cannot be put in the config directly: hautelook's EnvDirectoryLocator filters the
      * configured paths through file_exists() before handing them to the Finder, and then runs
      * the Finder with depth(0), so a pattern is discarded and a subdirectory is invisible.
@@ -57,11 +58,10 @@ class GallySampleDataExtension extends Extension
     {
         $paths = [];
 
-        foreach (glob(__DIR__ . '/../DataFixtures/*', \GLOB_ONLYDIR) ?: [] as $directory) {
-            $catalog = basename($directory);
+        foreach (CatalogSelection::folders() as $catalog) {
             $paths[] = 'DataFixtures/' . $catalog;
 
-            if (is_dir($directory . '/premium')) {
+            if (is_dir(CatalogSelection::path($catalog) . '/premium')) {
                 $paths[] = 'DataFixtures/' . $catalog . '/premium';
             }
         }

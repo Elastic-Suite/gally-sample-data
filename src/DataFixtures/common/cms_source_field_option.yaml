@@ -1,0 +1,14 @@
+include:
+    - cms_source_field.yaml
+
+Gally\Metadata\Entity\SourceFieldOption:
+    cms_page_content_type_option_blog:
+        code: 'blog'
+        source_field: '@cms_page_content_type'
+        position: 0
+        defaultLabel: 'Blog Post'
+    cms_page_content_type_option_guide:
+        code: 'guide'
+        source_field: '@cms_page_content_type'
+        position: 1
+        defaultLabel: 'Buying Guide'

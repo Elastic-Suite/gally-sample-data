@@ -1,5 +1,6 @@
 include:
     - cms_source_field_option.yaml
+    - ../common/cms_source_field_option.yaml
 
 Gally\Metadata\Entity\SourceFieldOptionLabel:
     cms_page_content_type_option_blog_com_en:
