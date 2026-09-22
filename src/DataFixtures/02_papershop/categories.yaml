@@ -1,0 +1,1092 @@
+include:
+    - catalogs.yaml
+    - localized_catalogs.yaml
+
+Gally\Category\Entity\Category:
+    cat_llv_1:
+        id: cat_llv_1
+        level: 1
+        path: cat_llv_1
+    cat_llv_54:
+        id: cat_llv_54
+        parentId: cat_llv_1
+        level: 2
+        path: cat_llv_1/cat_llv_54
+    cat_llv_2:
+        id: cat_llv_2
+        parentId: cat_llv_1
+        level: 2
+        path: cat_llv_1/cat_llv_2
+    cat_llv_3:
+        id: cat_llv_3
+        parentId: cat_llv_2
+        level: 3
+        path: cat_llv_1/cat_llv_2/cat_llv_3
+    cat_llv_4:
+        id: cat_llv_4
+        parentId: cat_llv_3
+        level: 4
+        path: cat_llv_1/cat_llv_2/cat_llv_3/cat_llv_4
+    cat_llv_5:
+        id: cat_llv_5
+        parentId: cat_llv_3
+        level: 4
+        path: cat_llv_1/cat_llv_2/cat_llv_3/cat_llv_5
+    cat_llv_6:
+        id: cat_llv_6
+        parentId: cat_llv_2
+        level: 3
+        path: cat_llv_1/cat_llv_2/cat_llv_6
+    cat_llv_7:
+        id: cat_llv_7
+        parentId: cat_llv_6
+        level: 4
+        path: cat_llv_1/cat_llv_2/cat_llv_6/cat_llv_7
+    cat_llv_8:
+        id: cat_llv_8
+        parentId: cat_llv_6
+        level: 4
+        path: cat_llv_1/cat_llv_2/cat_llv_6/cat_llv_8
+    cat_llv_9:
+        id: cat_llv_9
+        parentId: cat_llv_2
+        level: 3
+        path: cat_llv_1/cat_llv_2/cat_llv_9
+    cat_llv_10:
+        id: cat_llv_10
+        parentId: cat_llv_9
+        level: 4
+        path: cat_llv_1/cat_llv_2/cat_llv_9/cat_llv_10
+    cat_llv_11:
+        id: cat_llv_11
+        parentId: cat_llv_9
+        level: 4
+        path: cat_llv_1/cat_llv_2/cat_llv_9/cat_llv_11
+    cat_llv_12:
+        id: cat_llv_12
+        parentId: cat_llv_9
+        level: 4
+        path: cat_llv_1/cat_llv_2/cat_llv_9/cat_llv_12
+    cat_llv_13:
+        id: cat_llv_13
+        parentId: cat_llv_9
+        level: 4
+        path: cat_llv_1/cat_llv_2/cat_llv_9/cat_llv_13
+    cat_llv_14:
+        id: cat_llv_14
+        parentId: cat_llv_2
+        level: 3
+        path: cat_llv_1/cat_llv_2/cat_llv_14
+    cat_llv_15:
+        id: cat_llv_15
+        parentId: cat_llv_14
+        level: 4
+        path: cat_llv_1/cat_llv_2/cat_llv_14/cat_llv_15
+    cat_llv_16:
+        id: cat_llv_16
+        parentId: cat_llv_14
+        level: 4
+        path: cat_llv_1/cat_llv_2/cat_llv_14/cat_llv_16
+    cat_llv_17:
+        id: cat_llv_17
+        parentId: cat_llv_2
+        level: 3
+        path: cat_llv_1/cat_llv_2/cat_llv_17
+    cat_llv_18:
+        id: cat_llv_18
+        parentId: cat_llv_17
+        level: 4
+        path: cat_llv_1/cat_llv_2/cat_llv_17/cat_llv_18
+    cat_llv_19:
+        id: cat_llv_19
+        parentId: cat_llv_17
+        level: 4
+        path: cat_llv_1/cat_llv_2/cat_llv_17/cat_llv_19
+    cat_llv_20:
+        id: cat_llv_20
+        parentId: cat_llv_1
+        level: 2
+        path: cat_llv_1/cat_llv_20
+    cat_llv_21:
+        id: cat_llv_21
+        parentId: cat_llv_20
+        level: 3
+        path: cat_llv_1/cat_llv_20/cat_llv_21
+    cat_llv_22:
+        id: cat_llv_22
+        parentId: cat_llv_21
+        level: 4
+        path: cat_llv_1/cat_llv_20/cat_llv_21/cat_llv_22
+    cat_llv_23:
+        id: cat_llv_23
+        parentId: cat_llv_21
+        level: 4
+        path: cat_llv_1/cat_llv_20/cat_llv_21/cat_llv_23
+    cat_llv_24:
+        id: cat_llv_24
+        parentId: cat_llv_21
+        level: 4
+        path: cat_llv_1/cat_llv_20/cat_llv_21/cat_llv_24
+    cat_llv_25:
+        id: cat_llv_25
+        parentId: cat_llv_20
+        level: 3
+        path: cat_llv_1/cat_llv_20/cat_llv_25
+    cat_llv_26:
+        id: cat_llv_26
+        parentId: cat_llv_25
+        level: 4
+        path: cat_llv_1/cat_llv_20/cat_llv_25/cat_llv_26
+    cat_llv_27:
+        id: cat_llv_27
+        parentId: cat_llv_25
+        level: 4
+        path: cat_llv_1/cat_llv_20/cat_llv_25/cat_llv_27
+    cat_llv_28:
+        id: cat_llv_28
+        parentId: cat_llv_20
+        level: 3
+        path: cat_llv_1/cat_llv_20/cat_llv_28
+    cat_llv_29:
+        id: cat_llv_29
+        parentId: cat_llv_28
+        level: 4
+        path: cat_llv_1/cat_llv_20/cat_llv_28/cat_llv_29
+    cat_llv_30:
+        id: cat_llv_30
+        parentId: cat_llv_28
+        level: 4
+        path: cat_llv_1/cat_llv_20/cat_llv_28/cat_llv_30
+    cat_llv_31:
+        id: cat_llv_31
+        parentId: cat_llv_20
+        level: 3
+        path: cat_llv_1/cat_llv_20/cat_llv_31
+    cat_llv_32:
+        id: cat_llv_32
+        parentId: cat_llv_31
+        level: 4
+        path: cat_llv_1/cat_llv_20/cat_llv_31/cat_llv_32
+    cat_llv_33:
+        id: cat_llv_33
+        parentId: cat_llv_31
+        level: 4
+        path: cat_llv_1/cat_llv_20/cat_llv_31/cat_llv_33
+    cat_llv_34:
+        id: cat_llv_34
+        parentId: cat_llv_31
+        level: 4
+        path: cat_llv_1/cat_llv_20/cat_llv_31/cat_llv_34
+    cat_llv_35:
+        id: cat_llv_35
+        parentId: cat_llv_20
+        level: 3
+        path: cat_llv_1/cat_llv_20/cat_llv_35
+    cat_llv_36:
+        id: cat_llv_36
+        parentId: cat_llv_35
+        level: 4
+        path: cat_llv_1/cat_llv_20/cat_llv_35/cat_llv_36
+    cat_llv_37:
+        id: cat_llv_37
+        parentId: cat_llv_35
+        level: 4
+        path: cat_llv_1/cat_llv_20/cat_llv_35/cat_llv_37
+    cat_llv_38:
+        id: cat_llv_38
+        parentId: cat_llv_1
+        level: 2
+        path: cat_llv_1/cat_llv_38
+    cat_llv_39:
+        id: cat_llv_39
+        parentId: cat_llv_38
+        level: 3
+        path: cat_llv_1/cat_llv_38/cat_llv_39
+    cat_llv_40:
+        id: cat_llv_40
+        parentId: cat_llv_39
+        level: 4
+        path: cat_llv_1/cat_llv_38/cat_llv_39/cat_llv_40
+    cat_llv_41:
+        id: cat_llv_41
+        parentId: cat_llv_39
+        level: 4
+        path: cat_llv_1/cat_llv_38/cat_llv_39/cat_llv_41
+    cat_llv_42:
+        id: cat_llv_42
+        parentId: cat_llv_38
+        level: 3
+        path: cat_llv_1/cat_llv_38/cat_llv_42
+    cat_llv_43:
+        id: cat_llv_43
+        parentId: cat_llv_42
+        level: 4
+        path: cat_llv_1/cat_llv_38/cat_llv_42/cat_llv_43
+    cat_llv_44:
+        id: cat_llv_44
+        parentId: cat_llv_42
+        level: 4
+        path: cat_llv_1/cat_llv_38/cat_llv_42/cat_llv_44
+    cat_llv_45:
+        id: cat_llv_45
+        parentId: cat_llv_38
+        level: 3
+        path: cat_llv_1/cat_llv_38/cat_llv_45
+    cat_llv_46:
+        id: cat_llv_46
+        parentId: cat_llv_45
+        level: 4
+        path: cat_llv_1/cat_llv_38/cat_llv_45/cat_llv_46
+    cat_llv_47:
+        id: cat_llv_47
+        parentId: cat_llv_45
+        level: 4
+        path: cat_llv_1/cat_llv_38/cat_llv_45/cat_llv_47
+    cat_llv_48:
+        id: cat_llv_48
+        parentId: cat_llv_45
+        level: 4
+        path: cat_llv_1/cat_llv_38/cat_llv_45/cat_llv_48
+    cat_llv_49:
+        id: cat_llv_49
+        parentId: cat_llv_38
+        level: 3
+        path: cat_llv_1/cat_llv_38/cat_llv_49
+    cat_llv_50:
+        id: cat_llv_50
+        parentId: cat_llv_49
+        level: 4
+        path: cat_llv_1/cat_llv_38/cat_llv_49/cat_llv_50
+    cat_llv_51:
+        id: cat_llv_51
+        parentId: cat_llv_49
+        level: 4
+        path: cat_llv_1/cat_llv_38/cat_llv_49/cat_llv_51
+    cat_llv_52:
+        id: cat_llv_52
+        parentId: cat_llv_38
+        level: 3
+        path: cat_llv_1/cat_llv_38/cat_llv_52
+    cat_llv_53:
+        id: cat_llv_53
+        parentId: cat_llv_52
+        level: 4
+        path: cat_llv_1/cat_llv_38/cat_llv_52/cat_llv_53
+
+Gally\Category\Entity\Category\Configuration:
+    config_cat_llv_1_papershop_fr:
+        category: '@cat_llv_1'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Le livre & le lièvre'
+    config_cat_llv_1_papershop_en:
+        category: '@cat_llv_1'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'The Book & the Hare'
+    config_cat_llv_1_papershop_de:
+        category: '@cat_llv_1'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Das Buch & der Hase'
+    config_cat_llv_54_papershop_fr:
+        category: '@cat_llv_54'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Sélection éco-responsable'
+        isVirtual: true
+        virtualRule: <strval('{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"llv_is_eco","operator":"eq","attribute_type":"boolean","value":true}]}')>
+    config_cat_llv_54_papershop_en:
+        category: '@cat_llv_54'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Sustainable selection'
+        isVirtual: true
+        virtualRule: <strval('{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"llv_is_eco","operator":"eq","attribute_type":"boolean","value":true}]}')>
+    config_cat_llv_54_papershop_de:
+        category: '@cat_llv_54'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Nachhaltige Auswahl'
+        isVirtual: true
+        virtualRule: <strval('{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"llv_is_eco","operator":"eq","attribute_type":"boolean","value":true}]}')>
+    config_cat_llv_2_papershop_fr:
+        category: '@cat_llv_2'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Papeterie'
+    config_cat_llv_2_papershop_en:
+        category: '@cat_llv_2'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Stationery'
+    config_cat_llv_2_papershop_de:
+        category: '@cat_llv_2'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Schreibwaren'
+    config_cat_llv_3_papershop_fr:
+        category: '@cat_llv_3'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Cahiers & carnets'
+    config_cat_llv_3_papershop_en:
+        category: '@cat_llv_3'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Notebooks & journals'
+    config_cat_llv_3_papershop_de:
+        category: '@cat_llv_3'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Hefte & Notizbücher'
+    config_cat_llv_4_papershop_fr:
+        category: '@cat_llv_4'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Cahiers scolaires'
+    config_cat_llv_4_papershop_en:
+        category: '@cat_llv_4'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'School exercise books'
+    config_cat_llv_4_papershop_de:
+        category: '@cat_llv_4'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Schulhefte'
+    config_cat_llv_5_papershop_fr:
+        category: '@cat_llv_5'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Carnets de croquis'
+    config_cat_llv_5_papershop_en:
+        category: '@cat_llv_5'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Sketchbooks'
+    config_cat_llv_5_papershop_de:
+        category: '@cat_llv_5'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Skizzenbücher'
+    config_cat_llv_6_papershop_fr:
+        category: '@cat_llv_6'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Agendas & organisation'
+    config_cat_llv_6_papershop_en:
+        category: '@cat_llv_6'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Diaries & planning'
+    config_cat_llv_6_papershop_de:
+        category: '@cat_llv_6'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Kalender & Planung'
+    config_cat_llv_7_papershop_fr:
+        category: '@cat_llv_7'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Agendas'
+    config_cat_llv_7_papershop_en:
+        category: '@cat_llv_7'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Diaries'
+    config_cat_llv_7_papershop_de:
+        category: '@cat_llv_7'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Terminplaner'
+    config_cat_llv_8_papershop_fr:
+        category: '@cat_llv_8'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Calendriers'
+    config_cat_llv_8_papershop_en:
+        category: '@cat_llv_8'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Calendars'
+    config_cat_llv_8_papershop_de:
+        category: '@cat_llv_8'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Wandkalender'
+    config_cat_llv_9_papershop_fr:
+        category: '@cat_llv_9'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Écriture'
+    config_cat_llv_9_papershop_en:
+        category: '@cat_llv_9'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Writing instruments'
+    config_cat_llv_9_papershop_de:
+        category: '@cat_llv_9'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Schreibgeräte'
+    config_cat_llv_10_papershop_fr:
+        category: '@cat_llv_10'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Stylos plume'
+    config_cat_llv_10_papershop_en:
+        category: '@cat_llv_10'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Fountain pens'
+    config_cat_llv_10_papershop_de:
+        category: '@cat_llv_10'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Füllhalter'
+    config_cat_llv_11_papershop_fr:
+        category: '@cat_llv_11'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Stylos bille & rollers'
+    config_cat_llv_11_papershop_en:
+        category: '@cat_llv_11'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Ballpoints & rollerballs'
+    config_cat_llv_11_papershop_de:
+        category: '@cat_llv_11'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Kugelschreiber & Tintenroller'
+    config_cat_llv_12_papershop_fr:
+        category: '@cat_llv_12'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Crayons'
+    config_cat_llv_12_papershop_en:
+        category: '@cat_llv_12'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Pencils'
+    config_cat_llv_12_papershop_de:
+        category: '@cat_llv_12'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Bleistifte'
+    config_cat_llv_13_papershop_fr:
+        category: '@cat_llv_13'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Encres & recharges'
+    config_cat_llv_13_papershop_en:
+        category: '@cat_llv_13'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Inks & refills'
+    config_cat_llv_13_papershop_de:
+        category: '@cat_llv_13'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Tinten & Minen'
+    config_cat_llv_14_papershop_fr:
+        category: '@cat_llv_14'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Papiers'
+    config_cat_llv_14_papershop_en:
+        category: '@cat_llv_14'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Paper'
+    config_cat_llv_14_papershop_de:
+        category: '@cat_llv_14'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Papier'
+    config_cat_llv_15_papershop_fr:
+        category: '@cat_llv_15'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Papier machine'
+    config_cat_llv_15_papershop_en:
+        category: '@cat_llv_15'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Printer paper'
+    config_cat_llv_15_papershop_de:
+        category: '@cat_llv_15'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Druckerpapier'
+    config_cat_llv_16_papershop_fr:
+        category: '@cat_llv_16'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Papier dessin'
+    config_cat_llv_16_papershop_en:
+        category: '@cat_llv_16'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Drawing paper'
+    config_cat_llv_16_papershop_de:
+        category: '@cat_llv_16'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Zeichenpapier'
+    config_cat_llv_17_papershop_fr:
+        category: '@cat_llv_17'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Classement & bureau'
+    config_cat_llv_17_papershop_en:
+        category: '@cat_llv_17'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Filing & desktop'
+    config_cat_llv_17_papershop_de:
+        category: '@cat_llv_17'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Ordnung & Schreibtisch'
+    config_cat_llv_18_papershop_fr:
+        category: '@cat_llv_18'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Classeurs'
+    config_cat_llv_18_papershop_en:
+        category: '@cat_llv_18'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Ring binders'
+    config_cat_llv_18_papershop_de:
+        category: '@cat_llv_18'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Ordner'
+    config_cat_llv_19_papershop_fr:
+        category: '@cat_llv_19'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Chemises & trieurs'
+    config_cat_llv_19_papershop_en:
+        category: '@cat_llv_19'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Folders & sorters'
+    config_cat_llv_19_papershop_de:
+        category: '@cat_llv_19'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Mappen & Sortierer'
+    config_cat_llv_20_papershop_fr:
+        category: '@cat_llv_20'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Livres'
+    config_cat_llv_20_papershop_en:
+        category: '@cat_llv_20'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Books'
+    config_cat_llv_20_papershop_de:
+        category: '@cat_llv_20'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Bücher'
+    config_cat_llv_21_papershop_fr:
+        category: '@cat_llv_21'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Romans & littérature'
+    config_cat_llv_21_papershop_en:
+        category: '@cat_llv_21'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Fiction & literature'
+    config_cat_llv_21_papershop_de:
+        category: '@cat_llv_21'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Romane & Literatur'
+    config_cat_llv_22_papershop_fr:
+        category: '@cat_llv_22'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Littérature classique'
+    config_cat_llv_22_papershop_en:
+        category: '@cat_llv_22'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Classic literature'
+    config_cat_llv_22_papershop_de:
+        category: '@cat_llv_22'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Klassische Literatur'
+    config_cat_llv_23_papershop_fr:
+        category: '@cat_llv_23'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Récits & nouvelles'
+    config_cat_llv_23_papershop_en:
+        category: '@cat_llv_23'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Short stories & tales'
+    config_cat_llv_23_papershop_de:
+        category: '@cat_llv_23'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Erzählungen & Novellen'
+    config_cat_llv_24_papershop_fr:
+        category: '@cat_llv_24'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Poésie'
+    config_cat_llv_24_papershop_en:
+        category: '@cat_llv_24'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Poetry'
+    config_cat_llv_24_papershop_de:
+        category: '@cat_llv_24'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Lyrik'
+    config_cat_llv_25_papershop_fr:
+        category: '@cat_llv_25'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Polars & imaginaire'
+    config_cat_llv_25_papershop_en:
+        category: '@cat_llv_25'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Crime & speculative'
+    config_cat_llv_25_papershop_de:
+        category: '@cat_llv_25'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Krimi & Phantastik'
+    config_cat_llv_26_papershop_fr:
+        category: '@cat_llv_26'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Policier & thriller'
+    config_cat_llv_26_papershop_en:
+        category: '@cat_llv_26'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Crime & thriller'
+    config_cat_llv_26_papershop_de:
+        category: '@cat_llv_26'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Krimi & Thriller'
+    config_cat_llv_27_papershop_fr:
+        category: '@cat_llv_27'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Science-fiction & fantasy'
+    config_cat_llv_27_papershop_en:
+        category: '@cat_llv_27'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Science fiction & fantasy'
+    config_cat_llv_27_papershop_de:
+        category: '@cat_llv_27'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Science-Fiction & Fantasy'
+    config_cat_llv_28_papershop_fr:
+        category: '@cat_llv_28'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Jeunesse'
+    config_cat_llv_28_papershop_en:
+        category: '@cat_llv_28'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Children''s books'
+    config_cat_llv_28_papershop_de:
+        category: '@cat_llv_28'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Kinderbücher'
+    config_cat_llv_29_papershop_fr:
+        category: '@cat_llv_29'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Albums illustrés'
+    config_cat_llv_29_papershop_en:
+        category: '@cat_llv_29'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Picture books'
+    config_cat_llv_29_papershop_de:
+        category: '@cat_llv_29'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Bilderbücher'
+    config_cat_llv_30_papershop_fr:
+        category: '@cat_llv_30'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Romans ados'
+    config_cat_llv_30_papershop_en:
+        category: '@cat_llv_30'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Young adult fiction'
+    config_cat_llv_30_papershop_de:
+        category: '@cat_llv_30'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Jugendromane'
+    config_cat_llv_31_papershop_fr:
+        category: '@cat_llv_31'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Savoirs'
+    config_cat_llv_31_papershop_en:
+        category: '@cat_llv_31'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Knowledge & ideas'
+    config_cat_llv_31_papershop_de:
+        category: '@cat_llv_31'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Sachbücher'
+    config_cat_llv_32_papershop_fr:
+        category: '@cat_llv_32'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Histoire'
+    config_cat_llv_32_papershop_en:
+        category: '@cat_llv_32'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'History'
+    config_cat_llv_32_papershop_de:
+        category: '@cat_llv_32'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Geschichte'
+    config_cat_llv_33_papershop_fr:
+        category: '@cat_llv_33'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Sciences & nature'
+    config_cat_llv_33_papershop_en:
+        category: '@cat_llv_33'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Science & nature'
+    config_cat_llv_33_papershop_de:
+        category: '@cat_llv_33'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Wissenschaft & Natur'
+    config_cat_llv_34_papershop_fr:
+        category: '@cat_llv_34'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Philosophie'
+    config_cat_llv_34_papershop_en:
+        category: '@cat_llv_34'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Philosophy'
+    config_cat_llv_34_papershop_de:
+        category: '@cat_llv_34'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Philosophie & Ethik'
+    config_cat_llv_35_papershop_fr:
+        category: '@cat_llv_35'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Beaux livres & pratique'
+    config_cat_llv_35_papershop_en:
+        category: '@cat_llv_35'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Illustrated & practical'
+    config_cat_llv_35_papershop_de:
+        category: '@cat_llv_35'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Bildbände & Praxis'
+    config_cat_llv_36_papershop_fr:
+        category: '@cat_llv_36'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Livres d''art'
+    config_cat_llv_36_papershop_en:
+        category: '@cat_llv_36'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Art books'
+    config_cat_llv_36_papershop_de:
+        category: '@cat_llv_36'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Kunstbände'
+    config_cat_llv_37_papershop_fr:
+        category: '@cat_llv_37'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Cuisine & voyage'
+    config_cat_llv_37_papershop_en:
+        category: '@cat_llv_37'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Cooking & travel'
+    config_cat_llv_37_papershop_de:
+        category: '@cat_llv_37'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Kochen & Reisen'
+    config_cat_llv_38_papershop_fr:
+        category: '@cat_llv_38'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Mobilier'
+    config_cat_llv_38_papershop_en:
+        category: '@cat_llv_38'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Furniture'
+    config_cat_llv_38_papershop_de:
+        category: '@cat_llv_38'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Möbel'
+    config_cat_llv_39_papershop_fr:
+        category: '@cat_llv_39'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Bureaux & tables'
+    config_cat_llv_39_papershop_en:
+        category: '@cat_llv_39'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Desks & tables'
+    config_cat_llv_39_papershop_de:
+        category: '@cat_llv_39'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Schreibtische & Tische'
+    config_cat_llv_40_papershop_fr:
+        category: '@cat_llv_40'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Bureaux'
+    config_cat_llv_40_papershop_en:
+        category: '@cat_llv_40'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Desks'
+    config_cat_llv_40_papershop_de:
+        category: '@cat_llv_40'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Schreibtische'
+    config_cat_llv_41_papershop_fr:
+        category: '@cat_llv_41'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Bureaux assis-debout'
+    config_cat_llv_41_papershop_en:
+        category: '@cat_llv_41'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Sit-stand desks'
+    config_cat_llv_41_papershop_de:
+        category: '@cat_llv_41'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Steh-Sitz-Schreibtische'
+    config_cat_llv_42_papershop_fr:
+        category: '@cat_llv_42'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Assises'
+    config_cat_llv_42_papershop_en:
+        category: '@cat_llv_42'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Seating'
+    config_cat_llv_42_papershop_de:
+        category: '@cat_llv_42'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Sitzmoebel'
+    config_cat_llv_43_papershop_fr:
+        category: '@cat_llv_43'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Chaises de bureau'
+    config_cat_llv_43_papershop_en:
+        category: '@cat_llv_43'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Desk chairs'
+    config_cat_llv_43_papershop_de:
+        category: '@cat_llv_43'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Bürostühle'
+    config_cat_llv_44_papershop_fr:
+        category: '@cat_llv_44'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Fauteuils de lecture'
+    config_cat_llv_44_papershop_en:
+        category: '@cat_llv_44'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Reading armchairs'
+    config_cat_llv_44_papershop_de:
+        category: '@cat_llv_44'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Lesesessel'
+    config_cat_llv_45_papershop_fr:
+        category: '@cat_llv_45'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Bibliothèques & rangement'
+    config_cat_llv_45_papershop_en:
+        category: '@cat_llv_45'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Bookcases & storage'
+    config_cat_llv_45_papershop_de:
+        category: '@cat_llv_45'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Bücherregale & Aufbewahrung'
+    config_cat_llv_46_papershop_fr:
+        category: '@cat_llv_46'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Bibliothèques'
+    config_cat_llv_46_papershop_en:
+        category: '@cat_llv_46'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Bookcases'
+    config_cat_llv_46_papershop_de:
+        category: '@cat_llv_46'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Bücherregale'
+    config_cat_llv_47_papershop_fr:
+        category: '@cat_llv_47'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Étagères murales'
+    config_cat_llv_47_papershop_en:
+        category: '@cat_llv_47'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Wall shelves'
+    config_cat_llv_47_papershop_de:
+        category: '@cat_llv_47'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Wandregale'
+    config_cat_llv_48_papershop_fr:
+        category: '@cat_llv_48'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Caissons & dessertes'
+    config_cat_llv_48_papershop_en:
+        category: '@cat_llv_48'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Drawer units & trolleys'
+    config_cat_llv_48_papershop_de:
+        category: '@cat_llv_48'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Rollcontainer & Beistellwagen'
+    config_cat_llv_49_papershop_fr:
+        category: '@cat_llv_49'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Luminaires'
+    config_cat_llv_49_papershop_en:
+        category: '@cat_llv_49'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Lighting'
+    config_cat_llv_49_papershop_de:
+        category: '@cat_llv_49'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Leuchten'
+    config_cat_llv_50_papershop_fr:
+        category: '@cat_llv_50'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Lampes de bureau'
+    config_cat_llv_50_papershop_en:
+        category: '@cat_llv_50'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Desk lamps'
+    config_cat_llv_50_papershop_de:
+        category: '@cat_llv_50'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Schreibtischlampen'
+    config_cat_llv_51_papershop_fr:
+        category: '@cat_llv_51'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Liseuses'
+    config_cat_llv_51_papershop_en:
+        category: '@cat_llv_51'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Reading lamps'
+    config_cat_llv_51_papershop_de:
+        category: '@cat_llv_51'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Leseleuchten'
+    config_cat_llv_52_papershop_fr:
+        category: '@cat_llv_52'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Accessoires d''atelier'
+    config_cat_llv_52_papershop_en:
+        category: '@cat_llv_52'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Workspace accessories'
+    config_cat_llv_52_papershop_de:
+        category: '@cat_llv_52'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Arbeitsplatz-Zubehör'
+    config_cat_llv_53_papershop_fr:
+        category: '@cat_llv_53'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_fr'
+        name: 'Serre-livres & porte-revues'
+    config_cat_llv_53_papershop_en:
+        category: '@cat_llv_53'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_en'
+        name: 'Bookends & magazine racks'
+    config_cat_llv_53_papershop_de:
+        category: '@cat_llv_53'
+        catalog: '@papershop'
+        localizedCatalog: '@papershop_de'
+        name: 'Buchstuetzen & Zeitschriftenständer'

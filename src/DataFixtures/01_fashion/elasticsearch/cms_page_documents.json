@@ -1,0 +1,1862 @@
+[
+  {
+    "index_name": "gally_localized_catalog_fashion_fr_cms_page",
+    "documents": [
+      {
+        "id": "1",
+        "title": "Choisir sa robe de soir\u00e9e",
+        "content_heading": "La coupe compte plus que la couleur, et la doublure plus que les deux.",
+        "content": "<p><strong>Une robe de soir\u00e9e se juge assise, pas debout devant le miroir.<\/strong><\/p><ul><li>Essayez-la assise. Une fente ou un bustier qui tient debout peut devenir intenable en deux heures.<\/li><li>Regardez la doublure : c'est elle qui fait tomber le tissu, et son absence se voit d\u00e8s la premi\u00e8re photo.<\/li><li>Une bretelle r\u00e9glable vaut mieux qu'un bustier balein\u00e9 si vous ne connaissez pas la robe.<\/li><\/ul><p>Pr\u00e9voyez les retouches dans le budget. Une robe \u00e0 120 euros bien reprise passe devant une robe \u00e0 300 euros port\u00e9e telle quelle.<\/p>",
+        "url_key": "choisir_sa_robe_de_soiree.html",
+        "meta_description": "La coupe compte plus que la couleur, et la doublure plus que les deux.",
+        "meta_keyword": "robe, occasions",
+        "meta_title": "Choisir sa robe de soir\u00e9e",
+        "tags": [
+          {
+            "value": "fio_dress",
+            "label": "Robe"
+          },
+          {
+            "value": "fio_occasions",
+            "label": "Occasions"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "fio_style_guide",
+          "label": "Guide de style"
+        },
+        "author": {
+          "value": "fio_camille_laurent",
+          "label": "Camille Laurent"
+        },
+        "published_at": "@now:-3d",
+        "reading_time": 7,
+        "is_featured": true,
+        "image": "\/f\/i\/fio-fro-rs-001.jpg",
+        "related_skus": [
+          "FIO-FRO-RS-001",
+          "FIO-FRO-RS-005",
+          "FIO-FRO-RS-008"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Les couleurs de la saison, et celles qui restent",
+        "content_heading": "Deux teintes tiennent une saison. Les autres tiennent dix ans.",
+        "content": "<p><strong>Une couleur de saison ne s'ach\u00e8te pas comme une couleur de fond de garde-robe.<\/strong><\/p><ul><li>Les teintes vives se portent en petite surface : un haut, un foulard, une paire de chaussures.<\/li><li>Les neutres profonds - marine, bordeaux, camel - se portent en grande surface et se revendent.<\/li><li>Le blanc cass\u00e9 remplace le blanc pur d\u00e8s qu'il y a de la laine ou du lin dans la tenue.<\/li><\/ul><p>Achetez la tendance en haut et le fond de garde-robe en bas. Un pantalon se garde trois fois plus longtemps qu'un chemisier.<\/p>",
+        "url_key": "les_couleurs_de_la_saison_et_celles_qui_restent.html",
+        "meta_description": "Deux teintes tiennent une saison. Les autres tiennent dix ans.",
+        "meta_keyword": "mode, couleurs",
+        "meta_title": "Les couleurs de la saison, et celles qui restent",
+        "tags": [
+          {
+            "value": "fio_fashion",
+            "label": "Mode"
+          },
+          {
+            "value": "fio_colors",
+            "label": "Couleurs"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "fio_trends",
+          "label": "Tendances"
+        },
+        "author": {
+          "value": "fio_lea_moreau",
+          "label": "L\u00e9a Moreau"
+        },
+        "published_at": "@now:-8d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-ftp-bl-009.jpg",
+        "related_skus": [
+          "FIO-FTP-BL-009",
+          "FIO-FTP-BL-005",
+          "FIO-FTP-BL-001"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Soie, coton, lin : reconna\u00eetre une bonne mati\u00e8re",
+        "content_heading": "Trois gestes en magasin suffisent, et aucun ne demande d'expertise.",
+        "content": "<p><strong>La qualit\u00e9 d'un tissu se lit \u00e0 la main avant l'\u00e9tiquette.<\/strong><\/p><ul><li>Froissez un coin dans le poing puis rel\u00e2chez. Le lin garde le pli, la soie le perd, le polyester n'en prend pas.<\/li><li>Regardez \u00e0 travers. Une soie fine mais dense arr\u00eate la lumi\u00e8re ; une soie charg\u00e9e la laisse passer par plaques.<\/li><li>Tirez doucement en biais. Une maille qui s'ouvre en losanges reviendra d\u00e9form\u00e9e du premier lavage.<\/li><\/ul><p>Lisez la composition en dernier. Un m\u00e9lange 70\/30 bien tiss\u00e9 tient mieux qu'une mati\u00e8re noble tiss\u00e9e \u00e0 l'\u00e9conomie.<\/p>",
+        "url_key": "soie_coton_lin_reconnaitre_une_bonne_matiere.html",
+        "meta_description": "Trois gestes en magasin suffisent, et aucun ne demande d'expertise.",
+        "meta_keyword": "soie, mati\u00e8res",
+        "meta_title": "Soie, coton, lin : reconna\u00eetre une bonne mati\u00e8re",
+        "tags": [
+          {
+            "value": "fio_silk",
+            "label": "Soie"
+          },
+          {
+            "value": "fio_materials",
+            "label": "Mati\u00e8res"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "fio_materials",
+          "label": "Mati\u00e8res"
+        },
+        "author": {
+          "value": "fio_julien_faure",
+          "label": "Julien Faure"
+        },
+        "published_at": "@now:-13d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-ftp-ch-001.jpg",
+        "related_skus": [
+          "FIO-FTP-CH-001",
+          "FIO-FTP-CH-005",
+          "FIO-FTP-CH-004"
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Laver un pull en laine sans le r\u00e9tr\u00e9cir",
+        "content_heading": "Ce n'est pas l'eau chaude qui feutre la laine, c'est le mouvement.",
+        "content": "<p><strong>Un pull qui r\u00e9tr\u00e9cit a \u00e9t\u00e9 agit\u00e9, pas surchauff\u00e9.<\/strong><\/p><ul><li>Lavez \u00e0 la main, 20 degr\u00e9s, sans frotter et sans tordre. Pressez entre deux serviettes.<\/li><li>En machine, programme laine et essorage \u00e0 400 tours maximum. Au-del\u00e0, les fibres se verrouillent.<\/li><li>S\u00e9chez \u00e0 plat. Sur un cintre, un pull mouill\u00e9 s'allonge de plusieurs centim\u00e8tres et n'y revient pas.<\/li><\/ul><p>Espacez les lavages. Un pull s'a\u00e8re mieux qu'il ne se lave : une nuit sur un s\u00e9choir suffit le plus souvent.<\/p>",
+        "url_key": "laver_un_pull_en_laine_sans_le_retrecir.html",
+        "meta_description": "Ce n'est pas l'eau chaude qui feutre la laine, c'est le mouvement.",
+        "meta_keyword": "entretien, lavage",
+        "meta_title": "Laver un pull en laine sans le r\u00e9tr\u00e9cir",
+        "tags": [
+          {
+            "value": "fio_care",
+            "label": "Entretien"
+          },
+          {
+            "value": "fio_washing",
+            "label": "Lavage"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "fio_care",
+          "label": "Entretien"
+        },
+        "author": {
+          "value": "fio_sofia_marchetti",
+          "label": "Sofia Marchetti"
+        },
+        "published_at": "@now:-18d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-ftp-ma-005.jpg",
+        "related_skus": [
+          "FIO-FTP-MA-005",
+          "FIO-FTP-MA-001",
+          "FIO-FTP-MA-004"
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Trouver sa taille sans essayer",
+        "content_heading": "Trois mesures et une r\u00e8gle : comparez au v\u00eatement, jamais \u00e0 la taille annonc\u00e9e.",
+        "content": "<p><strong>La taille imprim\u00e9e sur l'\u00e9tiquette ne veut rien dire d'une marque \u00e0 l'autre.<\/strong><\/p><ul><li>Mesurez tour de poitrine, tour de taille et tour de hanches, en sous-v\u00eatements, sans serrer le m\u00e8tre.<\/li><li>Comparez au tableau du produit, pas \u00e0 votre taille habituelle. Un 40 varie de six centim\u00e8tres selon la marque.<\/li><li>En cas d'\u00e9cart entre deux lignes, suivez la mesure la plus large : on reprend, on n'ajoute pas.<\/li><\/ul><p>Notez vos trois mesures une fois pour toutes. Elles changent moins souvent que les grilles de taille.<\/p>",
+        "url_key": "trouver_sa_taille_sans_essayer.html",
+        "meta_description": "Trois mesures et une r\u00e8gle : comparez au v\u00eatement, jamais \u00e0 la taille annonc\u00e9e.",
+        "meta_keyword": "tailles, robe",
+        "meta_title": "Trouver sa taille sans essayer",
+        "tags": [
+          {
+            "value": "fio_sizing",
+            "label": "Tailles"
+          },
+          {
+            "value": "fio_dress",
+            "label": "Robe"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "fio_fit_sizing",
+          "label": "Coupe et taille"
+        },
+        "author": {
+          "value": "fio_noemie_girard",
+          "label": "No\u00e9mie Girard"
+        },
+        "published_at": "@now:-24d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "\/f\/i\/fio-fro-rm-003.jpg",
+        "related_skus": [
+          "FIO-FRO-RM-003",
+          "FIO-FRO-RM-007",
+          "FIO-FRO-RM-006"
+        ]
+      },
+      {
+        "id": "6",
+        "title": "Le sac qui va avec tout",
+        "content_heading": "Un seul sac suffit si sa taille et sa couleur sont choisies dans cet ordre.",
+        "content": "<p><strong>Le sac passe-partout se choisit sur trois crit\u00e8res, et le cuir vient en dernier.<\/strong><\/p><ul><li>La taille d'abord : il doit contenir un format A5, un t\u00e9l\u00e9phone et un trousseau, pas davantage.<\/li><li>La couleur ensuite : camel et bordeaux s'accordent \u00e0 plus de tenues que le noir, qui durcit les tons clairs.<\/li><li>La bandouli\u00e8re amovible en troisi\u00e8me : c'est ce qui fait passer un sac du bureau au week-end.<\/li><\/ul><p>\u00c9vitez la doublure claire. Elle se salit en un mois et se nettoie mal, alors qu'elle ne se voit jamais.<\/p>",
+        "url_key": "le_sac_qui_va_avec_tout.html",
+        "meta_description": "Un seul sac suffit si sa taille et sa couleur sont choisies dans cet ordre.",
+        "meta_keyword": "accessoires, maroquinerie",
+        "meta_title": "Le sac qui va avec tout",
+        "tags": [
+          {
+            "value": "fio_accessories",
+            "label": "Accessoires"
+          },
+          {
+            "value": "fio_leather_goods",
+            "label": "Maroquinerie"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "fio_accessories",
+          "label": "Accessoires"
+        },
+        "author": {
+          "value": "fio_camille_laurent",
+          "label": "Camille Laurent"
+        },
+        "published_at": "@now:-30d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-acc-po-003.jpg",
+        "related_skus": [
+          "FIO-ACC-PO-003",
+          "FIO-ACC-PO-007",
+          "FIO-ACC-SM-001"
+        ]
+      },
+      {
+        "id": "7",
+        "title": "Un jean qui dure dix ans",
+        "content_heading": "Le denim brut tient plus longtemps, \u00e0 condition de le laver moins.",
+        "content": "<p><strong>La dur\u00e9e de vie d'un jean se d\u00e9cide au premier mois, pas au premier lavage.<\/strong><\/p><ul><li>Choisissez un denim de 12 onces au moins, avec moins de 2 % d'\u00e9lasthanne. Au-del\u00e0, la fibre casse aux genoux.<\/li><li>Ne lavez pas avant deux mois, puis \u00e0 l'envers, \u00e0 froid, sans adoucissant.<\/li><li>Faites reprendre l'entrejambe d\u00e8s les premiers signes d'usure : c'est dix euros contre un jean neuf.<\/li><\/ul><p>Un jean brut se d\u00e9forme \u00e0 votre morphologie en trois semaines. Un jean stretch fait l'inverse : il s'\u00e9largit et ne revient pas.<\/p>",
+        "url_key": "un_jean_qui_dure_dix_ans.html",
+        "meta_description": "Le denim brut tient plus longtemps, \u00e0 condition de le laver moins.",
+        "meta_keyword": "durabilit\u00e9, mati\u00e8res",
+        "meta_title": "Un jean qui dure dix ans",
+        "tags": [
+          {
+            "value": "fio_sustainability",
+            "label": "Durabilit\u00e9"
+          },
+          {
+            "value": "fio_materials",
+            "label": "Mati\u00e8res"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "fio_sustainability",
+          "label": "Durabilit\u00e9"
+        },
+        "author": {
+          "value": "fio_lea_moreau",
+          "label": "L\u00e9a Moreau"
+        },
+        "published_at": "@now:-36d",
+        "reading_time": 7,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-fba-je-002.jpg",
+        "related_skus": [
+          "FIO-FBA-JE-002",
+          "FIO-FBA-JE-006",
+          "FIO-FBA-JE-007"
+        ]
+      },
+      {
+        "id": "8",
+        "title": "Le blazer, trois fa\u00e7ons",
+        "content_heading": "Une seule veste, trois tenues, et la diff\u00e9rence tient \u00e0 ce qu'il y a dessous.",
+        "content": "<p><strong>Un blazer marine se porte trois fois dans la semaine sans se r\u00e9p\u00e9ter.<\/strong><\/p><ul><li>Sur une chemise blanche et un pantalon droit : la tenue de bureau, sans cravate.<\/li><li>Sur un pull fin col rond et un jean brut : la version du samedi, manches l\u00e9g\u00e8rement remont\u00e9es.<\/li><li>Sur un t-shirt uni et une jupe midi : la version du soir, avec le premier bouton ferm\u00e9.<\/li><\/ul><p>Faites ajuster les manches. La longueur de manche est la seule retouche qui change vraiment la silhouette, et elle co\u00fbte moins de vingt euros.<\/p>",
+        "url_key": "le_blazer_trois_facons.html",
+        "meta_description": "Une seule veste, trois tenues, et la diff\u00e9rence tient \u00e0 ce qu'il y a dessous.",
+        "meta_keyword": "tailleur, superposition",
+        "meta_title": "Le blazer, trois fa\u00e7ons",
+        "tags": [
+          {
+            "value": "fio_tailoring",
+            "label": "Tailleur"
+          },
+          {
+            "value": "fio_layering",
+            "label": "Superposition"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "fio_style_guide",
+          "label": "Guide de style"
+        },
+        "author": {
+          "value": "fio_julien_faure",
+          "label": "Julien Faure"
+        },
+        "published_at": "@now:-42d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-hom-vb-003.jpg",
+        "related_skus": [
+          "FIO-HOM-VB-003",
+          "FIO-HOM-VB-007",
+          "FIO-HOM-VB-006"
+        ]
+      },
+      {
+        "id": "9",
+        "title": "Quelles couleurs vous vont vraiment",
+        "content_heading": "Le test se fait au visage, \u00e0 la lumi\u00e8re du jour, et sans maquillage.",
+        "content": "<p><strong>Une couleur qui vous va \u00e9claire le visage ; une couleur qui ne vous va pas creuse les cernes.<\/strong><\/p><ul><li>Placez le v\u00eatement sous le menton, devant une fen\u00eatre, jamais sous un n\u00e9on.<\/li><li>Comparez deux teintes de la m\u00eame famille : un bleu froid et un bleu chaud. L'une des deux gagne toujours nettement.<\/li><li>Regardez les cernes et le contour des l\u00e8vres, pas le tissu.<\/li><\/ul><p>Gardez les teintes qui ne vous vont pas pour le bas. \u00c0 un m\u00e8tre du visage, une couleur ne fait plus de mal.<\/p>",
+        "url_key": "quelles_couleurs_vous_vont_vraiment.html",
+        "meta_description": "Le test se fait au visage, \u00e0 la lumi\u00e8re du jour, et sans maquillage.",
+        "meta_keyword": "couleurs, mode",
+        "meta_title": "Quelles couleurs vous vont vraiment",
+        "tags": [
+          {
+            "value": "fio_colors",
+            "label": "Couleurs"
+          },
+          {
+            "value": "fio_fashion",
+            "label": "Mode"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "fio_color",
+          "label": "Couleur"
+        },
+        "author": {
+          "value": "fio_sofia_marchetti",
+          "label": "Sofia Marchetti"
+        },
+        "published_at": "@now:-48d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-ftp-pu-005.jpg",
+        "related_skus": [
+          "FIO-FTP-PU-005",
+          "FIO-FTP-PU-001",
+          "FIO-FTP-PU-008"
+        ]
+      },
+      {
+        "id": "10",
+        "title": "S'habiller pour un mariage sans se tromper",
+        "content_heading": "Deux r\u00e8gles tiennent : ni blanc, ni plus visible que les mari\u00e9s.",
+        "content": "<p><strong>Une tenue d'invit\u00e9e se d\u00e9cide sur le lieu et l'heure, avant le style.<\/strong><\/p><ul><li>C\u00e9r\u00e9monie en ext\u00e9rieur : \u00e9vitez les talons fins, pr\u00e9voyez une \u00e9paule couverte pour l'\u00e9glise.<\/li><li>R\u00e9ception en soir\u00e9e : une combinaison habill\u00e9e passe partout et se danse mieux qu'une robe longue.<\/li><li>Le blanc, l'ivoire et le beige tr\u00e8s clair sont exclus, m\u00eame en imprim\u00e9.<\/li><\/ul><p>Pr\u00e9voyez une seconde paire de chaussures plates dans la voiture. C'est la seule chose que personne ne regrette jamais d'avoir apport\u00e9e.<\/p>",
+        "url_key": "s_habiller_pour_un_mariage_sans_se_tromper.html",
+        "meta_description": "Deux r\u00e8gles tiennent : ni blanc, ni plus visible que les mari\u00e9s.",
+        "meta_keyword": "occasions, robe",
+        "meta_title": "S'habiller pour un mariage sans se tromper",
+        "tags": [
+          {
+            "value": "fio_occasions",
+            "label": "Occasions"
+          },
+          {
+            "value": "fio_dress",
+            "label": "Robe"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "fio_occasions",
+          "label": "Occasions"
+        },
+        "author": {
+          "value": "fio_noemie_girard",
+          "label": "No\u00e9mie Girard"
+        },
+        "published_at": "@now:-55d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-fro-co-004.jpg",
+        "related_skus": [
+          "FIO-FRO-CO-004",
+          "FIO-FRO-CO-008",
+          "FIO-FRO-CO-005"
+        ]
+      },
+      {
+        "id": "11",
+        "title": "Laine, cachemire, m\u00e9lange : quel manteau",
+        "content_heading": "Le pourcentage de laine compte moins que le grammage du tissu.",
+        "content": "<p><strong>Un manteau se juge au poids du drap, pas au nom de la fibre.<\/strong><\/p><ul><li>Sous 400 g\/m2, c'est un manteau de mi-saison, quelle que soit l'\u00e9tiquette.<\/li><li>Une laine \u00e0 70 % bien tiss\u00e9e tient plus chaud qu'un cachemire \u00e0 100 % tiss\u00e9 l\u00e9ger.<\/li><li>Le cachemire pur bouloche : r\u00e9servez-le aux manteaux peu port\u00e9s, pas au quotidien.<\/li><\/ul><p>Regardez la doublure des \u00e9paules et le dos. C'est l\u00e0 que le tissu s'use en premier, et c'est l\u00e0 que les fabricants \u00e9conomisent.<\/p>",
+        "url_key": "laine_cachemire_melange_quel_manteau.html",
+        "meta_description": "Le pourcentage de laine compte moins que le grammage du tissu.",
+        "meta_keyword": "laine, lin",
+        "meta_title": "Laine, cachemire, m\u00e9lange : quel manteau",
+        "tags": [
+          {
+            "value": "fio_wool",
+            "label": "Laine"
+          },
+          {
+            "value": "fio_linen",
+            "label": "Lin"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "fio_materials",
+          "label": "Mati\u00e8res"
+        },
+        "author": {
+          "value": "fio_camille_laurent",
+          "label": "Camille Laurent"
+        },
+        "published_at": "@now:-62d",
+        "reading_time": 8,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-man-ml-002.jpg",
+        "related_skus": [
+          "FIO-MAN-ML-002",
+          "FIO-MAN-ML-006",
+          "FIO-MAN-TR-004"
+        ]
+      },
+      {
+        "id": "12",
+        "title": "Entretenir ses chaussures en cuir",
+        "content_heading": "Deux minutes apr\u00e8s chaque sortie valent mieux qu'une heure tous les six mois.",
+        "content": "<p><strong>Le cuir ne s'ab\u00eeme pas en marchant, il s'ab\u00eeme en s\u00e9chant mal.<\/strong><\/p><ul><li>Mettez des embauchoirs en bois d\u00e8s le retour. Ils absorbent l'humidit\u00e9 et gardent la forme.<\/li><li>Ne s\u00e9chez jamais pr\u00e8s d'un radiateur : le cuir se r\u00e9tracte et craquelle d\u00e9finitivement.<\/li><li>Nourrissez tous les dix ports, pas toutes les semaines. Un cuir satur\u00e9 de cr\u00e8me s'encrasse.<\/li><\/ul><p>Alternez deux paires. Une chaussure a besoin de vingt-quatre heures pour s\u00e9cher compl\u00e8tement, et c'est ce repos qui double sa dur\u00e9e de vie.<\/p>",
+        "url_key": "entretenir_ses_chaussures_en_cuir.html",
+        "meta_description": "Deux minutes apr\u00e8s chaque sortie valent mieux qu'une heure tous les six mois.",
+        "meta_keyword": "entretien, maroquinerie",
+        "meta_title": "Entretenir ses chaussures en cuir",
+        "tags": [
+          {
+            "value": "fio_care",
+            "label": "Entretien"
+          },
+          {
+            "value": "fio_leather_goods",
+            "label": "Maroquinerie"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "fio_care",
+          "label": "Entretien"
+        },
+        "author": {
+          "value": "fio_lea_moreau",
+          "label": "L\u00e9a Moreau"
+        },
+        "published_at": "@now:-70d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-cha-bl-001.jpg",
+        "related_skus": [
+          "FIO-CHA-BL-001",
+          "FIO-CHA-BL-005",
+          "FIO-CHA-ES-003"
+        ]
+      },
+      {
+        "id": "13",
+        "title": "Bien choisir la taille de ses baskets",
+        "content_heading": "La pointure se prend en fin de journ\u00e9e, pied pos\u00e9 au sol, chaussette port\u00e9e.",
+        "content": "<p><strong>Une basket trop juste ne se fait pas : elle s'ab\u00eeme et ab\u00eeme le pied.<\/strong><\/p><ul><li>Essayez en fin de journ\u00e9e. Le pied gagne jusqu'\u00e0 une demi-pointure entre le matin et le soir.<\/li><li>Laissez cinq millim\u00e8tres devant le gros orteil, debout, en appui.<\/li><li>V\u00e9rifiez la largeur, pas seulement la longueur. Une basket serr\u00e9e sur l'avant-pied ne se d\u00e9tend jamais.<\/li><\/ul><p>Deux marques ne partagent pas la m\u00eame pointure. Fiez-vous \u00e0 la longueur int\u00e9rieure en centim\u00e8tres quand elle est indiqu\u00e9e.<\/p>",
+        "url_key": "bien_choisir_la_taille_de_ses_baskets.html",
+        "meta_description": "La pointure se prend en fin de journ\u00e9e, pied pos\u00e9 au sol, chaussette port\u00e9e.",
+        "meta_keyword": "tailles, baskets",
+        "meta_title": "Bien choisir la taille de ses baskets",
+        "tags": [
+          {
+            "value": "fio_sizing",
+            "label": "Tailles"
+          },
+          {
+            "value": "fio_sneakers",
+            "label": "Baskets"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "fio_fit_sizing",
+          "label": "Coupe et taille"
+        },
+        "author": {
+          "value": "fio_julien_faure",
+          "label": "Julien Faure"
+        },
+        "published_at": "@now:-78d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-cha-ba-007.jpg",
+        "related_skus": [
+          "FIO-CHA-BA-007",
+          "FIO-CHA-BA-003",
+          "FIO-CHA-BA-002"
+        ]
+      },
+      {
+        "id": "14",
+        "title": "Le retour de la veste en jean",
+        "content_heading": "Elle revient tous les dix ans, et la coupe change \u00e0 chaque fois.",
+        "content": "<p><strong>La veste en jean de cette saison n'est pas celle du placard.<\/strong><\/p><ul><li>La coupe est droite et courte, s'arr\u00eatant \u00e0 la taille, sans cintrage.<\/li><li>Le d\u00e9lavage est moyen : ni brut rigide, ni tr\u00e8s clair ann\u00e9es quatre-vingt-dix.<\/li><li>Elle se porte ferm\u00e9e sur un pull fin, ce qui n'\u00e9tait pas le cas de la version oversize.<\/li><\/ul><p>Une veste en jean se garde. Si la v\u00f4tre a plus de dix ans, elle est en train de redevenir juste.<\/p>",
+        "url_key": "le_retour_de_la_veste_en_jean.html",
+        "meta_description": "Elle revient tous les dix ans, et la coupe change \u00e0 chaque fois.",
+        "meta_keyword": "denim, mode",
+        "meta_title": "Le retour de la veste en jean",
+        "tags": [
+          {
+            "value": "fio_denim",
+            "label": "Denim"
+          },
+          {
+            "value": "fio_fashion",
+            "label": "Mode"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "fio_trends",
+          "label": "Tendances"
+        },
+        "author": {
+          "value": "fio_sofia_marchetti",
+          "label": "Sofia Marchetti"
+        },
+        "published_at": "@now:-86d",
+        "reading_time": 5,
+        "is_featured": true,
+        "image": "\/f\/i\/fio-man-bc-007.jpg",
+        "related_skus": [
+          "FIO-MAN-BC-007",
+          "FIO-MAN-BC-003",
+          "FIO-MAN-VJ-004"
+        ]
+      },
+      {
+        "id": "15",
+        "title": "Construire un vestiaire minimal",
+        "content_heading": "Trente pi\u00e8ces suffisent si elles partagent trois couleurs.",
+        "content": "<p><strong>Un vestiaire minimal n'est pas un vestiaire pauvre : c'est un vestiaire qui se combine.<\/strong><\/p><ul><li>Choisissez trois neutres et une seule couleur d'accent. Tout doit se porter avec tout.<\/li><li>Comptez en tenues, pas en pi\u00e8ces. Vingt pi\u00e8ces bien choisies font plus de trente tenues.<\/li><li>Remplacez \u00e0 l'identique quand une pi\u00e8ce s'use, plut\u00f4t que d'ajouter une variante.<\/li><\/ul><p>Videz d'abord, achetez ensuite. La plupart des vestiaires contiennent d\u00e9j\u00e0 les trois quarts de ce qu'il faut.<\/p>",
+        "url_key": "construire_un_vestiaire_minimal.html",
+        "meta_description": "Trente pi\u00e8ces suffisent si elles partagent trois couleurs.",
+        "meta_keyword": "durabilit\u00e9, vestiaire minimal",
+        "meta_title": "Construire un vestiaire minimal",
+        "tags": [
+          {
+            "value": "fio_sustainability",
+            "label": "Durabilit\u00e9"
+          },
+          {
+            "value": "fio_capsule_wardrobe",
+            "label": "Vestiaire minimal"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "fio_sustainability",
+          "label": "Durabilit\u00e9"
+        },
+        "author": {
+          "value": "fio_noemie_girard",
+          "label": "No\u00e9mie Girard"
+        },
+        "published_at": "@now:-94d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-ftp-ts-009.jpg",
+        "related_skus": [
+          "FIO-FTP-TS-009",
+          "FIO-FTP-TS-001",
+          "FIO-FTP-TS-005"
+        ]
+      }
+    ]
+  },
+  {
+    "index_name": "gally_localized_catalog_fashion_en_cms_page",
+    "documents": [
+      {
+        "id": "1",
+        "title": "Choosing an evening dress",
+        "content_heading": "The cut matters more than the colour, and the lining more than both.",
+        "content": "<p><strong>An evening dress is judged sitting down, not standing in front of a mirror.<\/strong><\/p><ul><li>Try it seated. A slit or a boned bodice that behaves standing can become unbearable after two hours.<\/li><li>Look at the lining: it is what makes the fabric hang, and its absence shows in the first photograph.<\/li><li>An adjustable strap beats a boned strapless bodice if you do not already know the dress.<\/li><\/ul><p>Budget for alterations. A well-altered 120 euro dress beats a 300 euro one worn straight off the rail.<\/p>",
+        "url_key": "choosing_an_evening_dress.html",
+        "meta_description": "The cut matters more than the colour, and the lining more than both.",
+        "meta_keyword": "dress, occasions",
+        "meta_title": "Choosing an evening dress",
+        "tags": [
+          {
+            "value": "fio_dress",
+            "label": "Dress"
+          },
+          {
+            "value": "fio_occasions",
+            "label": "Occasions"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying Guide"
+        },
+        "topic": {
+          "value": "fio_style_guide",
+          "label": "Style Guide"
+        },
+        "author": {
+          "value": "fio_camille_laurent",
+          "label": "Camille Laurent"
+        },
+        "published_at": "@now:-3d",
+        "reading_time": 7,
+        "is_featured": true,
+        "image": "\/f\/i\/fio-fro-rs-001.jpg",
+        "related_skus": [
+          "FIO-FRO-RS-001",
+          "FIO-FRO-RS-005",
+          "FIO-FRO-RS-008"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "The colours of the season, and the ones that stay",
+        "content_heading": "Two shades last a season. The others last ten years.",
+        "content": "<p><strong>A seasonal colour is not bought the way a wardrobe staple is.<\/strong><\/p><ul><li>Bright shades work in small areas: a top, a scarf, a pair of shoes.<\/li><li>Deep neutrals - navy, burgundy, camel - work in large areas and hold their resale value.<\/li><li>Off-white replaces pure white as soon as there is wool or linen in the outfit.<\/li><\/ul><p>Buy the trend on top and the staple below. Trousers last three times longer than a blouse.<\/p>",
+        "url_key": "the_colours_of_the_season_and_the_ones_that_stay.html",
+        "meta_description": "Two shades last a season. The others last ten years.",
+        "meta_keyword": "fashion, colours",
+        "meta_title": "The colours of the season, and the ones that stay",
+        "tags": [
+          {
+            "value": "fio_fashion",
+            "label": "Fashion"
+          },
+          {
+            "value": "fio_colors",
+            "label": "Colours"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog Post"
+        },
+        "topic": {
+          "value": "fio_trends",
+          "label": "Trends"
+        },
+        "author": {
+          "value": "fio_lea_moreau",
+          "label": "L\u00e9a Moreau"
+        },
+        "published_at": "@now:-8d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-ftp-bl-009.jpg",
+        "related_skus": [
+          "FIO-FTP-BL-009",
+          "FIO-FTP-BL-005",
+          "FIO-FTP-BL-001"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Silk, cotton, linen: spotting a good fabric",
+        "content_heading": "Three checks in the shop, none of which needs any expertise.",
+        "content": "<p><strong>Fabric quality is read with the hand before the label.<\/strong><\/p><ul><li>Crush a corner in your fist and let go. Linen keeps the crease, silk loses it, polyester never took one.<\/li><li>Hold it to the light. A fine but dense silk stops the light; a loaded silk lets it through in patches.<\/li><li>Pull gently on the bias. A knit that opens into diamonds will come back out of shape from the first wash.<\/li><\/ul><p>Read the composition last. A well-woven 70\/30 blend outlasts a noble fibre woven on the cheap.<\/p>",
+        "url_key": "silk_cotton_linen_spotting_a_good_fabric.html",
+        "meta_description": "Three checks in the shop, none of which needs any expertise.",
+        "meta_keyword": "silk, materials",
+        "meta_title": "Silk, cotton, linen: spotting a good fabric",
+        "tags": [
+          {
+            "value": "fio_silk",
+            "label": "Silk"
+          },
+          {
+            "value": "fio_materials",
+            "label": "Materials"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying Guide"
+        },
+        "topic": {
+          "value": "fio_materials",
+          "label": "Materials"
+        },
+        "author": {
+          "value": "fio_julien_faure",
+          "label": "Julien Faure"
+        },
+        "published_at": "@now:-13d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-ftp-ch-001.jpg",
+        "related_skus": [
+          "FIO-FTP-CH-001",
+          "FIO-FTP-CH-005",
+          "FIO-FTP-CH-004"
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Washing a wool jumper without shrinking it",
+        "content_heading": "It is not the hot water that felts wool, it is the movement.",
+        "content": "<p><strong>A jumper that shrank was agitated, not overheated.<\/strong><\/p><ul><li>Hand wash at 20 degrees, no rubbing and no wringing. Press it between two towels.<\/li><li>In a machine, use the wool programme and cap the spin at 400 rpm. Above that the fibres lock together.<\/li><li>Dry it flat. On a hanger, a wet jumper grows several centimetres and never goes back.<\/li><\/ul><p>Wash it less often. A jumper airs better than it washes: a night on a rack is usually enough.<\/p>",
+        "url_key": "washing_a_wool_jumper_without_shrinking_it.html",
+        "meta_description": "It is not the hot water that felts wool, it is the movement.",
+        "meta_keyword": "care, washing",
+        "meta_title": "Washing a wool jumper without shrinking it",
+        "tags": [
+          {
+            "value": "fio_care",
+            "label": "Care"
+          },
+          {
+            "value": "fio_washing",
+            "label": "Washing"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog Post"
+        },
+        "topic": {
+          "value": "fio_care",
+          "label": "Garment Care"
+        },
+        "author": {
+          "value": "fio_sofia_marchetti",
+          "label": "Sofia Marchetti"
+        },
+        "published_at": "@now:-18d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-ftp-ma-005.jpg",
+        "related_skus": [
+          "FIO-FTP-MA-005",
+          "FIO-FTP-MA-001",
+          "FIO-FTP-MA-004"
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Finding your size without trying it on",
+        "content_heading": "Three measurements and one rule: compare against the garment, never against the label size.",
+        "content": "<p><strong>The size printed on a label means nothing from one brand to the next.<\/strong><\/p><ul><li>Measure bust, waist and hips in your underwear, without pulling the tape tight.<\/li><li>Compare against the product chart, not against your usual size. A 12 varies by six centimetres between brands.<\/li><li>Where two rows disagree, follow the larger measurement: garments can be taken in, not let out.<\/li><\/ul><p>Write your three measurements down once. They change less often than size charts do.<\/p>",
+        "url_key": "finding_your_size_without_trying_it_on.html",
+        "meta_description": "Three measurements and one rule: compare against the garment, never against the label size.",
+        "meta_keyword": "sizing, dress",
+        "meta_title": "Finding your size without trying it on",
+        "tags": [
+          {
+            "value": "fio_sizing",
+            "label": "Sizing"
+          },
+          {
+            "value": "fio_dress",
+            "label": "Dress"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying Guide"
+        },
+        "topic": {
+          "value": "fio_fit_sizing",
+          "label": "Fit & Sizing"
+        },
+        "author": {
+          "value": "fio_noemie_girard",
+          "label": "No\u00e9mie Girard"
+        },
+        "published_at": "@now:-24d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "\/f\/i\/fio-fro-rm-003.jpg",
+        "related_skus": [
+          "FIO-FRO-RM-003",
+          "FIO-FRO-RM-007",
+          "FIO-FRO-RM-006"
+        ]
+      },
+      {
+        "id": "6",
+        "title": "The bag that goes with everything",
+        "content_heading": "One bag is enough if you choose size and colour in that order.",
+        "content": "<p><strong>A go-anywhere bag comes down to three criteria, and the leather is the last of them.<\/strong><\/p><ul><li>Size first: it must take an A5 notebook, a phone and keys, and no more.<\/li><li>Colour second: camel and burgundy work with more outfits than black, which hardens pale tones.<\/li><li>A detachable shoulder strap third: that is what takes a bag from the office to the weekend.<\/li><\/ul><p>Avoid a pale lining. It marks within a month and cleans badly, and nobody ever sees it.<\/p>",
+        "url_key": "the_bag_that_goes_with_everything.html",
+        "meta_description": "One bag is enough if you choose size and colour in that order.",
+        "meta_keyword": "accessories, leather goods",
+        "meta_title": "The bag that goes with everything",
+        "tags": [
+          {
+            "value": "fio_accessories",
+            "label": "Accessories"
+          },
+          {
+            "value": "fio_leather_goods",
+            "label": "Leather goods"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog Post"
+        },
+        "topic": {
+          "value": "fio_accessories",
+          "label": "Accessories"
+        },
+        "author": {
+          "value": "fio_camille_laurent",
+          "label": "Camille Laurent"
+        },
+        "published_at": "@now:-30d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-acc-po-003.jpg",
+        "related_skus": [
+          "FIO-ACC-PO-003",
+          "FIO-ACC-PO-007",
+          "FIO-ACC-SM-001"
+        ]
+      },
+      {
+        "id": "7",
+        "title": "A pair of jeans that lasts ten years",
+        "content_heading": "Raw denim lasts longer, on condition that you wash it less.",
+        "content": "<p><strong>The life of a pair of jeans is decided in the first month, not at the first wash.<\/strong><\/p><ul><li>Choose at least 12 oz denim with under 2 % elastane. Past that the fibre fails at the knees.<\/li><li>Do not wash for two months, then inside out, cold, and without softener.<\/li><li>Have the crotch repaired at the first sign of wear: ten euros against a new pair.<\/li><\/ul><p>Raw denim moulds to you in three weeks. Stretch denim does the opposite: it widens and never comes back.<\/p>",
+        "url_key": "a_pair_of_jeans_that_lasts_ten_years.html",
+        "meta_description": "Raw denim lasts longer, on condition that you wash it less.",
+        "meta_keyword": "sustainability, materials",
+        "meta_title": "A pair of jeans that lasts ten years",
+        "tags": [
+          {
+            "value": "fio_sustainability",
+            "label": "Sustainability"
+          },
+          {
+            "value": "fio_materials",
+            "label": "Materials"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying Guide"
+        },
+        "topic": {
+          "value": "fio_sustainability",
+          "label": "Sustainability"
+        },
+        "author": {
+          "value": "fio_lea_moreau",
+          "label": "L\u00e9a Moreau"
+        },
+        "published_at": "@now:-36d",
+        "reading_time": 7,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-fba-je-002.jpg",
+        "related_skus": [
+          "FIO-FBA-JE-002",
+          "FIO-FBA-JE-006",
+          "FIO-FBA-JE-007"
+        ]
+      },
+      {
+        "id": "8",
+        "title": "The blazer, three ways",
+        "content_heading": "One jacket, three outfits, and the difference is entirely what goes under it.",
+        "content": "<p><strong>A navy blazer can be worn three times a week without repeating itself.<\/strong><\/p><ul><li>Over a white shirt and straight trousers: the office outfit, no tie.<\/li><li>Over a fine crew-neck knit and raw denim: the Saturday version, sleeves turned back slightly.<\/li><li>Over a plain tee and a midi skirt: the evening version, with the top button done up.<\/li><\/ul><p>Have the sleeves altered. Sleeve length is the one alteration that genuinely changes the silhouette, and it costs under twenty euros.<\/p>",
+        "url_key": "the_blazer_three_ways.html",
+        "meta_description": "One jacket, three outfits, and the difference is entirely what goes under it.",
+        "meta_keyword": "tailoring, layering",
+        "meta_title": "The blazer, three ways",
+        "tags": [
+          {
+            "value": "fio_tailoring",
+            "label": "Tailoring"
+          },
+          {
+            "value": "fio_layering",
+            "label": "Layering"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog Post"
+        },
+        "topic": {
+          "value": "fio_style_guide",
+          "label": "Style Guide"
+        },
+        "author": {
+          "value": "fio_julien_faure",
+          "label": "Julien Faure"
+        },
+        "published_at": "@now:-42d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-hom-vb-003.jpg",
+        "related_skus": [
+          "FIO-HOM-VB-003",
+          "FIO-HOM-VB-007",
+          "FIO-HOM-VB-006"
+        ]
+      },
+      {
+        "id": "9",
+        "title": "Which colours actually suit you",
+        "content_heading": "The test happens at the face, in daylight, with no make-up.",
+        "content": "<p><strong>A colour that suits you lights the face; one that does not deepens the shadows under the eyes.<\/strong><\/p><ul><li>Hold the garment under your chin, by a window, never under a fluorescent tube.<\/li><li>Compare two shades of one family: a cool blue and a warm blue. One of the two always wins clearly.<\/li><li>Watch the under-eye shadows and the edge of the lips, not the fabric.<\/li><\/ul><p>Keep the shades that do not suit you for the lower half. A metre from the face, a colour does no harm.<\/p>",
+        "url_key": "which_colours_actually_suit_you.html",
+        "meta_description": "The test happens at the face, in daylight, with no make-up.",
+        "meta_keyword": "colours, fashion",
+        "meta_title": "Which colours actually suit you",
+        "tags": [
+          {
+            "value": "fio_colors",
+            "label": "Colours"
+          },
+          {
+            "value": "fio_fashion",
+            "label": "Fashion"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying Guide"
+        },
+        "topic": {
+          "value": "fio_color",
+          "label": "Colour"
+        },
+        "author": {
+          "value": "fio_sofia_marchetti",
+          "label": "Sofia Marchetti"
+        },
+        "published_at": "@now:-48d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-ftp-pu-005.jpg",
+        "related_skus": [
+          "FIO-FTP-PU-005",
+          "FIO-FTP-PU-001",
+          "FIO-FTP-PU-008"
+        ]
+      },
+      {
+        "id": "10",
+        "title": "Dressing for a wedding and getting it right",
+        "content_heading": "Two rules hold: nothing white, and nothing more visible than the couple.",
+        "content": "<p><strong>A guest outfit is decided by the venue and the hour, before the style.<\/strong><\/p><ul><li>Outdoor ceremony: skip the stiletto heels, and bring a covered shoulder for the church.<\/li><li>Evening reception: a dressy jumpsuit works anywhere and dances better than a long dress.<\/li><li>White, ivory and very pale beige are out, even as a print.<\/li><\/ul><p>Put a second pair of flat shoes in the car. It is the one thing nobody ever regrets bringing.<\/p>",
+        "url_key": "dressing_for_a_wedding_and_getting_it_right.html",
+        "meta_description": "Two rules hold: nothing white, and nothing more visible than the couple.",
+        "meta_keyword": "occasions, dress",
+        "meta_title": "Dressing for a wedding and getting it right",
+        "tags": [
+          {
+            "value": "fio_occasions",
+            "label": "Occasions"
+          },
+          {
+            "value": "fio_dress",
+            "label": "Dress"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog Post"
+        },
+        "topic": {
+          "value": "fio_occasions",
+          "label": "Occasions"
+        },
+        "author": {
+          "value": "fio_noemie_girard",
+          "label": "No\u00e9mie Girard"
+        },
+        "published_at": "@now:-55d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-fro-co-004.jpg",
+        "related_skus": [
+          "FIO-FRO-CO-004",
+          "FIO-FRO-CO-008",
+          "FIO-FRO-CO-005"
+        ]
+      },
+      {
+        "id": "11",
+        "title": "Wool, cashmere, blends: which coat",
+        "content_heading": "The wool percentage matters less than the weight of the cloth.",
+        "content": "<p><strong>A coat is judged by the weight of the cloth, not by the name of the fibre.<\/strong><\/p><ul><li>Under 400 g\/m2 it is a mid-season coat, whatever the label says.<\/li><li>A well-woven 70 % wool holds more heat than a lightly woven 100 % cashmere.<\/li><li>Pure cashmere pills: keep it for coats you wear rarely, not for every day.<\/li><\/ul><p>Look at the shoulder lining and the back. That is where the cloth wears first, and where manufacturers economise.<\/p>",
+        "url_key": "wool_cashmere_blends_which_coat.html",
+        "meta_description": "The wool percentage matters less than the weight of the cloth.",
+        "meta_keyword": "wool, linen",
+        "meta_title": "Wool, cashmere, blends: which coat",
+        "tags": [
+          {
+            "value": "fio_wool",
+            "label": "Wool"
+          },
+          {
+            "value": "fio_linen",
+            "label": "Linen"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying Guide"
+        },
+        "topic": {
+          "value": "fio_materials",
+          "label": "Materials"
+        },
+        "author": {
+          "value": "fio_camille_laurent",
+          "label": "Camille Laurent"
+        },
+        "published_at": "@now:-62d",
+        "reading_time": 8,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-man-ml-002.jpg",
+        "related_skus": [
+          "FIO-MAN-ML-002",
+          "FIO-MAN-ML-006",
+          "FIO-MAN-TR-004"
+        ]
+      },
+      {
+        "id": "12",
+        "title": "Looking after leather shoes",
+        "content_heading": "Two minutes after each wear beats an hour every six months.",
+        "content": "<p><strong>Leather is not damaged by walking. It is damaged by drying badly.<\/strong><\/p><ul><li>Put wooden shoe trees in as soon as you get home. They absorb the moisture and hold the shape.<\/li><li>Never dry them near a radiator: the leather shrinks back and cracks for good.<\/li><li>Feed them every ten wears, not every week. Leather saturated with cream attracts dirt.<\/li><\/ul><p>Alternate two pairs. A shoe needs twenty-four hours to dry through, and that rest is what doubles its life.<\/p>",
+        "url_key": "looking_after_leather_shoes.html",
+        "meta_description": "Two minutes after each wear beats an hour every six months.",
+        "meta_keyword": "care, leather goods",
+        "meta_title": "Looking after leather shoes",
+        "tags": [
+          {
+            "value": "fio_care",
+            "label": "Care"
+          },
+          {
+            "value": "fio_leather_goods",
+            "label": "Leather goods"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog Post"
+        },
+        "topic": {
+          "value": "fio_care",
+          "label": "Garment Care"
+        },
+        "author": {
+          "value": "fio_lea_moreau",
+          "label": "L\u00e9a Moreau"
+        },
+        "published_at": "@now:-70d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-cha-bl-001.jpg",
+        "related_skus": [
+          "FIO-CHA-BL-001",
+          "FIO-CHA-BL-005",
+          "FIO-CHA-ES-003"
+        ]
+      },
+      {
+        "id": "13",
+        "title": "Getting your trainer size right",
+        "content_heading": "Size at the end of the day, standing, with the sock you will wear.",
+        "content": "<p><strong>A tight trainer does not break in: it wears out and wears your foot out.<\/strong><\/p><ul><li>Try them at the end of the day. A foot gains up to half a size between morning and evening.<\/li><li>Leave five millimetres in front of the big toe, standing, with weight on it.<\/li><li>Check the width, not only the length. A trainer tight across the forefoot never gives.<\/li><\/ul><p>Two brands do not share a size. Trust the internal length in centimetres whenever it is printed.<\/p>",
+        "url_key": "getting_your_trainer_size_right.html",
+        "meta_description": "Size at the end of the day, standing, with the sock you will wear.",
+        "meta_keyword": "sizing, sneakers",
+        "meta_title": "Getting your trainer size right",
+        "tags": [
+          {
+            "value": "fio_sizing",
+            "label": "Sizing"
+          },
+          {
+            "value": "fio_sneakers",
+            "label": "Sneakers"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying Guide"
+        },
+        "topic": {
+          "value": "fio_fit_sizing",
+          "label": "Fit & Sizing"
+        },
+        "author": {
+          "value": "fio_julien_faure",
+          "label": "Julien Faure"
+        },
+        "published_at": "@now:-78d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-cha-ba-007.jpg",
+        "related_skus": [
+          "FIO-CHA-BA-007",
+          "FIO-CHA-BA-003",
+          "FIO-CHA-BA-002"
+        ]
+      },
+      {
+        "id": "14",
+        "title": "The denim jacket comes back",
+        "content_heading": "It returns every ten years, and the cut changes every time.",
+        "content": "<p><strong>This season's denim jacket is not the one in the cupboard.<\/strong><\/p><ul><li>The cut is straight and short, stopping at the waist, with no nipping in.<\/li><li>The wash is mid-blue: neither stiff and raw nor very pale nineties.<\/li><li>It is worn closed over a fine knit, which the oversized version never was.<\/li><\/ul><p>A denim jacket keeps. If yours is more than ten years old, it is on its way back to being right.<\/p>",
+        "url_key": "the_denim_jacket_comes_back.html",
+        "meta_description": "It returns every ten years, and the cut changes every time.",
+        "meta_keyword": "denim, fashion",
+        "meta_title": "The denim jacket comes back",
+        "tags": [
+          {
+            "value": "fio_denim",
+            "label": "Denim"
+          },
+          {
+            "value": "fio_fashion",
+            "label": "Fashion"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog Post"
+        },
+        "topic": {
+          "value": "fio_trends",
+          "label": "Trends"
+        },
+        "author": {
+          "value": "fio_sofia_marchetti",
+          "label": "Sofia Marchetti"
+        },
+        "published_at": "@now:-86d",
+        "reading_time": 5,
+        "is_featured": true,
+        "image": "\/f\/i\/fio-man-bc-007.jpg",
+        "related_skus": [
+          "FIO-MAN-BC-007",
+          "FIO-MAN-BC-003",
+          "FIO-MAN-VJ-004"
+        ]
+      },
+      {
+        "id": "15",
+        "title": "Building a capsule wardrobe",
+        "content_heading": "Thirty pieces are enough if they share three colours.",
+        "content": "<p><strong>A capsule wardrobe is not a small wardrobe. It is a wardrobe that combines.<\/strong><\/p><ul><li>Pick three neutrals and one accent colour. Everything must be wearable with everything.<\/li><li>Count outfits, not pieces. Twenty well-chosen pieces make more than thirty outfits.<\/li><li>Replace like for like when something wears out, rather than adding a variant.<\/li><\/ul><p>Empty first, buy second. Most wardrobes already hold three quarters of what is needed.<\/p>",
+        "url_key": "building_a_capsule_wardrobe.html",
+        "meta_description": "Thirty pieces are enough if they share three colours.",
+        "meta_keyword": "sustainability, capsule wardrobe",
+        "meta_title": "Building a capsule wardrobe",
+        "tags": [
+          {
+            "value": "fio_sustainability",
+            "label": "Sustainability"
+          },
+          {
+            "value": "fio_capsule_wardrobe",
+            "label": "Capsule wardrobe"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying Guide"
+        },
+        "topic": {
+          "value": "fio_sustainability",
+          "label": "Sustainability"
+        },
+        "author": {
+          "value": "fio_noemie_girard",
+          "label": "No\u00e9mie Girard"
+        },
+        "published_at": "@now:-94d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-ftp-ts-009.jpg",
+        "related_skus": [
+          "FIO-FTP-TS-009",
+          "FIO-FTP-TS-001",
+          "FIO-FTP-TS-005"
+        ]
+      }
+    ]
+  },
+  {
+    "index_name": "gally_localized_catalog_fashion_de_cms_page",
+    "documents": [
+      {
+        "id": "1",
+        "title": "Das richtige Abendkleid w\u00e4hlen",
+        "content_heading": "Der Schnitt z\u00e4hlt mehr als die Farbe, und das Futter mehr als beides.",
+        "content": "<p><strong>Ein Abendkleid beurteilt man im Sitzen, nicht vor dem Spiegel.<\/strong><\/p><ul><li>Sitzend anprobieren. Ein Schlitz oder ein Corsagenoberteil kann nach zwei Stunden unertr\u00e4glich werden.<\/li><li>Auf das Futter achten: es bestimmt den Fall des Stoffes, und sein Fehlen sieht man auf dem ersten Foto.<\/li><li>Ein verstellbarer Tr\u00e4ger ist besser als ein verst\u00e4rktes Bandeau, wenn man das Kleid nicht kennt.<\/li><\/ul><p>\u00c4nderungen mit einplanen. Ein gut ge\u00e4ndertes Kleid f\u00fcr 120 Euro schl\u00e4gt ein unge\u00e4ndertes f\u00fcr 300 Euro.<\/p>",
+        "url_key": "das_richtige_abendkleid_wahlen.html",
+        "meta_description": "Der Schnitt z\u00e4hlt mehr als die Farbe, und das Futter mehr als beides.",
+        "meta_keyword": "kleid, anl\u00e4sse",
+        "meta_title": "Das richtige Abendkleid w\u00e4hlen",
+        "tags": [
+          {
+            "value": "fio_dress",
+            "label": "Kleid"
+          },
+          {
+            "value": "fio_occasions",
+            "label": "Anl\u00e4sse"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "fio_style_guide",
+          "label": "Stilberatung"
+        },
+        "author": {
+          "value": "fio_camille_laurent",
+          "label": "Camille Laurent"
+        },
+        "published_at": "@now:-3d",
+        "reading_time": 7,
+        "is_featured": true,
+        "image": "\/f\/i\/fio-fro-rs-001.jpg",
+        "related_skus": [
+          "FIO-FRO-RS-001",
+          "FIO-FRO-RS-005",
+          "FIO-FRO-RS-008"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Die Farben der Saison, und die, die bleiben",
+        "content_heading": "Zwei T\u00f6ne halten eine Saison. Die anderen halten zehn Jahre.",
+        "content": "<p><strong>Eine Saisonfarbe kauft man nicht wie ein Basisteil.<\/strong><\/p><ul><li>Kr\u00e4ftige T\u00f6ne wirken auf kleiner Fl\u00e4che: ein Oberteil, ein Schal, ein Paar Schuhe.<\/li><li>Tiefe Neutralt\u00f6ne - Marine, Bordeaux, Camel - wirken gro\u00dffl\u00e4chig und behalten ihren Wert.<\/li><li>Gebrochenes Wei\u00df ersetzt reines Wei\u00df, sobald Wolle oder Leinen im Outfit steckt.<\/li><\/ul><p>Den Trend oben kaufen, das Basisteil unten. Eine Hose h\u00e4lt dreimal l\u00e4nger als eine Bluse.<\/p>",
+        "url_key": "die_farben_der_saison_und_die_die_bleiben.html",
+        "meta_description": "Zwei T\u00f6ne halten eine Saison. Die anderen halten zehn Jahre.",
+        "meta_keyword": "mode, farben",
+        "meta_title": "Die Farben der Saison, und die, die bleiben",
+        "tags": [
+          {
+            "value": "fio_fashion",
+            "label": "Mode"
+          },
+          {
+            "value": "fio_colors",
+            "label": "Farben"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "fio_trends",
+          "label": "Trends"
+        },
+        "author": {
+          "value": "fio_lea_moreau",
+          "label": "L\u00e9a Moreau"
+        },
+        "published_at": "@now:-8d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-ftp-bl-009.jpg",
+        "related_skus": [
+          "FIO-FTP-BL-009",
+          "FIO-FTP-BL-005",
+          "FIO-FTP-BL-001"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Seide, Baumwolle, Leinen: gute Stoffe erkennen",
+        "content_heading": "Drei Griffe im Laden gen\u00fcgen, und keiner verlangt Fachwissen.",
+        "content": "<p><strong>Stoffqualit\u00e4t liest man mit der Hand, bevor man das Etikett liest.<\/strong><\/p><ul><li>Eine Ecke in der Faust kn\u00fcllen und loslassen. Leinen beh\u00e4lt die Falte, Seide verliert sie, Polyester nimmt keine an.<\/li><li>Gegen das Licht halten. Feine, dichte Seide h\u00e4lt das Licht zur\u00fcck; beschwerte Seide l\u00e4sst es fleckig durch.<\/li><li>Leicht diagonal ziehen. Eine Maschenware, die sich rautenf\u00f6rmig \u00f6ffnet, kommt aus der ersten W\u00e4sche verformt zur\u00fcck.<\/li><\/ul><p>Die Zusammensetzung zuletzt lesen. Ein gut gewebter 70\/30-Mix h\u00e4lt l\u00e4nger als eine billig gewebte Edelfaser.<\/p>",
+        "url_key": "seide_baumwolle_leinen_gute_stoffe_erkennen.html",
+        "meta_description": "Drei Griffe im Laden gen\u00fcgen, und keiner verlangt Fachwissen.",
+        "meta_keyword": "seide, materialien",
+        "meta_title": "Seide, Baumwolle, Leinen: gute Stoffe erkennen",
+        "tags": [
+          {
+            "value": "fio_silk",
+            "label": "Seide"
+          },
+          {
+            "value": "fio_materials",
+            "label": "Materialien"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "fio_materials",
+          "label": "Materialien"
+        },
+        "author": {
+          "value": "fio_julien_faure",
+          "label": "Julien Faure"
+        },
+        "published_at": "@now:-13d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-ftp-ch-001.jpg",
+        "related_skus": [
+          "FIO-FTP-CH-001",
+          "FIO-FTP-CH-005",
+          "FIO-FTP-CH-004"
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Einen Wollpullover waschen, ohne ihn einzulaufen",
+        "content_heading": "Nicht das hei\u00dfe Wasser verfilzt Wolle, sondern die Bewegung.",
+        "content": "<p><strong>Ein eingelaufener Pullover wurde bewegt, nicht \u00fcberhitzt.<\/strong><\/p><ul><li>Mit der Hand bei 20 Grad waschen, nicht reiben und nicht auswringen. Zwischen zwei Handt\u00fcchern ausdr\u00fccken.<\/li><li>In der Maschine Wollprogramm und h\u00f6chstens 400 Touren schleudern. Dar\u00fcber verhaken sich die Fasern.<\/li><li>Liegend trocknen. Auf dem B\u00fcgel wird ein nasser Pullover mehrere Zentimeter l\u00e4nger und bleibt so.<\/li><\/ul><p>Seltener waschen. Ein Pullover l\u00fcftet besser als er w\u00e4scht: eine Nacht auf dem St\u00e4nder gen\u00fcgt meist.<\/p>",
+        "url_key": "einen_wollpullover_waschen_ohne_ihn_einzulaufen.html",
+        "meta_description": "Nicht das hei\u00dfe Wasser verfilzt Wolle, sondern die Bewegung.",
+        "meta_keyword": "pflege, waschen",
+        "meta_title": "Einen Wollpullover waschen, ohne ihn einzulaufen",
+        "tags": [
+          {
+            "value": "fio_care",
+            "label": "Pflege"
+          },
+          {
+            "value": "fio_washing",
+            "label": "Waschen"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "fio_care",
+          "label": "Pflege"
+        },
+        "author": {
+          "value": "fio_sofia_marchetti",
+          "label": "Sofia Marchetti"
+        },
+        "published_at": "@now:-18d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-ftp-ma-005.jpg",
+        "related_skus": [
+          "FIO-FTP-MA-005",
+          "FIO-FTP-MA-001",
+          "FIO-FTP-MA-004"
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Die eigene Gr\u00f6\u00dfe finden, ohne anzuprobieren",
+        "content_heading": "Drei Ma\u00dfe und eine Regel: mit dem Kleidungsst\u00fcck vergleichen, nie mit der Etikettengr\u00f6\u00dfe.",
+        "content": "<p><strong>Die Gr\u00f6\u00dfe auf dem Etikett bedeutet von Marke zu Marke nichts.<\/strong><\/p><ul><li>Brust-, Taillen- und H\u00fcftumfang in Unterw\u00e4sche messen, ohne das Band festzuziehen.<\/li><li>Mit der Produkttabelle vergleichen, nicht mit der gewohnten Gr\u00f6\u00dfe. Eine 38 schwankt zwischen Marken um sechs Zentimeter.<\/li><li>Widersprechen sich zwei Zeilen, dem gr\u00f6\u00dferen Ma\u00df folgen: enger machen geht, weiter machen nicht.<\/li><\/ul><p>Die drei Ma\u00dfe einmal notieren. Sie \u00e4ndern sich seltener als Gr\u00f6\u00dfentabellen.<\/p>",
+        "url_key": "die_eigene_grosse_finden_ohne_anzuprobieren.html",
+        "meta_description": "Drei Ma\u00dfe und eine Regel: mit dem Kleidungsst\u00fcck vergleichen, nie mit der Etikettengr\u00f6\u00dfe.",
+        "meta_keyword": "gr\u00f6\u00dfen, kleid",
+        "meta_title": "Die eigene Gr\u00f6\u00dfe finden, ohne anzuprobieren",
+        "tags": [
+          {
+            "value": "fio_sizing",
+            "label": "Gr\u00f6\u00dfen"
+          },
+          {
+            "value": "fio_dress",
+            "label": "Kleid"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "fio_fit_sizing",
+          "label": "Passform und Gr\u00f6\u00dfe"
+        },
+        "author": {
+          "value": "fio_noemie_girard",
+          "label": "No\u00e9mie Girard"
+        },
+        "published_at": "@now:-24d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "\/f\/i\/fio-fro-rm-003.jpg",
+        "related_skus": [
+          "FIO-FRO-RM-003",
+          "FIO-FRO-RM-007",
+          "FIO-FRO-RM-006"
+        ]
+      },
+      {
+        "id": "6",
+        "title": "Die Tasche, die zu allem passt",
+        "content_heading": "Eine Tasche gen\u00fcgt, wenn Gr\u00f6\u00dfe und Farbe in dieser Reihenfolge gew\u00e4hlt werden.",
+        "content": "<p><strong>Eine Alltagstasche entscheidet sich \u00fcber drei Kriterien, und das Leder ist das letzte.<\/strong><\/p><ul><li>Zuerst die Gr\u00f6\u00dfe: sie muss ein A5-Heft, ein Telefon und Schl\u00fcssel aufnehmen, mehr nicht.<\/li><li>Dann die Farbe: Camel und Bordeaux passen zu mehr Outfits als Schwarz, das helle T\u00f6ne hart macht.<\/li><li>Drittens der abnehmbare Schulterriemen: er bringt eine Tasche vom B\u00fcro ins Wochenende.<\/li><\/ul><p>Kein helles Futter. Es wird in einem Monat schmutzig, l\u00e4sst sich schlecht reinigen und sieht niemand.<\/p>",
+        "url_key": "die_tasche_die_zu_allem_passt.html",
+        "meta_description": "Eine Tasche gen\u00fcgt, wenn Gr\u00f6\u00dfe und Farbe in dieser Reihenfolge gew\u00e4hlt werden.",
+        "meta_keyword": "accessoires, lederwaren",
+        "meta_title": "Die Tasche, die zu allem passt",
+        "tags": [
+          {
+            "value": "fio_accessories",
+            "label": "Accessoires"
+          },
+          {
+            "value": "fio_leather_goods",
+            "label": "Lederwaren"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "fio_accessories",
+          "label": "Accessoires"
+        },
+        "author": {
+          "value": "fio_camille_laurent",
+          "label": "Camille Laurent"
+        },
+        "published_at": "@now:-30d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-acc-po-003.jpg",
+        "related_skus": [
+          "FIO-ACC-PO-003",
+          "FIO-ACC-PO-007",
+          "FIO-ACC-SM-001"
+        ]
+      },
+      {
+        "id": "7",
+        "title": "Eine Jeans, die zehn Jahre h\u00e4lt",
+        "content_heading": "Rohdenim h\u00e4lt l\u00e4nger, unter der Bedingung, dass man ihn seltener w\u00e4scht.",
+        "content": "<p><strong>Die Lebensdauer einer Jeans entscheidet sich im ersten Monat, nicht bei der ersten W\u00e4sche.<\/strong><\/p><ul><li>Mindestens 12 oz Denim mit unter 2 % Elasthan w\u00e4hlen. Dar\u00fcber bricht die Faser an den Knien.<\/li><li>Zwei Monate nicht waschen, dann auf links, kalt und ohne Weichsp\u00fcler.<\/li><li>Den Schritt beim ersten Verschlei\u00df reparieren lassen: zehn Euro gegen eine neue Hose.<\/li><\/ul><p>Rohdenim formt sich in drei Wochen an. Stretchdenim macht das Gegenteil: er weitet sich und kommt nicht zur\u00fcck.<\/p>",
+        "url_key": "eine_jeans_die_zehn_jahre_halt.html",
+        "meta_description": "Rohdenim h\u00e4lt l\u00e4nger, unter der Bedingung, dass man ihn seltener w\u00e4scht.",
+        "meta_keyword": "nachhaltigkeit, materialien",
+        "meta_title": "Eine Jeans, die zehn Jahre h\u00e4lt",
+        "tags": [
+          {
+            "value": "fio_sustainability",
+            "label": "Nachhaltigkeit"
+          },
+          {
+            "value": "fio_materials",
+            "label": "Materialien"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "fio_sustainability",
+          "label": "Nachhaltigkeit"
+        },
+        "author": {
+          "value": "fio_lea_moreau",
+          "label": "L\u00e9a Moreau"
+        },
+        "published_at": "@now:-36d",
+        "reading_time": 7,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-fba-je-002.jpg",
+        "related_skus": [
+          "FIO-FBA-JE-002",
+          "FIO-FBA-JE-006",
+          "FIO-FBA-JE-007"
+        ]
+      },
+      {
+        "id": "8",
+        "title": "Der Blazer, dreimal anders",
+        "content_heading": "Eine Jacke, drei Outfits, und der Unterschied liegt allein darunter.",
+        "content": "<p><strong>Ein marineblauer Blazer l\u00e4sst sich dreimal pro Woche tragen, ohne sich zu wiederholen.<\/strong><\/p><ul><li>\u00dcber wei\u00dfem Hemd und gerader Hose: das B\u00fcrooutfit, ohne Krawatte.<\/li><li>\u00dcber feinem Rundhalspullover und Rohdenim: die Samstagsversion, \u00c4rmel leicht umgeschlagen.<\/li><li>\u00dcber schlichtem Shirt und Midirock: die Abendversion, mit geschlossenem obersten Knopf.<\/li><\/ul><p>Die \u00c4rmel \u00e4ndern lassen. Die \u00c4rmell\u00e4nge ist die einzige \u00c4nderung, die die Silhouette wirklich ver\u00e4ndert, und sie kostet unter zwanzig Euro.<\/p>",
+        "url_key": "der_blazer_dreimal_anders.html",
+        "meta_description": "Eine Jacke, drei Outfits, und der Unterschied liegt allein darunter.",
+        "meta_keyword": "schneiderarbeit, lagenlook",
+        "meta_title": "Der Blazer, dreimal anders",
+        "tags": [
+          {
+            "value": "fio_tailoring",
+            "label": "Schneiderarbeit"
+          },
+          {
+            "value": "fio_layering",
+            "label": "Lagenlook"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "fio_style_guide",
+          "label": "Stilberatung"
+        },
+        "author": {
+          "value": "fio_julien_faure",
+          "label": "Julien Faure"
+        },
+        "published_at": "@now:-42d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-hom-vb-003.jpg",
+        "related_skus": [
+          "FIO-HOM-VB-003",
+          "FIO-HOM-VB-007",
+          "FIO-HOM-VB-006"
+        ]
+      },
+      {
+        "id": "9",
+        "title": "Welche Farben Ihnen wirklich stehen",
+        "content_heading": "Der Test findet am Gesicht statt, bei Tageslicht und ohne Make-up.",
+        "content": "<p><strong>Eine passende Farbe erhellt das Gesicht; eine unpassende betont die Augenringe.<\/strong><\/p><ul><li>Das Kleidungsst\u00fcck unter das Kinn halten, am Fenster, nie unter Neonlicht.<\/li><li>Zwei T\u00f6ne einer Familie vergleichen: ein k\u00fchles und ein warmes Blau. Einer gewinnt immer deutlich.<\/li><li>Auf die Augenringe und die Lippenkontur achten, nicht auf den Stoff.<\/li><\/ul><p>Unpassende T\u00f6ne f\u00fcr die untere H\u00e4lfte behalten. Einen Meter vom Gesicht entfernt schadet eine Farbe nicht mehr.<\/p>",
+        "url_key": "welche_farben_ihnen_wirklich_stehen.html",
+        "meta_description": "Der Test findet am Gesicht statt, bei Tageslicht und ohne Make-up.",
+        "meta_keyword": "farben, mode",
+        "meta_title": "Welche Farben Ihnen wirklich stehen",
+        "tags": [
+          {
+            "value": "fio_colors",
+            "label": "Farben"
+          },
+          {
+            "value": "fio_fashion",
+            "label": "Mode"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "fio_color",
+          "label": "Farbe"
+        },
+        "author": {
+          "value": "fio_sofia_marchetti",
+          "label": "Sofia Marchetti"
+        },
+        "published_at": "@now:-48d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-ftp-pu-005.jpg",
+        "related_skus": [
+          "FIO-FTP-PU-005",
+          "FIO-FTP-PU-001",
+          "FIO-FTP-PU-008"
+        ]
+      },
+      {
+        "id": "10",
+        "title": "Sich f\u00fcr eine Hochzeit richtig anziehen",
+        "content_heading": "Zwei Regeln gelten: nichts Wei\u00dfes, und nichts Auff\u00e4lligeres als das Paar.",
+        "content": "<p><strong>Ein G\u00e4steoutfit entscheidet sich \u00fcber Ort und Uhrzeit, vor dem Stil.<\/strong><\/p><ul><li>Trauung im Freien: keine Pfennigabs\u00e4tze, und f\u00fcr die Kirche eine bedeckte Schulter mitnehmen.<\/li><li>Abendempfang: ein eleganter Jumpsuit passt \u00fcberall und tanzt besser als ein langes Kleid.<\/li><li>Wei\u00df, Elfenbein und sehr helles Beige sind ausgeschlossen, auch als Druck.<\/li><\/ul><p>Ein zweites Paar flache Schuhe ins Auto legen. Das ist das Einzige, was niemand je zu bereuen hatte.<\/p>",
+        "url_key": "sich_fur_eine_hochzeit_richtig_anziehen.html",
+        "meta_description": "Zwei Regeln gelten: nichts Wei\u00dfes, und nichts Auff\u00e4lligeres als das Paar.",
+        "meta_keyword": "anl\u00e4sse, kleid",
+        "meta_title": "Sich f\u00fcr eine Hochzeit richtig anziehen",
+        "tags": [
+          {
+            "value": "fio_occasions",
+            "label": "Anl\u00e4sse"
+          },
+          {
+            "value": "fio_dress",
+            "label": "Kleid"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "fio_occasions",
+          "label": "Anl\u00e4sse"
+        },
+        "author": {
+          "value": "fio_noemie_girard",
+          "label": "No\u00e9mie Girard"
+        },
+        "published_at": "@now:-55d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-fro-co-004.jpg",
+        "related_skus": [
+          "FIO-FRO-CO-004",
+          "FIO-FRO-CO-008",
+          "FIO-FRO-CO-005"
+        ]
+      },
+      {
+        "id": "11",
+        "title": "Wolle, Kaschmir, Mischung: welcher Mantel",
+        "content_heading": "Der Wollanteil z\u00e4hlt weniger als das Fl\u00e4chengewicht des Tuchs.",
+        "content": "<p><strong>Ein Mantel wird \u00fcber das Gewicht des Tuchs beurteilt, nicht \u00fcber den Namen der Faser.<\/strong><\/p><ul><li>Unter 400 g\/m2 ist es ein \u00dcbergangsmantel, was auch auf dem Etikett steht.<\/li><li>Gut gewebte 70 % Wolle h\u00e4lt w\u00e4rmer als leicht gewebtes 100 % Kaschmir.<\/li><li>Reines Kaschmir pillt: f\u00fcr selten getragene M\u00e4ntel, nicht f\u00fcr den Alltag.<\/li><\/ul><p>Auf Schulterfutter und R\u00fccken achten. Dort verschlei\u00dft das Tuch zuerst, und dort sparen die Hersteller.<\/p>",
+        "url_key": "wolle_kaschmir_mischung_welcher_mantel.html",
+        "meta_description": "Der Wollanteil z\u00e4hlt weniger als das Fl\u00e4chengewicht des Tuchs.",
+        "meta_keyword": "wolle, leinen",
+        "meta_title": "Wolle, Kaschmir, Mischung: welcher Mantel",
+        "tags": [
+          {
+            "value": "fio_wool",
+            "label": "Wolle"
+          },
+          {
+            "value": "fio_linen",
+            "label": "Leinen"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "fio_materials",
+          "label": "Materialien"
+        },
+        "author": {
+          "value": "fio_camille_laurent",
+          "label": "Camille Laurent"
+        },
+        "published_at": "@now:-62d",
+        "reading_time": 8,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-man-ml-002.jpg",
+        "related_skus": [
+          "FIO-MAN-ML-002",
+          "FIO-MAN-ML-006",
+          "FIO-MAN-TR-004"
+        ]
+      },
+      {
+        "id": "12",
+        "title": "Lederschuhe pflegen",
+        "content_heading": "Zwei Minuten nach jedem Tragen sind besser als eine Stunde alle sechs Monate.",
+        "content": "<p><strong>Leder wird nicht vom Gehen besch\u00e4digt, sondern vom falschen Trocknen.<\/strong><\/p><ul><li>Schuhspanner aus Holz sofort nach dem Nachhausekommen einsetzen. Sie nehmen Feuchtigkeit auf und halten die Form.<\/li><li>Nie neben der Heizung trocknen: das Leder zieht sich zusammen und rei\u00dft dauerhaft.<\/li><li>Alle zehn Tragetage pflegen, nicht jede Woche. Mit Creme ges\u00e4ttigtes Leder verschmutzt schneller.<\/li><\/ul><p>Zwei Paar abwechseln. Ein Schuh braucht vierundzwanzig Stunden zum Durchtrocknen, und diese Ruhe verdoppelt seine Lebensdauer.<\/p>",
+        "url_key": "lederschuhe_pflegen.html",
+        "meta_description": "Zwei Minuten nach jedem Tragen sind besser als eine Stunde alle sechs Monate.",
+        "meta_keyword": "pflege, lederwaren",
+        "meta_title": "Lederschuhe pflegen",
+        "tags": [
+          {
+            "value": "fio_care",
+            "label": "Pflege"
+          },
+          {
+            "value": "fio_leather_goods",
+            "label": "Lederwaren"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "fio_care",
+          "label": "Pflege"
+        },
+        "author": {
+          "value": "fio_lea_moreau",
+          "label": "L\u00e9a Moreau"
+        },
+        "published_at": "@now:-70d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-cha-bl-001.jpg",
+        "related_skus": [
+          "FIO-CHA-BL-001",
+          "FIO-CHA-BL-005",
+          "FIO-CHA-ES-003"
+        ]
+      },
+      {
+        "id": "13",
+        "title": "Die richtige Sneaker-Gr\u00f6\u00dfe finden",
+        "content_heading": "Am Ende des Tages messen, im Stehen, mit der Socke, die getragen wird.",
+        "content": "<p><strong>Ein zu enger Sneaker l\u00e4uft sich nicht ein: er nutzt sich ab und der Fu\u00df mit ihm.<\/strong><\/p><ul><li>Abends anprobieren. Der Fu\u00df wird zwischen morgens und abends bis zu eine halbe Gr\u00f6\u00dfe gr\u00f6\u00dfer.<\/li><li>F\u00fcnf Millimeter vor dem gro\u00dfen Zeh lassen, im Stehen und belastet.<\/li><li>Die Weite pr\u00fcfen, nicht nur die L\u00e4nge. Ein am Vorfu\u00df enger Sneaker gibt nie nach.<\/li><\/ul><p>Zwei Marken teilen keine Gr\u00f6\u00dfe. Verlassen Sie sich auf die Innenl\u00e4nge in Zentimetern, wenn sie angegeben ist.<\/p>",
+        "url_key": "die_richtige_sneaker_grosse_finden.html",
+        "meta_description": "Am Ende des Tages messen, im Stehen, mit der Socke, die getragen wird.",
+        "meta_keyword": "gr\u00f6\u00dfen, sneaker",
+        "meta_title": "Die richtige Sneaker-Gr\u00f6\u00dfe finden",
+        "tags": [
+          {
+            "value": "fio_sizing",
+            "label": "Gr\u00f6\u00dfen"
+          },
+          {
+            "value": "fio_sneakers",
+            "label": "Sneaker"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "fio_fit_sizing",
+          "label": "Passform und Gr\u00f6\u00dfe"
+        },
+        "author": {
+          "value": "fio_julien_faure",
+          "label": "Julien Faure"
+        },
+        "published_at": "@now:-78d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-cha-ba-007.jpg",
+        "related_skus": [
+          "FIO-CHA-BA-007",
+          "FIO-CHA-BA-003",
+          "FIO-CHA-BA-002"
+        ]
+      },
+      {
+        "id": "14",
+        "title": "Die Jeansjacke kommt zur\u00fcck",
+        "content_heading": "Sie kehrt alle zehn Jahre wieder, und der Schnitt \u00e4ndert sich jedes Mal.",
+        "content": "<p><strong>Die Jeansjacke dieser Saison ist nicht die aus dem Schrank.<\/strong><\/p><ul><li>Der Schnitt ist gerade und kurz, endet an der Taille, ohne Taillierung.<\/li><li>Die Waschung ist mittelblau: weder steif und roh noch sehr hell wie in den Neunzigern.<\/li><li>Sie wird geschlossen \u00fcber einem feinen Pullover getragen, was die Oversize-Version nie war.<\/li><\/ul><p>Eine Jeansjacke bleibt. Ist Ihre \u00e4lter als zehn Jahre, wird sie gerade wieder richtig.<\/p>",
+        "url_key": "die_jeansjacke_kommt_zuruck.html",
+        "meta_description": "Sie kehrt alle zehn Jahre wieder, und der Schnitt \u00e4ndert sich jedes Mal.",
+        "meta_keyword": "denim, mode",
+        "meta_title": "Die Jeansjacke kommt zur\u00fcck",
+        "tags": [
+          {
+            "value": "fio_denim",
+            "label": "Denim"
+          },
+          {
+            "value": "fio_fashion",
+            "label": "Mode"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "fio_trends",
+          "label": "Trends"
+        },
+        "author": {
+          "value": "fio_sofia_marchetti",
+          "label": "Sofia Marchetti"
+        },
+        "published_at": "@now:-86d",
+        "reading_time": 5,
+        "is_featured": true,
+        "image": "\/f\/i\/fio-man-bc-007.jpg",
+        "related_skus": [
+          "FIO-MAN-BC-007",
+          "FIO-MAN-BC-003",
+          "FIO-MAN-VJ-004"
+        ]
+      },
+      {
+        "id": "15",
+        "title": "Eine Capsule Wardrobe aufbauen",
+        "content_heading": "Drei\u00dfig Teile gen\u00fcgen, wenn sie drei Farben teilen.",
+        "content": "<p><strong>Eine Capsule Wardrobe ist kein armer Kleiderschrank, sondern ein kombinierbarer.<\/strong><\/p><ul><li>Drei Neutralt\u00f6ne und eine Akzentfarbe w\u00e4hlen. Alles muss mit allem tragbar sein.<\/li><li>In Outfits rechnen, nicht in Teilen. Zwanzig gut gew\u00e4hlte Teile ergeben mehr als drei\u00dfig Outfits.<\/li><li>Bei Verschlei\u00df gleichwertig ersetzen, statt eine Variante hinzuzuf\u00fcgen.<\/li><\/ul><p>Erst ausr\u00e4umen, dann kaufen. Die meisten Schr\u00e4nke enthalten schon drei Viertel des N\u00f6tigen.<\/p>",
+        "url_key": "eine_capsule_wardrobe_aufbauen.html",
+        "meta_description": "Drei\u00dfig Teile gen\u00fcgen, wenn sie drei Farben teilen.",
+        "meta_keyword": "nachhaltigkeit, capsule wardrobe",
+        "meta_title": "Eine Capsule Wardrobe aufbauen",
+        "tags": [
+          {
+            "value": "fio_sustainability",
+            "label": "Nachhaltigkeit"
+          },
+          {
+            "value": "fio_capsule_wardrobe",
+            "label": "Capsule Wardrobe"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "fio_sustainability",
+          "label": "Nachhaltigkeit"
+        },
+        "author": {
+          "value": "fio_noemie_girard",
+          "label": "No\u00e9mie Girard"
+        },
+        "published_at": "@now:-94d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "\/f\/i\/fio-ftp-ts-009.jpg",
+        "related_skus": [
+          "FIO-FTP-TS-009",
+          "FIO-FTP-TS-001",
+          "FIO-FTP-TS-005"
+        ]
+      }
+    ]
+  }
+]

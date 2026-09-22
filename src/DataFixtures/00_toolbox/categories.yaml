@@ -1,0 +1,1716 @@
+include:
+    - catalogs.yaml
+    - localized_catalogs.yaml
+
+Gally\Category\Entity\Category:
+    cat_tbx_1:
+        id: cat_tbx_1
+        level: 1
+        path: cat_tbx_1
+    cat_tbx_2:
+        id: cat_tbx_2
+        parentId: cat_tbx_1
+        level: 2
+        path: cat_tbx_1/cat_tbx_2
+    cat_tbx_3:
+        id: cat_tbx_3
+        parentId: cat_tbx_2
+        level: 3
+        path: cat_tbx_1/cat_tbx_2/cat_tbx_3
+    cat_tbx_4:
+        id: cat_tbx_4
+        parentId: cat_tbx_2
+        level: 3
+        path: cat_tbx_1/cat_tbx_2/cat_tbx_4
+    cat_tbx_5:
+        id: cat_tbx_5
+        parentId: cat_tbx_2
+        level: 3
+        path: cat_tbx_1/cat_tbx_2/cat_tbx_5
+    cat_tbx_6:
+        id: cat_tbx_6
+        parentId: cat_tbx_2
+        level: 3
+        path: cat_tbx_1/cat_tbx_2/cat_tbx_6
+    cat_tbx_7:
+        id: cat_tbx_7
+        parentId: cat_tbx_2
+        level: 3
+        path: cat_tbx_1/cat_tbx_2/cat_tbx_7
+    cat_tbx_8:
+        id: cat_tbx_8
+        parentId: cat_tbx_2
+        level: 3
+        path: cat_tbx_1/cat_tbx_2/cat_tbx_8
+    cat_tbx_9:
+        id: cat_tbx_9
+        parentId: cat_tbx_2
+        level: 3
+        path: cat_tbx_1/cat_tbx_2/cat_tbx_9
+    cat_tbx_10:
+        id: cat_tbx_10
+        parentId: cat_tbx_1
+        level: 2
+        path: cat_tbx_1/cat_tbx_10
+    cat_tbx_11:
+        id: cat_tbx_11
+        parentId: cat_tbx_10
+        level: 3
+        path: cat_tbx_1/cat_tbx_10/cat_tbx_11
+    cat_tbx_12:
+        id: cat_tbx_12
+        parentId: cat_tbx_10
+        level: 3
+        path: cat_tbx_1/cat_tbx_10/cat_tbx_12
+    cat_tbx_13:
+        id: cat_tbx_13
+        parentId: cat_tbx_10
+        level: 3
+        path: cat_tbx_1/cat_tbx_10/cat_tbx_13
+    cat_tbx_14:
+        id: cat_tbx_14
+        parentId: cat_tbx_10
+        level: 3
+        path: cat_tbx_1/cat_tbx_10/cat_tbx_14
+    cat_tbx_15:
+        id: cat_tbx_15
+        parentId: cat_tbx_10
+        level: 3
+        path: cat_tbx_1/cat_tbx_10/cat_tbx_15
+    cat_tbx_16:
+        id: cat_tbx_16
+        parentId: cat_tbx_10
+        level: 3
+        path: cat_tbx_1/cat_tbx_10/cat_tbx_16
+    cat_tbx_17:
+        id: cat_tbx_17
+        parentId: cat_tbx_10
+        level: 3
+        path: cat_tbx_1/cat_tbx_10/cat_tbx_17
+    cat_tbx_18:
+        id: cat_tbx_18
+        parentId: cat_tbx_10
+        level: 3
+        path: cat_tbx_1/cat_tbx_10/cat_tbx_18
+    cat_tbx_19:
+        id: cat_tbx_19
+        parentId: cat_tbx_1
+        level: 2
+        path: cat_tbx_1/cat_tbx_19
+    cat_tbx_20:
+        id: cat_tbx_20
+        parentId: cat_tbx_19
+        level: 3
+        path: cat_tbx_1/cat_tbx_19/cat_tbx_20
+    cat_tbx_21:
+        id: cat_tbx_21
+        parentId: cat_tbx_19
+        level: 3
+        path: cat_tbx_1/cat_tbx_19/cat_tbx_21
+    cat_tbx_22:
+        id: cat_tbx_22
+        parentId: cat_tbx_19
+        level: 3
+        path: cat_tbx_1/cat_tbx_19/cat_tbx_22
+    cat_tbx_23:
+        id: cat_tbx_23
+        parentId: cat_tbx_19
+        level: 3
+        path: cat_tbx_1/cat_tbx_19/cat_tbx_23
+    cat_tbx_24:
+        id: cat_tbx_24
+        parentId: cat_tbx_1
+        level: 2
+        path: cat_tbx_1/cat_tbx_24
+    cat_tbx_25:
+        id: cat_tbx_25
+        parentId: cat_tbx_24
+        level: 3
+        path: cat_tbx_1/cat_tbx_24/cat_tbx_25
+    cat_tbx_26:
+        id: cat_tbx_26
+        parentId: cat_tbx_24
+        level: 3
+        path: cat_tbx_1/cat_tbx_24/cat_tbx_26
+    cat_tbx_27:
+        id: cat_tbx_27
+        parentId: cat_tbx_24
+        level: 3
+        path: cat_tbx_1/cat_tbx_24/cat_tbx_27
+    cat_tbx_28:
+        id: cat_tbx_28
+        parentId: cat_tbx_24
+        level: 3
+        path: cat_tbx_1/cat_tbx_24/cat_tbx_28
+    cat_tbx_29:
+        id: cat_tbx_29
+        parentId: cat_tbx_24
+        level: 3
+        path: cat_tbx_1/cat_tbx_24/cat_tbx_29
+    cat_tbx_30:
+        id: cat_tbx_30
+        parentId: cat_tbx_24
+        level: 3
+        path: cat_tbx_1/cat_tbx_24/cat_tbx_30
+    cat_tbx_31:
+        id: cat_tbx_31
+        parentId: cat_tbx_1
+        level: 2
+        path: cat_tbx_1/cat_tbx_31
+    cat_tbx_32:
+        id: cat_tbx_32
+        parentId: cat_tbx_31
+        level: 3
+        path: cat_tbx_1/cat_tbx_31/cat_tbx_32
+    cat_tbx_33:
+        id: cat_tbx_33
+        parentId: cat_tbx_31
+        level: 3
+        path: cat_tbx_1/cat_tbx_31/cat_tbx_33
+    cat_tbx_34:
+        id: cat_tbx_34
+        parentId: cat_tbx_31
+        level: 3
+        path: cat_tbx_1/cat_tbx_31/cat_tbx_34
+    cat_tbx_35:
+        id: cat_tbx_35
+        parentId: cat_tbx_31
+        level: 3
+        path: cat_tbx_1/cat_tbx_31/cat_tbx_35
+    cat_tbx_36:
+        id: cat_tbx_36
+        parentId: cat_tbx_31
+        level: 3
+        path: cat_tbx_1/cat_tbx_31/cat_tbx_36
+    cat_tbx_37:
+        id: cat_tbx_37
+        parentId: cat_tbx_31
+        level: 3
+        path: cat_tbx_1/cat_tbx_31/cat_tbx_37
+    cat_tbx_38:
+        id: cat_tbx_38
+        parentId: cat_tbx_31
+        level: 3
+        path: cat_tbx_1/cat_tbx_31/cat_tbx_38
+    cat_tbx_39:
+        id: cat_tbx_39
+        parentId: cat_tbx_1
+        level: 2
+        path: cat_tbx_1/cat_tbx_39
+    cat_tbx_40:
+        id: cat_tbx_40
+        parentId: cat_tbx_39
+        level: 3
+        path: cat_tbx_1/cat_tbx_39/cat_tbx_40
+    cat_tbx_41:
+        id: cat_tbx_41
+        parentId: cat_tbx_39
+        level: 3
+        path: cat_tbx_1/cat_tbx_39/cat_tbx_41
+    cat_tbx_42:
+        id: cat_tbx_42
+        parentId: cat_tbx_39
+        level: 3
+        path: cat_tbx_1/cat_tbx_39/cat_tbx_42
+    cat_tbx_43:
+        id: cat_tbx_43
+        parentId: cat_tbx_39
+        level: 3
+        path: cat_tbx_1/cat_tbx_39/cat_tbx_43
+    cat_tbx_44:
+        id: cat_tbx_44
+        parentId: cat_tbx_39
+        level: 3
+        path: cat_tbx_1/cat_tbx_39/cat_tbx_44
+    cat_tbx_45:
+        id: cat_tbx_45
+        parentId: cat_tbx_39
+        level: 3
+        path: cat_tbx_1/cat_tbx_39/cat_tbx_45
+    cat_tbx_46:
+        id: cat_tbx_46
+        parentId: cat_tbx_39
+        level: 3
+        path: cat_tbx_1/cat_tbx_39/cat_tbx_46
+    cat_tbx_47:
+        id: cat_tbx_47
+        parentId: cat_tbx_1
+        level: 2
+        path: cat_tbx_1/cat_tbx_47
+    cat_tbx_48:
+        id: cat_tbx_48
+        parentId: cat_tbx_47
+        level: 3
+        path: cat_tbx_1/cat_tbx_47/cat_tbx_48
+    cat_tbx_49:
+        id: cat_tbx_49
+        parentId: cat_tbx_47
+        level: 3
+        path: cat_tbx_1/cat_tbx_47/cat_tbx_49
+    cat_tbx_50:
+        id: cat_tbx_50
+        parentId: cat_tbx_47
+        level: 3
+        path: cat_tbx_1/cat_tbx_47/cat_tbx_50
+    cat_tbx_51:
+        id: cat_tbx_51
+        parentId: cat_tbx_47
+        level: 3
+        path: cat_tbx_1/cat_tbx_47/cat_tbx_51
+    cat_tbx_52:
+        id: cat_tbx_52
+        parentId: cat_tbx_47
+        level: 3
+        path: cat_tbx_1/cat_tbx_47/cat_tbx_52
+    cat_tbx_53:
+        id: cat_tbx_53
+        parentId: cat_tbx_47
+        level: 3
+        path: cat_tbx_1/cat_tbx_47/cat_tbx_53
+    cat_tbx_54:
+        id: cat_tbx_54
+        parentId: cat_tbx_1
+        level: 2
+        path: cat_tbx_1/cat_tbx_54
+    cat_tbx_55:
+        id: cat_tbx_55
+        parentId: cat_tbx_54
+        level: 3
+        path: cat_tbx_1/cat_tbx_54/cat_tbx_55
+    cat_tbx_56:
+        id: cat_tbx_56
+        parentId: cat_tbx_54
+        level: 3
+        path: cat_tbx_1/cat_tbx_54/cat_tbx_56
+    cat_tbx_57:
+        id: cat_tbx_57
+        parentId: cat_tbx_54
+        level: 3
+        path: cat_tbx_1/cat_tbx_54/cat_tbx_57
+    cat_tbx_58:
+        id: cat_tbx_58
+        parentId: cat_tbx_54
+        level: 3
+        path: cat_tbx_1/cat_tbx_54/cat_tbx_58
+    cat_tbx_59:
+        id: cat_tbx_59
+        parentId: cat_tbx_54
+        level: 3
+        path: cat_tbx_1/cat_tbx_54/cat_tbx_59
+    cat_tbx_60:
+        id: cat_tbx_60
+        parentId: cat_tbx_54
+        level: 3
+        path: cat_tbx_1/cat_tbx_54/cat_tbx_60
+    cat_tbx_61:
+        id: cat_tbx_61
+        parentId: cat_tbx_1
+        level: 2
+        path: cat_tbx_1/cat_tbx_61
+    cat_tbx_62:
+        id: cat_tbx_62
+        parentId: cat_tbx_61
+        level: 3
+        path: cat_tbx_1/cat_tbx_61/cat_tbx_62
+    cat_tbx_63:
+        id: cat_tbx_63
+        parentId: cat_tbx_61
+        level: 3
+        path: cat_tbx_1/cat_tbx_61/cat_tbx_63
+    cat_tbx_64:
+        id: cat_tbx_64
+        parentId: cat_tbx_61
+        level: 3
+        path: cat_tbx_1/cat_tbx_61/cat_tbx_64
+    cat_tbx_65:
+        id: cat_tbx_65
+        parentId: cat_tbx_61
+        level: 3
+        path: cat_tbx_1/cat_tbx_61/cat_tbx_65
+    cat_tbx_66:
+        id: cat_tbx_66
+        parentId: cat_tbx_61
+        level: 3
+        path: cat_tbx_1/cat_tbx_61/cat_tbx_66
+    cat_tbx_67:
+        id: cat_tbx_67
+        parentId: cat_tbx_61
+        level: 3
+        path: cat_tbx_1/cat_tbx_61/cat_tbx_67
+    cat_tbx_68:
+        id: cat_tbx_68
+        parentId: cat_tbx_1
+        level: 2
+        path: cat_tbx_1/cat_tbx_68
+    cat_tbx_69:
+        id: cat_tbx_69
+        parentId: cat_tbx_68
+        level: 3
+        path: cat_tbx_1/cat_tbx_68/cat_tbx_69
+    cat_tbx_70:
+        id: cat_tbx_70
+        parentId: cat_tbx_68
+        level: 3
+        path: cat_tbx_1/cat_tbx_68/cat_tbx_70
+    cat_tbx_71:
+        id: cat_tbx_71
+        parentId: cat_tbx_68
+        level: 3
+        path: cat_tbx_1/cat_tbx_68/cat_tbx_71
+    cat_tbx_72:
+        id: cat_tbx_72
+        parentId: cat_tbx_68
+        level: 3
+        path: cat_tbx_1/cat_tbx_68/cat_tbx_72
+    cat_tbx_73:
+        id: cat_tbx_73
+        parentId: cat_tbx_68
+        level: 3
+        path: cat_tbx_1/cat_tbx_68/cat_tbx_73
+    cat_tbx_74:
+        id: cat_tbx_74
+        parentId: cat_tbx_68
+        level: 3
+        path: cat_tbx_1/cat_tbx_68/cat_tbx_74
+    cat_tbx_75:
+        id: cat_tbx_75
+        parentId: cat_tbx_68
+        level: 3
+        path: cat_tbx_1/cat_tbx_68/cat_tbx_75
+    cat_tbx_76:
+        id: cat_tbx_76
+        parentId: cat_tbx_1
+        level: 2
+        path: cat_tbx_1/cat_tbx_76
+    cat_tbx_77:
+        id: cat_tbx_77
+        parentId: cat_tbx_76
+        level: 3
+        path: cat_tbx_1/cat_tbx_76/cat_tbx_77
+    cat_tbx_78:
+        id: cat_tbx_78
+        parentId: cat_tbx_76
+        level: 3
+        path: cat_tbx_1/cat_tbx_76/cat_tbx_78
+    cat_tbx_79:
+        id: cat_tbx_79
+        parentId: cat_tbx_76
+        level: 3
+        path: cat_tbx_1/cat_tbx_76/cat_tbx_79
+    cat_tbx_80:
+        id: cat_tbx_80
+        parentId: cat_tbx_76
+        level: 3
+        path: cat_tbx_1/cat_tbx_76/cat_tbx_80
+    cat_tbx_81:
+        id: cat_tbx_81
+        parentId: cat_tbx_76
+        level: 3
+        path: cat_tbx_1/cat_tbx_76/cat_tbx_81
+    cat_tbx_82:
+        id: cat_tbx_82
+        parentId: cat_tbx_76
+        level: 3
+        path: cat_tbx_1/cat_tbx_76/cat_tbx_82
+    cat_tbx_83:
+        id: cat_tbx_83
+        parentId: cat_tbx_76
+        level: 3
+        path: cat_tbx_1/cat_tbx_76/cat_tbx_83
+    cat_tbx_84:
+        id: cat_tbx_84
+        parentId: cat_tbx_76
+        level: 3
+        path: cat_tbx_1/cat_tbx_76/cat_tbx_84
+    # A virtual category: no product is assigned to it, the rule on its configuration below
+    # decides what it holds. `any` because the two conditions never meet on one product - a tool
+    # carries tbx_cordless, a battery carries tbx_battery_voltage - so the category gathers the
+    # 32 cordless tools and the 13 18V batteries that go with them into one page of 45.
+    cat_tbx_85:
+        id: cat_tbx_85
+        parentId: cat_tbx_1
+        level: 2
+        path: cat_tbx_1/cat_tbx_85
+
+Gally\Category\Entity\Category\Configuration:
+    config_cat_tbx_1_toolbox_fr:
+        category: '@cat_tbx_1'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Tous les produits'
+    config_cat_tbx_1_toolbox_en:
+        category: '@cat_tbx_1'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'All products'
+    config_cat_tbx_1_toolbox_de:
+        category: '@cat_tbx_1'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Alle Produkte'
+    config_cat_tbx_2_toolbox_fr:
+        category: '@cat_tbx_2'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Outillage à main'
+    config_cat_tbx_2_toolbox_en:
+        category: '@cat_tbx_2'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Hand Tools'
+    config_cat_tbx_2_toolbox_de:
+        category: '@cat_tbx_2'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Handwerkzeuge'
+    config_cat_tbx_3_toolbox_fr:
+        category: '@cat_tbx_3'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Tournevis'
+    config_cat_tbx_3_toolbox_en:
+        category: '@cat_tbx_3'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Screwdrivers'
+    config_cat_tbx_3_toolbox_de:
+        category: '@cat_tbx_3'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Schraubendreher'
+    config_cat_tbx_4_toolbox_fr:
+        category: '@cat_tbx_4'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Clés'
+    config_cat_tbx_4_toolbox_en:
+        category: '@cat_tbx_4'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Wrenches'
+    config_cat_tbx_4_toolbox_de:
+        category: '@cat_tbx_4'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Schraubenschlüssel'
+    config_cat_tbx_5_toolbox_fr:
+        category: '@cat_tbx_5'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Pinces'
+    config_cat_tbx_5_toolbox_en:
+        category: '@cat_tbx_5'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Pliers'
+    config_cat_tbx_5_toolbox_de:
+        category: '@cat_tbx_5'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Zangen'
+    config_cat_tbx_6_toolbox_fr:
+        category: '@cat_tbx_6'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Marteaux'
+    config_cat_tbx_6_toolbox_en:
+        category: '@cat_tbx_6'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Hammers'
+    config_cat_tbx_6_toolbox_de:
+        category: '@cat_tbx_6'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Hämmer'
+    config_cat_tbx_7_toolbox_fr:
+        category: '@cat_tbx_7'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Scies à main'
+    config_cat_tbx_7_toolbox_en:
+        category: '@cat_tbx_7'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Hand Saws'
+    config_cat_tbx_7_toolbox_de:
+        category: '@cat_tbx_7'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Handsägen'
+    config_cat_tbx_8_toolbox_fr:
+        category: '@cat_tbx_8'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Mesure & Traçage'
+    config_cat_tbx_8_toolbox_en:
+        category: '@cat_tbx_8'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Measuring & Marking'
+    config_cat_tbx_8_toolbox_de:
+        category: '@cat_tbx_8'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Messen & Anzeichnen'
+    config_cat_tbx_9_toolbox_fr:
+        category: '@cat_tbx_9'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Limes & Râpes'
+    config_cat_tbx_9_toolbox_en:
+        category: '@cat_tbx_9'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Files & Rasps'
+    config_cat_tbx_9_toolbox_de:
+        category: '@cat_tbx_9'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Feilen & Raspeln'
+    config_cat_tbx_10_toolbox_fr:
+        category: '@cat_tbx_10'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Outillage électroportatif'
+    config_cat_tbx_10_toolbox_en:
+        category: '@cat_tbx_10'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Power Tools'
+    config_cat_tbx_10_toolbox_de:
+        category: '@cat_tbx_10'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Elektrowerkzeuge'
+    config_cat_tbx_11_toolbox_fr:
+        category: '@cat_tbx_11'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Perceuses & Visseuses'
+    config_cat_tbx_11_toolbox_en:
+        category: '@cat_tbx_11'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Drills & Drivers'
+    config_cat_tbx_11_toolbox_de:
+        category: '@cat_tbx_11'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Bohrschrauber'
+    config_cat_tbx_12_toolbox_fr:
+        category: '@cat_tbx_12'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Visseuses à chocs'
+    config_cat_tbx_12_toolbox_en:
+        category: '@cat_tbx_12'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Impact Drivers'
+    config_cat_tbx_12_toolbox_de:
+        category: '@cat_tbx_12'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Schlagschrauber'
+    config_cat_tbx_13_toolbox_fr:
+        category: '@cat_tbx_13'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Perforateurs'
+    config_cat_tbx_13_toolbox_en:
+        category: '@cat_tbx_13'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Rotary Hammers'
+    config_cat_tbx_13_toolbox_de:
+        category: '@cat_tbx_13'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Bohrhämmer'
+    config_cat_tbx_14_toolbox_fr:
+        category: '@cat_tbx_14'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Meuleuses'
+    config_cat_tbx_14_toolbox_en:
+        category: '@cat_tbx_14'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Angle Grinders'
+    config_cat_tbx_14_toolbox_de:
+        category: '@cat_tbx_14'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Winkelschleifer'
+    config_cat_tbx_15_toolbox_fr:
+        category: '@cat_tbx_15'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Scies électriques'
+    config_cat_tbx_15_toolbox_en:
+        category: '@cat_tbx_15'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Power Saws'
+    config_cat_tbx_15_toolbox_de:
+        category: '@cat_tbx_15'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Elektrische Sägen'
+    config_cat_tbx_16_toolbox_fr:
+        category: '@cat_tbx_16'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Ponceuses'
+    config_cat_tbx_16_toolbox_en:
+        category: '@cat_tbx_16'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Sanders'
+    config_cat_tbx_16_toolbox_de:
+        category: '@cat_tbx_16'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Schleifmaschinen'
+    config_cat_tbx_17_toolbox_fr:
+        category: '@cat_tbx_17'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Défonceuses & Rabots'
+    config_cat_tbx_17_toolbox_en:
+        category: '@cat_tbx_17'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Routers & Planers'
+    config_cat_tbx_17_toolbox_de:
+        category: '@cat_tbx_17'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Oberfräsen & Hobel'
+    config_cat_tbx_18_toolbox_fr:
+        category: '@cat_tbx_18'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Multi-outils & Décapeurs'
+    config_cat_tbx_18_toolbox_en:
+        category: '@cat_tbx_18'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Multi-tools & Heat Guns'
+    config_cat_tbx_18_toolbox_de:
+        category: '@cat_tbx_18'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Multifunktionswerkzeuge & Heißluftpistolen'
+    config_cat_tbx_19_toolbox_fr:
+        category: '@cat_tbx_19'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Batteries & Chargeurs'
+    config_cat_tbx_19_toolbox_en:
+        category: '@cat_tbx_19'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Batteries & Chargers'
+    config_cat_tbx_19_toolbox_de:
+        category: '@cat_tbx_19'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Akkus & Ladegeräte'
+    config_cat_tbx_20_toolbox_fr:
+        category: '@cat_tbx_20'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Batteries 12V'
+    config_cat_tbx_20_toolbox_en:
+        category: '@cat_tbx_20'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: '12V Batteries'
+    config_cat_tbx_20_toolbox_de:
+        category: '@cat_tbx_20'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: '12V-Akkus'
+    config_cat_tbx_21_toolbox_fr:
+        category: '@cat_tbx_21'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Batteries 18V'
+    config_cat_tbx_21_toolbox_en:
+        category: '@cat_tbx_21'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: '18V Batteries'
+    config_cat_tbx_21_toolbox_de:
+        category: '@cat_tbx_21'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: '18V-Akkus'
+    config_cat_tbx_22_toolbox_fr:
+        category: '@cat_tbx_22'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Batteries 36V'
+    config_cat_tbx_22_toolbox_en:
+        category: '@cat_tbx_22'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: '36V Batteries'
+    config_cat_tbx_22_toolbox_de:
+        category: '@cat_tbx_22'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: '36V-Akkus'
+    config_cat_tbx_23_toolbox_fr:
+        category: '@cat_tbx_23'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Chargeurs'
+    config_cat_tbx_23_toolbox_en:
+        category: '@cat_tbx_23'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Chargers'
+    config_cat_tbx_23_toolbox_de:
+        category: '@cat_tbx_23'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Ladegeräte'
+    config_cat_tbx_24_toolbox_fr:
+        category: '@cat_tbx_24'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Accessoires & Consommables'
+    config_cat_tbx_24_toolbox_en:
+        category: '@cat_tbx_24'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Accessories & Consumables'
+    config_cat_tbx_24_toolbox_de:
+        category: '@cat_tbx_24'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Zubehör & Verbrauchsmaterial'
+    config_cat_tbx_25_toolbox_fr:
+        category: '@cat_tbx_25'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Forets'
+    config_cat_tbx_25_toolbox_en:
+        category: '@cat_tbx_25'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Drill Bits'
+    config_cat_tbx_25_toolbox_de:
+        category: '@cat_tbx_25'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Bohrer'
+    config_cat_tbx_26_toolbox_fr:
+        category: '@cat_tbx_26'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Lames de scie'
+    config_cat_tbx_26_toolbox_en:
+        category: '@cat_tbx_26'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Saw Blades'
+    config_cat_tbx_26_toolbox_de:
+        category: '@cat_tbx_26'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Sägeblätter'
+    config_cat_tbx_27_toolbox_fr:
+        category: '@cat_tbx_27'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Disques pour meuleuse'
+    config_cat_tbx_27_toolbox_en:
+        category: '@cat_tbx_27'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Grinder Discs'
+    config_cat_tbx_27_toolbox_de:
+        category: '@cat_tbx_27'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Trennscheiben'
+    config_cat_tbx_28_toolbox_fr:
+        category: '@cat_tbx_28'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Abrasifs & Ponçage'
+    config_cat_tbx_28_toolbox_en:
+        category: '@cat_tbx_28'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Abrasives & Sanding'
+    config_cat_tbx_28_toolbox_de:
+        category: '@cat_tbx_28'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Schleifmittel & Schleifen'
+    config_cat_tbx_29_toolbox_fr:
+        category: '@cat_tbx_29'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Embouts de vissage'
+    config_cat_tbx_29_toolbox_en:
+        category: '@cat_tbx_29'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Screwdriver Bits'
+    config_cat_tbx_29_toolbox_de:
+        category: '@cat_tbx_29'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Schrauberbits'
+    config_cat_tbx_30_toolbox_fr:
+        category: '@cat_tbx_30'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Couronnes & Trépans'
+    config_cat_tbx_30_toolbox_en:
+        category: '@cat_tbx_30'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Hole Saws & Core Bits'
+    config_cat_tbx_30_toolbox_de:
+        category: '@cat_tbx_30'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Lochsägen & Bohrkronen'
+    config_cat_tbx_31_toolbox_fr:
+        category: '@cat_tbx_31'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Peinture & Décoration'
+    config_cat_tbx_31_toolbox_en:
+        category: '@cat_tbx_31'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Paint & Decoration'
+    config_cat_tbx_31_toolbox_de:
+        category: '@cat_tbx_31'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Farben & Dekoration'
+    config_cat_tbx_32_toolbox_fr:
+        category: '@cat_tbx_32'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Peintures murales'
+    config_cat_tbx_32_toolbox_en:
+        category: '@cat_tbx_32'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Wall Paints'
+    config_cat_tbx_32_toolbox_de:
+        category: '@cat_tbx_32'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Wandfarben'
+    config_cat_tbx_33_toolbox_fr:
+        category: '@cat_tbx_33'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Peintures bois & métal'
+    config_cat_tbx_33_toolbox_en:
+        category: '@cat_tbx_33'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Wood & Metal Paints'
+    config_cat_tbx_33_toolbox_de:
+        category: '@cat_tbx_33'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Holz- & Metallfarben'
+    config_cat_tbx_34_toolbox_fr:
+        category: '@cat_tbx_34'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Peintures extérieures'
+    config_cat_tbx_34_toolbox_en:
+        category: '@cat_tbx_34'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Exterior Paints'
+    config_cat_tbx_34_toolbox_de:
+        category: '@cat_tbx_34'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Außenfarben'
+    config_cat_tbx_35_toolbox_fr:
+        category: '@cat_tbx_35'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Vernis & Lasures'
+    config_cat_tbx_35_toolbox_en:
+        category: '@cat_tbx_35'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Varnishes & Wood Stains'
+    config_cat_tbx_35_toolbox_de:
+        category: '@cat_tbx_35'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Lacke & Lasuren'
+    config_cat_tbx_36_toolbox_fr:
+        category: '@cat_tbx_36'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Enduits & Préparation'
+    config_cat_tbx_36_toolbox_en:
+        category: '@cat_tbx_36'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Fillers & Preparation'
+    config_cat_tbx_36_toolbox_de:
+        category: '@cat_tbx_36'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Spachtel & Vorbereitung'
+    config_cat_tbx_37_toolbox_fr:
+        category: '@cat_tbx_37'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Pinceaux & Rouleaux'
+    config_cat_tbx_37_toolbox_en:
+        category: '@cat_tbx_37'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Brushes & Rollers'
+    config_cat_tbx_37_toolbox_de:
+        category: '@cat_tbx_37'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Pinsel & Rollen'
+    config_cat_tbx_38_toolbox_fr:
+        category: '@cat_tbx_38'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Bâches & Masquage'
+    config_cat_tbx_38_toolbox_en:
+        category: '@cat_tbx_38'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Tarps & Masking'
+    config_cat_tbx_38_toolbox_de:
+        category: '@cat_tbx_38'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Planen & Abdeckung'
+    config_cat_tbx_39_toolbox_fr:
+        category: '@cat_tbx_39'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Plomberie'
+    config_cat_tbx_39_toolbox_en:
+        category: '@cat_tbx_39'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Plumbing'
+    config_cat_tbx_39_toolbox_de:
+        category: '@cat_tbx_39'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Sanitärinstallation'
+    config_cat_tbx_40_toolbox_fr:
+        category: '@cat_tbx_40'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Tubes & Raccords cuivre'
+    config_cat_tbx_40_toolbox_en:
+        category: '@cat_tbx_40'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Copper Pipes & Fittings'
+    config_cat_tbx_40_toolbox_de:
+        category: '@cat_tbx_40'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Kupferrohre & Fittings'
+    config_cat_tbx_41_toolbox_fr:
+        category: '@cat_tbx_41'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'PER & Multicouche'
+    config_cat_tbx_41_toolbox_en:
+        category: '@cat_tbx_41'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'PEX & Multilayer Pipe'
+    config_cat_tbx_41_toolbox_de:
+        category: '@cat_tbx_41'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'PEX- & Mehrschichtrohre'
+    config_cat_tbx_42_toolbox_fr:
+        category: '@cat_tbx_42'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'PVC Évacuation'
+    config_cat_tbx_42_toolbox_en:
+        category: '@cat_tbx_42'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'PVC Drainage'
+    config_cat_tbx_42_toolbox_de:
+        category: '@cat_tbx_42'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'PVC-Abwasser'
+    config_cat_tbx_43_toolbox_fr:
+        category: '@cat_tbx_43'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Robinetterie'
+    config_cat_tbx_43_toolbox_en:
+        category: '@cat_tbx_43'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Taps & Fittings'
+    config_cat_tbx_43_toolbox_de:
+        category: '@cat_tbx_43'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Armaturen'
+    config_cat_tbx_44_toolbox_fr:
+        category: '@cat_tbx_44'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Joints & Étanchéité'
+    config_cat_tbx_44_toolbox_en:
+        category: '@cat_tbx_44'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Seals & Sealant'
+    config_cat_tbx_44_toolbox_de:
+        category: '@cat_tbx_44'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Dichtungen & Abdichtung'
+    config_cat_tbx_45_toolbox_fr:
+        category: '@cat_tbx_45'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Outillage plomberie'
+    config_cat_tbx_45_toolbox_en:
+        category: '@cat_tbx_45'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Plumbing Tools'
+    config_cat_tbx_45_toolbox_de:
+        category: '@cat_tbx_45'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Klempnerwerkzeug'
+    config_cat_tbx_46_toolbox_fr:
+        category: '@cat_tbx_46'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Chauffage & Sanitaire'
+    config_cat_tbx_46_toolbox_en:
+        category: '@cat_tbx_46'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Heating & Sanitary'
+    config_cat_tbx_46_toolbox_de:
+        category: '@cat_tbx_46'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Heizung & Sanitär'
+    config_cat_tbx_47_toolbox_fr:
+        category: '@cat_tbx_47'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Électricité'
+    config_cat_tbx_47_toolbox_en:
+        category: '@cat_tbx_47'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Electrical'
+    config_cat_tbx_47_toolbox_de:
+        category: '@cat_tbx_47'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Elektrik'
+    config_cat_tbx_48_toolbox_fr:
+        category: '@cat_tbx_48'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Tableaux & Disjoncteurs'
+    config_cat_tbx_48_toolbox_en:
+        category: '@cat_tbx_48'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Panels & Circuit Breakers'
+    config_cat_tbx_48_toolbox_de:
+        category: '@cat_tbx_48'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Verteiler & Sicherungen'
+    config_cat_tbx_49_toolbox_fr:
+        category: '@cat_tbx_49'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Appareillage'
+    config_cat_tbx_49_toolbox_en:
+        category: '@cat_tbx_49'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Wiring Devices'
+    config_cat_tbx_49_toolbox_de:
+        category: '@cat_tbx_49'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Schalter & Steckdosen'
+    config_cat_tbx_50_toolbox_fr:
+        category: '@cat_tbx_50'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Câbles & Gaines'
+    config_cat_tbx_50_toolbox_en:
+        category: '@cat_tbx_50'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Cables & Conduits'
+    config_cat_tbx_50_toolbox_de:
+        category: '@cat_tbx_50'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Kabel & Leerrohre'
+    config_cat_tbx_51_toolbox_fr:
+        category: '@cat_tbx_51'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Éclairage'
+    config_cat_tbx_51_toolbox_en:
+        category: '@cat_tbx_51'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Lighting'
+    config_cat_tbx_51_toolbox_de:
+        category: '@cat_tbx_51'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Beleuchtung'
+    config_cat_tbx_52_toolbox_fr:
+        category: '@cat_tbx_52'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Outillage électricien'
+    config_cat_tbx_52_toolbox_en:
+        category: '@cat_tbx_52'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Electrician Tools'
+    config_cat_tbx_52_toolbox_de:
+        category: '@cat_tbx_52'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Elektrikerwerkzeug'
+    config_cat_tbx_53_toolbox_fr:
+        category: '@cat_tbx_53'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Domotique'
+    config_cat_tbx_53_toolbox_en:
+        category: '@cat_tbx_53'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Home Automation'
+    config_cat_tbx_53_toolbox_de:
+        category: '@cat_tbx_53'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Smart Home'
+    config_cat_tbx_54_toolbox_fr:
+        category: '@cat_tbx_54'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Quincaillerie'
+    config_cat_tbx_54_toolbox_en:
+        category: '@cat_tbx_54'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Hardware'
+    config_cat_tbx_54_toolbox_de:
+        category: '@cat_tbx_54'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Beschläge'
+    config_cat_tbx_55_toolbox_fr:
+        category: '@cat_tbx_55'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Visserie'
+    config_cat_tbx_55_toolbox_en:
+        category: '@cat_tbx_55'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Screws'
+    config_cat_tbx_55_toolbox_de:
+        category: '@cat_tbx_55'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Schrauben'
+    config_cat_tbx_56_toolbox_fr:
+        category: '@cat_tbx_56'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Chevilles & Fixations'
+    config_cat_tbx_56_toolbox_en:
+        category: '@cat_tbx_56'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Wall Plugs & Fixings'
+    config_cat_tbx_56_toolbox_de:
+        category: '@cat_tbx_56'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Dübel & Befestigungen'
+    config_cat_tbx_57_toolbox_fr:
+        category: '@cat_tbx_57'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Serrurerie'
+    config_cat_tbx_57_toolbox_en:
+        category: '@cat_tbx_57'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Locksmithing'
+    config_cat_tbx_57_toolbox_de:
+        category: '@cat_tbx_57'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Schlosserei'
+    config_cat_tbx_58_toolbox_fr:
+        category: '@cat_tbx_58'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Colles & Adhésifs'
+    config_cat_tbx_58_toolbox_en:
+        category: '@cat_tbx_58'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Glues & Adhesives'
+    config_cat_tbx_58_toolbox_de:
+        category: '@cat_tbx_58'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Kleber & Klebebänder'
+    config_cat_tbx_59_toolbox_fr:
+        category: '@cat_tbx_59'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Abrasifs & Nettoyants'
+    config_cat_tbx_59_toolbox_en:
+        category: '@cat_tbx_59'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Abrasives & Cleaners'
+    config_cat_tbx_59_toolbox_de:
+        category: '@cat_tbx_59'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Schleifmittel & Reiniger'
+    config_cat_tbx_60_toolbox_fr:
+        category: '@cat_tbx_60'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Rangement & Organisation'
+    config_cat_tbx_60_toolbox_en:
+        category: '@cat_tbx_60'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Storage & Organisation'
+    config_cat_tbx_60_toolbox_de:
+        category: '@cat_tbx_60'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Aufbewahrung & Organisation'
+    config_cat_tbx_61_toolbox_fr:
+        category: '@cat_tbx_61'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Jardin & Extérieur'
+    config_cat_tbx_61_toolbox_en:
+        category: '@cat_tbx_61'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Garden & Outdoor'
+    config_cat_tbx_61_toolbox_de:
+        category: '@cat_tbx_61'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Garten & Außenbereich'
+    config_cat_tbx_62_toolbox_fr:
+        category: '@cat_tbx_62'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Outils manuels de jardin'
+    config_cat_tbx_62_toolbox_en:
+        category: '@cat_tbx_62'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Manual Garden Tools'
+    config_cat_tbx_62_toolbox_de:
+        category: '@cat_tbx_62'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Handgeführte Gartengeräte'
+    config_cat_tbx_63_toolbox_fr:
+        category: '@cat_tbx_63'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Outils électriques de jardin'
+    config_cat_tbx_63_toolbox_en:
+        category: '@cat_tbx_63'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Powered Garden Tools'
+    config_cat_tbx_63_toolbox_de:
+        category: '@cat_tbx_63'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Elektrische Gartengeräte'
+    config_cat_tbx_64_toolbox_fr:
+        category: '@cat_tbx_64'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Arrosage'
+    config_cat_tbx_64_toolbox_en:
+        category: '@cat_tbx_64'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Watering'
+    config_cat_tbx_64_toolbox_de:
+        category: '@cat_tbx_64'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Bewässerung'
+    config_cat_tbx_65_toolbox_fr:
+        category: '@cat_tbx_65'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Clôtures & Grillages'
+    config_cat_tbx_65_toolbox_en:
+        category: '@cat_tbx_65'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Fencing & Wire Mesh'
+    config_cat_tbx_65_toolbox_de:
+        category: '@cat_tbx_65'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Zäune & Drahtgeflecht'
+    config_cat_tbx_66_toolbox_fr:
+        category: '@cat_tbx_66'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Terrasse & Aménagement'
+    config_cat_tbx_66_toolbox_en:
+        category: '@cat_tbx_66'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Decking & Landscaping'
+    config_cat_tbx_66_toolbox_de:
+        category: '@cat_tbx_66'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Terrasse & Gestaltung'
+    config_cat_tbx_67_toolbox_fr:
+        category: '@cat_tbx_67'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Serre & Culture'
+    config_cat_tbx_67_toolbox_en:
+        category: '@cat_tbx_67'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Greenhouse & Growing'
+    config_cat_tbx_67_toolbox_de:
+        category: '@cat_tbx_67'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Gewächshaus & Anzucht'
+    config_cat_tbx_68_toolbox_fr:
+        category: '@cat_tbx_68'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Sécurité & EPI'
+    config_cat_tbx_68_toolbox_en:
+        category: '@cat_tbx_68'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Safety & PPE'
+    config_cat_tbx_68_toolbox_de:
+        category: '@cat_tbx_68'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Sicherheit & PSA'
+    config_cat_tbx_69_toolbox_fr:
+        category: '@cat_tbx_69'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Protection des yeux'
+    config_cat_tbx_69_toolbox_en:
+        category: '@cat_tbx_69'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Eye Protection'
+    config_cat_tbx_69_toolbox_de:
+        category: '@cat_tbx_69'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Augenschutz'
+    config_cat_tbx_70_toolbox_fr:
+        category: '@cat_tbx_70'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Protection auditive'
+    config_cat_tbx_70_toolbox_en:
+        category: '@cat_tbx_70'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Hearing Protection'
+    config_cat_tbx_70_toolbox_de:
+        category: '@cat_tbx_70'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Gehörschutz'
+    config_cat_tbx_71_toolbox_fr:
+        category: '@cat_tbx_71'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Protection de la tête'
+    config_cat_tbx_71_toolbox_en:
+        category: '@cat_tbx_71'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Head Protection'
+    config_cat_tbx_71_toolbox_de:
+        category: '@cat_tbx_71'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Kopfschutz'
+    config_cat_tbx_72_toolbox_fr:
+        category: '@cat_tbx_72'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Protection des mains'
+    config_cat_tbx_72_toolbox_en:
+        category: '@cat_tbx_72'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Hand Protection'
+    config_cat_tbx_72_toolbox_de:
+        category: '@cat_tbx_72'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Handschutz'
+    config_cat_tbx_73_toolbox_fr:
+        category: '@cat_tbx_73'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Protection respiratoire'
+    config_cat_tbx_73_toolbox_en:
+        category: '@cat_tbx_73'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Respiratory Protection'
+    config_cat_tbx_73_toolbox_de:
+        category: '@cat_tbx_73'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Atemschutz'
+    config_cat_tbx_74_toolbox_fr:
+        category: '@cat_tbx_74'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Protection du corps'
+    config_cat_tbx_74_toolbox_en:
+        category: '@cat_tbx_74'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Body Protection'
+    config_cat_tbx_74_toolbox_de:
+        category: '@cat_tbx_74'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Körperschutz'
+    config_cat_tbx_75_toolbox_fr:
+        category: '@cat_tbx_75'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Signalisation & Sécurité'
+    config_cat_tbx_75_toolbox_en:
+        category: '@cat_tbx_75'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Signage & Safety'
+    config_cat_tbx_75_toolbox_de:
+        category: '@cat_tbx_75'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Kennzeichnung & Sicherheit'
+    config_cat_tbx_76_toolbox_fr:
+        category: '@cat_tbx_76'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Machines d''atelier'
+    config_cat_tbx_76_toolbox_en:
+        category: '@cat_tbx_76'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Workshop Machines'
+    config_cat_tbx_76_toolbox_de:
+        category: '@cat_tbx_76'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Werkstattmaschinen'
+    config_cat_tbx_77_toolbox_fr:
+        category: '@cat_tbx_77'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Perceuses à colonne'
+    config_cat_tbx_77_toolbox_en:
+        category: '@cat_tbx_77'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Pillar Drills'
+    config_cat_tbx_77_toolbox_de:
+        category: '@cat_tbx_77'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Säulenbohrmaschinen'
+    config_cat_tbx_78_toolbox_fr:
+        category: '@cat_tbx_78'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Scies stationnaires'
+    config_cat_tbx_78_toolbox_en:
+        category: '@cat_tbx_78'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Stationary Saws'
+    config_cat_tbx_78_toolbox_de:
+        category: '@cat_tbx_78'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Stationäre Sägen'
+    config_cat_tbx_79_toolbox_fr:
+        category: '@cat_tbx_79'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Tours à bois'
+    config_cat_tbx_79_toolbox_en:
+        category: '@cat_tbx_79'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Wood Lathes'
+    config_cat_tbx_79_toolbox_de:
+        category: '@cat_tbx_79'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Holzdrehmaschinen'
+    config_cat_tbx_80_toolbox_fr:
+        category: '@cat_tbx_80'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Tours à métaux & Fraiseuses'
+    config_cat_tbx_80_toolbox_en:
+        category: '@cat_tbx_80'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Metal Lathes & Milling Machines'
+    config_cat_tbx_80_toolbox_de:
+        category: '@cat_tbx_80'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Metalldrehmaschinen & Fräsmaschinen'
+    config_cat_tbx_81_toolbox_fr:
+        category: '@cat_tbx_81'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Soudure'
+    config_cat_tbx_81_toolbox_en:
+        category: '@cat_tbx_81'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Welding'
+    config_cat_tbx_81_toolbox_de:
+        category: '@cat_tbx_81'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Schweißen'
+    config_cat_tbx_82_toolbox_fr:
+        category: '@cat_tbx_82'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Compresseurs'
+    config_cat_tbx_82_toolbox_en:
+        category: '@cat_tbx_82'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Compressors'
+    config_cat_tbx_82_toolbox_de:
+        category: '@cat_tbx_82'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Kompressoren'
+    config_cat_tbx_83_toolbox_fr:
+        category: '@cat_tbx_83'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Nettoyage & Aspiration'
+    config_cat_tbx_83_toolbox_en:
+        category: '@cat_tbx_83'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Cleaning & Vacuuming'
+    config_cat_tbx_83_toolbox_de:
+        category: '@cat_tbx_83'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Reinigung & Absaugung'
+    config_cat_tbx_84_toolbox_fr:
+        category: '@cat_tbx_84'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Accessoires d''atelier'
+    config_cat_tbx_84_toolbox_en:
+        category: '@cat_tbx_84'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: 'Workshop Accessories'
+    config_cat_tbx_84_toolbox_de:
+        category: '@cat_tbx_84'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: 'Werkstattzubehör'
+    config_cat_tbx_85_toolbox_fr:
+        category: '@cat_tbx_85'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_fr'
+        name: 'Univers 18V sans fil'
+        isVirtual: true
+        virtualRule: <strval('{"type":"combination","operator":"any","value":"true","children":[{"type":"attribute","field":"tbx_cordless","operator":"eq","attribute_type":"boolean","value":true},{"type":"attribute","field":"tbx_battery_voltage","operator":"eq","attribute_type":"select","value":"18v"}]}')>
+    config_cat_tbx_85_toolbox_en:
+        category: '@cat_tbx_85'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_en'
+        name: '18V cordless range'
+        isVirtual: true
+        virtualRule: <strval('{"type":"combination","operator":"any","value":"true","children":[{"type":"attribute","field":"tbx_cordless","operator":"eq","attribute_type":"boolean","value":true},{"type":"attribute","field":"tbx_battery_voltage","operator":"eq","attribute_type":"select","value":"18v"}]}')>
+    config_cat_tbx_85_toolbox_de:
+        category: '@cat_tbx_85'
+        catalog: '@toolbox'
+        localizedCatalog: '@toolbox_de'
+        name: '18V Akku-Welt'
+        isVirtual: true
+        virtualRule: <strval('{"type":"combination","operator":"any","value":"true","children":[{"type":"attribute","field":"tbx_cordless","operator":"eq","attribute_type":"boolean","value":true},{"type":"attribute","field":"tbx_battery_voltage","operator":"eq","attribute_type":"select","value":"18v"}]}')>

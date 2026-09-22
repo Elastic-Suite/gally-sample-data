@@ -1,0 +1,48 @@
+include:
+    - ../localized_catalogs.yaml
+
+# Scoped by localized catalog, not by locale: a locale scope would reach fr_FR in every other
+# sample catalog too.
+Gally\Thesaurus\Entity\Thesaurus:
+    fio_thesaurus1:
+        name: 'Fashion #1 - Synonym'
+        isActive: true
+        type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_SYNONYM
+        scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALIZED_CATALOG
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+    fio_thesaurus2:
+        name: 'Fashion #2 - Expansion'
+        isActive: true
+        type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_EXPANSION
+        scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALIZED_CATALOG
+        localizedCatalogs: ['@fashion_fr']
+
+Gally\Thesaurus\Entity\Thesaurus\Synonym:
+    fio_synonym1:
+        thesaurus: '@fio_thesaurus1'
+
+# The same garment in the three languages of the shop: 33 robes, 30 dresses, 8 Kleider.
+Gally\Thesaurus\Entity\Thesaurus\Synonym\Term:
+    fio_synonym_term1:
+        synonym: '@fio_synonym1'
+        term: 'robe'
+    fio_synonym_term2:
+        synonym: '@fio_synonym1'
+        term: 'dress'
+    fio_synonym_term3:
+        synonym: '@fio_synonym1'
+        term: 'kleid'
+
+Gally\Thesaurus\Entity\Thesaurus\Expansion:
+    fio_expansion1:
+        thesaurus: '@fio_thesaurus2'
+        referenceTerm: 'veste'
+
+# One way only: "veste" also reaches coats and trenches, "trench" stays on trenches.
+Gally\Thesaurus\Entity\Thesaurus\Expansion\Term:
+    fio_expansion_term1:
+        expansion: '@fio_expansion1'
+        term: 'manteau'
+    fio_expansion_term2:
+        expansion: '@fio_expansion1'
+        term: 'trench'

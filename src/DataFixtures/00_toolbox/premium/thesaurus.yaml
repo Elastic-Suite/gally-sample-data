@@ -1,0 +1,51 @@
+include:
+    - ../localized_catalogs.yaml
+
+# Scoped by localized catalog rather than by locale. A locale scope would reach fr_FR everywhere,
+# including the other sample catalogs, and a synonym written for hardware has no business in a
+# clothes shop.
+Gally\Thesaurus\Entity\Thesaurus:
+    tbx_thesaurus1:
+        name: 'Toolbox #1 - Synonym'
+        isActive: true
+        type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_SYNONYM
+        scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALIZED_CATALOG
+        localizedCatalogs: ['@toolbox_fr', '@toolbox_en', '@toolbox_de']
+    tbx_thesaurus2:
+        name: 'Toolbox #2 - Expansion'
+        isActive: true
+        type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_EXPANSION
+        scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALIZED_CATALOG
+        localizedCatalogs: ['@toolbox_fr']
+
+Gally\Thesaurus\Entity\Thesaurus\Synonym:
+    tbx_synonym1:
+        thesaurus: '@tbx_thesaurus1'
+
+# The three words for the same tool. Typing "perceuse" in the English store still finds the
+# cordless drills, which is the point a merchant with three locales wants to see.
+Gally\Thesaurus\Entity\Thesaurus\Synonym\Term:
+    tbx_synonym_term1:
+        synonym: '@tbx_synonym1'
+        term: 'perceuse'
+    tbx_synonym_term2:
+        synonym: '@tbx_synonym1'
+        term: 'drill'
+    tbx_synonym_term3:
+        synonym: '@tbx_synonym1'
+        term: 'bohrschrauber'
+
+Gally\Thesaurus\Entity\Thesaurus\Expansion:
+    tbx_expansion1:
+        thesaurus: '@tbx_thesaurus2'
+        referenceTerm: 'visseuse'
+
+# One way only: a search for "visseuse" also reaches drills and screwdrivers, but a search for
+# "tournevis" stays on screwdrivers.
+Gally\Thesaurus\Entity\Thesaurus\Expansion\Term:
+    tbx_expansion_term1:
+        expansion: '@tbx_expansion1'
+        term: 'perceuse'
+    tbx_expansion_term2:
+        expansion: '@tbx_expansion1'
+        term: 'tournevis'

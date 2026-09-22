@@ -1,0 +1,44 @@
+include:
+    - ../localized_catalogs.yaml
+
+# Scoped by localized catalog rather than by locale: a locale scope would reach fr_FR
+# in every other sample catalog too.
+
+Gally\Thesaurus\Entity\Thesaurus:
+    llv_thesaurus_syn1:
+        name: 'Papershop synonym #1'
+        isActive: true
+        type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_SYNONYM
+        scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALIZED_CATALOG
+        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+    llv_thesaurus_exp1:
+        name: 'Papershop expansion #1'
+        isActive: true
+        type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_EXPANSION
+        scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALIZED_CATALOG
+        localizedCatalogs: ['@papershop_fr']
+
+Gally\Thesaurus\Entity\Thesaurus\Synonym:
+    llv_synonym1:
+        thesaurus: '@llv_thesaurus_syn1'
+
+Gally\Thesaurus\Entity\Thesaurus\Synonym\Term:
+    llv_synonym_term1:
+        synonym: '@llv_synonym1'
+        term: 'stylo'
+    llv_synonym_term2:
+        synonym: '@llv_synonym1'
+        term: 'pen'
+
+Gally\Thesaurus\Entity\Thesaurus\Expansion:
+    llv_expansion1:
+        thesaurus: '@llv_thesaurus_exp1'
+        referenceTerm: 'carnet'
+
+Gally\Thesaurus\Entity\Thesaurus\Expansion\Term:
+    llv_expansion_term1:
+        expansion: '@llv_expansion1'
+        term: 'cahier'
+    llv_expansion_term2:
+        expansion: '@llv_expansion1'
+        term: 'bloc'

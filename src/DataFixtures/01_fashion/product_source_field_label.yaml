@@ -1,0 +1,726 @@
+include:
+    - localized_catalogs.yaml
+    - product_source_field.yaml
+    - ../common/product_source_field.yaml
+
+Gally\Metadata\Entity\SourceFieldLabel:
+    product_fio_color_fashion_fr:
+        source_field: '@product_fio_color'
+        localized_catalog: '@fashion_fr'
+        label: 'Couleur'
+    product_fio_color_fashion_en:
+        source_field: '@product_fio_color'
+        localized_catalog: '@fashion_en'
+        label: 'Colour'
+    product_fio_color_fashion_de:
+        source_field: '@product_fio_color'
+        localized_catalog: '@fashion_de'
+        label: 'Farbe'
+    product_fio_clothing_size_fashion_fr:
+        source_field: '@product_fio_clothing_size'
+        localized_catalog: '@fashion_fr'
+        label: 'Taille vêtement'
+    product_fio_clothing_size_fashion_en:
+        source_field: '@product_fio_clothing_size'
+        localized_catalog: '@fashion_en'
+        label: 'Clothing size'
+    product_fio_clothing_size_fashion_de:
+        source_field: '@product_fio_clothing_size'
+        localized_catalog: '@fashion_de'
+        label: 'Kleidergröße'
+    product_fio_neckline_fashion_fr:
+        source_field: '@product_fio_neckline'
+        localized_catalog: '@fashion_fr'
+        label: 'Encolure'
+    product_fio_neckline_fashion_en:
+        source_field: '@product_fio_neckline'
+        localized_catalog: '@fashion_en'
+        label: 'Neckline'
+    product_fio_neckline_fashion_de:
+        source_field: '@product_fio_neckline'
+        localized_catalog: '@fashion_de'
+        label: 'Ausschnitt'
+    product_fio_sleeve_length_fashion_fr:
+        source_field: '@product_fio_sleeve_length'
+        localized_catalog: '@fashion_fr'
+        label: 'Longueur de manches'
+    product_fio_sleeve_length_fashion_en:
+        source_field: '@product_fio_sleeve_length'
+        localized_catalog: '@fashion_en'
+        label: 'Sleeve length'
+    product_fio_sleeve_length_fashion_de:
+        source_field: '@product_fio_sleeve_length'
+        localized_catalog: '@fashion_de'
+        label: 'Ärmellänge'
+    product_fio_fabric_fashion_fr:
+        source_field: '@product_fio_fabric'
+        localized_catalog: '@fashion_fr'
+        label: 'Matière haut'
+    product_fio_fabric_fashion_en:
+        source_field: '@product_fio_fabric'
+        localized_catalog: '@fashion_en'
+        label: 'Top fabric'
+    product_fio_fabric_fashion_de:
+        source_field: '@product_fio_fabric'
+        localized_catalog: '@fashion_de'
+        label: 'Oberteil-Stoff'
+    product_fio_transparent_fashion_fr:
+        source_field: '@product_fio_transparent'
+        localized_catalog: '@fashion_fr'
+        label: 'Transparent'
+    product_fio_transparent_fashion_en:
+        source_field: '@product_fio_transparent'
+        localized_catalog: '@fashion_en'
+        label: 'Sheer'
+    product_fio_transparent_fashion_de:
+        source_field: '@product_fio_transparent'
+        localized_catalog: '@fashion_de'
+        label: 'Transparent'
+    product_fio_dress_length_fashion_fr:
+        source_field: '@product_fio_dress_length'
+        localized_catalog: '@fashion_fr'
+        label: 'Longueur robe'
+    product_fio_dress_length_fashion_en:
+        source_field: '@product_fio_dress_length'
+        localized_catalog: '@fashion_en'
+        label: 'Dress length'
+    product_fio_dress_length_fashion_de:
+        source_field: '@product_fio_dress_length'
+        localized_catalog: '@fashion_de'
+        label: 'Kleidlänge'
+    product_fio_dress_occasion_fashion_fr:
+        source_field: '@product_fio_dress_occasion'
+        localized_catalog: '@fashion_fr'
+        label: 'Occasion'
+    product_fio_dress_occasion_fashion_en:
+        source_field: '@product_fio_dress_occasion'
+        localized_catalog: '@fashion_en'
+        label: 'Occasion'
+    product_fio_dress_occasion_fashion_de:
+        source_field: '@product_fio_dress_occasion'
+        localized_catalog: '@fashion_de'
+        label: 'Anlass'
+    product_fio_dress_material_fashion_fr:
+        source_field: '@product_fio_dress_material'
+        localized_catalog: '@fashion_fr'
+        label: 'Matière robe'
+    product_fio_dress_material_fashion_en:
+        source_field: '@product_fio_dress_material'
+        localized_catalog: '@fashion_en'
+        label: 'Dress fabric'
+    product_fio_dress_material_fashion_de:
+        source_field: '@product_fio_dress_material'
+        localized_catalog: '@fashion_de'
+        label: 'Kleidstoff'
+    product_fio_backless_fashion_fr:
+        source_field: '@product_fio_backless'
+        localized_catalog: '@fashion_fr'
+        label: 'Dos nu'
+    product_fio_backless_fashion_en:
+        source_field: '@product_fio_backless'
+        localized_catalog: '@fashion_en'
+        label: 'Backless'
+    product_fio_backless_fashion_de:
+        source_field: '@product_fio_backless'
+        localized_catalog: '@fashion_de'
+        label: 'Rückenfrei'
+    product_fio_dress_color_fashion_fr:
+        source_field: '@product_fio_dress_color'
+        localized_catalog: '@fashion_fr'
+        label: 'Couleur robe'
+    product_fio_dress_color_fashion_en:
+        source_field: '@product_fio_dress_color'
+        localized_catalog: '@fashion_en'
+        label: 'Dress colour'
+    product_fio_dress_color_fashion_de:
+        source_field: '@product_fio_dress_color'
+        localized_catalog: '@fashion_de'
+        label: 'Kleidfarbe'
+    product_fio_bottom_size_fashion_fr:
+        source_field: '@product_fio_bottom_size'
+        localized_catalog: '@fashion_fr'
+        label: 'Taille pantalon'
+    product_fio_bottom_size_fashion_en:
+        source_field: '@product_fio_bottom_size'
+        localized_catalog: '@fashion_en'
+        label: 'Bottom size'
+    product_fio_bottom_size_fashion_de:
+        source_field: '@product_fio_bottom_size'
+        localized_catalog: '@fashion_de'
+        label: 'Hosengröße'
+    product_fio_length_fashion_fr:
+        source_field: '@product_fio_length'
+        localized_catalog: '@fashion_fr'
+        label: 'Longueur'
+    product_fio_length_fashion_en:
+        source_field: '@product_fio_length'
+        localized_catalog: '@fashion_en'
+        label: 'Length'
+    product_fio_length_fashion_de:
+        source_field: '@product_fio_length'
+        localized_catalog: '@fashion_de'
+        label: 'Länge'
+    product_fio_waist_type_fashion_fr:
+        source_field: '@product_fio_waist_type'
+        localized_catalog: '@fashion_fr'
+        label: 'Type de taille'
+    product_fio_waist_type_fashion_en:
+        source_field: '@product_fio_waist_type'
+        localized_catalog: '@fashion_en'
+        label: 'Waist type'
+    product_fio_waist_type_fashion_de:
+        source_field: '@product_fio_waist_type'
+        localized_catalog: '@fashion_de'
+        label: 'Bundform'
+    product_fio_stretch_fashion_fr:
+        source_field: '@product_fio_stretch'
+        localized_catalog: '@fashion_fr'
+        label: 'Stretch'
+    product_fio_stretch_fashion_en:
+        source_field: '@product_fio_stretch'
+        localized_catalog: '@fashion_en'
+        label: 'Stretch'
+    product_fio_stretch_fashion_de:
+        source_field: '@product_fio_stretch'
+        localized_catalog: '@fashion_de'
+        label: 'Stretch'
+    product_fio_men_size_fashion_fr:
+        source_field: '@product_fio_men_size'
+        localized_catalog: '@fashion_fr'
+        label: 'Taille homme'
+    product_fio_men_size_fashion_en:
+        source_field: '@product_fio_men_size'
+        localized_catalog: '@fashion_en'
+        label: 'Men''s size'
+    product_fio_men_size_fashion_de:
+        source_field: '@product_fio_men_size'
+        localized_catalog: '@fashion_de'
+        label: 'Herrengröße'
+    product_fio_men_fit_fashion_fr:
+        source_field: '@product_fio_men_fit'
+        localized_catalog: '@fashion_fr'
+        label: 'Coupe'
+    product_fio_men_fit_fashion_en:
+        source_field: '@product_fio_men_fit'
+        localized_catalog: '@fashion_en'
+        label: 'Fit'
+    product_fio_men_fit_fashion_de:
+        source_field: '@product_fio_men_fit'
+        localized_catalog: '@fashion_de'
+        label: 'Passform'
+    product_fio_men_collar_fashion_fr:
+        source_field: '@product_fio_men_collar'
+        localized_catalog: '@fashion_fr'
+        label: 'Col'
+    product_fio_men_collar_fashion_en:
+        source_field: '@product_fio_men_collar'
+        localized_catalog: '@fashion_en'
+        label: 'Collar'
+    product_fio_men_collar_fashion_de:
+        source_field: '@product_fio_men_collar'
+        localized_catalog: '@fashion_de'
+        label: 'Kragen'
+    product_fio_men_fabric_fashion_fr:
+        source_field: '@product_fio_men_fabric'
+        localized_catalog: '@fashion_fr'
+        label: 'Matière homme'
+    product_fio_men_fabric_fashion_en:
+        source_field: '@product_fio_men_fabric'
+        localized_catalog: '@fashion_en'
+        label: 'Men''s fabric'
+    product_fio_men_fabric_fashion_de:
+        source_field: '@product_fio_men_fabric'
+        localized_catalog: '@fashion_de'
+        label: 'Herrenstoff'
+    product_fio_wrinkle_free_fashion_fr:
+        source_field: '@product_fio_wrinkle_free'
+        localized_catalog: '@fashion_fr'
+        label: 'Infroissable'
+    product_fio_wrinkle_free_fashion_en:
+        source_field: '@product_fio_wrinkle_free'
+        localized_catalog: '@fashion_en'
+        label: 'Wrinkle-free'
+    product_fio_wrinkle_free_fashion_de:
+        source_field: '@product_fio_wrinkle_free'
+        localized_catalog: '@fashion_de'
+        label: 'Bügelfrei'
+    product_fio_outerwear_size_fashion_fr:
+        source_field: '@product_fio_outerwear_size'
+        localized_catalog: '@fashion_fr'
+        label: 'Taille manteau'
+    product_fio_outerwear_size_fashion_en:
+        source_field: '@product_fio_outerwear_size'
+        localized_catalog: '@fashion_en'
+        label: 'Coat size'
+    product_fio_outerwear_size_fashion_de:
+        source_field: '@product_fio_outerwear_size'
+        localized_catalog: '@fashion_de'
+        label: 'Mantelgröße'
+    product_fio_outerwear_length_fashion_fr:
+        source_field: '@product_fio_outerwear_length'
+        localized_catalog: '@fashion_fr'
+        label: 'Longueur manteau'
+    product_fio_outerwear_length_fashion_en:
+        source_field: '@product_fio_outerwear_length'
+        localized_catalog: '@fashion_en'
+        label: 'Coat length'
+    product_fio_outerwear_length_fashion_de:
+        source_field: '@product_fio_outerwear_length'
+        localized_catalog: '@fashion_de'
+        label: 'Mantellänge'
+    product_fio_outerwear_material_fashion_fr:
+        source_field: '@product_fio_outerwear_material'
+        localized_catalog: '@fashion_fr'
+        label: 'Matière extérieure'
+    product_fio_outerwear_material_fashion_en:
+        source_field: '@product_fio_outerwear_material'
+        localized_catalog: '@fashion_en'
+        label: 'Outer material'
+    product_fio_outerwear_material_fashion_de:
+        source_field: '@product_fio_outerwear_material'
+        localized_catalog: '@fashion_de'
+        label: 'Obermaterial'
+    product_fio_lining_fashion_fr:
+        source_field: '@product_fio_lining'
+        localized_catalog: '@fashion_fr'
+        label: 'Doublure'
+    product_fio_lining_fashion_en:
+        source_field: '@product_fio_lining'
+        localized_catalog: '@fashion_en'
+        label: 'Lining'
+    product_fio_lining_fashion_de:
+        source_field: '@product_fio_lining'
+        localized_catalog: '@fashion_de'
+        label: 'Futter'
+    product_fio_water_resistant_fashion_fr:
+        source_field: '@product_fio_water_resistant'
+        localized_catalog: '@fashion_fr'
+        label: 'Déperlant'
+    product_fio_water_resistant_fashion_en:
+        source_field: '@product_fio_water_resistant'
+        localized_catalog: '@fashion_en'
+        label: 'Water-resistant'
+    product_fio_water_resistant_fashion_de:
+        source_field: '@product_fio_water_resistant'
+        localized_catalog: '@fashion_de'
+        label: 'Wasserabweisend'
+    product_fio_shoe_size_fashion_fr:
+        source_field: '@product_fio_shoe_size'
+        localized_catalog: '@fashion_fr'
+        label: 'Pointure'
+    product_fio_shoe_size_fashion_en:
+        source_field: '@product_fio_shoe_size'
+        localized_catalog: '@fashion_en'
+        label: 'Shoe size'
+    product_fio_shoe_size_fashion_de:
+        source_field: '@product_fio_shoe_size'
+        localized_catalog: '@fashion_de'
+        label: 'Schuhgröße'
+    product_fio_heel_height_fashion_fr:
+        source_field: '@product_fio_heel_height'
+        localized_catalog: '@fashion_fr'
+        label: 'Hauteur de talon'
+    product_fio_heel_height_fashion_en:
+        source_field: '@product_fio_heel_height'
+        localized_catalog: '@fashion_en'
+        label: 'Heel height'
+    product_fio_heel_height_fashion_de:
+        source_field: '@product_fio_heel_height'
+        localized_catalog: '@fashion_de'
+        label: 'Absatzhöhe'
+    product_fio_shoe_material_fashion_fr:
+        source_field: '@product_fio_shoe_material'
+        localized_catalog: '@fashion_fr'
+        label: 'Matière chaussure'
+    product_fio_shoe_material_fashion_en:
+        source_field: '@product_fio_shoe_material'
+        localized_catalog: '@fashion_en'
+        label: 'Shoe material'
+    product_fio_shoe_material_fashion_de:
+        source_field: '@product_fio_shoe_material'
+        localized_catalog: '@fashion_de'
+        label: 'Schuhmaterial'
+    product_fio_sole_type_fashion_fr:
+        source_field: '@product_fio_sole_type'
+        localized_catalog: '@fashion_fr'
+        label: 'Type de semelle'
+    product_fio_sole_type_fashion_en:
+        source_field: '@product_fio_sole_type'
+        localized_catalog: '@fashion_en'
+        label: 'Sole type'
+    product_fio_sole_type_fashion_de:
+        source_field: '@product_fio_sole_type'
+        localized_catalog: '@fashion_de'
+        label: 'Sohlentyp'
+    product_fio_vegan_fashion_fr:
+        source_field: '@product_fio_vegan'
+        localized_catalog: '@fashion_fr'
+        label: 'Vegan'
+    product_fio_vegan_fashion_en:
+        source_field: '@product_fio_vegan'
+        localized_catalog: '@fashion_en'
+        label: 'Vegan'
+    product_fio_vegan_fashion_de:
+        source_field: '@product_fio_vegan'
+        localized_catalog: '@fashion_de'
+        label: 'Vegan'
+    product_fio_acc_material_fashion_fr:
+        source_field: '@product_fio_acc_material'
+        localized_catalog: '@fashion_fr'
+        label: 'Matière accessoire'
+    product_fio_acc_material_fashion_en:
+        source_field: '@product_fio_acc_material'
+        localized_catalog: '@fashion_en'
+        label: 'Accessory material'
+    product_fio_acc_material_fashion_de:
+        source_field: '@product_fio_acc_material'
+        localized_catalog: '@fashion_de'
+        label: 'Accessoire-Material'
+    product_fio_closure_fashion_fr:
+        source_field: '@product_fio_closure'
+        localized_catalog: '@fashion_fr'
+        label: 'Fermeture'
+    product_fio_closure_fashion_en:
+        source_field: '@product_fio_closure'
+        localized_catalog: '@fashion_en'
+        label: 'Closure'
+    product_fio_closure_fashion_de:
+        source_field: '@product_fio_closure'
+        localized_catalog: '@fashion_de'
+        label: 'Verschluss'
+    product_fio_handmade_fashion_fr:
+        source_field: '@product_fio_handmade'
+        localized_catalog: '@fashion_fr'
+        label: 'Fait main'
+    product_fio_handmade_fashion_en:
+        source_field: '@product_fio_handmade'
+        localized_catalog: '@fashion_en'
+        label: 'Handmade'
+    product_fio_handmade_fashion_de:
+        source_field: '@product_fio_handmade'
+        localized_catalog: '@fashion_de'
+        label: 'Handgefertigt'
+    product_fio_acc_color_fashion_fr:
+        source_field: '@product_fio_acc_color'
+        localized_catalog: '@fashion_fr'
+        label: 'Couleur accessoire'
+    product_fio_acc_color_fashion_en:
+        source_field: '@product_fio_acc_color'
+        localized_catalog: '@fashion_en'
+        label: 'Accessory colour'
+    product_fio_acc_color_fashion_de:
+        source_field: '@product_fio_acc_color'
+        localized_catalog: '@fashion_de'
+        label: 'Accessoire-Farbe'
+    product_fio_lingerie_size_fashion_fr:
+        source_field: '@product_fio_lingerie_size'
+        localized_catalog: '@fashion_fr'
+        label: 'Taille lingerie'
+    product_fio_lingerie_size_fashion_en:
+        source_field: '@product_fio_lingerie_size'
+        localized_catalog: '@fashion_en'
+        label: 'Lingerie size'
+    product_fio_lingerie_size_fashion_de:
+        source_field: '@product_fio_lingerie_size'
+        localized_catalog: '@fashion_de'
+        label: 'Wäschegröße'
+    product_fio_lingerie_material_fashion_fr:
+        source_field: '@product_fio_lingerie_material'
+        localized_catalog: '@fashion_fr'
+        label: 'Matière lingerie'
+    product_fio_lingerie_material_fashion_en:
+        source_field: '@product_fio_lingerie_material'
+        localized_catalog: '@fashion_en'
+        label: 'Lingerie material'
+    product_fio_lingerie_material_fashion_de:
+        source_field: '@product_fio_lingerie_material'
+        localized_catalog: '@fashion_de'
+        label: 'Wäsche-Material'
+    product_fio_lingerie_style_fashion_fr:
+        source_field: '@product_fio_lingerie_style'
+        localized_catalog: '@fashion_fr'
+        label: 'Style lingerie'
+    product_fio_lingerie_style_fashion_en:
+        source_field: '@product_fio_lingerie_style'
+        localized_catalog: '@fashion_en'
+        label: 'Style'
+    product_fio_lingerie_style_fashion_de:
+        source_field: '@product_fio_lingerie_style'
+        localized_catalog: '@fashion_de'
+        label: 'Stil'
+    product_fio_seamless_fashion_fr:
+        source_field: '@product_fio_seamless'
+        localized_catalog: '@fashion_fr'
+        label: 'Sans coutures'
+    product_fio_seamless_fashion_en:
+        source_field: '@product_fio_seamless'
+        localized_catalog: '@fashion_en'
+        label: 'Seamless'
+    product_fio_seamless_fashion_de:
+        source_field: '@product_fio_seamless'
+        localized_catalog: '@fashion_de'
+        label: 'Nahtlos'
+    product_fio_sport_size_fashion_fr:
+        source_field: '@product_fio_sport_size'
+        localized_catalog: '@fashion_fr'
+        label: 'Taille sport'
+    product_fio_sport_size_fashion_en:
+        source_field: '@product_fio_sport_size'
+        localized_catalog: '@fashion_en'
+        label: 'Sport size'
+    product_fio_sport_size_fashion_de:
+        source_field: '@product_fio_sport_size'
+        localized_catalog: '@fashion_de'
+        label: 'Sportgröße'
+    product_fio_sport_fabric_fashion_fr:
+        source_field: '@product_fio_sport_fabric'
+        localized_catalog: '@fashion_fr'
+        label: 'Tissu technique'
+    product_fio_sport_fabric_fashion_en:
+        source_field: '@product_fio_sport_fabric'
+        localized_catalog: '@fashion_en'
+        label: 'Technical fabric'
+    product_fio_sport_fabric_fashion_de:
+        source_field: '@product_fio_sport_fabric'
+        localized_catalog: '@fashion_de'
+        label: 'Funktionsstoff'
+    product_fio_sport_intensity_fashion_fr:
+        source_field: '@product_fio_sport_intensity'
+        localized_catalog: '@fashion_fr'
+        label: 'Intensité'
+    product_fio_sport_intensity_fashion_en:
+        source_field: '@product_fio_sport_intensity'
+        localized_catalog: '@fashion_en'
+        label: 'Intensity'
+    product_fio_sport_intensity_fashion_de:
+        source_field: '@product_fio_sport_intensity'
+        localized_catalog: '@fashion_de'
+        label: 'Intensität'
+    product_fio_uv_protection_fashion_fr:
+        source_field: '@product_fio_uv_protection'
+        localized_catalog: '@fashion_fr'
+        label: 'Protection UV'
+    product_fio_uv_protection_fashion_en:
+        source_field: '@product_fio_uv_protection'
+        localized_catalog: '@fashion_en'
+        label: 'UV protection'
+    product_fio_uv_protection_fashion_de:
+        source_field: '@product_fio_uv_protection'
+        localized_catalog: '@fashion_de'
+        label: 'UV-Schutz'
+    product_fio_quick_dry_fashion_fr:
+        source_field: '@product_fio_quick_dry'
+        localized_catalog: '@fashion_fr'
+        label: 'Séchage rapide'
+    product_fio_quick_dry_fashion_en:
+        source_field: '@product_fio_quick_dry'
+        localized_catalog: '@fashion_en'
+        label: 'Quick dry'
+    product_fio_quick_dry_fashion_de:
+        source_field: '@product_fio_quick_dry'
+        localized_catalog: '@fashion_de'
+        label: 'Schnelltrocknend'
+    product_fio_item_material_fashion_fr:
+        source_field: '@product_fio_item_material'
+        localized_catalog: '@fashion_fr'
+        label: 'Matière maroquinerie'
+    product_fio_item_material_fashion_en:
+        source_field: '@product_fio_item_material'
+        localized_catalog: '@fashion_en'
+        label: 'Leather goods material'
+    product_fio_item_material_fashion_de:
+        source_field: '@product_fio_item_material'
+        localized_catalog: '@fashion_de'
+        label: 'Lederwaren-Material'
+    product_fio_stone_fashion_fr:
+        source_field: '@product_fio_stone'
+        localized_catalog: '@fashion_fr'
+        label: 'Pierre'
+    product_fio_stone_fashion_en:
+        source_field: '@product_fio_stone'
+        localized_catalog: '@fashion_en'
+        label: 'Stone'
+    product_fio_stone_fashion_de:
+        source_field: '@product_fio_stone'
+        localized_catalog: '@fashion_de'
+        label: 'Stein'
+    product_fio_dimensions_fashion_fr:
+        source_field: '@product_fio_dimensions'
+        localized_catalog: '@fashion_fr'
+        label: 'Dimensions'
+    product_fio_dimensions_fashion_en:
+        source_field: '@product_fio_dimensions'
+        localized_catalog: '@fashion_en'
+        label: 'Dimensions'
+    product_fio_dimensions_fashion_de:
+        source_field: '@product_fio_dimensions'
+        localized_catalog: '@fashion_de'
+        label: 'Maße'
+    product_fio_hypoallergenic_fashion_fr:
+        source_field: '@product_fio_hypoallergenic'
+        localized_catalog: '@fashion_fr'
+        label: 'Hypoallergénique'
+    product_fio_hypoallergenic_fashion_en:
+        source_field: '@product_fio_hypoallergenic'
+        localized_catalog: '@fashion_en'
+        label: 'Hypoallergenic'
+    product_fio_hypoallergenic_fashion_de:
+        source_field: '@product_fio_hypoallergenic'
+        localized_catalog: '@fashion_de'
+        label: 'Hypoallergen'
+    product_fio_item_color_fashion_fr:
+        source_field: '@product_fio_item_color'
+        localized_catalog: '@fashion_fr'
+        label: 'Couleur article'
+    product_fio_item_color_fashion_en:
+        source_field: '@product_fio_item_color'
+        localized_catalog: '@fashion_en'
+        label: 'Item colour'
+    product_fio_item_color_fashion_de:
+        source_field: '@product_fio_item_color'
+        localized_catalog: '@fashion_de'
+        label: 'Artikelfarbe'
+    product_fio_brand_fashion_fr:
+        source_field: '@product_fio_brand'
+        localized_catalog: '@fashion_fr'
+        label: 'Marque'
+    product_fio_brand_fashion_en:
+        source_field: '@product_fio_brand'
+        localized_catalog: '@fashion_en'
+        label: 'Brand'
+    product_fio_brand_fashion_de:
+        source_field: '@product_fio_brand'
+        localized_catalog: '@fashion_de'
+        label: 'Marke'
+    product_type_id_fashion_fr:
+        source_field: '@product_type_id'
+        localized_catalog: '@fashion_fr'
+        label: 'Type de produit'
+    product_type_id_fashion_en:
+        source_field: '@product_type_id'
+        localized_catalog: '@fashion_en'
+        label: 'Product type'
+    product_type_id_fashion_de:
+        source_field: '@product_type_id'
+        localized_catalog: '@fashion_de'
+        label: 'Produkttyp'
+    product_indexed_attributes_fashion_fr:
+        source_field: '@product_indexed_attributes'
+        localized_catalog: '@fashion_fr'
+        label: 'Attributs indexés'
+    product_indexed_attributes_fashion_en:
+        source_field: '@product_indexed_attributes'
+        localized_catalog: '@fashion_en'
+        label: 'Indexed attributes'
+    product_indexed_attributes_fashion_de:
+        source_field: '@product_indexed_attributes'
+        localized_catalog: '@fashion_de'
+        label: 'Indexierte Attribute'
+    product_created_at_fashion_fr:
+        source_field: '@product_created_at'
+        localized_catalog: '@fashion_fr'
+        label: 'Date de création'
+    product_created_at_fashion_en:
+        source_field: '@product_created_at'
+        localized_catalog: '@fashion_en'
+        label: 'Created at'
+    product_created_at_fashion_de:
+        source_field: '@product_created_at'
+        localized_catalog: '@fashion_de'
+        label: 'Erstellt am'
+    product_configurable_attributes_fashion_fr:
+        source_field: '@product_configurable_attributes'
+        localized_catalog: '@fashion_fr'
+        label: 'Attributs configurables'
+    product_configurable_attributes_fashion_en:
+        source_field: '@product_configurable_attributes'
+        localized_catalog: '@fashion_en'
+        label: 'Configurable attributes'
+    product_configurable_attributes_fashion_de:
+        source_field: '@product_configurable_attributes'
+        localized_catalog: '@fashion_de'
+        label: 'Konfigurierbare Attribute'
+    product_url_key_fashion_fr:
+        source_field: '@product_url_key'
+        localized_catalog: '@fashion_fr'
+        label: 'Clé d''URL'
+    product_url_key_fashion_en:
+        source_field: '@product_url_key'
+        localized_catalog: '@fashion_en'
+        label: 'URL key'
+    product_url_key_fashion_de:
+        source_field: '@product_url_key'
+        localized_catalog: '@fashion_de'
+        label: 'URL-Schlüssel'
+    product_short_description_fashion_fr:
+        source_field: '@product_short_description'
+        localized_catalog: '@fashion_fr'
+        label: 'Description courte'
+    product_short_description_fashion_en:
+        source_field: '@product_short_description'
+        localized_catalog: '@fashion_en'
+        label: 'Short description'
+    product_short_description_fashion_de:
+        source_field: '@product_short_description'
+        localized_catalog: '@fashion_de'
+        label: 'Kurzbeschreibung'
+    product_visibility_fashion_fr:
+        source_field: '@product_visibility'
+        localized_catalog: '@fashion_fr'
+        label: 'Visibilité'
+    product_visibility_fashion_en:
+        source_field: '@product_visibility'
+        localized_catalog: '@fashion_en'
+        label: 'Visibility'
+    product_visibility_fashion_de:
+        source_field: '@product_visibility'
+        localized_catalog: '@fashion_de'
+        label: 'Sichtbarkeit'
+    product_weight_fashion_fr:
+        source_field: '@product_weight'
+        localized_catalog: '@fashion_fr'
+        label: 'Poids'
+    product_weight_fashion_en:
+        source_field: '@product_weight'
+        localized_catalog: '@fashion_en'
+        label: 'Weight'
+    product_weight_fashion_de:
+        source_field: '@product_weight'
+        localized_catalog: '@fashion_de'
+        label: 'Gewicht'
+    product_cost_fashion_fr:
+        source_field: '@product_cost'
+        localized_catalog: '@fashion_fr'
+        label: 'Coût'
+    product_cost_fashion_en:
+        source_field: '@product_cost'
+        localized_catalog: '@fashion_en'
+        label: 'Cost'
+    product_cost_fashion_de:
+        source_field: '@product_cost'
+        localized_catalog: '@fashion_de'
+        label: 'Kosten'
+    product_new_fashion_fr:
+        source_field: '@product_new'
+        localized_catalog: '@fashion_fr'
+        label: 'Nouveauté'
+    product_new_fashion_en:
+        source_field: '@product_new'
+        localized_catalog: '@fashion_en'
+        label: 'New'
+    product_new_fashion_de:
+        source_field: '@product_new'
+        localized_catalog: '@fashion_de'
+        label: 'Neu'
+    product_sale_fashion_fr:
+        source_field: '@product_sale'
+        localized_catalog: '@fashion_fr'
+        label: 'En promotion'
+    product_sale_fashion_en:
+        source_field: '@product_sale'
+        localized_catalog: '@fashion_en'
+        label: 'On sale'
+    product_sale_fashion_de:
+        source_field: '@product_sale'
+        localized_catalog: '@fashion_de'
+        label: 'Im Angebot'

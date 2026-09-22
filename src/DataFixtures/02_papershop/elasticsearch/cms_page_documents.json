@@ -1,0 +1,2159 @@
+[
+  {
+    "index_name": "gally_localized_catalog_papershop_fr_cms_page",
+    "documents": [
+      {
+        "id": "1",
+        "title": "Le grammage, et pourquoi 80 g ne suffit pas toujours",
+        "content_heading": "Le chiffre en g/m² dit le poids du papier, pas sa qualité. Voici ce qu'il change vraiment.",
+        "content": "<p><strong>Un papier plus lourd n'est pas un meilleur papier, il est simplement plus épais.</strong></p><ul><li>80 g/m² convient au brouillon et au recto simple. En recto verso, le texte transparaît.</li><li>90 à 100 g/m² est le bon compromis pour un cahier que l'on garde.</li><li>Au-delà de 160 g/m², on ne parle plus d'écriture mais de dessin.</li></ul><p>Regardez aussi l'opacité, indiquée séparément. Deux papiers de 90 g peuvent transparaître très différemment.</p>",
+        "url_key": "le_grammage_et_pourquoi_80_g_ne_suffit_pas_toujours.html",
+        "meta_description": "Le chiffre en g/m² dit le poids du papier, pas sa qualité. Voici ce qu'il change vraiment.",
+        "meta_keyword": "papier, grammage, cahier",
+        "meta_title": "Le grammage, et pourquoi 80 g ne suffit pas toujours",
+        "tags": [
+          {
+            "value": "llv_paper",
+            "label": "Papier"
+          },
+          {
+            "value": "llv_notebooks",
+            "label": "Carnets"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "llv_paper_choice",
+          "label": "Choisir son papier"
+        },
+        "author": {
+          "value": "llv_elise_marchand",
+          "label": "Élise Marchand"
+        },
+        "published_at": "@now:-3d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "/l/l/llv-pap-mac-002.jpg",
+        "related_skus": [
+          "LLV-PAP-MAC-002",
+          "LLV-PAP-MAC-003",
+          "LLV-PAP-DES-001"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Seyès, ligné, pointillé : quelle réglure pour quel usage",
+        "content_heading": "La réglure décide de la vitesse d'écriture bien plus que le stylo.",
+        "content": "<p><strong>On choisit une réglure pour ce qu'on écrit, pas pour l'habitude.</strong></p><ul><li>Le Seyès tient l'écriture cursive et reste la référence à l'école.</li><li>Le ligné simple laisse plus de liberté et fatigue moins sur des pages longues.</li><li>Le pointillé sert au croquis, au tableau et à la prise de notes mêlée.</li></ul><p>Le quadrillé 5 mm reste le seul vrai choix pour les mathématiques et les schémas cotés.</p>",
+        "url_key": "seyes_ligne_pointille_quelle_reglure_pour_quel_usage.html",
+        "meta_description": "La réglure décide de la vitesse d'écriture bien plus que le stylo.",
+        "meta_keyword": "réglure, seyès, cahier",
+        "meta_title": "Seyès, ligné, pointillé : quelle réglure pour quel usage",
+        "tags": [
+          {
+            "value": "llv_notebooks",
+            "label": "Carnets"
+          },
+          {
+            "value": "llv_paper",
+            "label": "Papier"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "llv_paper_choice",
+          "label": "Choisir son papier"
+        },
+        "author": {
+          "value": "llv_elise_marchand",
+          "label": "Élise Marchand"
+        },
+        "published_at": "@now:-11d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "/l/l/llv-pap-cah-001.jpg",
+        "related_skus": [
+          "LLV-PAP-CAH-001",
+          "LLV-PAP-CAH-002",
+          "LLV-PAP-CAH-008"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Entretenir un stylo plume sans le démonter",
+        "content_heading": "Trois gestes suffisent, et aucun ne demande d'outil.",
+        "content": "<p><strong>Une plume qui saute est presque toujours une plume sèche, pas une plume abîmée.</strong></p><ul><li>Rincez le conduit à l'eau tiède dès que vous changez de couleur d'encre.</li><li>Rangez le stylo pointe en haut si vous ne l'utilisez pas de la semaine.</li><li>N'utilisez jamais d'encre pigmentée dans une plume ancienne : elle sèche dans le conduit.</li></ul><p>Si le débit reste irrégulier après un rinçage, laissez tremper la section une nuit dans l'eau claire.</p>",
+        "url_key": "entretenir_un_stylo_plume_sans_le_demonter.html",
+        "meta_description": "Trois gestes suffisent, et aucun ne demande d'outil.",
+        "meta_keyword": "stylo plume, entretien, encre",
+        "meta_title": "Entretenir un stylo plume sans le démonter",
+        "tags": [
+          {
+            "value": "llv_fountain_pens",
+            "label": "Stylos plume"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "llv_writing",
+          "label": "Écriture"
+        },
+        "author": {
+          "value": "llv_thomas_reverdy",
+          "label": "Thomas Reverdy"
+        },
+        "published_at": "@now:-6d",
+        "reading_time": 7,
+        "is_featured": true,
+        "image": "/l/l/llv-pap-plu-001.jpg",
+        "related_skus": [
+          "LLV-PAP-PLU-001",
+          "LLV-PAP-PLU-002",
+          "LLV-PAP-ENC-001"
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Encres lavables : ce que cela veut dire vraiment",
+        "content_heading": "Lavable ne veut pas dire effaçable, et surtout pas permanent.",
+        "content": "<p><strong>Une encre lavable part au lavage sur du coton, pas sur la page.</strong></p><ul><li>Elle protège les vêtements et les mains, ce qui compte à l'école.</li><li>Elle n'est pas faite pour un document que l'on archive dix ans.</li><li>Elle sèche plus lentement, donc elle bave davantage sous une main gauche.</li></ul><p>Pour un registre ou un contrat, prenez une encre dite permanente et acceptez le nettoyage plus fréquent.</p>",
+        "url_key": "encres_lavables_ce_que_cela_veut_dire_vraiment.html",
+        "meta_description": "Lavable ne veut pas dire effaçable, et surtout pas permanent.",
+        "meta_keyword": "encre, lavable, plume",
+        "meta_title": "Encres lavables : ce que cela veut dire vraiment",
+        "tags": [
+          {
+            "value": "llv_fountain_pens",
+            "label": "Stylos plume"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "llv_writing",
+          "label": "Écriture"
+        },
+        "author": {
+          "value": "llv_thomas_reverdy",
+          "label": "Thomas Reverdy"
+        },
+        "published_at": "@now:-19d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "/l/l/llv-pap-enc-003.jpg",
+        "related_skus": [
+          "LLV-PAP-ENC-001",
+          "LLV-PAP-ENC-003",
+          "LLV-PAP-ENC-005"
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Monter une bibliothèque qui ne plie pas sous les livres",
+        "content_heading": "Une tablette de plus d'un mètre plie. La question est de combien, et en combien de temps.",
+        "content": "<p><strong>Le fléchissement dépend de la portée au cube, pas du poids seul.</strong></p><ul><li>Au-delà de 80 cm entre deux montants, ajoutez un support central.</li><li>Une tablette de 32 mm en chêne massif tient là où un panneau de 18 mm cède.</li><li>Fixez le meuble au mur : une bibliothèque pleine bascule vers l'avant, pas vers l'arrière.</li></ul><p>Chargez les rayons du bas en premier. Le centre de gravité descend et le meuble se stabilise.</p>",
+        "url_key": "monter_une_bibliotheque_qui_ne_plie_pas_sous_les_livres.html",
+        "meta_description": "Une tablette de plus d'un mètre plie. La question est de combien, et en combien de temps.",
+        "meta_keyword": "bibliothèque, tablette, montage",
+        "meta_title": "Monter une bibliothèque qui ne plie pas sous les livres",
+        "tags": [
+          {
+            "value": "llv_bookcases",
+            "label": "Bibliothèques"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "llv_furniture_care",
+          "label": "Entretien du mobilier"
+        },
+        "author": {
+          "value": "llv_julien_ferrand",
+          "label": "Julien Ferrand"
+        },
+        "published_at": "@now:-2d",
+        "reading_time": 8,
+        "is_featured": true,
+        "image": "/l/l/llv-mob-bib-002.jpg",
+        "related_skus": [
+          "LLV-MOB-BIB-001",
+          "LLV-MOB-BIB-002",
+          "LLV-MOB-BIB-007"
+        ]
+      },
+      {
+        "id": "6",
+        "title": "Chêne, hêtre ou noyer : ce qui les sépare à l'usage",
+        "content_heading": "Trois bois durs, trois comportements, et un écart de prix qui s'explique.",
+        "content": "<p><strong>Le bois le plus dur n'est pas celui qui vieillit le mieux.</strong></p><ul><li>Le chêne marque peu, supporte l'humidité et fonce lentement à la lumière.</li><li>Le hêtre coûte moins cher et se travaille bien, mais il bouge dans une pièce mal chauffée.</li><li>Le noyer est tendre et se raye, en échange d'une couleur que rien n'imite.</li></ul><p>Quel que soit le bois, une huile dure passée une fois par an suffit largement.</p>",
+        "url_key": "chene_hetre_ou_noyer_ce_qui_les_separe_a_l_usage.html",
+        "meta_description": "Trois bois durs, trois comportements, et un écart de prix qui s'explique.",
+        "meta_keyword": "chêne, hêtre, noyer, bois",
+        "meta_title": "Chêne, hêtre ou noyer : ce qui les sépare à l'usage",
+        "tags": [
+          {
+            "value": "llv_desks",
+            "label": "Bureaux"
+          },
+          {
+            "value": "llv_bookcases",
+            "label": "Bibliothèques"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "llv_furniture_care",
+          "label": "Entretien du mobilier"
+        },
+        "author": {
+          "value": "llv_julien_ferrand",
+          "label": "Julien Ferrand"
+        },
+        "published_at": "@now:-26d",
+        "reading_time": 7,
+        "is_featured": false,
+        "image": "/l/l/llv-mob-bur-003.jpg",
+        "related_skus": [
+          "LLV-MOB-BUR-001",
+          "LLV-MOB-BUR-003",
+          "LLV-MOB-BIB-004"
+        ]
+      },
+      {
+        "id": "7",
+        "title": "Régler un bureau assis-debout à la bonne hauteur",
+        "content_heading": "Deux repères suffisent : le coude et l'écran. Le reste suit.",
+        "content": "<p><strong>La bonne hauteur est celle où l'avant-bras est horizontal, debout comme assis.</strong></p><ul><li>Coudes à 90 degrés, épaules relâchées : c'est la hauteur du plateau.</li><li>Le haut de l'écran doit arriver au niveau des yeux, pas plus haut.</li><li>Alternez toutes les quarante-cinq minutes. Rester debout trois heures ne vaut pas mieux que rester assis.</li></ul><p>Mémorisez les deux positions dès le premier jour, sinon vous ne changerez jamais de posture.</p>",
+        "url_key": "regler_un_bureau_assis_debout_a_la_bonne_hauteur.html",
+        "meta_description": "Deux repères suffisent : le coude et l'écran. Le reste suit.",
+        "meta_keyword": "bureau assis-debout, ergonomie, hauteur",
+        "meta_title": "Régler un bureau assis-debout à la bonne hauteur",
+        "tags": [
+          {
+            "value": "llv_desks",
+            "label": "Bureaux"
+          },
+          {
+            "value": "llv_ergonomics",
+            "label": "Ergonomie"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "llv_workspace",
+          "label": "Espace de travail"
+        },
+        "author": {
+          "value": "llv_nadia_belkacem",
+          "label": "Nadia Belkacem"
+        },
+        "published_at": "@now:-8d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "/l/l/llv-mob-asd-001.jpg",
+        "related_skus": [
+          "LLV-MOB-ASD-001",
+          "LLV-MOB-ASD-004",
+          "LLV-MOB-CHB-001"
+        ]
+      },
+      {
+        "id": "8",
+        "title": "Éclairer un plan de travail sans fatiguer les yeux",
+        "content_heading": "Ce n'est pas une question de puissance mais de direction et de contraste.",
+        "content": "<p><strong>Une lampe trop forte dans une pièce sombre fatigue plus qu'une lampe faible dans une pièce claire.</strong></p><ul><li>Placez la lampe du côté opposé à la main qui écrit, pour ne pas travailler dans son ombre.</li><li>Gardez une lumière d'ambiance allumée : l'écart entre la page et le mur est ce qui fatigue.</li><li>Choisissez 4000 K le jour et descendez vers 2700 K le soir.</li></ul><p>Vérifiez l'absence de scintillement en filmant la lampe avec un téléphone : les bandes se voient tout de suite.</p>",
+        "url_key": "eclairer_un_plan_de_travail_sans_fatiguer_les_yeux.html",
+        "meta_description": "Ce n'est pas une question de puissance mais de direction et de contraste.",
+        "meta_keyword": "lampe de bureau, éclairage, lumière",
+        "meta_title": "Éclairer un plan de travail sans fatiguer les yeux",
+        "tags": [
+          {
+            "value": "llv_lighting",
+            "label": "Éclairage"
+          },
+          {
+            "value": "llv_ergonomics",
+            "label": "Ergonomie"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "llv_workspace",
+          "label": "Espace de travail"
+        },
+        "author": {
+          "value": "llv_nadia_belkacem",
+          "label": "Nadia Belkacem"
+        },
+        "published_at": "@now:-14d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "/l/l/llv-mob-lam-001.jpg",
+        "related_skus": [
+          "LLV-MOB-LAM-001",
+          "LLV-MOB-LAM-004",
+          "LLV-MOB-LIS-001"
+        ]
+      },
+      {
+        "id": "9",
+        "title": "Ce que veut dire « domaine public » sur une couverture",
+        "content_heading": "L'œuvre est libre, l'édition ne l'est pas toujours. La différence se voit au prix.",
+        "content": "<p><strong>Un texte du domaine public appartient à tout le monde, mais la traduction et l'appareil critique appartiennent à quelqu'un.</strong></p><ul><li>Le texte original de 1813 est libre. Une traduction de 1998 ne l'est pas.</li><li>Les notes, la préface et la mise en page sont un travail éditorial protégé.</li><li>Deux éditions du même roman peuvent donc légitimement varier du simple au triple.</li></ul><p>Regardez la date de la traduction avant de comparer deux prix : c'est souvent là que se joue l'écart.</p>",
+        "url_key": "ce_que_veut_dire_domaine_public_sur_une_couverture.html",
+        "meta_description": "L'œuvre est libre, l'édition ne l'est pas toujours. La différence se voit au prix.",
+        "meta_keyword": "domaine public, édition, traduction",
+        "meta_title": "Ce que veut dire « domaine public » sur une couverture",
+        "tags": [
+          {
+            "value": "llv_public_domain",
+            "label": "Domaine public"
+          },
+          {
+            "value": "llv_classics",
+            "label": "Classiques"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "llv_reading",
+          "label": "Lecture"
+        },
+        "author": {
+          "value": "llv_margaux_dubreuil",
+          "label": "Margaux Dubreuil"
+        },
+        "published_at": "@now:-5d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "/l/l/llv-liv-cla-001.jpg",
+        "related_skus": [
+          "LLV-LIV-CLA-001",
+          "LLV-LIV-CLA-002",
+          "LLV-LIV-POE-001"
+        ]
+      },
+      {
+        "id": "10",
+        "title": "Par où commencer quand les classiques font peur",
+        "content_heading": "Commencer par le plus court plutôt que par le plus célèbre change tout.",
+        "content": "<p><strong>Le premier classique ne doit pas être le plus grand, il doit être fini.</strong></p><ul><li>Un roman d'aventure de trois cents pages passe mieux qu'un chef-d'œuvre de mille.</li><li>Une édition à la mise en page aérée se lit deux fois plus vite qu'une édition compacte.</li><li>Abandonner un livre après cinquante pages n'est pas un échec, c'est un tri.</li></ul><p>Gardez les monuments pour plus tard. Ils seront toujours là, et vous les lirez mieux.</p>",
+        "url_key": "par_ou_commencer_quand_les_classiques_font_peur.html",
+        "meta_description": "Commencer par le plus court plutôt que par le plus célèbre change tout.",
+        "meta_keyword": "classiques, lecture, débuter",
+        "meta_title": "Par où commencer quand les classiques font peur",
+        "tags": [
+          {
+            "value": "llv_classics",
+            "label": "Classiques"
+          },
+          {
+            "value": "llv_gift_ideas",
+            "label": "Idées cadeaux"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "llv_reading",
+          "label": "Lecture"
+        },
+        "author": {
+          "value": "llv_margaux_dubreuil",
+          "label": "Margaux Dubreuil"
+        },
+        "published_at": "@now:-22d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "/l/l/llv-liv-sff-001.jpg",
+        "related_skus": [
+          "LLV-LIV-SFF-001",
+          "LLV-LIV-ADO-001",
+          "LLV-LIV-CLA-005"
+        ]
+      },
+      {
+        "id": "11",
+        "title": "Broché, relié, dos carré collé : lequel dure",
+        "content_heading": "La reliure décide si le livre s'ouvre à plat et s'il survit à dix lectures.",
+        "content": "<p><strong>Un dos carré collé finit toujours par lâcher, la question est après combien d'ouvertures.</strong></p><ul><li>Le cousu s'ouvre à plat et se répare. C'est le seul qui vieillit vraiment bien.</li><li>Le collé coûte moins cher et convient à un livre qu'on lit une fois.</li><li>Le relié protège les tranches, ce qui compte pour un ouvrage debout sur une étagère.</li></ul><p>Pliez légèrement le livre en librairie : si le dos craque au premier essai, il craquera chez vous.</p>",
+        "url_key": "broche_relie_dos_carre_colle_lequel_dure.html",
+        "meta_description": "La reliure décide si le livre s'ouvre à plat et s'il survit à dix lectures.",
+        "meta_keyword": "reliure, broché, relié",
+        "meta_title": "Broché, relié, dos carré collé : lequel dure",
+        "tags": [
+          {
+            "value": "llv_classics",
+            "label": "Classiques"
+          },
+          {
+            "value": "llv_notebooks",
+            "label": "Carnets"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "llv_bookbinding",
+          "label": "Reliure"
+        },
+        "author": {
+          "value": "llv_elise_marchand",
+          "label": "Élise Marchand"
+        },
+        "published_at": "@now:-31d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "/l/l/llv-liv-cla-002.jpg",
+        "related_skus": [
+          "LLV-LIV-CLA-002",
+          "LLV-LIV-CLA-006",
+          "LLV-PAP-CAH-004"
+        ]
+      },
+      {
+        "id": "12",
+        "title": "Réparer une reliure abîmée sans la recoller entièrement",
+        "content_heading": "Un cahier détaché se recoud. Une page arrachée se recolle. Le reste attend un relieur.",
+        "content": "<p><strong>La colle blanche ordinaire est ce qui abîme le plus de livres chaque année.</strong></p><ul><li>Utilisez une colle réversible à base d'amidon, jamais une colle universelle.</li><li>Réparez les déchirures avec un papier japonais fin, dans le sens de la fibre.</li><li>Ne serrez jamais un livre humide dans une presse : la page gaufre en séchant.</li></ul><p>Si le mors est fendu sur toute la hauteur, arrêtez-vous là. Une réparation ratée coûte plus cher qu'un devis.</p>",
+        "url_key": "reparer_une_reliure_abimee_sans_la_recoller_entierement.html",
+        "meta_description": "Un cahier détaché se recoud. Une page arrachée se recolle. Le reste attend un relieur.",
+        "meta_keyword": "reliure, réparation, colle",
+        "meta_title": "Réparer une reliure abîmée sans la recoller entièrement",
+        "tags": [
+          {
+            "value": "llv_classics",
+            "label": "Classiques"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "llv_bookbinding",
+          "label": "Reliure"
+        },
+        "author": {
+          "value": "llv_elise_marchand",
+          "label": "Élise Marchand"
+        },
+        "published_at": "@now:-44d",
+        "reading_time": 8,
+        "is_featured": false,
+        "image": "/l/l/llv-liv-nou-004.jpg",
+        "related_skus": [
+          "LLV-LIV-NOU-004",
+          "LLV-LIV-HIS-001",
+          "LLV-LIV-CLA-008"
+        ]
+      },
+      {
+        "id": "13",
+        "title": "Un carnet de croquis qui tient l'aquarelle",
+        "content_heading": "En dessous de 200 g/m², la feuille gondole et le lavis tourne au désastre.",
+        "content": "<p><strong>Le grammage compte, mais l'encollage compte davantage.</strong></p><ul><li>Un papier bien encollé retient l'eau en surface et laisse le temps de travailler.</li><li>Le grain fin convient au trait, le grain torchon aux grands aplats.</li><li>Un carnet cousu s'ouvre à plat, ce qui permet de peindre sur la double page.</li></ul><p>Testez toujours sur la dernière feuille avant d'attaquer la première : les lots varient.</p>",
+        "url_key": "un_carnet_de_croquis_qui_tient_l_aquarelle.html",
+        "meta_description": "En dessous de 200 g/m², la feuille gondole et le lavis tourne au désastre.",
+        "meta_keyword": "carnet de croquis, aquarelle, papier",
+        "meta_title": "Un carnet de croquis qui tient l'aquarelle",
+        "tags": [
+          {
+            "value": "llv_paper",
+            "label": "Papier"
+          },
+          {
+            "value": "llv_notebooks",
+            "label": "Carnets"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "llv_paper_choice",
+          "label": "Choisir son papier"
+        },
+        "author": {
+          "value": "llv_thomas_reverdy",
+          "label": "Thomas Reverdy"
+        },
+        "published_at": "@now:-17d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "/l/l/llv-pap-cro-002.jpg",
+        "related_skus": [
+          "LLV-PAP-CRO-001",
+          "LLV-PAP-CRO-002",
+          "LLV-PAP-DES-003"
+        ]
+      },
+      {
+        "id": "14",
+        "title": "Choisir une chaise de bureau sans se fier au nombre de réglages",
+        "content_heading": "Trois réglages bien placés valent mieux que douze qu'on ne touchera jamais.",
+        "content": "<p><strong>Une chaise se juge à la profondeur d'assise, pas à la longueur de la fiche technique.</strong></p><ul><li>Il doit rester deux doigts entre le bord de l'assise et l'arrière du genou.</li><li>Le soutien lombaire doit se régler en hauteur, pas seulement en profondeur.</li><li>Des accoudoirs trop hauts font remonter les épaules : mieux vaut pas d'accoudoirs du tout.</li></ul><p>Asseyez-vous vingt minutes avant de décider. Une chaise confortable en trente secondes ne prouve rien.</p>",
+        "url_key": "choisir_une_chaise_de_bureau_sans_se_fier_au_nombre_de_reglages.html",
+        "meta_description": "Trois réglages bien placés valent mieux que douze qu'on ne touchera jamais.",
+        "meta_keyword": "chaise de bureau, ergonomie, assise",
+        "meta_title": "Choisir une chaise de bureau sans se fier au nombre de réglages",
+        "tags": [
+          {
+            "value": "llv_ergonomics",
+            "label": "Ergonomie"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Guide d'achat"
+        },
+        "topic": {
+          "value": "llv_workspace",
+          "label": "Espace de travail"
+        },
+        "author": {
+          "value": "llv_nadia_belkacem",
+          "label": "Nadia Belkacem"
+        },
+        "published_at": "@now:-9d",
+        "reading_time": 7,
+        "is_featured": false,
+        "image": "/l/l/llv-mob-chb-002.jpg",
+        "related_skus": [
+          "LLV-MOB-CHB-001",
+          "LLV-MOB-CHB-002",
+          "LLV-MOB-CHB-008"
+        ]
+      },
+      {
+        "id": "15",
+        "title": "Ranger cinq cents livres dans huit mètres carrés",
+        "content_heading": "La hauteur est la seule ressource qu'on oublie systématiquement.",
+        "content": "<p><strong>Cinq cents volumes tiennent sur vingt mètres linéaires, et vingt mètres tiennent sur un seul mur.</strong></p><ul><li>Montez jusqu'au plafond et gardez les trente derniers centimètres pour ce qui sert une fois par an.</li><li>Une profondeur de 22 cm suffit pour du poche : 32 cm ne sert qu'aux beaux livres.</li><li>Rangez par format avant de ranger par sujet. Les rayons perdus disparaissent.</li></ul><p>Une étagère murale au-dessus de la porte récupère un mètre linéaire que personne ne voit.</p>",
+        "url_key": "ranger_cinq_cents_livres_dans_huit_metres_carres.html",
+        "meta_description": "La hauteur est la seule ressource qu'on oublie systématiquement.",
+        "meta_keyword": "rangement, étagère, livres",
+        "meta_title": "Ranger cinq cents livres dans huit mètres carrés",
+        "tags": [
+          {
+            "value": "llv_bookcases",
+            "label": "Bibliothèques"
+          },
+          {
+            "value": "llv_desks",
+            "label": "Bureaux"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "llv_workspace",
+          "label": "Espace de travail"
+        },
+        "author": {
+          "value": "llv_julien_ferrand",
+          "label": "Julien Ferrand"
+        },
+        "published_at": "@now:-37d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "/l/l/llv-mob-eta-004.jpg",
+        "related_skus": [
+          "LLV-MOB-ETA-001",
+          "LLV-MOB-ETA-004",
+          "LLV-MOB-CAI-003"
+        ]
+      },
+      {
+        "id": "16",
+        "title": "Offrir un livre à quelqu'un dont on ignore les goûts",
+        "content_heading": "Un beau livre passe partout. Un roman contemporain, presque jamais.",
+        "content": "<p><strong>Le risque n'est pas d'offrir un mauvais livre, c'est d'offrir un livre déjà lu.</strong></p><ul><li>Un beau livre illustré ne se relit pas, donc il ne se double pas.</li><li>Un classique en édition soignée fait plaisir même à qui l'a déjà en poche.</li><li>Un album jeunesse marche à tout âge, ce que personne n'admet volontiers.</li></ul><p>Évitez les intégrales : elles engagent le lecteur pour six mois sans lui demander son avis.</p>",
+        "url_key": "offrir_un_livre_a_quelqu_un_dont_on_ignore_les_gouts.html",
+        "meta_description": "Un beau livre passe partout. Un roman contemporain, presque jamais.",
+        "meta_keyword": "cadeau, livre, beau livre",
+        "meta_title": "Offrir un livre à quelqu'un dont on ignore les goûts",
+        "tags": [
+          {
+            "value": "llv_gift_ideas",
+            "label": "Idées cadeaux"
+          },
+          {
+            "value": "llv_classics",
+            "label": "Classiques"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "llv_reading",
+          "label": "Lecture"
+        },
+        "author": {
+          "value": "llv_margaux_dubreuil",
+          "label": "Margaux Dubreuil"
+        },
+        "published_at": "@now:-12d",
+        "reading_time": 4,
+        "is_featured": true,
+        "image": "/l/l/llv-liv-alb-003.jpg",
+        "related_skus": [
+          "LLV-LIV-ALB-003",
+          "LLV-LIV-ART-002",
+          "LLV-LIV-POE-001"
+        ]
+      },
+      {
+        "id": "17",
+        "title": "Le papier recyclé passe-t-il vraiment en imprimante",
+        "content_heading": "Oui, depuis longtemps. Ce qui bourre, c'est l'humidité, pas le recyclé.",
+        "content": "<p><strong>Un papier recyclé de 80 g/m² se comporte comme un papier vierge du même grammage.</strong></p><ul><li>Rangez la ramette à plat, dans son emballage, loin d'un mur froid.</li><li>Une teinte légèrement grise n'indique pas une moindre qualité, seulement moins de blanchiment.</li><li>En laser, laissez le papier prendre la température de la pièce une heure avant.</li></ul><p>Si les bourrages persistent, le rouleau d'entraînement est plus souvent en cause que la ramette.</p>",
+        "url_key": "le_papier_recycle_passe_t_il_vraiment_en_imprimante.html",
+        "meta_description": "Oui, depuis longtemps. Ce qui bourre, c'est l'humidité, pas le recyclé.",
+        "meta_keyword": "papier recyclé, imprimante, ramette",
+        "meta_title": "Le papier recyclé passe-t-il vraiment en imprimante",
+        "tags": [
+          {
+            "value": "llv_paper",
+            "label": "Papier"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "llv_paper_choice",
+          "label": "Choisir son papier"
+        },
+        "author": {
+          "value": "llv_elise_marchand",
+          "label": "Élise Marchand"
+        },
+        "published_at": "@now:-28d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "/l/l/llv-pap-mac-001.jpg",
+        "related_skus": [
+          "LLV-PAP-MAC-001",
+          "LLV-PAP-MAC-004",
+          "LLV-PAP-MAC-007"
+        ]
+      },
+      {
+        "id": "18",
+        "title": "Une liseuse qui ne réveille pas la personne à côté",
+        "content_heading": "Ce qui compte n'est pas la puissance mais l'angle du faisceau.",
+        "content": "<p><strong>Une bonne liseuse éclaire une page et rien d'autre.</strong></p><ul><li>Cherchez un faisceau de trente degrés au plus, avec un réflecteur profond.</li><li>Un variateur au pied évite de chercher l'interrupteur dans le noir.</li><li>Une température de 2700 K perturbe moins le sommeil qu'une lumière froide.</li></ul><p>Placez la tête à hauteur d'épaule, légèrement en arrière : la page est éclairée, le visage ne l'est pas.</p>",
+        "url_key": "une_liseuse_qui_ne_reveille_pas_la_personne_a_cote.html",
+        "meta_description": "Ce qui compte n'est pas la puissance mais l'angle du faisceau.",
+        "meta_keyword": "liseuse, lecture, éclairage",
+        "meta_title": "Une liseuse qui ne réveille pas la personne à côté",
+        "tags": [
+          {
+            "value": "llv_lighting",
+            "label": "Éclairage"
+          },
+          {
+            "value": "llv_gift_ideas",
+            "label": "Idées cadeaux"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Article de blog"
+        },
+        "topic": {
+          "value": "llv_workspace",
+          "label": "Espace de travail"
+        },
+        "author": {
+          "value": "llv_nadia_belkacem",
+          "label": "Nadia Belkacem"
+        },
+        "published_at": "@now:-48d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "/l/l/llv-mob-lis-002.jpg",
+        "related_skus": [
+          "LLV-MOB-LIS-001",
+          "LLV-MOB-LIS-002",
+          "LLV-MOB-FAU-001"
+        ]
+      }
+    ]
+  },
+  {
+    "index_name": "gally_localized_catalog_papershop_en_cms_page",
+    "documents": [
+      {
+        "id": "1",
+        "title": "Paper weight, and why 80 gsm is not always enough",
+        "content_heading": "The gsm figure tells you the weight of the paper, not its quality. Here is what it actually changes.",
+        "content": "<p><strong>Heavier paper is not better paper, it is simply thicker.</strong></p><ul><li>80 gsm is fine for drafts and single-sided printing. Print both sides and the text shows through.</li><li>90 to 100 gsm is the right compromise for a notebook you intend to keep.</li><li>Past 160 gsm you are no longer talking about writing but about drawing.</li></ul><p>Check opacity too, which is quoted separately. Two 90 gsm sheets can show through very differently.</p>",
+        "url_key": "paper_weight_and_why_80_gsm_is_not_always_enough.html",
+        "meta_description": "The gsm figure tells you the weight of the paper, not its quality. Here is what it actually changes.",
+        "meta_keyword": "paper, gsm, notebook",
+        "meta_title": "Paper weight, and why 80 gsm is not always enough",
+        "tags": [
+          {
+            "value": "llv_paper",
+            "label": "Paper"
+          },
+          {
+            "value": "llv_notebooks",
+            "label": "Notebooks"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying guide"
+        },
+        "topic": {
+          "value": "llv_paper_choice",
+          "label": "Choosing paper"
+        },
+        "author": {
+          "value": "llv_elise_marchand",
+          "label": "Élise Marchand"
+        },
+        "published_at": "@now:-3d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "/l/l/llv-pap-mac-002.jpg",
+        "related_skus": [
+          "LLV-PAP-MAC-002",
+          "LLV-PAP-MAC-003",
+          "LLV-PAP-DES-001"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "French ruled, lined or dotted: which ruling for which use",
+        "content_heading": "The ruling decides your writing speed far more than the pen does.",
+        "content": "<p><strong>Pick a ruling for what you write, not out of habit.</strong></p><ul><li>French ruling holds cursive handwriting and remains the school standard.</li><li>Plain lines give more freedom and tire you less over long pages.</li><li>Dotted grids suit sketching, tables and mixed note-taking.</li></ul><p>A 5 mm grid is still the only real choice for mathematics and dimensioned diagrams.</p>",
+        "url_key": "french_ruled_lined_or_dotted_which_ruling_for_which_use.html",
+        "meta_description": "The ruling decides your writing speed far more than the pen does.",
+        "meta_keyword": "ruling, lined paper, notebook",
+        "meta_title": "French ruled, lined or dotted: which ruling for which use",
+        "tags": [
+          {
+            "value": "llv_notebooks",
+            "label": "Notebooks"
+          },
+          {
+            "value": "llv_paper",
+            "label": "Paper"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying guide"
+        },
+        "topic": {
+          "value": "llv_paper_choice",
+          "label": "Choosing paper"
+        },
+        "author": {
+          "value": "llv_elise_marchand",
+          "label": "Élise Marchand"
+        },
+        "published_at": "@now:-11d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "/l/l/llv-pap-cah-001.jpg",
+        "related_skus": [
+          "LLV-PAP-CAH-001",
+          "LLV-PAP-CAH-002",
+          "LLV-PAP-CAH-008"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Looking after a fountain pen without taking it apart",
+        "content_heading": "Three habits are enough, and none of them needs a tool.",
+        "content": "<p><strong>A nib that skips is nearly always a dry nib, not a damaged one.</strong></p><ul><li>Rinse the feed with warm water whenever you change ink colour.</li><li>Store the pen nib upwards if you will not use it for a week.</li><li>Never put pigmented ink in a vintage nib: it dries inside the feed.</li></ul><p>If the flow is still uneven after a rinse, leave the section to soak overnight in clean water.</p>",
+        "url_key": "looking_after_a_fountain_pen_without_taking_it_apart.html",
+        "meta_description": "Three habits are enough, and none of them needs a tool.",
+        "meta_keyword": "fountain pen, maintenance, ink",
+        "meta_title": "Looking after a fountain pen without taking it apart",
+        "tags": [
+          {
+            "value": "llv_fountain_pens",
+            "label": "Fountain pens"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying guide"
+        },
+        "topic": {
+          "value": "llv_writing",
+          "label": "Writing"
+        },
+        "author": {
+          "value": "llv_thomas_reverdy",
+          "label": "Thomas Reverdy"
+        },
+        "published_at": "@now:-6d",
+        "reading_time": 7,
+        "is_featured": true,
+        "image": "/l/l/llv-pap-plu-001.jpg",
+        "related_skus": [
+          "LLV-PAP-PLU-001",
+          "LLV-PAP-PLU-002",
+          "LLV-PAP-ENC-001"
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Washable inks: what the word actually means",
+        "content_heading": "Washable does not mean erasable, and it certainly does not mean permanent.",
+        "content": "<p><strong>A washable ink comes out of cotton in the wash, not off the page.</strong></p><ul><li>It protects clothes and hands, which matters at school.</li><li>It is not meant for a document you intend to keep for ten years.</li><li>It dries more slowly, so it smears more under a left hand.</li></ul><p>For a register or a contract, choose a permanent ink and accept that cleaning comes round more often.</p>",
+        "url_key": "washable_inks_what_the_word_actually_means.html",
+        "meta_description": "Washable does not mean erasable, and it certainly does not mean permanent.",
+        "meta_keyword": "ink, washable, nib",
+        "meta_title": "Washable inks: what the word actually means",
+        "tags": [
+          {
+            "value": "llv_fountain_pens",
+            "label": "Fountain pens"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog post"
+        },
+        "topic": {
+          "value": "llv_writing",
+          "label": "Writing"
+        },
+        "author": {
+          "value": "llv_thomas_reverdy",
+          "label": "Thomas Reverdy"
+        },
+        "published_at": "@now:-19d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "/l/l/llv-pap-enc-003.jpg",
+        "related_skus": [
+          "LLV-PAP-ENC-001",
+          "LLV-PAP-ENC-003",
+          "LLV-PAP-ENC-005"
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Building a bookcase that will not sag under the books",
+        "content_heading": "A shelf over a metre long will sag. The question is by how much, and how soon.",
+        "content": "<p><strong>Deflection follows the cube of the span, not the weight alone.</strong></p><ul><li>Past 80 cm between uprights, add a centre support.</li><li>A 32 mm solid oak shelf holds where an 18 mm panel gives way.</li><li>Fix the unit to the wall: a full bookcase tips forwards, not backwards.</li></ul><p>Load the bottom shelves first. The centre of gravity drops and the whole thing settles.</p>",
+        "url_key": "building_a_bookcase_that_will_not_sag_under_the_books.html",
+        "meta_description": "A shelf over a metre long will sag. The question is by how much, and how soon.",
+        "meta_keyword": "bookcase, shelf, assembly",
+        "meta_title": "Building a bookcase that will not sag under the books",
+        "tags": [
+          {
+            "value": "llv_bookcases",
+            "label": "Bookcases"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying guide"
+        },
+        "topic": {
+          "value": "llv_furniture_care",
+          "label": "Furniture care"
+        },
+        "author": {
+          "value": "llv_julien_ferrand",
+          "label": "Julien Ferrand"
+        },
+        "published_at": "@now:-2d",
+        "reading_time": 8,
+        "is_featured": true,
+        "image": "/l/l/llv-mob-bib-002.jpg",
+        "related_skus": [
+          "LLV-MOB-BIB-001",
+          "LLV-MOB-BIB-002",
+          "LLV-MOB-BIB-007"
+        ]
+      },
+      {
+        "id": "6",
+        "title": "Oak, beech or walnut: what separates them in use",
+        "content_heading": "Three hardwoods, three behaviours, and a price gap that has a reason.",
+        "content": "<p><strong>The hardest wood is not the one that ages best.</strong></p><ul><li>Oak marks little, tolerates damp and darkens slowly in the light.</li><li>Beech costs less and works well, but it moves in a badly heated room.</li><li>Walnut is soft and scratches, in exchange for a colour nothing else imitates.</li></ul><p>Whichever wood you choose, a hardwax oil once a year is entirely enough.</p>",
+        "url_key": "oak_beech_or_walnut_what_separates_them_in_use.html",
+        "meta_description": "Three hardwoods, three behaviours, and a price gap that has a reason.",
+        "meta_keyword": "oak, beech, walnut, wood",
+        "meta_title": "Oak, beech or walnut: what separates them in use",
+        "tags": [
+          {
+            "value": "llv_desks",
+            "label": "Desks"
+          },
+          {
+            "value": "llv_bookcases",
+            "label": "Bookcases"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying guide"
+        },
+        "topic": {
+          "value": "llv_furniture_care",
+          "label": "Furniture care"
+        },
+        "author": {
+          "value": "llv_julien_ferrand",
+          "label": "Julien Ferrand"
+        },
+        "published_at": "@now:-26d",
+        "reading_time": 7,
+        "is_featured": false,
+        "image": "/l/l/llv-mob-bur-003.jpg",
+        "related_skus": [
+          "LLV-MOB-BUR-001",
+          "LLV-MOB-BUR-003",
+          "LLV-MOB-BIB-004"
+        ]
+      },
+      {
+        "id": "7",
+        "title": "Setting a sit-stand desk to the right height",
+        "content_heading": "Two landmarks are enough: your elbow and the screen. The rest follows.",
+        "content": "<p><strong>The right height is the one where your forearm is horizontal, standing or sitting.</strong></p><ul><li>Elbows at 90 degrees, shoulders loose: that is your desktop height.</li><li>The top of the screen should sit level with your eyes, no higher.</li><li>Switch every forty-five minutes. Three hours standing is no better than three hours seated.</li></ul><p>Store both positions on day one, or you will never actually change posture.</p>",
+        "url_key": "setting_a_sit_stand_desk_to_the_right_height.html",
+        "meta_description": "Two landmarks are enough: your elbow and the screen. The rest follows.",
+        "meta_keyword": "sit-stand desk, ergonomics, height",
+        "meta_title": "Setting a sit-stand desk to the right height",
+        "tags": [
+          {
+            "value": "llv_desks",
+            "label": "Desks"
+          },
+          {
+            "value": "llv_ergonomics",
+            "label": "Ergonomics"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying guide"
+        },
+        "topic": {
+          "value": "llv_workspace",
+          "label": "Workspace"
+        },
+        "author": {
+          "value": "llv_nadia_belkacem",
+          "label": "Nadia Belkacem"
+        },
+        "published_at": "@now:-8d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "/l/l/llv-mob-asd-001.jpg",
+        "related_skus": [
+          "LLV-MOB-ASD-001",
+          "LLV-MOB-ASD-004",
+          "LLV-MOB-CHB-001"
+        ]
+      },
+      {
+        "id": "8",
+        "title": "Lighting a work surface without tiring your eyes",
+        "content_heading": "It is not a question of power but of direction and contrast.",
+        "content": "<p><strong>A bright lamp in a dark room tires you more than a dim lamp in a bright one.</strong></p><ul><li>Put the lamp on the opposite side to your writing hand, so you do not work in its shadow.</li><li>Keep an ambient light on: it is the gap between page and wall that tires the eye.</li><li>Choose 4000 K by day and drop towards 2700 K in the evening.</li></ul><p>Check for flicker by filming the lamp with a phone: the banding shows up immediately.</p>",
+        "url_key": "lighting_a_work_surface_without_tiring_your_eyes.html",
+        "meta_description": "It is not a question of power but of direction and contrast.",
+        "meta_keyword": "desk lamp, lighting, light",
+        "meta_title": "Lighting a work surface without tiring your eyes",
+        "tags": [
+          {
+            "value": "llv_lighting",
+            "label": "Lighting"
+          },
+          {
+            "value": "llv_ergonomics",
+            "label": "Ergonomics"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying guide"
+        },
+        "topic": {
+          "value": "llv_workspace",
+          "label": "Workspace"
+        },
+        "author": {
+          "value": "llv_nadia_belkacem",
+          "label": "Nadia Belkacem"
+        },
+        "published_at": "@now:-14d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "/l/l/llv-mob-lam-001.jpg",
+        "related_skus": [
+          "LLV-MOB-LAM-001",
+          "LLV-MOB-LAM-004",
+          "LLV-MOB-LIS-001"
+        ]
+      },
+      {
+        "id": "9",
+        "title": "What public domain actually means on a cover",
+        "content_heading": "The work is free, the edition often is not. You can see the difference in the price.",
+        "content": "<p><strong>A public-domain text belongs to everyone, but the translation and the critical apparatus belong to someone.</strong></p><ul><li>The original 1813 text is free. A 1998 translation is not.</li><li>Notes, preface and typesetting are protected editorial work.</li><li>Two editions of the same novel can therefore differ threefold in price, quite legitimately.</li></ul><p>Check the date of the translation before comparing prices: that is usually where the gap comes from.</p>",
+        "url_key": "what_public_domain_actually_means_on_a_cover.html",
+        "meta_description": "The work is free, the edition often is not. You can see the difference in the price.",
+        "meta_keyword": "public domain, edition, translation",
+        "meta_title": "What public domain actually means on a cover",
+        "tags": [
+          {
+            "value": "llv_public_domain",
+            "label": "Public domain"
+          },
+          {
+            "value": "llv_classics",
+            "label": "Classics"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog post"
+        },
+        "topic": {
+          "value": "llv_reading",
+          "label": "Reading"
+        },
+        "author": {
+          "value": "llv_margaux_dubreuil",
+          "label": "Margaux Dubreuil"
+        },
+        "published_at": "@now:-5d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "/l/l/llv-liv-cla-001.jpg",
+        "related_skus": [
+          "LLV-LIV-CLA-001",
+          "LLV-LIV-CLA-002",
+          "LLV-LIV-POE-001"
+        ]
+      },
+      {
+        "id": "10",
+        "title": "Where to start when the classics feel daunting",
+        "content_heading": "Starting with the shortest rather than the most famous changes everything.",
+        "content": "<p><strong>Your first classic does not need to be the greatest, it needs to be finished.</strong></p><ul><li>A three-hundred-page adventure novel goes down better than a thousand-page masterpiece.</li><li>An edition set in open type reads twice as fast as a cramped one.</li><li>Abandoning a book after fifty pages is not failure, it is sorting.</li></ul><p>Save the monuments for later. They will still be there, and you will read them better.</p>",
+        "url_key": "where_to_start_when_the_classics_feel_daunting.html",
+        "meta_description": "Starting with the shortest rather than the most famous changes everything.",
+        "meta_keyword": "classics, reading, getting started",
+        "meta_title": "Where to start when the classics feel daunting",
+        "tags": [
+          {
+            "value": "llv_classics",
+            "label": "Classics"
+          },
+          {
+            "value": "llv_gift_ideas",
+            "label": "Gift ideas"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog post"
+        },
+        "topic": {
+          "value": "llv_reading",
+          "label": "Reading"
+        },
+        "author": {
+          "value": "llv_margaux_dubreuil",
+          "label": "Margaux Dubreuil"
+        },
+        "published_at": "@now:-22d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "/l/l/llv-liv-sff-001.jpg",
+        "related_skus": [
+          "LLV-LIV-SFF-001",
+          "LLV-LIV-ADO-001",
+          "LLV-LIV-CLA-005"
+        ]
+      },
+      {
+        "id": "11",
+        "title": "Paperback, hardcover, perfect bound: which one lasts",
+        "content_heading": "The binding decides whether a book opens flat and whether it survives ten readings.",
+        "content": "<p><strong>A perfect binding always gives way eventually, the question is after how many openings.</strong></p><ul><li>Sewn binding opens flat and can be repaired. It is the only one that really ages well.</li><li>Glued binding costs less and suits a book you read once.</li><li>A hardcover protects the edges, which matters for a book standing on a shelf.</li></ul><p>Flex the book gently in the shop: if the spine cracks on the first try, it will crack at home.</p>",
+        "url_key": "paperback_hardcover_perfect_bound_which_one_lasts.html",
+        "meta_description": "The binding decides whether a book opens flat and whether it survives ten readings.",
+        "meta_keyword": "binding, paperback, hardcover",
+        "meta_title": "Paperback, hardcover, perfect bound: which one lasts",
+        "tags": [
+          {
+            "value": "llv_classics",
+            "label": "Classics"
+          },
+          {
+            "value": "llv_notebooks",
+            "label": "Notebooks"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying guide"
+        },
+        "topic": {
+          "value": "llv_bookbinding",
+          "label": "Bookbinding"
+        },
+        "author": {
+          "value": "llv_elise_marchand",
+          "label": "Élise Marchand"
+        },
+        "published_at": "@now:-31d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "/l/l/llv-liv-cla-002.jpg",
+        "related_skus": [
+          "LLV-LIV-CLA-002",
+          "LLV-LIV-CLA-006",
+          "LLV-PAP-CAH-004"
+        ]
+      },
+      {
+        "id": "12",
+        "title": "Repairing a damaged binding without regluing the whole thing",
+        "content_heading": "A loose section can be resewn. A torn page can be mended. The rest needs a binder.",
+        "content": "<p><strong>Ordinary white glue damages more books every year than anything else.</strong></p><ul><li>Use a reversible starch paste, never a general-purpose adhesive.</li><li>Mend tears with fine Japanese tissue, running with the grain.</li><li>Never clamp a damp book in a press: the page cockles as it dries.</li></ul><p>If the joint is split its whole length, stop there. A botched repair costs more than a quote.</p>",
+        "url_key": "repairing_a_damaged_binding_without_regluing_the_whole_thing.html",
+        "meta_description": "A loose section can be resewn. A torn page can be mended. The rest needs a binder.",
+        "meta_keyword": "binding, repair, glue",
+        "meta_title": "Repairing a damaged binding without regluing the whole thing",
+        "tags": [
+          {
+            "value": "llv_classics",
+            "label": "Classics"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying guide"
+        },
+        "topic": {
+          "value": "llv_bookbinding",
+          "label": "Bookbinding"
+        },
+        "author": {
+          "value": "llv_elise_marchand",
+          "label": "Élise Marchand"
+        },
+        "published_at": "@now:-44d",
+        "reading_time": 8,
+        "is_featured": false,
+        "image": "/l/l/llv-liv-nou-004.jpg",
+        "related_skus": [
+          "LLV-LIV-NOU-004",
+          "LLV-LIV-HIS-001",
+          "LLV-LIV-CLA-008"
+        ]
+      },
+      {
+        "id": "13",
+        "title": "A sketchbook that will take a watercolour wash",
+        "content_heading": "Below 200 gsm the sheet cockles and the wash turns into a mess.",
+        "content": "<p><strong>Weight matters, but sizing matters more.</strong></p><ul><li>A well-sized paper holds water at the surface and gives you time to work.</li><li>Fine grain suits line work, rough grain suits large flat washes.</li><li>A sewn sketchbook opens flat, which lets you paint across the spread.</li></ul><p>Always test on the last sheet before starting the first: batches vary.</p>",
+        "url_key": "a_sketchbook_that_will_take_a_watercolour_wash.html",
+        "meta_description": "Below 200 gsm the sheet cockles and the wash turns into a mess.",
+        "meta_keyword": "sketchbook, watercolour, paper",
+        "meta_title": "A sketchbook that will take a watercolour wash",
+        "tags": [
+          {
+            "value": "llv_paper",
+            "label": "Paper"
+          },
+          {
+            "value": "llv_notebooks",
+            "label": "Notebooks"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying guide"
+        },
+        "topic": {
+          "value": "llv_paper_choice",
+          "label": "Choosing paper"
+        },
+        "author": {
+          "value": "llv_thomas_reverdy",
+          "label": "Thomas Reverdy"
+        },
+        "published_at": "@now:-17d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "/l/l/llv-pap-cro-002.jpg",
+        "related_skus": [
+          "LLV-PAP-CRO-001",
+          "LLV-PAP-CRO-002",
+          "LLV-PAP-DES-003"
+        ]
+      },
+      {
+        "id": "14",
+        "title": "Choosing a desk chair without trusting the number of adjustments",
+        "content_heading": "Three well-placed adjustments beat twelve you will never touch.",
+        "content": "<p><strong>A chair is judged on seat depth, not on the length of its spec sheet.</strong></p><ul><li>There should be two fingers between the front of the seat and the back of your knee.</li><li>Lumbar support needs to adjust in height, not just in depth.</li><li>Armrests set too high push the shoulders up: no armrests at all is better.</li></ul><p>Sit in it for twenty minutes before deciding. A chair that feels good for thirty seconds proves nothing.</p>",
+        "url_key": "choosing_a_desk_chair_without_trusting_the_number_of_adjustments.html",
+        "meta_description": "Three well-placed adjustments beat twelve you will never touch.",
+        "meta_keyword": "desk chair, ergonomics, seat",
+        "meta_title": "Choosing a desk chair without trusting the number of adjustments",
+        "tags": [
+          {
+            "value": "llv_ergonomics",
+            "label": "Ergonomics"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Buying guide"
+        },
+        "topic": {
+          "value": "llv_workspace",
+          "label": "Workspace"
+        },
+        "author": {
+          "value": "llv_nadia_belkacem",
+          "label": "Nadia Belkacem"
+        },
+        "published_at": "@now:-9d",
+        "reading_time": 7,
+        "is_featured": false,
+        "image": "/l/l/llv-mob-chb-002.jpg",
+        "related_skus": [
+          "LLV-MOB-CHB-001",
+          "LLV-MOB-CHB-002",
+          "LLV-MOB-CHB-008"
+        ]
+      },
+      {
+        "id": "15",
+        "title": "Fitting five hundred books into eight square metres",
+        "content_heading": "Height is the one resource everybody forgets.",
+        "content": "<p><strong>Five hundred volumes fit in twenty linear metres, and twenty metres fit on a single wall.</strong></p><ul><li>Go up to the ceiling and keep the top thirty centimetres for what you need once a year.</li><li>A depth of 22 cm is enough for paperbacks: 32 cm is only for illustrated volumes.</li><li>Sort by format before sorting by subject. The wasted shelf space disappears.</li></ul><p>A wall shelf above the door recovers a linear metre nobody ever sees.</p>",
+        "url_key": "fitting_five_hundred_books_into_eight_square_metres.html",
+        "meta_description": "Height is the one resource everybody forgets.",
+        "meta_keyword": "storage, shelving, books",
+        "meta_title": "Fitting five hundred books into eight square metres",
+        "tags": [
+          {
+            "value": "llv_bookcases",
+            "label": "Bookcases"
+          },
+          {
+            "value": "llv_desks",
+            "label": "Desks"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog post"
+        },
+        "topic": {
+          "value": "llv_workspace",
+          "label": "Workspace"
+        },
+        "author": {
+          "value": "llv_julien_ferrand",
+          "label": "Julien Ferrand"
+        },
+        "published_at": "@now:-37d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "/l/l/llv-mob-eta-004.jpg",
+        "related_skus": [
+          "LLV-MOB-ETA-001",
+          "LLV-MOB-ETA-004",
+          "LLV-MOB-CAI-003"
+        ]
+      },
+      {
+        "id": "16",
+        "title": "Giving a book to someone whose taste you do not know",
+        "content_heading": "An illustrated volume always works. A contemporary novel almost never does.",
+        "content": "<p><strong>The risk is not giving a bad book, it is giving one already read.</strong></p><ul><li>An illustrated volume is not reread, so it is not duplicated.</li><li>A classic in a well-made edition pleases even someone who owns the paperback.</li><li>A picture book works at any age, which nobody likes to admit.</li></ul><p>Avoid complete works: they commit the reader to six months without asking.</p>",
+        "url_key": "giving_a_book_to_someone_whose_taste_you_do_not_know.html",
+        "meta_description": "An illustrated volume always works. A contemporary novel almost never does.",
+        "meta_keyword": "gift, book, illustrated volume",
+        "meta_title": "Giving a book to someone whose taste you do not know",
+        "tags": [
+          {
+            "value": "llv_gift_ideas",
+            "label": "Gift ideas"
+          },
+          {
+            "value": "llv_classics",
+            "label": "Classics"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog post"
+        },
+        "topic": {
+          "value": "llv_reading",
+          "label": "Reading"
+        },
+        "author": {
+          "value": "llv_margaux_dubreuil",
+          "label": "Margaux Dubreuil"
+        },
+        "published_at": "@now:-12d",
+        "reading_time": 4,
+        "is_featured": true,
+        "image": "/l/l/llv-liv-alb-003.jpg",
+        "related_skus": [
+          "LLV-LIV-ALB-003",
+          "LLV-LIV-ART-002",
+          "LLV-LIV-POE-001"
+        ]
+      },
+      {
+        "id": "17",
+        "title": "Does recycled paper really go through a printer",
+        "content_heading": "Yes, and for a long time. What jams a printer is damp, not recycled fibre.",
+        "content": "<p><strong>Recycled paper at 80 gsm behaves like virgin paper of the same weight.</strong></p><ul><li>Store the ream flat, in its wrapper, away from a cold wall.</li><li>A slightly grey shade does not mean lower quality, only less bleaching.</li><li>With a laser printer, let the paper reach room temperature for an hour first.</li></ul><p>If jams continue, the feed roller is more often to blame than the paper.</p>",
+        "url_key": "does_recycled_paper_really_go_through_a_printer.html",
+        "meta_description": "Yes, and for a long time. What jams a printer is damp, not recycled fibre.",
+        "meta_keyword": "recycled paper, printer, ream",
+        "meta_title": "Does recycled paper really go through a printer",
+        "tags": [
+          {
+            "value": "llv_paper",
+            "label": "Paper"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog post"
+        },
+        "topic": {
+          "value": "llv_paper_choice",
+          "label": "Choosing paper"
+        },
+        "author": {
+          "value": "llv_elise_marchand",
+          "label": "Élise Marchand"
+        },
+        "published_at": "@now:-28d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "/l/l/llv-pap-mac-001.jpg",
+        "related_skus": [
+          "LLV-PAP-MAC-001",
+          "LLV-PAP-MAC-004",
+          "LLV-PAP-MAC-007"
+        ]
+      },
+      {
+        "id": "18",
+        "title": "A reading lamp that will not wake the person beside you",
+        "content_heading": "What matters is not the output but the beam angle.",
+        "content": "<p><strong>A good reading lamp lights a page and nothing else.</strong></p><ul><li>Look for a beam of thirty degrees at most, with a deep reflector.</li><li>A foot dimmer saves hunting for a switch in the dark.</li><li>A 2700 K colour temperature disturbs sleep less than a cool light.</li></ul><p>Set the head at shoulder height, slightly behind you: the page is lit, your face is not.</p>",
+        "url_key": "a_reading_lamp_that_will_not_wake_the_person_beside_you.html",
+        "meta_description": "What matters is not the output but the beam angle.",
+        "meta_keyword": "reading lamp, reading, lighting",
+        "meta_title": "A reading lamp that will not wake the person beside you",
+        "tags": [
+          {
+            "value": "llv_lighting",
+            "label": "Lighting"
+          },
+          {
+            "value": "llv_gift_ideas",
+            "label": "Gift ideas"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blog post"
+        },
+        "topic": {
+          "value": "llv_workspace",
+          "label": "Workspace"
+        },
+        "author": {
+          "value": "llv_nadia_belkacem",
+          "label": "Nadia Belkacem"
+        },
+        "published_at": "@now:-48d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "/l/l/llv-mob-lis-002.jpg",
+        "related_skus": [
+          "LLV-MOB-LIS-001",
+          "LLV-MOB-LIS-002",
+          "LLV-MOB-FAU-001"
+        ]
+      }
+    ]
+  },
+  {
+    "index_name": "gally_localized_catalog_papershop_de_cms_page",
+    "documents": [
+      {
+        "id": "1",
+        "title": "Papiergewicht, und warum 80 g nicht immer reichen",
+        "content_heading": "Die Angabe in g/m² nennt das Gewicht des Papiers, nicht seine Qualität. Das ändert sie wirklich.",
+        "content": "<p><strong>Schwereres Papier ist nicht besseres Papier, es ist nur dicker.</strong></p><ul><li>80 g/m² genügt für Entwürfe und einseitigen Druck. Beidseitig bedruckt schlägt der Text durch.</li><li>90 bis 100 g/m² ist der richtige Kompromiss für ein Heft, das bleiben soll.</li><li>Über 160 g/m² geht es nicht mehr ums Schreiben, sondern ums Zeichnen.</li></ul><p>Achten Sie auch auf die Opazität, die getrennt angegeben wird. Zwei Blätter mit 90 g/m² können sehr unterschiedlich durchscheinen.</p>",
+        "url_key": "papiergewicht_und_warum_80_g_nicht_immer_reichen.html",
+        "meta_description": "Die Angabe in g/m² nennt das Gewicht des Papiers, nicht seine Qualität. Das ändert sie wirklich.",
+        "meta_keyword": "Papier, Grammatur, Heft",
+        "meta_title": "Papiergewicht, und warum 80 g nicht immer reichen",
+        "tags": [
+          {
+            "value": "llv_paper",
+            "label": "Papiersorten"
+          },
+          {
+            "value": "llv_notebooks",
+            "label": "Notizbücher"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "llv_paper_choice",
+          "label": "Papierwahl"
+        },
+        "author": {
+          "value": "llv_elise_marchand",
+          "label": "Élise Marchand"
+        },
+        "published_at": "@now:-3d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "/l/l/llv-pap-mac-002.jpg",
+        "related_skus": [
+          "LLV-PAP-MAC-002",
+          "LLV-PAP-MAC-003",
+          "LLV-PAP-DES-001"
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Lineatur 28, liniert oder gepunktet: welche Linierung wofür",
+        "content_heading": "Die Linierung bestimmt die Schreibgeschwindigkeit weit mehr als der Stift.",
+        "content": "<p><strong>Man wählt eine Linierung nach dem, was man schreibt, nicht aus Gewohnheit.</strong></p><ul><li>Lineatur 28 trägt die Schreibschrift und bleibt in der Schule der Maßstab.</li><li>Einfache Linien lassen mehr Freiheit und ermüden auf langen Seiten weniger.</li><li>Punktraster eignet sich für Skizzen, Tabellen und gemischte Notizen.</li></ul><p>Kariert 5 mm bleibt die einzig echte Wahl für Mathematik und bemaßte Zeichnungen.</p>",
+        "url_key": "lineatur_28_liniert_oder_gepunktet_welche_linierung_wofur.html",
+        "meta_description": "Die Linierung bestimmt die Schreibgeschwindigkeit weit mehr als der Stift.",
+        "meta_keyword": "Linierung, Lineatur, Heft",
+        "meta_title": "Lineatur 28, liniert oder gepunktet: welche Linierung wofür",
+        "tags": [
+          {
+            "value": "llv_notebooks",
+            "label": "Notizbücher"
+          },
+          {
+            "value": "llv_paper",
+            "label": "Papiersorten"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "llv_paper_choice",
+          "label": "Papierwahl"
+        },
+        "author": {
+          "value": "llv_elise_marchand",
+          "label": "Élise Marchand"
+        },
+        "published_at": "@now:-11d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "/l/l/llv-pap-cah-001.jpg",
+        "related_skus": [
+          "LLV-PAP-CAH-001",
+          "LLV-PAP-CAH-002",
+          "LLV-PAP-CAH-008"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Einen Füllhalter pflegen, ohne ihn zu zerlegen",
+        "content_heading": "Drei Handgriffe genügen, und keiner braucht Werkzeug.",
+        "content": "<p><strong>Eine Feder, die aussetzt, ist fast immer trocken und nicht beschädigt.</strong></p><ul><li>Spülen Sie den Tintenleiter mit lauwarmem Wasser, sobald Sie die Tintenfarbe wechseln.</li><li>Lagern Sie den Halter mit der Feder nach oben, wenn Sie ihn eine Woche nicht benutzen.</li><li>Verwenden Sie nie pigmentierte Tinte in einer alten Feder: sie trocknet im Leiter ein.</li></ul><p>Bleibt der Fluss nach dem Spülen ungleichmäßig, lassen Sie das Griffstück über Nacht in klarem Wasser stehen.</p>",
+        "url_key": "einen_fullhalter_pflegen_ohne_ihn_zu_zerlegen.html",
+        "meta_description": "Drei Handgriffe genügen, und keiner braucht Werkzeug.",
+        "meta_keyword": "Füllhalter, Pflege, Tinte",
+        "meta_title": "Einen Füllhalter pflegen, ohne ihn zu zerlegen",
+        "tags": [
+          {
+            "value": "llv_fountain_pens",
+            "label": "Füllhalter"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "llv_writing",
+          "label": "Schreiben"
+        },
+        "author": {
+          "value": "llv_thomas_reverdy",
+          "label": "Thomas Reverdy"
+        },
+        "published_at": "@now:-6d",
+        "reading_time": 7,
+        "is_featured": true,
+        "image": "/l/l/llv-pap-plu-001.jpg",
+        "related_skus": [
+          "LLV-PAP-PLU-001",
+          "LLV-PAP-PLU-002",
+          "LLV-PAP-ENC-001"
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Auswaschbare Tinten: was das Wort wirklich heißt",
+        "content_heading": "Auswaschbar heißt nicht löschbar, und schon gar nicht dokumentenecht.",
+        "content": "<p><strong>Eine auswaschbare Tinte geht in der Wäsche aus Baumwolle heraus, nicht von der Seite.</strong></p><ul><li>Sie schont Kleidung und Hände, was in der Schule zählt.</li><li>Für ein Dokument, das zehn Jahre bleiben soll, ist sie nicht gedacht.</li><li>Sie trocknet langsamer und verschmiert daher unter der linken Hand stärker.</li></ul><p>Für ein Register oder einen Vertrag nehmen Sie dokumentenechte Tinte und häufigeres Reinigen in Kauf.</p>",
+        "url_key": "auswaschbare_tinten_was_das_wort_wirklich_heisst.html",
+        "meta_description": "Auswaschbar heißt nicht löschbar, und schon gar nicht dokumentenecht.",
+        "meta_keyword": "Tinte, auswaschbar, Feder",
+        "meta_title": "Auswaschbare Tinten: was das Wort wirklich heißt",
+        "tags": [
+          {
+            "value": "llv_fountain_pens",
+            "label": "Füllhalter"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "llv_writing",
+          "label": "Schreiben"
+        },
+        "author": {
+          "value": "llv_thomas_reverdy",
+          "label": "Thomas Reverdy"
+        },
+        "published_at": "@now:-19d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "/l/l/llv-pap-enc-003.jpg",
+        "related_skus": [
+          "LLV-PAP-ENC-001",
+          "LLV-PAP-ENC-003",
+          "LLV-PAP-ENC-005"
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Ein Bücherregal bauen, das unter Büchern nicht durchhängt",
+        "content_heading": "Ein Boden über einem Meter hängt durch. Die Frage ist, wie stark und wie schnell.",
+        "content": "<p><strong>Die Durchbiegung folgt der dritten Potenz der Stützweite, nicht dem Gewicht allein.</strong></p><ul><li>Über 80 cm zwischen zwei Seitenteilen gehört eine Mittelstütze dazu.</li><li>Ein 32 mm starker Boden aus massiver Eiche trägt, wo eine 18-mm-Platte nachgibt.</li><li>Befestigen Sie das Möbel an der Wand: ein volles Regal kippt nach vorn, nicht nach hinten.</li></ul><p>Beladen Sie zuerst die unteren Böden. Der Schwerpunkt sinkt und das Regal steht ruhiger.</p>",
+        "url_key": "ein_bucherregal_bauen_das_unter_buchern_nicht_durchhangt.html",
+        "meta_description": "Ein Boden über einem Meter hängt durch. Die Frage ist, wie stark und wie schnell.",
+        "meta_keyword": "Bücherregal, Regalboden, Montage",
+        "meta_title": "Ein Bücherregal bauen, das unter Büchern nicht durchhängt",
+        "tags": [
+          {
+            "value": "llv_bookcases",
+            "label": "Bücherregale"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "llv_furniture_care",
+          "label": "Möbelpflege"
+        },
+        "author": {
+          "value": "llv_julien_ferrand",
+          "label": "Julien Ferrand"
+        },
+        "published_at": "@now:-2d",
+        "reading_time": 8,
+        "is_featured": true,
+        "image": "/l/l/llv-mob-bib-002.jpg",
+        "related_skus": [
+          "LLV-MOB-BIB-001",
+          "LLV-MOB-BIB-002",
+          "LLV-MOB-BIB-007"
+        ]
+      },
+      {
+        "id": "6",
+        "title": "Eiche, Buche oder Nussbaum: was sie im Gebrauch unterscheidet",
+        "content_heading": "Drei Harthölzer, drei Verhalten, und ein Preisunterschied mit Grund.",
+        "content": "<p><strong>Das härteste Holz altert nicht am besten.</strong></p><ul><li>Eiche nimmt wenig Spuren an, verträgt Feuchte und dunkelt im Licht langsam nach.</li><li>Buche kostet weniger und lässt sich gut bearbeiten, arbeitet aber in schlecht beheizten Räumen.</li><li>Nussbaum ist weich und verkratzt, dafür hat er eine Farbe, die nichts nachahmt.</li></ul><p>Bei jedem Holz genügt ein Hartwachsöl einmal im Jahr vollkommen.</p>",
+        "url_key": "eiche_buche_oder_nussbaum_was_sie_im_gebrauch_unterscheidet.html",
+        "meta_description": "Drei Harthölzer, drei Verhalten, und ein Preisunterschied mit Grund.",
+        "meta_keyword": "Eiche, Buche, Nussbaum, Holz",
+        "meta_title": "Eiche, Buche oder Nussbaum: was sie im Gebrauch unterscheidet",
+        "tags": [
+          {
+            "value": "llv_desks",
+            "label": "Schreibtische"
+          },
+          {
+            "value": "llv_bookcases",
+            "label": "Bücherregale"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "llv_furniture_care",
+          "label": "Möbelpflege"
+        },
+        "author": {
+          "value": "llv_julien_ferrand",
+          "label": "Julien Ferrand"
+        },
+        "published_at": "@now:-26d",
+        "reading_time": 7,
+        "is_featured": false,
+        "image": "/l/l/llv-mob-bur-003.jpg",
+        "related_skus": [
+          "LLV-MOB-BUR-001",
+          "LLV-MOB-BUR-003",
+          "LLV-MOB-BIB-004"
+        ]
+      },
+      {
+        "id": "7",
+        "title": "Einen Steh-Sitz-Schreibtisch richtig einstellen",
+        "content_heading": "Zwei Anhaltspunkte genügen: Ellbogen und Bildschirm. Der Rest ergibt sich.",
+        "content": "<p><strong>Die richtige Höhe ist die, bei der der Unterarm waagerecht liegt, im Stehen wie im Sitzen.</strong></p><ul><li>Ellbogen im 90-Grad-Winkel, Schultern locker: das ist die Plattenhöhe.</li><li>Die Oberkante des Bildschirms gehört auf Augenhöhe, nicht höher.</li><li>Wechseln Sie alle fünfundvierzig Minuten. Drei Stunden Stehen sind nicht besser als drei Stunden Sitzen.</li></ul><p>Speichern Sie beide Positionen am ersten Tag, sonst ändern Sie die Haltung nie.</p>",
+        "url_key": "einen_steh_sitz_schreibtisch_richtig_einstellen.html",
+        "meta_description": "Zwei Anhaltspunkte genügen: Ellbogen und Bildschirm. Der Rest ergibt sich.",
+        "meta_keyword": "Steh-Sitz-Schreibtisch, Ergonomie, Höhe",
+        "meta_title": "Einen Steh-Sitz-Schreibtisch richtig einstellen",
+        "tags": [
+          {
+            "value": "llv_desks",
+            "label": "Schreibtische"
+          },
+          {
+            "value": "llv_ergonomics",
+            "label": "Ergonomie"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "llv_workspace",
+          "label": "Arbeitsplatz"
+        },
+        "author": {
+          "value": "llv_nadia_belkacem",
+          "label": "Nadia Belkacem"
+        },
+        "published_at": "@now:-8d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "/l/l/llv-mob-asd-001.jpg",
+        "related_skus": [
+          "LLV-MOB-ASD-001",
+          "LLV-MOB-ASD-004",
+          "LLV-MOB-CHB-001"
+        ]
+      },
+      {
+        "id": "8",
+        "title": "Eine Arbeitsfläche beleuchten, ohne die Augen zu ermüden",
+        "content_heading": "Es geht nicht um Leistung, sondern um Richtung und Kontrast.",
+        "content": "<p><strong>Eine helle Lampe im dunklen Raum ermüdet mehr als eine schwache im hellen Raum.</strong></p><ul><li>Stellen Sie die Lampe auf die der Schreibhand gegenüberliegende Seite, damit Sie nicht im Schatten arbeiten.</li><li>Lassen Sie ein Umgebungslicht an: der Unterschied zwischen Seite und Wand ermüdet das Auge.</li><li>Wählen Sie tagsüber 4000 K und abends eher 2700 K.</li></ul><p>Prüfen Sie das Flimmern, indem Sie die Lampe mit dem Handy filmen: die Streifen sind sofort zu sehen.</p>",
+        "url_key": "eine_arbeitsflache_beleuchten_ohne_die_augen_zu_ermuden.html",
+        "meta_description": "Es geht nicht um Leistung, sondern um Richtung und Kontrast.",
+        "meta_keyword": "Schreibtischlampe, Beleuchtung, Licht",
+        "meta_title": "Eine Arbeitsfläche beleuchten, ohne die Augen zu ermüden",
+        "tags": [
+          {
+            "value": "llv_lighting",
+            "label": "Beleuchtung"
+          },
+          {
+            "value": "llv_ergonomics",
+            "label": "Ergonomie"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "llv_workspace",
+          "label": "Arbeitsplatz"
+        },
+        "author": {
+          "value": "llv_nadia_belkacem",
+          "label": "Nadia Belkacem"
+        },
+        "published_at": "@now:-14d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "/l/l/llv-mob-lam-001.jpg",
+        "related_skus": [
+          "LLV-MOB-LAM-001",
+          "LLV-MOB-LAM-004",
+          "LLV-MOB-LIS-001"
+        ]
+      },
+      {
+        "id": "9",
+        "title": "Was Gemeinfreiheit auf einem Buchdeckel bedeutet",
+        "content_heading": "Das Werk ist frei, die Ausgabe oft nicht. Der Unterschied zeigt sich im Preis.",
+        "content": "<p><strong>Ein gemeinfreier Text gehört allen, doch Übersetzung und Kommentar gehören jemandem.</strong></p><ul><li>Der Originaltext von 1813 ist frei. Eine Übersetzung von 1998 ist es nicht.</li><li>Anmerkungen, Vorwort und Satz sind geschützte verlegerische Arbeit.</li><li>Zwei Ausgaben desselben Romans dürfen sich daher um das Dreifache im Preis unterscheiden.</li></ul><p>Prüfen Sie das Jahr der Übersetzung, bevor Sie Preise vergleichen: dort liegt meist der Unterschied.</p>",
+        "url_key": "was_gemeinfreiheit_auf_einem_buchdeckel_bedeutet.html",
+        "meta_description": "Das Werk ist frei, die Ausgabe oft nicht. Der Unterschied zeigt sich im Preis.",
+        "meta_keyword": "Gemeinfreiheit, Ausgabe, Übersetzung",
+        "meta_title": "Was Gemeinfreiheit auf einem Buchdeckel bedeutet",
+        "tags": [
+          {
+            "value": "llv_public_domain",
+            "label": "Gemeinfreiheit"
+          },
+          {
+            "value": "llv_classics",
+            "label": "Klassiker"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "llv_reading",
+          "label": "Lesen"
+        },
+        "author": {
+          "value": "llv_margaux_dubreuil",
+          "label": "Margaux Dubreuil"
+        },
+        "published_at": "@now:-5d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "/l/l/llv-liv-cla-001.jpg",
+        "related_skus": [
+          "LLV-LIV-CLA-001",
+          "LLV-LIV-CLA-002",
+          "LLV-LIV-POE-001"
+        ]
+      },
+      {
+        "id": "10",
+        "title": "Womit anfangen, wenn Klassiker abschrecken",
+        "content_heading": "Mit dem kürzesten statt dem berühmtesten anzufangen ändert alles.",
+        "content": "<p><strong>Der erste Klassiker muss nicht der größte sein, er muss zu Ende gelesen werden.</strong></p><ul><li>Ein Abenteuerroman mit dreihundert Seiten geht leichter hinein als ein Meisterwerk mit tausend.</li><li>Eine luftig gesetzte Ausgabe liest sich doppelt so schnell wie eine gedrängte.</li><li>Ein Buch nach fünfzig Seiten wegzulegen ist kein Scheitern, sondern eine Auswahl.</li></ul><p>Heben Sie sich die Monumente auf. Sie bleiben, und Sie werden sie besser lesen.</p>",
+        "url_key": "womit_anfangen_wenn_klassiker_abschrecken.html",
+        "meta_description": "Mit dem kürzesten statt dem berühmtesten anzufangen ändert alles.",
+        "meta_keyword": "Klassiker, Lesen, Einstieg",
+        "meta_title": "Womit anfangen, wenn Klassiker abschrecken",
+        "tags": [
+          {
+            "value": "llv_classics",
+            "label": "Klassiker"
+          },
+          {
+            "value": "llv_gift_ideas",
+            "label": "Geschenkideen"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "llv_reading",
+          "label": "Lesen"
+        },
+        "author": {
+          "value": "llv_margaux_dubreuil",
+          "label": "Margaux Dubreuil"
+        },
+        "published_at": "@now:-22d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "/l/l/llv-liv-sff-001.jpg",
+        "related_skus": [
+          "LLV-LIV-SFF-001",
+          "LLV-LIV-ADO-001",
+          "LLV-LIV-CLA-005"
+        ]
+      },
+      {
+        "id": "11",
+        "title": "Broschiert, gebunden, klebegebunden: was hält",
+        "content_heading": "Die Bindung entscheidet, ob ein Buch flach aufliegt und zehn Lektüren übersteht.",
+        "content": "<p><strong>Eine Klebebindung gibt irgendwann nach, die Frage ist nur, nach wie vielen Öffnungen.</strong></p><ul><li>Fadenheftung liegt flach auf und lässt sich reparieren. Nur sie altert wirklich gut.</li><li>Klebebindung kostet weniger und genügt für ein Buch, das man einmal liest.</li><li>Ein fester Einband schützt die Schnitte, was für ein stehendes Buch im Regal zählt.</li></ul><p>Biegen Sie das Buch im Laden leicht: knackt der Rücken beim ersten Versuch, knackt er auch zu Hause.</p>",
+        "url_key": "broschiert_gebunden_klebegebunden_was_halt.html",
+        "meta_description": "Die Bindung entscheidet, ob ein Buch flach aufliegt und zehn Lektüren übersteht.",
+        "meta_keyword": "Bindung, broschiert, gebunden",
+        "meta_title": "Broschiert, gebunden, klebegebunden: was hält",
+        "tags": [
+          {
+            "value": "llv_classics",
+            "label": "Klassiker"
+          },
+          {
+            "value": "llv_notebooks",
+            "label": "Notizbücher"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "llv_bookbinding",
+          "label": "Buchbinderei"
+        },
+        "author": {
+          "value": "llv_elise_marchand",
+          "label": "Élise Marchand"
+        },
+        "published_at": "@now:-31d",
+        "reading_time": 6,
+        "is_featured": false,
+        "image": "/l/l/llv-liv-cla-002.jpg",
+        "related_skus": [
+          "LLV-LIV-CLA-002",
+          "LLV-LIV-CLA-006",
+          "LLV-PAP-CAH-004"
+        ]
+      },
+      {
+        "id": "12",
+        "title": "Eine beschädigte Bindung reparieren, ohne alles neu zu leimen",
+        "content_heading": "Eine lose Lage lässt sich neu heften. Eine gerissene Seite lässt sich kleben. Der Rest gehört zum Buchbinder.",
+        "content": "<p><strong>Gewöhnlicher Weißleim beschädigt jedes Jahr mehr Bücher als alles andere.</strong></p><ul><li>Nehmen Sie einen reversiblen Stärkekleister, nie einen Alleskleber.</li><li>Reparieren Sie Risse mit dünnem Japanpapier, in Faserrichtung.</li><li>Pressen Sie nie ein feuchtes Buch: die Seite wellt sich beim Trocknen.</li></ul><p>Ist das Gelenk auf ganzer Höhe gerissen, hören Sie auf. Eine misslungene Reparatur kostet mehr als ein Kostenvoranschlag.</p>",
+        "url_key": "eine_beschadigte_bindung_reparieren_ohne_alles_neu_zu_leimen.html",
+        "meta_description": "Eine lose Lage lässt sich neu heften. Eine gerissene Seite lässt sich kleben. Der Rest gehört zum Buchbinder.",
+        "meta_keyword": "Bindung, Reparatur, Kleister",
+        "meta_title": "Eine beschädigte Bindung reparieren, ohne alles neu zu leimen",
+        "tags": [
+          {
+            "value": "llv_classics",
+            "label": "Klassiker"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "llv_bookbinding",
+          "label": "Buchbinderei"
+        },
+        "author": {
+          "value": "llv_elise_marchand",
+          "label": "Élise Marchand"
+        },
+        "published_at": "@now:-44d",
+        "reading_time": 8,
+        "is_featured": false,
+        "image": "/l/l/llv-liv-nou-004.jpg",
+        "related_skus": [
+          "LLV-LIV-NOU-004",
+          "LLV-LIV-HIS-001",
+          "LLV-LIV-CLA-008"
+        ]
+      },
+      {
+        "id": "13",
+        "title": "Ein Skizzenbuch, das Aquarell verträgt",
+        "content_heading": "Unter 200 g/m² wellt sich das Blatt und die Lasur wird zum Ärgernis.",
+        "content": "<p><strong>Das Gewicht zählt, die Leimung zählt mehr.</strong></p><ul><li>Gut geleimtes Papier hält das Wasser an der Oberfläche und lässt Zeit zum Arbeiten.</li><li>Feine Körnung passt zur Linie, raue Körnung zu großen Flächen.</li><li>Ein fadengeheftetes Buch liegt flach auf, sodass man über die Doppelseite malen kann.</li></ul><p>Testen Sie immer auf dem letzten Blatt, bevor Sie das erste angehen: die Chargen schwanken.</p>",
+        "url_key": "ein_skizzenbuch_das_aquarell_vertragt.html",
+        "meta_description": "Unter 200 g/m² wellt sich das Blatt und die Lasur wird zum Ärgernis.",
+        "meta_keyword": "Skizzenbuch, Aquarell, Papier",
+        "meta_title": "Ein Skizzenbuch, das Aquarell verträgt",
+        "tags": [
+          {
+            "value": "llv_paper",
+            "label": "Papiersorten"
+          },
+          {
+            "value": "llv_notebooks",
+            "label": "Notizbücher"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "llv_paper_choice",
+          "label": "Papierwahl"
+        },
+        "author": {
+          "value": "llv_thomas_reverdy",
+          "label": "Thomas Reverdy"
+        },
+        "published_at": "@now:-17d",
+        "reading_time": 6,
+        "is_featured": true,
+        "image": "/l/l/llv-pap-cro-002.jpg",
+        "related_skus": [
+          "LLV-PAP-CRO-001",
+          "LLV-PAP-CRO-002",
+          "LLV-PAP-DES-003"
+        ]
+      },
+      {
+        "id": "14",
+        "title": "Einen Bürostuhl wählen, ohne auf die Zahl der Einstellungen zu achten",
+        "content_heading": "Drei sinnvolle Einstellungen sind besser als zwölf, die niemand anfasst.",
+        "content": "<p><strong>Ein Stuhl wird an der Sitztiefe gemessen, nicht an der Länge des Datenblatts.</strong></p><ul><li>Zwischen Sitzvorderkante und Kniekehle sollten zwei Finger Platz bleiben.</li><li>Die Lordosenstütze muss sich in der Höhe verstellen lassen, nicht nur in der Tiefe.</li><li>Zu hohe Armlehnen ziehen die Schultern hoch: dann lieber gar keine.</li></ul><p>Sitzen Sie zwanzig Minuten, bevor Sie entscheiden. Ein Stuhl, der dreißig Sekunden bequem ist, beweist nichts.</p>",
+        "url_key": "einen_burostuhl_wahlen_ohne_auf_die_zahl_der_einstellungen_zu_achten.html",
+        "meta_description": "Drei sinnvolle Einstellungen sind besser als zwölf, die niemand anfasst.",
+        "meta_keyword": "Bürostuhl, Ergonomie, Sitz",
+        "meta_title": "Einen Bürostuhl wählen, ohne auf die Zahl der Einstellungen zu achten",
+        "tags": [
+          {
+            "value": "llv_ergonomics",
+            "label": "Ergonomie"
+          }
+        ],
+        "content_type": {
+          "value": "guide",
+          "label": "Kaufberatung"
+        },
+        "topic": {
+          "value": "llv_workspace",
+          "label": "Arbeitsplatz"
+        },
+        "author": {
+          "value": "llv_nadia_belkacem",
+          "label": "Nadia Belkacem"
+        },
+        "published_at": "@now:-9d",
+        "reading_time": 7,
+        "is_featured": false,
+        "image": "/l/l/llv-mob-chb-002.jpg",
+        "related_skus": [
+          "LLV-MOB-CHB-001",
+          "LLV-MOB-CHB-002",
+          "LLV-MOB-CHB-008"
+        ]
+      },
+      {
+        "id": "15",
+        "title": "Fünfhundert Bücher auf acht Quadratmetern unterbringen",
+        "content_heading": "Die Höhe ist die einzige Ressource, die alle vergessen.",
+        "content": "<p><strong>Fünfhundert Bände passen auf zwanzig laufende Meter, und zwanzig Meter passen an eine einzige Wand.</strong></p><ul><li>Gehen Sie bis zur Decke und lassen Sie die obersten dreißig Zentimeter für das, was einmal im Jahr gebraucht wird.</li><li>22 cm Tiefe genügen für Taschenbücher: 32 cm braucht nur der Bildband.</li><li>Ordnen Sie nach Format, bevor Sie nach Thema ordnen. Der verlorene Platz verschwindet.</li></ul><p>Ein Wandregal über der Tür gewinnt einen laufenden Meter, den niemand bemerkt.</p>",
+        "url_key": "funfhundert_bucher_auf_acht_quadratmetern_unterbringen.html",
+        "meta_description": "Die Höhe ist die einzige Ressource, die alle vergessen.",
+        "meta_keyword": "Aufbewahrung, Regal, Bücher",
+        "meta_title": "Fünfhundert Bücher auf acht Quadratmetern unterbringen",
+        "tags": [
+          {
+            "value": "llv_bookcases",
+            "label": "Bücherregale"
+          },
+          {
+            "value": "llv_desks",
+            "label": "Schreibtische"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "llv_workspace",
+          "label": "Arbeitsplatz"
+        },
+        "author": {
+          "value": "llv_julien_ferrand",
+          "label": "Julien Ferrand"
+        },
+        "published_at": "@now:-37d",
+        "reading_time": 5,
+        "is_featured": false,
+        "image": "/l/l/llv-mob-eta-004.jpg",
+        "related_skus": [
+          "LLV-MOB-ETA-001",
+          "LLV-MOB-ETA-004",
+          "LLV-MOB-CAI-003"
+        ]
+      },
+      {
+        "id": "16",
+        "title": "Ein Buch verschenken, wenn man den Geschmack nicht kennt",
+        "content_heading": "Ein Bildband geht immer. Ein Gegenwartsroman fast nie.",
+        "content": "<p><strong>Das Risiko ist nicht, ein schlechtes Buch zu schenken, sondern ein schon gelesenes.</strong></p><ul><li>Einen Bildband liest man nicht zweimal, also gibt es ihn nicht doppelt.</li><li>Ein Klassiker in schöner Ausgabe freut auch den, der ihn als Taschenbuch hat.</li><li>Ein Bilderbuch funktioniert in jedem Alter, was niemand gern zugibt.</li></ul><p>Meiden Sie Gesamtausgaben: sie verpflichten den Leser für ein halbes Jahr, ohne zu fragen.</p>",
+        "url_key": "ein_buch_verschenken_wenn_man_den_geschmack_nicht_kennt.html",
+        "meta_description": "Ein Bildband geht immer. Ein Gegenwartsroman fast nie.",
+        "meta_keyword": "Geschenk, Buch, Bildband",
+        "meta_title": "Ein Buch verschenken, wenn man den Geschmack nicht kennt",
+        "tags": [
+          {
+            "value": "llv_gift_ideas",
+            "label": "Geschenkideen"
+          },
+          {
+            "value": "llv_classics",
+            "label": "Klassiker"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "llv_reading",
+          "label": "Lesen"
+        },
+        "author": {
+          "value": "llv_margaux_dubreuil",
+          "label": "Margaux Dubreuil"
+        },
+        "published_at": "@now:-12d",
+        "reading_time": 4,
+        "is_featured": true,
+        "image": "/l/l/llv-liv-alb-003.jpg",
+        "related_skus": [
+          "LLV-LIV-ALB-003",
+          "LLV-LIV-ART-002",
+          "LLV-LIV-POE-001"
+        ]
+      },
+      {
+        "id": "17",
+        "title": "Läuft Recyclingpapier wirklich durch den Drucker",
+        "content_heading": "Ja, und schon lange. Was staut, ist Feuchtigkeit, nicht die Recyclingfaser.",
+        "content": "<p><strong>Recyclingpapier mit 80 g/m² verhält sich wie Frischfaserpapier gleichen Gewichts.</strong></p><ul><li>Lagern Sie das Ries flach, in der Verpackung, fern von einer kalten Wand.</li><li>Ein leicht grauer Ton bedeutet keine geringere Qualität, nur weniger Bleiche.</li><li>Beim Laserdrucker lassen Sie das Papier eine Stunde Raumtemperatur annehmen.</li></ul><p>Bleiben die Staus, liegt es öfter an der Einzugsrolle als am Papier.</p>",
+        "url_key": "lauft_recyclingpapier_wirklich_durch_den_drucker.html",
+        "meta_description": "Ja, und schon lange. Was staut, ist Feuchtigkeit, nicht die Recyclingfaser.",
+        "meta_keyword": "Recyclingpapier, Drucker, Ries",
+        "meta_title": "Läuft Recyclingpapier wirklich durch den Drucker",
+        "tags": [
+          {
+            "value": "llv_paper",
+            "label": "Papiersorten"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "llv_paper_choice",
+          "label": "Papierwahl"
+        },
+        "author": {
+          "value": "llv_elise_marchand",
+          "label": "Élise Marchand"
+        },
+        "published_at": "@now:-28d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "/l/l/llv-pap-mac-001.jpg",
+        "related_skus": [
+          "LLV-PAP-MAC-001",
+          "LLV-PAP-MAC-004",
+          "LLV-PAP-MAC-007"
+        ]
+      },
+      {
+        "id": "18",
+        "title": "Eine Leseleuchte, die den Menschen daneben nicht weckt",
+        "content_heading": "Entscheidend ist nicht die Leistung, sondern der Abstrahlwinkel.",
+        "content": "<p><strong>Eine gute Leseleuchte beleuchtet eine Seite und sonst nichts.</strong></p><ul><li>Achten Sie auf höchstens dreißig Grad Abstrahlwinkel und einen tiefen Reflektor.</li><li>Ein Fußdimmer erspart die Suche nach dem Schalter im Dunkeln.</li><li>2700 K stören den Schlaf weniger als kaltes Licht.</li></ul><p>Stellen Sie den Kopf auf Schulterhöhe, leicht nach hinten: die Seite ist beleuchtet, das Gesicht nicht.</p>",
+        "url_key": "eine_leseleuchte_die_den_menschen_daneben_nicht_weckt.html",
+        "meta_description": "Entscheidend ist nicht die Leistung, sondern der Abstrahlwinkel.",
+        "meta_keyword": "Leseleuchte, Lesen, Beleuchtung",
+        "meta_title": "Eine Leseleuchte, die den Menschen daneben nicht weckt",
+        "tags": [
+          {
+            "value": "llv_lighting",
+            "label": "Beleuchtung"
+          },
+          {
+            "value": "llv_gift_ideas",
+            "label": "Geschenkideen"
+          }
+        ],
+        "content_type": {
+          "value": "blog",
+          "label": "Blogbeitrag"
+        },
+        "topic": {
+          "value": "llv_workspace",
+          "label": "Arbeitsplatz"
+        },
+        "author": {
+          "value": "llv_nadia_belkacem",
+          "label": "Nadia Belkacem"
+        },
+        "published_at": "@now:-48d",
+        "reading_time": 4,
+        "is_featured": false,
+        "image": "/l/l/llv-mob-lis-002.jpg",
+        "related_skus": [
+          "LLV-MOB-LIS-001",
+          "LLV-MOB-LIS-002",
+          "LLV-MOB-FAU-001"
+        ]
+      }
+    ]
+  }
+]

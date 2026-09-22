@@ -18,6 +18,7 @@ declare(strict_types=1);
 namespace Gally\SampleData\DependencyInjection;
 
 use Gally\DependencyInjection\Extension;
+use Gally\SampleData\CatalogSelection;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
@@ -36,11 +37,38 @@ class GallySampleDataExtension extends Extension
     {
         $container->prependExtensionConfig(
             'hautelook_alice',
-            ['fixtures_path' => [
-                'DataFixtures',
-                'DataFixtures/premium',
-            ],
-            ]);
+            ['fixtures_path' => $this->fixturePaths()]
+        );
+    }
+
+    /**
+     * One entry per selected catalog folder under DataFixtures, plus its premium subfolder.
+     *
+     * Which folders take part is CatalogSelection's decision; see that class for the env var.
+     * A glob cannot be put in the config directly: hautelook's EnvDirectoryLocator filters the
+     * configured paths through file_exists() before handing them to the Finder, and then runs
+     * the Finder with depth(0), so a pattern is discarded and a subdirectory is invisible.
+     *
+     * The premium folder has to be named exactly `premium`, because PremiumFilesLocator hides
+     * it from an open-source install with a plain str_contains($file, '/premium/').
+     *
+     * @return string[]
+     */
+    private function fixturePaths(): array
+    {
+        $paths = [];
+
+        foreach (CatalogSelection::folders() as $catalog) {
+            $paths[] = 'DataFixtures/' . $catalog;
+
+            if (is_dir(CatalogSelection::path($catalog) . '/premium')) {
+                $paths[] = 'DataFixtures/' . $catalog . '/premium';
+            }
+        }
+
+        sort($paths);
+
+        return $paths;
     }
 
     /**

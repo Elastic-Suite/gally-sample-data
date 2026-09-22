@@ -1,0 +1,66 @@
+include:
+    - localized_catalogs.yaml
+    - category_source_field.yaml
+    - ../common/category_source_field.yaml
+
+Gally\Metadata\Entity\SourceFieldLabel:
+    categories_children_count_papershop_fr:
+        source_field: '@categories_children_count'
+        localized_catalog: '@papershop_fr'
+        label: 'Nombre d''enfants'
+    categories_children_count_papershop_en:
+        source_field: '@categories_children_count'
+        localized_catalog: '@papershop_en'
+        label: 'Children count'
+    categories_children_count_papershop_de:
+        source_field: '@categories_children_count'
+        localized_catalog: '@papershop_de'
+        label: 'Anzahl Unterkategorien'
+    categories_position_papershop_fr:
+        source_field: '@categories_position'
+        localized_catalog: '@papershop_fr'
+        label: 'Position'
+    categories_position_papershop_en:
+        source_field: '@categories_position'
+        localized_catalog: '@papershop_en'
+        label: 'Position'
+    categories_position_papershop_de:
+        source_field: '@categories_position'
+        localized_catalog: '@papershop_de'
+        label: 'Position'
+    categories_url_key_papershop_fr:
+        source_field: '@categories_url_key'
+        localized_catalog: '@papershop_fr'
+        label: 'Clé d''URL'
+    categories_url_key_papershop_en:
+        source_field: '@categories_url_key'
+        localized_catalog: '@papershop_en'
+        label: 'URL key'
+    categories_url_key_papershop_de:
+        source_field: '@categories_url_key'
+        localized_catalog: '@papershop_de'
+        label: 'URL-Schlüssel'
+    categories_is_active_papershop_fr:
+        source_field: '@categories_is_active'
+        localized_catalog: '@papershop_fr'
+        label: 'Actif'
+    categories_is_active_papershop_en:
+        source_field: '@categories_is_active'
+        localized_catalog: '@papershop_en'
+        label: 'Active'
+    categories_is_active_papershop_de:
+        source_field: '@categories_is_active'
+        localized_catalog: '@papershop_de'
+        label: 'Aktiv'
+    categories_is_displayed_in_autocomplete_papershop_fr:
+        source_field: '@categories_is_displayed_in_autocomplete'
+        localized_catalog: '@papershop_fr'
+        label: 'Affiché dans l''autocomplétion'
+    categories_is_displayed_in_autocomplete_papershop_en:
+        source_field: '@categories_is_displayed_in_autocomplete'
+        localized_catalog: '@papershop_en'
+        label: 'Shown in autocomplete'
+    categories_is_displayed_in_autocomplete_papershop_de:
+        source_field: '@categories_is_displayed_in_autocomplete'
+        localized_catalog: '@papershop_de'
+        label: 'In Autovervollständigung angezeigt'

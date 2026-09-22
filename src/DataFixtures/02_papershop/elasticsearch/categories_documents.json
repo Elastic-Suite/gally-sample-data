@@ -1,0 +1,2597 @@
+[
+  {
+    "index_name": "gally_localized_catalog_papershop_fr_category",
+    "documents": [
+      {
+        "id": "cat_llv_1",
+        "path": "cat_llv_1",
+        "level": "1",
+        "position": "1",
+        "children_count": "4",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Le livre & le lièvre"
+        ]
+      },
+      {
+        "id": "cat_llv_54",
+        "parentId": "cat_llv_1",
+        "path": "cat_llv_1/cat_llv_54",
+        "level": "2",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sélection éco-responsable"
+        ],
+        "url_key": [
+          "selection-eco-responsable"
+        ]
+      },
+      {
+        "id": "cat_llv_2",
+        "parentId": "cat_llv_1",
+        "path": "cat_llv_1/cat_llv_2",
+        "level": "2",
+        "position": "2",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Papeterie"
+        ],
+        "url_key": [
+          "papeterie"
+        ]
+      },
+      {
+        "id": "cat_llv_3",
+        "parentId": "cat_llv_2",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_3",
+        "level": "3",
+        "position": "1",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Cahiers & carnets"
+        ],
+        "url_key": [
+          "cahiers-carnets"
+        ]
+      },
+      {
+        "id": "cat_llv_4",
+        "parentId": "cat_llv_3",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_3/cat_llv_4",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Cahiers scolaires"
+        ],
+        "url_key": [
+          "cahiers-scolaires"
+        ]
+      },
+      {
+        "id": "cat_llv_5",
+        "parentId": "cat_llv_3",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_3/cat_llv_5",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Carnets de croquis"
+        ],
+        "url_key": [
+          "carnets-de-croquis"
+        ]
+      },
+      {
+        "id": "cat_llv_6",
+        "parentId": "cat_llv_2",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_6",
+        "level": "3",
+        "position": "2",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Agendas & organisation"
+        ],
+        "url_key": [
+          "agendas-organisation"
+        ]
+      },
+      {
+        "id": "cat_llv_7",
+        "parentId": "cat_llv_6",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_6/cat_llv_7",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Agendas"
+        ],
+        "url_key": [
+          "agendas"
+        ]
+      },
+      {
+        "id": "cat_llv_8",
+        "parentId": "cat_llv_6",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_6/cat_llv_8",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Calendriers"
+        ],
+        "url_key": [
+          "calendriers"
+        ]
+      },
+      {
+        "id": "cat_llv_9",
+        "parentId": "cat_llv_2",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_9",
+        "level": "3",
+        "position": "3",
+        "children_count": "4",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Écriture"
+        ],
+        "url_key": [
+          "ecriture"
+        ]
+      },
+      {
+        "id": "cat_llv_10",
+        "parentId": "cat_llv_9",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_9/cat_llv_10",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Stylos plume"
+        ],
+        "url_key": [
+          "stylos-plume"
+        ]
+      },
+      {
+        "id": "cat_llv_11",
+        "parentId": "cat_llv_9",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_9/cat_llv_11",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Stylos bille & rollers"
+        ],
+        "url_key": [
+          "stylos-bille-rollers"
+        ]
+      },
+      {
+        "id": "cat_llv_12",
+        "parentId": "cat_llv_9",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_9/cat_llv_12",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Crayons"
+        ],
+        "url_key": [
+          "crayons"
+        ]
+      },
+      {
+        "id": "cat_llv_13",
+        "parentId": "cat_llv_9",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_9/cat_llv_13",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Encres & recharges"
+        ],
+        "url_key": [
+          "encres-recharges"
+        ]
+      },
+      {
+        "id": "cat_llv_14",
+        "parentId": "cat_llv_2",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_14",
+        "level": "3",
+        "position": "4",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Papiers"
+        ],
+        "url_key": [
+          "papiers"
+        ]
+      },
+      {
+        "id": "cat_llv_15",
+        "parentId": "cat_llv_14",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_14/cat_llv_15",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Papier machine"
+        ],
+        "url_key": [
+          "papier-machine"
+        ]
+      },
+      {
+        "id": "cat_llv_16",
+        "parentId": "cat_llv_14",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_14/cat_llv_16",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Papier dessin"
+        ],
+        "url_key": [
+          "papier-dessin"
+        ]
+      },
+      {
+        "id": "cat_llv_17",
+        "parentId": "cat_llv_2",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_17",
+        "level": "3",
+        "position": "5",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Classement & bureau"
+        ],
+        "url_key": [
+          "classement-bureau"
+        ]
+      },
+      {
+        "id": "cat_llv_18",
+        "parentId": "cat_llv_17",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_17/cat_llv_18",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Classeurs"
+        ],
+        "url_key": [
+          "classeurs"
+        ]
+      },
+      {
+        "id": "cat_llv_19",
+        "parentId": "cat_llv_17",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_17/cat_llv_19",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Chemises & trieurs"
+        ],
+        "url_key": [
+          "chemises-trieurs"
+        ]
+      },
+      {
+        "id": "cat_llv_20",
+        "parentId": "cat_llv_1",
+        "path": "cat_llv_1/cat_llv_20",
+        "level": "2",
+        "position": "3",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Livres"
+        ],
+        "url_key": [
+          "livres"
+        ]
+      },
+      {
+        "id": "cat_llv_21",
+        "parentId": "cat_llv_20",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_21",
+        "level": "3",
+        "position": "1",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Romans & littérature"
+        ],
+        "url_key": [
+          "romans-litterature"
+        ]
+      },
+      {
+        "id": "cat_llv_22",
+        "parentId": "cat_llv_21",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_21/cat_llv_22",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Littérature classique"
+        ],
+        "url_key": [
+          "litterature-classique"
+        ]
+      },
+      {
+        "id": "cat_llv_23",
+        "parentId": "cat_llv_21",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_21/cat_llv_23",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Récits & nouvelles"
+        ],
+        "url_key": [
+          "recits-nouvelles"
+        ]
+      },
+      {
+        "id": "cat_llv_24",
+        "parentId": "cat_llv_21",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_21/cat_llv_24",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Poésie"
+        ],
+        "url_key": [
+          "poesie"
+        ]
+      },
+      {
+        "id": "cat_llv_25",
+        "parentId": "cat_llv_20",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_25",
+        "level": "3",
+        "position": "2",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Polars & imaginaire"
+        ],
+        "url_key": [
+          "polars-imaginaire"
+        ]
+      },
+      {
+        "id": "cat_llv_26",
+        "parentId": "cat_llv_25",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_25/cat_llv_26",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Policier & thriller"
+        ],
+        "url_key": [
+          "policier-thriller"
+        ]
+      },
+      {
+        "id": "cat_llv_27",
+        "parentId": "cat_llv_25",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_25/cat_llv_27",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Science-fiction & fantasy"
+        ],
+        "url_key": [
+          "science-fiction-fantasy"
+        ]
+      },
+      {
+        "id": "cat_llv_28",
+        "parentId": "cat_llv_20",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_28",
+        "level": "3",
+        "position": "3",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Jeunesse"
+        ],
+        "url_key": [
+          "jeunesse"
+        ]
+      },
+      {
+        "id": "cat_llv_29",
+        "parentId": "cat_llv_28",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_28/cat_llv_29",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Albums illustrés"
+        ],
+        "url_key": [
+          "albums-illustres"
+        ]
+      },
+      {
+        "id": "cat_llv_30",
+        "parentId": "cat_llv_28",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_28/cat_llv_30",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Romans ados"
+        ],
+        "url_key": [
+          "romans-ados"
+        ]
+      },
+      {
+        "id": "cat_llv_31",
+        "parentId": "cat_llv_20",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_31",
+        "level": "3",
+        "position": "4",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Savoirs"
+        ],
+        "url_key": [
+          "savoirs"
+        ]
+      },
+      {
+        "id": "cat_llv_32",
+        "parentId": "cat_llv_31",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_31/cat_llv_32",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Histoire"
+        ],
+        "url_key": [
+          "histoire"
+        ]
+      },
+      {
+        "id": "cat_llv_33",
+        "parentId": "cat_llv_31",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_31/cat_llv_33",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sciences & nature"
+        ],
+        "url_key": [
+          "sciences-nature"
+        ]
+      },
+      {
+        "id": "cat_llv_34",
+        "parentId": "cat_llv_31",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_31/cat_llv_34",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Philosophie"
+        ],
+        "url_key": [
+          "philosophie"
+        ]
+      },
+      {
+        "id": "cat_llv_35",
+        "parentId": "cat_llv_20",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_35",
+        "level": "3",
+        "position": "5",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Beaux livres & pratique"
+        ],
+        "url_key": [
+          "beaux-livres-pratique"
+        ]
+      },
+      {
+        "id": "cat_llv_36",
+        "parentId": "cat_llv_35",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_35/cat_llv_36",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Livres d'art"
+        ],
+        "url_key": [
+          "livres-d-art"
+        ]
+      },
+      {
+        "id": "cat_llv_37",
+        "parentId": "cat_llv_35",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_35/cat_llv_37",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Cuisine & voyage"
+        ],
+        "url_key": [
+          "cuisine-voyage"
+        ]
+      },
+      {
+        "id": "cat_llv_38",
+        "parentId": "cat_llv_1",
+        "path": "cat_llv_1/cat_llv_38",
+        "level": "2",
+        "position": "4",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Mobilier"
+        ],
+        "url_key": [
+          "mobilier"
+        ]
+      },
+      {
+        "id": "cat_llv_39",
+        "parentId": "cat_llv_38",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_39",
+        "level": "3",
+        "position": "1",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bureaux & tables"
+        ],
+        "url_key": [
+          "bureaux-tables"
+        ]
+      },
+      {
+        "id": "cat_llv_40",
+        "parentId": "cat_llv_39",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_39/cat_llv_40",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bureaux"
+        ],
+        "url_key": [
+          "bureaux"
+        ]
+      },
+      {
+        "id": "cat_llv_41",
+        "parentId": "cat_llv_39",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_39/cat_llv_41",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bureaux assis-debout"
+        ],
+        "url_key": [
+          "bureaux-assis-debout"
+        ]
+      },
+      {
+        "id": "cat_llv_42",
+        "parentId": "cat_llv_38",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_42",
+        "level": "3",
+        "position": "2",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Assises"
+        ],
+        "url_key": [
+          "assises"
+        ]
+      },
+      {
+        "id": "cat_llv_43",
+        "parentId": "cat_llv_42",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_42/cat_llv_43",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Chaises de bureau"
+        ],
+        "url_key": [
+          "chaises-de-bureau"
+        ]
+      },
+      {
+        "id": "cat_llv_44",
+        "parentId": "cat_llv_42",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_42/cat_llv_44",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Fauteuils de lecture"
+        ],
+        "url_key": [
+          "fauteuils-de-lecture"
+        ]
+      },
+      {
+        "id": "cat_llv_45",
+        "parentId": "cat_llv_38",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_45",
+        "level": "3",
+        "position": "3",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bibliothèques & rangement"
+        ],
+        "url_key": [
+          "bibliotheques-rangement"
+        ]
+      },
+      {
+        "id": "cat_llv_46",
+        "parentId": "cat_llv_45",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_45/cat_llv_46",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bibliothèques"
+        ],
+        "url_key": [
+          "bibliotheques"
+        ]
+      },
+      {
+        "id": "cat_llv_47",
+        "parentId": "cat_llv_45",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_45/cat_llv_47",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Étagères murales"
+        ],
+        "url_key": [
+          "etageres-murales"
+        ]
+      },
+      {
+        "id": "cat_llv_48",
+        "parentId": "cat_llv_45",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_45/cat_llv_48",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Caissons & dessertes"
+        ],
+        "url_key": [
+          "caissons-dessertes"
+        ]
+      },
+      {
+        "id": "cat_llv_49",
+        "parentId": "cat_llv_38",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_49",
+        "level": "3",
+        "position": "4",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Luminaires"
+        ],
+        "url_key": [
+          "luminaires"
+        ]
+      },
+      {
+        "id": "cat_llv_50",
+        "parentId": "cat_llv_49",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_49/cat_llv_50",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Lampes de bureau"
+        ],
+        "url_key": [
+          "lampes-de-bureau"
+        ]
+      },
+      {
+        "id": "cat_llv_51",
+        "parentId": "cat_llv_49",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_49/cat_llv_51",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Liseuses"
+        ],
+        "url_key": [
+          "liseuses"
+        ]
+      },
+      {
+        "id": "cat_llv_52",
+        "parentId": "cat_llv_38",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_52",
+        "level": "3",
+        "position": "5",
+        "children_count": "1",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Accessoires d'atelier"
+        ],
+        "url_key": [
+          "accessoires-d-atelier"
+        ]
+      },
+      {
+        "id": "cat_llv_53",
+        "parentId": "cat_llv_52",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_52/cat_llv_53",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Serre-livres & porte-revues"
+        ],
+        "url_key": [
+          "serre-livres-porte-revues"
+        ]
+      }
+    ]
+  },
+  {
+    "index_name": "gally_localized_catalog_papershop_en_category",
+    "documents": [
+      {
+        "id": "cat_llv_1",
+        "path": "cat_llv_1",
+        "level": "1",
+        "position": "1",
+        "children_count": "4",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "The Book & the Hare"
+        ]
+      },
+      {
+        "id": "cat_llv_54",
+        "parentId": "cat_llv_1",
+        "path": "cat_llv_1/cat_llv_54",
+        "level": "2",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sustainable selection"
+        ],
+        "url_key": [
+          "sustainable-selection"
+        ]
+      },
+      {
+        "id": "cat_llv_2",
+        "parentId": "cat_llv_1",
+        "path": "cat_llv_1/cat_llv_2",
+        "level": "2",
+        "position": "2",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Stationery"
+        ],
+        "url_key": [
+          "stationery"
+        ]
+      },
+      {
+        "id": "cat_llv_3",
+        "parentId": "cat_llv_2",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_3",
+        "level": "3",
+        "position": "1",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Notebooks & journals"
+        ],
+        "url_key": [
+          "notebooks-journals"
+        ]
+      },
+      {
+        "id": "cat_llv_4",
+        "parentId": "cat_llv_3",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_3/cat_llv_4",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "School exercise books"
+        ],
+        "url_key": [
+          "school-exercise-books"
+        ]
+      },
+      {
+        "id": "cat_llv_5",
+        "parentId": "cat_llv_3",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_3/cat_llv_5",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sketchbooks"
+        ],
+        "url_key": [
+          "sketchbooks"
+        ]
+      },
+      {
+        "id": "cat_llv_6",
+        "parentId": "cat_llv_2",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_6",
+        "level": "3",
+        "position": "2",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Diaries & planning"
+        ],
+        "url_key": [
+          "diaries-planning"
+        ]
+      },
+      {
+        "id": "cat_llv_7",
+        "parentId": "cat_llv_6",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_6/cat_llv_7",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Diaries"
+        ],
+        "url_key": [
+          "diaries"
+        ]
+      },
+      {
+        "id": "cat_llv_8",
+        "parentId": "cat_llv_6",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_6/cat_llv_8",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Calendars"
+        ],
+        "url_key": [
+          "calendars"
+        ]
+      },
+      {
+        "id": "cat_llv_9",
+        "parentId": "cat_llv_2",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_9",
+        "level": "3",
+        "position": "3",
+        "children_count": "4",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Writing instruments"
+        ],
+        "url_key": [
+          "writing-instruments"
+        ]
+      },
+      {
+        "id": "cat_llv_10",
+        "parentId": "cat_llv_9",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_9/cat_llv_10",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Fountain pens"
+        ],
+        "url_key": [
+          "fountain-pens"
+        ]
+      },
+      {
+        "id": "cat_llv_11",
+        "parentId": "cat_llv_9",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_9/cat_llv_11",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Ballpoints & rollerballs"
+        ],
+        "url_key": [
+          "ballpoints-rollerballs"
+        ]
+      },
+      {
+        "id": "cat_llv_12",
+        "parentId": "cat_llv_9",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_9/cat_llv_12",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Pencils"
+        ],
+        "url_key": [
+          "pencils"
+        ]
+      },
+      {
+        "id": "cat_llv_13",
+        "parentId": "cat_llv_9",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_9/cat_llv_13",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Inks & refills"
+        ],
+        "url_key": [
+          "inks-refills"
+        ]
+      },
+      {
+        "id": "cat_llv_14",
+        "parentId": "cat_llv_2",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_14",
+        "level": "3",
+        "position": "4",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Paper"
+        ],
+        "url_key": [
+          "paper"
+        ]
+      },
+      {
+        "id": "cat_llv_15",
+        "parentId": "cat_llv_14",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_14/cat_llv_15",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Printer paper"
+        ],
+        "url_key": [
+          "printer-paper"
+        ]
+      },
+      {
+        "id": "cat_llv_16",
+        "parentId": "cat_llv_14",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_14/cat_llv_16",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Drawing paper"
+        ],
+        "url_key": [
+          "drawing-paper"
+        ]
+      },
+      {
+        "id": "cat_llv_17",
+        "parentId": "cat_llv_2",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_17",
+        "level": "3",
+        "position": "5",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Filing & desktop"
+        ],
+        "url_key": [
+          "filing-desktop"
+        ]
+      },
+      {
+        "id": "cat_llv_18",
+        "parentId": "cat_llv_17",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_17/cat_llv_18",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Ring binders"
+        ],
+        "url_key": [
+          "ring-binders"
+        ]
+      },
+      {
+        "id": "cat_llv_19",
+        "parentId": "cat_llv_17",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_17/cat_llv_19",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Folders & sorters"
+        ],
+        "url_key": [
+          "folders-sorters"
+        ]
+      },
+      {
+        "id": "cat_llv_20",
+        "parentId": "cat_llv_1",
+        "path": "cat_llv_1/cat_llv_20",
+        "level": "2",
+        "position": "3",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Books"
+        ],
+        "url_key": [
+          "books"
+        ]
+      },
+      {
+        "id": "cat_llv_21",
+        "parentId": "cat_llv_20",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_21",
+        "level": "3",
+        "position": "1",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Fiction & literature"
+        ],
+        "url_key": [
+          "fiction-literature"
+        ]
+      },
+      {
+        "id": "cat_llv_22",
+        "parentId": "cat_llv_21",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_21/cat_llv_22",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Classic literature"
+        ],
+        "url_key": [
+          "classic-literature"
+        ]
+      },
+      {
+        "id": "cat_llv_23",
+        "parentId": "cat_llv_21",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_21/cat_llv_23",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Short stories & tales"
+        ],
+        "url_key": [
+          "short-stories-tales"
+        ]
+      },
+      {
+        "id": "cat_llv_24",
+        "parentId": "cat_llv_21",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_21/cat_llv_24",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Poetry"
+        ],
+        "url_key": [
+          "poetry"
+        ]
+      },
+      {
+        "id": "cat_llv_25",
+        "parentId": "cat_llv_20",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_25",
+        "level": "3",
+        "position": "2",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Crime & speculative"
+        ],
+        "url_key": [
+          "crime-speculative"
+        ]
+      },
+      {
+        "id": "cat_llv_26",
+        "parentId": "cat_llv_25",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_25/cat_llv_26",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Crime & thriller"
+        ],
+        "url_key": [
+          "crime-thriller"
+        ]
+      },
+      {
+        "id": "cat_llv_27",
+        "parentId": "cat_llv_25",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_25/cat_llv_27",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Science fiction & fantasy"
+        ],
+        "url_key": [
+          "science-fiction-fantasy"
+        ]
+      },
+      {
+        "id": "cat_llv_28",
+        "parentId": "cat_llv_20",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_28",
+        "level": "3",
+        "position": "3",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Children's books"
+        ],
+        "url_key": [
+          "children-s-books"
+        ]
+      },
+      {
+        "id": "cat_llv_29",
+        "parentId": "cat_llv_28",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_28/cat_llv_29",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Picture books"
+        ],
+        "url_key": [
+          "picture-books"
+        ]
+      },
+      {
+        "id": "cat_llv_30",
+        "parentId": "cat_llv_28",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_28/cat_llv_30",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Young adult fiction"
+        ],
+        "url_key": [
+          "young-adult-fiction"
+        ]
+      },
+      {
+        "id": "cat_llv_31",
+        "parentId": "cat_llv_20",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_31",
+        "level": "3",
+        "position": "4",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Knowledge & ideas"
+        ],
+        "url_key": [
+          "knowledge-ideas"
+        ]
+      },
+      {
+        "id": "cat_llv_32",
+        "parentId": "cat_llv_31",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_31/cat_llv_32",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "History"
+        ],
+        "url_key": [
+          "history"
+        ]
+      },
+      {
+        "id": "cat_llv_33",
+        "parentId": "cat_llv_31",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_31/cat_llv_33",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Science & nature"
+        ],
+        "url_key": [
+          "science-nature"
+        ]
+      },
+      {
+        "id": "cat_llv_34",
+        "parentId": "cat_llv_31",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_31/cat_llv_34",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Philosophy"
+        ],
+        "url_key": [
+          "philosophy"
+        ]
+      },
+      {
+        "id": "cat_llv_35",
+        "parentId": "cat_llv_20",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_35",
+        "level": "3",
+        "position": "5",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Illustrated & practical"
+        ],
+        "url_key": [
+          "illustrated-practical"
+        ]
+      },
+      {
+        "id": "cat_llv_36",
+        "parentId": "cat_llv_35",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_35/cat_llv_36",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Art books"
+        ],
+        "url_key": [
+          "art-books"
+        ]
+      },
+      {
+        "id": "cat_llv_37",
+        "parentId": "cat_llv_35",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_35/cat_llv_37",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Cooking & travel"
+        ],
+        "url_key": [
+          "cooking-travel"
+        ]
+      },
+      {
+        "id": "cat_llv_38",
+        "parentId": "cat_llv_1",
+        "path": "cat_llv_1/cat_llv_38",
+        "level": "2",
+        "position": "4",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Furniture"
+        ],
+        "url_key": [
+          "furniture"
+        ]
+      },
+      {
+        "id": "cat_llv_39",
+        "parentId": "cat_llv_38",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_39",
+        "level": "3",
+        "position": "1",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Desks & tables"
+        ],
+        "url_key": [
+          "desks-tables"
+        ]
+      },
+      {
+        "id": "cat_llv_40",
+        "parentId": "cat_llv_39",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_39/cat_llv_40",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Desks"
+        ],
+        "url_key": [
+          "desks"
+        ]
+      },
+      {
+        "id": "cat_llv_41",
+        "parentId": "cat_llv_39",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_39/cat_llv_41",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sit-stand desks"
+        ],
+        "url_key": [
+          "sit-stand-desks"
+        ]
+      },
+      {
+        "id": "cat_llv_42",
+        "parentId": "cat_llv_38",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_42",
+        "level": "3",
+        "position": "2",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Seating"
+        ],
+        "url_key": [
+          "seating"
+        ]
+      },
+      {
+        "id": "cat_llv_43",
+        "parentId": "cat_llv_42",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_42/cat_llv_43",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Desk chairs"
+        ],
+        "url_key": [
+          "desk-chairs"
+        ]
+      },
+      {
+        "id": "cat_llv_44",
+        "parentId": "cat_llv_42",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_42/cat_llv_44",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Reading armchairs"
+        ],
+        "url_key": [
+          "reading-armchairs"
+        ]
+      },
+      {
+        "id": "cat_llv_45",
+        "parentId": "cat_llv_38",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_45",
+        "level": "3",
+        "position": "3",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bookcases & storage"
+        ],
+        "url_key": [
+          "bookcases-storage"
+        ]
+      },
+      {
+        "id": "cat_llv_46",
+        "parentId": "cat_llv_45",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_45/cat_llv_46",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bookcases"
+        ],
+        "url_key": [
+          "bookcases"
+        ]
+      },
+      {
+        "id": "cat_llv_47",
+        "parentId": "cat_llv_45",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_45/cat_llv_47",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Wall shelves"
+        ],
+        "url_key": [
+          "wall-shelves"
+        ]
+      },
+      {
+        "id": "cat_llv_48",
+        "parentId": "cat_llv_45",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_45/cat_llv_48",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Drawer units & trolleys"
+        ],
+        "url_key": [
+          "drawer-units-trolleys"
+        ]
+      },
+      {
+        "id": "cat_llv_49",
+        "parentId": "cat_llv_38",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_49",
+        "level": "3",
+        "position": "4",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Lighting"
+        ],
+        "url_key": [
+          "lighting"
+        ]
+      },
+      {
+        "id": "cat_llv_50",
+        "parentId": "cat_llv_49",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_49/cat_llv_50",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Desk lamps"
+        ],
+        "url_key": [
+          "desk-lamps"
+        ]
+      },
+      {
+        "id": "cat_llv_51",
+        "parentId": "cat_llv_49",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_49/cat_llv_51",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Reading lamps"
+        ],
+        "url_key": [
+          "reading-lamps"
+        ]
+      },
+      {
+        "id": "cat_llv_52",
+        "parentId": "cat_llv_38",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_52",
+        "level": "3",
+        "position": "5",
+        "children_count": "1",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Workspace accessories"
+        ],
+        "url_key": [
+          "workspace-accessories"
+        ]
+      },
+      {
+        "id": "cat_llv_53",
+        "parentId": "cat_llv_52",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_52/cat_llv_53",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bookends & magazine racks"
+        ],
+        "url_key": [
+          "bookends-magazine-racks"
+        ]
+      }
+    ]
+  },
+  {
+    "index_name": "gally_localized_catalog_papershop_de_category",
+    "documents": [
+      {
+        "id": "cat_llv_1",
+        "path": "cat_llv_1",
+        "level": "1",
+        "position": "1",
+        "children_count": "4",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Das Buch & der Hase"
+        ]
+      },
+      {
+        "id": "cat_llv_54",
+        "parentId": "cat_llv_1",
+        "path": "cat_llv_1/cat_llv_54",
+        "level": "2",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Nachhaltige Auswahl"
+        ],
+        "url_key": [
+          "nachhaltige-auswahl"
+        ]
+      },
+      {
+        "id": "cat_llv_2",
+        "parentId": "cat_llv_1",
+        "path": "cat_llv_1/cat_llv_2",
+        "level": "2",
+        "position": "2",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schreibwaren"
+        ],
+        "url_key": [
+          "schreibwaren"
+        ]
+      },
+      {
+        "id": "cat_llv_3",
+        "parentId": "cat_llv_2",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_3",
+        "level": "3",
+        "position": "1",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Hefte & Notizbücher"
+        ],
+        "url_key": [
+          "hefte-notizbucher"
+        ]
+      },
+      {
+        "id": "cat_llv_4",
+        "parentId": "cat_llv_3",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_3/cat_llv_4",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schulhefte"
+        ],
+        "url_key": [
+          "schulhefte"
+        ]
+      },
+      {
+        "id": "cat_llv_5",
+        "parentId": "cat_llv_3",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_3/cat_llv_5",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Skizzenbücher"
+        ],
+        "url_key": [
+          "skizzenbucher"
+        ]
+      },
+      {
+        "id": "cat_llv_6",
+        "parentId": "cat_llv_2",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_6",
+        "level": "3",
+        "position": "2",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Kalender & Planung"
+        ],
+        "url_key": [
+          "kalender-planung"
+        ]
+      },
+      {
+        "id": "cat_llv_7",
+        "parentId": "cat_llv_6",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_6/cat_llv_7",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Terminplaner"
+        ],
+        "url_key": [
+          "terminplaner"
+        ]
+      },
+      {
+        "id": "cat_llv_8",
+        "parentId": "cat_llv_6",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_6/cat_llv_8",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Wandkalender"
+        ],
+        "url_key": [
+          "wandkalender"
+        ]
+      },
+      {
+        "id": "cat_llv_9",
+        "parentId": "cat_llv_2",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_9",
+        "level": "3",
+        "position": "3",
+        "children_count": "4",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schreibgeräte"
+        ],
+        "url_key": [
+          "schreibgerate"
+        ]
+      },
+      {
+        "id": "cat_llv_10",
+        "parentId": "cat_llv_9",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_9/cat_llv_10",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Füllhalter"
+        ],
+        "url_key": [
+          "fullhalter"
+        ]
+      },
+      {
+        "id": "cat_llv_11",
+        "parentId": "cat_llv_9",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_9/cat_llv_11",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Kugelschreiber & Tintenroller"
+        ],
+        "url_key": [
+          "kugelschreiber-tintenroller"
+        ]
+      },
+      {
+        "id": "cat_llv_12",
+        "parentId": "cat_llv_9",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_9/cat_llv_12",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bleistifte"
+        ],
+        "url_key": [
+          "bleistifte"
+        ]
+      },
+      {
+        "id": "cat_llv_13",
+        "parentId": "cat_llv_9",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_9/cat_llv_13",
+        "level": "4",
+        "position": "4",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Tinten & Minen"
+        ],
+        "url_key": [
+          "tinten-minen"
+        ]
+      },
+      {
+        "id": "cat_llv_14",
+        "parentId": "cat_llv_2",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_14",
+        "level": "3",
+        "position": "4",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Papier"
+        ],
+        "url_key": [
+          "papier"
+        ]
+      },
+      {
+        "id": "cat_llv_15",
+        "parentId": "cat_llv_14",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_14/cat_llv_15",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Druckerpapier"
+        ],
+        "url_key": [
+          "druckerpapier"
+        ]
+      },
+      {
+        "id": "cat_llv_16",
+        "parentId": "cat_llv_14",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_14/cat_llv_16",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Zeichenpapier"
+        ],
+        "url_key": [
+          "zeichenpapier"
+        ]
+      },
+      {
+        "id": "cat_llv_17",
+        "parentId": "cat_llv_2",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_17",
+        "level": "3",
+        "position": "5",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Ordnung & Schreibtisch"
+        ],
+        "url_key": [
+          "ordnung-schreibtisch"
+        ]
+      },
+      {
+        "id": "cat_llv_18",
+        "parentId": "cat_llv_17",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_17/cat_llv_18",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Ordner"
+        ],
+        "url_key": [
+          "ordner"
+        ]
+      },
+      {
+        "id": "cat_llv_19",
+        "parentId": "cat_llv_17",
+        "path": "cat_llv_1/cat_llv_2/cat_llv_17/cat_llv_19",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Mappen & Sortierer"
+        ],
+        "url_key": [
+          "mappen-sortierer"
+        ]
+      },
+      {
+        "id": "cat_llv_20",
+        "parentId": "cat_llv_1",
+        "path": "cat_llv_1/cat_llv_20",
+        "level": "2",
+        "position": "3",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bücher"
+        ],
+        "url_key": [
+          "bucher"
+        ]
+      },
+      {
+        "id": "cat_llv_21",
+        "parentId": "cat_llv_20",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_21",
+        "level": "3",
+        "position": "1",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Romane & Literatur"
+        ],
+        "url_key": [
+          "romane-literatur"
+        ]
+      },
+      {
+        "id": "cat_llv_22",
+        "parentId": "cat_llv_21",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_21/cat_llv_22",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Klassische Literatur"
+        ],
+        "url_key": [
+          "klassische-literatur"
+        ]
+      },
+      {
+        "id": "cat_llv_23",
+        "parentId": "cat_llv_21",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_21/cat_llv_23",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Erzählungen & Novellen"
+        ],
+        "url_key": [
+          "erzahlungen-novellen"
+        ]
+      },
+      {
+        "id": "cat_llv_24",
+        "parentId": "cat_llv_21",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_21/cat_llv_24",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Lyrik"
+        ],
+        "url_key": [
+          "lyrik"
+        ]
+      },
+      {
+        "id": "cat_llv_25",
+        "parentId": "cat_llv_20",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_25",
+        "level": "3",
+        "position": "2",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Krimi & Phantastik"
+        ],
+        "url_key": [
+          "krimi-phantastik"
+        ]
+      },
+      {
+        "id": "cat_llv_26",
+        "parentId": "cat_llv_25",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_25/cat_llv_26",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Krimi & Thriller"
+        ],
+        "url_key": [
+          "krimi-thriller"
+        ]
+      },
+      {
+        "id": "cat_llv_27",
+        "parentId": "cat_llv_25",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_25/cat_llv_27",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Science-Fiction & Fantasy"
+        ],
+        "url_key": [
+          "science-fiction-fantasy"
+        ]
+      },
+      {
+        "id": "cat_llv_28",
+        "parentId": "cat_llv_20",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_28",
+        "level": "3",
+        "position": "3",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Kinderbücher"
+        ],
+        "url_key": [
+          "kinderbucher"
+        ]
+      },
+      {
+        "id": "cat_llv_29",
+        "parentId": "cat_llv_28",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_28/cat_llv_29",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bilderbücher"
+        ],
+        "url_key": [
+          "bilderbucher"
+        ]
+      },
+      {
+        "id": "cat_llv_30",
+        "parentId": "cat_llv_28",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_28/cat_llv_30",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Jugendromane"
+        ],
+        "url_key": [
+          "jugendromane"
+        ]
+      },
+      {
+        "id": "cat_llv_31",
+        "parentId": "cat_llv_20",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_31",
+        "level": "3",
+        "position": "4",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sachbücher"
+        ],
+        "url_key": [
+          "sachbucher"
+        ]
+      },
+      {
+        "id": "cat_llv_32",
+        "parentId": "cat_llv_31",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_31/cat_llv_32",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Geschichte"
+        ],
+        "url_key": [
+          "geschichte"
+        ]
+      },
+      {
+        "id": "cat_llv_33",
+        "parentId": "cat_llv_31",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_31/cat_llv_33",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Wissenschaft & Natur"
+        ],
+        "url_key": [
+          "wissenschaft-natur"
+        ]
+      },
+      {
+        "id": "cat_llv_34",
+        "parentId": "cat_llv_31",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_31/cat_llv_34",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Philosophie & Ethik"
+        ],
+        "url_key": [
+          "philosophie-ethik"
+        ]
+      },
+      {
+        "id": "cat_llv_35",
+        "parentId": "cat_llv_20",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_35",
+        "level": "3",
+        "position": "5",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bildbände & Praxis"
+        ],
+        "url_key": [
+          "bildbande-praxis"
+        ]
+      },
+      {
+        "id": "cat_llv_36",
+        "parentId": "cat_llv_35",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_35/cat_llv_36",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Kunstbände"
+        ],
+        "url_key": [
+          "kunstbande"
+        ]
+      },
+      {
+        "id": "cat_llv_37",
+        "parentId": "cat_llv_35",
+        "path": "cat_llv_1/cat_llv_20/cat_llv_35/cat_llv_37",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Kochen & Reisen"
+        ],
+        "url_key": [
+          "kochen-reisen"
+        ]
+      },
+      {
+        "id": "cat_llv_38",
+        "parentId": "cat_llv_1",
+        "path": "cat_llv_1/cat_llv_38",
+        "level": "2",
+        "position": "4",
+        "children_count": "5",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Möbel"
+        ],
+        "url_key": [
+          "mobel"
+        ]
+      },
+      {
+        "id": "cat_llv_39",
+        "parentId": "cat_llv_38",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_39",
+        "level": "3",
+        "position": "1",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schreibtische & Tische"
+        ],
+        "url_key": [
+          "schreibtische-tische"
+        ]
+      },
+      {
+        "id": "cat_llv_40",
+        "parentId": "cat_llv_39",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_39/cat_llv_40",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schreibtische"
+        ],
+        "url_key": [
+          "schreibtische"
+        ]
+      },
+      {
+        "id": "cat_llv_41",
+        "parentId": "cat_llv_39",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_39/cat_llv_41",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Steh-Sitz-Schreibtische"
+        ],
+        "url_key": [
+          "steh-sitz-schreibtische"
+        ]
+      },
+      {
+        "id": "cat_llv_42",
+        "parentId": "cat_llv_38",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_42",
+        "level": "3",
+        "position": "2",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Sitzmoebel"
+        ],
+        "url_key": [
+          "sitzmoebel"
+        ]
+      },
+      {
+        "id": "cat_llv_43",
+        "parentId": "cat_llv_42",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_42/cat_llv_43",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bürostühle"
+        ],
+        "url_key": [
+          "burostuhle"
+        ]
+      },
+      {
+        "id": "cat_llv_44",
+        "parentId": "cat_llv_42",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_42/cat_llv_44",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Lesesessel"
+        ],
+        "url_key": [
+          "lesesessel"
+        ]
+      },
+      {
+        "id": "cat_llv_45",
+        "parentId": "cat_llv_38",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_45",
+        "level": "3",
+        "position": "3",
+        "children_count": "3",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bücherregale & Aufbewahrung"
+        ],
+        "url_key": [
+          "bucherregale-aufbewahrung"
+        ]
+      },
+      {
+        "id": "cat_llv_46",
+        "parentId": "cat_llv_45",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_45/cat_llv_46",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Bücherregale"
+        ],
+        "url_key": [
+          "bucherregale"
+        ]
+      },
+      {
+        "id": "cat_llv_47",
+        "parentId": "cat_llv_45",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_45/cat_llv_47",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Wandregale"
+        ],
+        "url_key": [
+          "wandregale"
+        ]
+      },
+      {
+        "id": "cat_llv_48",
+        "parentId": "cat_llv_45",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_45/cat_llv_48",
+        "level": "4",
+        "position": "3",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Rollcontainer & Beistellwagen"
+        ],
+        "url_key": [
+          "rollcontainer-beistellwagen"
+        ]
+      },
+      {
+        "id": "cat_llv_49",
+        "parentId": "cat_llv_38",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_49",
+        "level": "3",
+        "position": "4",
+        "children_count": "2",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Leuchten"
+        ],
+        "url_key": [
+          "leuchten"
+        ]
+      },
+      {
+        "id": "cat_llv_50",
+        "parentId": "cat_llv_49",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_49/cat_llv_50",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Schreibtischlampen"
+        ],
+        "url_key": [
+          "schreibtischlampen"
+        ]
+      },
+      {
+        "id": "cat_llv_51",
+        "parentId": "cat_llv_49",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_49/cat_llv_51",
+        "level": "4",
+        "position": "2",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Leseleuchten"
+        ],
+        "url_key": [
+          "leseleuchten"
+        ]
+      },
+      {
+        "id": "cat_llv_52",
+        "parentId": "cat_llv_38",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_52",
+        "level": "3",
+        "position": "5",
+        "children_count": "1",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Arbeitsplatz-Zubehör"
+        ],
+        "url_key": [
+          "arbeitsplatz-zubehor"
+        ]
+      },
+      {
+        "id": "cat_llv_53",
+        "parentId": "cat_llv_52",
+        "path": "cat_llv_1/cat_llv_38/cat_llv_52/cat_llv_53",
+        "level": "4",
+        "position": "1",
+        "children_count": "0",
+        "is_active": true,
+        "is_displayed_in_autocomplete": true,
+        "name": [
+          "Buchstuetzen & Zeitschriftenständer"
+        ],
+        "url_key": [
+          "buchstuetzen-zeitschriftenstander"
+        ]
+      }
+    ]
+  }
+]

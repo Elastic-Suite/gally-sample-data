@@ -1,0 +1,23 @@
+include:
+    - catalogs.yaml
+
+Gally\Catalog\Entity\LocalizedCatalog:
+    papershop_fr:
+        catalog: '@papershop'
+        code: 'papershop_fr'
+        locale: fr_FR
+        currency: EUR
+        name: 'Le livre & le lièvre France'
+        isDefault: true
+    papershop_en:
+        catalog: '@papershop'
+        code: 'papershop_en'
+        locale: en_US
+        currency: EUR
+        name: 'Le livre & le lièvre English'
+    papershop_de:
+        catalog: '@papershop'
+        code: 'papershop_de'
+        locale: de_DE
+        currency: EUR
+        name: 'Le livre & le lièvre Deutschland'

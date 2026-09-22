@@ -1,0 +1,1266 @@
+include:
+    - catalogs.yaml
+    - localized_catalogs.yaml
+
+Gally\Category\Entity\Category:
+    cat_fio_1:
+        id: cat_fio_1
+        level: 1
+        path: cat_fio_1
+    cat_fio_2:
+        id: cat_fio_2
+        parentId: cat_fio_1
+        level: 2
+        path: cat_fio_1/cat_fio_2
+    cat_fio_3:
+        id: cat_fio_3
+        parentId: cat_fio_2
+        level: 3
+        path: cat_fio_1/cat_fio_2/cat_fio_3
+    cat_fio_4:
+        id: cat_fio_4
+        parentId: cat_fio_3
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_3/cat_fio_4
+    cat_fio_5:
+        id: cat_fio_5
+        parentId: cat_fio_3
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_3/cat_fio_5
+    cat_fio_6:
+        id: cat_fio_6
+        parentId: cat_fio_3
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_3/cat_fio_6
+    cat_fio_7:
+        id: cat_fio_7
+        parentId: cat_fio_3
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_3/cat_fio_7
+    cat_fio_8:
+        id: cat_fio_8
+        parentId: cat_fio_3
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_3/cat_fio_8
+    cat_fio_9:
+        id: cat_fio_9
+        parentId: cat_fio_3
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_3/cat_fio_9
+    cat_fio_10:
+        id: cat_fio_10
+        parentId: cat_fio_2
+        level: 3
+        path: cat_fio_1/cat_fio_2/cat_fio_10
+    cat_fio_11:
+        id: cat_fio_11
+        parentId: cat_fio_10
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_10/cat_fio_11
+    cat_fio_12:
+        id: cat_fio_12
+        parentId: cat_fio_10
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_10/cat_fio_12
+    cat_fio_13:
+        id: cat_fio_13
+        parentId: cat_fio_10
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_10/cat_fio_13
+    cat_fio_14:
+        id: cat_fio_14
+        parentId: cat_fio_10
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_10/cat_fio_14
+    cat_fio_15:
+        id: cat_fio_15
+        parentId: cat_fio_10
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_10/cat_fio_15
+    cat_fio_16:
+        id: cat_fio_16
+        parentId: cat_fio_2
+        level: 3
+        path: cat_fio_1/cat_fio_2/cat_fio_16
+    cat_fio_17:
+        id: cat_fio_17
+        parentId: cat_fio_16
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_16/cat_fio_17
+    cat_fio_18:
+        id: cat_fio_18
+        parentId: cat_fio_16
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_16/cat_fio_18
+    cat_fio_19:
+        id: cat_fio_19
+        parentId: cat_fio_16
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_16/cat_fio_19
+    cat_fio_20:
+        id: cat_fio_20
+        parentId: cat_fio_16
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_16/cat_fio_20
+    cat_fio_21:
+        id: cat_fio_21
+        parentId: cat_fio_16
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_16/cat_fio_21
+    cat_fio_22:
+        id: cat_fio_22
+        parentId: cat_fio_2
+        level: 3
+        path: cat_fio_1/cat_fio_2/cat_fio_22
+    cat_fio_23:
+        id: cat_fio_23
+        parentId: cat_fio_22
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_22/cat_fio_23
+    cat_fio_24:
+        id: cat_fio_24
+        parentId: cat_fio_22
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_22/cat_fio_24
+    cat_fio_25:
+        id: cat_fio_25
+        parentId: cat_fio_22
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_22/cat_fio_25
+    cat_fio_26:
+        id: cat_fio_26
+        parentId: cat_fio_22
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_22/cat_fio_26
+    cat_fio_27:
+        id: cat_fio_27
+        parentId: cat_fio_2
+        level: 3
+        path: cat_fio_1/cat_fio_2/cat_fio_27
+    cat_fio_28:
+        id: cat_fio_28
+        parentId: cat_fio_27
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_27/cat_fio_28
+    cat_fio_29:
+        id: cat_fio_29
+        parentId: cat_fio_27
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_27/cat_fio_29
+    cat_fio_30:
+        id: cat_fio_30
+        parentId: cat_fio_27
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_27/cat_fio_30
+    cat_fio_31:
+        id: cat_fio_31
+        parentId: cat_fio_27
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_27/cat_fio_31
+    cat_fio_32:
+        id: cat_fio_32
+        parentId: cat_fio_27
+        level: 4
+        path: cat_fio_1/cat_fio_2/cat_fio_27/cat_fio_32
+    cat_fio_33:
+        id: cat_fio_33
+        parentId: cat_fio_1
+        level: 2
+        path: cat_fio_1/cat_fio_33
+    cat_fio_34:
+        id: cat_fio_34
+        parentId: cat_fio_33
+        level: 3
+        path: cat_fio_1/cat_fio_33/cat_fio_34
+    cat_fio_35:
+        id: cat_fio_35
+        parentId: cat_fio_34
+        level: 4
+        path: cat_fio_1/cat_fio_33/cat_fio_34/cat_fio_35
+    cat_fio_36:
+        id: cat_fio_36
+        parentId: cat_fio_34
+        level: 4
+        path: cat_fio_1/cat_fio_33/cat_fio_34/cat_fio_36
+    cat_fio_37:
+        id: cat_fio_37
+        parentId: cat_fio_34
+        level: 4
+        path: cat_fio_1/cat_fio_33/cat_fio_34/cat_fio_37
+    cat_fio_38:
+        id: cat_fio_38
+        parentId: cat_fio_33
+        level: 3
+        path: cat_fio_1/cat_fio_33/cat_fio_38
+    cat_fio_39:
+        id: cat_fio_39
+        parentId: cat_fio_38
+        level: 4
+        path: cat_fio_1/cat_fio_33/cat_fio_38/cat_fio_39
+    cat_fio_40:
+        id: cat_fio_40
+        parentId: cat_fio_38
+        level: 4
+        path: cat_fio_1/cat_fio_33/cat_fio_38/cat_fio_40
+    cat_fio_41:
+        id: cat_fio_41
+        parentId: cat_fio_38
+        level: 4
+        path: cat_fio_1/cat_fio_33/cat_fio_38/cat_fio_41
+    cat_fio_42:
+        id: cat_fio_42
+        parentId: cat_fio_33
+        level: 3
+        path: cat_fio_1/cat_fio_33/cat_fio_42
+    cat_fio_43:
+        id: cat_fio_43
+        parentId: cat_fio_42
+        level: 4
+        path: cat_fio_1/cat_fio_33/cat_fio_42/cat_fio_43
+    cat_fio_44:
+        id: cat_fio_44
+        parentId: cat_fio_1
+        level: 2
+        path: cat_fio_1/cat_fio_44
+    cat_fio_45:
+        id: cat_fio_45
+        parentId: cat_fio_44
+        level: 3
+        path: cat_fio_1/cat_fio_44/cat_fio_45
+    cat_fio_46:
+        id: cat_fio_46
+        parentId: cat_fio_44
+        level: 3
+        path: cat_fio_1/cat_fio_44/cat_fio_46
+    cat_fio_47:
+        id: cat_fio_47
+        parentId: cat_fio_44
+        level: 3
+        path: cat_fio_1/cat_fio_44/cat_fio_47
+    cat_fio_48:
+        id: cat_fio_48
+        parentId: cat_fio_44
+        level: 3
+        path: cat_fio_1/cat_fio_44/cat_fio_48
+    cat_fio_49:
+        id: cat_fio_49
+        parentId: cat_fio_44
+        level: 3
+        path: cat_fio_1/cat_fio_44/cat_fio_49
+    cat_fio_50:
+        id: cat_fio_50
+        parentId: cat_fio_1
+        level: 2
+        path: cat_fio_1/cat_fio_50
+    cat_fio_51:
+        id: cat_fio_51
+        parentId: cat_fio_50
+        level: 3
+        path: cat_fio_1/cat_fio_50/cat_fio_51
+    cat_fio_52:
+        id: cat_fio_52
+        parentId: cat_fio_50
+        level: 3
+        path: cat_fio_1/cat_fio_50/cat_fio_52
+    cat_fio_53:
+        id: cat_fio_53
+        parentId: cat_fio_50
+        level: 3
+        path: cat_fio_1/cat_fio_50/cat_fio_53
+    cat_fio_54:
+        id: cat_fio_54
+        parentId: cat_fio_1
+        level: 2
+        path: cat_fio_1/cat_fio_54
+    cat_fio_55:
+        id: cat_fio_55
+        parentId: cat_fio_54
+        level: 3
+        path: cat_fio_1/cat_fio_54/cat_fio_55
+    cat_fio_56:
+        id: cat_fio_56
+        parentId: cat_fio_54
+        level: 3
+        path: cat_fio_1/cat_fio_54/cat_fio_56
+    cat_fio_57:
+        id: cat_fio_57
+        parentId: cat_fio_54
+        level: 3
+        path: cat_fio_1/cat_fio_54/cat_fio_57
+    cat_fio_58:
+        id: cat_fio_58
+        parentId: cat_fio_54
+        level: 3
+        path: cat_fio_1/cat_fio_54/cat_fio_58
+    cat_fio_59:
+        id: cat_fio_59
+        parentId: cat_fio_54
+        level: 3
+        path: cat_fio_1/cat_fio_54/cat_fio_59
+    cat_fio_60:
+        id: cat_fio_60
+        parentId: cat_fio_1
+        level: 2
+        path: cat_fio_1/cat_fio_60
+    cat_fio_61:
+        id: cat_fio_61
+        parentId: cat_fio_60
+        level: 3
+        path: cat_fio_1/cat_fio_60/cat_fio_61
+    cat_fio_62:
+        id: cat_fio_62
+        parentId: cat_fio_60
+        level: 3
+        path: cat_fio_1/cat_fio_60/cat_fio_62
+    cat_fio_63:
+        id: cat_fio_63
+        parentId: cat_fio_60
+        level: 3
+        path: cat_fio_1/cat_fio_60/cat_fio_63
+
+Gally\Category\Entity\Category\Configuration:
+    config_cat_fio_1_fashion_fr:
+        category: '@cat_fio_1'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Toute la mode'
+    config_cat_fio_1_fashion_en:
+        category: '@cat_fio_1'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'All fashion'
+    config_cat_fio_1_fashion_de:
+        category: '@cat_fio_1'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Alle Mode'
+    config_cat_fio_2_fashion_fr:
+        category: '@cat_fio_2'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Femme'
+    config_cat_fio_2_fashion_en:
+        category: '@cat_fio_2'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Women'
+    config_cat_fio_2_fashion_de:
+        category: '@cat_fio_2'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Damen'
+    config_cat_fio_3_fashion_fr:
+        category: '@cat_fio_3'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Hauts'
+    config_cat_fio_3_fashion_en:
+        category: '@cat_fio_3'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Tops'
+    config_cat_fio_3_fashion_de:
+        category: '@cat_fio_3'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Oberteile'
+    config_cat_fio_4_fashion_fr:
+        category: '@cat_fio_4'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Tops & Blouses'
+    config_cat_fio_4_fashion_en:
+        category: '@cat_fio_4'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Tops & Blouses'
+    config_cat_fio_4_fashion_de:
+        category: '@cat_fio_4'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Tops & Blouses'
+    config_cat_fio_5_fashion_fr:
+        category: '@cat_fio_5'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'T-shirts & Débardeurs'
+    config_cat_fio_5_fashion_en:
+        category: '@cat_fio_5'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'T-shirts & Tank Tops'
+    config_cat_fio_5_fashion_de:
+        category: '@cat_fio_5'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'T-Shirts & Trägertops'
+    config_cat_fio_6_fashion_fr:
+        category: '@cat_fio_6'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Chemisiers'
+    config_cat_fio_6_fashion_en:
+        category: '@cat_fio_6'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Blouses'
+    config_cat_fio_6_fashion_de:
+        category: '@cat_fio_6'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Blusen'
+    config_cat_fio_7_fashion_fr:
+        category: '@cat_fio_7'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Bodies & Crop tops'
+    config_cat_fio_7_fashion_en:
+        category: '@cat_fio_7'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Bodysuits & Crop Tops'
+    config_cat_fio_7_fashion_de:
+        category: '@cat_fio_7'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Bodys & Crop Tops'
+    config_cat_fio_8_fashion_fr:
+        category: '@cat_fio_8'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Pulls & Gilets'
+    config_cat_fio_8_fashion_en:
+        category: '@cat_fio_8'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Jumpers & Cardigans'
+    config_cat_fio_8_fashion_de:
+        category: '@cat_fio_8'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Pullover & Strickjacken'
+    config_cat_fio_9_fashion_fr:
+        category: '@cat_fio_9'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Maille & Tricot'
+    config_cat_fio_9_fashion_en:
+        category: '@cat_fio_9'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Knitwear'
+    config_cat_fio_9_fashion_de:
+        category: '@cat_fio_9'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Strickwaren'
+    config_cat_fio_10_fashion_fr:
+        category: '@cat_fio_10'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Bas'
+    config_cat_fio_10_fashion_en:
+        category: '@cat_fio_10'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Bottoms'
+    config_cat_fio_10_fashion_de:
+        category: '@cat_fio_10'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Unterteile'
+    config_cat_fio_11_fashion_fr:
+        category: '@cat_fio_11'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Pantalons'
+    config_cat_fio_11_fashion_en:
+        category: '@cat_fio_11'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Trousers'
+    config_cat_fio_11_fashion_de:
+        category: '@cat_fio_11'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Hosen'
+    config_cat_fio_12_fashion_fr:
+        category: '@cat_fio_12'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Jeans'
+    config_cat_fio_12_fashion_en:
+        category: '@cat_fio_12'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Jeans'
+    config_cat_fio_12_fashion_de:
+        category: '@cat_fio_12'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Jeans'
+    config_cat_fio_13_fashion_fr:
+        category: '@cat_fio_13'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Jupes'
+    config_cat_fio_13_fashion_en:
+        category: '@cat_fio_13'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Skirts'
+    config_cat_fio_13_fashion_de:
+        category: '@cat_fio_13'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Röcke'
+    config_cat_fio_14_fashion_fr:
+        category: '@cat_fio_14'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Shorts'
+    config_cat_fio_14_fashion_en:
+        category: '@cat_fio_14'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Shorts'
+    config_cat_fio_14_fashion_de:
+        category: '@cat_fio_14'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Shorts'
+    config_cat_fio_15_fashion_fr:
+        category: '@cat_fio_15'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Leggings'
+    config_cat_fio_15_fashion_en:
+        category: '@cat_fio_15'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Leggings'
+    config_cat_fio_15_fashion_de:
+        category: '@cat_fio_15'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Leggings'
+    config_cat_fio_16_fashion_fr:
+        category: '@cat_fio_16'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Robes & Combinaisons'
+    config_cat_fio_16_fashion_en:
+        category: '@cat_fio_16'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Dresses & Jumpsuits'
+    config_cat_fio_16_fashion_de:
+        category: '@cat_fio_16'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Kleider & Overalls'
+    config_cat_fio_17_fashion_fr:
+        category: '@cat_fio_17'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Robes courtes'
+    config_cat_fio_17_fashion_en:
+        category: '@cat_fio_17'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Short Dresses'
+    config_cat_fio_17_fashion_de:
+        category: '@cat_fio_17'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Kurze Kleider'
+    config_cat_fio_18_fashion_fr:
+        category: '@cat_fio_18'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Robes midi'
+    config_cat_fio_18_fashion_en:
+        category: '@cat_fio_18'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Midi Dresses'
+    config_cat_fio_18_fashion_de:
+        category: '@cat_fio_18'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Midikleider'
+    config_cat_fio_19_fashion_fr:
+        category: '@cat_fio_19'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Robes longues'
+    config_cat_fio_19_fashion_en:
+        category: '@cat_fio_19'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Long Dresses'
+    config_cat_fio_19_fashion_de:
+        category: '@cat_fio_19'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Lange Kleider'
+    config_cat_fio_20_fashion_fr:
+        category: '@cat_fio_20'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Robes de soirée'
+    config_cat_fio_20_fashion_en:
+        category: '@cat_fio_20'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Evening Dresses'
+    config_cat_fio_20_fashion_de:
+        category: '@cat_fio_20'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Abendkleider'
+    config_cat_fio_21_fashion_fr:
+        category: '@cat_fio_21'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Combinaisons'
+    config_cat_fio_21_fashion_en:
+        category: '@cat_fio_21'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Jumpsuits'
+    config_cat_fio_21_fashion_de:
+        category: '@cat_fio_21'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Overalls'
+    config_cat_fio_22_fashion_fr:
+        category: '@cat_fio_22'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Manteaux & Vestes'
+    config_cat_fio_22_fashion_en:
+        category: '@cat_fio_22'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Coats & Jackets'
+    config_cat_fio_22_fashion_de:
+        category: '@cat_fio_22'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Mäntel & Jacken'
+    config_cat_fio_23_fashion_fr:
+        category: '@cat_fio_23'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Trenchs & Manteaux laine'
+    config_cat_fio_23_fashion_en:
+        category: '@cat_fio_23'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Trench Coats & Wool Coats'
+    config_cat_fio_23_fashion_de:
+        category: '@cat_fio_23'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Trenchcoats & Wollmäntel'
+    config_cat_fio_24_fashion_fr:
+        category: '@cat_fio_24'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Blousons & Vestes en jean'
+    config_cat_fio_24_fashion_en:
+        category: '@cat_fio_24'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Denim Jackets'
+    config_cat_fio_24_fashion_de:
+        category: '@cat_fio_24'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Jeansjacken'
+    config_cat_fio_25_fashion_fr:
+        category: '@cat_fio_25'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Doudounes'
+    config_cat_fio_25_fashion_en:
+        category: '@cat_fio_25'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Puffer Jackets'
+    config_cat_fio_25_fashion_de:
+        category: '@cat_fio_25'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Daunenjacken'
+    config_cat_fio_26_fashion_fr:
+        category: '@cat_fio_26'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Capes & Ponchos'
+    config_cat_fio_26_fashion_en:
+        category: '@cat_fio_26'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Capes & Ponchos'
+    config_cat_fio_26_fashion_de:
+        category: '@cat_fio_26'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Capes & Ponchos'
+    config_cat_fio_27_fashion_fr:
+        category: '@cat_fio_27'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Lingerie & Homewear'
+    config_cat_fio_27_fashion_en:
+        category: '@cat_fio_27'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Lingerie & Homewear'
+    config_cat_fio_27_fashion_de:
+        category: '@cat_fio_27'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Dessous & Homewear'
+    config_cat_fio_28_fashion_fr:
+        category: '@cat_fio_28'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Soutiens-gorge'
+    config_cat_fio_28_fashion_en:
+        category: '@cat_fio_28'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Bras'
+    config_cat_fio_28_fashion_de:
+        category: '@cat_fio_28'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'BHs'
+    config_cat_fio_29_fashion_fr:
+        category: '@cat_fio_29'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Culottes & Strings'
+    config_cat_fio_29_fashion_en:
+        category: '@cat_fio_29'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Briefs & Thongs'
+    config_cat_fio_29_fashion_de:
+        category: '@cat_fio_29'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Slips & Strings'
+    config_cat_fio_30_fashion_fr:
+        category: '@cat_fio_30'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Pyjamas & Nuisettes'
+    config_cat_fio_30_fashion_en:
+        category: '@cat_fio_30'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Pyjamas & Nightdresses'
+    config_cat_fio_30_fashion_de:
+        category: '@cat_fio_30'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Pyjamas & Nachthemden'
+    config_cat_fio_31_fashion_fr:
+        category: '@cat_fio_31'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Bodies lingerie'
+    config_cat_fio_31_fashion_en:
+        category: '@cat_fio_31'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Lingerie Bodysuits'
+    config_cat_fio_31_fashion_de:
+        category: '@cat_fio_31'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Dessous-Bodys'
+    config_cat_fio_32_fashion_fr:
+        category: '@cat_fio_32'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Collants & Chaussettes'
+    config_cat_fio_32_fashion_en:
+        category: '@cat_fio_32'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Tights & Socks'
+    config_cat_fio_32_fashion_de:
+        category: '@cat_fio_32'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Strumpfhosen & Socken'
+    config_cat_fio_33_fashion_fr:
+        category: '@cat_fio_33'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Homme'
+    config_cat_fio_33_fashion_en:
+        category: '@cat_fio_33'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Men'
+    config_cat_fio_33_fashion_de:
+        category: '@cat_fio_33'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Herren'
+    config_cat_fio_34_fashion_fr:
+        category: '@cat_fio_34'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Hauts'
+    config_cat_fio_34_fashion_en:
+        category: '@cat_fio_34'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Tops'
+    config_cat_fio_34_fashion_de:
+        category: '@cat_fio_34'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Oberteile'
+    config_cat_fio_35_fashion_fr:
+        category: '@cat_fio_35'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Chemises'
+    config_cat_fio_35_fashion_en:
+        category: '@cat_fio_35'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Shirts'
+    config_cat_fio_35_fashion_de:
+        category: '@cat_fio_35'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Hemden'
+    config_cat_fio_36_fashion_fr:
+        category: '@cat_fio_36'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'T-shirts & Polos'
+    config_cat_fio_36_fashion_en:
+        category: '@cat_fio_36'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'T-shirts & Polos'
+    config_cat_fio_36_fashion_de:
+        category: '@cat_fio_36'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'T-Shirts & Polos'
+    config_cat_fio_37_fashion_fr:
+        category: '@cat_fio_37'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Pulls & Sweats'
+    config_cat_fio_37_fashion_en:
+        category: '@cat_fio_37'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Jumpers & Sweatshirts'
+    config_cat_fio_37_fashion_de:
+        category: '@cat_fio_37'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Pullover & Sweatshirts'
+    config_cat_fio_38_fashion_fr:
+        category: '@cat_fio_38'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Bas'
+    config_cat_fio_38_fashion_en:
+        category: '@cat_fio_38'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Bottoms'
+    config_cat_fio_38_fashion_de:
+        category: '@cat_fio_38'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Unterteile'
+    config_cat_fio_39_fashion_fr:
+        category: '@cat_fio_39'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Pantalons & Chinos'
+    config_cat_fio_39_fashion_en:
+        category: '@cat_fio_39'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Trousers & Chinos'
+    config_cat_fio_39_fashion_de:
+        category: '@cat_fio_39'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Hosen & Chinos'
+    config_cat_fio_40_fashion_fr:
+        category: '@cat_fio_40'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Jeans'
+    config_cat_fio_40_fashion_en:
+        category: '@cat_fio_40'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Jeans'
+    config_cat_fio_40_fashion_de:
+        category: '@cat_fio_40'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Jeans'
+    config_cat_fio_41_fashion_fr:
+        category: '@cat_fio_41'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Shorts'
+    config_cat_fio_41_fashion_en:
+        category: '@cat_fio_41'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Shorts'
+    config_cat_fio_41_fashion_de:
+        category: '@cat_fio_41'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Shorts'
+    config_cat_fio_42_fashion_fr:
+        category: '@cat_fio_42'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Manteaux & Vestes'
+    config_cat_fio_42_fashion_en:
+        category: '@cat_fio_42'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Coats & Jackets'
+    config_cat_fio_42_fashion_de:
+        category: '@cat_fio_42'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Mäntel & Jacken'
+    config_cat_fio_43_fashion_fr:
+        category: '@cat_fio_43'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Vestes & Blazers'
+    config_cat_fio_43_fashion_en:
+        category: '@cat_fio_43'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Jackets & Blazers'
+    config_cat_fio_43_fashion_de:
+        category: '@cat_fio_43'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Jacken & Blazer'
+    config_cat_fio_44_fashion_fr:
+        category: '@cat_fio_44'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Chaussures'
+    config_cat_fio_44_fashion_en:
+        category: '@cat_fio_44'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Shoes'
+    config_cat_fio_44_fashion_de:
+        category: '@cat_fio_44'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Schuhe'
+    config_cat_fio_45_fashion_fr:
+        category: '@cat_fio_45'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Baskets & Sneakers'
+    config_cat_fio_45_fashion_en:
+        category: '@cat_fio_45'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Trainers & Sneakers'
+    config_cat_fio_45_fashion_de:
+        category: '@cat_fio_45'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Sneaker & Turnschuhe'
+    config_cat_fio_46_fashion_fr:
+        category: '@cat_fio_46'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Escarpins & Ballerines'
+    config_cat_fio_46_fashion_en:
+        category: '@cat_fio_46'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Heels & Ballet Flats'
+    config_cat_fio_46_fashion_de:
+        category: '@cat_fio_46'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Pumps & Ballerinas'
+    config_cat_fio_47_fashion_fr:
+        category: '@cat_fio_47'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Bottes & Bottines'
+    config_cat_fio_47_fashion_en:
+        category: '@cat_fio_47'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Boots & Ankle Boots'
+    config_cat_fio_47_fashion_de:
+        category: '@cat_fio_47'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Stiefel & Stiefeletten'
+    config_cat_fio_48_fashion_fr:
+        category: '@cat_fio_48'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Sandales, Mules & Claquettes'
+    config_cat_fio_48_fashion_en:
+        category: '@cat_fio_48'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Sandals, Mules & Sliders'
+    config_cat_fio_48_fashion_de:
+        category: '@cat_fio_48'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Sandalen, Pantoletten & Slides'
+    config_cat_fio_49_fashion_fr:
+        category: '@cat_fio_49'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Mocassins & Derbies'
+    config_cat_fio_49_fashion_en:
+        category: '@cat_fio_49'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Loafers & Derbies'
+    config_cat_fio_49_fashion_de:
+        category: '@cat_fio_49'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Mokassins & Derbys'
+    config_cat_fio_50_fashion_fr:
+        category: '@cat_fio_50'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Sacs & Maroquinerie'
+    config_cat_fio_50_fashion_en:
+        category: '@cat_fio_50'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Bags & Leather Goods'
+    config_cat_fio_50_fashion_de:
+        category: '@cat_fio_50'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Taschen & Lederwaren'
+    config_cat_fio_51_fashion_fr:
+        category: '@cat_fio_51'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Sacs à main & Pochettes'
+    config_cat_fio_51_fashion_en:
+        category: '@cat_fio_51'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Handbags & Clutches'
+    config_cat_fio_51_fashion_de:
+        category: '@cat_fio_51'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Handtaschen & Clutches'
+    config_cat_fio_52_fashion_fr:
+        category: '@cat_fio_52'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Petite maroquinerie'
+    config_cat_fio_52_fashion_en:
+        category: '@cat_fio_52'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Small Leather Goods'
+    config_cat_fio_52_fashion_de:
+        category: '@cat_fio_52'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Kleinlederwaren'
+    config_cat_fio_53_fashion_fr:
+        category: '@cat_fio_53'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Bagages & Voyage'
+    config_cat_fio_53_fashion_en:
+        category: '@cat_fio_53'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Luggage & Travel'
+    config_cat_fio_53_fashion_de:
+        category: '@cat_fio_53'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Gepäck & Reise'
+    config_cat_fio_54_fashion_fr:
+        category: '@cat_fio_54'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Accessoires & Bijoux'
+    config_cat_fio_54_fashion_en:
+        category: '@cat_fio_54'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Accessories & Jewelry'
+    config_cat_fio_54_fashion_de:
+        category: '@cat_fio_54'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Accessoires & Schmuck'
+    config_cat_fio_55_fashion_fr:
+        category: '@cat_fio_55'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Ceintures & Accessoires textiles'
+    config_cat_fio_55_fashion_en:
+        category: '@cat_fio_55'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Belts & Textile Accessories'
+    config_cat_fio_55_fashion_de:
+        category: '@cat_fio_55'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Gürtel & Textilaccessoires'
+    config_cat_fio_56_fashion_fr:
+        category: '@cat_fio_56'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Lunettes de soleil'
+    config_cat_fio_56_fashion_en:
+        category: '@cat_fio_56'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Sunglasses'
+    config_cat_fio_56_fashion_de:
+        category: '@cat_fio_56'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Sonnenbrillen'
+    config_cat_fio_57_fashion_fr:
+        category: '@cat_fio_57'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Chapeaux & Bonnets'
+    config_cat_fio_57_fashion_en:
+        category: '@cat_fio_57'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Hats & Beanies'
+    config_cat_fio_57_fashion_de:
+        category: '@cat_fio_57'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Hüte & Mützen'
+    config_cat_fio_58_fashion_fr:
+        category: '@cat_fio_58'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Bijoux'
+    config_cat_fio_58_fashion_en:
+        category: '@cat_fio_58'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Jewelry'
+    config_cat_fio_58_fashion_de:
+        category: '@cat_fio_58'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Schmuck'
+    config_cat_fio_59_fashion_fr:
+        category: '@cat_fio_59'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Montres'
+    config_cat_fio_59_fashion_en:
+        category: '@cat_fio_59'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Watches'
+    config_cat_fio_59_fashion_de:
+        category: '@cat_fio_59'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Uhren'
+    config_cat_fio_60_fashion_fr:
+        category: '@cat_fio_60'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Sport & Performance'
+    config_cat_fio_60_fashion_en:
+        category: '@cat_fio_60'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Sport & Performance'
+    config_cat_fio_60_fashion_de:
+        category: '@cat_fio_60'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Sport & Performance'
+    config_cat_fio_61_fashion_fr:
+        category: '@cat_fio_61'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Leggings & Brassières'
+    config_cat_fio_61_fashion_en:
+        category: '@cat_fio_61'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Leggings & Sports Bras'
+    config_cat_fio_61_fashion_de:
+        category: '@cat_fio_61'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Leggings & Sport-BHs'
+    config_cat_fio_62_fashion_fr:
+        category: '@cat_fio_62'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Hauts & Vestes techniques'
+    config_cat_fio_62_fashion_en:
+        category: '@cat_fio_62'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Technical Tops & Jackets'
+    config_cat_fio_62_fashion_de:
+        category: '@cat_fio_62'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Technische Oberteile & Jacken'
+    config_cat_fio_63_fashion_fr:
+        category: '@cat_fio_63'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_fr'
+        name: 'Shorts & Joggings'
+    config_cat_fio_63_fashion_en:
+        category: '@cat_fio_63'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_en'
+        name: 'Shorts & Joggers'
+    config_cat_fio_63_fashion_de:
+        category: '@cat_fio_63'
+        catalog: '@fashion'
+        localizedCatalog: '@fashion_de'
+        name: 'Shorts & Jogginghosen'
