@@ -1,7 +1,7 @@
 include:
     - localized_catalogs.yaml
     - product_source_field_option.yaml
-    - shared_product_source_field_option.yaml
+    - ../common/product_source_field_option.yaml
 
 Gally\Metadata\Entity\SourceFieldOptionLabel:
     product_tbx_tool_material_option_acier_chrome_vanadium_toolbox_fr:

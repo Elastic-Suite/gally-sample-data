@@ -1,114 +1,135 @@
 include:
-    - shared_cms_source_field.yaml
+    - ../common/cms_source_field.yaml
 
 Gally\Metadata\Entity\SourceFieldOption:
-    cms_page_topic_option_maintenance:
-        code: 'maintenance'
+    cms_page_topic_option_tbx_maintenance:
+        code: 'tbx_maintenance'
         source_field: '@cms_page_topic'
         position: 10
         defaultLabel: 'Maintenance'
-    cms_page_topic_option_projects:
-        code: 'projects'
+    cms_page_topic_option_tbx_projects:
+        code: 'tbx_projects'
         source_field: '@cms_page_topic'
         position: 11
         defaultLabel: 'Projects'
-    cms_page_topic_option_safety:
-        code: 'safety'
+    cms_page_topic_option_tbx_safety:
+        code: 'tbx_safety'
         source_field: '@cms_page_topic'
         position: 12
         defaultLabel: 'Safety'
-    cms_page_topic_option_techniques:
-        code: 'techniques'
+    cms_page_topic_option_tbx_techniques:
+        code: 'tbx_techniques'
         source_field: '@cms_page_topic'
         position: 13
         defaultLabel: 'Techniques'
-    cms_page_topic_option_tool_choice:
-        code: 'tool_choice'
+    cms_page_topic_option_tbx_tool_choice:
+        code: 'tbx_tool_choice'
         source_field: '@cms_page_topic'
         position: 14
         defaultLabel: 'Choosing your tool'
-    cms_page_author_option_bob_le_bricoleur:
-        code: 'bob_le_bricoleur'
+    cms_page_author_option_tbx_bob_le_bricoleur:
+        code: 'tbx_bob_le_bricoleur'
         source_field: '@cms_page_author'
         position: 8
         defaultLabel: 'Bob le bricoleur'
-    cms_page_author_option_claire_dubois:
-        code: 'claire_dubois'
+    cms_page_author_option_tbx_claire_dubois:
+        code: 'tbx_claire_dubois'
         source_field: '@cms_page_author'
         position: 9
         defaultLabel: 'Claire Dubois'
-    cms_page_author_option_hugo_marchand:
-        code: 'hugo_marchand'
+    cms_page_author_option_tbx_hugo_marchand:
+        code: 'tbx_hugo_marchand'
         source_field: '@cms_page_author'
         position: 10
         defaultLabel: 'Hugo Marchand'
-    cms_page_author_option_sonia_lefevre:
-        code: 'sonia_lefevre'
+    cms_page_author_option_tbx_sonia_lefevre:
+        code: 'tbx_sonia_lefevre'
         source_field: '@cms_page_author'
         position: 11
         defaultLabel: 'Sonia Lefèvre'
-    cms_page_author_option_karim_benali:
-        code: 'karim_benali'
+    cms_page_author_option_tbx_karim_benali:
+        code: 'tbx_karim_benali'
         source_field: '@cms_page_author'
         position: 12
         defaultLabel: 'Karim Benali'
-    cms_page_tags_option_cordless:
-        code: 'cordless'
+    cms_page_tags_option_tbx_cordless:
+        code: 'tbx_cordless'
         source_field: '@cms_page_tags'
         position: 41
         defaultLabel: 'Cordless'
-    cms_page_tags_option_drilling:
-        code: 'drilling'
+    cms_page_tags_option_tbx_drilling:
+        code: 'tbx_drilling'
         source_field: '@cms_page_tags'
         position: 42
         defaultLabel: 'Drilling'
-    cms_page_tags_option_electrical:
-        code: 'electrical'
+    cms_page_tags_option_tbx_electrical:
+        code: 'tbx_electrical'
         source_field: '@cms_page_tags'
         position: 43
         defaultLabel: 'Electrical'
-    cms_page_tags_option_fixings:
-        code: 'fixings'
+    cms_page_tags_option_tbx_fixings:
+        code: 'tbx_fixings'
         source_field: '@cms_page_tags'
         position: 44
         defaultLabel: 'Fixings'
-    cms_page_tags_option_gardening:
-        code: 'gardening'
+    cms_page_tags_option_tbx_gardening:
+        code: 'tbx_gardening'
         source_field: '@cms_page_tags'
         position: 45
         defaultLabel: 'Gardening'
-    cms_page_tags_option_measuring:
-        code: 'measuring'
+    cms_page_tags_option_tbx_measuring:
+        code: 'tbx_measuring'
         source_field: '@cms_page_tags'
         position: 46
         defaultLabel: 'Measuring'
-    cms_page_tags_option_painting:
-        code: 'painting'
+    cms_page_tags_option_tbx_painting:
+        code: 'tbx_painting'
         source_field: '@cms_page_tags'
         position: 47
         defaultLabel: 'Painting'
-    cms_page_tags_option_plumbing:
-        code: 'plumbing'
+    cms_page_tags_option_tbx_plumbing:
+        code: 'tbx_plumbing'
         source_field: '@cms_page_tags'
         position: 48
         defaultLabel: 'Plumbing'
-    cms_page_tags_option_safety_gear:
-        code: 'safety_gear'
+    cms_page_tags_option_tbx_safety_gear:
+        code: 'tbx_safety_gear'
         source_field: '@cms_page_tags'
         position: 49
         defaultLabel: 'Safety gear'
-    cms_page_tags_option_tiling:
-        code: 'tiling'
+    cms_page_tags_option_tbx_tiling:
+        code: 'tbx_tiling'
         source_field: '@cms_page_tags'
         position: 50
         defaultLabel: 'Tiling'
-    cms_page_tags_option_tool_care:
-        code: 'tool_care'
+    cms_page_tags_option_tbx_tool_care:
+        code: 'tbx_tool_care'
         source_field: '@cms_page_tags'
         position: 51
         defaultLabel: 'Tool care'
-    cms_page_tags_option_woodworking:
-        code: 'woodworking'
+    cms_page_tags_option_tbx_woodworking:
+        code: 'tbx_woodworking'
         source_field: '@cms_page_tags'
         position: 52
         defaultLabel: 'Woodworking'
+
+    cms_page_topic_option_tbx_materials:
+        code: 'tbx_materials'
+        source_field: '@cms_page_topic'
+        position: 2
+        defaultLabel: 'Materials'
+    cms_page_topic_option_tbx_sustainability:
+        code: 'tbx_sustainability'
+        source_field: '@cms_page_topic'
+        position: 4
+        defaultLabel: 'Sustainability'
+    cms_page_tags_option_tbx_materials:
+        code: 'tbx_materials'
+        source_field: '@cms_page_tags'
+        position: 11
+        defaultLabel: 'Materials'
+    cms_page_tags_option_tbx_sustainability:
+        code: 'tbx_sustainability'
+        source_field: '@cms_page_tags'
+        position: 28
+        defaultLabel: 'Sustainability'

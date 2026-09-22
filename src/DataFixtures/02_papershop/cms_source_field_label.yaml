@@ -1,5 +1,5 @@
 include:
-    - shared_cms_source_field.yaml
+    - ../common/cms_source_field.yaml
     - localized_catalogs.yaml
 
 # A SourceFieldLabel is unique on (localized_catalog, source_field), so every field needs a row
