@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en-US" trgLang="es-ES">
+  <file id="source_field_options.es">
+    <!-- Colors -->
+    <unit id="gally.source_field_option.red"><segment><source>gally.source_field_option.red</source><target>Rojo</target></segment></unit>
+    <unit id="gally.source_field_option.blue"><segment><source>gally.source_field_option.blue</source><target>Azul</target></segment></unit>
+    <unit id="gally.source_field_option.green"><segment><source>gally.source_field_option.green</source><target>Verde</target></segment></unit>
+    <unit id="gally.source_field_option.yellow"><segment><source>gally.source_field_option.yellow</source><target>Amarillo</target></segment></unit>
+    <unit id="gally.source_field_option.black"><segment><source>gally.source_field_option.black</source><target>Negro</target></segment></unit>
+    <unit id="gally.source_field_option.white"><segment><source>gally.source_field_option.white</source><target>Blanco</target></segment></unit>
+    <unit id="gally.source_field_option.gray"><segment><source>gally.source_field_option.gray</source><target>Gris</target></segment></unit>
+    <unit id="gally.source_field_option.orange"><segment><source>gally.source_field_option.orange</source><target>Naranja</target></segment></unit>
+    <unit id="gally.source_field_option.purple"><segment><source>gally.source_field_option.purple</source><target>Morado</target></segment></unit>
+    <unit id="gally.source_field_option.pink"><segment><source>gally.source_field_option.pink</source><target>Rosa</target></segment></unit>
+    <unit id="gally.source_field_option.brown"><segment><source>gally.source_field_option.brown</source><target>Marrón</target></segment></unit>
+    <unit id="gally.source_field_option.beige"><segment><source>gally.source_field_option.beige</source><target>Beige</target></segment></unit>
+    <unit id="gally.source_field_option.navy"><segment><source>gally.source_field_option.navy</source><target>Azul marino</target></segment></unit>
+    <unit id="gally.source_field_option.turquoise"><segment><source>gally.source_field_option.turquoise</source><target>Turquesa</target></segment></unit>
+    <unit id="gally.source_field_option.maroon"><segment><source>gally.source_field_option.maroon</source><target>Granate</target></segment></unit>
+    <!-- Materials -->
+    <unit id="gally.source_field_option.cotton"><segment><source>gally.source_field_option.cotton</source><target>Algodón</target></segment></unit>
+    <unit id="gally.source_field_option.polyester"><segment><source>gally.source_field_option.polyester</source><target>Poliéster</target></segment></unit>
+    <unit id="gally.source_field_option.wool"><segment><source>gally.source_field_option.wool</source><target>Lana</target></segment></unit>
+    <unit id="gally.source_field_option.silk"><segment><source>gally.source_field_option.silk</source><target>Seda</target></segment></unit>
+    <unit id="gally.source_field_option.leather"><segment><source>gally.source_field_option.leather</source><target>Cuero</target></segment></unit>
+    <unit id="gally.source_field_option.denim"><segment><source>gally.source_field_option.denim</source><target>Denim</target></segment></unit>
+    <unit id="gally.source_field_option.linen"><segment><source>gally.source_field_option.linen</source><target>Lino</target></segment></unit>
+    <unit id="gally.source_field_option.nylon"><segment><source>gally.source_field_option.nylon</source><target>Nylon</target></segment></unit>
+    <unit id="gally.source_field_option.spandex"><segment><source>gally.source_field_option.spandex</source><target>Elastano</target></segment></unit>
+    <unit id="gally.source_field_option.velvet"><segment><source>gally.source_field_option.velvet</source><target>Terciopelo</target></segment></unit>
+    <unit id="gally.source_field_option.cashmere"><segment><source>gally.source_field_option.cashmere</source><target>Cachemira</target></segment></unit>
+    <unit id="gally.source_field_option.suede"><segment><source>gally.source_field_option.suede</source><target>Ante</target></segment></unit>
+    <unit id="gally.source_field_option.canvas"><segment><source>gally.source_field_option.canvas</source><target>Lona</target></segment></unit>
+    <!-- Gender -->
+    <unit id="gally.source_field_option.male"><segment><source>gally.source_field_option.male</source><target>Hombre</target></segment></unit>
+    <unit id="gally.source_field_option.female"><segment><source>gally.source_field_option.female</source><target>Mujer</target></segment></unit>
+    <unit id="gally.source_field_option.unisex"><segment><source>gally.source_field_option.unisex</source><target>Unisex</target></segment></unit>
+    <!-- Style -->
+    <unit id="gally.source_field_option.classic"><segment><source>gally.source_field_option.classic</source><target>Clásico</target></segment></unit>
+    <unit id="gally.source_field_option.modern"><segment><source>gally.source_field_option.modern</source><target>Moderno</target></segment></unit>
+    <unit id="gally.source_field_option.vintage"><segment><source>gally.source_field_option.vintage</source><target>Vintage</target></segment></unit>
+    <unit id="gally.source_field_option.casual"><segment><source>gally.source_field_option.casual</source><target>Casual</target></segment></unit>
+    <unit id="gally.source_field_option.formal"><segment><source>gally.source_field_option.formal</source><target>Formal</target></segment></unit>
+    <unit id="gally.source_field_option.sporty"><segment><source>gally.source_field_option.sporty</source><target>Deportivo</target></segment></unit>
+    <unit id="gally.source_field_option.elegant"><segment><source>gally.source_field_option.elegant</source><target>Elegante</target></segment></unit>
+    <unit id="gally.source_field_option.minimalist"><segment><source>gally.source_field_option.minimalist</source><target>Minimalista</target></segment></unit>
+    <!-- Pattern -->
+    <unit id="gally.source_field_option.solid"><segment><source>gally.source_field_option.solid</source><target>Liso</target></segment></unit>
+    <unit id="gally.source_field_option.striped"><segment><source>gally.source_field_option.striped</source><target>Rayado</target></segment></unit>
+    <unit id="gally.source_field_option.checkered"><segment><source>gally.source_field_option.checkered</source><target>A cuadros</target></segment></unit>
+    <unit id="gally.source_field_option.floral"><segment><source>gally.source_field_option.floral</source><target>Floral</target></segment></unit>
+    <unit id="gally.source_field_option.geometric"><segment><source>gally.source_field_option.geometric</source><target>Geométrico</target></segment></unit>
+    <unit id="gally.source_field_option.abstract"><segment><source>gally.source_field_option.abstract</source><target>Abstracto</target></segment></unit>
+    <unit id="gally.source_field_option.polka_dot"><segment><source>gally.source_field_option.polka_dot</source><target>De lunares</target></segment></unit>
+    <unit id="gally.source_field_option.plaid"><segment><source>gally.source_field_option.plaid</source><target>Escocés</target></segment></unit>
+    <!-- Season -->
+    <unit id="gally.source_field_option.spring"><segment><source>gally.source_field_option.spring</source><target>Primavera</target></segment></unit>
+    <unit id="gally.source_field_option.summer"><segment><source>gally.source_field_option.summer</source><target>Verano</target></segment></unit>
+    <unit id="gally.source_field_option.autumn"><segment><source>gally.source_field_option.autumn</source><target>Otoño</target></segment></unit>
+    <unit id="gally.source_field_option.winter"><segment><source>gally.source_field_option.winter</source><target>Invierno</target></segment></unit>
+    <!-- Warranty -->
+    <unit id="gally.source_field_option.6_months"><segment><source>gally.source_field_option.6_months</source><target>6 meses</target></segment></unit>
+    <unit id="gally.source_field_option.1_year"><segment><source>gally.source_field_option.1_year</source><target>1 año</target></segment></unit>
+    <unit id="gally.source_field_option.2_years"><segment><source>gally.source_field_option.2_years</source><target>2 años</target></segment></unit>
+    <unit id="gally.source_field_option.3_years"><segment><source>gally.source_field_option.3_years</source><target>3 años</target></segment></unit>
+    <unit id="gally.source_field_option.5_years"><segment><source>gally.source_field_option.5_years</source><target>5 años</target></segment></unit>
+    <!-- Collection -->
+    <unit id="gally.source_field_option.spring_2024"><segment><source>gally.source_field_option.spring_2024</source><target>Primavera 2024</target></segment></unit>
+    <unit id="gally.source_field_option.summer_2024"><segment><source>gally.source_field_option.summer_2024</source><target>Verano 2024</target></segment></unit>
+    <unit id="gally.source_field_option.autumn_2024"><segment><source>gally.source_field_option.autumn_2024</source><target>Otoño 2024</target></segment></unit>
+    <unit id="gally.source_field_option.winter_2024"><segment><source>gally.source_field_option.winter_2024</source><target>Invierno 2024</target></segment></unit>
+    <unit id="gally.source_field_option.limited_edition"><segment><source>gally.source_field_option.limited_edition</source><target>Edición limitada</target></segment></unit>
+    <unit id="gally.source_field_option.premium"><segment><source>gally.source_field_option.premium</source><target>Premium</target></segment></unit>
+    <unit id="gally.source_field_option.essential"><segment><source>gally.source_field_option.essential</source><target>Esencial</target></segment></unit>
+    <!-- Countries -->
+    <unit id="gally.source_field_option.france"><segment><source>gally.source_field_option.france</source><target>Francia</target></segment></unit>
+    <unit id="gally.source_field_option.germany"><segment><source>gally.source_field_option.germany</source><target>Alemania</target></segment></unit>
+    <unit id="gally.source_field_option.italy"><segment><source>gally.source_field_option.italy</source><target>Italia</target></segment></unit>
+    <unit id="gally.source_field_option.spain"><segment><source>gally.source_field_option.spain</source><target>España</target></segment></unit>
+    <unit id="gally.source_field_option.united_kingdom"><segment><source>gally.source_field_option.united_kingdom</source><target>Reino Unido</target></segment></unit>
+    <unit id="gally.source_field_option.united_states"><segment><source>gally.source_field_option.united_states</source><target>Estados Unidos</target></segment></unit>
+    <unit id="gally.source_field_option.canada"><segment><source>gally.source_field_option.canada</source><target>Canadá</target></segment></unit>
+    <unit id="gally.source_field_option.china"><segment><source>gally.source_field_option.china</source><target>China</target></segment></unit>
+    <unit id="gally.source_field_option.japan"><segment><source>gally.source_field_option.japan</source><target>Japón</target></segment></unit>
+    <unit id="gally.source_field_option.south_korea"><segment><source>gally.source_field_option.south_korea</source><target>Corea del Sur</target></segment></unit>
+  </file>
+</xliff>
