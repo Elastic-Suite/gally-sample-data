@@ -688,3 +688,75 @@ Gally\Metadata\Entity\SourceFieldLabel:
         localized_catalog: '@com_fr'
         label: 'Use Config Lifetime'
 
+    product_category_com_fr:
+        source_field: <findSourceFieldByCode('product', 'category')>
+        localized_catalog: '@com_fr'
+        label: 'Catégorie'
+    product_category_com_en:
+        source_field: <findSourceFieldByCode('product', 'category')>
+        localized_catalog: '@com_en'
+        label: 'Category'
+    product_category_fr_fr:
+        source_field: <findSourceFieldByCode('product', 'category')>
+        localized_catalog: '@fr_fr'
+        label: 'Catégorie'
+    product_category_fr_en:
+        source_field: <findSourceFieldByCode('product', 'category')>
+        localized_catalog: '@fr_en'
+        label: 'Category'
+    product_category_en_fr:
+        source_field: <findSourceFieldByCode('product', 'category')>
+        localized_catalog: '@en_fr'
+        label: 'Catégorie'
+    product_category_en_en:
+        source_field: <findSourceFieldByCode('product', 'category')>
+        localized_catalog: '@en_en'
+        label: 'Category'
+    product_price_com_fr:
+        source_field: <findSourceFieldByCode('product', 'price')>
+        localized_catalog: '@com_fr'
+        label: 'Prix'
+    product_price_com_en:
+        source_field: <findSourceFieldByCode('product', 'price')>
+        localized_catalog: '@com_en'
+        label: 'Price'
+    product_price_fr_fr:
+        source_field: <findSourceFieldByCode('product', 'price')>
+        localized_catalog: '@fr_fr'
+        label: 'Prix'
+    product_price_fr_en:
+        source_field: <findSourceFieldByCode('product', 'price')>
+        localized_catalog: '@fr_en'
+        label: 'Price'
+    product_price_en_fr:
+        source_field: <findSourceFieldByCode('product', 'price')>
+        localized_catalog: '@en_fr'
+        label: 'Prix'
+    product_price_en_en:
+        source_field: <findSourceFieldByCode('product', 'price')>
+        localized_catalog: '@en_en'
+        label: 'Price'
+    product_stock_com_fr:
+        source_field: <findSourceFieldByCode('product', 'stock')>
+        localized_catalog: '@com_fr'
+        label: 'Disponibilité'
+    product_stock_com_en:
+        source_field: <findSourceFieldByCode('product', 'stock')>
+        localized_catalog: '@com_en'
+        label: 'Availability'
+    product_stock_fr_fr:
+        source_field: <findSourceFieldByCode('product', 'stock')>
+        localized_catalog: '@fr_fr'
+        label: 'Disponibilité'
+    product_stock_fr_en:
+        source_field: <findSourceFieldByCode('product', 'stock')>
+        localized_catalog: '@fr_en'
+        label: 'Availability'
+    product_stock_en_fr:
+        source_field: <findSourceFieldByCode('product', 'stock')>
+        localized_catalog: '@en_fr'
+        label: 'Disponibilité'
+    product_stock_en_en:
+        source_field: <findSourceFieldByCode('product', 'stock')>
+        localized_catalog: '@en_en'
+        label: 'Availability'

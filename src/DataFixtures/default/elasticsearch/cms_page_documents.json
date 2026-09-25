@@ -40,7 +40,7 @@
         "published_at": "@now:-62d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/d/vd12-rn_main.jpg",
+        "image": "/default/v/d/vd12-rn_main.jpg",
         "related_skus": [
           "VD12",
           "VD06",
@@ -85,7 +85,7 @@
         "published_at": "@now:-68d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/t/vt02-rn_main.jpg",
+        "image": "/default/v/t/vt02-rn_main.jpg",
         "related_skus": [
           "VT02",
           "VD07",
@@ -126,7 +126,7 @@
         "published_at": "@now:-74d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/a/va16-go_main.jpg",
+        "image": "/default/v/a/va16-go_main.jpg",
         "related_skus": [
           "VA16-GO-NA",
           "VA13-GO-NA",
@@ -167,7 +167,7 @@
         "published_at": "@now:-80d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/t/vt04-mt_main.jpg",
+        "image": "/default/v/t/vt04-mt_main.jpg",
         "related_skus": [
           "VT04",
           "VD08",
@@ -212,7 +212,7 @@
         "published_at": "@now:-86d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/t/vt07-rn_main.jpg",
+        "image": "/default/v/t/vt07-rn_main.jpg",
         "related_skus": [
           "VT07",
           "VP01",
@@ -253,7 +253,7 @@
         "published_at": "@now:-92d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/t/vt05-pe_main.jpg",
+        "image": "/default/v/t/vt05-pe_main.jpg",
         "related_skus": [
           "VT05",
           "VD03",
@@ -298,7 +298,7 @@
         "published_at": "@now:-98d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/p/vp06-ly_main.jpg",
+        "image": "/default/v/p/vp06-ly_main.jpg",
         "related_skus": [
           "VP06",
           "VT01",
@@ -343,7 +343,7 @@
         "published_at": "@now:-3d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/v/d/vd12-rn_main.jpg",
+        "image": "/default/v/d/vd12-rn_main.jpg",
         "related_skus": [
           "VD12",
           "VT11",
@@ -388,7 +388,7 @@
         "published_at": "@now:-11d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/s/vsw09-rn_main.jpg",
+        "image": "/default/v/s/vsw09-rn_main.jpg",
         "related_skus": [
           "VSW09",
           "VT02",
@@ -433,7 +433,7 @@
         "published_at": "@now:-19d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/v/d/vd02-ll_main.jpg",
+        "image": "/default/v/d/vd02-ll_main.jpg",
         "related_skus": [
           "VD02",
           "VD07",
@@ -478,7 +478,7 @@
         "published_at": "@now:-27d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/d/vd04-pe_main.jpg",
+        "image": "/default/v/d/vd04-pe_main.jpg",
         "related_skus": [
           "VD04",
           "VA19-GO-NA",
@@ -523,7 +523,7 @@
         "published_at": "@now:-34d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/p/vp05-rn_main.jpg",
+        "image": "/default/v/p/vp05-rn_main.jpg",
         "related_skus": [
           "VP05",
           "VT11",
@@ -572,7 +572,7 @@
         "published_at": "@now:-1d",
         "reading_time": 7,
         "is_featured": true,
-        "image": "/v/d/vd10-ly_main.jpg",
+        "image": "/default/v/d/vd10-ly_main.jpg",
         "related_skus": [
           "VD10",
           "VP09",
@@ -617,7 +617,7 @@
         "published_at": "@now:-8d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/d/vd05-ly_main.jpg",
+        "image": "/default/v/d/vd05-ly_main.jpg",
         "related_skus": [
           "VD05",
           "VD09",
@@ -662,7 +662,7 @@
         "published_at": "@now:-15d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/v/p/vp10-la_main.jpg",
+        "image": "/default/v/p/vp10-la_main.jpg",
         "related_skus": [
           "VP10",
           "VP12",
@@ -707,7 +707,7 @@
         "published_at": "@now:-23d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/d/vd03-mt_main.jpg",
+        "image": "/default/v/d/vd03-mt_main.jpg",
         "related_skus": [
           "VD03",
           "VSK08",
@@ -752,7 +752,7 @@
         "published_at": "@now:-31d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/t/vt02-rn_main.jpg",
+        "image": "/default/v/t/vt02-rn_main.jpg",
         "related_skus": [
           "VT02",
           "VP05",
@@ -801,7 +801,7 @@
         "published_at": "@now:-2d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/v/p/vp06-ly_main.jpg",
+        "image": "/default/v/p/vp06-ly_main.jpg",
         "related_skus": [
           "VP06",
           "VD12",
@@ -846,7 +846,7 @@
         "published_at": "@now:-9d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/t/vt01-kh_main.jpg",
+        "image": "/default/v/t/vt01-kh_main.jpg",
         "related_skus": [
           "VT01",
           "VP08",
@@ -891,7 +891,7 @@
         "published_at": "@now:-17d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/t/vt02-rn_main.jpg",
+        "image": "/default/v/t/vt02-rn_main.jpg",
         "related_skus": [
           "VT02",
           "VD07",
@@ -936,7 +936,7 @@
         "published_at": "@now:-25d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/s/vsw02-pe_main.jpg",
+        "image": "/default/v/s/vsw02-pe_main.jpg",
         "related_skus": [
           "VSW02",
           "VSW07",
@@ -981,7 +981,7 @@
         "published_at": "@now:-38d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/p/vp01-ll_main.jpg",
+        "image": "/default/v/p/vp01-ll_main.jpg",
         "related_skus": [
           "VP01",
           "VSK02",
@@ -1030,7 +1030,7 @@
         "published_at": "@now:-5d",
         "reading_time": 5,
         "is_featured": true,
-        "image": "/v/d/vd12-rn_main.jpg",
+        "image": "/default/v/d/vd12-rn_main.jpg",
         "related_skus": [
           "VD12",
           "VP06",
@@ -1079,7 +1079,7 @@
         "published_at": "@now:-13d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/s/vsw02-pe_main.jpg",
+        "image": "/default/v/s/vsw02-pe_main.jpg",
         "related_skus": [
           "VSW02",
           "VSW09",
@@ -1124,7 +1124,7 @@
         "published_at": "@now:-21d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/t/vt02-rn_main.jpg",
+        "image": "/default/v/t/vt02-rn_main.jpg",
         "related_skus": [
           "VT02",
           "VD02",
@@ -1169,7 +1169,7 @@
         "published_at": "@now:-29d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/s/vsw07-mt_main.jpg",
+        "image": "/default/v/s/vsw07-mt_main.jpg",
         "related_skus": [
           "VSW07",
           "VD04",
@@ -1214,7 +1214,7 @@
         "published_at": "@now:-41d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/d/vd06-mt_main.jpg",
+        "image": "/default/v/d/vd06-mt_main.jpg",
         "related_skus": [
           "VD06",
           "VP04",
@@ -1259,7 +1259,7 @@
         "published_at": "@now:-6d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/v/p/vp06-ly_main.jpg",
+        "image": "/default/v/p/vp06-ly_main.jpg",
         "related_skus": [
           "VP06",
           "VT01",
@@ -1300,7 +1300,7 @@
         "published_at": "@now:-14d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/d/vd06-mt_main.jpg",
+        "image": "/default/v/d/vd06-mt_main.jpg",
         "related_skus": [
           "VD06",
           "VSK08",
@@ -1341,7 +1341,7 @@
         "published_at": "@now:-22d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/t/vt10-ly_main.jpg",
+        "image": "/default/v/t/vt10-ly_main.jpg",
         "related_skus": [
           "VT10",
           "VP09",
@@ -1386,7 +1386,7 @@
         "published_at": "@now:-33d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/d/vd04-pe_main.jpg",
+        "image": "/default/v/d/vd04-pe_main.jpg",
         "related_skus": [
           "VD04",
           "VP05",
@@ -1431,7 +1431,7 @@
         "published_at": "@now:-44d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/d/vd02-ll_main.jpg",
+        "image": "/default/v/d/vd02-ll_main.jpg",
         "related_skus": [
           "VD02",
           "VD09",
@@ -1476,7 +1476,7 @@
         "published_at": "@now:-7d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/v/a/va08-br_main.jpg",
+        "image": "/default/v/a/va08-br_main.jpg",
         "related_skus": [
           "VA08",
           "VA09",
@@ -1521,7 +1521,7 @@
         "published_at": "@now:-16d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/a/va05-ll_main.jpg",
+        "image": "/default/v/a/va05-ll_main.jpg",
         "related_skus": [
           "VA05",
           "VA06",
@@ -1566,7 +1566,7 @@
         "published_at": "@now:-24d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/a/va16-go_main.jpg",
+        "image": "/default/v/a/va16-go_main.jpg",
         "related_skus": [
           "VA16-GO-NA",
           "VA15-SI-NA",
@@ -1611,7 +1611,7 @@
         "published_at": "@now:-30d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/v/a/va07-bc_main.jpg",
+        "image": "/default/v/a/va07-bc_main.jpg",
         "related_skus": [
           "VA07",
           "VA05",
@@ -1656,7 +1656,7 @@
         "published_at": "@now:-39d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/a/va11-sg_main.jpg",
+        "image": "/default/v/a/va11-sg_main.jpg",
         "related_skus": [
           "VA11-GO-NA",
           "VA17-SI-NA",
@@ -1705,7 +1705,7 @@
         "published_at": "@now:-10d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/v/d/vd04-pe_main.jpg",
+        "image": "/default/v/d/vd04-pe_main.jpg",
         "related_skus": [
           "VD04",
           "VD05",
@@ -1750,7 +1750,7 @@
         "published_at": "@now:-18d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/t/vt07-rn_main.jpg",
+        "image": "/default/v/t/vt07-rn_main.jpg",
         "related_skus": [
           "VT07",
           "VP01",
@@ -1795,7 +1795,7 @@
         "published_at": "@now:-26d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/d/vd12-rn_main.jpg",
+        "image": "/default/v/d/vd12-rn_main.jpg",
         "related_skus": [
           "VD12",
           "VP04",
@@ -1840,7 +1840,7 @@
         "published_at": "@now:-36d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/d/vd02-ll_main.jpg",
+        "image": "/default/v/d/vd02-ll_main.jpg",
         "related_skus": [
           "VD02",
           "VD09",
@@ -1889,7 +1889,7 @@
         "published_at": "@now:-45d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/v/d/vd12-rn_main.jpg",
+        "image": "/default/v/d/vd12-rn_main.jpg",
         "related_skus": [
           "VD12",
           "VSW05",
@@ -1934,7 +1934,7 @@
         "published_at": "@now:-12d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/v/d/vd01-ll_main.jpg",
+        "image": "/default/v/d/vd01-ll_main.jpg",
         "related_skus": [
           "VD01",
           "VD08",
@@ -1979,7 +1979,7 @@
         "published_at": "@now:-20d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/p/vp02-pe_main.jpg",
+        "image": "/default/v/p/vp02-pe_main.jpg",
         "related_skus": [
           "VP02",
           "VP07",
@@ -2024,7 +2024,7 @@
         "published_at": "@now:-28d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/p/vp03-pe_main.jpg",
+        "image": "/default/v/p/vp03-pe_main.jpg",
         "related_skus": [
           "VP03",
           "VD05",
@@ -2069,7 +2069,7 @@
         "published_at": "@now:-35d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/s/vsk10-pe_main.jpg",
+        "image": "/default/v/s/vsk10-pe_main.jpg",
         "related_skus": [
           "VSK10",
           "VP05",
@@ -2114,7 +2114,7 @@
         "published_at": "@now:-43d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/v/d/vd03-mt_main.jpg",
+        "image": "/default/v/d/vd03-mt_main.jpg",
         "related_skus": [
           "VD03",
           "VSK11",
@@ -2159,7 +2159,7 @@
         "published_at": "@now:-4d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/v/t/vt04-mt_main.jpg",
+        "image": "/default/v/t/vt04-mt_main.jpg",
         "related_skus": [
           "VT04",
           "VD08",
@@ -2204,7 +2204,7 @@
         "published_at": "@now:-32d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/p/vp05-rn_main.jpg",
+        "image": "/default/v/p/vp05-rn_main.jpg",
         "related_skus": [
           "VP05",
           "VSW11",
@@ -2249,7 +2249,7 @@
         "published_at": "@now:-37d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/p/vp05-rn_main.jpg",
+        "image": "/default/v/p/vp05-rn_main.jpg",
         "related_skus": [
           "VP05",
           "VT11",
@@ -2294,7 +2294,7 @@
         "published_at": "@now:-40d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/d/vd03-mt_main.jpg",
+        "image": "/default/v/d/vd03-mt_main.jpg",
         "related_skus": [
           "VD03",
           "VT10",
@@ -2339,7 +2339,7 @@
         "published_at": "@now:-47d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/d/vd03-mt_main.jpg",
+        "image": "/default/v/d/vd03-mt_main.jpg",
         "related_skus": [
           "VD03",
           "VA03",
@@ -2384,7 +2384,7 @@
         "published_at": "@now:-42d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/d/vd04-pe_main.jpg",
+        "image": "/default/v/d/vd04-pe_main.jpg",
         "related_skus": [
           "VD04",
           "VT10",
@@ -2429,7 +2429,7 @@
         "published_at": "@now:-46d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/p/vp06-ly_main.jpg",
+        "image": "/default/v/p/vp06-ly_main.jpg",
         "related_skus": [
           "VP06",
           "VT01",
@@ -2474,7 +2474,7 @@
         "published_at": "@now:-48d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/d/vd05-ly_main.jpg",
+        "image": "/default/v/d/vd05-ly_main.jpg",
         "related_skus": [
           "VD05",
           "VP03",
@@ -2519,7 +2519,7 @@
         "published_at": "@now:-49d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/d/vd11-ly_main.jpg",
+        "image": "/default/v/d/vd11-ly_main.jpg",
         "related_skus": [
           "VD11",
           "VSK07",
@@ -2564,7 +2564,7 @@
         "published_at": "@now:-50d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/d/vd12-rn_main.jpg",
+        "image": "/default/v/d/vd12-rn_main.jpg",
         "related_skus": [
           "VD12",
           "VT11",
@@ -2614,7 +2614,7 @@
         "published_at": "@now:-62d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/d/vd12-rn_main.jpg",
+        "image": "/default/v/d/vd12-rn_main.jpg",
         "related_skus": [
           "VD12",
           "VD06",
@@ -2659,7 +2659,7 @@
         "published_at": "@now:-68d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/t/vt02-rn_main.jpg",
+        "image": "/default/v/t/vt02-rn_main.jpg",
         "related_skus": [
           "VT02",
           "VD07",
@@ -2700,7 +2700,7 @@
         "published_at": "@now:-74d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/a/va16-go_main.jpg",
+        "image": "/default/v/a/va16-go_main.jpg",
         "related_skus": [
           "VA16-GO-NA",
           "VA13-GO-NA",
@@ -2741,7 +2741,7 @@
         "published_at": "@now:-80d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/t/vt04-mt_main.jpg",
+        "image": "/default/v/t/vt04-mt_main.jpg",
         "related_skus": [
           "VT04",
           "VD08",
@@ -2786,7 +2786,7 @@
         "published_at": "@now:-86d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/t/vt07-rn_main.jpg",
+        "image": "/default/v/t/vt07-rn_main.jpg",
         "related_skus": [
           "VT07",
           "VP01",
@@ -2827,7 +2827,7 @@
         "published_at": "@now:-92d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/t/vt05-pe_main.jpg",
+        "image": "/default/v/t/vt05-pe_main.jpg",
         "related_skus": [
           "VT05",
           "VD03",
@@ -2872,7 +2872,7 @@
         "published_at": "@now:-98d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/p/vp06-ly_main.jpg",
+        "image": "/default/v/p/vp06-ly_main.jpg",
         "related_skus": [
           "VP06",
           "VT01",
@@ -2917,7 +2917,7 @@
         "published_at": "@now:-3d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/v/d/vd12-rn_main.jpg",
+        "image": "/default/v/d/vd12-rn_main.jpg",
         "related_skus": [
           "VD12",
           "VT11",
@@ -2962,7 +2962,7 @@
         "published_at": "@now:-11d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/s/vsw09-rn_main.jpg",
+        "image": "/default/v/s/vsw09-rn_main.jpg",
         "related_skus": [
           "VSW09",
           "VT02",
@@ -3007,7 +3007,7 @@
         "published_at": "@now:-19d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/v/d/vd02-ll_main.jpg",
+        "image": "/default/v/d/vd02-ll_main.jpg",
         "related_skus": [
           "VD02",
           "VD07",
@@ -3052,7 +3052,7 @@
         "published_at": "@now:-27d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/d/vd04-pe_main.jpg",
+        "image": "/default/v/d/vd04-pe_main.jpg",
         "related_skus": [
           "VD04",
           "VA19-GO-NA",
@@ -3097,7 +3097,7 @@
         "published_at": "@now:-34d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/p/vp05-rn_main.jpg",
+        "image": "/default/v/p/vp05-rn_main.jpg",
         "related_skus": [
           "VP05",
           "VT11",
@@ -3146,7 +3146,7 @@
         "published_at": "@now:-1d",
         "reading_time": 7,
         "is_featured": true,
-        "image": "/v/d/vd10-ly_main.jpg",
+        "image": "/default/v/d/vd10-ly_main.jpg",
         "related_skus": [
           "VD10",
           "VP09",
@@ -3191,7 +3191,7 @@
         "published_at": "@now:-8d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/d/vd05-ly_main.jpg",
+        "image": "/default/v/d/vd05-ly_main.jpg",
         "related_skus": [
           "VD05",
           "VD09",
@@ -3236,7 +3236,7 @@
         "published_at": "@now:-15d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/v/p/vp10-la_main.jpg",
+        "image": "/default/v/p/vp10-la_main.jpg",
         "related_skus": [
           "VP10",
           "VP12",
@@ -3281,7 +3281,7 @@
         "published_at": "@now:-23d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/d/vd03-mt_main.jpg",
+        "image": "/default/v/d/vd03-mt_main.jpg",
         "related_skus": [
           "VD03",
           "VSK08",
@@ -3326,7 +3326,7 @@
         "published_at": "@now:-31d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/t/vt02-rn_main.jpg",
+        "image": "/default/v/t/vt02-rn_main.jpg",
         "related_skus": [
           "VT02",
           "VP05",
@@ -3375,7 +3375,7 @@
         "published_at": "@now:-2d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/v/p/vp06-ly_main.jpg",
+        "image": "/default/v/p/vp06-ly_main.jpg",
         "related_skus": [
           "VP06",
           "VD12",
@@ -3420,7 +3420,7 @@
         "published_at": "@now:-9d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/t/vt01-kh_main.jpg",
+        "image": "/default/v/t/vt01-kh_main.jpg",
         "related_skus": [
           "VT01",
           "VP08",
@@ -3465,7 +3465,7 @@
         "published_at": "@now:-17d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/t/vt02-rn_main.jpg",
+        "image": "/default/v/t/vt02-rn_main.jpg",
         "related_skus": [
           "VT02",
           "VD07",
@@ -3510,7 +3510,7 @@
         "published_at": "@now:-25d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/s/vsw02-pe_main.jpg",
+        "image": "/default/v/s/vsw02-pe_main.jpg",
         "related_skus": [
           "VSW02",
           "VSW07",
@@ -3555,7 +3555,7 @@
         "published_at": "@now:-38d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/p/vp01-ll_main.jpg",
+        "image": "/default/v/p/vp01-ll_main.jpg",
         "related_skus": [
           "VP01",
           "VSK02",
@@ -3604,7 +3604,7 @@
         "published_at": "@now:-5d",
         "reading_time": 5,
         "is_featured": true,
-        "image": "/v/d/vd12-rn_main.jpg",
+        "image": "/default/v/d/vd12-rn_main.jpg",
         "related_skus": [
           "VD12",
           "VP06",
@@ -3653,7 +3653,7 @@
         "published_at": "@now:-13d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/s/vsw02-pe_main.jpg",
+        "image": "/default/v/s/vsw02-pe_main.jpg",
         "related_skus": [
           "VSW02",
           "VSW09",
@@ -3698,7 +3698,7 @@
         "published_at": "@now:-21d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/t/vt02-rn_main.jpg",
+        "image": "/default/v/t/vt02-rn_main.jpg",
         "related_skus": [
           "VT02",
           "VD02",
@@ -3743,7 +3743,7 @@
         "published_at": "@now:-29d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/s/vsw07-mt_main.jpg",
+        "image": "/default/v/s/vsw07-mt_main.jpg",
         "related_skus": [
           "VSW07",
           "VD04",
@@ -3788,7 +3788,7 @@
         "published_at": "@now:-41d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/d/vd06-mt_main.jpg",
+        "image": "/default/v/d/vd06-mt_main.jpg",
         "related_skus": [
           "VD06",
           "VP04",
@@ -3833,7 +3833,7 @@
         "published_at": "@now:-6d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/v/p/vp06-ly_main.jpg",
+        "image": "/default/v/p/vp06-ly_main.jpg",
         "related_skus": [
           "VP06",
           "VT01",
@@ -3874,7 +3874,7 @@
         "published_at": "@now:-14d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/d/vd06-mt_main.jpg",
+        "image": "/default/v/d/vd06-mt_main.jpg",
         "related_skus": [
           "VD06",
           "VSK08",
@@ -3915,7 +3915,7 @@
         "published_at": "@now:-22d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/t/vt10-ly_main.jpg",
+        "image": "/default/v/t/vt10-ly_main.jpg",
         "related_skus": [
           "VT10",
           "VP09",
@@ -3960,7 +3960,7 @@
         "published_at": "@now:-33d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/d/vd04-pe_main.jpg",
+        "image": "/default/v/d/vd04-pe_main.jpg",
         "related_skus": [
           "VD04",
           "VP05",
@@ -4005,7 +4005,7 @@
         "published_at": "@now:-44d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/d/vd02-ll_main.jpg",
+        "image": "/default/v/d/vd02-ll_main.jpg",
         "related_skus": [
           "VD02",
           "VD09",
@@ -4050,7 +4050,7 @@
         "published_at": "@now:-7d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/v/a/va08-br_main.jpg",
+        "image": "/default/v/a/va08-br_main.jpg",
         "related_skus": [
           "VA08",
           "VA09",
@@ -4095,7 +4095,7 @@
         "published_at": "@now:-16d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/a/va05-ll_main.jpg",
+        "image": "/default/v/a/va05-ll_main.jpg",
         "related_skus": [
           "VA05",
           "VA06",
@@ -4140,7 +4140,7 @@
         "published_at": "@now:-24d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/a/va16-go_main.jpg",
+        "image": "/default/v/a/va16-go_main.jpg",
         "related_skus": [
           "VA16-GO-NA",
           "VA15-SI-NA",
@@ -4185,7 +4185,7 @@
         "published_at": "@now:-30d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/v/a/va07-bc_main.jpg",
+        "image": "/default/v/a/va07-bc_main.jpg",
         "related_skus": [
           "VA07",
           "VA05",
@@ -4230,7 +4230,7 @@
         "published_at": "@now:-39d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/a/va11-sg_main.jpg",
+        "image": "/default/v/a/va11-sg_main.jpg",
         "related_skus": [
           "VA11-GO-NA",
           "VA17-SI-NA",
@@ -4279,7 +4279,7 @@
         "published_at": "@now:-10d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/v/d/vd04-pe_main.jpg",
+        "image": "/default/v/d/vd04-pe_main.jpg",
         "related_skus": [
           "VD04",
           "VD05",
@@ -4324,7 +4324,7 @@
         "published_at": "@now:-18d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/t/vt07-rn_main.jpg",
+        "image": "/default/v/t/vt07-rn_main.jpg",
         "related_skus": [
           "VT07",
           "VP01",
@@ -4369,7 +4369,7 @@
         "published_at": "@now:-26d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/d/vd12-rn_main.jpg",
+        "image": "/default/v/d/vd12-rn_main.jpg",
         "related_skus": [
           "VD12",
           "VP04",
@@ -4414,7 +4414,7 @@
         "published_at": "@now:-36d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/d/vd02-ll_main.jpg",
+        "image": "/default/v/d/vd02-ll_main.jpg",
         "related_skus": [
           "VD02",
           "VD09",
@@ -4463,7 +4463,7 @@
         "published_at": "@now:-45d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/v/d/vd12-rn_main.jpg",
+        "image": "/default/v/d/vd12-rn_main.jpg",
         "related_skus": [
           "VD12",
           "VSW05",
@@ -4508,7 +4508,7 @@
         "published_at": "@now:-12d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/v/d/vd01-ll_main.jpg",
+        "image": "/default/v/d/vd01-ll_main.jpg",
         "related_skus": [
           "VD01",
           "VD08",
@@ -4553,7 +4553,7 @@
         "published_at": "@now:-20d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/p/vp02-pe_main.jpg",
+        "image": "/default/v/p/vp02-pe_main.jpg",
         "related_skus": [
           "VP02",
           "VP07",
@@ -4598,7 +4598,7 @@
         "published_at": "@now:-28d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/p/vp03-pe_main.jpg",
+        "image": "/default/v/p/vp03-pe_main.jpg",
         "related_skus": [
           "VP03",
           "VD05",
@@ -4643,7 +4643,7 @@
         "published_at": "@now:-35d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/s/vsk10-pe_main.jpg",
+        "image": "/default/v/s/vsk10-pe_main.jpg",
         "related_skus": [
           "VSK10",
           "VP05",
@@ -4688,7 +4688,7 @@
         "published_at": "@now:-43d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/v/d/vd03-mt_main.jpg",
+        "image": "/default/v/d/vd03-mt_main.jpg",
         "related_skus": [
           "VD03",
           "VSK11",
@@ -4733,7 +4733,7 @@
         "published_at": "@now:-4d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/v/t/vt04-mt_main.jpg",
+        "image": "/default/v/t/vt04-mt_main.jpg",
         "related_skus": [
           "VT04",
           "VD08",
@@ -4778,7 +4778,7 @@
         "published_at": "@now:-32d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/p/vp05-rn_main.jpg",
+        "image": "/default/v/p/vp05-rn_main.jpg",
         "related_skus": [
           "VP05",
           "VSW11",
@@ -4823,7 +4823,7 @@
         "published_at": "@now:-37d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/p/vp05-rn_main.jpg",
+        "image": "/default/v/p/vp05-rn_main.jpg",
         "related_skus": [
           "VP05",
           "VT11",
@@ -4868,7 +4868,7 @@
         "published_at": "@now:-40d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/d/vd03-mt_main.jpg",
+        "image": "/default/v/d/vd03-mt_main.jpg",
         "related_skus": [
           "VD03",
           "VT10",
@@ -4913,7 +4913,7 @@
         "published_at": "@now:-47d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/d/vd03-mt_main.jpg",
+        "image": "/default/v/d/vd03-mt_main.jpg",
         "related_skus": [
           "VD03",
           "VA03",
@@ -4958,7 +4958,7 @@
         "published_at": "@now:-42d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/d/vd04-pe_main.jpg",
+        "image": "/default/v/d/vd04-pe_main.jpg",
         "related_skus": [
           "VD04",
           "VT10",
@@ -5003,7 +5003,7 @@
         "published_at": "@now:-46d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/v/p/vp06-ly_main.jpg",
+        "image": "/default/v/p/vp06-ly_main.jpg",
         "related_skus": [
           "VP06",
           "VT01",
@@ -5048,7 +5048,7 @@
         "published_at": "@now:-48d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/d/vd05-ly_main.jpg",
+        "image": "/default/v/d/vd05-ly_main.jpg",
         "related_skus": [
           "VD05",
           "VP03",
@@ -5093,7 +5093,7 @@
         "published_at": "@now:-49d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/v/d/vd11-ly_main.jpg",
+        "image": "/default/v/d/vd11-ly_main.jpg",
         "related_skus": [
           "VD11",
           "VSK07",
@@ -5138,7 +5138,7 @@
         "published_at": "@now:-50d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/v/d/vd12-rn_main.jpg",
+        "image": "/default/v/d/vd12-rn_main.jpg",
         "related_skus": [
           "VD12",
           "VT11",
