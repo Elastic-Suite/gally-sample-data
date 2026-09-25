@@ -208,3 +208,63 @@ Gally\Metadata\Entity\SourceFieldLabel:
         source_field: '@product_llv_assembly_required'
         localized_catalog: '@papershop_de'
         label: 'Montage erforderlich'
+    product_category_papershop_fr:
+        source_field: <findSourceFieldByCode('product', 'category')>
+        localized_catalog: '@papershop_fr'
+        label: 'Catégorie'
+    product_category_papershop_en:
+        source_field: <findSourceFieldByCode('product', 'category')>
+        localized_catalog: '@papershop_en'
+        label: 'Category'
+    product_category_papershop_de:
+        source_field: <findSourceFieldByCode('product', 'category')>
+        localized_catalog: '@papershop_de'
+        label: 'Kategorie'
+    product_price_papershop_fr:
+        source_field: <findSourceFieldByCode('product', 'price')>
+        localized_catalog: '@papershop_fr'
+        label: 'Prix'
+    product_price_papershop_en:
+        source_field: <findSourceFieldByCode('product', 'price')>
+        localized_catalog: '@papershop_en'
+        label: 'Price'
+    product_price_papershop_de:
+        source_field: <findSourceFieldByCode('product', 'price')>
+        localized_catalog: '@papershop_de'
+        label: 'Preis'
+    product_stock_papershop_fr:
+        source_field: <findSourceFieldByCode('product', 'stock')>
+        localized_catalog: '@papershop_fr'
+        label: 'Disponibilité'
+    product_stock_papershop_en:
+        source_field: <findSourceFieldByCode('product', 'stock')>
+        localized_catalog: '@papershop_en'
+        label: 'Availability'
+    product_stock_papershop_de:
+        source_field: <findSourceFieldByCode('product', 'stock')>
+        localized_catalog: '@papershop_de'
+        label: 'Verfügbarkeit'
+    product_new_papershop_fr:
+        source_field: '@product_new'
+        localized_catalog: '@papershop_fr'
+        label: 'Nouveauté'
+    product_new_papershop_en:
+        source_field: '@product_new'
+        localized_catalog: '@papershop_en'
+        label: 'New'
+    product_new_papershop_de:
+        source_field: '@product_new'
+        localized_catalog: '@papershop_de'
+        label: 'Neu'
+    product_sale_papershop_fr:
+        source_field: '@product_sale'
+        localized_catalog: '@papershop_fr'
+        label: 'En promotion'
+    product_sale_papershop_en:
+        source_field: '@product_sale'
+        localized_catalog: '@papershop_en'
+        label: 'On sale'
+    product_sale_papershop_de:
+        source_field: '@product_sale'
+        localized_catalog: '@papershop_de'
+        label: 'Im Angebot'
