@@ -36,7 +36,7 @@
         "published_at": "@now:-3d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/l/l/llv-pap-mac-002.jpg",
+        "image": "/papershop/l/l/llv-pap-mac-002.jpg",
         "related_skus": [
           "LLV-PAP-MAC-002",
           "LLV-PAP-MAC-003",
@@ -77,7 +77,7 @@
         "published_at": "@now:-11d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/l/l/llv-pap-cah-001.jpg",
+        "image": "/papershop/l/l/llv-pap-cah-001.jpg",
         "related_skus": [
           "LLV-PAP-CAH-001",
           "LLV-PAP-CAH-002",
@@ -114,7 +114,7 @@
         "published_at": "@now:-6d",
         "reading_time": 7,
         "is_featured": true,
-        "image": "/l/l/llv-pap-plu-001.jpg",
+        "image": "/papershop/l/l/llv-pap-plu-001.jpg",
         "related_skus": [
           "LLV-PAP-PLU-001",
           "LLV-PAP-PLU-002",
@@ -151,7 +151,7 @@
         "published_at": "@now:-19d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/l/l/llv-pap-enc-003.jpg",
+        "image": "/papershop/l/l/llv-pap-enc-003.jpg",
         "related_skus": [
           "LLV-PAP-ENC-001",
           "LLV-PAP-ENC-003",
@@ -188,7 +188,7 @@
         "published_at": "@now:-2d",
         "reading_time": 8,
         "is_featured": true,
-        "image": "/l/l/llv-mob-bib-002.jpg",
+        "image": "/papershop/l/l/llv-mob-bib-002.jpg",
         "related_skus": [
           "LLV-MOB-BIB-001",
           "LLV-MOB-BIB-002",
@@ -229,7 +229,7 @@
         "published_at": "@now:-26d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/l/l/llv-mob-bur-003.jpg",
+        "image": "/papershop/l/l/llv-mob-bur-003.jpg",
         "related_skus": [
           "LLV-MOB-BUR-001",
           "LLV-MOB-BUR-003",
@@ -270,7 +270,7 @@
         "published_at": "@now:-8d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/l/l/llv-mob-asd-001.jpg",
+        "image": "/papershop/l/l/llv-mob-asd-001.jpg",
         "related_skus": [
           "LLV-MOB-ASD-001",
           "LLV-MOB-ASD-004",
@@ -311,7 +311,7 @@
         "published_at": "@now:-14d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/l/l/llv-mob-lam-001.jpg",
+        "image": "/papershop/l/l/llv-mob-lam-001.jpg",
         "related_skus": [
           "LLV-MOB-LAM-001",
           "LLV-MOB-LAM-004",
@@ -352,7 +352,7 @@
         "published_at": "@now:-5d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/l/l/llv-liv-cla-001.jpg",
+        "image": "/papershop/l/l/llv-liv-cla-001.jpg",
         "related_skus": [
           "LLV-LIV-CLA-001",
           "LLV-LIV-CLA-002",
@@ -393,7 +393,7 @@
         "published_at": "@now:-22d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/l/l/llv-liv-sff-001.jpg",
+        "image": "/papershop/l/l/llv-liv-sff-001.jpg",
         "related_skus": [
           "LLV-LIV-SFF-001",
           "LLV-LIV-ADO-001",
@@ -434,7 +434,7 @@
         "published_at": "@now:-31d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/l/l/llv-liv-cla-002.jpg",
+        "image": "/papershop/l/l/llv-liv-cla-002.jpg",
         "related_skus": [
           "LLV-LIV-CLA-002",
           "LLV-LIV-CLA-006",
@@ -471,7 +471,7 @@
         "published_at": "@now:-44d",
         "reading_time": 8,
         "is_featured": false,
-        "image": "/l/l/llv-liv-nou-004.jpg",
+        "image": "/papershop/l/l/llv-liv-nou-004.jpg",
         "related_skus": [
           "LLV-LIV-NOU-004",
           "LLV-LIV-HIS-001",
@@ -512,7 +512,7 @@
         "published_at": "@now:-17d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/l/l/llv-pap-cro-002.jpg",
+        "image": "/papershop/l/l/llv-pap-cro-002.jpg",
         "related_skus": [
           "LLV-PAP-CRO-001",
           "LLV-PAP-CRO-002",
@@ -549,7 +549,7 @@
         "published_at": "@now:-9d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/l/l/llv-mob-chb-002.jpg",
+        "image": "/papershop/l/l/llv-mob-chb-002.jpg",
         "related_skus": [
           "LLV-MOB-CHB-001",
           "LLV-MOB-CHB-002",
@@ -590,7 +590,7 @@
         "published_at": "@now:-37d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/l/l/llv-mob-eta-004.jpg",
+        "image": "/papershop/l/l/llv-mob-eta-004.jpg",
         "related_skus": [
           "LLV-MOB-ETA-001",
           "LLV-MOB-ETA-004",
@@ -631,7 +631,7 @@
         "published_at": "@now:-12d",
         "reading_time": 4,
         "is_featured": true,
-        "image": "/l/l/llv-liv-alb-003.jpg",
+        "image": "/papershop/l/l/llv-liv-alb-003.jpg",
         "related_skus": [
           "LLV-LIV-ALB-003",
           "LLV-LIV-ART-002",
@@ -668,7 +668,7 @@
         "published_at": "@now:-28d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/l/l/llv-pap-mac-001.jpg",
+        "image": "/papershop/l/l/llv-pap-mac-001.jpg",
         "related_skus": [
           "LLV-PAP-MAC-001",
           "LLV-PAP-MAC-004",
@@ -709,7 +709,7 @@
         "published_at": "@now:-48d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/l/l/llv-mob-lis-002.jpg",
+        "image": "/papershop/l/l/llv-mob-lis-002.jpg",
         "related_skus": [
           "LLV-MOB-LIS-001",
           "LLV-MOB-LIS-002",
@@ -755,7 +755,7 @@
         "published_at": "@now:-3d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/l/l/llv-pap-mac-002.jpg",
+        "image": "/papershop/l/l/llv-pap-mac-002.jpg",
         "related_skus": [
           "LLV-PAP-MAC-002",
           "LLV-PAP-MAC-003",
@@ -796,7 +796,7 @@
         "published_at": "@now:-11d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/l/l/llv-pap-cah-001.jpg",
+        "image": "/papershop/l/l/llv-pap-cah-001.jpg",
         "related_skus": [
           "LLV-PAP-CAH-001",
           "LLV-PAP-CAH-002",
@@ -833,7 +833,7 @@
         "published_at": "@now:-6d",
         "reading_time": 7,
         "is_featured": true,
-        "image": "/l/l/llv-pap-plu-001.jpg",
+        "image": "/papershop/l/l/llv-pap-plu-001.jpg",
         "related_skus": [
           "LLV-PAP-PLU-001",
           "LLV-PAP-PLU-002",
@@ -870,7 +870,7 @@
         "published_at": "@now:-19d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/l/l/llv-pap-enc-003.jpg",
+        "image": "/papershop/l/l/llv-pap-enc-003.jpg",
         "related_skus": [
           "LLV-PAP-ENC-001",
           "LLV-PAP-ENC-003",
@@ -907,7 +907,7 @@
         "published_at": "@now:-2d",
         "reading_time": 8,
         "is_featured": true,
-        "image": "/l/l/llv-mob-bib-002.jpg",
+        "image": "/papershop/l/l/llv-mob-bib-002.jpg",
         "related_skus": [
           "LLV-MOB-BIB-001",
           "LLV-MOB-BIB-002",
@@ -948,7 +948,7 @@
         "published_at": "@now:-26d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/l/l/llv-mob-bur-003.jpg",
+        "image": "/papershop/l/l/llv-mob-bur-003.jpg",
         "related_skus": [
           "LLV-MOB-BUR-001",
           "LLV-MOB-BUR-003",
@@ -989,7 +989,7 @@
         "published_at": "@now:-8d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/l/l/llv-mob-asd-001.jpg",
+        "image": "/papershop/l/l/llv-mob-asd-001.jpg",
         "related_skus": [
           "LLV-MOB-ASD-001",
           "LLV-MOB-ASD-004",
@@ -1030,7 +1030,7 @@
         "published_at": "@now:-14d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/l/l/llv-mob-lam-001.jpg",
+        "image": "/papershop/l/l/llv-mob-lam-001.jpg",
         "related_skus": [
           "LLV-MOB-LAM-001",
           "LLV-MOB-LAM-004",
@@ -1071,7 +1071,7 @@
         "published_at": "@now:-5d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/l/l/llv-liv-cla-001.jpg",
+        "image": "/papershop/l/l/llv-liv-cla-001.jpg",
         "related_skus": [
           "LLV-LIV-CLA-001",
           "LLV-LIV-CLA-002",
@@ -1112,7 +1112,7 @@
         "published_at": "@now:-22d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/l/l/llv-liv-sff-001.jpg",
+        "image": "/papershop/l/l/llv-liv-sff-001.jpg",
         "related_skus": [
           "LLV-LIV-SFF-001",
           "LLV-LIV-ADO-001",
@@ -1153,7 +1153,7 @@
         "published_at": "@now:-31d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/l/l/llv-liv-cla-002.jpg",
+        "image": "/papershop/l/l/llv-liv-cla-002.jpg",
         "related_skus": [
           "LLV-LIV-CLA-002",
           "LLV-LIV-CLA-006",
@@ -1190,7 +1190,7 @@
         "published_at": "@now:-44d",
         "reading_time": 8,
         "is_featured": false,
-        "image": "/l/l/llv-liv-nou-004.jpg",
+        "image": "/papershop/l/l/llv-liv-nou-004.jpg",
         "related_skus": [
           "LLV-LIV-NOU-004",
           "LLV-LIV-HIS-001",
@@ -1231,7 +1231,7 @@
         "published_at": "@now:-17d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/l/l/llv-pap-cro-002.jpg",
+        "image": "/papershop/l/l/llv-pap-cro-002.jpg",
         "related_skus": [
           "LLV-PAP-CRO-001",
           "LLV-PAP-CRO-002",
@@ -1268,7 +1268,7 @@
         "published_at": "@now:-9d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/l/l/llv-mob-chb-002.jpg",
+        "image": "/papershop/l/l/llv-mob-chb-002.jpg",
         "related_skus": [
           "LLV-MOB-CHB-001",
           "LLV-MOB-CHB-002",
@@ -1309,7 +1309,7 @@
         "published_at": "@now:-37d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/l/l/llv-mob-eta-004.jpg",
+        "image": "/papershop/l/l/llv-mob-eta-004.jpg",
         "related_skus": [
           "LLV-MOB-ETA-001",
           "LLV-MOB-ETA-004",
@@ -1350,7 +1350,7 @@
         "published_at": "@now:-12d",
         "reading_time": 4,
         "is_featured": true,
-        "image": "/l/l/llv-liv-alb-003.jpg",
+        "image": "/papershop/l/l/llv-liv-alb-003.jpg",
         "related_skus": [
           "LLV-LIV-ALB-003",
           "LLV-LIV-ART-002",
@@ -1387,7 +1387,7 @@
         "published_at": "@now:-28d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/l/l/llv-pap-mac-001.jpg",
+        "image": "/papershop/l/l/llv-pap-mac-001.jpg",
         "related_skus": [
           "LLV-PAP-MAC-001",
           "LLV-PAP-MAC-004",
@@ -1428,7 +1428,7 @@
         "published_at": "@now:-48d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/l/l/llv-mob-lis-002.jpg",
+        "image": "/papershop/l/l/llv-mob-lis-002.jpg",
         "related_skus": [
           "LLV-MOB-LIS-001",
           "LLV-MOB-LIS-002",
@@ -1474,7 +1474,7 @@
         "published_at": "@now:-3d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/l/l/llv-pap-mac-002.jpg",
+        "image": "/papershop/l/l/llv-pap-mac-002.jpg",
         "related_skus": [
           "LLV-PAP-MAC-002",
           "LLV-PAP-MAC-003",
@@ -1515,7 +1515,7 @@
         "published_at": "@now:-11d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/l/l/llv-pap-cah-001.jpg",
+        "image": "/papershop/l/l/llv-pap-cah-001.jpg",
         "related_skus": [
           "LLV-PAP-CAH-001",
           "LLV-PAP-CAH-002",
@@ -1552,7 +1552,7 @@
         "published_at": "@now:-6d",
         "reading_time": 7,
         "is_featured": true,
-        "image": "/l/l/llv-pap-plu-001.jpg",
+        "image": "/papershop/l/l/llv-pap-plu-001.jpg",
         "related_skus": [
           "LLV-PAP-PLU-001",
           "LLV-PAP-PLU-002",
@@ -1589,7 +1589,7 @@
         "published_at": "@now:-19d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/l/l/llv-pap-enc-003.jpg",
+        "image": "/papershop/l/l/llv-pap-enc-003.jpg",
         "related_skus": [
           "LLV-PAP-ENC-001",
           "LLV-PAP-ENC-003",
@@ -1626,7 +1626,7 @@
         "published_at": "@now:-2d",
         "reading_time": 8,
         "is_featured": true,
-        "image": "/l/l/llv-mob-bib-002.jpg",
+        "image": "/papershop/l/l/llv-mob-bib-002.jpg",
         "related_skus": [
           "LLV-MOB-BIB-001",
           "LLV-MOB-BIB-002",
@@ -1667,7 +1667,7 @@
         "published_at": "@now:-26d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/l/l/llv-mob-bur-003.jpg",
+        "image": "/papershop/l/l/llv-mob-bur-003.jpg",
         "related_skus": [
           "LLV-MOB-BUR-001",
           "LLV-MOB-BUR-003",
@@ -1708,7 +1708,7 @@
         "published_at": "@now:-8d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/l/l/llv-mob-asd-001.jpg",
+        "image": "/papershop/l/l/llv-mob-asd-001.jpg",
         "related_skus": [
           "LLV-MOB-ASD-001",
           "LLV-MOB-ASD-004",
@@ -1749,7 +1749,7 @@
         "published_at": "@now:-14d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/l/l/llv-mob-lam-001.jpg",
+        "image": "/papershop/l/l/llv-mob-lam-001.jpg",
         "related_skus": [
           "LLV-MOB-LAM-001",
           "LLV-MOB-LAM-004",
@@ -1790,7 +1790,7 @@
         "published_at": "@now:-5d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/l/l/llv-liv-cla-001.jpg",
+        "image": "/papershop/l/l/llv-liv-cla-001.jpg",
         "related_skus": [
           "LLV-LIV-CLA-001",
           "LLV-LIV-CLA-002",
@@ -1831,7 +1831,7 @@
         "published_at": "@now:-22d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/l/l/llv-liv-sff-001.jpg",
+        "image": "/papershop/l/l/llv-liv-sff-001.jpg",
         "related_skus": [
           "LLV-LIV-SFF-001",
           "LLV-LIV-ADO-001",
@@ -1872,7 +1872,7 @@
         "published_at": "@now:-31d",
         "reading_time": 6,
         "is_featured": false,
-        "image": "/l/l/llv-liv-cla-002.jpg",
+        "image": "/papershop/l/l/llv-liv-cla-002.jpg",
         "related_skus": [
           "LLV-LIV-CLA-002",
           "LLV-LIV-CLA-006",
@@ -1909,7 +1909,7 @@
         "published_at": "@now:-44d",
         "reading_time": 8,
         "is_featured": false,
-        "image": "/l/l/llv-liv-nou-004.jpg",
+        "image": "/papershop/l/l/llv-liv-nou-004.jpg",
         "related_skus": [
           "LLV-LIV-NOU-004",
           "LLV-LIV-HIS-001",
@@ -1950,7 +1950,7 @@
         "published_at": "@now:-17d",
         "reading_time": 6,
         "is_featured": true,
-        "image": "/l/l/llv-pap-cro-002.jpg",
+        "image": "/papershop/l/l/llv-pap-cro-002.jpg",
         "related_skus": [
           "LLV-PAP-CRO-001",
           "LLV-PAP-CRO-002",
@@ -1987,7 +1987,7 @@
         "published_at": "@now:-9d",
         "reading_time": 7,
         "is_featured": false,
-        "image": "/l/l/llv-mob-chb-002.jpg",
+        "image": "/papershop/l/l/llv-mob-chb-002.jpg",
         "related_skus": [
           "LLV-MOB-CHB-001",
           "LLV-MOB-CHB-002",
@@ -2028,7 +2028,7 @@
         "published_at": "@now:-37d",
         "reading_time": 5,
         "is_featured": false,
-        "image": "/l/l/llv-mob-eta-004.jpg",
+        "image": "/papershop/l/l/llv-mob-eta-004.jpg",
         "related_skus": [
           "LLV-MOB-ETA-001",
           "LLV-MOB-ETA-004",
@@ -2069,7 +2069,7 @@
         "published_at": "@now:-12d",
         "reading_time": 4,
         "is_featured": true,
-        "image": "/l/l/llv-liv-alb-003.jpg",
+        "image": "/papershop/l/l/llv-liv-alb-003.jpg",
         "related_skus": [
           "LLV-LIV-ALB-003",
           "LLV-LIV-ART-002",
@@ -2106,7 +2106,7 @@
         "published_at": "@now:-28d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/l/l/llv-pap-mac-001.jpg",
+        "image": "/papershop/l/l/llv-pap-mac-001.jpg",
         "related_skus": [
           "LLV-PAP-MAC-001",
           "LLV-PAP-MAC-004",
@@ -2147,7 +2147,7 @@
         "published_at": "@now:-48d",
         "reading_time": 4,
         "is_featured": false,
-        "image": "/l/l/llv-mob-lis-002.jpg",
+        "image": "/papershop/l/l/llv-mob-lis-002.jpg",
         "related_skus": [
           "LLV-MOB-LIS-001",
           "LLV-MOB-LIS-002",
