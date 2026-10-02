@@ -11,6 +11,7 @@
  */
 
 declare(strict_types=1);
+
 /**
  * SF doc: https://symfony.com/doc/current/bundles/extension.html.
  */
