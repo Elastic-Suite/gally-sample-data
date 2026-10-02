@@ -51,12 +51,7 @@ final class CatalogSelection
 
         $unknown = array_diff($requested, $available);
         if ([] !== $unknown) {
-            throw new \RuntimeException(sprintf(
-                'Unknown sample data catalog "%s" in %s. Available: %s.',
-                implode('", "', $unknown),
-                self::ENV_VAR,
-                implode(', ', $available),
-            ));
+            throw new \RuntimeException(\sprintf('Unknown sample data catalog "%s" in %s. Available: %s.', implode('", "', $unknown), self::ENV_VAR, implode(', ', $available)));
         }
 
         $selected = array_merge([self::COMMON], $requested);
@@ -122,7 +117,10 @@ final class CatalogSelection
             return null;
         }
 
-        return array_values(array_unique(array_filter(array_map('trim', explode(',', $raw)), 'strlen')));
+        $codes = array_map('trim', explode(',', $raw));
+        $codes = array_filter($codes, static fn (string $code): bool => '' !== $code);
+
+        return array_values(array_unique($codes));
     }
 
     private static function fixturesDir(): string
