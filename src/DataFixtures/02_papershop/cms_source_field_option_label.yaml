@@ -1,0 +1,330 @@
+include:
+    - localized_catalogs.yaml
+    - cms_source_field_option.yaml
+    - ../common/cms_source_field_option.yaml
+
+Gally\Metadata\Entity\SourceFieldOptionLabel:
+    cms_page_topic_option_llv_reading_papershop_fr:
+        source_field_option: '@cms_page_topic_option_llv_reading'
+        localized_catalog: '@papershop_fr'
+        label: 'Lecture'
+    cms_page_topic_option_llv_reading_papershop_en:
+        source_field_option: '@cms_page_topic_option_llv_reading'
+        localized_catalog: '@papershop_en'
+        label: 'Reading'
+    cms_page_topic_option_llv_reading_papershop_de:
+        source_field_option: '@cms_page_topic_option_llv_reading'
+        localized_catalog: '@papershop_de'
+        label: 'Lesen'
+    cms_page_topic_option_llv_writing_papershop_fr:
+        source_field_option: '@cms_page_topic_option_llv_writing'
+        localized_catalog: '@papershop_fr'
+        label: 'Écriture'
+    cms_page_topic_option_llv_writing_papershop_en:
+        source_field_option: '@cms_page_topic_option_llv_writing'
+        localized_catalog: '@papershop_en'
+        label: 'Writing'
+    cms_page_topic_option_llv_writing_papershop_de:
+        source_field_option: '@cms_page_topic_option_llv_writing'
+        localized_catalog: '@papershop_de'
+        label: 'Schreiben'
+    cms_page_topic_option_llv_workspace_papershop_fr:
+        source_field_option: '@cms_page_topic_option_llv_workspace'
+        localized_catalog: '@papershop_fr'
+        label: 'Espace de travail'
+    cms_page_topic_option_llv_workspace_papershop_en:
+        source_field_option: '@cms_page_topic_option_llv_workspace'
+        localized_catalog: '@papershop_en'
+        label: 'Workspace'
+    cms_page_topic_option_llv_workspace_papershop_de:
+        source_field_option: '@cms_page_topic_option_llv_workspace'
+        localized_catalog: '@papershop_de'
+        label: 'Arbeitsplatz'
+    cms_page_topic_option_llv_bookbinding_papershop_fr:
+        source_field_option: '@cms_page_topic_option_llv_bookbinding'
+        localized_catalog: '@papershop_fr'
+        label: 'Reliure'
+    cms_page_topic_option_llv_bookbinding_papershop_en:
+        source_field_option: '@cms_page_topic_option_llv_bookbinding'
+        localized_catalog: '@papershop_en'
+        label: 'Bookbinding'
+    cms_page_topic_option_llv_bookbinding_papershop_de:
+        source_field_option: '@cms_page_topic_option_llv_bookbinding'
+        localized_catalog: '@papershop_de'
+        label: 'Buchbinderei'
+    cms_page_topic_option_llv_paper_choice_papershop_fr:
+        source_field_option: '@cms_page_topic_option_llv_paper_choice'
+        localized_catalog: '@papershop_fr'
+        label: 'Choisir son papier'
+    cms_page_topic_option_llv_paper_choice_papershop_en:
+        source_field_option: '@cms_page_topic_option_llv_paper_choice'
+        localized_catalog: '@papershop_en'
+        label: 'Choosing paper'
+    cms_page_topic_option_llv_paper_choice_papershop_de:
+        source_field_option: '@cms_page_topic_option_llv_paper_choice'
+        localized_catalog: '@papershop_de'
+        label: 'Papierwahl'
+    cms_page_topic_option_llv_furniture_care_papershop_fr:
+        source_field_option: '@cms_page_topic_option_llv_furniture_care'
+        localized_catalog: '@papershop_fr'
+        label: 'Entretien du mobilier'
+    cms_page_topic_option_llv_furniture_care_papershop_en:
+        source_field_option: '@cms_page_topic_option_llv_furniture_care'
+        localized_catalog: '@papershop_en'
+        label: 'Furniture care'
+    cms_page_topic_option_llv_furniture_care_papershop_de:
+        source_field_option: '@cms_page_topic_option_llv_furniture_care'
+        localized_catalog: '@papershop_de'
+        label: 'Möbelpflege'
+    cms_page_topic_option_llv_materials_papershop_fr:
+        source_field_option: '@cms_page_topic_option_llv_materials'
+        localized_catalog: '@papershop_fr'
+        label: 'Matières'
+    cms_page_topic_option_llv_materials_papershop_en:
+        source_field_option: '@cms_page_topic_option_llv_materials'
+        localized_catalog: '@papershop_en'
+        label: 'Materials'
+    cms_page_topic_option_llv_materials_papershop_de:
+        source_field_option: '@cms_page_topic_option_llv_materials'
+        localized_catalog: '@papershop_de'
+        label: 'Materialien'
+    cms_page_topic_option_llv_sustainability_papershop_fr:
+        source_field_option: '@cms_page_topic_option_llv_sustainability'
+        localized_catalog: '@papershop_fr'
+        label: 'Durabilité'
+    cms_page_topic_option_llv_sustainability_papershop_en:
+        source_field_option: '@cms_page_topic_option_llv_sustainability'
+        localized_catalog: '@papershop_en'
+        label: 'Sustainability'
+    cms_page_topic_option_llv_sustainability_papershop_de:
+        source_field_option: '@cms_page_topic_option_llv_sustainability'
+        localized_catalog: '@papershop_de'
+        label: 'Nachhaltigkeit'
+    cms_page_author_option_llv_elise_marchand_papershop_fr:
+        source_field_option: '@cms_page_author_option_llv_elise_marchand'
+        localized_catalog: '@papershop_fr'
+        label: 'Élise Marchand'
+    cms_page_author_option_llv_elise_marchand_papershop_en:
+        source_field_option: '@cms_page_author_option_llv_elise_marchand'
+        localized_catalog: '@papershop_en'
+        label: 'Élise Marchand'
+    cms_page_author_option_llv_elise_marchand_papershop_de:
+        source_field_option: '@cms_page_author_option_llv_elise_marchand'
+        localized_catalog: '@papershop_de'
+        label: 'Élise Marchand'
+    cms_page_author_option_llv_thomas_reverdy_papershop_fr:
+        source_field_option: '@cms_page_author_option_llv_thomas_reverdy'
+        localized_catalog: '@papershop_fr'
+        label: 'Thomas Reverdy'
+    cms_page_author_option_llv_thomas_reverdy_papershop_en:
+        source_field_option: '@cms_page_author_option_llv_thomas_reverdy'
+        localized_catalog: '@papershop_en'
+        label: 'Thomas Reverdy'
+    cms_page_author_option_llv_thomas_reverdy_papershop_de:
+        source_field_option: '@cms_page_author_option_llv_thomas_reverdy'
+        localized_catalog: '@papershop_de'
+        label: 'Thomas Reverdy'
+    cms_page_author_option_llv_nadia_belkacem_papershop_fr:
+        source_field_option: '@cms_page_author_option_llv_nadia_belkacem'
+        localized_catalog: '@papershop_fr'
+        label: 'Nadia Belkacem'
+    cms_page_author_option_llv_nadia_belkacem_papershop_en:
+        source_field_option: '@cms_page_author_option_llv_nadia_belkacem'
+        localized_catalog: '@papershop_en'
+        label: 'Nadia Belkacem'
+    cms_page_author_option_llv_nadia_belkacem_papershop_de:
+        source_field_option: '@cms_page_author_option_llv_nadia_belkacem'
+        localized_catalog: '@papershop_de'
+        label: 'Nadia Belkacem'
+    cms_page_author_option_llv_julien_ferrand_papershop_fr:
+        source_field_option: '@cms_page_author_option_llv_julien_ferrand'
+        localized_catalog: '@papershop_fr'
+        label: 'Julien Ferrand'
+    cms_page_author_option_llv_julien_ferrand_papershop_en:
+        source_field_option: '@cms_page_author_option_llv_julien_ferrand'
+        localized_catalog: '@papershop_en'
+        label: 'Julien Ferrand'
+    cms_page_author_option_llv_julien_ferrand_papershop_de:
+        source_field_option: '@cms_page_author_option_llv_julien_ferrand'
+        localized_catalog: '@papershop_de'
+        label: 'Julien Ferrand'
+    cms_page_author_option_llv_margaux_dubreuil_papershop_fr:
+        source_field_option: '@cms_page_author_option_llv_margaux_dubreuil'
+        localized_catalog: '@papershop_fr'
+        label: 'Margaux Dubreuil'
+    cms_page_author_option_llv_margaux_dubreuil_papershop_en:
+        source_field_option: '@cms_page_author_option_llv_margaux_dubreuil'
+        localized_catalog: '@papershop_en'
+        label: 'Margaux Dubreuil'
+    cms_page_author_option_llv_margaux_dubreuil_papershop_de:
+        source_field_option: '@cms_page_author_option_llv_margaux_dubreuil'
+        localized_catalog: '@papershop_de'
+        label: 'Margaux Dubreuil'
+    cms_page_tags_option_llv_notebooks_papershop_fr:
+        source_field_option: '@cms_page_tags_option_llv_notebooks'
+        localized_catalog: '@papershop_fr'
+        label: 'Carnets'
+    cms_page_tags_option_llv_notebooks_papershop_en:
+        source_field_option: '@cms_page_tags_option_llv_notebooks'
+        localized_catalog: '@papershop_en'
+        label: 'Notebooks'
+    cms_page_tags_option_llv_notebooks_papershop_de:
+        source_field_option: '@cms_page_tags_option_llv_notebooks'
+        localized_catalog: '@papershop_de'
+        label: 'Notizbücher'
+    cms_page_tags_option_llv_fountain_pens_papershop_fr:
+        source_field_option: '@cms_page_tags_option_llv_fountain_pens'
+        localized_catalog: '@papershop_fr'
+        label: 'Stylos plume'
+    cms_page_tags_option_llv_fountain_pens_papershop_en:
+        source_field_option: '@cms_page_tags_option_llv_fountain_pens'
+        localized_catalog: '@papershop_en'
+        label: 'Fountain pens'
+    cms_page_tags_option_llv_fountain_pens_papershop_de:
+        source_field_option: '@cms_page_tags_option_llv_fountain_pens'
+        localized_catalog: '@papershop_de'
+        label: 'Füllhalter'
+    cms_page_tags_option_llv_paper_papershop_fr:
+        source_field_option: '@cms_page_tags_option_llv_paper'
+        localized_catalog: '@papershop_fr'
+        label: 'Papier'
+    cms_page_tags_option_llv_paper_papershop_en:
+        source_field_option: '@cms_page_tags_option_llv_paper'
+        localized_catalog: '@papershop_en'
+        label: 'Paper'
+    cms_page_tags_option_llv_paper_papershop_de:
+        source_field_option: '@cms_page_tags_option_llv_paper'
+        localized_catalog: '@papershop_de'
+        label: 'Papiersorten'
+    cms_page_tags_option_llv_classics_papershop_fr:
+        source_field_option: '@cms_page_tags_option_llv_classics'
+        localized_catalog: '@papershop_fr'
+        label: 'Classiques'
+    cms_page_tags_option_llv_classics_papershop_en:
+        source_field_option: '@cms_page_tags_option_llv_classics'
+        localized_catalog: '@papershop_en'
+        label: 'Classics'
+    cms_page_tags_option_llv_classics_papershop_de:
+        source_field_option: '@cms_page_tags_option_llv_classics'
+        localized_catalog: '@papershop_de'
+        label: 'Klassiker'
+    cms_page_tags_option_llv_public_domain_papershop_fr:
+        source_field_option: '@cms_page_tags_option_llv_public_domain'
+        localized_catalog: '@papershop_fr'
+        label: 'Domaine public'
+    cms_page_tags_option_llv_public_domain_papershop_en:
+        source_field_option: '@cms_page_tags_option_llv_public_domain'
+        localized_catalog: '@papershop_en'
+        label: 'Public domain'
+    cms_page_tags_option_llv_public_domain_papershop_de:
+        source_field_option: '@cms_page_tags_option_llv_public_domain'
+        localized_catalog: '@papershop_de'
+        label: 'Gemeinfreiheit'
+    cms_page_tags_option_llv_bookcases_papershop_fr:
+        source_field_option: '@cms_page_tags_option_llv_bookcases'
+        localized_catalog: '@papershop_fr'
+        label: 'Bibliothèques'
+    cms_page_tags_option_llv_bookcases_papershop_en:
+        source_field_option: '@cms_page_tags_option_llv_bookcases'
+        localized_catalog: '@papershop_en'
+        label: 'Bookcases'
+    cms_page_tags_option_llv_bookcases_papershop_de:
+        source_field_option: '@cms_page_tags_option_llv_bookcases'
+        localized_catalog: '@papershop_de'
+        label: 'Bücherregale'
+    cms_page_tags_option_llv_desks_papershop_fr:
+        source_field_option: '@cms_page_tags_option_llv_desks'
+        localized_catalog: '@papershop_fr'
+        label: 'Bureaux'
+    cms_page_tags_option_llv_desks_papershop_en:
+        source_field_option: '@cms_page_tags_option_llv_desks'
+        localized_catalog: '@papershop_en'
+        label: 'Desks'
+    cms_page_tags_option_llv_desks_papershop_de:
+        source_field_option: '@cms_page_tags_option_llv_desks'
+        localized_catalog: '@papershop_de'
+        label: 'Schreibtische'
+    cms_page_tags_option_llv_lighting_papershop_fr:
+        source_field_option: '@cms_page_tags_option_llv_lighting'
+        localized_catalog: '@papershop_fr'
+        label: 'Éclairage'
+    cms_page_tags_option_llv_lighting_papershop_en:
+        source_field_option: '@cms_page_tags_option_llv_lighting'
+        localized_catalog: '@papershop_en'
+        label: 'Lighting'
+    cms_page_tags_option_llv_lighting_papershop_de:
+        source_field_option: '@cms_page_tags_option_llv_lighting'
+        localized_catalog: '@papershop_de'
+        label: 'Beleuchtung'
+    cms_page_tags_option_llv_ergonomics_papershop_fr:
+        source_field_option: '@cms_page_tags_option_llv_ergonomics'
+        localized_catalog: '@papershop_fr'
+        label: 'Ergonomie'
+    cms_page_tags_option_llv_ergonomics_papershop_en:
+        source_field_option: '@cms_page_tags_option_llv_ergonomics'
+        localized_catalog: '@papershop_en'
+        label: 'Ergonomics'
+    cms_page_tags_option_llv_ergonomics_papershop_de:
+        source_field_option: '@cms_page_tags_option_llv_ergonomics'
+        localized_catalog: '@papershop_de'
+        label: 'Ergonomie'
+    cms_page_tags_option_llv_gift_ideas_papershop_fr:
+        source_field_option: '@cms_page_tags_option_llv_gift_ideas'
+        localized_catalog: '@papershop_fr'
+        label: 'Idées cadeaux'
+    cms_page_tags_option_llv_gift_ideas_papershop_en:
+        source_field_option: '@cms_page_tags_option_llv_gift_ideas'
+        localized_catalog: '@papershop_en'
+        label: 'Gift ideas'
+    cms_page_tags_option_llv_gift_ideas_papershop_de:
+        source_field_option: '@cms_page_tags_option_llv_gift_ideas'
+        localized_catalog: '@papershop_de'
+        label: 'Geschenkideen'
+    cms_page_tags_option_llv_materials_papershop_fr:
+        source_field_option: '@cms_page_tags_option_llv_materials'
+        localized_catalog: '@papershop_fr'
+        label: 'Matières'
+    cms_page_tags_option_llv_materials_papershop_en:
+        source_field_option: '@cms_page_tags_option_llv_materials'
+        localized_catalog: '@papershop_en'
+        label: 'Materials'
+    cms_page_tags_option_llv_materials_papershop_de:
+        source_field_option: '@cms_page_tags_option_llv_materials'
+        localized_catalog: '@papershop_de'
+        label: 'Materialien'
+    cms_page_tags_option_llv_sustainability_papershop_fr:
+        source_field_option: '@cms_page_tags_option_llv_sustainability'
+        localized_catalog: '@papershop_fr'
+        label: 'Durabilité'
+    cms_page_tags_option_llv_sustainability_papershop_en:
+        source_field_option: '@cms_page_tags_option_llv_sustainability'
+        localized_catalog: '@papershop_en'
+        label: 'Sustainability'
+    cms_page_tags_option_llv_sustainability_papershop_de:
+        source_field_option: '@cms_page_tags_option_llv_sustainability'
+        localized_catalog: '@papershop_de'
+        label: 'Nachhaltigkeit'
+    cms_page_content_type_option_blog_papershop_fr:
+        source_field_option: '@cms_page_content_type_option_blog'
+        localized_catalog: '@papershop_fr'
+        label: 'Article de blog'
+    cms_page_content_type_option_blog_papershop_en:
+        source_field_option: '@cms_page_content_type_option_blog'
+        localized_catalog: '@papershop_en'
+        label: 'Blog post'
+    cms_page_content_type_option_blog_papershop_de:
+        source_field_option: '@cms_page_content_type_option_blog'
+        localized_catalog: '@papershop_de'
+        label: 'Blogbeitrag'
+    cms_page_content_type_option_guide_papershop_fr:
+        source_field_option: '@cms_page_content_type_option_guide'
+        localized_catalog: '@papershop_fr'
+        label: 'Guide d''achat'
+    cms_page_content_type_option_guide_papershop_en:
+        source_field_option: '@cms_page_content_type_option_guide'
+        localized_catalog: '@papershop_en'
+        label: 'Buying guide'
+    cms_page_content_type_option_guide_papershop_de:
+        source_field_option: '@cms_page_content_type_option_guide'
+        localized_catalog: '@papershop_de'
+        label: 'Kaufberatung'

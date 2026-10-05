@@ -1,0 +1,170 @@
+include:
+    - ../common/cms_source_field.yaml
+
+Gally\Metadata\Entity\SourceFieldOption:
+    cms_page_tags_option_fio_leather_goods:
+        code: 'fio_leather_goods'
+        source_field: '@cms_page_tags'
+        position: 41
+        defaultLabel: 'Leather goods'
+    cms_page_tags_option_fio_sneakers:
+        code: 'fio_sneakers'
+        source_field: '@cms_page_tags'
+        position: 42
+        defaultLabel: 'Sneakers'
+
+    cms_page_topic_option_fio_accessories:
+        code: 'fio_accessories'
+        source_field: '@cms_page_topic'
+        position: 5
+        defaultLabel: 'Accessories'
+    cms_page_topic_option_fio_care:
+        code: 'fio_care'
+        source_field: '@cms_page_topic'
+        position: 3
+        defaultLabel: 'Garment Care'
+    cms_page_topic_option_fio_color:
+        code: 'fio_color'
+        source_field: '@cms_page_topic'
+        position: 8
+        defaultLabel: 'Colour'
+    cms_page_topic_option_fio_fit_sizing:
+        code: 'fio_fit_sizing'
+        source_field: '@cms_page_topic'
+        position: 7
+        defaultLabel: 'Fit & Sizing'
+    cms_page_topic_option_fio_materials:
+        code: 'fio_materials'
+        source_field: '@cms_page_topic'
+        position: 2
+        defaultLabel: 'Materials'
+    cms_page_topic_option_fio_occasions:
+        code: 'fio_occasions'
+        source_field: '@cms_page_topic'
+        position: 6
+        defaultLabel: 'Occasions'
+    cms_page_topic_option_fio_style_guide:
+        code: 'fio_style_guide'
+        source_field: '@cms_page_topic'
+        position: 0
+        defaultLabel: 'Style Guide'
+    cms_page_topic_option_fio_sustainability:
+        code: 'fio_sustainability'
+        source_field: '@cms_page_topic'
+        position: 4
+        defaultLabel: 'Sustainability'
+    cms_page_topic_option_fio_trends:
+        code: 'fio_trends'
+        source_field: '@cms_page_topic'
+        position: 1
+        defaultLabel: 'Trends'
+    cms_page_author_option_fio_camille_laurent:
+        code: 'fio_camille_laurent'
+        source_field: '@cms_page_author'
+        position: 0
+        defaultLabel: 'Camille Laurent'
+    cms_page_author_option_fio_lea_moreau:
+        code: 'fio_lea_moreau'
+        source_field: '@cms_page_author'
+        position: 1
+        defaultLabel: 'Léa Moreau'
+    cms_page_author_option_fio_julien_faure:
+        code: 'fio_julien_faure'
+        source_field: '@cms_page_author'
+        position: 2
+        defaultLabel: 'Julien Faure'
+    cms_page_author_option_fio_sofia_marchetti:
+        code: 'fio_sofia_marchetti'
+        source_field: '@cms_page_author'
+        position: 3
+        defaultLabel: 'Sofia Marchetti'
+    cms_page_author_option_fio_noemie_girard:
+        code: 'fio_noemie_girard'
+        source_field: '@cms_page_author'
+        position: 4
+        defaultLabel: 'Noémie Girard'
+    cms_page_tags_option_fio_accessories:
+        code: 'fio_accessories'
+        source_field: '@cms_page_tags'
+        position: 31
+        defaultLabel: 'Accessories'
+    cms_page_tags_option_fio_capsule_wardrobe:
+        code: 'fio_capsule_wardrobe'
+        source_field: '@cms_page_tags'
+        position: 13
+        defaultLabel: 'Capsule Wardrobe'
+    cms_page_tags_option_fio_care:
+        code: 'fio_care'
+        source_field: '@cms_page_tags'
+        position: 25
+        defaultLabel: 'Garment Care'
+    cms_page_tags_option_fio_colors:
+        code: 'fio_colors'
+        source_field: '@cms_page_tags'
+        position: 7
+        defaultLabel: 'Colors'
+    cms_page_tags_option_fio_denim:
+        code: 'fio_denim'
+        source_field: '@cms_page_tags'
+        position: 24
+        defaultLabel: 'Denim'
+    cms_page_tags_option_fio_dress:
+        code: 'fio_dress'
+        source_field: '@cms_page_tags'
+        position: 1
+        defaultLabel: 'Dress'
+    cms_page_tags_option_fio_fashion:
+        code: 'fio_fashion'
+        source_field: '@cms_page_tags'
+        position: 0
+        defaultLabel: 'Fashion'
+    cms_page_tags_option_fio_layering:
+        code: 'fio_layering'
+        source_field: '@cms_page_tags'
+        position: 14
+        defaultLabel: 'Layering'
+    cms_page_tags_option_fio_linen:
+        code: 'fio_linen'
+        source_field: '@cms_page_tags'
+        position: 19
+        defaultLabel: 'Linen'
+    cms_page_tags_option_fio_materials:
+        code: 'fio_materials'
+        source_field: '@cms_page_tags'
+        position: 11
+        defaultLabel: 'Materials'
+    cms_page_tags_option_fio_occasions:
+        code: 'fio_occasions'
+        source_field: '@cms_page_tags'
+        position: 34
+        defaultLabel: 'Occasions'
+    cms_page_tags_option_fio_silk:
+        code: 'fio_silk'
+        source_field: '@cms_page_tags'
+        position: 21
+        defaultLabel: 'Silk'
+    cms_page_tags_option_fio_sizing:
+        code: 'fio_sizing'
+        source_field: '@cms_page_tags'
+        position: 37
+        defaultLabel: 'Sizing'
+    cms_page_tags_option_fio_sustainability:
+        code: 'fio_sustainability'
+        source_field: '@cms_page_tags'
+        position: 28
+        defaultLabel: 'Sustainability'
+    cms_page_tags_option_fio_tailoring:
+        code: 'fio_tailoring'
+        source_field: '@cms_page_tags'
+        position: 16
+        defaultLabel: 'Tailoring'
+    cms_page_tags_option_fio_washing:
+        code: 'fio_washing'
+        source_field: '@cms_page_tags'
+        position: 26
+        defaultLabel: 'Washing'
+    cms_page_tags_option_fio_wool:
+        code: 'fio_wool'
+        source_field: '@cms_page_tags'
+        position: 22
+        defaultLabel: 'Wool'

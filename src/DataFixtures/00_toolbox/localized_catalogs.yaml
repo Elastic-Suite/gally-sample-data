@@ -1,0 +1,23 @@
+include:
+    - catalogs.yaml
+
+Gally\Catalog\Entity\LocalizedCatalog:
+    toolbox_fr:
+        catalog: '@toolbox'
+        code: 'toolbox_fr'
+        locale: fr_FR
+        currency: EUR
+        name: 'Toolbox Français'
+        isDefault: true
+    toolbox_en:
+        catalog: '@toolbox'
+        code: 'toolbox_en'
+        locale: en_US
+        currency: EUR
+        name: 'Toolbox English'
+    toolbox_de:
+        catalog: '@toolbox'
+        code: 'toolbox_de'
+        locale: de_DE
+        currency: EUR
+        name: 'Toolbox Deutsch'

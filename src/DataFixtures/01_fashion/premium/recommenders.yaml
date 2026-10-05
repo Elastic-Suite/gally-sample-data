@@ -1,0 +1,1647 @@
+include:
+    - ../localized_catalogs.yaml
+
+# Product affinity from the Magento demo's relationships.php, as Gally recommenders.
+#
+# Gally does not derive recommendations from behaviour: nothing in the Recommender module reads
+# tracking events. A recommender matches seed products with its sourceRule and offers the products
+# its targetRule matches, resolved per request
+# by ProductRecommendationProvider. So one recommender per source SKU per relation type, with the
+# whole target list in a single `in` clause.
+#
+# `sku` is a reference source field with isUsedForRules set, which the rule engine requires, and
+# reference fields accept `in`. The value of an `in` clause must be a
+# JSON array: AbstractFilter::validateValueTypeByType rejects anything else.
+
+Gally\Recommender\Entity\Recommender\Type:
+    recommender_type_cross_sell:
+        name: 'Cross-sell'
+        code: 'cross-sell'
+    recommender_type_upsell:
+        name: 'Upsell'
+        code: 'upsell'
+    recommender_type_related:
+        name: 'Related product'
+        code: 'related_product'
+
+Gally\Recommender\Entity\Recommender:
+    fashion_reco_crosssell_fio_ftp_bl_001:
+        isActive: true
+        name: 'Cross-sell — FIO-FTP-BL-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-BL-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FBA-PA-001","FIO-FBA-JU-001","FIO-ACC-SM-002","FIO-CHA-ES-001"]}]}'')>'
+    fashion_reco_crosssell_fio_ftp_bl_002:
+        isActive: true
+        name: 'Cross-sell — FIO-FTP-BL-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-BL-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FBA-JE-001","FIO-ACC-EF-001","FIO-CHA-SA-001","FIO-MAB-BF-001"]}]}'')>'
+    fashion_reco_crosssell_fio_ftp_bl_005:
+        isActive: true
+        name: 'Cross-sell — FIO-FTP-BL-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-BL-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FBA-PA-003","FIO-ACC-SM-005","FIO-CHA-ES-003","FIO-MAB-BN-001"]}]}'')>'
+    fashion_reco_crosssell_fio_ftp_ts_001:
+        isActive: true
+        name: 'Cross-sell — FIO-FTP-TS-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-TS-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FBA-JE-002","FIO-CHA-BA-001","FIO-ACC-LS-001","FIO-ACC-CB-004"]}]}'')>'
+    fashion_reco_crosssell_fio_ftp_ts_003:
+        isActive: true
+        name: 'Cross-sell — FIO-FTP-TS-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-TS-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FBA-JE-003","FIO-CHA-BA-002","FIO-ACC-SM-006"]}]}'')>'
+    fashion_reco_crosssell_fio_ftp_ch_001:
+        isActive: true
+        name: 'Cross-sell — FIO-FTP-CH-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-CH-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FBA-PA-002","FIO-CHA-ES-002","FIO-ACC-SM-001","FIO-MAB-BN-002"]}]}'')>'
+    fashion_reco_crosssell_fio_ftp_ch_004:
+        isActive: true
+        name: 'Cross-sell — FIO-FTP-CH-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-CH-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FBA-JU-003","FIO-CHA-MO-001","FIO-ACC-CE-001"]}]}'')>'
+    fashion_reco_crosssell_fio_ftp_pu_001:
+        isActive: true
+        name: 'Cross-sell — FIO-FTP-PU-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-PU-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FBA-PA-001","FIO-CHA-BT-001","FIO-ACC-EF-002"]}]}'')>'
+    fashion_reco_crosssell_fio_ftp_pu_002:
+        isActive: true
+        name: 'Cross-sell — FIO-FTP-PU-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-PU-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FBA-JE-004","FIO-CHA-BT-003","FIO-ACC-EF-003"]}]}'')>'
+    fashion_reco_crosssell_fio_fro_rc_001:
+        isActive: true
+        name: 'Cross-sell — FIO-FRO-RC-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FRO-RC-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-ES-001","FIO-ACC-PO-001","FIO-ACC-SM-005","FIO-LIN-SG-002"]}]}'')>'
+    fashion_reco_crosssell_fio_fro_rc_004:
+        isActive: true
+        name: 'Cross-sell — FIO-FRO-RC-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FRO-RC-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-MO-002","FIO-ACC-SM-001","FIO-ACC-CE-003"]}]}'')>'
+    fashion_reco_crosssell_fio_fro_rm_001:
+        isActive: true
+        name: 'Cross-sell — FIO-FRO-RM-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FRO-RM-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-ES-004","FIO-ACC-PO-002","FIO-MAB-BN-006"]}]}'')>'
+    fashion_reco_crosssell_fio_fro_rl_001:
+        isActive: true
+        name: 'Cross-sell — FIO-FRO-RL-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FRO-RL-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-SA-002","FIO-ACC-EF-001","FIO-ACC-SM-003"]}]}'')>'
+    fashion_reco_crosssell_fio_fro_rs_001:
+        isActive: true
+        name: 'Cross-sell — FIO-FRO-RS-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FRO-RS-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-ES-002","FIO-ACC-PO-001","FIO-ACC-PO-007","FIO-MAB-BN-001"]}]}'')>'
+    fashion_reco_crosssell_fio_fro_rs_003:
+        isActive: true
+        name: 'Cross-sell — FIO-FRO-RS-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FRO-RS-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-ES-005","FIO-ACC-PO-004","FIO-MAB-BN-004"]}]}'')>'
+    fashion_reco_crosssell_fio_fro_co_001:
+        isActive: true
+        name: 'Cross-sell — FIO-FRO-CO-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FRO-CO-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-ES-001","FIO-ACC-CE-001","FIO-ACC-SM-002"]}]}'')>'
+    fashion_reco_crosssell_fio_fba_pa_001:
+        isActive: true
+        name: 'Cross-sell — FIO-FBA-PA-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FBA-PA-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-BL-001","FIO-CHA-MO-001","FIO-ACC-CE-001","FIO-ACC-SM-001"]}]}'')>'
+    fashion_reco_crosssell_fio_fba_pa_002:
+        isActive: true
+        name: 'Cross-sell — FIO-FBA-PA-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FBA-PA-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-CH-004","FIO-CHA-BL-001","FIO-ACC-CE-003"]}]}'')>'
+    fashion_reco_crosssell_fio_fba_je_001:
+        isActive: true
+        name: 'Cross-sell — FIO-FBA-JE-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FBA-JE-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-TS-001","FIO-CHA-BA-001","FIO-ACC-CE-004","FIO-ACC-SM-006"]}]}'')>'
+    fashion_reco_crosssell_fio_fba_je_003:
+        isActive: true
+        name: 'Cross-sell — FIO-FBA-JE-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FBA-JE-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-TS-003","FIO-CHA-BA-003","FIO-ACC-CE-002"]}]}'')>'
+    fashion_reco_crosssell_fio_fba_ju_001:
+        isActive: true
+        name: 'Cross-sell — FIO-FBA-JU-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FBA-JU-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-BL-004","FIO-CHA-ES-001","FIO-LIN-CC-001"]}]}'')>'
+    fashion_reco_crosssell_fio_fba_sh_001:
+        isActive: true
+        name: 'Cross-sell — FIO-FBA-SH-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FBA-SH-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-TS-005","FIO-CHA-SA-001","FIO-ACC-LS-001"]}]}'')>'
+    fashion_reco_crosssell_fio_hom_ch_001:
+        isActive: true
+        name: 'Cross-sell — FIO-HOM-CH-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-HOM-CH-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-HOM-PC-001","FIO-HOM-VB-001","FIO-CHA-MO-003","FIO-ACC-CE-001","FIO-MAB-MT-003"]}]}'')>'
+    fashion_reco_crosssell_fio_hom_ch_003:
+        isActive: true
+        name: 'Cross-sell — FIO-HOM-CH-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-HOM-CH-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-HOM-JE-001","FIO-CHA-BA-005","FIO-ACC-CE-005"]}]}'')>'
+    fashion_reco_crosssell_fio_hom_tp_001:
+        isActive: true
+        name: 'Cross-sell — FIO-HOM-TP-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-HOM-TP-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-HOM-SH-001","FIO-CHA-BA-001","FIO-ACC-LS-003"]}]}'')>'
+    fashion_reco_crosssell_fio_hom_vb_001:
+        isActive: true
+        name: 'Cross-sell — FIO-HOM-VB-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-HOM-VB-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-HOM-CH-001","FIO-HOM-PC-002","FIO-CHA-MO-004","FIO-MAB-PF-006"]}]}'')>'
+    fashion_reco_crosssell_fio_hom_ps_001:
+        isActive: true
+        name: 'Cross-sell — FIO-HOM-PS-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-HOM-PS-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-HOM-JE-002","FIO-CHA-BA-004","FIO-ACC-EF-005"]}]}'')>'
+    fashion_reco_crosssell_fio_man_tr_001:
+        isActive: true
+        name: 'Cross-sell — FIO-MAN-TR-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAN-TR-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FBA-PA-003","FIO-FTP-CH-001","FIO-ACC-EF-001","FIO-CHA-BT-002"]}]}'')>'
+    fashion_reco_crosssell_fio_man_ml_001:
+        isActive: true
+        name: 'Cross-sell — FIO-MAN-ML-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAN-ML-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-PU-004","FIO-FBA-PA-001","FIO-ACC-EF-002","FIO-ACC-CB-001"]}]}'')>'
+    fashion_reco_crosssell_fio_man_bc_001:
+        isActive: true
+        name: 'Cross-sell — FIO-MAN-BC-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAN-BC-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-TS-001","FIO-FBA-JE-001","FIO-CHA-BT-001","FIO-ACC-EF-006"]}]}'')>'
+    fashion_reco_crosssell_fio_man_do_001:
+        isActive: true
+        name: 'Cross-sell — FIO-MAN-DO-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAN-DO-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-PU-001","FIO-FBA-JE-002","FIO-ACC-EF-005","FIO-ACC-CB-002"]}]}'')>'
+    fashion_reco_crosssell_fio_man_vj_001:
+        isActive: true
+        name: 'Cross-sell — FIO-MAN-VJ-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAN-VJ-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-TS-002","FIO-FBA-JU-002","FIO-CHA-BA-001"]}]}'')>'
+    fashion_reco_crosssell_fio_cha_es_001:
+        isActive: true
+        name: 'Cross-sell — FIO-CHA-ES-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-CHA-ES-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-PO-001","FIO-LIN-CC-001","FIO-ACC-SM-002"]}]}'')>'
+    fashion_reco_crosssell_fio_cha_bt_001:
+        isActive: true
+        name: 'Cross-sell — FIO-CHA-BT-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-CHA-BT-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-LIN-CC-001","FIO-ACC-SM-003","FIO-ACC-EF-003"]}]}'')>'
+    fashion_reco_crosssell_fio_cha_ba_001:
+        isActive: true
+        name: 'Cross-sell — FIO-CHA-BA-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-CHA-BA-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-SM-006","FIO-LIN-CC-005","FIO-ACC-LS-001"]}]}'')>'
+    fashion_reco_crosssell_fio_cha_sa_001:
+        isActive: true
+        name: 'Cross-sell — FIO-CHA-SA-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-CHA-SA-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-SM-003","FIO-ACC-LS-002","FIO-ACC-CB-006"]}]}'')>'
+    fashion_reco_crosssell_fio_spo_ls_001:
+        isActive: true
+        name: 'Cross-sell — FIO-SPO-LS-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-LS-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-BS-001","FIO-SPO-VS-001","FIO-SPO-TT-001"]}]}'')>'
+    fashion_reco_crosssell_fio_spo_ls_006:
+        isActive: true
+        name: 'Cross-sell — FIO-SPO-LS-006'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-LS-006"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-BS-003","FIO-SPO-TT-006"]}]}'')>'
+    fashion_reco_crosssell_fio_spo_bs_001:
+        isActive: true
+        name: 'Cross-sell — FIO-SPO-BS-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-BS-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-LS-001","FIO-SPO-SJ-001","FIO-SPO-VS-002"]}]}'')>'
+    fashion_reco_crosssell_fio_spo_bs_004:
+        isActive: true
+        name: 'Cross-sell — FIO-SPO-BS-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-BS-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-LS-005","FIO-SPO-SJ-001","FIO-SPO-TT-001"]}]}'')>'
+    fashion_reco_crosssell_fio_spo_sj_002:
+        isActive: true
+        name: 'Cross-sell — FIO-SPO-SJ-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-SJ-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-VS-002","FIO-SPO-TT-006","FIO-CHA-BA-001"]}]}'')>'
+    fashion_reco_crosssell_fio_spo_vs_001:
+        isActive: true
+        name: 'Cross-sell — FIO-SPO-VS-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-VS-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-LS-001","FIO-SPO-TT-001","FIO-SPO-BS-001"]}]}'')>'
+    fashion_reco_crosssell_fio_lin_sg_001:
+        isActive: true
+        name: 'Cross-sell — FIO-LIN-SG-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-LIN-SG-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-LIN-CS-004","FIO-LIN-PN-004"]}]}'')>'
+    fashion_reco_crosssell_fio_lin_sg_003:
+        isActive: true
+        name: 'Cross-sell — FIO-LIN-SG-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-LIN-SG-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-LIN-CS-001","FIO-LIN-PN-001"]}]}'')>'
+    fashion_reco_crosssell_fio_lin_sg_007:
+        isActive: true
+        name: 'Cross-sell — FIO-LIN-SG-007'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-LIN-SG-007"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-LIN-CS-006","FIO-LIN-PN-007"]}]}'')>'
+    fashion_reco_crosssell_fio_lin_bd_001:
+        isActive: true
+        name: 'Cross-sell — FIO-LIN-BD-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-LIN-BD-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-LIN-CC-001","FIO-FBA-JE-001"]}]}'')>'
+    fashion_reco_crosssell_fio_mab_bn_001:
+        isActive: true
+        name: 'Cross-sell — FIO-MAB-BN-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-BN-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-BN-002","FIO-MAB-BN-003","FIO-MAB-BN-007"]}]}'')>'
+    fashion_reco_crosssell_fio_mab_bf_001:
+        isActive: true
+        name: 'Cross-sell — FIO-MAB-BF-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-BF-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-BF-003","FIO-MAB-BF-006"]}]}'')>'
+    fashion_reco_crosssell_fio_mab_mt_001:
+        isActive: true
+        name: 'Cross-sell — FIO-MAB-MT-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_cross_sell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-MT-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-BN-003","FIO-MAB-PF-003"]}]}'')>'
+    fashion_reco_upsell_fio_ftp_ts_001:
+        isActive: true
+        name: 'Upsell — FIO-FTP-TS-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-TS-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-TS-002","FIO-FTP-TS-009"]}]}'')>'
+    fashion_reco_upsell_fio_ftp_ts_002:
+        isActive: true
+        name: 'Upsell — FIO-FTP-TS-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-TS-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-BL-001","FIO-FTP-CH-001"]}]}'')>'
+    fashion_reco_upsell_fio_ftp_bl_004:
+        isActive: true
+        name: 'Upsell — FIO-FTP-BL-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-BL-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-BL-001","FIO-FTP-BL-002"]}]}'')>'
+    fashion_reco_upsell_fio_ftp_bo_001:
+        isActive: true
+        name: 'Upsell — FIO-FTP-BO-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-BO-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-BO-003","FIO-FTP-BO-005"]}]}'')>'
+    fashion_reco_upsell_fio_ftp_pu_005:
+        isActive: true
+        name: 'Upsell — FIO-FTP-PU-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-PU-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-PU-001","FIO-FTP-PU-003"]}]}'')>'
+    fashion_reco_upsell_fio_ftp_pu_007:
+        isActive: true
+        name: 'Upsell — FIO-FTP-PU-007'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-PU-007"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-PU-001"]}]}'')>'
+    fashion_reco_upsell_fio_ftp_ma_002:
+        isActive: true
+        name: 'Upsell — FIO-FTP-MA-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-MA-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-MA-001","FIO-FTP-MA-006"]}]}'')>'
+    fashion_reco_upsell_fio_ftp_ma_008:
+        isActive: true
+        name: 'Upsell — FIO-FTP-MA-008'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-MA-008"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-MA-001"]}]}'')>'
+    fashion_reco_upsell_fio_fro_rc_001:
+        isActive: true
+        name: 'Upsell — FIO-FRO-RC-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FRO-RC-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FRO-RC-006","FIO-FRO-RS-001"]}]}'')>'
+    fashion_reco_upsell_fio_fro_rm_003:
+        isActive: true
+        name: 'Upsell — FIO-FRO-RM-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FRO-RM-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FRO-RM-001","FIO-FRO-RS-002"]}]}'')>'
+    fashion_reco_upsell_fio_fro_rl_003:
+        isActive: true
+        name: 'Upsell — FIO-FRO-RL-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FRO-RL-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FRO-RL-001","FIO-FRO-RS-003"]}]}'')>'
+    fashion_reco_upsell_fio_fro_co_001:
+        isActive: true
+        name: 'Upsell — FIO-FRO-CO-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FRO-CO-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FRO-CO-006"]}]}'')>'
+    fashion_reco_upsell_fio_fba_je_002:
+        isActive: true
+        name: 'Upsell — FIO-FBA-JE-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FBA-JE-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FBA-JE-001","FIO-FBA-JE-005"]}]}'')>'
+    fashion_reco_upsell_fio_fba_je_006:
+        isActive: true
+        name: 'Upsell — FIO-FBA-JE-006'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FBA-JE-006"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FBA-JE-005"]}]}'')>'
+    fashion_reco_upsell_fio_fba_pa_004:
+        isActive: true
+        name: 'Upsell — FIO-FBA-PA-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FBA-PA-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FBA-PA-001","FIO-FBA-PA-003"]}]}'')>'
+    fashion_reco_upsell_fio_hom_ch_005:
+        isActive: true
+        name: 'Upsell — FIO-HOM-CH-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-HOM-CH-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-HOM-CH-001","FIO-HOM-CH-002"]}]}'')>'
+    fashion_reco_upsell_fio_hom_tp_001:
+        isActive: true
+        name: 'Upsell — FIO-HOM-TP-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-HOM-TP-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-HOM-TP-002","FIO-HOM-TP-006"]}]}'')>'
+    fashion_reco_upsell_fio_hom_je_003:
+        isActive: true
+        name: 'Upsell — FIO-HOM-JE-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-HOM-JE-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-HOM-JE-001","FIO-HOM-JE-002"]}]}'')>'
+    fashion_reco_upsell_fio_hom_vb_005:
+        isActive: true
+        name: 'Upsell — FIO-HOM-VB-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-HOM-VB-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-HOM-VB-001","FIO-HOM-VB-002"]}]}'')>'
+    fashion_reco_upsell_fio_hom_ps_003:
+        isActive: true
+        name: 'Upsell — FIO-HOM-PS-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-HOM-PS-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-HOM-PS-001"]}]}'')>'
+    fashion_reco_upsell_fio_man_tr_005:
+        isActive: true
+        name: 'Upsell — FIO-MAN-TR-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAN-TR-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAN-TR-001","FIO-MAN-TR-002"]}]}'')>'
+    fashion_reco_upsell_fio_man_ml_005:
+        isActive: true
+        name: 'Upsell — FIO-MAN-ML-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAN-ML-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAN-ML-001","FIO-MAN-ML-004"]}]}'')>'
+    fashion_reco_upsell_fio_man_bc_004:
+        isActive: true
+        name: 'Upsell — FIO-MAN-BC-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAN-BC-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAN-BC-001","FIO-MAN-BC-002"]}]}'')>'
+    fashion_reco_upsell_fio_man_do_005:
+        isActive: true
+        name: 'Upsell — FIO-MAN-DO-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAN-DO-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAN-DO-001"]}]}'')>'
+    fashion_reco_upsell_fio_cha_ba_002:
+        isActive: true
+        name: 'Upsell — FIO-CHA-BA-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-CHA-BA-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-BA-001","FIO-CHA-BA-004"]}]}'')>'
+    fashion_reco_upsell_fio_cha_es_003:
+        isActive: true
+        name: 'Upsell — FIO-CHA-ES-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-CHA-ES-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-ES-001","FIO-CHA-ES-002"]}]}'')>'
+    fashion_reco_upsell_fio_cha_bt_004:
+        isActive: true
+        name: 'Upsell — FIO-CHA-BT-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-CHA-BT-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-BT-001","FIO-CHA-BT-002"]}]}'')>'
+    fashion_reco_upsell_fio_cha_sa_003:
+        isActive: true
+        name: 'Upsell — FIO-CHA-SA-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-CHA-SA-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-SA-001"]}]}'')>'
+    fashion_reco_upsell_fio_cha_bl_003:
+        isActive: true
+        name: 'Upsell — FIO-CHA-BL-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-CHA-BL-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-BL-001"]}]}'')>'
+    fashion_reco_upsell_fio_acc_sm_006:
+        isActive: true
+        name: 'Upsell — FIO-ACC-SM-006'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-ACC-SM-006"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-SM-001","FIO-ACC-SM-002"]}]}'')>'
+    fashion_reco_upsell_fio_acc_sm_007:
+        isActive: true
+        name: 'Upsell — FIO-ACC-SM-007'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-ACC-SM-007"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-SM-001"]}]}'')>'
+    fashion_reco_upsell_fio_acc_po_005:
+        isActive: true
+        name: 'Upsell — FIO-ACC-PO-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-ACC-PO-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-PO-001","FIO-ACC-PO-002"]}]}'')>'
+    fashion_reco_upsell_fio_acc_po_006:
+        isActive: true
+        name: 'Upsell — FIO-ACC-PO-006'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-ACC-PO-006"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-PO-003"]}]}'')>'
+    fashion_reco_upsell_fio_acc_ce_005:
+        isActive: true
+        name: 'Upsell — FIO-ACC-CE-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-ACC-CE-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-CE-001","FIO-ACC-CE-002"]}]}'')>'
+    fashion_reco_upsell_fio_acc_ef_003:
+        isActive: true
+        name: 'Upsell — FIO-ACC-EF-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-ACC-EF-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-EF-001","FIO-ACC-EF-002"]}]}'')>'
+    fashion_reco_upsell_fio_acc_ef_006:
+        isActive: true
+        name: 'Upsell — FIO-ACC-EF-006'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-ACC-EF-006"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-EF-004"]}]}'')>'
+    fashion_reco_upsell_fio_acc_ls_003:
+        isActive: true
+        name: 'Upsell — FIO-ACC-LS-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-ACC-LS-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-LS-001","FIO-ACC-LS-004"]}]}'')>'
+    fashion_reco_upsell_fio_acc_ls_005:
+        isActive: true
+        name: 'Upsell — FIO-ACC-LS-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-ACC-LS-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-LS-001"]}]}'')>'
+    fashion_reco_upsell_fio_acc_cb_004:
+        isActive: true
+        name: 'Upsell — FIO-ACC-CB-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-ACC-CB-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-CB-001","FIO-ACC-CB-006"]}]}'')>'
+    fashion_reco_upsell_fio_lin_sg_002:
+        isActive: true
+        name: 'Upsell — FIO-LIN-SG-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-LIN-SG-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-LIN-SG-003","FIO-LIN-SG-007"]}]}'')>'
+    fashion_reco_upsell_fio_lin_sg_004:
+        isActive: true
+        name: 'Upsell — FIO-LIN-SG-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-LIN-SG-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-LIN-SG-001","FIO-LIN-SG-003"]}]}'')>'
+    fashion_reco_upsell_fio_lin_cs_002:
+        isActive: true
+        name: 'Upsell — FIO-LIN-CS-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-LIN-CS-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-LIN-CS-001","FIO-LIN-CS-004"]}]}'')>'
+    fashion_reco_upsell_fio_lin_cs_007:
+        isActive: true
+        name: 'Upsell — FIO-LIN-CS-007'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-LIN-CS-007"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-LIN-CS-001"]}]}'')>'
+    fashion_reco_upsell_fio_lin_pn_005:
+        isActive: true
+        name: 'Upsell — FIO-LIN-PN-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-LIN-PN-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-LIN-PN-002","FIO-LIN-PN-001"]}]}'')>'
+    fashion_reco_upsell_fio_lin_bd_004:
+        isActive: true
+        name: 'Upsell — FIO-LIN-BD-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-LIN-BD-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-LIN-BD-001","FIO-LIN-BD-005"]}]}'')>'
+    fashion_reco_upsell_fio_spo_ls_003:
+        isActive: true
+        name: 'Upsell — FIO-SPO-LS-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-LS-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-LS-001","FIO-SPO-LS-007"]}]}'')>'
+    fashion_reco_upsell_fio_spo_ls_008:
+        isActive: true
+        name: 'Upsell — FIO-SPO-LS-008'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-LS-008"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-LS-006"]}]}'')>'
+    fashion_reco_upsell_fio_spo_bs_002:
+        isActive: true
+        name: 'Upsell — FIO-SPO-BS-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-BS-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-BS-001","FIO-SPO-BS-004"]}]}'')>'
+    fashion_reco_upsell_fio_spo_bs_008:
+        isActive: true
+        name: 'Upsell — FIO-SPO-BS-008'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-BS-008"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-BS-003"]}]}'')>'
+    fashion_reco_upsell_fio_spo_sj_003:
+        isActive: true
+        name: 'Upsell — FIO-SPO-SJ-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-SJ-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-SJ-001"]}]}'')>'
+    fashion_reco_upsell_fio_spo_vs_006:
+        isActive: true
+        name: 'Upsell — FIO-SPO-VS-006'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-VS-006"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-VS-002","FIO-SPO-VS-003"]}]}'')>'
+    fashion_reco_upsell_fio_spo_tt_006:
+        isActive: true
+        name: 'Upsell — FIO-SPO-TT-006'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-TT-006"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-TT-005"]}]}'')>'
+    fashion_reco_upsell_fio_mab_pf_003:
+        isActive: true
+        name: 'Upsell — FIO-MAB-PF-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-PF-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-PF-001","FIO-MAB-PF-004"]}]}'')>'
+    fashion_reco_upsell_fio_mab_pf_005:
+        isActive: true
+        name: 'Upsell — FIO-MAB-PF-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-PF-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-PF-002"]}]}'')>'
+    fashion_reco_upsell_fio_mab_pc_006:
+        isActive: true
+        name: 'Upsell — FIO-MAB-PC-006'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-PC-006"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-PC-001","FIO-MAB-PC-005"]}]}'')>'
+    fashion_reco_upsell_fio_mab_bf_001:
+        isActive: true
+        name: 'Upsell — FIO-MAB-BF-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-BF-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-BN-001"]}]}'')>'
+    fashion_reco_upsell_fio_mab_bf_003:
+        isActive: true
+        name: 'Upsell — FIO-MAB-BF-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-BF-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-BN-003"]}]}'')>'
+    fashion_reco_upsell_fio_mab_bf_007:
+        isActive: true
+        name: 'Upsell — FIO-MAB-BF-007'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-BF-007"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-BN-008"]}]}'')>'
+    fashion_reco_upsell_fio_mab_mt_002:
+        isActive: true
+        name: 'Upsell — FIO-MAB-MT-002'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-MT-002"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-MT-001","FIO-MAB-MT-005"]}]}'')>'
+    fashion_reco_upsell_fio_mab_mt_004:
+        isActive: true
+        name: 'Upsell — FIO-MAB-MT-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-MT-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-MT-003","FIO-MAB-MT-006"]}]}'')>'
+    fashion_reco_upsell_fio_mab_bg_005:
+        isActive: true
+        name: 'Upsell — FIO-MAB-BG-005'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_upsell']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-BG-005"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-BG-001"]}]}'')>'
+    fashion_reco_related_fio_ftp_bl_001:
+        isActive: true
+        name: 'Related product — FIO-FTP-BL-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-BL-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-BL-002","FIO-FTP-BL-003","FIO-FTP-BL-005"]}]}'')>'
+    fashion_reco_related_fio_ftp_bl_004:
+        isActive: true
+        name: 'Related product — FIO-FTP-BL-004'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-BL-004"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-BL-006","FIO-FTP-BL-007","FIO-FTP-BL-009"]}]}'')>'
+    fashion_reco_related_fio_ftp_ts_001:
+        isActive: true
+        name: 'Related product — FIO-FTP-TS-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-TS-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-TS-002","FIO-FTP-TS-004","FIO-FTP-TS-007"]}]}'')>'
+    fashion_reco_related_fio_ftp_ts_003:
+        isActive: true
+        name: 'Related product — FIO-FTP-TS-003'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-TS-003"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-TS-005","FIO-FTP-TS-006","FIO-FTP-TS-009"]}]}'')>'
+    fashion_reco_related_fio_ftp_ch_001:
+        isActive: true
+        name: 'Related product — FIO-FTP-CH-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-CH-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-CH-002","FIO-FTP-CH-004","FIO-FTP-CH-005"]}]}'')>'
+    fashion_reco_related_fio_ftp_bo_001:
+        isActive: true
+        name: 'Related product — FIO-FTP-BO-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-BO-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-BO-003","FIO-FTP-BO-005","FIO-FTP-BO-007"]}]}'')>'
+    fashion_reco_related_fio_ftp_pu_001:
+        isActive: true
+        name: 'Related product — FIO-FTP-PU-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-PU-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-PU-002","FIO-FTP-PU-004","FIO-FTP-PU-008"]}]}'')>'
+    fashion_reco_related_fio_ftp_ma_001:
+        isActive: true
+        name: 'Related product — FIO-FTP-MA-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FTP-MA-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FTP-MA-002","FIO-FTP-MA-004","FIO-FTP-MA-006"]}]}'')>'
+    fashion_reco_related_fio_fro_rc_001:
+        isActive: true
+        name: 'Related product — FIO-FRO-RC-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FRO-RC-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FRO-RC-002","FIO-FRO-RC-004","FIO-FRO-RC-006"]}]}'')>'
+    fashion_reco_related_fio_fro_rm_001:
+        isActive: true
+        name: 'Related product — FIO-FRO-RM-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FRO-RM-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FRO-RM-002","FIO-FRO-RM-004","FIO-FRO-RM-006"]}]}'')>'
+    fashion_reco_related_fio_fro_rl_001:
+        isActive: true
+        name: 'Related product — FIO-FRO-RL-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FRO-RL-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FRO-RL-002","FIO-FRO-RL-004","FIO-FRO-RL-006"]}]}'')>'
+    fashion_reco_related_fio_fro_rs_001:
+        isActive: true
+        name: 'Related product — FIO-FRO-RS-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FRO-RS-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FRO-RS-002","FIO-FRO-RS-004","FIO-FRO-RS-006"]}]}'')>'
+    fashion_reco_related_fio_fro_co_001:
+        isActive: true
+        name: 'Related product — FIO-FRO-CO-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FRO-CO-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FRO-CO-002","FIO-FRO-CO-004","FIO-FRO-CO-006"]}]}'')>'
+    fashion_reco_related_fio_fba_pa_001:
+        isActive: true
+        name: 'Related product — FIO-FBA-PA-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FBA-PA-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FBA-PA-002","FIO-FBA-PA-003","FIO-FBA-PA-005"]}]}'')>'
+    fashion_reco_related_fio_fba_je_001:
+        isActive: true
+        name: 'Related product — FIO-FBA-JE-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FBA-JE-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FBA-JE-002","FIO-FBA-JE-003","FIO-FBA-JE-005"]}]}'')>'
+    fashion_reco_related_fio_fba_ju_001:
+        isActive: true
+        name: 'Related product — FIO-FBA-JU-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-FBA-JU-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-FBA-JU-002","FIO-FBA-JU-004","FIO-FBA-JU-006"]}]}'')>'
+    fashion_reco_related_fio_hom_ch_001:
+        isActive: true
+        name: 'Related product — FIO-HOM-CH-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-HOM-CH-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-HOM-CH-002","FIO-HOM-CH-004","FIO-HOM-CH-006"]}]}'')>'
+    fashion_reco_related_fio_hom_tp_001:
+        isActive: true
+        name: 'Related product — FIO-HOM-TP-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-HOM-TP-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-HOM-TP-002","FIO-HOM-TP-004","FIO-HOM-TP-006"]}]}'')>'
+    fashion_reco_related_fio_hom_pc_001:
+        isActive: true
+        name: 'Related product — FIO-HOM-PC-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-HOM-PC-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-HOM-PC-002","FIO-HOM-PC-004","FIO-HOM-PC-006"]}]}'')>'
+    fashion_reco_related_fio_hom_je_001:
+        isActive: true
+        name: 'Related product — FIO-HOM-JE-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-HOM-JE-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-HOM-JE-002","FIO-HOM-JE-004","FIO-HOM-JE-006"]}]}'')>'
+    fashion_reco_related_fio_hom_vb_001:
+        isActive: true
+        name: 'Related product — FIO-HOM-VB-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-HOM-VB-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-HOM-VB-002","FIO-HOM-VB-004","FIO-HOM-VB-006"]}]}'')>'
+    fashion_reco_related_fio_man_tr_001:
+        isActive: true
+        name: 'Related product — FIO-MAN-TR-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAN-TR-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAN-TR-002","FIO-MAN-TR-004","FIO-MAN-TR-006"]}]}'')>'
+    fashion_reco_related_fio_man_ml_001:
+        isActive: true
+        name: 'Related product — FIO-MAN-ML-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAN-ML-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAN-ML-002","FIO-MAN-ML-004","FIO-MAN-ML-006"]}]}'')>'
+    fashion_reco_related_fio_man_bc_001:
+        isActive: true
+        name: 'Related product — FIO-MAN-BC-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAN-BC-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAN-BC-002","FIO-MAN-BC-004","FIO-MAN-BC-006"]}]}'')>'
+    fashion_reco_related_fio_man_do_001:
+        isActive: true
+        name: 'Related product — FIO-MAN-DO-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAN-DO-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAN-DO-002","FIO-MAN-DO-004","FIO-MAN-DO-006"]}]}'')>'
+    fashion_reco_related_fio_cha_ba_001:
+        isActive: true
+        name: 'Related product — FIO-CHA-BA-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-CHA-BA-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-BA-002","FIO-CHA-BA-004","FIO-CHA-BA-006"]}]}'')>'
+    fashion_reco_related_fio_cha_es_001:
+        isActive: true
+        name: 'Related product — FIO-CHA-ES-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-CHA-ES-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-ES-002","FIO-CHA-ES-004","FIO-CHA-ES-006"]}]}'')>'
+    fashion_reco_related_fio_cha_bt_001:
+        isActive: true
+        name: 'Related product — FIO-CHA-BT-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-CHA-BT-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-BT-002","FIO-CHA-BT-004","FIO-CHA-BT-006"]}]}'')>'
+    fashion_reco_related_fio_cha_sa_001:
+        isActive: true
+        name: 'Related product — FIO-CHA-SA-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-CHA-SA-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-SA-002","FIO-CHA-SA-004","FIO-CHA-SA-006"]}]}'')>'
+    fashion_reco_related_fio_cha_mo_001:
+        isActive: true
+        name: 'Related product — FIO-CHA-MO-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-CHA-MO-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-MO-002","FIO-CHA-MO-004","FIO-CHA-MO-006"]}]}'')>'
+    fashion_reco_related_fio_cha_bl_001:
+        isActive: true
+        name: 'Related product — FIO-CHA-BL-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-CHA-BL-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-CHA-BL-002","FIO-CHA-BL-004","FIO-CHA-BL-006"]}]}'')>'
+    fashion_reco_related_fio_acc_sm_001:
+        isActive: true
+        name: 'Related product — FIO-ACC-SM-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-ACC-SM-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-SM-002","FIO-ACC-SM-003","FIO-ACC-SM-004"]}]}'')>'
+    fashion_reco_related_fio_acc_po_001:
+        isActive: true
+        name: 'Related product — FIO-ACC-PO-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-ACC-PO-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-PO-002","FIO-ACC-PO-004","FIO-ACC-PO-007"]}]}'')>'
+    fashion_reco_related_fio_acc_ce_001:
+        isActive: true
+        name: 'Related product — FIO-ACC-CE-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-ACC-CE-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-CE-002","FIO-ACC-CE-004","FIO-ACC-CE-007"]}]}'')>'
+    fashion_reco_related_fio_acc_ef_001:
+        isActive: true
+        name: 'Related product — FIO-ACC-EF-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-ACC-EF-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-EF-002","FIO-ACC-EF-004","FIO-ACC-EF-007"]}]}'')>'
+    fashion_reco_related_fio_acc_ls_001:
+        isActive: true
+        name: 'Related product — FIO-ACC-LS-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-ACC-LS-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-LS-002","FIO-ACC-LS-004","FIO-ACC-LS-005"]}]}'')>'
+    fashion_reco_related_fio_acc_cb_001:
+        isActive: true
+        name: 'Related product — FIO-ACC-CB-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-ACC-CB-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-ACC-CB-003","FIO-ACC-CB-005","FIO-ACC-CB-006"]}]}'')>'
+    fashion_reco_related_fio_lin_sg_001:
+        isActive: true
+        name: 'Related product — FIO-LIN-SG-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-LIN-SG-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-LIN-SG-002","FIO-LIN-SG-003","FIO-LIN-SG-005"]}]}'')>'
+    fashion_reco_related_fio_lin_cs_001:
+        isActive: true
+        name: 'Related product — FIO-LIN-CS-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-LIN-CS-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-LIN-CS-002","FIO-LIN-CS-004","FIO-LIN-CS-006"]}]}'')>'
+    fashion_reco_related_fio_lin_pn_001:
+        isActive: true
+        name: 'Related product — FIO-LIN-PN-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-LIN-PN-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-LIN-PN-002","FIO-LIN-PN-004","FIO-LIN-PN-006"]}]}'')>'
+    fashion_reco_related_fio_lin_bd_001:
+        isActive: true
+        name: 'Related product — FIO-LIN-BD-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-LIN-BD-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-LIN-BD-003","FIO-LIN-BD-005","FIO-LIN-BD-006"]}]}'')>'
+    fashion_reco_related_fio_spo_ls_001:
+        isActive: true
+        name: 'Related product — FIO-SPO-LS-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-LS-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-LS-002","FIO-SPO-LS-003","FIO-SPO-LS-006"]}]}'')>'
+    fashion_reco_related_fio_spo_bs_001:
+        isActive: true
+        name: 'Related product — FIO-SPO-BS-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-BS-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-BS-002","FIO-SPO-BS-004","FIO-SPO-BS-006"]}]}'')>'
+    fashion_reco_related_fio_spo_sj_001:
+        isActive: true
+        name: 'Related product — FIO-SPO-SJ-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-SJ-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-SJ-002","FIO-SPO-SJ-004","FIO-SPO-SJ-007"]}]}'')>'
+    fashion_reco_related_fio_spo_vs_001:
+        isActive: true
+        name: 'Related product — FIO-SPO-VS-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-VS-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-VS-002","FIO-SPO-VS-003","FIO-SPO-VS-005"]}]}'')>'
+    fashion_reco_related_fio_spo_tt_001:
+        isActive: true
+        name: 'Related product — FIO-SPO-TT-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-SPO-TT-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-SPO-TT-002","FIO-SPO-TT-005","FIO-SPO-TT-007"]}]}'')>'
+    fashion_reco_related_fio_mab_pf_001:
+        isActive: true
+        name: 'Related product — FIO-MAB-PF-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-PF-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-PF-002","FIO-MAB-PF-004","FIO-MAB-PF-006"]}]}'')>'
+    fashion_reco_related_fio_mab_pc_001:
+        isActive: true
+        name: 'Related product — FIO-MAB-PC-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-PC-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-PC-002","FIO-MAB-PC-003","FIO-MAB-PC-005"]}]}'')>'
+    fashion_reco_related_fio_mab_bf_001:
+        isActive: true
+        name: 'Related product — FIO-MAB-BF-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-BF-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-BF-002","FIO-MAB-BF-003","FIO-MAB-BF-006"]}]}'')>'
+    fashion_reco_related_fio_mab_bn_001:
+        isActive: true
+        name: 'Related product — FIO-MAB-BN-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-BN-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-BN-002","FIO-MAB-BN-004","FIO-MAB-BN-005"]}]}'')>'
+    fashion_reco_related_fio_mab_mt_001:
+        isActive: true
+        name: 'Related product — FIO-MAB-MT-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-MT-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-MT-002","FIO-MAB-MT-005","FIO-MAB-MT-008"]}]}'')>'
+    fashion_reco_related_fio_mab_bg_001:
+        isActive: true
+        name: 'Related product — FIO-MAB-BG-001'
+        fromDate: null
+        toDate: null
+        priority: 0
+        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        recommenderTypes: ['@recommender_type_related']
+        sourceRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"eq","attribute_type":"reference","value":"FIO-MAB-BG-001"}]}'')>'
+        targetRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"sku","operator":"in","attribute_type":"reference","value":["FIO-MAB-BG-002","FIO-MAB-BG-004","FIO-MAB-BG-007"]}]}'')>'

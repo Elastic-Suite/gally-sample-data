@@ -1,0 +1,60 @@
+include:
+    - ../categories.yaml
+
+# Two boosts, one on and one off.
+#
+# The request type decides which limitation is read: product_catalog reads the category
+# limitation, product_search reads the query text one, and product_autocomplete is left out
+# altogether so the popup keeps plain relevance and the boost only shows on the result page.
+#
+# tbx_boost2 ships inactive on purpose. Switching it on from the admin during a demo re-orders
+# the result page on the next search, which is the whole point of the feature.
+Gally\Boost\Entity\Boost:
+    tbx_boost1:
+        name: 'Sans fil d''abord'
+        isActive: true
+        fromDate: null
+        toDate: null
+        conditionRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"tbx_cordless","operator":"eq","attribute_type":"boolean","value":true}]}'')>'
+        model: !php/const Gally\Boost\Service\Model\ConstantScore::MODEL_CONSTANT_SCORE
+        modelConfig: '<strval(''{"constant_score_value":"100"}'')>'
+        localizedCatalogs: ['@toolbox_fr', '@toolbox_en', '@toolbox_de']
+    tbx_boost2:
+        name: 'Brushless en tête'
+        isActive: false
+        fromDate: null
+        toDate: null
+        conditionRule: '<strval(''{"type":"combination","operator":"all","value":"true","children":[{"type":"attribute","field":"tbx_motor_type","operator":"eq","attribute_type":"select","value":"brushless"}]}'')>'
+        model: !php/const Gally\Boost\Service\Model\ConstantScore::MODEL_CONSTANT_SCORE
+        modelConfig: '<strval(''{"constant_score_value":"80"}'')>'
+        localizedCatalogs: ['@toolbox_fr', '@toolbox_en', '@toolbox_de']
+
+Gally\Boost\Entity\Boost\RequestType:
+    tbx_boost_request_type1:
+        boost: '@tbx_boost1'
+        requestType: 'product_catalog'
+        applyToAll: false
+    tbx_boost_request_type2:
+        boost: '@tbx_boost1'
+        requestType: 'product_search'
+        applyToAll: false
+    # The one to switch on live fires on any search, so the change is visible whatever was typed.
+    tbx_boost_request_type3:
+        boost: '@tbx_boost2'
+        requestType: 'product_search'
+        applyToAll: true
+
+Gally\Boost\Entity\Boost\CategoryLimitation:
+    tbx_boost_category_limitation1:
+        boost: '@tbx_boost1'
+        category: '@cat_tbx_85'
+
+Gally\Boost\Entity\Boost\SearchLimitation:
+    tbx_boost_search_limitation1:
+        boost: '@tbx_boost1'
+        operator: !php/const Gally\Boost\Constant\QueryTextOperator::OPERATOR_CONTAINS
+        queryText: 'perceuse'
+    tbx_boost_search_limitation2:
+        boost: '@tbx_boost1'
+        operator: !php/const Gally\Boost\Constant\QueryTextOperator::OPERATOR_CONTAINS
+        queryText: 'drill'

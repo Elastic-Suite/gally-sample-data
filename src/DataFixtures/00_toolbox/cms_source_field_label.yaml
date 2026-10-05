@@ -1,0 +1,215 @@
+include:
+    - ../common/cms_source_field.yaml
+    - localized_catalogs.yaml
+
+# A SourceFieldLabel is unique on (localized_catalog, source_field), so every field needs a row
+# per localized catalog of ours even though default/ owns the field.
+# The label reference name is built from the code rather than the field reference, which is also
+# what default/ does - hence `cms_page_title_*` against a field whose own reference is
+# `cms_page_tile`.
+
+Gally\Metadata\Entity\SourceFieldLabel:
+    cms_page_id_toolbox_fr:
+        source_field: '@cms_page_id'
+        localized_catalog: '@toolbox_fr'
+        label: 'Identifiant'
+    cms_page_id_toolbox_en:
+        source_field: '@cms_page_id'
+        localized_catalog: '@toolbox_en'
+        label: 'ID'
+    cms_page_id_toolbox_de:
+        source_field: '@cms_page_id'
+        localized_catalog: '@toolbox_de'
+        label: 'ID'
+    cms_page_title_toolbox_fr:
+        source_field: '@cms_page_tile'
+        localized_catalog: '@toolbox_fr'
+        label: 'Titre'
+    cms_page_title_toolbox_en:
+        source_field: '@cms_page_tile'
+        localized_catalog: '@toolbox_en'
+        label: 'Title'
+    cms_page_title_toolbox_de:
+        source_field: '@cms_page_tile'
+        localized_catalog: '@toolbox_de'
+        label: 'Titel'
+    cms_page_content_heading_toolbox_fr:
+        source_field: '@cms_page_content_heading'
+        localized_catalog: '@toolbox_fr'
+        label: 'Chapeau'
+    cms_page_content_heading_toolbox_en:
+        source_field: '@cms_page_content_heading'
+        localized_catalog: '@toolbox_en'
+        label: 'Standfirst'
+    cms_page_content_heading_toolbox_de:
+        source_field: '@cms_page_content_heading'
+        localized_catalog: '@toolbox_de'
+        label: 'Einleitung'
+    cms_page_content_toolbox_fr:
+        source_field: '@cms_page_content'
+        localized_catalog: '@toolbox_fr'
+        label: 'Contenu'
+    cms_page_content_toolbox_en:
+        source_field: '@cms_page_content'
+        localized_catalog: '@toolbox_en'
+        label: 'Content'
+    cms_page_content_toolbox_de:
+        source_field: '@cms_page_content'
+        localized_catalog: '@toolbox_de'
+        label: 'Inhalt'
+    cms_page_url_key_toolbox_fr:
+        source_field: '@cms_page_url_key'
+        localized_catalog: '@toolbox_fr'
+        label: 'Clé d''URL'
+    cms_page_url_key_toolbox_en:
+        source_field: '@cms_page_url_key'
+        localized_catalog: '@toolbox_en'
+        label: 'URL key'
+    cms_page_url_key_toolbox_de:
+        source_field: '@cms_page_url_key'
+        localized_catalog: '@toolbox_de'
+        label: 'URL-Schlüssel'
+    cms_page_meta_description_toolbox_fr:
+        source_field: '@cms_page_meta_description'
+        localized_catalog: '@toolbox_fr'
+        label: 'Méta description'
+    cms_page_meta_description_toolbox_en:
+        source_field: '@cms_page_meta_description'
+        localized_catalog: '@toolbox_en'
+        label: 'Meta description'
+    cms_page_meta_description_toolbox_de:
+        source_field: '@cms_page_meta_description'
+        localized_catalog: '@toolbox_de'
+        label: 'Meta-Beschreibung'
+    cms_page_meta_keyword_toolbox_fr:
+        source_field: '@cms_page_meta_keyword'
+        localized_catalog: '@toolbox_fr'
+        label: 'Méta mots-clés'
+    cms_page_meta_keyword_toolbox_en:
+        source_field: '@cms_page_meta_keyword'
+        localized_catalog: '@toolbox_en'
+        label: 'Meta keywords'
+    cms_page_meta_keyword_toolbox_de:
+        source_field: '@cms_page_meta_keyword'
+        localized_catalog: '@toolbox_de'
+        label: 'Meta-Schlüsselwörter'
+    cms_page_meta_title_toolbox_fr:
+        source_field: '@cms_page_meta_title'
+        localized_catalog: '@toolbox_fr'
+        label: 'Méta titre'
+    cms_page_meta_title_toolbox_en:
+        source_field: '@cms_page_meta_title'
+        localized_catalog: '@toolbox_en'
+        label: 'Meta title'
+    cms_page_meta_title_toolbox_de:
+        source_field: '@cms_page_meta_title'
+        localized_catalog: '@toolbox_de'
+        label: 'Meta-Titel'
+    cms_page_tags_toolbox_fr:
+        source_field: '@cms_page_tags'
+        localized_catalog: '@toolbox_fr'
+        label: 'Étiquettes'
+    cms_page_tags_toolbox_en:
+        source_field: '@cms_page_tags'
+        localized_catalog: '@toolbox_en'
+        label: 'Tags'
+    cms_page_tags_toolbox_de:
+        source_field: '@cms_page_tags'
+        localized_catalog: '@toolbox_de'
+        label: 'Schlagwörter'
+    cms_page_content_type_toolbox_fr:
+        source_field: '@cms_page_content_type'
+        localized_catalog: '@toolbox_fr'
+        label: 'Type de contenu'
+    cms_page_content_type_toolbox_en:
+        source_field: '@cms_page_content_type'
+        localized_catalog: '@toolbox_en'
+        label: 'Content type'
+    cms_page_content_type_toolbox_de:
+        source_field: '@cms_page_content_type'
+        localized_catalog: '@toolbox_de'
+        label: 'Inhaltstyp'
+    cms_page_topic_toolbox_fr:
+        source_field: '@cms_page_topic'
+        localized_catalog: '@toolbox_fr'
+        label: 'Thème'
+    cms_page_topic_toolbox_en:
+        source_field: '@cms_page_topic'
+        localized_catalog: '@toolbox_en'
+        label: 'Topic'
+    cms_page_topic_toolbox_de:
+        source_field: '@cms_page_topic'
+        localized_catalog: '@toolbox_de'
+        label: 'Thema'
+    cms_page_author_toolbox_fr:
+        source_field: '@cms_page_author'
+        localized_catalog: '@toolbox_fr'
+        label: 'Auteur'
+    cms_page_author_toolbox_en:
+        source_field: '@cms_page_author'
+        localized_catalog: '@toolbox_en'
+        label: 'Author'
+    cms_page_author_toolbox_de:
+        source_field: '@cms_page_author'
+        localized_catalog: '@toolbox_de'
+        label: 'Autor'
+    cms_page_published_at_toolbox_fr:
+        source_field: '@cms_page_published_at'
+        localized_catalog: '@toolbox_fr'
+        label: 'Date de publication'
+    cms_page_published_at_toolbox_en:
+        source_field: '@cms_page_published_at'
+        localized_catalog: '@toolbox_en'
+        label: 'Published at'
+    cms_page_published_at_toolbox_de:
+        source_field: '@cms_page_published_at'
+        localized_catalog: '@toolbox_de'
+        label: 'Veröffentlicht am'
+    cms_page_reading_time_toolbox_fr:
+        source_field: '@cms_page_reading_time'
+        localized_catalog: '@toolbox_fr'
+        label: 'Temps de lecture'
+    cms_page_reading_time_toolbox_en:
+        source_field: '@cms_page_reading_time'
+        localized_catalog: '@toolbox_en'
+        label: 'Reading time'
+    cms_page_reading_time_toolbox_de:
+        source_field: '@cms_page_reading_time'
+        localized_catalog: '@toolbox_de'
+        label: 'Lesedauer'
+    cms_page_is_featured_toolbox_fr:
+        source_field: '@cms_page_is_featured'
+        localized_catalog: '@toolbox_fr'
+        label: 'Mis en avant'
+    cms_page_is_featured_toolbox_en:
+        source_field: '@cms_page_is_featured'
+        localized_catalog: '@toolbox_en'
+        label: 'Featured'
+    cms_page_is_featured_toolbox_de:
+        source_field: '@cms_page_is_featured'
+        localized_catalog: '@toolbox_de'
+        label: 'Hervorgehoben'
+    cms_page_image_toolbox_fr:
+        source_field: '@cms_page_image'
+        localized_catalog: '@toolbox_fr'
+        label: 'Image'
+    cms_page_image_toolbox_en:
+        source_field: '@cms_page_image'
+        localized_catalog: '@toolbox_en'
+        label: 'Image'
+    cms_page_image_toolbox_de:
+        source_field: '@cms_page_image'
+        localized_catalog: '@toolbox_de'
+        label: 'Bild'
+    cms_page_related_skus_toolbox_fr:
+        source_field: '@cms_page_related_skus'
+        localized_catalog: '@toolbox_fr'
+        label: 'Produits associés'
+    cms_page_related_skus_toolbox_en:
+        source_field: '@cms_page_related_skus'
+        localized_catalog: '@toolbox_en'
+        label: 'Related products'
+    cms_page_related_skus_toolbox_de:
+        source_field: '@cms_page_related_skus'
+        localized_catalog: '@toolbox_de'
+        label: 'Zugehörige Produkte'

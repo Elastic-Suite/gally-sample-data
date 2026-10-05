@@ -18,6 +18,7 @@ use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 use Gally\Fixture\Service\ElasticsearchFixturesInterface;
 use Gally\Fixture\Service\EntityIndicesFixturesInterface;
+use Gally\SampleData\CatalogSelection;
 
 class ElasticsearchCmsPageFixtures extends Fixture
 {
@@ -30,6 +31,11 @@ class ElasticsearchCmsPageFixtures extends Fixture
     public function load(ObjectManager $manager): void
     {
         $this->entityIndicesFixtures->createEntityElasticsearchIndices('cms_page');
-        $this->elasticsearchFixtures->loadFixturesDocumentFiles([__DIR__ . '/../DataFixtures/elasticsearch/cms_page_documents.json']);
+
+        // A catalog folder without a cms_page document file is skipped rather than reported:
+        // the Magento demo the other catalogs are generated from ships no editorial content.
+        $this->elasticsearchFixtures->loadFixturesDocumentFiles(
+            CatalogSelection::documentFiles('cms_page_documents.json')
+        );
     }
 }
