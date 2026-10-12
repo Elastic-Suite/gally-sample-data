@@ -724,3 +724,15 @@ Gally\Metadata\Entity\SourceFieldLabel:
         source_field: <findSourceFieldByCode('product', 'stock')>
         localized_catalog: '@toolbox_de'
         label: 'Verfügbarkeit'
+    product_name_toolbox_fr:
+        source_field: <findSourceFieldByCode('product', 'name')>
+        localized_catalog: '@toolbox_fr'
+        label: 'Nom'
+    product_name_toolbox_en:
+        source_field: <findSourceFieldByCode('product', 'name')>
+        localized_catalog: '@toolbox_en'
+        label: 'Name'
+    product_name_toolbox_de:
+        source_field: <findSourceFieldByCode('product', 'name')>
+        localized_catalog: '@toolbox_de'
+        label: 'Name'

@@ -75,7 +75,7 @@ Gally\Metadata\Entity\SourceFieldLabel:
     product_llv_paper_weight_papershop_de:
         source_field: '@product_llv_paper_weight'
         localized_catalog: '@papershop_de'
-        label: 'Papiergewicht (g/m²)'
+        label: 'Grammatur (g/m²)'
     product_llv_ruling_papershop_fr:
         source_field: '@product_llv_ruling'
         localized_catalog: '@papershop_fr'
@@ -244,6 +244,30 @@ Gally\Metadata\Entity\SourceFieldLabel:
         source_field: <findSourceFieldByCode('product', 'stock')>
         localized_catalog: '@papershop_de'
         label: 'Verfügbarkeit'
+    product_name_papershop_fr:
+        source_field: <findSourceFieldByCode('product', 'name')>
+        localized_catalog: '@papershop_fr'
+        label: 'Nom'
+    product_name_papershop_en:
+        source_field: <findSourceFieldByCode('product', 'name')>
+        localized_catalog: '@papershop_en'
+        label: 'Name'
+    product_name_papershop_de:
+        source_field: <findSourceFieldByCode('product', 'name')>
+        localized_catalog: '@papershop_de'
+        label: 'Name'
+    product_created_at_papershop_fr:
+        source_field: '@product_created_at'
+        localized_catalog: '@papershop_fr'
+        label: 'Date de création'
+    product_created_at_papershop_en:
+        source_field: '@product_created_at'
+        localized_catalog: '@papershop_en'
+        label: 'Created at'
+    product_created_at_papershop_de:
+        source_field: '@product_created_at'
+        localized_catalog: '@papershop_de'
+        label: 'Erstellt am'
     product_new_papershop_fr:
         source_field: '@product_new'
         localized_catalog: '@papershop_fr'

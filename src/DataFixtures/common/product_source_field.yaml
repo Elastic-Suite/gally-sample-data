@@ -88,3 +88,16 @@ Gally\Metadata\Entity\SourceField:
         isFilterable: true
         isSortable: false
         isUsedForRules: true
+    # Creation date, sortable in every shop. Declared here rather than in each catalog folder so
+    # every shop can label it: a label file only sees the fields its own includes declare.
+    product_created_at:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: created_at
+        type: date
+        defaultLabel: 'Created at'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: false
+        isSortable: true
+        isUsedForRules: false

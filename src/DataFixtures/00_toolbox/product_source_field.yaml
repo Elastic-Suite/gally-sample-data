@@ -3,7 +3,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_tool_material
         type: select
-        defaultLabel: 'Matériau'
+        defaultLabel: 'Material'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -15,7 +15,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_tool_finish
         type: select
-        defaultLabel: 'Finition'
+        defaultLabel: 'Finish'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -26,7 +26,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_insulated_1000v
         type: boolean
-        defaultLabel: 'Isolé 1000V'
+        defaultLabel: '1000V Insulated'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -37,7 +37,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_pieces_count
         type: select
-        defaultLabel: 'Nombre de pièces'
+        defaultLabel: 'Piece count'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -48,7 +48,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_voltage
         type: select
-        defaultLabel: 'Tension'
+        defaultLabel: 'Voltage'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -59,7 +59,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_motor_type
         type: select
-        defaultLabel: 'Type de moteur'
+        defaultLabel: 'Motor type'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -70,7 +70,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_max_torque_nm
         type: select
-        defaultLabel: 'Couple max (Nm)'
+        defaultLabel: 'Max torque (Nm)'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -81,7 +81,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_speed_settings
         type: select
-        defaultLabel: 'Vitesses'
+        defaultLabel: 'Speed settings'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -92,7 +92,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_cordless
         type: boolean
-        defaultLabel: 'Sans fil'
+        defaultLabel: 'Cordless'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -103,7 +103,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_battery_voltage
         type: select
-        defaultLabel: 'Tension batterie'
+        defaultLabel: 'Battery voltage'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -114,7 +114,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_battery_capacity_ah
         type: select
-        defaultLabel: 'Capacité (Ah)'
+        defaultLabel: 'Capacity (Ah)'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -125,7 +125,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_battery_technology
         type: select
-        defaultLabel: 'Technologie'
+        defaultLabel: 'Technology'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -136,7 +136,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_fast_charge
         type: boolean
-        defaultLabel: 'Charge rapide'
+        defaultLabel: 'Fast charge'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -147,7 +147,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_accessory_material
         type: select
-        defaultLabel: 'Matériau (accessoire)'
+        defaultLabel: 'Material (accessory)'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -158,7 +158,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_diameter_mm
         type: float
-        defaultLabel: 'Diamètre (mm)'
+        defaultLabel: 'Diameter (mm)'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -169,7 +169,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_compatible_brands
         type: select
-        defaultLabel: 'Compatibilité marques'
+        defaultLabel: 'Brand compatibility'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -180,7 +180,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_pack_quantity
         type: select
-        defaultLabel: 'Quantité par lot'
+        defaultLabel: 'Pack quantity'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -191,7 +191,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_paint_color
         type: select
-        defaultLabel: 'Couleur'
+        defaultLabel: 'Colour'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -203,7 +203,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_paint_finish
         type: select
-        defaultLabel: 'Finition (peinture)'
+        defaultLabel: 'Finish (paint)'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -225,7 +225,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_coverage_m2_l
         type: float
-        defaultLabel: 'Rendement (m²/L)'
+        defaultLabel: 'Coverage (m²/L)'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -236,7 +236,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_quick_dry
         type: boolean
-        defaultLabel: 'Séchage rapide'
+        defaultLabel: 'Quick dry'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -247,7 +247,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_pipe_material
         type: select
-        defaultLabel: 'Matériau tuyauterie'
+        defaultLabel: 'Pipe material'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -258,7 +258,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_pipe_diameter_mm
         type: float
-        defaultLabel: 'Diamètre de tuyau (mm)'
+        defaultLabel: 'Pipe diameter (mm)'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -269,7 +269,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_connection_type
         type: select
-        defaultLabel: 'Type de raccord'
+        defaultLabel: 'Connection type'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -280,7 +280,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_drinking_water_safe
         type: boolean
-        defaultLabel: 'Contact alimentaire (ACS)'
+        defaultLabel: 'Drinking water safe (ACS)'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -291,7 +291,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_ip_rating
         type: select
-        defaultLabel: 'Indice IP'
+        defaultLabel: 'IP rating'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -302,7 +302,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_wire_section_mm2
         type: float
-        defaultLabel: 'Section (mm²)'
+        defaultLabel: 'Cross-section (mm²)'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -313,7 +313,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_smart_compatible
         type: boolean
-        defaultLabel: 'Compatible domotique'
+        defaultLabel: 'Smart home compatible'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -324,7 +324,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_elec_color
         type: select
-        defaultLabel: 'Coloris'
+        defaultLabel: 'Colour (electrical)'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -335,7 +335,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_fastener_material
         type: select
-        defaultLabel: 'Matériau fixation'
+        defaultLabel: 'Fastener material'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -346,7 +346,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_fastener_head
         type: select
-        defaultLabel: 'Tête'
+        defaultLabel: 'Head type'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -357,7 +357,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_thread_type
         type: select
-        defaultLabel: 'Type de filetage'
+        defaultLabel: 'Thread type'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -368,7 +368,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_corrosion_resistant
         type: boolean
-        defaultLabel: 'Résistant corrosion'
+        defaultLabel: 'Corrosion resistant'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -379,7 +379,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_power_source
         type: select
-        defaultLabel: 'Source d''énergie'
+        defaultLabel: 'Power source'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -390,7 +390,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_cutting_width_cm
         type: float
-        defaultLabel: 'Largeur de coupe (cm)'
+        defaultLabel: 'Cutting width (cm)'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -401,7 +401,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_noise_level_db
         type: select
-        defaultLabel: 'Niveau sonore'
+        defaultLabel: 'Noise level'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -412,7 +412,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_foldable
         type: boolean
-        defaultLabel: 'Pliable / Compact'
+        defaultLabel: 'Foldable / Compact'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -423,7 +423,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_protection_norm
         type: select
-        defaultLabel: 'Norme'
+        defaultLabel: 'Standard'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -434,7 +434,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_size_range
         type: select
-        defaultLabel: 'Tailles disponibles'
+        defaultLabel: 'Size range'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -445,7 +445,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_high_visibility
         type: boolean
-        defaultLabel: 'Haute visibilité'
+        defaultLabel: 'High visibility'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -456,7 +456,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_comfort_level
         type: select
-        defaultLabel: 'Niveau de confort'
+        defaultLabel: 'Comfort level'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -467,7 +467,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_power_watt
         type: float
-        defaultLabel: 'Puissance (W)'
+        defaultLabel: 'Power (W)'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -478,7 +478,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_weight_class
         type: select
-        defaultLabel: 'Classe de poids'
+        defaultLabel: 'Weight class'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -489,7 +489,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_dust_extraction
         type: boolean
-        defaultLabel: 'Aspiration intégrée'
+        defaultLabel: 'Built-in dust extraction'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -500,7 +500,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_three_phase
         type: boolean
-        defaultLabel: 'Triphasé 380V'
+        defaultLabel: 'Three-phase 380V'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -511,7 +511,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: tbx_brand
         type: select
-        defaultLabel: 'Marque'
+        defaultLabel: 'Brand'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -523,7 +523,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: type_id
         type: keyword
-        defaultLabel: 'Type de produit'
+        defaultLabel: 'Product type'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -534,21 +534,10 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: indexed_attributes
         type: keyword
-        defaultLabel: 'Attributs indexés'
+        defaultLabel: 'Indexed attributes'
         isSearchable: false
         weight: 1
         isSpellchecked: false
         isFilterable: false
         isSortable: false
-        isUsedForRules: false
-    product_created_at:
-        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
-        code: created_at
-        type: date
-        defaultLabel: 'Date de création'
-        isSearchable: false
-        weight: 1
-        isSpellchecked: false
-        isFilterable: false
-        isSortable: true
         isUsedForRules: false

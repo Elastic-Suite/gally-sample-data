@@ -3,7 +3,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'category')>
         code: children_count
         type: int
-        defaultLabel: 'Nombre d''enfants'
+        defaultLabel: 'Children count'
         isSearchable: false
         weight: 1
         isSpellchecked: false
