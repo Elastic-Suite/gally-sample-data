@@ -1,0 +1,299 @@
+include:
+    - ../common/cms_source_field.yaml
+
+Gally\Metadata\Entity\SourceFieldOption:
+    cms_page_topic_option_style_guide:
+        code: 'style_guide'
+        source_field: '@cms_page_topic'
+        position: 0
+        defaultLabel: 'Style Guide'
+    cms_page_topic_option_trends:
+        code: 'trends'
+        source_field: '@cms_page_topic'
+        position: 1
+        defaultLabel: 'Trends'
+    cms_page_topic_option_materials:
+        code: 'materials'
+        source_field: '@cms_page_topic'
+        position: 2
+        defaultLabel: 'Materials'
+    cms_page_topic_option_care:
+        code: 'care'
+        source_field: '@cms_page_topic'
+        position: 3
+        defaultLabel: 'Garment Care'
+    cms_page_topic_option_sustainability:
+        code: 'sustainability'
+        source_field: '@cms_page_topic'
+        position: 4
+        defaultLabel: 'Sustainability'
+    cms_page_topic_option_accessories:
+        code: 'accessories'
+        source_field: '@cms_page_topic'
+        position: 5
+        defaultLabel: 'Accessories'
+    cms_page_topic_option_occasions:
+        code: 'occasions'
+        source_field: '@cms_page_topic'
+        position: 6
+        defaultLabel: 'Occasions'
+    cms_page_topic_option_fit_sizing:
+        code: 'fit_sizing'
+        source_field: '@cms_page_topic'
+        position: 7
+        defaultLabel: 'Fit & Sizing'
+    cms_page_topic_option_color:
+        code: 'color'
+        source_field: '@cms_page_topic'
+        position: 8
+        defaultLabel: 'Colour'
+    cms_page_topic_option_behind_scenes:
+        code: 'behind_scenes'
+        source_field: '@cms_page_topic'
+        position: 9
+        defaultLabel: 'Behind the Scenes'
+    cms_page_author_option_camille_laurent:
+        code: 'camille_laurent'
+        source_field: '@cms_page_author'
+        position: 0
+        defaultLabel: 'Camille Laurent'
+    cms_page_author_option_lea_moreau:
+        code: 'lea_moreau'
+        source_field: '@cms_page_author'
+        position: 1
+        defaultLabel: 'Léa Moreau'
+    cms_page_author_option_julien_faure:
+        code: 'julien_faure'
+        source_field: '@cms_page_author'
+        position: 2
+        defaultLabel: 'Julien Faure'
+    cms_page_author_option_sofia_marchetti:
+        code: 'sofia_marchetti'
+        source_field: '@cms_page_author'
+        position: 3
+        defaultLabel: 'Sofia Marchetti'
+    cms_page_author_option_noemie_girard:
+        code: 'noemie_girard'
+        source_field: '@cms_page_author'
+        position: 4
+        defaultLabel: 'Noémie Girard'
+    cms_page_author_option_thomas_bertrand:
+        code: 'thomas_bertrand'
+        source_field: '@cms_page_author'
+        position: 5
+        defaultLabel: 'Thomas Bertrand'
+    cms_page_author_option_ines_rahmani:
+        code: 'ines_rahmani'
+        source_field: '@cms_page_author'
+        position: 6
+        defaultLabel: 'Inès Rahmani'
+    cms_page_author_option_marc_delaunay:
+        code: 'marc_delaunay'
+        source_field: '@cms_page_author'
+        position: 7
+        defaultLabel: 'Marc Delaunay'
+    cms_page_tags_option_fashion:
+        code: 'fashion'
+        source_field: '@cms_page_tags'
+        position: 0
+        defaultLabel: 'Fashion'
+    cms_page_tags_option_dress:
+        code: 'dress'
+        source_field: '@cms_page_tags'
+        position: 1
+        defaultLabel: 'Dress'
+    cms_page_tags_option_summer:
+        code: 'summer'
+        source_field: '@cms_page_tags'
+        position: 2
+        defaultLabel: 'Summer'
+    cms_page_tags_option_slick:
+        code: 'slick'
+        source_field: '@cms_page_tags'
+        position: 3
+        defaultLabel: 'Slick'
+    cms_page_tags_option_nylon:
+        code: 'nylon'
+        source_field: '@cms_page_tags'
+        position: 4
+        defaultLabel: 'Nylon'
+    cms_page_tags_option_jewelry:
+        code: 'jewelry'
+        source_field: '@cms_page_tags'
+        position: 5
+        defaultLabel: 'Jewelry'
+    cms_page_tags_option_gold:
+        code: 'gold'
+        source_field: '@cms_page_tags'
+        position: 6
+        defaultLabel: 'Gold'
+    cms_page_tags_option_colors:
+        code: 'colors'
+        source_field: '@cms_page_tags'
+        position: 7
+        defaultLabel: 'Colors'
+    cms_page_tags_option_shirts:
+        code: 'shirts'
+        source_field: '@cms_page_tags'
+        position: 8
+        defaultLabel: 'Shirts'
+    cms_page_tags_option_blouses:
+        code: 'blouses'
+        source_field: '@cms_page_tags'
+        position: 9
+        defaultLabel: 'Blouses'
+    cms_page_tags_option_neckline:
+        code: 'neckline'
+        source_field: '@cms_page_tags'
+        position: 10
+        defaultLabel: 'Neckline'
+    cms_page_tags_option_materials:
+        code: 'materials'
+        source_field: '@cms_page_tags'
+        position: 11
+        defaultLabel: 'Materials'
+    cms_page_tags_option_natural:
+        code: 'natural'
+        source_field: '@cms_page_tags'
+        position: 12
+        defaultLabel: 'Natural'
+    cms_page_tags_option_capsule_wardrobe:
+        code: 'capsule_wardrobe'
+        source_field: '@cms_page_tags'
+        position: 13
+        defaultLabel: 'Capsule Wardrobe'
+    cms_page_tags_option_layering:
+        code: 'layering'
+        source_field: '@cms_page_tags'
+        position: 14
+        defaultLabel: 'Layering'
+    cms_page_tags_option_trends:
+        code: 'trends'
+        source_field: '@cms_page_tags'
+        position: 15
+        defaultLabel: 'Trends'
+    cms_page_tags_option_tailoring:
+        code: 'tailoring'
+        source_field: '@cms_page_tags'
+        position: 16
+        defaultLabel: 'Tailoring'
+    cms_page_tags_option_prints:
+        code: 'prints'
+        source_field: '@cms_page_tags'
+        position: 17
+        defaultLabel: 'Prints'
+    cms_page_tags_option_minimalism:
+        code: 'minimalism'
+        source_field: '@cms_page_tags'
+        position: 18
+        defaultLabel: 'Minimalism'
+    cms_page_tags_option_linen:
+        code: 'linen'
+        source_field: '@cms_page_tags'
+        position: 19
+        defaultLabel: 'Linen'
+    cms_page_tags_option_cotton:
+        code: 'cotton'
+        source_field: '@cms_page_tags'
+        position: 20
+        defaultLabel: 'Cotton'
+    cms_page_tags_option_silk:
+        code: 'silk'
+        source_field: '@cms_page_tags'
+        position: 21
+        defaultLabel: 'Silk'
+    cms_page_tags_option_wool:
+        code: 'wool'
+        source_field: '@cms_page_tags'
+        position: 22
+        defaultLabel: 'Wool'
+    cms_page_tags_option_knitwear:
+        code: 'knitwear'
+        source_field: '@cms_page_tags'
+        position: 23
+        defaultLabel: 'Knitwear'
+    cms_page_tags_option_denim:
+        code: 'denim'
+        source_field: '@cms_page_tags'
+        position: 24
+        defaultLabel: 'Denim'
+    cms_page_tags_option_care:
+        code: 'care'
+        source_field: '@cms_page_tags'
+        position: 25
+        defaultLabel: 'Garment Care'
+    cms_page_tags_option_washing:
+        code: 'washing'
+        source_field: '@cms_page_tags'
+        position: 26
+        defaultLabel: 'Washing'
+    cms_page_tags_option_storage:
+        code: 'storage'
+        source_field: '@cms_page_tags'
+        position: 27
+        defaultLabel: 'Storage'
+    cms_page_tags_option_sustainability:
+        code: 'sustainability'
+        source_field: '@cms_page_tags'
+        position: 28
+        defaultLabel: 'Sustainability'
+    cms_page_tags_option_belts:
+        code: 'belts'
+        source_field: '@cms_page_tags'
+        position: 29
+        defaultLabel: 'Belts'
+    cms_page_tags_option_scarves:
+        code: 'scarves'
+        source_field: '@cms_page_tags'
+        position: 30
+        defaultLabel: 'Scarves'
+    cms_page_tags_option_accessories:
+        code: 'accessories'
+        source_field: '@cms_page_tags'
+        position: 31
+        defaultLabel: 'Accessories'
+    cms_page_tags_option_travel:
+        code: 'travel'
+        source_field: '@cms_page_tags'
+        position: 32
+        defaultLabel: 'Travel'
+    cms_page_tags_option_wedding:
+        code: 'wedding'
+        source_field: '@cms_page_tags'
+        position: 33
+        defaultLabel: 'Wedding'
+    cms_page_tags_option_occasions:
+        code: 'occasions'
+        source_field: '@cms_page_tags'
+        position: 34
+        defaultLabel: 'Occasions'
+    cms_page_tags_option_office:
+        code: 'office'
+        source_field: '@cms_page_tags'
+        position: 35
+        defaultLabel: 'Office'
+    cms_page_tags_option_beach:
+        code: 'beach'
+        source_field: '@cms_page_tags'
+        position: 36
+        defaultLabel: 'Beach'
+    cms_page_tags_option_sizing:
+        code: 'sizing'
+        source_field: '@cms_page_tags'
+        position: 37
+        defaultLabel: 'Sizing'
+    cms_page_tags_option_spring:
+        code: 'spring'
+        source_field: '@cms_page_tags'
+        position: 38
+        defaultLabel: 'Spring'
+    cms_page_tags_option_autumn:
+        code: 'autumn'
+        source_field: '@cms_page_tags'
+        position: 39
+        defaultLabel: 'Autumn'
+    cms_page_tags_option_behind_the_scenes:
+        code: 'behind_the_scenes'
+        source_field: '@cms_page_tags'
+        position: 40
+        defaultLabel: 'Behind the Scenes'

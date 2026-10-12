@@ -1,0 +1,565 @@
+Gally\Metadata\Entity\SourceField:
+    product_fio_color:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_color
+        type: select
+        defaultLabel: 'Colour'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_fio_clothing_size:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_clothing_size
+        type: select
+        defaultLabel: 'Clothing size'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_neckline:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_neckline
+        type: select
+        defaultLabel: 'Neckline'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_sleeve_length:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_sleeve_length
+        type: select
+        defaultLabel: 'Sleeve length'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_fabric:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_fabric
+        type: select
+        defaultLabel: 'Top fabric'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_fio_transparent:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_transparent
+        type: boolean
+        defaultLabel: 'Sheer'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_dress_length:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_dress_length
+        type: select
+        defaultLabel: 'Dress length'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_dress_occasion:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_dress_occasion
+        type: select
+        defaultLabel: 'Occasion'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_dress_material:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_dress_material
+        type: select
+        defaultLabel: 'Dress fabric'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_backless:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_backless
+        type: boolean
+        defaultLabel: 'Backless'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_dress_color:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_dress_color
+        type: select
+        defaultLabel: 'Dress colour'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_bottom_size:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_bottom_size
+        type: select
+        defaultLabel: 'Bottom size'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_length:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_length
+        type: select
+        defaultLabel: 'Length'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_waist_type:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_waist_type
+        type: select
+        defaultLabel: 'Waist type'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_stretch:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_stretch
+        type: boolean
+        defaultLabel: 'Stretch'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_men_size:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_men_size
+        type: select
+        defaultLabel: 'Men''s size'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_men_fit:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_men_fit
+        type: select
+        defaultLabel: 'Fit'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_men_collar:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_men_collar
+        type: select
+        defaultLabel: 'Collar'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_men_fabric:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_men_fabric
+        type: select
+        defaultLabel: 'Men''s fabric'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_wrinkle_free:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_wrinkle_free
+        type: boolean
+        defaultLabel: 'Wrinkle-free'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_outerwear_size:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_outerwear_size
+        type: select
+        defaultLabel: 'Coat size'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_outerwear_length:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_outerwear_length
+        type: select
+        defaultLabel: 'Coat length'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_outerwear_material:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_outerwear_material
+        type: select
+        defaultLabel: 'Outer material'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_lining:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_lining
+        type: select
+        defaultLabel: 'Lining'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_water_resistant:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_water_resistant
+        type: boolean
+        defaultLabel: 'Water-resistant'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_shoe_size:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_shoe_size
+        type: select
+        defaultLabel: 'Shoe size'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_heel_height:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_heel_height
+        type: select
+        defaultLabel: 'Heel height'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_shoe_material:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_shoe_material
+        type: select
+        defaultLabel: 'Shoe material'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_sole_type:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_sole_type
+        type: select
+        defaultLabel: 'Sole type'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_vegan:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_vegan
+        type: boolean
+        defaultLabel: 'Vegan'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_acc_material:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_acc_material
+        type: select
+        defaultLabel: 'Accessory material'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_closure:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_closure
+        type: select
+        defaultLabel: 'Closure'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_handmade:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_handmade
+        type: boolean
+        defaultLabel: 'Handmade'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_acc_color:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_acc_color
+        type: select
+        defaultLabel: 'Accessory colour'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_lingerie_size:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_lingerie_size
+        type: select
+        defaultLabel: 'Lingerie size'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_lingerie_material:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_lingerie_material
+        type: select
+        defaultLabel: 'Lingerie material'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_lingerie_style:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_lingerie_style
+        type: select
+        defaultLabel: 'Style'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_seamless:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_seamless
+        type: boolean
+        defaultLabel: 'Seamless'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_sport_size:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_sport_size
+        type: select
+        defaultLabel: 'Sport size'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_sport_fabric:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_sport_fabric
+        type: select
+        defaultLabel: 'Technical fabric'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_sport_intensity:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_sport_intensity
+        type: select
+        defaultLabel: 'Intensity'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_uv_protection:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_uv_protection
+        type: boolean
+        defaultLabel: 'UV protection'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_quick_dry:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_quick_dry
+        type: boolean
+        defaultLabel: 'Quick dry'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_item_material:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_item_material
+        type: select
+        defaultLabel: 'Leather goods material'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_stone:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_stone
+        type: select
+        defaultLabel: 'Stone'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_dimensions:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_dimensions
+        type: text
+        defaultLabel: 'Dimensions'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: false
+        isSortable: false
+        isUsedForRules: false
+    product_fio_hypoallergenic:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_hypoallergenic
+        type: boolean
+        defaultLabel: 'Hypoallergenic'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_item_color:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_item_color
+        type: select
+        defaultLabel: 'Item colour'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_fio_brand:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: fio_brand
+        type: select
+        defaultLabel: 'Brand'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_type_id:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: type_id
+        type: keyword
+        defaultLabel: 'Product type'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: false
+        isSortable: false
+        isUsedForRules: false
+    product_indexed_attributes:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: indexed_attributes
+        type: keyword
+        defaultLabel: 'Indexed attributes'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: false
+        isSortable: false
+        isUsedForRules: false

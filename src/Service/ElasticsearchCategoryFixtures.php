@@ -18,6 +18,7 @@ use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 use Gally\Fixture\Service\ElasticsearchFixtures;
 use Gally\Fixture\Service\EntityIndicesFixturesInterface;
+use Gally\SampleData\CatalogSelection;
 
 class ElasticsearchCategoryFixtures extends Fixture
 {
@@ -29,7 +30,13 @@ class ElasticsearchCategoryFixtures extends Fixture
 
     public function load(ObjectManager $manager): void
     {
+        // See ElasticsearchProductFixtures: one call covers every localized catalog.
         $this->entityIndicesFixtures->createEntityElasticsearchIndices('category');
-        $this->elasticsearchFixtures->loadFixturesDocumentFiles([__DIR__ . '/../DataFixtures/elasticsearch/categories_documents.json']);
+
+        // See ElasticsearchProductFixtures: one call covers every localized catalog, and the
+        // documents come from whichever catalog folders the selection loaded.
+        $this->elasticsearchFixtures->loadFixturesDocumentFiles(
+            CatalogSelection::documentFiles('categories_documents.json')
+        );
     }
 }

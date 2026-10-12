@@ -1,0 +1,215 @@
+include:
+    - ../common/cms_source_field.yaml
+    - localized_catalogs.yaml
+
+# A SourceFieldLabel is unique on (localized_catalog, source_field), so every field needs a row
+# per localized catalog of ours even though default/ owns the field.
+# The label reference name is built from the code rather than the field reference, which is also
+# what default/ does - hence `cms_page_title_*` against a field whose own reference is
+# `cms_page_tile`.
+
+Gally\Metadata\Entity\SourceFieldLabel:
+    cms_page_id_papershop_fr:
+        source_field: '@cms_page_id'
+        localized_catalog: '@papershop_fr'
+        label: 'Identifiant'
+    cms_page_id_papershop_en:
+        source_field: '@cms_page_id'
+        localized_catalog: '@papershop_en'
+        label: 'ID'
+    cms_page_id_papershop_de:
+        source_field: '@cms_page_id'
+        localized_catalog: '@papershop_de'
+        label: 'ID'
+    cms_page_title_papershop_fr:
+        source_field: '@cms_page_tile'
+        localized_catalog: '@papershop_fr'
+        label: 'Titre'
+    cms_page_title_papershop_en:
+        source_field: '@cms_page_tile'
+        localized_catalog: '@papershop_en'
+        label: 'Title'
+    cms_page_title_papershop_de:
+        source_field: '@cms_page_tile'
+        localized_catalog: '@papershop_de'
+        label: 'Titel'
+    cms_page_content_heading_papershop_fr:
+        source_field: '@cms_page_content_heading'
+        localized_catalog: '@papershop_fr'
+        label: 'Chapeau'
+    cms_page_content_heading_papershop_en:
+        source_field: '@cms_page_content_heading'
+        localized_catalog: '@papershop_en'
+        label: 'Standfirst'
+    cms_page_content_heading_papershop_de:
+        source_field: '@cms_page_content_heading'
+        localized_catalog: '@papershop_de'
+        label: 'Einleitung'
+    cms_page_content_papershop_fr:
+        source_field: '@cms_page_content'
+        localized_catalog: '@papershop_fr'
+        label: 'Contenu'
+    cms_page_content_papershop_en:
+        source_field: '@cms_page_content'
+        localized_catalog: '@papershop_en'
+        label: 'Content'
+    cms_page_content_papershop_de:
+        source_field: '@cms_page_content'
+        localized_catalog: '@papershop_de'
+        label: 'Inhalt'
+    cms_page_url_key_papershop_fr:
+        source_field: '@cms_page_url_key'
+        localized_catalog: '@papershop_fr'
+        label: 'Clé d''URL'
+    cms_page_url_key_papershop_en:
+        source_field: '@cms_page_url_key'
+        localized_catalog: '@papershop_en'
+        label: 'URL key'
+    cms_page_url_key_papershop_de:
+        source_field: '@cms_page_url_key'
+        localized_catalog: '@papershop_de'
+        label: 'URL-Schlüssel'
+    cms_page_meta_description_papershop_fr:
+        source_field: '@cms_page_meta_description'
+        localized_catalog: '@papershop_fr'
+        label: 'Méta description'
+    cms_page_meta_description_papershop_en:
+        source_field: '@cms_page_meta_description'
+        localized_catalog: '@papershop_en'
+        label: 'Meta description'
+    cms_page_meta_description_papershop_de:
+        source_field: '@cms_page_meta_description'
+        localized_catalog: '@papershop_de'
+        label: 'Meta-Beschreibung'
+    cms_page_meta_keyword_papershop_fr:
+        source_field: '@cms_page_meta_keyword'
+        localized_catalog: '@papershop_fr'
+        label: 'Méta mots-clés'
+    cms_page_meta_keyword_papershop_en:
+        source_field: '@cms_page_meta_keyword'
+        localized_catalog: '@papershop_en'
+        label: 'Meta keywords'
+    cms_page_meta_keyword_papershop_de:
+        source_field: '@cms_page_meta_keyword'
+        localized_catalog: '@papershop_de'
+        label: 'Meta-Schlüsselwörter'
+    cms_page_meta_title_papershop_fr:
+        source_field: '@cms_page_meta_title'
+        localized_catalog: '@papershop_fr'
+        label: 'Méta titre'
+    cms_page_meta_title_papershop_en:
+        source_field: '@cms_page_meta_title'
+        localized_catalog: '@papershop_en'
+        label: 'Meta title'
+    cms_page_meta_title_papershop_de:
+        source_field: '@cms_page_meta_title'
+        localized_catalog: '@papershop_de'
+        label: 'Meta-Titel'
+    cms_page_tags_papershop_fr:
+        source_field: '@cms_page_tags'
+        localized_catalog: '@papershop_fr'
+        label: 'Étiquettes'
+    cms_page_tags_papershop_en:
+        source_field: '@cms_page_tags'
+        localized_catalog: '@papershop_en'
+        label: 'Tags'
+    cms_page_tags_papershop_de:
+        source_field: '@cms_page_tags'
+        localized_catalog: '@papershop_de'
+        label: 'Schlagwörter'
+    cms_page_content_type_papershop_fr:
+        source_field: '@cms_page_content_type'
+        localized_catalog: '@papershop_fr'
+        label: 'Type de contenu'
+    cms_page_content_type_papershop_en:
+        source_field: '@cms_page_content_type'
+        localized_catalog: '@papershop_en'
+        label: 'Content type'
+    cms_page_content_type_papershop_de:
+        source_field: '@cms_page_content_type'
+        localized_catalog: '@papershop_de'
+        label: 'Inhaltstyp'
+    cms_page_topic_papershop_fr:
+        source_field: '@cms_page_topic'
+        localized_catalog: '@papershop_fr'
+        label: 'Thème'
+    cms_page_topic_papershop_en:
+        source_field: '@cms_page_topic'
+        localized_catalog: '@papershop_en'
+        label: 'Topic'
+    cms_page_topic_papershop_de:
+        source_field: '@cms_page_topic'
+        localized_catalog: '@papershop_de'
+        label: 'Thema'
+    cms_page_author_papershop_fr:
+        source_field: '@cms_page_author'
+        localized_catalog: '@papershop_fr'
+        label: 'Auteur'
+    cms_page_author_papershop_en:
+        source_field: '@cms_page_author'
+        localized_catalog: '@papershop_en'
+        label: 'Author'
+    cms_page_author_papershop_de:
+        source_field: '@cms_page_author'
+        localized_catalog: '@papershop_de'
+        label: 'Autor'
+    cms_page_published_at_papershop_fr:
+        source_field: '@cms_page_published_at'
+        localized_catalog: '@papershop_fr'
+        label: 'Date de publication'
+    cms_page_published_at_papershop_en:
+        source_field: '@cms_page_published_at'
+        localized_catalog: '@papershop_en'
+        label: 'Published at'
+    cms_page_published_at_papershop_de:
+        source_field: '@cms_page_published_at'
+        localized_catalog: '@papershop_de'
+        label: 'Veröffentlicht am'
+    cms_page_reading_time_papershop_fr:
+        source_field: '@cms_page_reading_time'
+        localized_catalog: '@papershop_fr'
+        label: 'Temps de lecture'
+    cms_page_reading_time_papershop_en:
+        source_field: '@cms_page_reading_time'
+        localized_catalog: '@papershop_en'
+        label: 'Reading time'
+    cms_page_reading_time_papershop_de:
+        source_field: '@cms_page_reading_time'
+        localized_catalog: '@papershop_de'
+        label: 'Lesedauer'
+    cms_page_is_featured_papershop_fr:
+        source_field: '@cms_page_is_featured'
+        localized_catalog: '@papershop_fr'
+        label: 'Mis en avant'
+    cms_page_is_featured_papershop_en:
+        source_field: '@cms_page_is_featured'
+        localized_catalog: '@papershop_en'
+        label: 'Featured'
+    cms_page_is_featured_papershop_de:
+        source_field: '@cms_page_is_featured'
+        localized_catalog: '@papershop_de'
+        label: 'Hervorgehoben'
+    cms_page_image_papershop_fr:
+        source_field: '@cms_page_image'
+        localized_catalog: '@papershop_fr'
+        label: 'Image'
+    cms_page_image_papershop_en:
+        source_field: '@cms_page_image'
+        localized_catalog: '@papershop_en'
+        label: 'Image'
+    cms_page_image_papershop_de:
+        source_field: '@cms_page_image'
+        localized_catalog: '@papershop_de'
+        label: 'Bild'
+    cms_page_related_skus_papershop_fr:
+        source_field: '@cms_page_related_skus'
+        localized_catalog: '@papershop_fr'
+        label: 'Produits associés'
+    cms_page_related_skus_papershop_en:
+        source_field: '@cms_page_related_skus'
+        localized_catalog: '@papershop_en'
+        label: 'Related products'
+    cms_page_related_skus_papershop_de:
+        source_field: '@cms_page_related_skus'
+        localized_catalog: '@papershop_de'
+        label: 'Zugehörige Produkte'

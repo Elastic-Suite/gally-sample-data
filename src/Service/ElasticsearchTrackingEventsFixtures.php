@@ -19,6 +19,7 @@ use Doctrine\Persistence\ObjectManager;
 use Gally\Catalog\Repository\LocalizedCatalogRepository;
 use Gally\Fixture\Service\ElasticsearchFixturesInterface;
 use Gally\Fixture\Service\EntityDataStreamsFixturesInterface;
+use Gally\SampleData\CatalogSelection;
 use Gally\Tracker\Service\SessionTransformProvisioner;
 
 class ElasticsearchTrackingEventsFixtures extends Fixture
@@ -33,9 +34,17 @@ class ElasticsearchTrackingEventsFixtures extends Fixture
 
     public function load(ObjectManager $manager): void
     {
+        // Called once, from here only. Unlike the index equivalents, this drops the data stream,
+        // its ISM policy and its index template before recreating them, so a second service
+        // calling it again would wipe whatever the first had already indexed. It iterates every
+        // localized catalog, so every catalog folder's data streams come from this one call.
         $this->entityDataStreamsFixtures->createEntityElasticsearchDataStreams('tracking_event');
+
+        // A data stream is written with op_type `create`, not `index`, so a duplicate event id
+        // inside one stream is a 409 that fails the whole load rather than silently overwriting
+        // the way the product documents would.
         $this->elasticsearchFixtures->loadFixturesDocumentFiles(
-            [__DIR__ . '/../DataFixtures/elasticsearch/tracking_event_documents.json']
+            CatalogSelection::documentFiles('tracking_event_documents.json')
         );
 
         // Bypasses TrackingEventHandler, so its automated tracking_session provisioning never

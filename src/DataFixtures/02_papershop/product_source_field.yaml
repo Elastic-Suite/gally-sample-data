@@ -1,0 +1,198 @@
+# Attributes this catalog owns. The system fields are inserted by gally-standard's
+# install migration and by common/; redeclaring one breaks the load on
+# the unique (code, metadata_id) constraint.
+
+Gally\Metadata\Entity\SourceField:
+    product_llv_brand:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_brand
+        type: select
+        defaultLabel: 'Brand'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_llv_material:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_material
+        type: select
+        defaultLabel: 'Material'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_llv_color:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_color
+        type: select
+        defaultLabel: 'Colour'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_llv_origin:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_origin
+        type: select
+        defaultLabel: 'Country of manufacture'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_llv_is_eco:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_is_eco
+        type: boolean
+        defaultLabel: 'Sustainable materials'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_llv_paper_weight:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_paper_weight
+        type: int
+        defaultLabel: 'Paper weight (gsm)'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_llv_ruling:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_ruling
+        type: select
+        defaultLabel: 'Ruling'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_llv_format:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_format
+        type: select
+        defaultLabel: 'Size'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_llv_binding:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_binding
+        type: select
+        defaultLabel: 'Binding'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_llv_author:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_author
+        type: select
+        defaultLabel: 'Author'
+        isSearchable: true
+        weight: 1
+        isSpellchecked: true
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+        isUsedInAutocomplete: true
+    product_llv_language:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_language
+        type: select
+        defaultLabel: 'Text language'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true
+    product_llv_page_count:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_page_count
+        type: int
+        defaultLabel: 'Page count'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_llv_publication_year:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_publication_year
+        type: int
+        defaultLabel: 'Year of publication'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_llv_width_cm:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_width_cm
+        type: int
+        defaultLabel: 'Width (cm)'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_llv_height_cm:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_height_cm
+        type: int
+        defaultLabel: 'Height (cm)'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_llv_depth_cm:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_depth_cm
+        type: int
+        defaultLabel: 'Depth (cm)'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: true
+        isUsedForRules: true
+    product_llv_assembly_required:
+        metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
+        code: llv_assembly_required
+        type: boolean
+        defaultLabel: 'Assembly required'
+        isSearchable: false
+        weight: 1
+        isSpellchecked: false
+        isFilterable: true
+        isSortable: false
+        isUsedForRules: true

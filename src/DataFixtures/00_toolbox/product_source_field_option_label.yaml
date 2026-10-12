@@ -1,0 +1,2046 @@
+include:
+    - localized_catalogs.yaml
+    - product_source_field_option.yaml
+    - ../common/product_source_field_option.yaml
+
+Gally\Metadata\Entity\SourceFieldOptionLabel:
+    product_tbx_tool_material_option_acier_chrome_vanadium_toolbox_fr:
+        source_field_option: '@product_tbx_tool_material_option_acier_chrome_vanadium'
+        localized_catalog: '@toolbox_fr'
+        label: 'Acier chrome-vanadium'
+    product_tbx_tool_material_option_acier_chrome_vanadium_toolbox_en:
+        source_field_option: '@product_tbx_tool_material_option_acier_chrome_vanadium'
+        localized_catalog: '@toolbox_en'
+        label: 'Chrome-vanadium steel'
+    product_tbx_tool_material_option_acier_chrome_vanadium_toolbox_de:
+        source_field_option: '@product_tbx_tool_material_option_acier_chrome_vanadium'
+        localized_catalog: '@toolbox_de'
+        label: 'Chrom-Vanadium-Stahl'
+    product_tbx_tool_material_option_acier_s2_toolbox_fr:
+        source_field_option: '@product_tbx_tool_material_option_acier_s2'
+        localized_catalog: '@toolbox_fr'
+        label: 'Acier S2'
+    product_tbx_tool_material_option_acier_s2_toolbox_en:
+        source_field_option: '@product_tbx_tool_material_option_acier_s2'
+        localized_catalog: '@toolbox_en'
+        label: 'S2 steel'
+    product_tbx_tool_material_option_acier_s2_toolbox_de:
+        source_field_option: '@product_tbx_tool_material_option_acier_s2'
+        localized_catalog: '@toolbox_de'
+        label: 'S2-Stahl'
+    product_tbx_tool_material_option_acier_crmo_toolbox_fr:
+        source_field_option: '@product_tbx_tool_material_option_acier_crmo'
+        localized_catalog: '@toolbox_fr'
+        label: 'Acier CrMo'
+    product_tbx_tool_material_option_acier_crmo_toolbox_en:
+        source_field_option: '@product_tbx_tool_material_option_acier_crmo'
+        localized_catalog: '@toolbox_en'
+        label: 'CrMo steel'
+    product_tbx_tool_material_option_acier_crmo_toolbox_de:
+        source_field_option: '@product_tbx_tool_material_option_acier_crmo'
+        localized_catalog: '@toolbox_de'
+        label: 'CrMo-Stahl'
+    product_tbx_tool_material_option_acier_inox_toolbox_fr:
+        source_field_option: '@product_tbx_tool_material_option_acier_inox'
+        localized_catalog: '@toolbox_fr'
+        label: 'Acier inox'
+    product_tbx_tool_material_option_acier_inox_toolbox_en:
+        source_field_option: '@product_tbx_tool_material_option_acier_inox'
+        localized_catalog: '@toolbox_en'
+        label: 'Stainless steel'
+    product_tbx_tool_material_option_acier_inox_toolbox_de:
+        source_field_option: '@product_tbx_tool_material_option_acier_inox'
+        localized_catalog: '@toolbox_de'
+        label: 'Edelstahl'
+    product_tbx_tool_material_option_bi_matiere_toolbox_fr:
+        source_field_option: '@product_tbx_tool_material_option_bi_matiere'
+        localized_catalog: '@toolbox_fr'
+        label: 'Bi-matière'
+    product_tbx_tool_material_option_bi_matiere_toolbox_en:
+        source_field_option: '@product_tbx_tool_material_option_bi_matiere'
+        localized_catalog: '@toolbox_en'
+        label: 'Bi-material'
+    product_tbx_tool_material_option_bi_matiere_toolbox_de:
+        source_field_option: '@product_tbx_tool_material_option_bi_matiere'
+        localized_catalog: '@toolbox_de'
+        label: 'Bi-Material'
+    product_tbx_tool_finish_option_chrome_toolbox_fr:
+        source_field_option: '@product_tbx_tool_finish_option_chrome'
+        localized_catalog: '@toolbox_fr'
+        label: 'Chrome'
+    product_tbx_tool_finish_option_chrome_toolbox_en:
+        source_field_option: '@product_tbx_tool_finish_option_chrome'
+        localized_catalog: '@toolbox_en'
+        label: 'Chrome'
+    product_tbx_tool_finish_option_chrome_toolbox_de:
+        source_field_option: '@product_tbx_tool_finish_option_chrome'
+        localized_catalog: '@toolbox_de'
+        label: 'Chrom'
+    product_tbx_tool_finish_option_satine_toolbox_fr:
+        source_field_option: '@product_tbx_tool_finish_option_satine'
+        localized_catalog: '@toolbox_fr'
+        label: 'Satiné'
+    product_tbx_tool_finish_option_satine_toolbox_en:
+        source_field_option: '@product_tbx_tool_finish_option_satine'
+        localized_catalog: '@toolbox_en'
+        label: 'Satin'
+    product_tbx_tool_finish_option_satine_toolbox_de:
+        source_field_option: '@product_tbx_tool_finish_option_satine'
+        localized_catalog: '@toolbox_de'
+        label: 'Satiniert'
+    product_tbx_tool_finish_option_nickele_toolbox_fr:
+        source_field_option: '@product_tbx_tool_finish_option_nickele'
+        localized_catalog: '@toolbox_fr'
+        label: 'Nickelé'
+    product_tbx_tool_finish_option_nickele_toolbox_en:
+        source_field_option: '@product_tbx_tool_finish_option_nickele'
+        localized_catalog: '@toolbox_en'
+        label: 'Nickel-plated'
+    product_tbx_tool_finish_option_nickele_toolbox_de:
+        source_field_option: '@product_tbx_tool_finish_option_nickele'
+        localized_catalog: '@toolbox_de'
+        label: 'Vernickelt'
+    product_tbx_tool_finish_option_noir_oxyde_toolbox_fr:
+        source_field_option: '@product_tbx_tool_finish_option_noir_oxyde'
+        localized_catalog: '@toolbox_fr'
+        label: 'Noir oxydé'
+    product_tbx_tool_finish_option_noir_oxyde_toolbox_en:
+        source_field_option: '@product_tbx_tool_finish_option_noir_oxyde'
+        localized_catalog: '@toolbox_en'
+        label: 'Black oxide'
+    product_tbx_tool_finish_option_noir_oxyde_toolbox_de:
+        source_field_option: '@product_tbx_tool_finish_option_noir_oxyde'
+        localized_catalog: '@toolbox_de'
+        label: 'Schwarz oxidiert'
+    product_tbx_tool_finish_option_phosphate_toolbox_fr:
+        source_field_option: '@product_tbx_tool_finish_option_phosphate'
+        localized_catalog: '@toolbox_fr'
+        label: 'Phosphaté'
+    product_tbx_tool_finish_option_phosphate_toolbox_en:
+        source_field_option: '@product_tbx_tool_finish_option_phosphate'
+        localized_catalog: '@toolbox_en'
+        label: 'Phosphated'
+    product_tbx_tool_finish_option_phosphate_toolbox_de:
+        source_field_option: '@product_tbx_tool_finish_option_phosphate'
+        localized_catalog: '@toolbox_de'
+        label: 'Phosphatiert'
+    product_tbx_pieces_count_option_1_toolbox_fr:
+        source_field_option: '@product_tbx_pieces_count_option_1'
+        localized_catalog: '@toolbox_fr'
+        label: '1'
+    product_tbx_pieces_count_option_1_toolbox_en:
+        source_field_option: '@product_tbx_pieces_count_option_1'
+        localized_catalog: '@toolbox_en'
+        label: '1'
+    product_tbx_pieces_count_option_1_toolbox_de:
+        source_field_option: '@product_tbx_pieces_count_option_1'
+        localized_catalog: '@toolbox_de'
+        label: '1'
+    product_tbx_pieces_count_option_3_toolbox_fr:
+        source_field_option: '@product_tbx_pieces_count_option_3'
+        localized_catalog: '@toolbox_fr'
+        label: '3'
+    product_tbx_pieces_count_option_3_toolbox_en:
+        source_field_option: '@product_tbx_pieces_count_option_3'
+        localized_catalog: '@toolbox_en'
+        label: '3'
+    product_tbx_pieces_count_option_3_toolbox_de:
+        source_field_option: '@product_tbx_pieces_count_option_3'
+        localized_catalog: '@toolbox_de'
+        label: '3'
+    product_tbx_pieces_count_option_5_toolbox_fr:
+        source_field_option: '@product_tbx_pieces_count_option_5'
+        localized_catalog: '@toolbox_fr'
+        label: '5'
+    product_tbx_pieces_count_option_5_toolbox_en:
+        source_field_option: '@product_tbx_pieces_count_option_5'
+        localized_catalog: '@toolbox_en'
+        label: '5'
+    product_tbx_pieces_count_option_5_toolbox_de:
+        source_field_option: '@product_tbx_pieces_count_option_5'
+        localized_catalog: '@toolbox_de'
+        label: '5'
+    product_tbx_pieces_count_option_6_toolbox_fr:
+        source_field_option: '@product_tbx_pieces_count_option_6'
+        localized_catalog: '@toolbox_fr'
+        label: '6'
+    product_tbx_pieces_count_option_6_toolbox_en:
+        source_field_option: '@product_tbx_pieces_count_option_6'
+        localized_catalog: '@toolbox_en'
+        label: '6'
+    product_tbx_pieces_count_option_6_toolbox_de:
+        source_field_option: '@product_tbx_pieces_count_option_6'
+        localized_catalog: '@toolbox_de'
+        label: '6'
+    product_tbx_pieces_count_option_7_toolbox_fr:
+        source_field_option: '@product_tbx_pieces_count_option_7'
+        localized_catalog: '@toolbox_fr'
+        label: '7'
+    product_tbx_pieces_count_option_7_toolbox_en:
+        source_field_option: '@product_tbx_pieces_count_option_7'
+        localized_catalog: '@toolbox_en'
+        label: '7'
+    product_tbx_pieces_count_option_7_toolbox_de:
+        source_field_option: '@product_tbx_pieces_count_option_7'
+        localized_catalog: '@toolbox_de'
+        label: '7'
+    product_tbx_pieces_count_option_8_toolbox_fr:
+        source_field_option: '@product_tbx_pieces_count_option_8'
+        localized_catalog: '@toolbox_fr'
+        label: '8'
+    product_tbx_pieces_count_option_8_toolbox_en:
+        source_field_option: '@product_tbx_pieces_count_option_8'
+        localized_catalog: '@toolbox_en'
+        label: '8'
+    product_tbx_pieces_count_option_8_toolbox_de:
+        source_field_option: '@product_tbx_pieces_count_option_8'
+        localized_catalog: '@toolbox_de'
+        label: '8'
+    product_tbx_pieces_count_option_9_toolbox_fr:
+        source_field_option: '@product_tbx_pieces_count_option_9'
+        localized_catalog: '@toolbox_fr'
+        label: '9'
+    product_tbx_pieces_count_option_9_toolbox_en:
+        source_field_option: '@product_tbx_pieces_count_option_9'
+        localized_catalog: '@toolbox_en'
+        label: '9'
+    product_tbx_pieces_count_option_9_toolbox_de:
+        source_field_option: '@product_tbx_pieces_count_option_9'
+        localized_catalog: '@toolbox_de'
+        label: '9'
+    product_tbx_pieces_count_option_10_toolbox_fr:
+        source_field_option: '@product_tbx_pieces_count_option_10'
+        localized_catalog: '@toolbox_fr'
+        label: '10'
+    product_tbx_pieces_count_option_10_toolbox_en:
+        source_field_option: '@product_tbx_pieces_count_option_10'
+        localized_catalog: '@toolbox_en'
+        label: '10'
+    product_tbx_pieces_count_option_10_toolbox_de:
+        source_field_option: '@product_tbx_pieces_count_option_10'
+        localized_catalog: '@toolbox_de'
+        label: '10'
+    product_tbx_pieces_count_option_12_toolbox_fr:
+        source_field_option: '@product_tbx_pieces_count_option_12'
+        localized_catalog: '@toolbox_fr'
+        label: '12'
+    product_tbx_pieces_count_option_12_toolbox_en:
+        source_field_option: '@product_tbx_pieces_count_option_12'
+        localized_catalog: '@toolbox_en'
+        label: '12'
+    product_tbx_pieces_count_option_12_toolbox_de:
+        source_field_option: '@product_tbx_pieces_count_option_12'
+        localized_catalog: '@toolbox_de'
+        label: '12'
+    product_tbx_pieces_count_option_18_toolbox_fr:
+        source_field_option: '@product_tbx_pieces_count_option_18'
+        localized_catalog: '@toolbox_fr'
+        label: '18'
+    product_tbx_pieces_count_option_18_toolbox_en:
+        source_field_option: '@product_tbx_pieces_count_option_18'
+        localized_catalog: '@toolbox_en'
+        label: '18'
+    product_tbx_pieces_count_option_18_toolbox_de:
+        source_field_option: '@product_tbx_pieces_count_option_18'
+        localized_catalog: '@toolbox_de'
+        label: '18'
+    product_tbx_pieces_count_option_24_toolbox_fr:
+        source_field_option: '@product_tbx_pieces_count_option_24'
+        localized_catalog: '@toolbox_fr'
+        label: '24'
+    product_tbx_pieces_count_option_24_toolbox_en:
+        source_field_option: '@product_tbx_pieces_count_option_24'
+        localized_catalog: '@toolbox_en'
+        label: '24'
+    product_tbx_pieces_count_option_24_toolbox_de:
+        source_field_option: '@product_tbx_pieces_count_option_24'
+        localized_catalog: '@toolbox_de'
+        label: '24'
+    product_tbx_pieces_count_option_32_toolbox_fr:
+        source_field_option: '@product_tbx_pieces_count_option_32'
+        localized_catalog: '@toolbox_fr'
+        label: '32'
+    product_tbx_pieces_count_option_32_toolbox_en:
+        source_field_option: '@product_tbx_pieces_count_option_32'
+        localized_catalog: '@toolbox_en'
+        label: '32'
+    product_tbx_pieces_count_option_32_toolbox_de:
+        source_field_option: '@product_tbx_pieces_count_option_32'
+        localized_catalog: '@toolbox_de'
+        label: '32'
+    product_tbx_voltage_option_12v_toolbox_fr:
+        source_field_option: '@product_tbx_voltage_option_12v'
+        localized_catalog: '@toolbox_fr'
+        label: '12V'
+    product_tbx_voltage_option_12v_toolbox_en:
+        source_field_option: '@product_tbx_voltage_option_12v'
+        localized_catalog: '@toolbox_en'
+        label: '12V'
+    product_tbx_voltage_option_12v_toolbox_de:
+        source_field_option: '@product_tbx_voltage_option_12v'
+        localized_catalog: '@toolbox_de'
+        label: '12V'
+    product_tbx_voltage_option_18v_toolbox_fr:
+        source_field_option: '@product_tbx_voltage_option_18v'
+        localized_catalog: '@toolbox_fr'
+        label: '18V'
+    product_tbx_voltage_option_18v_toolbox_en:
+        source_field_option: '@product_tbx_voltage_option_18v'
+        localized_catalog: '@toolbox_en'
+        label: '18V'
+    product_tbx_voltage_option_18v_toolbox_de:
+        source_field_option: '@product_tbx_voltage_option_18v'
+        localized_catalog: '@toolbox_de'
+        label: '18V'
+    product_tbx_voltage_option_36v_toolbox_fr:
+        source_field_option: '@product_tbx_voltage_option_36v'
+        localized_catalog: '@toolbox_fr'
+        label: '36V'
+    product_tbx_voltage_option_36v_toolbox_en:
+        source_field_option: '@product_tbx_voltage_option_36v'
+        localized_catalog: '@toolbox_en'
+        label: '36V'
+    product_tbx_voltage_option_36v_toolbox_de:
+        source_field_option: '@product_tbx_voltage_option_36v'
+        localized_catalog: '@toolbox_de'
+        label: '36V'
+    product_tbx_voltage_option_230v_toolbox_fr:
+        source_field_option: '@product_tbx_voltage_option_230v'
+        localized_catalog: '@toolbox_fr'
+        label: '230V'
+    product_tbx_voltage_option_230v_toolbox_en:
+        source_field_option: '@product_tbx_voltage_option_230v'
+        localized_catalog: '@toolbox_en'
+        label: '230V'
+    product_tbx_voltage_option_230v_toolbox_de:
+        source_field_option: '@product_tbx_voltage_option_230v'
+        localized_catalog: '@toolbox_de'
+        label: '230V'
+    product_tbx_motor_type_option_brushless_toolbox_fr:
+        source_field_option: '@product_tbx_motor_type_option_brushless'
+        localized_catalog: '@toolbox_fr'
+        label: 'Brushless'
+    product_tbx_motor_type_option_brushless_toolbox_en:
+        source_field_option: '@product_tbx_motor_type_option_brushless'
+        localized_catalog: '@toolbox_en'
+        label: 'Brushless'
+    product_tbx_motor_type_option_brushless_toolbox_de:
+        source_field_option: '@product_tbx_motor_type_option_brushless'
+        localized_catalog: '@toolbox_de'
+        label: 'Bürstenlos'
+    product_tbx_motor_type_option_charbon_toolbox_fr:
+        source_field_option: '@product_tbx_motor_type_option_charbon'
+        localized_catalog: '@toolbox_fr'
+        label: 'Charbon'
+    product_tbx_motor_type_option_charbon_toolbox_en:
+        source_field_option: '@product_tbx_motor_type_option_charbon'
+        localized_catalog: '@toolbox_en'
+        label: 'Brushed'
+    product_tbx_motor_type_option_charbon_toolbox_de:
+        source_field_option: '@product_tbx_motor_type_option_charbon'
+        localized_catalog: '@toolbox_de'
+        label: 'Kohlebürsten'
+    product_tbx_max_torque_nm_option_28_toolbox_fr:
+        source_field_option: '@product_tbx_max_torque_nm_option_28'
+        localized_catalog: '@toolbox_fr'
+        label: '28'
+    product_tbx_max_torque_nm_option_28_toolbox_en:
+        source_field_option: '@product_tbx_max_torque_nm_option_28'
+        localized_catalog: '@toolbox_en'
+        label: '28'
+    product_tbx_max_torque_nm_option_28_toolbox_de:
+        source_field_option: '@product_tbx_max_torque_nm_option_28'
+        localized_catalog: '@toolbox_de'
+        label: '28'
+    product_tbx_max_torque_nm_option_30_toolbox_fr:
+        source_field_option: '@product_tbx_max_torque_nm_option_30'
+        localized_catalog: '@toolbox_fr'
+        label: '30'
+    product_tbx_max_torque_nm_option_30_toolbox_en:
+        source_field_option: '@product_tbx_max_torque_nm_option_30'
+        localized_catalog: '@toolbox_en'
+        label: '30'
+    product_tbx_max_torque_nm_option_30_toolbox_de:
+        source_field_option: '@product_tbx_max_torque_nm_option_30'
+        localized_catalog: '@toolbox_de'
+        label: '30'
+    product_tbx_max_torque_nm_option_50_toolbox_fr:
+        source_field_option: '@product_tbx_max_torque_nm_option_50'
+        localized_catalog: '@toolbox_fr'
+        label: '50'
+    product_tbx_max_torque_nm_option_50_toolbox_en:
+        source_field_option: '@product_tbx_max_torque_nm_option_50'
+        localized_catalog: '@toolbox_en'
+        label: '50'
+    product_tbx_max_torque_nm_option_50_toolbox_de:
+        source_field_option: '@product_tbx_max_torque_nm_option_50'
+        localized_catalog: '@toolbox_de'
+        label: '50'
+    product_tbx_max_torque_nm_option_55_toolbox_fr:
+        source_field_option: '@product_tbx_max_torque_nm_option_55'
+        localized_catalog: '@toolbox_fr'
+        label: '55'
+    product_tbx_max_torque_nm_option_55_toolbox_en:
+        source_field_option: '@product_tbx_max_torque_nm_option_55'
+        localized_catalog: '@toolbox_en'
+        label: '55'
+    product_tbx_max_torque_nm_option_55_toolbox_de:
+        source_field_option: '@product_tbx_max_torque_nm_option_55'
+        localized_catalog: '@toolbox_de'
+        label: '55'
+    product_tbx_max_torque_nm_option_60_toolbox_fr:
+        source_field_option: '@product_tbx_max_torque_nm_option_60'
+        localized_catalog: '@toolbox_fr'
+        label: '60'
+    product_tbx_max_torque_nm_option_60_toolbox_en:
+        source_field_option: '@product_tbx_max_torque_nm_option_60'
+        localized_catalog: '@toolbox_en'
+        label: '60'
+    product_tbx_max_torque_nm_option_60_toolbox_de:
+        source_field_option: '@product_tbx_max_torque_nm_option_60'
+        localized_catalog: '@toolbox_de'
+        label: '60'
+    product_tbx_max_torque_nm_option_82_toolbox_fr:
+        source_field_option: '@product_tbx_max_torque_nm_option_82'
+        localized_catalog: '@toolbox_fr'
+        label: '82'
+    product_tbx_max_torque_nm_option_82_toolbox_en:
+        source_field_option: '@product_tbx_max_torque_nm_option_82'
+        localized_catalog: '@toolbox_en'
+        label: '82'
+    product_tbx_max_torque_nm_option_82_toolbox_de:
+        source_field_option: '@product_tbx_max_torque_nm_option_82'
+        localized_catalog: '@toolbox_de'
+        label: '82'
+    product_tbx_max_torque_nm_option_100_toolbox_fr:
+        source_field_option: '@product_tbx_max_torque_nm_option_100'
+        localized_catalog: '@toolbox_fr'
+        label: '100'
+    product_tbx_max_torque_nm_option_100_toolbox_en:
+        source_field_option: '@product_tbx_max_torque_nm_option_100'
+        localized_catalog: '@toolbox_en'
+        label: '100'
+    product_tbx_max_torque_nm_option_100_toolbox_de:
+        source_field_option: '@product_tbx_max_torque_nm_option_100'
+        localized_catalog: '@toolbox_de'
+        label: '100'
+    product_tbx_max_torque_nm_option_135_toolbox_fr:
+        source_field_option: '@product_tbx_max_torque_nm_option_135'
+        localized_catalog: '@toolbox_fr'
+        label: '135'
+    product_tbx_max_torque_nm_option_135_toolbox_en:
+        source_field_option: '@product_tbx_max_torque_nm_option_135'
+        localized_catalog: '@toolbox_en'
+        label: '135'
+    product_tbx_max_torque_nm_option_135_toolbox_de:
+        source_field_option: '@product_tbx_max_torque_nm_option_135'
+        localized_catalog: '@toolbox_de'
+        label: '135'
+    product_tbx_max_torque_nm_option_200_toolbox_fr:
+        source_field_option: '@product_tbx_max_torque_nm_option_200'
+        localized_catalog: '@toolbox_fr'
+        label: '200'
+    product_tbx_max_torque_nm_option_200_toolbox_en:
+        source_field_option: '@product_tbx_max_torque_nm_option_200'
+        localized_catalog: '@toolbox_en'
+        label: '200'
+    product_tbx_max_torque_nm_option_200_toolbox_de:
+        source_field_option: '@product_tbx_max_torque_nm_option_200'
+        localized_catalog: '@toolbox_de'
+        label: '200'
+    product_tbx_max_torque_nm_option_220_toolbox_fr:
+        source_field_option: '@product_tbx_max_torque_nm_option_220'
+        localized_catalog: '@toolbox_fr'
+        label: '220'
+    product_tbx_max_torque_nm_option_220_toolbox_en:
+        source_field_option: '@product_tbx_max_torque_nm_option_220'
+        localized_catalog: '@toolbox_en'
+        label: '220'
+    product_tbx_max_torque_nm_option_220_toolbox_de:
+        source_field_option: '@product_tbx_max_torque_nm_option_220'
+        localized_catalog: '@toolbox_de'
+        label: '220'
+    product_tbx_max_torque_nm_option_350_toolbox_fr:
+        source_field_option: '@product_tbx_max_torque_nm_option_350'
+        localized_catalog: '@toolbox_fr'
+        label: '350'
+    product_tbx_max_torque_nm_option_350_toolbox_en:
+        source_field_option: '@product_tbx_max_torque_nm_option_350'
+        localized_catalog: '@toolbox_en'
+        label: '350'
+    product_tbx_max_torque_nm_option_350_toolbox_de:
+        source_field_option: '@product_tbx_max_torque_nm_option_350'
+        localized_catalog: '@toolbox_de'
+        label: '350'
+    product_tbx_max_torque_nm_option_400_toolbox_fr:
+        source_field_option: '@product_tbx_max_torque_nm_option_400'
+        localized_catalog: '@toolbox_fr'
+        label: '400'
+    product_tbx_max_torque_nm_option_400_toolbox_en:
+        source_field_option: '@product_tbx_max_torque_nm_option_400'
+        localized_catalog: '@toolbox_en'
+        label: '400'
+    product_tbx_max_torque_nm_option_400_toolbox_de:
+        source_field_option: '@product_tbx_max_torque_nm_option_400'
+        localized_catalog: '@toolbox_de'
+        label: '400'
+    product_tbx_max_torque_nm_option_700_toolbox_fr:
+        source_field_option: '@product_tbx_max_torque_nm_option_700'
+        localized_catalog: '@toolbox_fr'
+        label: '700'
+    product_tbx_max_torque_nm_option_700_toolbox_en:
+        source_field_option: '@product_tbx_max_torque_nm_option_700'
+        localized_catalog: '@toolbox_en'
+        label: '700'
+    product_tbx_max_torque_nm_option_700_toolbox_de:
+        source_field_option: '@product_tbx_max_torque_nm_option_700'
+        localized_catalog: '@toolbox_de'
+        label: '700'
+    product_tbx_speed_settings_option_1_vitesse_toolbox_fr:
+        source_field_option: '@product_tbx_speed_settings_option_1_vitesse'
+        localized_catalog: '@toolbox_fr'
+        label: '1 vitesse'
+    product_tbx_speed_settings_option_1_vitesse_toolbox_en:
+        source_field_option: '@product_tbx_speed_settings_option_1_vitesse'
+        localized_catalog: '@toolbox_en'
+        label: '1 speed'
+    product_tbx_speed_settings_option_1_vitesse_toolbox_de:
+        source_field_option: '@product_tbx_speed_settings_option_1_vitesse'
+        localized_catalog: '@toolbox_de'
+        label: '1 Gang'
+    product_tbx_speed_settings_option_2_vitesses_toolbox_fr:
+        source_field_option: '@product_tbx_speed_settings_option_2_vitesses'
+        localized_catalog: '@toolbox_fr'
+        label: '2 vitesses'
+    product_tbx_speed_settings_option_2_vitesses_toolbox_en:
+        source_field_option: '@product_tbx_speed_settings_option_2_vitesses'
+        localized_catalog: '@toolbox_en'
+        label: '2 speeds'
+    product_tbx_speed_settings_option_2_vitesses_toolbox_de:
+        source_field_option: '@product_tbx_speed_settings_option_2_vitesses'
+        localized_catalog: '@toolbox_de'
+        label: '2 Gänge'
+    product_tbx_speed_settings_option_variateur_electronique_toolbox_fr:
+        source_field_option: '@product_tbx_speed_settings_option_variateur_electronique'
+        localized_catalog: '@toolbox_fr'
+        label: 'Variateur électronique'
+    product_tbx_speed_settings_option_variateur_electronique_toolbox_en:
+        source_field_option: '@product_tbx_speed_settings_option_variateur_electronique'
+        localized_catalog: '@toolbox_en'
+        label: 'Electronic variable speed'
+    product_tbx_speed_settings_option_variateur_electronique_toolbox_de:
+        source_field_option: '@product_tbx_speed_settings_option_variateur_electronique'
+        localized_catalog: '@toolbox_de'
+        label: 'Elektronische Drehzahlregelung'
+    product_tbx_battery_voltage_option_12v_toolbox_fr:
+        source_field_option: '@product_tbx_battery_voltage_option_12v'
+        localized_catalog: '@toolbox_fr'
+        label: '12V'
+    product_tbx_battery_voltage_option_12v_toolbox_en:
+        source_field_option: '@product_tbx_battery_voltage_option_12v'
+        localized_catalog: '@toolbox_en'
+        label: '12V'
+    product_tbx_battery_voltage_option_12v_toolbox_de:
+        source_field_option: '@product_tbx_battery_voltage_option_12v'
+        localized_catalog: '@toolbox_de'
+        label: '12V'
+    product_tbx_battery_voltage_option_18v_toolbox_fr:
+        source_field_option: '@product_tbx_battery_voltage_option_18v'
+        localized_catalog: '@toolbox_fr'
+        label: '18V'
+    product_tbx_battery_voltage_option_18v_toolbox_en:
+        source_field_option: '@product_tbx_battery_voltage_option_18v'
+        localized_catalog: '@toolbox_en'
+        label: '18V'
+    product_tbx_battery_voltage_option_18v_toolbox_de:
+        source_field_option: '@product_tbx_battery_voltage_option_18v'
+        localized_catalog: '@toolbox_de'
+        label: '18V'
+    product_tbx_battery_voltage_option_36v_toolbox_fr:
+        source_field_option: '@product_tbx_battery_voltage_option_36v'
+        localized_catalog: '@toolbox_fr'
+        label: '36V'
+    product_tbx_battery_voltage_option_36v_toolbox_en:
+        source_field_option: '@product_tbx_battery_voltage_option_36v'
+        localized_catalog: '@toolbox_en'
+        label: '36V'
+    product_tbx_battery_voltage_option_36v_toolbox_de:
+        source_field_option: '@product_tbx_battery_voltage_option_36v'
+        localized_catalog: '@toolbox_de'
+        label: '36V'
+    product_tbx_battery_capacity_ah_option_2_0_toolbox_fr:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_2_0'
+        localized_catalog: '@toolbox_fr'
+        label: '2.0'
+    product_tbx_battery_capacity_ah_option_2_0_toolbox_en:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_2_0'
+        localized_catalog: '@toolbox_en'
+        label: '2.0'
+    product_tbx_battery_capacity_ah_option_2_0_toolbox_de:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_2_0'
+        localized_catalog: '@toolbox_de'
+        label: '2.0'
+    product_tbx_battery_capacity_ah_option_3_0_toolbox_fr:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_3_0'
+        localized_catalog: '@toolbox_fr'
+        label: '3.0'
+    product_tbx_battery_capacity_ah_option_3_0_toolbox_en:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_3_0'
+        localized_catalog: '@toolbox_en'
+        label: '3.0'
+    product_tbx_battery_capacity_ah_option_3_0_toolbox_de:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_3_0'
+        localized_catalog: '@toolbox_de'
+        label: '3.0'
+    product_tbx_battery_capacity_ah_option_4_0_toolbox_fr:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_4_0'
+        localized_catalog: '@toolbox_fr'
+        label: '4.0'
+    product_tbx_battery_capacity_ah_option_4_0_toolbox_en:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_4_0'
+        localized_catalog: '@toolbox_en'
+        label: '4.0'
+    product_tbx_battery_capacity_ah_option_4_0_toolbox_de:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_4_0'
+        localized_catalog: '@toolbox_de'
+        label: '4.0'
+    product_tbx_battery_capacity_ah_option_5_0_toolbox_fr:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_5_0'
+        localized_catalog: '@toolbox_fr'
+        label: '5.0'
+    product_tbx_battery_capacity_ah_option_5_0_toolbox_en:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_5_0'
+        localized_catalog: '@toolbox_en'
+        label: '5.0'
+    product_tbx_battery_capacity_ah_option_5_0_toolbox_de:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_5_0'
+        localized_catalog: '@toolbox_de'
+        label: '5.0'
+    product_tbx_battery_capacity_ah_option_6_0_toolbox_fr:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_6_0'
+        localized_catalog: '@toolbox_fr'
+        label: '6.0'
+    product_tbx_battery_capacity_ah_option_6_0_toolbox_en:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_6_0'
+        localized_catalog: '@toolbox_en'
+        label: '6.0'
+    product_tbx_battery_capacity_ah_option_6_0_toolbox_de:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_6_0'
+        localized_catalog: '@toolbox_de'
+        label: '6.0'
+    product_tbx_battery_capacity_ah_option_8_0_toolbox_fr:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_8_0'
+        localized_catalog: '@toolbox_fr'
+        label: '8.0'
+    product_tbx_battery_capacity_ah_option_8_0_toolbox_en:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_8_0'
+        localized_catalog: '@toolbox_en'
+        label: '8.0'
+    product_tbx_battery_capacity_ah_option_8_0_toolbox_de:
+        source_field_option: '@product_tbx_battery_capacity_ah_option_8_0'
+        localized_catalog: '@toolbox_de'
+        label: '8.0'
+    product_tbx_battery_technology_option_li_ion_toolbox_fr:
+        source_field_option: '@product_tbx_battery_technology_option_li_ion'
+        localized_catalog: '@toolbox_fr'
+        label: 'Li-Ion'
+    product_tbx_battery_technology_option_li_ion_toolbox_en:
+        source_field_option: '@product_tbx_battery_technology_option_li_ion'
+        localized_catalog: '@toolbox_en'
+        label: 'Li-Ion'
+    product_tbx_battery_technology_option_li_ion_toolbox_de:
+        source_field_option: '@product_tbx_battery_technology_option_li_ion'
+        localized_catalog: '@toolbox_de'
+        label: 'Li-Ion'
+    product_tbx_battery_technology_option_li_hdp_toolbox_fr:
+        source_field_option: '@product_tbx_battery_technology_option_li_hdp'
+        localized_catalog: '@toolbox_fr'
+        label: 'Li-HDP'
+    product_tbx_battery_technology_option_li_hdp_toolbox_en:
+        source_field_option: '@product_tbx_battery_technology_option_li_hdp'
+        localized_catalog: '@toolbox_en'
+        label: 'Li-HDP'
+    product_tbx_battery_technology_option_li_hdp_toolbox_de:
+        source_field_option: '@product_tbx_battery_technology_option_li_hdp'
+        localized_catalog: '@toolbox_de'
+        label: 'Li-HDP'
+    product_tbx_accessory_material_option_hss_toolbox_fr:
+        source_field_option: '@product_tbx_accessory_material_option_hss'
+        localized_catalog: '@toolbox_fr'
+        label: 'HSS'
+    product_tbx_accessory_material_option_hss_toolbox_en:
+        source_field_option: '@product_tbx_accessory_material_option_hss'
+        localized_catalog: '@toolbox_en'
+        label: 'HSS'
+    product_tbx_accessory_material_option_hss_toolbox_de:
+        source_field_option: '@product_tbx_accessory_material_option_hss'
+        localized_catalog: '@toolbox_de'
+        label: 'HSS'
+    product_tbx_accessory_material_option_hss_co_toolbox_fr:
+        source_field_option: '@product_tbx_accessory_material_option_hss_co'
+        localized_catalog: '@toolbox_fr'
+        label: 'HSS-Co'
+    product_tbx_accessory_material_option_hss_co_toolbox_en:
+        source_field_option: '@product_tbx_accessory_material_option_hss_co'
+        localized_catalog: '@toolbox_en'
+        label: 'HSS-Co'
+    product_tbx_accessory_material_option_hss_co_toolbox_de:
+        source_field_option: '@product_tbx_accessory_material_option_hss_co'
+        localized_catalog: '@toolbox_de'
+        label: 'HSS-Co'
+    product_tbx_accessory_material_option_carbure_toolbox_fr:
+        source_field_option: '@product_tbx_accessory_material_option_carbure'
+        localized_catalog: '@toolbox_fr'
+        label: 'Carbure'
+    product_tbx_accessory_material_option_carbure_toolbox_en:
+        source_field_option: '@product_tbx_accessory_material_option_carbure'
+        localized_catalog: '@toolbox_en'
+        label: 'Carbide'
+    product_tbx_accessory_material_option_carbure_toolbox_de:
+        source_field_option: '@product_tbx_accessory_material_option_carbure'
+        localized_catalog: '@toolbox_de'
+        label: 'Hartmetall'
+    product_tbx_accessory_material_option_diamant_toolbox_fr:
+        source_field_option: '@product_tbx_accessory_material_option_diamant'
+        localized_catalog: '@toolbox_fr'
+        label: 'Diamant'
+    product_tbx_accessory_material_option_diamant_toolbox_en:
+        source_field_option: '@product_tbx_accessory_material_option_diamant'
+        localized_catalog: '@toolbox_en'
+        label: 'Diamond'
+    product_tbx_accessory_material_option_diamant_toolbox_de:
+        source_field_option: '@product_tbx_accessory_material_option_diamant'
+        localized_catalog: '@toolbox_de'
+        label: 'Diamant'
+    product_tbx_accessory_material_option_corindon_toolbox_fr:
+        source_field_option: '@product_tbx_accessory_material_option_corindon'
+        localized_catalog: '@toolbox_fr'
+        label: 'Corindon'
+    product_tbx_accessory_material_option_corindon_toolbox_en:
+        source_field_option: '@product_tbx_accessory_material_option_corindon'
+        localized_catalog: '@toolbox_en'
+        label: 'Aluminium oxide'
+    product_tbx_accessory_material_option_corindon_toolbox_de:
+        source_field_option: '@product_tbx_accessory_material_option_corindon'
+        localized_catalog: '@toolbox_de'
+        label: 'Korund'
+    product_tbx_accessory_material_option_zirconium_toolbox_fr:
+        source_field_option: '@product_tbx_accessory_material_option_zirconium'
+        localized_catalog: '@toolbox_fr'
+        label: 'Zirconium'
+    product_tbx_accessory_material_option_zirconium_toolbox_en:
+        source_field_option: '@product_tbx_accessory_material_option_zirconium'
+        localized_catalog: '@toolbox_en'
+        label: 'Zirconium'
+    product_tbx_accessory_material_option_zirconium_toolbox_de:
+        source_field_option: '@product_tbx_accessory_material_option_zirconium'
+        localized_catalog: '@toolbox_de'
+        label: 'Zirkonium'
+    product_tbx_accessory_material_option_acier_toolbox_fr:
+        source_field_option: '@product_tbx_accessory_material_option_acier'
+        localized_catalog: '@toolbox_fr'
+        label: 'Acier'
+    product_tbx_accessory_material_option_acier_toolbox_en:
+        source_field_option: '@product_tbx_accessory_material_option_acier'
+        localized_catalog: '@toolbox_en'
+        label: 'Steel'
+    product_tbx_accessory_material_option_acier_toolbox_de:
+        source_field_option: '@product_tbx_accessory_material_option_acier'
+        localized_catalog: '@toolbox_de'
+        label: 'Stahl'
+    product_tbx_compatible_brands_option_forcemax_toolbox_fr:
+        source_field_option: '@product_tbx_compatible_brands_option_forcemax'
+        localized_catalog: '@toolbox_fr'
+        label: 'ForceMax'
+    product_tbx_compatible_brands_option_forcemax_toolbox_en:
+        source_field_option: '@product_tbx_compatible_brands_option_forcemax'
+        localized_catalog: '@toolbox_en'
+        label: 'ForceMax'
+    product_tbx_compatible_brands_option_forcemax_toolbox_de:
+        source_field_option: '@product_tbx_compatible_brands_option_forcemax'
+        localized_catalog: '@toolbox_de'
+        label: 'ForceMax'
+    product_tbx_compatible_brands_option_turbotec_toolbox_fr:
+        source_field_option: '@product_tbx_compatible_brands_option_turbotec'
+        localized_catalog: '@toolbox_fr'
+        label: 'TurboTec'
+    product_tbx_compatible_brands_option_turbotec_toolbox_en:
+        source_field_option: '@product_tbx_compatible_brands_option_turbotec'
+        localized_catalog: '@toolbox_en'
+        label: 'TurboTec'
+    product_tbx_compatible_brands_option_turbotec_toolbox_de:
+        source_field_option: '@product_tbx_compatible_brands_option_turbotec'
+        localized_catalog: '@toolbox_de'
+        label: 'TurboTec'
+    product_tbx_compatible_brands_option_universel_toolbox_fr:
+        source_field_option: '@product_tbx_compatible_brands_option_universel'
+        localized_catalog: '@toolbox_fr'
+        label: 'Universel'
+    product_tbx_compatible_brands_option_universel_toolbox_en:
+        source_field_option: '@product_tbx_compatible_brands_option_universel'
+        localized_catalog: '@toolbox_en'
+        label: 'Universal'
+    product_tbx_compatible_brands_option_universel_toolbox_de:
+        source_field_option: '@product_tbx_compatible_brands_option_universel'
+        localized_catalog: '@toolbox_de'
+        label: 'Universal'
+    product_tbx_pack_quantity_option_1_toolbox_fr:
+        source_field_option: '@product_tbx_pack_quantity_option_1'
+        localized_catalog: '@toolbox_fr'
+        label: '1'
+    product_tbx_pack_quantity_option_1_toolbox_en:
+        source_field_option: '@product_tbx_pack_quantity_option_1'
+        localized_catalog: '@toolbox_en'
+        label: '1'
+    product_tbx_pack_quantity_option_1_toolbox_de:
+        source_field_option: '@product_tbx_pack_quantity_option_1'
+        localized_catalog: '@toolbox_de'
+        label: '1'
+    product_tbx_pack_quantity_option_3_toolbox_fr:
+        source_field_option: '@product_tbx_pack_quantity_option_3'
+        localized_catalog: '@toolbox_fr'
+        label: '3'
+    product_tbx_pack_quantity_option_3_toolbox_en:
+        source_field_option: '@product_tbx_pack_quantity_option_3'
+        localized_catalog: '@toolbox_en'
+        label: '3'
+    product_tbx_pack_quantity_option_3_toolbox_de:
+        source_field_option: '@product_tbx_pack_quantity_option_3'
+        localized_catalog: '@toolbox_de'
+        label: '3'
+    product_tbx_pack_quantity_option_5_toolbox_fr:
+        source_field_option: '@product_tbx_pack_quantity_option_5'
+        localized_catalog: '@toolbox_fr'
+        label: '5'
+    product_tbx_pack_quantity_option_5_toolbox_en:
+        source_field_option: '@product_tbx_pack_quantity_option_5'
+        localized_catalog: '@toolbox_en'
+        label: '5'
+    product_tbx_pack_quantity_option_5_toolbox_de:
+        source_field_option: '@product_tbx_pack_quantity_option_5'
+        localized_catalog: '@toolbox_de'
+        label: '5'
+    product_tbx_pack_quantity_option_6_toolbox_fr:
+        source_field_option: '@product_tbx_pack_quantity_option_6'
+        localized_catalog: '@toolbox_fr'
+        label: '6'
+    product_tbx_pack_quantity_option_6_toolbox_en:
+        source_field_option: '@product_tbx_pack_quantity_option_6'
+        localized_catalog: '@toolbox_en'
+        label: '6'
+    product_tbx_pack_quantity_option_6_toolbox_de:
+        source_field_option: '@product_tbx_pack_quantity_option_6'
+        localized_catalog: '@toolbox_de'
+        label: '6'
+    product_tbx_pack_quantity_option_8_toolbox_fr:
+        source_field_option: '@product_tbx_pack_quantity_option_8'
+        localized_catalog: '@toolbox_fr'
+        label: '8'
+    product_tbx_pack_quantity_option_8_toolbox_en:
+        source_field_option: '@product_tbx_pack_quantity_option_8'
+        localized_catalog: '@toolbox_en'
+        label: '8'
+    product_tbx_pack_quantity_option_8_toolbox_de:
+        source_field_option: '@product_tbx_pack_quantity_option_8'
+        localized_catalog: '@toolbox_de'
+        label: '8'
+    product_tbx_pack_quantity_option_10_toolbox_fr:
+        source_field_option: '@product_tbx_pack_quantity_option_10'
+        localized_catalog: '@toolbox_fr'
+        label: '10'
+    product_tbx_pack_quantity_option_10_toolbox_en:
+        source_field_option: '@product_tbx_pack_quantity_option_10'
+        localized_catalog: '@toolbox_en'
+        label: '10'
+    product_tbx_pack_quantity_option_10_toolbox_de:
+        source_field_option: '@product_tbx_pack_quantity_option_10'
+        localized_catalog: '@toolbox_de'
+        label: '10'
+    product_tbx_pack_quantity_option_15_toolbox_fr:
+        source_field_option: '@product_tbx_pack_quantity_option_15'
+        localized_catalog: '@toolbox_fr'
+        label: '15'
+    product_tbx_pack_quantity_option_15_toolbox_en:
+        source_field_option: '@product_tbx_pack_quantity_option_15'
+        localized_catalog: '@toolbox_en'
+        label: '15'
+    product_tbx_pack_quantity_option_15_toolbox_de:
+        source_field_option: '@product_tbx_pack_quantity_option_15'
+        localized_catalog: '@toolbox_de'
+        label: '15'
+    product_tbx_pack_quantity_option_20_toolbox_fr:
+        source_field_option: '@product_tbx_pack_quantity_option_20'
+        localized_catalog: '@toolbox_fr'
+        label: '20'
+    product_tbx_pack_quantity_option_20_toolbox_en:
+        source_field_option: '@product_tbx_pack_quantity_option_20'
+        localized_catalog: '@toolbox_en'
+        label: '20'
+    product_tbx_pack_quantity_option_20_toolbox_de:
+        source_field_option: '@product_tbx_pack_quantity_option_20'
+        localized_catalog: '@toolbox_de'
+        label: '20'
+    product_tbx_pack_quantity_option_25_toolbox_fr:
+        source_field_option: '@product_tbx_pack_quantity_option_25'
+        localized_catalog: '@toolbox_fr'
+        label: '25'
+    product_tbx_pack_quantity_option_25_toolbox_en:
+        source_field_option: '@product_tbx_pack_quantity_option_25'
+        localized_catalog: '@toolbox_en'
+        label: '25'
+    product_tbx_pack_quantity_option_25_toolbox_de:
+        source_field_option: '@product_tbx_pack_quantity_option_25'
+        localized_catalog: '@toolbox_de'
+        label: '25'
+    product_tbx_pack_quantity_option_50_toolbox_fr:
+        source_field_option: '@product_tbx_pack_quantity_option_50'
+        localized_catalog: '@toolbox_fr'
+        label: '50'
+    product_tbx_pack_quantity_option_50_toolbox_en:
+        source_field_option: '@product_tbx_pack_quantity_option_50'
+        localized_catalog: '@toolbox_en'
+        label: '50'
+    product_tbx_pack_quantity_option_50_toolbox_de:
+        source_field_option: '@product_tbx_pack_quantity_option_50'
+        localized_catalog: '@toolbox_de'
+        label: '50'
+    product_tbx_pack_quantity_option_100_toolbox_fr:
+        source_field_option: '@product_tbx_pack_quantity_option_100'
+        localized_catalog: '@toolbox_fr'
+        label: '100'
+    product_tbx_pack_quantity_option_100_toolbox_en:
+        source_field_option: '@product_tbx_pack_quantity_option_100'
+        localized_catalog: '@toolbox_en'
+        label: '100'
+    product_tbx_pack_quantity_option_100_toolbox_de:
+        source_field_option: '@product_tbx_pack_quantity_option_100'
+        localized_catalog: '@toolbox_de'
+        label: '100'
+    product_tbx_paint_color_option_blanc_toolbox_fr:
+        source_field_option: '@product_tbx_paint_color_option_blanc'
+        localized_catalog: '@toolbox_fr'
+        label: 'Blanc'
+    product_tbx_paint_color_option_blanc_toolbox_en:
+        source_field_option: '@product_tbx_paint_color_option_blanc'
+        localized_catalog: '@toolbox_en'
+        label: 'White'
+    product_tbx_paint_color_option_blanc_toolbox_de:
+        source_field_option: '@product_tbx_paint_color_option_blanc'
+        localized_catalog: '@toolbox_de'
+        label: 'Weiß'
+    product_tbx_paint_color_option_noir_toolbox_fr:
+        source_field_option: '@product_tbx_paint_color_option_noir'
+        localized_catalog: '@toolbox_fr'
+        label: 'Noir'
+    product_tbx_paint_color_option_noir_toolbox_en:
+        source_field_option: '@product_tbx_paint_color_option_noir'
+        localized_catalog: '@toolbox_en'
+        label: 'Black'
+    product_tbx_paint_color_option_noir_toolbox_de:
+        source_field_option: '@product_tbx_paint_color_option_noir'
+        localized_catalog: '@toolbox_de'
+        label: 'Schwarz'
+    product_tbx_paint_color_option_gris_toolbox_fr:
+        source_field_option: '@product_tbx_paint_color_option_gris'
+        localized_catalog: '@toolbox_fr'
+        label: 'Gris'
+    product_tbx_paint_color_option_gris_toolbox_en:
+        source_field_option: '@product_tbx_paint_color_option_gris'
+        localized_catalog: '@toolbox_en'
+        label: 'Grey'
+    product_tbx_paint_color_option_gris_toolbox_de:
+        source_field_option: '@product_tbx_paint_color_option_gris'
+        localized_catalog: '@toolbox_de'
+        label: 'Grau'
+    product_tbx_paint_color_option_beige_toolbox_fr:
+        source_field_option: '@product_tbx_paint_color_option_beige'
+        localized_catalog: '@toolbox_fr'
+        label: 'Beige'
+    product_tbx_paint_color_option_beige_toolbox_en:
+        source_field_option: '@product_tbx_paint_color_option_beige'
+        localized_catalog: '@toolbox_en'
+        label: 'Beige'
+    product_tbx_paint_color_option_beige_toolbox_de:
+        source_field_option: '@product_tbx_paint_color_option_beige'
+        localized_catalog: '@toolbox_de'
+        label: 'Beige'
+    product_tbx_paint_color_option_bleu_toolbox_fr:
+        source_field_option: '@product_tbx_paint_color_option_bleu'
+        localized_catalog: '@toolbox_fr'
+        label: 'Bleu'
+    product_tbx_paint_color_option_bleu_toolbox_en:
+        source_field_option: '@product_tbx_paint_color_option_bleu'
+        localized_catalog: '@toolbox_en'
+        label: 'Blue'
+    product_tbx_paint_color_option_bleu_toolbox_de:
+        source_field_option: '@product_tbx_paint_color_option_bleu'
+        localized_catalog: '@toolbox_de'
+        label: 'Blau'
+    product_tbx_paint_color_option_vert_toolbox_fr:
+        source_field_option: '@product_tbx_paint_color_option_vert'
+        localized_catalog: '@toolbox_fr'
+        label: 'Vert'
+    product_tbx_paint_color_option_vert_toolbox_en:
+        source_field_option: '@product_tbx_paint_color_option_vert'
+        localized_catalog: '@toolbox_en'
+        label: 'Green'
+    product_tbx_paint_color_option_vert_toolbox_de:
+        source_field_option: '@product_tbx_paint_color_option_vert'
+        localized_catalog: '@toolbox_de'
+        label: 'Grün'
+    product_tbx_paint_color_option_rouge_toolbox_fr:
+        source_field_option: '@product_tbx_paint_color_option_rouge'
+        localized_catalog: '@toolbox_fr'
+        label: 'Rouge'
+    product_tbx_paint_color_option_rouge_toolbox_en:
+        source_field_option: '@product_tbx_paint_color_option_rouge'
+        localized_catalog: '@toolbox_en'
+        label: 'Red'
+    product_tbx_paint_color_option_rouge_toolbox_de:
+        source_field_option: '@product_tbx_paint_color_option_rouge'
+        localized_catalog: '@toolbox_de'
+        label: 'Rot'
+    product_tbx_paint_color_option_jaune_toolbox_fr:
+        source_field_option: '@product_tbx_paint_color_option_jaune'
+        localized_catalog: '@toolbox_fr'
+        label: 'Jaune'
+    product_tbx_paint_color_option_jaune_toolbox_en:
+        source_field_option: '@product_tbx_paint_color_option_jaune'
+        localized_catalog: '@toolbox_en'
+        label: 'Yellow'
+    product_tbx_paint_color_option_jaune_toolbox_de:
+        source_field_option: '@product_tbx_paint_color_option_jaune'
+        localized_catalog: '@toolbox_de'
+        label: 'Gelb'
+    product_tbx_paint_color_option_brun_toolbox_fr:
+        source_field_option: '@product_tbx_paint_color_option_brun'
+        localized_catalog: '@toolbox_fr'
+        label: 'Brun'
+    product_tbx_paint_color_option_brun_toolbox_en:
+        source_field_option: '@product_tbx_paint_color_option_brun'
+        localized_catalog: '@toolbox_en'
+        label: 'Brown'
+    product_tbx_paint_color_option_brun_toolbox_de:
+        source_field_option: '@product_tbx_paint_color_option_brun'
+        localized_catalog: '@toolbox_de'
+        label: 'Braun'
+    product_tbx_paint_color_option_incolore_toolbox_fr:
+        source_field_option: '@product_tbx_paint_color_option_incolore'
+        localized_catalog: '@toolbox_fr'
+        label: 'Incolore'
+    product_tbx_paint_color_option_incolore_toolbox_en:
+        source_field_option: '@product_tbx_paint_color_option_incolore'
+        localized_catalog: '@toolbox_en'
+        label: 'Clear'
+    product_tbx_paint_color_option_incolore_toolbox_de:
+        source_field_option: '@product_tbx_paint_color_option_incolore'
+        localized_catalog: '@toolbox_de'
+        label: 'Farblos'
+    product_tbx_paint_finish_option_mat_toolbox_fr:
+        source_field_option: '@product_tbx_paint_finish_option_mat'
+        localized_catalog: '@toolbox_fr'
+        label: 'Mat'
+    product_tbx_paint_finish_option_mat_toolbox_en:
+        source_field_option: '@product_tbx_paint_finish_option_mat'
+        localized_catalog: '@toolbox_en'
+        label: 'Matte'
+    product_tbx_paint_finish_option_mat_toolbox_de:
+        source_field_option: '@product_tbx_paint_finish_option_mat'
+        localized_catalog: '@toolbox_de'
+        label: 'Matt'
+    product_tbx_paint_finish_option_satine_toolbox_fr:
+        source_field_option: '@product_tbx_paint_finish_option_satine'
+        localized_catalog: '@toolbox_fr'
+        label: 'Satiné'
+    product_tbx_paint_finish_option_satine_toolbox_en:
+        source_field_option: '@product_tbx_paint_finish_option_satine'
+        localized_catalog: '@toolbox_en'
+        label: 'Satin'
+    product_tbx_paint_finish_option_satine_toolbox_de:
+        source_field_option: '@product_tbx_paint_finish_option_satine'
+        localized_catalog: '@toolbox_de'
+        label: 'Seidenmatt'
+    product_tbx_paint_finish_option_brillant_toolbox_fr:
+        source_field_option: '@product_tbx_paint_finish_option_brillant'
+        localized_catalog: '@toolbox_fr'
+        label: 'Brillant'
+    product_tbx_paint_finish_option_brillant_toolbox_en:
+        source_field_option: '@product_tbx_paint_finish_option_brillant'
+        localized_catalog: '@toolbox_en'
+        label: 'Gloss'
+    product_tbx_paint_finish_option_brillant_toolbox_de:
+        source_field_option: '@product_tbx_paint_finish_option_brillant'
+        localized_catalog: '@toolbox_de'
+        label: 'Glänzend'
+    product_tbx_paint_finish_option_velours_toolbox_fr:
+        source_field_option: '@product_tbx_paint_finish_option_velours'
+        localized_catalog: '@toolbox_fr'
+        label: 'Velours'
+    product_tbx_paint_finish_option_velours_toolbox_en:
+        source_field_option: '@product_tbx_paint_finish_option_velours'
+        localized_catalog: '@toolbox_en'
+        label: 'Velvet'
+    product_tbx_paint_finish_option_velours_toolbox_de:
+        source_field_option: '@product_tbx_paint_finish_option_velours'
+        localized_catalog: '@toolbox_de'
+        label: 'Samt'
+    product_tbx_paint_base_option_acrylique_eau_toolbox_fr:
+        source_field_option: '@product_tbx_paint_base_option_acrylique_eau'
+        localized_catalog: '@toolbox_fr'
+        label: 'Acrylique (eau)'
+    product_tbx_paint_base_option_acrylique_eau_toolbox_en:
+        source_field_option: '@product_tbx_paint_base_option_acrylique_eau'
+        localized_catalog: '@toolbox_en'
+        label: 'Acrylic (water-based)'
+    product_tbx_paint_base_option_acrylique_eau_toolbox_de:
+        source_field_option: '@product_tbx_paint_base_option_acrylique_eau'
+        localized_catalog: '@toolbox_de'
+        label: 'Acryl (wasserbasiert)'
+    product_tbx_paint_base_option_glycero_solvant_toolbox_fr:
+        source_field_option: '@product_tbx_paint_base_option_glycero_solvant'
+        localized_catalog: '@toolbox_fr'
+        label: 'Glycéro (solvant)'
+    product_tbx_paint_base_option_glycero_solvant_toolbox_en:
+        source_field_option: '@product_tbx_paint_base_option_glycero_solvant'
+        localized_catalog: '@toolbox_en'
+        label: 'Alkyd (solvent-based)'
+    product_tbx_paint_base_option_glycero_solvant_toolbox_de:
+        source_field_option: '@product_tbx_paint_base_option_glycero_solvant'
+        localized_catalog: '@toolbox_de'
+        label: 'Alkyd (lösemittelbasiert)'
+    product_tbx_paint_base_option_alkyde_toolbox_fr:
+        source_field_option: '@product_tbx_paint_base_option_alkyde'
+        localized_catalog: '@toolbox_fr'
+        label: 'Alkyde'
+    product_tbx_paint_base_option_alkyde_toolbox_en:
+        source_field_option: '@product_tbx_paint_base_option_alkyde'
+        localized_catalog: '@toolbox_en'
+        label: 'Alkyd hybrid'
+    product_tbx_paint_base_option_alkyde_toolbox_de:
+        source_field_option: '@product_tbx_paint_base_option_alkyde'
+        localized_catalog: '@toolbox_de'
+        label: 'Alkyd-Hybrid'
+    product_tbx_pipe_material_option_cuivre_toolbox_fr:
+        source_field_option: '@product_tbx_pipe_material_option_cuivre'
+        localized_catalog: '@toolbox_fr'
+        label: 'Cuivre'
+    product_tbx_pipe_material_option_cuivre_toolbox_en:
+        source_field_option: '@product_tbx_pipe_material_option_cuivre'
+        localized_catalog: '@toolbox_en'
+        label: 'Copper'
+    product_tbx_pipe_material_option_cuivre_toolbox_de:
+        source_field_option: '@product_tbx_pipe_material_option_cuivre'
+        localized_catalog: '@toolbox_de'
+        label: 'Kupfer'
+    product_tbx_pipe_material_option_per_toolbox_fr:
+        source_field_option: '@product_tbx_pipe_material_option_per'
+        localized_catalog: '@toolbox_fr'
+        label: 'PER'
+    product_tbx_pipe_material_option_per_toolbox_en:
+        source_field_option: '@product_tbx_pipe_material_option_per'
+        localized_catalog: '@toolbox_en'
+        label: 'PEX'
+    product_tbx_pipe_material_option_per_toolbox_de:
+        source_field_option: '@product_tbx_pipe_material_option_per'
+        localized_catalog: '@toolbox_de'
+        label: 'PEX'
+    product_tbx_pipe_material_option_multicouche_toolbox_fr:
+        source_field_option: '@product_tbx_pipe_material_option_multicouche'
+        localized_catalog: '@toolbox_fr'
+        label: 'Multicouche'
+    product_tbx_pipe_material_option_multicouche_toolbox_en:
+        source_field_option: '@product_tbx_pipe_material_option_multicouche'
+        localized_catalog: '@toolbox_en'
+        label: 'Multilayer'
+    product_tbx_pipe_material_option_multicouche_toolbox_de:
+        source_field_option: '@product_tbx_pipe_material_option_multicouche'
+        localized_catalog: '@toolbox_de'
+        label: 'Mehrschicht'
+    product_tbx_pipe_material_option_pvc_toolbox_fr:
+        source_field_option: '@product_tbx_pipe_material_option_pvc'
+        localized_catalog: '@toolbox_fr'
+        label: 'PVC'
+    product_tbx_pipe_material_option_pvc_toolbox_en:
+        source_field_option: '@product_tbx_pipe_material_option_pvc'
+        localized_catalog: '@toolbox_en'
+        label: 'PVC'
+    product_tbx_pipe_material_option_pvc_toolbox_de:
+        source_field_option: '@product_tbx_pipe_material_option_pvc'
+        localized_catalog: '@toolbox_de'
+        label: 'PVC'
+    product_tbx_pipe_material_option_laiton_toolbox_fr:
+        source_field_option: '@product_tbx_pipe_material_option_laiton'
+        localized_catalog: '@toolbox_fr'
+        label: 'Laiton'
+    product_tbx_pipe_material_option_laiton_toolbox_en:
+        source_field_option: '@product_tbx_pipe_material_option_laiton'
+        localized_catalog: '@toolbox_en'
+        label: 'Brass'
+    product_tbx_pipe_material_option_laiton_toolbox_de:
+        source_field_option: '@product_tbx_pipe_material_option_laiton'
+        localized_catalog: '@toolbox_de'
+        label: 'Messing'
+    product_tbx_pipe_material_option_inox_toolbox_fr:
+        source_field_option: '@product_tbx_pipe_material_option_inox'
+        localized_catalog: '@toolbox_fr'
+        label: 'Inox'
+    product_tbx_pipe_material_option_inox_toolbox_en:
+        source_field_option: '@product_tbx_pipe_material_option_inox'
+        localized_catalog: '@toolbox_en'
+        label: 'Stainless steel'
+    product_tbx_pipe_material_option_inox_toolbox_de:
+        source_field_option: '@product_tbx_pipe_material_option_inox'
+        localized_catalog: '@toolbox_de'
+        label: 'Edelstahl'
+    product_tbx_connection_type_option_a_souder_toolbox_fr:
+        source_field_option: '@product_tbx_connection_type_option_a_souder'
+        localized_catalog: '@toolbox_fr'
+        label: 'À souder'
+    product_tbx_connection_type_option_a_souder_toolbox_en:
+        source_field_option: '@product_tbx_connection_type_option_a_souder'
+        localized_catalog: '@toolbox_en'
+        label: 'Soldered'
+    product_tbx_connection_type_option_a_souder_toolbox_de:
+        source_field_option: '@product_tbx_connection_type_option_a_souder'
+        localized_catalog: '@toolbox_de'
+        label: 'Gelötet'
+    product_tbx_connection_type_option_a_sertir_toolbox_fr:
+        source_field_option: '@product_tbx_connection_type_option_a_sertir'
+        localized_catalog: '@toolbox_fr'
+        label: 'À sertir'
+    product_tbx_connection_type_option_a_sertir_toolbox_en:
+        source_field_option: '@product_tbx_connection_type_option_a_sertir'
+        localized_catalog: '@toolbox_en'
+        label: 'Press-fit'
+    product_tbx_connection_type_option_a_sertir_toolbox_de:
+        source_field_option: '@product_tbx_connection_type_option_a_sertir'
+        localized_catalog: '@toolbox_de'
+        label: 'Pressfitting'
+    product_tbx_connection_type_option_a_visser_toolbox_fr:
+        source_field_option: '@product_tbx_connection_type_option_a_visser'
+        localized_catalog: '@toolbox_fr'
+        label: 'À visser'
+    product_tbx_connection_type_option_a_visser_toolbox_en:
+        source_field_option: '@product_tbx_connection_type_option_a_visser'
+        localized_catalog: '@toolbox_en'
+        label: 'Threaded'
+    product_tbx_connection_type_option_a_visser_toolbox_de:
+        source_field_option: '@product_tbx_connection_type_option_a_visser'
+        localized_catalog: '@toolbox_de'
+        label: 'Verschraubt'
+    product_tbx_connection_type_option_colle_toolbox_fr:
+        source_field_option: '@product_tbx_connection_type_option_colle'
+        localized_catalog: '@toolbox_fr'
+        label: 'Collé'
+    product_tbx_connection_type_option_colle_toolbox_en:
+        source_field_option: '@product_tbx_connection_type_option_colle'
+        localized_catalog: '@toolbox_en'
+        label: 'Glued'
+    product_tbx_connection_type_option_colle_toolbox_de:
+        source_field_option: '@product_tbx_connection_type_option_colle'
+        localized_catalog: '@toolbox_de'
+        label: 'Geklebt'
+    product_tbx_connection_type_option_push_fit_toolbox_fr:
+        source_field_option: '@product_tbx_connection_type_option_push_fit'
+        localized_catalog: '@toolbox_fr'
+        label: 'Push-fit'
+    product_tbx_connection_type_option_push_fit_toolbox_en:
+        source_field_option: '@product_tbx_connection_type_option_push_fit'
+        localized_catalog: '@toolbox_en'
+        label: 'Push-fit'
+    product_tbx_connection_type_option_push_fit_toolbox_de:
+        source_field_option: '@product_tbx_connection_type_option_push_fit'
+        localized_catalog: '@toolbox_de'
+        label: 'Steckverbindung'
+    product_tbx_ip_rating_option_ip20_toolbox_fr:
+        source_field_option: '@product_tbx_ip_rating_option_ip20'
+        localized_catalog: '@toolbox_fr'
+        label: 'IP20'
+    product_tbx_ip_rating_option_ip20_toolbox_en:
+        source_field_option: '@product_tbx_ip_rating_option_ip20'
+        localized_catalog: '@toolbox_en'
+        label: 'IP20'
+    product_tbx_ip_rating_option_ip20_toolbox_de:
+        source_field_option: '@product_tbx_ip_rating_option_ip20'
+        localized_catalog: '@toolbox_de'
+        label: 'IP20'
+    product_tbx_ip_rating_option_ip44_toolbox_fr:
+        source_field_option: '@product_tbx_ip_rating_option_ip44'
+        localized_catalog: '@toolbox_fr'
+        label: 'IP44'
+    product_tbx_ip_rating_option_ip44_toolbox_en:
+        source_field_option: '@product_tbx_ip_rating_option_ip44'
+        localized_catalog: '@toolbox_en'
+        label: 'IP44'
+    product_tbx_ip_rating_option_ip44_toolbox_de:
+        source_field_option: '@product_tbx_ip_rating_option_ip44'
+        localized_catalog: '@toolbox_de'
+        label: 'IP44'
+    product_tbx_ip_rating_option_ip54_toolbox_fr:
+        source_field_option: '@product_tbx_ip_rating_option_ip54'
+        localized_catalog: '@toolbox_fr'
+        label: 'IP54'
+    product_tbx_ip_rating_option_ip54_toolbox_en:
+        source_field_option: '@product_tbx_ip_rating_option_ip54'
+        localized_catalog: '@toolbox_en'
+        label: 'IP54'
+    product_tbx_ip_rating_option_ip54_toolbox_de:
+        source_field_option: '@product_tbx_ip_rating_option_ip54'
+        localized_catalog: '@toolbox_de'
+        label: 'IP54'
+    product_tbx_ip_rating_option_ip65_toolbox_fr:
+        source_field_option: '@product_tbx_ip_rating_option_ip65'
+        localized_catalog: '@toolbox_fr'
+        label: 'IP65'
+    product_tbx_ip_rating_option_ip65_toolbox_en:
+        source_field_option: '@product_tbx_ip_rating_option_ip65'
+        localized_catalog: '@toolbox_en'
+        label: 'IP65'
+    product_tbx_ip_rating_option_ip65_toolbox_de:
+        source_field_option: '@product_tbx_ip_rating_option_ip65'
+        localized_catalog: '@toolbox_de'
+        label: 'IP65'
+    product_tbx_ip_rating_option_ip67_toolbox_fr:
+        source_field_option: '@product_tbx_ip_rating_option_ip67'
+        localized_catalog: '@toolbox_fr'
+        label: 'IP67'
+    product_tbx_ip_rating_option_ip67_toolbox_en:
+        source_field_option: '@product_tbx_ip_rating_option_ip67'
+        localized_catalog: '@toolbox_en'
+        label: 'IP67'
+    product_tbx_ip_rating_option_ip67_toolbox_de:
+        source_field_option: '@product_tbx_ip_rating_option_ip67'
+        localized_catalog: '@toolbox_de'
+        label: 'IP67'
+    product_tbx_elec_color_option_blanc_toolbox_fr:
+        source_field_option: '@product_tbx_elec_color_option_blanc'
+        localized_catalog: '@toolbox_fr'
+        label: 'Blanc'
+    product_tbx_elec_color_option_blanc_toolbox_en:
+        source_field_option: '@product_tbx_elec_color_option_blanc'
+        localized_catalog: '@toolbox_en'
+        label: 'White'
+    product_tbx_elec_color_option_blanc_toolbox_de:
+        source_field_option: '@product_tbx_elec_color_option_blanc'
+        localized_catalog: '@toolbox_de'
+        label: 'Weiß'
+    product_tbx_elec_color_option_ivoire_toolbox_fr:
+        source_field_option: '@product_tbx_elec_color_option_ivoire'
+        localized_catalog: '@toolbox_fr'
+        label: 'Ivoire'
+    product_tbx_elec_color_option_ivoire_toolbox_en:
+        source_field_option: '@product_tbx_elec_color_option_ivoire'
+        localized_catalog: '@toolbox_en'
+        label: 'Ivory'
+    product_tbx_elec_color_option_ivoire_toolbox_de:
+        source_field_option: '@product_tbx_elec_color_option_ivoire'
+        localized_catalog: '@toolbox_de'
+        label: 'Elfenbein'
+    product_tbx_elec_color_option_anthracite_toolbox_fr:
+        source_field_option: '@product_tbx_elec_color_option_anthracite'
+        localized_catalog: '@toolbox_fr'
+        label: 'Anthracite'
+    product_tbx_elec_color_option_anthracite_toolbox_en:
+        source_field_option: '@product_tbx_elec_color_option_anthracite'
+        localized_catalog: '@toolbox_en'
+        label: 'Anthracite'
+    product_tbx_elec_color_option_anthracite_toolbox_de:
+        source_field_option: '@product_tbx_elec_color_option_anthracite'
+        localized_catalog: '@toolbox_de'
+        label: 'Anthrazit'
+    product_tbx_elec_color_option_noir_toolbox_fr:
+        source_field_option: '@product_tbx_elec_color_option_noir'
+        localized_catalog: '@toolbox_fr'
+        label: 'Noir'
+    product_tbx_elec_color_option_noir_toolbox_en:
+        source_field_option: '@product_tbx_elec_color_option_noir'
+        localized_catalog: '@toolbox_en'
+        label: 'Black'
+    product_tbx_elec_color_option_noir_toolbox_de:
+        source_field_option: '@product_tbx_elec_color_option_noir'
+        localized_catalog: '@toolbox_de'
+        label: 'Schwarz'
+    product_tbx_elec_color_option_inox_brosse_toolbox_fr:
+        source_field_option: '@product_tbx_elec_color_option_inox_brosse'
+        localized_catalog: '@toolbox_fr'
+        label: 'Inox brossé'
+    product_tbx_elec_color_option_inox_brosse_toolbox_en:
+        source_field_option: '@product_tbx_elec_color_option_inox_brosse'
+        localized_catalog: '@toolbox_en'
+        label: 'Brushed steel'
+    product_tbx_elec_color_option_inox_brosse_toolbox_de:
+        source_field_option: '@product_tbx_elec_color_option_inox_brosse'
+        localized_catalog: '@toolbox_de'
+        label: 'Gebürsteter Edelstahl'
+    product_tbx_fastener_material_option_acier_zingue_toolbox_fr:
+        source_field_option: '@product_tbx_fastener_material_option_acier_zingue'
+        localized_catalog: '@toolbox_fr'
+        label: 'Acier zingué'
+    product_tbx_fastener_material_option_acier_zingue_toolbox_en:
+        source_field_option: '@product_tbx_fastener_material_option_acier_zingue'
+        localized_catalog: '@toolbox_en'
+        label: 'Zinc-plated steel'
+    product_tbx_fastener_material_option_acier_zingue_toolbox_de:
+        source_field_option: '@product_tbx_fastener_material_option_acier_zingue'
+        localized_catalog: '@toolbox_de'
+        label: 'Verzinkter Stahl'
+    product_tbx_fastener_material_option_inox_a2_toolbox_fr:
+        source_field_option: '@product_tbx_fastener_material_option_inox_a2'
+        localized_catalog: '@toolbox_fr'
+        label: 'Inox A2'
+    product_tbx_fastener_material_option_inox_a2_toolbox_en:
+        source_field_option: '@product_tbx_fastener_material_option_inox_a2'
+        localized_catalog: '@toolbox_en'
+        label: 'Stainless A2'
+    product_tbx_fastener_material_option_inox_a2_toolbox_de:
+        source_field_option: '@product_tbx_fastener_material_option_inox_a2'
+        localized_catalog: '@toolbox_de'
+        label: 'Edelstahl A2'
+    product_tbx_fastener_material_option_inox_a4_toolbox_fr:
+        source_field_option: '@product_tbx_fastener_material_option_inox_a4'
+        localized_catalog: '@toolbox_fr'
+        label: 'Inox A4'
+    product_tbx_fastener_material_option_inox_a4_toolbox_en:
+        source_field_option: '@product_tbx_fastener_material_option_inox_a4'
+        localized_catalog: '@toolbox_en'
+        label: 'Stainless A4'
+    product_tbx_fastener_material_option_inox_a4_toolbox_de:
+        source_field_option: '@product_tbx_fastener_material_option_inox_a4'
+        localized_catalog: '@toolbox_de'
+        label: 'Edelstahl A4'
+    product_tbx_fastener_material_option_laiton_toolbox_fr:
+        source_field_option: '@product_tbx_fastener_material_option_laiton'
+        localized_catalog: '@toolbox_fr'
+        label: 'Laiton'
+    product_tbx_fastener_material_option_laiton_toolbox_en:
+        source_field_option: '@product_tbx_fastener_material_option_laiton'
+        localized_catalog: '@toolbox_en'
+        label: 'Brass'
+    product_tbx_fastener_material_option_laiton_toolbox_de:
+        source_field_option: '@product_tbx_fastener_material_option_laiton'
+        localized_catalog: '@toolbox_de'
+        label: 'Messing'
+    product_tbx_fastener_material_option_nylon_toolbox_fr:
+        source_field_option: '@product_tbx_fastener_material_option_nylon'
+        localized_catalog: '@toolbox_fr'
+        label: 'Nylon'
+    product_tbx_fastener_material_option_nylon_toolbox_en:
+        source_field_option: '@product_tbx_fastener_material_option_nylon'
+        localized_catalog: '@toolbox_en'
+        label: 'Nylon'
+    product_tbx_fastener_material_option_nylon_toolbox_de:
+        source_field_option: '@product_tbx_fastener_material_option_nylon'
+        localized_catalog: '@toolbox_de'
+        label: 'Nylon'
+    product_tbx_fastener_head_option_plate_toolbox_fr:
+        source_field_option: '@product_tbx_fastener_head_option_plate'
+        localized_catalog: '@toolbox_fr'
+        label: 'Plate'
+    product_tbx_fastener_head_option_plate_toolbox_en:
+        source_field_option: '@product_tbx_fastener_head_option_plate'
+        localized_catalog: '@toolbox_en'
+        label: 'Flat'
+    product_tbx_fastener_head_option_plate_toolbox_de:
+        source_field_option: '@product_tbx_fastener_head_option_plate'
+        localized_catalog: '@toolbox_de'
+        label: 'Flach'
+    product_tbx_fastener_head_option_bombee_toolbox_fr:
+        source_field_option: '@product_tbx_fastener_head_option_bombee'
+        localized_catalog: '@toolbox_fr'
+        label: 'Bombée'
+    product_tbx_fastener_head_option_bombee_toolbox_en:
+        source_field_option: '@product_tbx_fastener_head_option_bombee'
+        localized_catalog: '@toolbox_en'
+        label: 'Domed'
+    product_tbx_fastener_head_option_bombee_toolbox_de:
+        source_field_option: '@product_tbx_fastener_head_option_bombee'
+        localized_catalog: '@toolbox_de'
+        label: 'Gewölbt'
+    product_tbx_fastener_head_option_hexagonale_toolbox_fr:
+        source_field_option: '@product_tbx_fastener_head_option_hexagonale'
+        localized_catalog: '@toolbox_fr'
+        label: 'Hexagonale'
+    product_tbx_fastener_head_option_hexagonale_toolbox_en:
+        source_field_option: '@product_tbx_fastener_head_option_hexagonale'
+        localized_catalog: '@toolbox_en'
+        label: 'Hex'
+    product_tbx_fastener_head_option_hexagonale_toolbox_de:
+        source_field_option: '@product_tbx_fastener_head_option_hexagonale'
+        localized_catalog: '@toolbox_de'
+        label: 'Sechskant'
+    product_tbx_fastener_head_option_cylindrique_toolbox_fr:
+        source_field_option: '@product_tbx_fastener_head_option_cylindrique'
+        localized_catalog: '@toolbox_fr'
+        label: 'Cylindrique'
+    product_tbx_fastener_head_option_cylindrique_toolbox_en:
+        source_field_option: '@product_tbx_fastener_head_option_cylindrique'
+        localized_catalog: '@toolbox_en'
+        label: 'Cylindrical'
+    product_tbx_fastener_head_option_cylindrique_toolbox_de:
+        source_field_option: '@product_tbx_fastener_head_option_cylindrique'
+        localized_catalog: '@toolbox_de'
+        label: 'Zylindrisch'
+    product_tbx_fastener_head_option_fraisee_toolbox_fr:
+        source_field_option: '@product_tbx_fastener_head_option_fraisee'
+        localized_catalog: '@toolbox_fr'
+        label: 'Fraisée'
+    product_tbx_fastener_head_option_fraisee_toolbox_en:
+        source_field_option: '@product_tbx_fastener_head_option_fraisee'
+        localized_catalog: '@toolbox_en'
+        label: 'Countersunk'
+    product_tbx_fastener_head_option_fraisee_toolbox_de:
+        source_field_option: '@product_tbx_fastener_head_option_fraisee'
+        localized_catalog: '@toolbox_de'
+        label: 'Senkkopf'
+    product_tbx_thread_type_option_metrique_toolbox_fr:
+        source_field_option: '@product_tbx_thread_type_option_metrique'
+        localized_catalog: '@toolbox_fr'
+        label: 'Métrique'
+    product_tbx_thread_type_option_metrique_toolbox_en:
+        source_field_option: '@product_tbx_thread_type_option_metrique'
+        localized_catalog: '@toolbox_en'
+        label: 'Metric'
+    product_tbx_thread_type_option_metrique_toolbox_de:
+        source_field_option: '@product_tbx_thread_type_option_metrique'
+        localized_catalog: '@toolbox_de'
+        label: 'Metrisch'
+    product_tbx_thread_type_option_bois_toolbox_fr:
+        source_field_option: '@product_tbx_thread_type_option_bois'
+        localized_catalog: '@toolbox_fr'
+        label: 'Bois'
+    product_tbx_thread_type_option_bois_toolbox_en:
+        source_field_option: '@product_tbx_thread_type_option_bois'
+        localized_catalog: '@toolbox_en'
+        label: 'Wood'
+    product_tbx_thread_type_option_bois_toolbox_de:
+        source_field_option: '@product_tbx_thread_type_option_bois'
+        localized_catalog: '@toolbox_de'
+        label: 'Holz'
+    product_tbx_thread_type_option_autotaraudeuse_toolbox_fr:
+        source_field_option: '@product_tbx_thread_type_option_autotaraudeuse'
+        localized_catalog: '@toolbox_fr'
+        label: 'Autotaraudeuse'
+    product_tbx_thread_type_option_autotaraudeuse_toolbox_en:
+        source_field_option: '@product_tbx_thread_type_option_autotaraudeuse'
+        localized_catalog: '@toolbox_en'
+        label: 'Self-tapping'
+    product_tbx_thread_type_option_autotaraudeuse_toolbox_de:
+        source_field_option: '@product_tbx_thread_type_option_autotaraudeuse'
+        localized_catalog: '@toolbox_de'
+        label: 'Selbstschneidend'
+    product_tbx_thread_type_option_autoperceuse_toolbox_fr:
+        source_field_option: '@product_tbx_thread_type_option_autoperceuse'
+        localized_catalog: '@toolbox_fr'
+        label: 'Autoperceuse'
+    product_tbx_thread_type_option_autoperceuse_toolbox_en:
+        source_field_option: '@product_tbx_thread_type_option_autoperceuse'
+        localized_catalog: '@toolbox_en'
+        label: 'Self-drilling'
+    product_tbx_thread_type_option_autoperceuse_toolbox_de:
+        source_field_option: '@product_tbx_thread_type_option_autoperceuse'
+        localized_catalog: '@toolbox_de'
+        label: 'Selbstbohrend'
+    product_tbx_power_source_option_manuel_toolbox_fr:
+        source_field_option: '@product_tbx_power_source_option_manuel'
+        localized_catalog: '@toolbox_fr'
+        label: 'Manuel'
+    product_tbx_power_source_option_manuel_toolbox_en:
+        source_field_option: '@product_tbx_power_source_option_manuel'
+        localized_catalog: '@toolbox_en'
+        label: 'Manual'
+    product_tbx_power_source_option_manuel_toolbox_de:
+        source_field_option: '@product_tbx_power_source_option_manuel'
+        localized_catalog: '@toolbox_de'
+        label: 'Manuell'
+    product_tbx_power_source_option_electrique_230v_toolbox_fr:
+        source_field_option: '@product_tbx_power_source_option_electrique_230v'
+        localized_catalog: '@toolbox_fr'
+        label: 'Électrique 230V'
+    product_tbx_power_source_option_electrique_230v_toolbox_en:
+        source_field_option: '@product_tbx_power_source_option_electrique_230v'
+        localized_catalog: '@toolbox_en'
+        label: 'Electric 230V'
+    product_tbx_power_source_option_electrique_230v_toolbox_de:
+        source_field_option: '@product_tbx_power_source_option_electrique_230v'
+        localized_catalog: '@toolbox_de'
+        label: 'Elektrisch 230V'
+    product_tbx_power_source_option_batterie_toolbox_fr:
+        source_field_option: '@product_tbx_power_source_option_batterie'
+        localized_catalog: '@toolbox_fr'
+        label: 'Batterie'
+    product_tbx_power_source_option_batterie_toolbox_en:
+        source_field_option: '@product_tbx_power_source_option_batterie'
+        localized_catalog: '@toolbox_en'
+        label: 'Battery'
+    product_tbx_power_source_option_batterie_toolbox_de:
+        source_field_option: '@product_tbx_power_source_option_batterie'
+        localized_catalog: '@toolbox_de'
+        label: 'Akku'
+    product_tbx_power_source_option_thermique_toolbox_fr:
+        source_field_option: '@product_tbx_power_source_option_thermique'
+        localized_catalog: '@toolbox_fr'
+        label: 'Thermique'
+    product_tbx_power_source_option_thermique_toolbox_en:
+        source_field_option: '@product_tbx_power_source_option_thermique'
+        localized_catalog: '@toolbox_en'
+        label: 'Petrol'
+    product_tbx_power_source_option_thermique_toolbox_de:
+        source_field_option: '@product_tbx_power_source_option_thermique'
+        localized_catalog: '@toolbox_de'
+        label: 'Benzin'
+    product_tbx_noise_level_db_option_lt_70_db_toolbox_fr:
+        source_field_option: '@product_tbx_noise_level_db_option_lt_70_db'
+        localized_catalog: '@toolbox_fr'
+        label: '< 70 dB'
+    product_tbx_noise_level_db_option_lt_70_db_toolbox_en:
+        source_field_option: '@product_tbx_noise_level_db_option_lt_70_db'
+        localized_catalog: '@toolbox_en'
+        label: '< 70 dB'
+    product_tbx_noise_level_db_option_lt_70_db_toolbox_de:
+        source_field_option: '@product_tbx_noise_level_db_option_lt_70_db'
+        localized_catalog: '@toolbox_de'
+        label: '< 70 dB'
+    product_tbx_noise_level_db_option_70_80_db_toolbox_fr:
+        source_field_option: '@product_tbx_noise_level_db_option_70_80_db'
+        localized_catalog: '@toolbox_fr'
+        label: '70-80 dB'
+    product_tbx_noise_level_db_option_70_80_db_toolbox_en:
+        source_field_option: '@product_tbx_noise_level_db_option_70_80_db'
+        localized_catalog: '@toolbox_en'
+        label: '70-80 dB'
+    product_tbx_noise_level_db_option_70_80_db_toolbox_de:
+        source_field_option: '@product_tbx_noise_level_db_option_70_80_db'
+        localized_catalog: '@toolbox_de'
+        label: '70-80 dB'
+    product_tbx_noise_level_db_option_80_90_db_toolbox_fr:
+        source_field_option: '@product_tbx_noise_level_db_option_80_90_db'
+        localized_catalog: '@toolbox_fr'
+        label: '80-90 dB'
+    product_tbx_noise_level_db_option_80_90_db_toolbox_en:
+        source_field_option: '@product_tbx_noise_level_db_option_80_90_db'
+        localized_catalog: '@toolbox_en'
+        label: '80-90 dB'
+    product_tbx_noise_level_db_option_80_90_db_toolbox_de:
+        source_field_option: '@product_tbx_noise_level_db_option_80_90_db'
+        localized_catalog: '@toolbox_de'
+        label: '80-90 dB'
+    product_tbx_noise_level_db_option_90_100_db_toolbox_fr:
+        source_field_option: '@product_tbx_noise_level_db_option_90_100_db'
+        localized_catalog: '@toolbox_fr'
+        label: '90-100 dB'
+    product_tbx_noise_level_db_option_90_100_db_toolbox_en:
+        source_field_option: '@product_tbx_noise_level_db_option_90_100_db'
+        localized_catalog: '@toolbox_en'
+        label: '90-100 dB'
+    product_tbx_noise_level_db_option_90_100_db_toolbox_de:
+        source_field_option: '@product_tbx_noise_level_db_option_90_100_db'
+        localized_catalog: '@toolbox_de'
+        label: '90-100 dB'
+    product_tbx_noise_level_db_option_gt_100_db_toolbox_fr:
+        source_field_option: '@product_tbx_noise_level_db_option_gt_100_db'
+        localized_catalog: '@toolbox_fr'
+        label: '> 100 dB'
+    product_tbx_noise_level_db_option_gt_100_db_toolbox_en:
+        source_field_option: '@product_tbx_noise_level_db_option_gt_100_db'
+        localized_catalog: '@toolbox_en'
+        label: '> 100 dB'
+    product_tbx_noise_level_db_option_gt_100_db_toolbox_de:
+        source_field_option: '@product_tbx_noise_level_db_option_gt_100_db'
+        localized_catalog: '@toolbox_de'
+        label: '> 100 dB'
+    product_tbx_protection_norm_option_en166_toolbox_fr:
+        source_field_option: '@product_tbx_protection_norm_option_en166'
+        localized_catalog: '@toolbox_fr'
+        label: 'EN166'
+    product_tbx_protection_norm_option_en166_toolbox_en:
+        source_field_option: '@product_tbx_protection_norm_option_en166'
+        localized_catalog: '@toolbox_en'
+        label: 'EN166'
+    product_tbx_protection_norm_option_en166_toolbox_de:
+        source_field_option: '@product_tbx_protection_norm_option_en166'
+        localized_catalog: '@toolbox_de'
+        label: 'EN166'
+    product_tbx_protection_norm_option_en388_toolbox_fr:
+        source_field_option: '@product_tbx_protection_norm_option_en388'
+        localized_catalog: '@toolbox_fr'
+        label: 'EN388'
+    product_tbx_protection_norm_option_en388_toolbox_en:
+        source_field_option: '@product_tbx_protection_norm_option_en388'
+        localized_catalog: '@toolbox_en'
+        label: 'EN388'
+    product_tbx_protection_norm_option_en388_toolbox_de:
+        source_field_option: '@product_tbx_protection_norm_option_en388'
+        localized_catalog: '@toolbox_de'
+        label: 'EN388'
+    product_tbx_protection_norm_option_en397_toolbox_fr:
+        source_field_option: '@product_tbx_protection_norm_option_en397'
+        localized_catalog: '@toolbox_fr'
+        label: 'EN397'
+    product_tbx_protection_norm_option_en397_toolbox_en:
+        source_field_option: '@product_tbx_protection_norm_option_en397'
+        localized_catalog: '@toolbox_en'
+        label: 'EN397'
+    product_tbx_protection_norm_option_en397_toolbox_de:
+        source_field_option: '@product_tbx_protection_norm_option_en397'
+        localized_catalog: '@toolbox_de'
+        label: 'EN397'
+    product_tbx_protection_norm_option_en352_toolbox_fr:
+        source_field_option: '@product_tbx_protection_norm_option_en352'
+        localized_catalog: '@toolbox_fr'
+        label: 'EN352'
+    product_tbx_protection_norm_option_en352_toolbox_en:
+        source_field_option: '@product_tbx_protection_norm_option_en352'
+        localized_catalog: '@toolbox_en'
+        label: 'EN352'
+    product_tbx_protection_norm_option_en352_toolbox_de:
+        source_field_option: '@product_tbx_protection_norm_option_en352'
+        localized_catalog: '@toolbox_de'
+        label: 'EN352'
+    product_tbx_protection_norm_option_en_iso_20345_toolbox_fr:
+        source_field_option: '@product_tbx_protection_norm_option_en_iso_20345'
+        localized_catalog: '@toolbox_fr'
+        label: 'EN ISO 20345'
+    product_tbx_protection_norm_option_en_iso_20345_toolbox_en:
+        source_field_option: '@product_tbx_protection_norm_option_en_iso_20345'
+        localized_catalog: '@toolbox_en'
+        label: 'EN ISO 20345'
+    product_tbx_protection_norm_option_en_iso_20345_toolbox_de:
+        source_field_option: '@product_tbx_protection_norm_option_en_iso_20345'
+        localized_catalog: '@toolbox_de'
+        label: 'EN ISO 20345'
+    product_tbx_protection_norm_option_en343_toolbox_fr:
+        source_field_option: '@product_tbx_protection_norm_option_en343'
+        localized_catalog: '@toolbox_fr'
+        label: 'EN343'
+    product_tbx_protection_norm_option_en343_toolbox_en:
+        source_field_option: '@product_tbx_protection_norm_option_en343'
+        localized_catalog: '@toolbox_en'
+        label: 'EN343'
+    product_tbx_protection_norm_option_en343_toolbox_de:
+        source_field_option: '@product_tbx_protection_norm_option_en343'
+        localized_catalog: '@toolbox_de'
+        label: 'EN343'
+    product_tbx_size_range_option_xs_toolbox_fr:
+        source_field_option: '@product_tbx_size_range_option_xs'
+        localized_catalog: '@toolbox_fr'
+        label: 'XS'
+    product_tbx_size_range_option_xs_toolbox_en:
+        source_field_option: '@product_tbx_size_range_option_xs'
+        localized_catalog: '@toolbox_en'
+        label: 'XS'
+    product_tbx_size_range_option_xs_toolbox_de:
+        source_field_option: '@product_tbx_size_range_option_xs'
+        localized_catalog: '@toolbox_de'
+        label: 'XS'
+    product_tbx_size_range_option_s_toolbox_fr:
+        source_field_option: '@product_tbx_size_range_option_s'
+        localized_catalog: '@toolbox_fr'
+        label: 'S'
+    product_tbx_size_range_option_s_toolbox_en:
+        source_field_option: '@product_tbx_size_range_option_s'
+        localized_catalog: '@toolbox_en'
+        label: 'S'
+    product_tbx_size_range_option_s_toolbox_de:
+        source_field_option: '@product_tbx_size_range_option_s'
+        localized_catalog: '@toolbox_de'
+        label: 'S'
+    product_tbx_size_range_option_m_toolbox_fr:
+        source_field_option: '@product_tbx_size_range_option_m'
+        localized_catalog: '@toolbox_fr'
+        label: 'M'
+    product_tbx_size_range_option_m_toolbox_en:
+        source_field_option: '@product_tbx_size_range_option_m'
+        localized_catalog: '@toolbox_en'
+        label: 'M'
+    product_tbx_size_range_option_m_toolbox_de:
+        source_field_option: '@product_tbx_size_range_option_m'
+        localized_catalog: '@toolbox_de'
+        label: 'M'
+    product_tbx_size_range_option_l_toolbox_fr:
+        source_field_option: '@product_tbx_size_range_option_l'
+        localized_catalog: '@toolbox_fr'
+        label: 'L'
+    product_tbx_size_range_option_l_toolbox_en:
+        source_field_option: '@product_tbx_size_range_option_l'
+        localized_catalog: '@toolbox_en'
+        label: 'L'
+    product_tbx_size_range_option_l_toolbox_de:
+        source_field_option: '@product_tbx_size_range_option_l'
+        localized_catalog: '@toolbox_de'
+        label: 'L'
+    product_tbx_size_range_option_xl_toolbox_fr:
+        source_field_option: '@product_tbx_size_range_option_xl'
+        localized_catalog: '@toolbox_fr'
+        label: 'XL'
+    product_tbx_size_range_option_xl_toolbox_en:
+        source_field_option: '@product_tbx_size_range_option_xl'
+        localized_catalog: '@toolbox_en'
+        label: 'XL'
+    product_tbx_size_range_option_xl_toolbox_de:
+        source_field_option: '@product_tbx_size_range_option_xl'
+        localized_catalog: '@toolbox_de'
+        label: 'XL'
+    product_tbx_size_range_option_xxl_toolbox_fr:
+        source_field_option: '@product_tbx_size_range_option_xxl'
+        localized_catalog: '@toolbox_fr'
+        label: 'XXL'
+    product_tbx_size_range_option_xxl_toolbox_en:
+        source_field_option: '@product_tbx_size_range_option_xxl'
+        localized_catalog: '@toolbox_en'
+        label: 'XXL'
+    product_tbx_size_range_option_xxl_toolbox_de:
+        source_field_option: '@product_tbx_size_range_option_xxl'
+        localized_catalog: '@toolbox_de'
+        label: 'XXL'
+    product_tbx_size_range_option_taille_unique_toolbox_fr:
+        source_field_option: '@product_tbx_size_range_option_taille_unique'
+        localized_catalog: '@toolbox_fr'
+        label: 'Taille unique'
+    product_tbx_size_range_option_taille_unique_toolbox_en:
+        source_field_option: '@product_tbx_size_range_option_taille_unique'
+        localized_catalog: '@toolbox_en'
+        label: 'One size'
+    product_tbx_size_range_option_taille_unique_toolbox_de:
+        source_field_option: '@product_tbx_size_range_option_taille_unique'
+        localized_catalog: '@toolbox_de'
+        label: 'Einheitsgröße'
+    product_tbx_comfort_level_option_basique_toolbox_fr:
+        source_field_option: '@product_tbx_comfort_level_option_basique'
+        localized_catalog: '@toolbox_fr'
+        label: 'Basique'
+    product_tbx_comfort_level_option_basique_toolbox_en:
+        source_field_option: '@product_tbx_comfort_level_option_basique'
+        localized_catalog: '@toolbox_en'
+        label: 'Basic'
+    product_tbx_comfort_level_option_basique_toolbox_de:
+        source_field_option: '@product_tbx_comfort_level_option_basique'
+        localized_catalog: '@toolbox_de'
+        label: 'Basis'
+    product_tbx_comfort_level_option_confort_toolbox_fr:
+        source_field_option: '@product_tbx_comfort_level_option_confort'
+        localized_catalog: '@toolbox_fr'
+        label: 'Confort'
+    product_tbx_comfort_level_option_confort_toolbox_en:
+        source_field_option: '@product_tbx_comfort_level_option_confort'
+        localized_catalog: '@toolbox_en'
+        label: 'Comfort'
+    product_tbx_comfort_level_option_confort_toolbox_de:
+        source_field_option: '@product_tbx_comfort_level_option_confort'
+        localized_catalog: '@toolbox_de'
+        label: 'Komfort'
+    product_tbx_comfort_level_option_premium_toolbox_fr:
+        source_field_option: '@product_tbx_comfort_level_option_premium'
+        localized_catalog: '@toolbox_fr'
+        label: 'Premium'
+    product_tbx_comfort_level_option_premium_toolbox_en:
+        source_field_option: '@product_tbx_comfort_level_option_premium'
+        localized_catalog: '@toolbox_en'
+        label: 'Premium'
+    product_tbx_comfort_level_option_premium_toolbox_de:
+        source_field_option: '@product_tbx_comfort_level_option_premium'
+        localized_catalog: '@toolbox_de'
+        label: 'Premium'
+    product_tbx_weight_class_option_leger_lt_15_kg_toolbox_fr:
+        source_field_option: '@product_tbx_weight_class_option_leger_lt_15_kg'
+        localized_catalog: '@toolbox_fr'
+        label: 'Léger (< 15 kg)'
+    product_tbx_weight_class_option_leger_lt_15_kg_toolbox_en:
+        source_field_option: '@product_tbx_weight_class_option_leger_lt_15_kg'
+        localized_catalog: '@toolbox_en'
+        label: 'Light (< 15 kg)'
+    product_tbx_weight_class_option_leger_lt_15_kg_toolbox_de:
+        source_field_option: '@product_tbx_weight_class_option_leger_lt_15_kg'
+        localized_catalog: '@toolbox_de'
+        label: 'Leicht (< 15 kg)'
+    product_tbx_weight_class_option_moyen_15_50_kg_toolbox_fr:
+        source_field_option: '@product_tbx_weight_class_option_moyen_15_50_kg'
+        localized_catalog: '@toolbox_fr'
+        label: 'Moyen (15-50 kg)'
+    product_tbx_weight_class_option_moyen_15_50_kg_toolbox_en:
+        source_field_option: '@product_tbx_weight_class_option_moyen_15_50_kg'
+        localized_catalog: '@toolbox_en'
+        label: 'Medium (15-50 kg)'
+    product_tbx_weight_class_option_moyen_15_50_kg_toolbox_de:
+        source_field_option: '@product_tbx_weight_class_option_moyen_15_50_kg'
+        localized_catalog: '@toolbox_de'
+        label: 'Mittel (15-50 kg)'
+    product_tbx_weight_class_option_lourd_50_100_kg_toolbox_fr:
+        source_field_option: '@product_tbx_weight_class_option_lourd_50_100_kg'
+        localized_catalog: '@toolbox_fr'
+        label: 'Lourd (50-100 kg)'
+    product_tbx_weight_class_option_lourd_50_100_kg_toolbox_en:
+        source_field_option: '@product_tbx_weight_class_option_lourd_50_100_kg'
+        localized_catalog: '@toolbox_en'
+        label: 'Heavy (50-100 kg)'
+    product_tbx_weight_class_option_lourd_50_100_kg_toolbox_de:
+        source_field_option: '@product_tbx_weight_class_option_lourd_50_100_kg'
+        localized_catalog: '@toolbox_de'
+        label: 'Schwer (50-100 kg)'
+    product_tbx_weight_class_option_tres_lourd_gt_100_kg_toolbox_fr:
+        source_field_option: '@product_tbx_weight_class_option_tres_lourd_gt_100_kg'
+        localized_catalog: '@toolbox_fr'
+        label: 'Très lourd (> 100 kg)'
+    product_tbx_weight_class_option_tres_lourd_gt_100_kg_toolbox_en:
+        source_field_option: '@product_tbx_weight_class_option_tres_lourd_gt_100_kg'
+        localized_catalog: '@toolbox_en'
+        label: 'Very heavy (> 100 kg)'
+    product_tbx_weight_class_option_tres_lourd_gt_100_kg_toolbox_de:
+        source_field_option: '@product_tbx_weight_class_option_tres_lourd_gt_100_kg'
+        localized_catalog: '@toolbox_de'
+        label: 'Sehr schwer (> 100 kg)'
+    product_tbx_brand_option_voltsafe_toolbox_fr:
+        source_field_option: '@product_tbx_brand_option_voltsafe'
+        localized_catalog: '@toolbox_fr'
+        label: 'VoltSafe'
+    product_tbx_brand_option_voltsafe_toolbox_en:
+        source_field_option: '@product_tbx_brand_option_voltsafe'
+        localized_catalog: '@toolbox_en'
+        label: 'VoltSafe'
+    product_tbx_brand_option_voltsafe_toolbox_de:
+        source_field_option: '@product_tbx_brand_option_voltsafe'
+        localized_catalog: '@toolbox_de'
+        label: 'VoltSafe'
+    product_tbx_brand_option_forcemax_toolbox_fr:
+        source_field_option: '@product_tbx_brand_option_forcemax'
+        localized_catalog: '@toolbox_fr'
+        label: 'ForceMax'
+    product_tbx_brand_option_forcemax_toolbox_en:
+        source_field_option: '@product_tbx_brand_option_forcemax'
+        localized_catalog: '@toolbox_en'
+        label: 'ForceMax'
+    product_tbx_brand_option_forcemax_toolbox_de:
+        source_field_option: '@product_tbx_brand_option_forcemax'
+        localized_catalog: '@toolbox_de'
+        label: 'ForceMax'
+    product_tbx_brand_option_turbotec_toolbox_fr:
+        source_field_option: '@product_tbx_brand_option_turbotec'
+        localized_catalog: '@toolbox_fr'
+        label: 'TurboTec'
+    product_tbx_brand_option_turbotec_toolbox_en:
+        source_field_option: '@product_tbx_brand_option_turbotec'
+        localized_catalog: '@toolbox_en'
+        label: 'TurboTec'
+    product_tbx_brand_option_turbotec_toolbox_de:
+        source_field_option: '@product_tbx_brand_option_turbotec'
+        localized_catalog: '@toolbox_de'
+        label: 'TurboTec'
+    product_tbx_brand_option_atelierpro_toolbox_fr:
+        source_field_option: '@product_tbx_brand_option_atelierpro'
+        localized_catalog: '@toolbox_fr'
+        label: 'AtelierPro'
+    product_tbx_brand_option_atelierpro_toolbox_en:
+        source_field_option: '@product_tbx_brand_option_atelierpro'
+        localized_catalog: '@toolbox_en'
+        label: 'AtelierPro'
+    product_tbx_brand_option_atelierpro_toolbox_de:
+        source_field_option: '@product_tbx_brand_option_atelierpro'
+        localized_catalog: '@toolbox_de'
+        label: 'AtelierPro'
+    product_tbx_brand_option_peintexpress_toolbox_fr:
+        source_field_option: '@product_tbx_brand_option_peintexpress'
+        localized_catalog: '@toolbox_fr'
+        label: 'PeintExpress'
+    product_tbx_brand_option_peintexpress_toolbox_en:
+        source_field_option: '@product_tbx_brand_option_peintexpress'
+        localized_catalog: '@toolbox_en'
+        label: 'PeintExpress'
+    product_tbx_brand_option_peintexpress_toolbox_de:
+        source_field_option: '@product_tbx_brand_option_peintexpress'
+        localized_catalog: '@toolbox_de'
+        label: 'PeintExpress'
+    product_tbx_brand_option_fluxpro_toolbox_fr:
+        source_field_option: '@product_tbx_brand_option_fluxpro'
+        localized_catalog: '@toolbox_fr'
+        label: 'FluxPro'
+    product_tbx_brand_option_fluxpro_toolbox_en:
+        source_field_option: '@product_tbx_brand_option_fluxpro'
+        localized_catalog: '@toolbox_en'
+        label: 'FluxPro'
+    product_tbx_brand_option_fluxpro_toolbox_de:
+        source_field_option: '@product_tbx_brand_option_fluxpro'
+        localized_catalog: '@toolbox_de'
+        label: 'FluxPro'
+    product_tbx_brand_option_fixmaster_toolbox_fr:
+        source_field_option: '@product_tbx_brand_option_fixmaster'
+        localized_catalog: '@toolbox_fr'
+        label: 'FixMaster'
+    product_tbx_brand_option_fixmaster_toolbox_en:
+        source_field_option: '@product_tbx_brand_option_fixmaster'
+        localized_catalog: '@toolbox_en'
+        label: 'FixMaster'
+    product_tbx_brand_option_fixmaster_toolbox_de:
+        source_field_option: '@product_tbx_brand_option_fixmaster'
+        localized_catalog: '@toolbox_de'
+        label: 'FixMaster'
+    product_tbx_brand_option_verdoyjardin_toolbox_fr:
+        source_field_option: '@product_tbx_brand_option_verdoyjardin'
+        localized_catalog: '@toolbox_fr'
+        label: 'VerdoyJardin'
+    product_tbx_brand_option_verdoyjardin_toolbox_en:
+        source_field_option: '@product_tbx_brand_option_verdoyjardin'
+        localized_catalog: '@toolbox_en'
+        label: 'VerdoyJardin'
+    product_tbx_brand_option_verdoyjardin_toolbox_de:
+        source_field_option: '@product_tbx_brand_option_verdoyjardin'
+        localized_catalog: '@toolbox_de'
+        label: 'VerdoyJardin'
+    product_tbx_brand_option_bricosafe_toolbox_fr:
+        source_field_option: '@product_tbx_brand_option_bricosafe'
+        localized_catalog: '@toolbox_fr'
+        label: 'BricoSafe'
+    product_tbx_brand_option_bricosafe_toolbox_en:
+        source_field_option: '@product_tbx_brand_option_bricosafe'
+        localized_catalog: '@toolbox_en'
+        label: 'BricoSafe'
+    product_tbx_brand_option_bricosafe_toolbox_de:
+        source_field_option: '@product_tbx_brand_option_bricosafe'
+        localized_catalog: '@toolbox_de'
+        label: 'BricoSafe'
+    product_visibility_option_1_toolbox_fr:
+        source_field_option: '@product_visibility_option_1'
+        localized_catalog: '@toolbox_fr'
+        label: 'Non visible individuellement'
+    product_visibility_option_1_toolbox_en:
+        source_field_option: '@product_visibility_option_1'
+        localized_catalog: '@toolbox_en'
+        label: 'Not Visible Individually'
+    product_visibility_option_1_toolbox_de:
+        source_field_option: '@product_visibility_option_1'
+        localized_catalog: '@toolbox_de'
+        label: 'Nicht einzeln sichtbar'
+    product_visibility_option_2_toolbox_fr:
+        source_field_option: '@product_visibility_option_2'
+        localized_catalog: '@toolbox_fr'
+        label: 'Catalogue'
+    product_visibility_option_2_toolbox_en:
+        source_field_option: '@product_visibility_option_2'
+        localized_catalog: '@toolbox_en'
+        label: 'Catalog'
+    product_visibility_option_2_toolbox_de:
+        source_field_option: '@product_visibility_option_2'
+        localized_catalog: '@toolbox_de'
+        label: 'Katalog'
+    product_visibility_option_3_toolbox_fr:
+        source_field_option: '@product_visibility_option_3'
+        localized_catalog: '@toolbox_fr'
+        label: 'Recherche'
+    product_visibility_option_3_toolbox_en:
+        source_field_option: '@product_visibility_option_3'
+        localized_catalog: '@toolbox_en'
+        label: 'Search'
+    product_visibility_option_3_toolbox_de:
+        source_field_option: '@product_visibility_option_3'
+        localized_catalog: '@toolbox_de'
+        label: 'Suche'
+    product_visibility_option_4_toolbox_fr:
+        source_field_option: '@product_visibility_option_4'
+        localized_catalog: '@toolbox_fr'
+        label: 'Catalogue, Recherche'
+    product_visibility_option_4_toolbox_en:
+        source_field_option: '@product_visibility_option_4'
+        localized_catalog: '@toolbox_en'
+        label: 'Catalog, Search'
+    product_visibility_option_4_toolbox_de:
+        source_field_option: '@product_visibility_option_4'
+        localized_catalog: '@toolbox_de'
+        label: 'Katalog, Suche'
