@@ -760,3 +760,15 @@ Gally\Metadata\Entity\SourceFieldLabel:
         source_field: <findSourceFieldByCode('product', 'stock')>
         localized_catalog: '@fashion_de'
         label: 'Verfügbarkeit'
+    product_name_fashion_fr:
+        source_field: <findSourceFieldByCode('product', 'name')>
+        localized_catalog: '@fashion_fr'
+        label: 'Nom'
+    product_name_fashion_en:
+        source_field: <findSourceFieldByCode('product', 'name')>
+        localized_catalog: '@fashion_en'
+        label: 'Name'
+    product_name_fashion_de:
+        source_field: <findSourceFieldByCode('product', 'name')>
+        localized_catalog: '@fashion_de'
+        label: 'Name'

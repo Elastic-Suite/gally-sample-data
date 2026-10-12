@@ -7,7 +7,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: llv_brand
         type: select
-        defaultLabel: 'Marque'
+        defaultLabel: 'Brand'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -19,7 +19,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: llv_material
         type: select
-        defaultLabel: 'Matière'
+        defaultLabel: 'Material'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -31,7 +31,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: llv_color
         type: select
-        defaultLabel: 'Couleur'
+        defaultLabel: 'Colour'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -43,7 +43,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: llv_origin
         type: select
-        defaultLabel: 'Pays de fabrication'
+        defaultLabel: 'Country of manufacture'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -54,7 +54,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: llv_is_eco
         type: boolean
-        defaultLabel: 'Matières durables'
+        defaultLabel: 'Sustainable materials'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -65,7 +65,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: llv_paper_weight
         type: int
-        defaultLabel: 'Grammage (g/m²)'
+        defaultLabel: 'Paper weight (gsm)'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -76,7 +76,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: llv_ruling
         type: select
-        defaultLabel: 'Réglure'
+        defaultLabel: 'Ruling'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -88,7 +88,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: llv_format
         type: select
-        defaultLabel: 'Format'
+        defaultLabel: 'Size'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -99,7 +99,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: llv_binding
         type: select
-        defaultLabel: 'Reliure'
+        defaultLabel: 'Binding'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -111,7 +111,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: llv_author
         type: select
-        defaultLabel: 'Auteur'
+        defaultLabel: 'Author'
         isSearchable: true
         weight: 1
         isSpellchecked: true
@@ -123,7 +123,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: llv_language
         type: select
-        defaultLabel: 'Langue du texte'
+        defaultLabel: 'Text language'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -134,7 +134,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: llv_page_count
         type: int
-        defaultLabel: 'Nombre de pages'
+        defaultLabel: 'Page count'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -145,7 +145,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: llv_publication_year
         type: int
-        defaultLabel: 'Année de parution'
+        defaultLabel: 'Year of publication'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -156,7 +156,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: llv_width_cm
         type: int
-        defaultLabel: 'Largeur (cm)'
+        defaultLabel: 'Width (cm)'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -167,7 +167,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: llv_height_cm
         type: int
-        defaultLabel: 'Hauteur (cm)'
+        defaultLabel: 'Height (cm)'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -178,7 +178,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: llv_depth_cm
         type: int
-        defaultLabel: 'Profondeur (cm)'
+        defaultLabel: 'Depth (cm)'
         isSearchable: false
         weight: 1
         isSpellchecked: false
@@ -189,7 +189,7 @@ Gally\Metadata\Entity\SourceField:
         metadata: <findByCode('\Gally\Metadata\Entity\Metadata', 'entity', 'product')>
         code: llv_assembly_required
         type: boolean
-        defaultLabel: 'Montage nécessaire'
+        defaultLabel: 'Assembly required'
         isSearchable: false
         weight: 1
         isSpellchecked: false
