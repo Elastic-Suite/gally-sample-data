@@ -2888,6 +2888,424 @@
           "sort_order": "position",
           "sort_direction": "asc"
         }
+      },
+      {
+        "@timestamp": "2025-12-01 09:12:00",
+        "id": "tracking_event_c8851eb9f752fcfa",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "13644ae2-f3d1-5289-985d-1a4d0ed85fbe",
+        "session_vid": "6d899f90-217d-53f2-a8a2-a7dee18c47eb",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "walkman",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 0,
+          "current_page": 1,
+          "page_count": 0,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 09:13:30",
+        "id": "tracking_event_679e39d69382ce59",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "13644ae2-f3d1-5289-985d-1a4d0ed85fbe",
+        "session_vid": "6d899f90-217d-53f2-a8a2-a7dee18c47eb",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "walkman",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 0,
+          "current_page": 1,
+          "page_count": 0,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 11:05:00",
+        "id": "tracking_event_dbcce2175cff26cd",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "8133ce26-49cc-5051-9b3c-28a153cad2b1",
+        "session_vid": "6f3641a2-73c0-5f5d-a606-b88a5ed8e74d",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "walkman",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 0,
+          "current_page": 1,
+          "page_count": 0,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 14:40:00",
+        "id": "tracking_event_0ef013af46e44ba3",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "4aaf1c80-5ebe-5a3c-a871-b75850618501",
+        "session_vid": "6d899f90-217d-53f2-a8a2-a7dee18c47eb",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "walkman",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 0,
+          "current_page": 1,
+          "page_count": 0,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 11:06:00",
+        "id": "tracking_event_790385ef05089f72",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "8133ce26-49cc-5051-9b3c-28a153cad2b1",
+        "session_vid": "6f3641a2-73c0-5f5d-a606-b88a5ed8e74d",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "chromecast",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 0,
+          "current_page": 1,
+          "page_count": 0,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 10:20:00",
+        "id": "tracking_event_fcc65a8203a05aa0",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "35f43bed-3a2e-5880-9a20-aaaf5a317008",
+        "session_vid": "444e3c90-4f96-5a44-a664-e5eea67f2ee3",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "chromecast",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 0,
+          "current_page": 1,
+          "page_count": 0,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 17:02:00",
+        "id": "tracking_event_ebfeb48d5f712229",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "06be2f86-bd93-56d7-8e18-276424cb35bc",
+        "session_vid": "e3c0b85f-c735-5355-a934-ecb2f1bb0d45",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "smartwatch",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 0,
+          "current_page": 1,
+          "page_count": 0,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "@now:-3d",
+        "id": "tracking_event_84337bfd8a0d758b",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "a70f2556-131b-573e-97f6-ec8d0f708955",
+        "session_vid": "397160b5-ef7c-566e-93e4-d3b6f75297d5",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "walkman",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 0,
+          "current_page": 1,
+          "page_count": 0,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "@now:-2d",
+        "id": "tracking_event_19725ed396d6bc5b",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "255a381d-9748-5e00-9ba0-a7de7f603ea8",
+        "session_vid": "4e2ab7ca-b6f1-5ed6-a283-f2f00c46bb42",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "walkman",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 0,
+          "current_page": 1,
+          "page_count": 0,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "@now:-2d",
+        "id": "tracking_event_f45ab4b23f8a9d52",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "255a381d-9748-5e00-9ba0-a7de7f603ea8",
+        "session_vid": "4e2ab7ca-b6f1-5ed6-a283-f2f00c46bb42",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "hoverboard",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 0,
+          "current_page": 1,
+          "page_count": 0,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "@now:-1d",
+        "id": "tracking_event_52bb4b890836d12f",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "e1652044-7e10-5461-9cc1-4ea0d3c13476",
+        "session_vid": "7e77519e-be07-50b1-976d-9a99345e72cd",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "hoverboard",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 0,
+          "current_page": 1,
+          "page_count": 0,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "@now:-1d",
+        "id": "tracking_event_30eb0cbeb097dd4d",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "e1652044-7e10-5461-9cc1-4ea0d3c13476",
+        "session_vid": "7e77519e-be07-50b1-976d-9a99345e72cd",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "smartwatch",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 0,
+          "current_page": 1,
+          "page_count": 0,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 13:20:00",
+        "id": "tracking_event_73167f2db283ef35",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "261c710e-9e69-58ed-97c7-d05f61b586f6",
+        "session_vid": "7db666be-b934-5a90-963d-2d57d761df4d",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "dres",
+          "is_spellchecked": true
+        },
+        "product_list": {
+          "item_count": 412,
+          "current_page": 1,
+          "page_count": 35,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 09:45:00",
+        "id": "tracking_event_e98ec59f1c7c47f3",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "06e5d138-6b63-567e-a721-4d24d3c71d0a",
+        "session_vid": "4bd2d4d6-1edc-54d7-916b-3b2cbcd7a08e",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "dres",
+          "is_spellchecked": true
+        },
+        "product_list": {
+          "item_count": 412,
+          "current_page": 1,
+          "page_count": 35,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 16:30:00",
+        "id": "tracking_event_ed858b73ee07231f",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "30982880-11c0-5bcb-875c-aa3a960fa836",
+        "session_vid": "b054db6a-634d-5fcc-956c-be16b8ea39c7",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "dres",
+          "is_spellchecked": true
+        },
+        "product_list": {
+          "item_count": 412,
+          "current_page": 1,
+          "page_count": 35,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 18:05:00",
+        "id": "tracking_event_5a66f52caf1b606e",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "ce7edf58-84b3-5449-ae3f-870af073b9fe",
+        "session_vid": "4d4f62c9-1c46-5d7e-a15f-add5184bdaa6",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "jaket",
+          "is_spellchecked": true
+        },
+        "product_list": {
+          "item_count": 78,
+          "current_page": 1,
+          "page_count": 7,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 12:10:00",
+        "id": "tracking_event_3a6f278f7794ed57",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "2b786129-f514-5b1b-81ee-8c7e2e49123c",
+        "session_vid": "57ed8b71-0ba3-5949-b212-dc6b24198269",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "jaket",
+          "is_spellchecked": true
+        },
+        "product_list": {
+          "item_count": 78,
+          "current_page": 1,
+          "page_count": 7,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "@now:-2d",
+        "id": "tracking_event_85780517df5ebde8",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "8b65260b-6e8d-5640-bb20-7247748b736b",
+        "session_vid": "3ceafec8-d3a5-54c6-be0c-e791a9083859",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "dres",
+          "is_spellchecked": true
+        },
+        "product_list": {
+          "item_count": 412,
+          "current_page": 1,
+          "page_count": 35,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "@now:-1d",
+        "id": "tracking_event_11703b02eae57010",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_en",
+        "session_uid": "9665db84-b575-5c81-a96e-b7455eaadfd1",
+        "session_vid": "346356e7-0a3f-5aea-8e28-b4967dfbad92",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "shooes",
+          "is_spellchecked": true
+        },
+        "product_list": {
+          "item_count": 95,
+          "current_page": 1,
+          "page_count": 8,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
       }
     ]
   },
@@ -3734,6 +4152,94 @@
         "order": {
           "price": 19.95,
           "row_total": 19.95
+        }
+      },
+      {
+        "@timestamp": "2025-12-01 10:30:00",
+        "id": "tracking_event_aedb1086792ebf86",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_fr",
+        "session_uid": "fcd2c767-f04c-5d61-a8ee-3a2fa1c3be65",
+        "session_vid": "94578f8c-f9c6-51c3-9ad2-b5c9d951f6b3",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "baladeur",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 0,
+          "current_page": 1,
+          "page_count": 0,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 15:10:00",
+        "id": "tracking_event_786949bbe802770d",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_fr",
+        "session_uid": "59aa5f9c-a293-5e5d-ba9f-b78a3b0c1dc3",
+        "session_vid": "cb2fd620-472b-5504-9cf0-a09bffd35fb5",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "baladeur",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 0,
+          "current_page": 1,
+          "page_count": 0,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 15:12:00",
+        "id": "tracking_event_8145af4f832d7293",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_fr",
+        "session_uid": "59aa5f9c-a293-5e5d-ba9f-b78a3b0c1dc3",
+        "session_vid": "cb2fd620-472b-5504-9cf0-a09bffd35fb5",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "tablette",
+          "is_spellchecked": false
+        },
+        "product_list": {
+          "item_count": 0,
+          "current_page": 1,
+          "page_count": 0,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
+        }
+      },
+      {
+        "@timestamp": "2025-12-02 11:00:00",
+        "id": "tracking_event_9a1c4d409b742902",
+        "event_type": "search",
+        "metadata_code": "product",
+        "localized_catalog_code": "com_fr",
+        "session_uid": "57df00f9-6740-577e-9afa-fd5c1671504c",
+        "session_vid": "3b9b0c9f-2103-5004-b1a5-b83cf7be24f8",
+        "group_id": "0",
+        "search_query": {
+          "query_text": "chemis",
+          "is_spellchecked": true
+        },
+        "product_list": {
+          "item_count": 28,
+          "current_page": 1,
+          "page_count": 3,
+          "sort_order": "position",
+          "sort_direction": "asc",
+          "filters": []
         }
       }
     ]
