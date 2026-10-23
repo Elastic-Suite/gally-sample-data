@@ -12,6 +12,9 @@ Gally\Recommender\Entity\Recommender\Type:
     recommender_type_upsell:
         name: 'Upsell'
         code: 'upsell'
+    recommender_type_related:
+        name: 'Related product'
+        code: 'related_product'
 
 Gally\Recommender\Entity\Recommender:
     papershop_reco_crosssell_llv_liv_cla_001:

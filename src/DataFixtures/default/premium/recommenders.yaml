@@ -1,0 +1,14 @@
+# The recommender types the storefront asks for. Venia ships no recommender, but the demo guide
+# creates some, and Venia must work when loaded alone. Same fixture ids as the other catalogs, so
+# a full load still creates each type once.
+
+Gally\Recommender\Entity\Recommender\Type:
+    recommender_type_cross_sell:
+        name: 'Cross-sell'
+        code: 'cross-sell'
+    recommender_type_upsell:
+        name: 'Upsell'
+        code: 'upsell'
+    recommender_type_related:
+        name: 'Related product'
+        code: 'related_product'
