@@ -11,7 +11,7 @@
         "is_active": true,
         "is_displayed_in_autocomplete": true,
         "name": [
-          "Tous les produits"
+          "Toolbox Bricolage"
         ]
       },
       {
@@ -1372,7 +1372,7 @@
         "is_active": true,
         "is_displayed_in_autocomplete": true,
         "name": [
-          "All products"
+          "Toolbox DIY"
         ]
       },
       {
@@ -2733,7 +2733,7 @@
         "is_active": true,
         "is_displayed_in_autocomplete": true,
         "name": [
-          "Alle Produkte"
+          "Toolbox Heimwerken"
         ]
       },
       {
