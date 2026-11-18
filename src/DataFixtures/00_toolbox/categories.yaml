@@ -437,17 +437,17 @@ Gally\Category\Entity\Category\Configuration:
         category: '@cat_tbx_1'
         catalog: '@toolbox'
         localizedCatalog: '@toolbox_fr'
-        name: 'Tous les produits'
+        name: 'Toolbox Bricolage'
     config_cat_tbx_1_toolbox_en:
         category: '@cat_tbx_1'
         catalog: '@toolbox'
         localizedCatalog: '@toolbox_en'
-        name: 'All products'
+        name: 'Toolbox DIY'
     config_cat_tbx_1_toolbox_de:
         category: '@cat_tbx_1'
         catalog: '@toolbox'
         localizedCatalog: '@toolbox_de'
-        name: 'Alle Produkte'
+        name: 'Toolbox Heimwerken'
     config_cat_tbx_2_toolbox_fr:
         category: '@cat_tbx_2'
         catalog: '@toolbox'

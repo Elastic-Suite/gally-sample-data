@@ -323,17 +323,17 @@ Gally\Category\Entity\Category\Configuration:
         category: '@cat_fio_1'
         catalog: '@fashion'
         localizedCatalog: '@fashion_fr'
-        name: 'Toute la mode'
+        name: 'Fiora Mode'
     config_cat_fio_1_fashion_en:
         category: '@cat_fio_1'
         catalog: '@fashion'
         localizedCatalog: '@fashion_en'
-        name: 'All fashion'
+        name: 'Fiora Fashion'
     config_cat_fio_1_fashion_de:
         category: '@cat_fio_1'
         catalog: '@fashion'
         localizedCatalog: '@fashion_de'
-        name: 'Alle Mode'
+        name: 'Fiora Mode'
     config_cat_fio_2_fashion_fr:
         category: '@cat_fio_2'
         catalog: '@fashion'
