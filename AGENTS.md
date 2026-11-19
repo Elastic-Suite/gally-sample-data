@@ -19,8 +19,8 @@ as a path repository (`make switch-dev-env`). Sibling packages: `gally-standard`
 
 **The demo narrative dictates what the data must contain.** Read `storytelling.md` and `AGENTS.md`
 in `../../../front/example-app/` before changing data. Known gaps are tracked in the
-`gally-sample-data` skill's `PLAN-generation-tooling.md`, not here: a snapshot of what is missing
-goes stale in a file that loads on every task.
+`gally-sample-data` skill's `references/validation.md` ("Known data problems"), not here: a
+snapshot of what is missing goes stale in a file that loads on every task.
 
 ## Where to read what
 
@@ -34,7 +34,7 @@ in the files below — open the one you need, not all of them.
 | The entity/source-field data model | the skill's `references/data-model.md` |
 | Elasticsearch document shape and field conventions | the skill's `references/documents.md` |
 | The checks a data change must pass, with the scripts | the skill's `references/validation.md` |
-| Generating a catalog, or the planned tooling and known data gaps | the skill's `references/generation.md` and `PLAN-generation-tooling.md` |
+| Generating a catalog, or the planned tooling and known data gaps | the skill's `references/generation.md`; known gaps in its `references/validation.md` |
 
 Paths above starting `../../../` are relative to this file. Everything else is relative to the
 repo root.
@@ -149,7 +149,6 @@ src/
         ├── cms_source_field_label.yaml, cms_source_field_option.yaml (+ _label)
         ├── premium/                 # loaded only when gally-premium is installed
         │   ├── boosts.yaml          # boost "Tank dress" on cat_14, com_fr+com_en
-        │   ├── recommenders.yaml    # recommender types
         │   └── thesaurus.yaml       # robe↔dress, blazer→jackets/tanks, trousers→pants/shorts
         └── elasticsearch/
             ├── product_documents.json        # large: script edits, see §5 rule 3
