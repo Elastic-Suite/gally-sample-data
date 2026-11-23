@@ -171,7 +171,8 @@ abstract class AbstractEntityGenerator extends AbstractGenerator
         foreach ($this->getSourceFields() as $sourceField) {
             $code = $sourceField->getCode();
 
-            if (\in_array($code, ['id', 'name'], true)) {
+            // Object fields (e.g. the premium system field `_stats`) are computed at indexing time and reject scalar values
+            if (\in_array($code, ['id', 'name'], true) || Type::TYPE_OBJECT === $sourceField->getType()) {
                 continue;
             }
 
