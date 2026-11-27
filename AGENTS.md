@@ -109,56 +109,7 @@ say nothing.
 
 ---
 
-## 2. File map
-
-Counts and sizes are left out on purpose: they change with the data. Measure them when you need
-them.
-
-```
-src/
-├── GallySampleDataBundle.php            # empty bundle class
-├── CatalogSelection.php                 # which set folders load (GALLY_SAMPLE_DATA_CATALOGS)
-├── DependencyInjection/…Extension.php   # registers fixture paths + services.yaml
-├── Locator/PremiumFilesLocator.php      # skips premium/ when premium bundles absent
-├── Resources/config/services.yaml       # DI for the ES fixture services and the generator CLI
-├── Service/Elasticsearch*Fixtures.php   # the 4 ES loaders, thin, nothing to tune
-├── Command/, Generator/, Provider/,     # test-data generator CLI (GenerateTestDataCommand),
-│   Model/, Service/ (the rest)          #   separate from the demo fixtures
-└── DataFixtures/                    # one folder per data set, selected by CatalogSelection
-    ├── common/                      # ALWAYS loaded — what no single catalog owns
-    │   ├── metadata.yaml            # ONLY declares cms_page metadata (see §3)
-    │   ├── default_user.yaml        # admin@example.com & contributor@example.com / "apassword"
-    │   ├── product_source_field.yaml + _option   # the product fields every catalog uses
-    │   ├── category_source_field.yaml + _option  # shared category fields
-    │   ├── cms_source_field.yaml + _option       # cms_page fields: legacy + blog
-    │   └── premium/vector_configurations.yaml    # vectorises product `name`
-    ├── 00_toolbox/                  # thematic set — Toolbox Bricolage, fr/en/de
-    ├── 01_fashion/                  # thematic set — Fiora Fashion, fr/en/de
-    ├── 02_papershop/                # thematic set — Le livre & le lièvre, fr/en/de
-    │                                #   generated, see gally-sample-data/references/authoring.md §9
-    └── default/                     # the original set — the one CI and the e2e suite load
-        ├── catalogs.yaml            # com / fr / uk
-        ├── localized_catalogs.yaml
-        ├── categories.yaml          # categories + configurations + merchandising
-        ├── product_source_field.yaml + _label + _option + _option_label
-        ├── category_source_field_label.yaml (+ _option_label)
-        ├── cms_source_field_label.yaml, cms_source_field_option.yaml (+ _label)
-        ├── premium/                 # loaded only when gally-premium is installed
-        │   ├── boosts.yaml          # boost "Tank dress" on cat_14, com_fr+com_en
-        │   └── thesaurus.yaml       # robe↔dress, blazer→jackets/tanks, trousers→pants/shorts
-        └── elasticsearch/
-            ├── product_documents.json        # large: script edits, see §5 rule 3
-            ├── categories_documents.json
-            ├── cms_page_documents.json
-            └── tracking_event_documents.json
-
-A thematic set has the same layout as default/, minus what common/ owns. It adds its own
-category source fields and its own premium/ (boosts, recommenders, thesaurus).
-```
-
----
-
-## 3. Conventions that fail silently
+## 2. Conventions that fail silently
 
 Full conventions are in `gally-sample-data/references/authoring.md` (Alice YAML) and
 `gally-sample-data/references/documents.md` (Elasticsearch documents). These four are here
@@ -195,7 +146,7 @@ Valid source field `type` values (`Gally\Metadata\Entity\SourceField\Type`): `te
 
 ---
 
-## 4. The dataset
+## 3. The dataset
 
 Counts of catalogs, categories, products, CMS pages and tracking events are not kept in a doc:
 they change with the data. Measure them from the fixture files when you need them, and do not
@@ -203,12 +154,12 @@ copy them anywhere. What each shop is for is in `guides/{en,fr}/`.
 
 ---
 
-## 5. Rules when editing data
+## 4. Rules when editing data
 
 1. **Keep referential integrity across the four ES files and the YAML.** Every
    `tracking_event.entity_code` must resolve to a `sku`/`id` in the *same localized catalog's*
    product/category/cms index. Every `product.category[].id` must exist in that catalog's
-   category index (except the root). Run the checker in §7 after every change.
+   category index (except the root). Run the skill's checks (§5) after every change.
 2. **A localized catalog is a full data silo.** Adding a product to `com_en` without adding it
    to `com_fr` breaks the locale switch. Adding a localized catalog means adding its ES block
    to *all* relevant document files **and** its labels.
@@ -219,7 +170,7 @@ copy them anywhere. What each shop is for is in `guides/{en,fr}/`.
    `_option_label` for `select` types) **and** the value in `product_documents.json` for every
    localized catalog. A `select` value in ES must be `{"value": "<option code>", "label": "…"}`
    matching a `SourceFieldOption.code`.
-5. **Don't declare system source fields** (see §3).
+5. **Don't declare system source fields** (see §2).
 6. **Prefer `@now:-Nd`** for any new tracking timestamp.
 7. **Premium data goes in the set's own `premium/` subfolder** (`src/DataFixtures/<set>/premium/`)
    — never reference premium entity classes
@@ -233,7 +184,7 @@ copy them anywhere. What each shop is for is in `guides/{en,fr}/`.
 
 ---
 
-## 6. Definition of done
+## 5. Definition of done
 
 A data change is done when the `gally-sample-data` skill's checks report no regression (the skill
 says which checks and how to run them), `make fixtures_load` completes, and the demo itself shows
@@ -241,7 +192,7 @@ the change. A load with no exception is not evidence the data is right.
 
 ---
 
-## 7. Conventions
+## 6. Conventions
 
 - Commits: `feat(#<tracker-id>): <subject>` or `fix(<scope>): …`; `[Scope] #id - subject` also
   appears in history. Branches: `feat-<tracker-id>-<name>`, release branches `2.3.x`.
