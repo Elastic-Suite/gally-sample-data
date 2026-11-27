@@ -6,11 +6,23 @@ include:
 # clothes shop.
 Gally\Thesaurus\Entity\Thesaurus:
     tbx_thesaurus1:
-        name: 'Toolbox #1 - Synonym'
+        name: 'Toolbox #1 - Synonym (fr)'
         isActive: true
         type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_SYNONYM
         scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALIZED_CATALOG
-        localizedCatalogs: ['@toolbox_fr', '@toolbox_en', '@toolbox_de']
+        localizedCatalogs: ['@toolbox_fr']
+    tbx_thesaurus3:
+        name: 'Toolbox #3 - Synonym (en)'
+        isActive: true
+        type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_SYNONYM
+        scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALIZED_CATALOG
+        localizedCatalogs: ['@toolbox_en']
+    tbx_thesaurus4:
+        name: 'Toolbox #4 - Synonym (de)'
+        isActive: true
+        type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_SYNONYM
+        scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALIZED_CATALOG
+        localizedCatalogs: ['@toolbox_de']
     tbx_thesaurus2:
         name: 'Toolbox #2 - Expansion'
         isActive: true
@@ -21,19 +33,34 @@ Gally\Thesaurus\Entity\Thesaurus:
 Gally\Thesaurus\Entity\Thesaurus\Synonym:
     tbx_synonym1:
         thesaurus: '@tbx_thesaurus1'
+    tbx_synonym2:
+        thesaurus: '@tbx_thesaurus3'
+    tbx_synonym3:
+        thesaurus: '@tbx_thesaurus4'
 
-# The three words for the same tool. Typing "perceuse" in the English store still finds the
-# cordless drills, which is the point a merchant with three locales wants to see.
+# One thesaurus per shopfront, each joining two words of its own language: the word a visitor
+# types and the word the products use. The angle grinder is "disqueuse" in everyday French and
+# "Flex" in German; "spanner" is the British word for a wrench. A thesaurus never translates:
+# each shopfront already has its own product texts.
 Gally\Thesaurus\Entity\Thesaurus\Synonym\Term:
     tbx_synonym_term1:
         synonym: '@tbx_synonym1'
-        term: 'perceuse'
+        term: 'disqueuse'
     tbx_synonym_term2:
         synonym: '@tbx_synonym1'
-        term: 'drill'
+        term: 'meuleuse'
     tbx_synonym_term3:
-        synonym: '@tbx_synonym1'
-        term: 'bohrschrauber'
+        synonym: '@tbx_synonym2'
+        term: 'spanner'
+    tbx_synonym_term4:
+        synonym: '@tbx_synonym2'
+        term: 'wrench'
+    tbx_synonym_term5:
+        synonym: '@tbx_synonym3'
+        term: 'flex'
+    tbx_synonym_term6:
+        synonym: '@tbx_synonym3'
+        term: 'winkelschleifer'
 
 Gally\Thesaurus\Entity\Thesaurus\Expansion:
     tbx_expansion1:

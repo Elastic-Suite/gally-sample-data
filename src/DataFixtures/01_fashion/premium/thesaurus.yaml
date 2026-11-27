@@ -5,11 +5,23 @@ include:
 # sample catalog too.
 Gally\Thesaurus\Entity\Thesaurus:
     fio_thesaurus1:
-        name: 'Fashion #1 - Synonym'
+        name: 'Fashion #1 - Synonym (fr)'
         isActive: true
         type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_SYNONYM
         scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALIZED_CATALOG
-        localizedCatalogs: ['@fashion_fr', '@fashion_en', '@fashion_de']
+        localizedCatalogs: ['@fashion_fr']
+    fio_thesaurus3:
+        name: 'Fashion #3 - Synonym (en)'
+        isActive: true
+        type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_SYNONYM
+        scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALIZED_CATALOG
+        localizedCatalogs: ['@fashion_en']
+    fio_thesaurus4:
+        name: 'Fashion #4 - Synonym (de)'
+        isActive: true
+        type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_SYNONYM
+        scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALIZED_CATALOG
+        localizedCatalogs: ['@fashion_de']
     fio_thesaurus2:
         name: 'Fashion #2 - Expansion'
         isActive: true
@@ -20,18 +32,34 @@ Gally\Thesaurus\Entity\Thesaurus:
 Gally\Thesaurus\Entity\Thesaurus\Synonym:
     fio_synonym1:
         thesaurus: '@fio_thesaurus1'
+    fio_synonym2:
+        thesaurus: '@fio_thesaurus3'
+    fio_synonym3:
+        thesaurus: '@fio_thesaurus4'
 
-# The same garment in the three languages of the shop: 33 robes, 30 dresses, 8 Kleider.
+# One thesaurus per shopfront, each joining two words of its own language: the word a visitor
+# types and the word the products use. "Chandail" is a regional word for a pull, "sweater" the
+# American word for a jumper, "Portemonnaie" the everyday word for a Geldbörse. A thesaurus
+# never translates: each shopfront already has its own product texts.
 Gally\Thesaurus\Entity\Thesaurus\Synonym\Term:
     fio_synonym_term1:
         synonym: '@fio_synonym1'
-        term: 'robe'
+        term: 'chandail'
     fio_synonym_term2:
         synonym: '@fio_synonym1'
-        term: 'dress'
+        term: 'pull'
     fio_synonym_term3:
-        synonym: '@fio_synonym1'
-        term: 'kleid'
+        synonym: '@fio_synonym2'
+        term: 'sweater'
+    fio_synonym_term4:
+        synonym: '@fio_synonym2'
+        term: 'jumper'
+    fio_synonym_term5:
+        synonym: '@fio_synonym3'
+        term: 'portemonnaie'
+    fio_synonym_term6:
+        synonym: '@fio_synonym3'
+        term: 'geldbörse'
 
 Gally\Thesaurus\Entity\Thesaurus\Expansion:
     fio_expansion1:
