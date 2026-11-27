@@ -6,11 +6,23 @@ include:
 
 Gally\Thesaurus\Entity\Thesaurus:
     llv_thesaurus_syn1:
-        name: 'Papershop synonym #1'
+        name: 'Papershop synonym #1 (fr)'
         isActive: true
         type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_SYNONYM
         scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALIZED_CATALOG
-        localizedCatalogs: ['@papershop_fr', '@papershop_en', '@papershop_de']
+        localizedCatalogs: ['@papershop_fr']
+    llv_thesaurus_syn2:
+        name: 'Papershop synonym #2 (en)'
+        isActive: true
+        type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_SYNONYM
+        scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALIZED_CATALOG
+        localizedCatalogs: ['@papershop_en']
+    llv_thesaurus_syn3:
+        name: 'Papershop synonym #3 (de)'
+        isActive: true
+        type: !php/const Gally\Thesaurus\Entity\Thesaurus::TYPE_SYNONYM
+        scopeType: !php/const Gally\Thesaurus\Entity\Thesaurus::SCOPE_TYPE_LOCALIZED_CATALOG
+        localizedCatalogs: ['@papershop_de']
     llv_thesaurus_exp1:
         name: 'Papershop expansion #1'
         isActive: true
@@ -21,14 +33,35 @@ Gally\Thesaurus\Entity\Thesaurus:
 Gally\Thesaurus\Entity\Thesaurus\Synonym:
     llv_synonym1:
         thesaurus: '@llv_thesaurus_syn1'
+    llv_synonym2:
+        thesaurus: '@llv_thesaurus_syn2'
+    llv_synonym3:
+        thesaurus: '@llv_thesaurus_syn3'
 
+# One thesaurus per shopfront, each joining two words of its own language: the word a visitor
+# types and the word the products use. "Calepin" is an everyday word for a carnet, "planner"
+# the American word for a diary, "Füller" the short form of Füllhalter. A thesaurus never
+# translates: each shopfront already has its own product texts.
+# "calepin" also gets the carnet expansion below, so it brings notebooks, cahiers and blocs.
 Gally\Thesaurus\Entity\Thesaurus\Synonym\Term:
     llv_synonym_term1:
         synonym: '@llv_synonym1'
-        term: 'stylo'
+        term: 'calepin'
     llv_synonym_term2:
         synonym: '@llv_synonym1'
-        term: 'pen'
+        term: 'carnet'
+    llv_synonym_term3:
+        synonym: '@llv_synonym2'
+        term: 'planner'
+    llv_synonym_term4:
+        synonym: '@llv_synonym2'
+        term: 'diary'
+    llv_synonym_term5:
+        synonym: '@llv_synonym3'
+        term: 'füller'
+    llv_synonym_term6:
+        synonym: '@llv_synonym3'
+        term: 'füllhalter'
 
 Gally\Thesaurus\Entity\Thesaurus\Expansion:
     llv_expansion1:
