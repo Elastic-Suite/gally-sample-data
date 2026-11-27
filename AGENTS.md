@@ -17,8 +17,8 @@ as a path repository (`make switch-dev-env`). Sibling packages: `gally-standard`
 `gally-premium` (boost/thesaurus/vector search). Front-ends live in `../../../front`
 (`gally-admin`, `pwa`, `example-app`).
 
-**The demo narrative dictates what the data must contain.** Read `storytelling.md` and `AGENTS.md`
-in `../../../front/example-app/` before changing data. Known gaps are tracked in the
+**The demo narrative dictates what the data must contain.** Read the guide of the shop you change
+in `guides/` (`demo-*.md` and `catalog-*.md`) before changing data. Known gaps are tracked in the
 `gally-sample-data` skill, not here: a snapshot of what is missing goes stale in a file that
 loads on every task.
 
