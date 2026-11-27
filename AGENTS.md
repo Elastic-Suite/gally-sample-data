@@ -19,8 +19,8 @@ as a path repository (`make switch-dev-env`). Sibling packages: `gally-standard`
 
 **The demo narrative dictates what the data must contain.** Read `storytelling.md` and `AGENTS.md`
 in `../../../front/example-app/` before changing data. Known gaps are tracked in the
-`gally-sample-data` skill's `references/validation.md` ("Known data problems"), not here: a
-snapshot of what is missing goes stale in a file that loads on every task.
+`gally-sample-data` skill, not here: a snapshot of what is missing goes stale in a file that
+loads on every task.
 
 ## Where to read what
 
@@ -30,14 +30,10 @@ in the files below — open the one you need, not all of them.
 | You need | Read |
 |---|---|
 | Running a demo: what to open, what to type, what to say | `guides/en/` and `guides/fr/` — one script per shop, for the demoer. `guides/check-sync.py` checks the two languages match |
-| Fixture formats, Alice syntax, how to author a new attribute | the `gally-sample-data` skill, `references/authoring.md` |
-| The entity/source-field data model | the skill's `references/data-model.md` |
-| Elasticsearch document shape and field conventions | the skill's `references/documents.md` |
-| The checks a data change must pass, with the scripts | the skill's `references/validation.md` |
-| Generating a catalog, or the planned tooling and known data gaps | the skill's `references/generation.md`; known gaps in its `references/validation.md` |
+| Fixture formats, the data model, Elasticsearch documents, the checks a data change must pass, catalog generation, known data gaps | the `gally-sample-data` skill: its `SKILL.md` routes to each topic |
 
-Paths above starting `../../../` are relative to this file. Everything else is relative to the
-repo root.
+Paths starting `../../../` are relative to this file. Paths starting `gally-sample-data/` are in
+the `gally-sample-data` skill folder. Everything else is relative to the repo root.
 
 ---
 
@@ -139,7 +135,7 @@ src/
     ├── 00_toolbox/                  # thematic set — Toolbox Bricolage, fr/en/de
     ├── 01_fashion/                  # thematic set — Fiora Fashion, fr/en/de
     ├── 02_papershop/                # thematic set — Le livre & le lièvre, fr/en/de
-    │                                #   generated, see the skill's authoring.md §9
+    │                                #   generated, see gally-sample-data/references/authoring.md §9
     └── default/                     # the original set — the one CI and the e2e suite load
         ├── catalogs.yaml            # com / fr / uk
         ├── localized_catalogs.yaml
@@ -164,9 +160,9 @@ category source fields and its own premium/ (boosts, recommenders, thesaurus).
 
 ## 3. Conventions that fail silently
 
-Full conventions are in the skill's `references/authoring.md` (Alice YAML) and
-`references/documents.md` (Elasticsearch documents). These four are here because nothing reports
-them — the load succeeds and the data is simply wrong.
+Full conventions are in `gally-sample-data/references/authoring.md` (Alice YAML) and
+`gally-sample-data/references/documents.md` (Elasticsearch documents). These four are here
+because nothing reports them — the load succeeds and the data is simply wrong.
 
 - **`metadata.yaml` declares only `cms_page`.** `product` and `category` metadata and their system
   source fields (`id`, `sku`, `category`, `name`, `price`, `image`, `stock`, `description`,
@@ -174,10 +170,10 @@ them — the load succeeds and the data is simply wrong.
   `gally-standard/src/Migrations/Version20250729114500_Add_Install_Data.php`. Do not redeclare them
   here — declare only non-system, catalog-specific attributes.
 - **Every `Category` needs a `Category\Configuration` row**, one per localized catalog, carrying
-  the name (`authoring.md` §3). The category tree is built from the **database**, not from
-  `categories_documents.json` — that file only feeds search. Omit the Configuration block and the
-  load succeeds, search works perfectly, `check.py` passes, and `/api/categoryTree?catalogId=N`
-  returns `[]` with every category unnamed. Nothing anywhere reports it.
+  the name (`gally-sample-data/references/authoring.md` §3). The category tree is built from the
+  **database**, not from `categories_documents.json` — that file only feeds search. Omit the
+  Configuration block and the load succeeds, search works perfectly, the skill's checks pass, and
+  `/api/categoryTree?catalogId=N` returns `[]` with every category unnamed. Nothing anywhere reports it.
 - **A CMS option value belongs to one catalog only.** `SourceFieldOption` is unique on
   (source_field, code), and `cms_page_topic`/`tags`/`author` live in `common/`, so every thematic
   catalog prefixes its own option codes (`tbx_`, `fio_`, `llv_`) and carries the prefix into the
@@ -239,13 +235,9 @@ copy them anywhere. What each shop is for is in `guides/{en,fr}/`.
 
 ## 6. Definition of done
 
-**Run the `gally-sample-data` skill's `scripts/check.py`** — ten checks, no stack needed, and it
-gates on regression against a baseline you record before editing. The reasoning behind each check,
-and the four that are still manual, are in that skill's `references/validation.md`. Do not
-re-derive them here.
-
-A data change is done when `check.py` reports no regression, `make fixtures_load` completes, and
-the demo itself shows the change. A load with no exception is not evidence the data is right.
+A data change is done when the `gally-sample-data` skill's checks report no regression (the skill
+says which checks and how to run them), `make fixtures_load` completes, and the demo itself shows
+the change. A load with no exception is not evidence the data is right.
 
 ---
 
